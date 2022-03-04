@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDBubble /> render component 1`] = `
+<div
+  className="hd-bubble"
+  data-position="top"
+>
+  <span
+    className="hd-bubble__content"
+  >
+    Text
+  </span>
+</div>
+`;

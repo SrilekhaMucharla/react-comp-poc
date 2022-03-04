@@ -1,0 +1,539 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDYourAccessAccoContent /> should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDYourAccessAccoContent>
+    <Row
+      className="your-excess-acco__content"
+      noGutters={false}
+    >
+      <div
+        className="your-excess-acco__content row"
+      >
+        <Col>
+          <div
+            className="col"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="margin-bottom-md"
+                      text="Your excess explained"
+                    >
+                      <h3
+                        className="margin-bottom-md"
+                      >
+                        Your excess explained
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="In simple terms, this is the amount you'll pay if you make a claim. It's made up of two parts - your voluntary amount and your compulsory amount."
+                    >
+                      <p
+                        className=""
+                      >
+                        In simple terms, this is the amount you'll pay if you make a claim. It's made up of two parts - your voluntary amount and your compulsory amount.
+                      </p>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="If you're a young driver (under 25) or you're new to driving, you'll also have to pay a young and inexperienced driver excess. But don't worry, this will automatically be included in your compulsory excess amount."
+                    >
+                      <p
+                        className=""
+                      >
+                        If you're a young driver (under 25) or you're new to driving, you'll also have to pay a young and inexperienced driver excess. But don't worry, this will automatically be included in your compulsory excess amount.
+                      </p>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="Good news though - if your claim is settled as not being your fault you'll usually get your excess payment refunded as part of your settlement amount."
+                    >
+                      <p
+                        className=""
+                      >
+                        Good news though - if your claim is settled as not being your fault you'll usually get your excess payment refunded as part of your settlement amount.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="your-excess-acco__header"
+                      text="Voluntary excess"
+                    >
+                      <h3
+                        className="your-excess-acco__header"
+                      >
+                        Voluntary excess
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="You get to choose the amount. Setting a higher voluntary excess usually reduces the price of your policy but you must make sure it's an amount you'd be comfortable paying should you make a claim. And remember, you'll be paying your total excess, so it will be your voluntary amount and your complusory amount added together."
+                    >
+                      <p
+                        className=""
+                      >
+                        You get to choose the amount. Setting a higher voluntary excess usually reduces the price of your policy but you must make sure it's an amount you'd be comfortable paying should you make a claim. And remember, you'll be paying your total excess, so it will be your voluntary amount and your complusory amount added together.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="your-excess-acco__header"
+                      text="Compulsory excess"
+                    >
+                      <h3
+                        className="your-excess-acco__header"
+                      >
+                        Compulsory excess
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="This amount is set by your insurer and can't be changed."
+                    >
+                      <p
+                        className=""
+                      >
+                        This amount is set by your insurer and can't be changed.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="your-excess-acco__header"
+                      text="In short..."
+                    >
+                      <h3
+                        className="your-excess-acco__header"
+                      >
+                        In short...
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="Let’s say you have a compulsory excess of £250 and you set your voluntary excess at £150. If you make a claim you’ll pay £400 in total. This payment goes towards the cost of your repairs and we’ll pay the rest of the repair costs to get you back on the road."
+                    >
+                      <p
+                        className=""
+                      >
+                        Let’s say you have a compulsory excess of £250 and you set your voluntary excess at £150. If you make a claim you’ll pay £400 in total. This payment goes towards the cost of your repairs and we’ll pay the rest of the repair costs to get you back on the road.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </HDYourAccessAccoContent>
+</Provider>
+`;
+
+exports[`<HDYourAccessAccoContent /> should render correctly and match the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDYourAccessAccoContent>
+    <Row
+      className="your-excess-acco__content"
+      noGutters={false}
+    >
+      <div
+        className="your-excess-acco__content row"
+      >
+        <Col>
+          <div
+            className="col"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="margin-bottom-md"
+                      text="Your excess explained"
+                    >
+                      <h3
+                        className="margin-bottom-md"
+                      >
+                        Your excess explained
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="In simple terms, this is the amount you'll pay if you make a claim. It's made up of two parts - your voluntary amount and your compulsory amount."
+                    >
+                      <p
+                        className=""
+                      >
+                        In simple terms, this is the amount you'll pay if you make a claim. It's made up of two parts - your voluntary amount and your compulsory amount.
+                      </p>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="If you're a young driver (under 25) or you're new to driving, you'll also have to pay a young and inexperienced driver excess. But don't worry, this will automatically be included in your compulsory excess amount."
+                    >
+                      <p
+                        className=""
+                      >
+                        If you're a young driver (under 25) or you're new to driving, you'll also have to pay a young and inexperienced driver excess. But don't worry, this will automatically be included in your compulsory excess amount.
+                      </p>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="Good news though - if your claim is settled as not being your fault you'll usually get your excess payment refunded as part of your settlement amount."
+                    >
+                      <p
+                        className=""
+                      >
+                        Good news though - if your claim is settled as not being your fault you'll usually get your excess payment refunded as part of your settlement amount.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="your-excess-acco__header"
+                      text="Voluntary excess"
+                    >
+                      <h3
+                        className="your-excess-acco__header"
+                      >
+                        Voluntary excess
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="You get to choose the amount. Setting a higher voluntary excess usually reduces the price of your policy but you must make sure it's an amount you'd be comfortable paying should you make a claim. And remember, you'll be paying your total excess, so it will be your voluntary amount and your complusory amount added together."
+                    >
+                      <p
+                        className=""
+                      >
+                        You get to choose the amount. Setting a higher voluntary excess usually reduces the price of your policy but you must make sure it's an amount you'd be comfortable paying should you make a claim. And remember, you'll be paying your total excess, so it will be your voluntary amount and your complusory amount added together.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="your-excess-acco__header"
+                      text="Compulsory excess"
+                    >
+                      <h3
+                        className="your-excess-acco__header"
+                      >
+                        Compulsory excess
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="This amount is set by your insurer and can't be changed."
+                    >
+                      <p
+                        className=""
+                      >
+                        This amount is set by your insurer and can't be changed.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className="your-excess-acco__header"
+                      text="In short..."
+                    >
+                      <h3
+                        className="your-excess-acco__header"
+                      >
+                        In short...
+                      </h3>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="your-excess-acco__description"
+              noGutters={false}
+            >
+              <div
+                className="your-excess-acco__description row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      text="Let’s say you have a compulsory excess of £250 and you set your voluntary excess at £150. If you make a claim you’ll pay £400 in total. This payment goes towards the cost of your repairs and we’ll pay the rest of the repair costs to get you back on the road."
+                    >
+                      <p
+                        className=""
+                      >
+                        Let’s say you have a compulsory excess of £250 and you set your voluntary excess at £150. If you make a claim you’ll pay £400 in total. This payment goes towards the cost of your repairs and we’ll pay the rest of the repair costs to get you back on the road.
+                      </p>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </HDYourAccessAccoContent>
+</Provider>
+`;

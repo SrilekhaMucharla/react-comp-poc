@@ -1,0 +1,38 @@
+.manual-upgrade-downgrade__arc-header {
+    height: 600px;
+    @include media-breakpoint-up(md) {
+        height: 430px;
+    }
+    &:after {
+        background-color: $gray-light-8;
+    }
+}
+
+.manual-upgrade-downgrade__arc-header__back-button {
+    margin-top: 1rem;
+    margin-left: 5rem;
+
+    @include media-breakpoint-down(sm) {
+        margin-left: 2rem;
+    }
+}
+
+.manual-upgrade-downgrade__top-header {
+    color: $white-fill;
+    padding-top: 80px;
+    @include media-breakpoint-up(md) {
+        padding-top: 90px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 90px;
+    }
+}
+
+.cover-type-table {
+    &__table-box-shadow {
+        .hd-table__body {
+            box-shadow: $secondary-shadow;
+        }   
+    }
+}

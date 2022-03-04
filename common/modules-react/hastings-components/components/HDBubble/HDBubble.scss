@@ -1,0 +1,48 @@
+$arrow-side: 12px;
+
+.hd-bubble {
+    padding: 8px 15px;
+    color: $mono-white;
+    background-color: $brand-hastings-red;
+    border-radius: 2px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 12px;
+    line-height: 1.2;
+    width: fit-content;
+    transition: .2s bottom;
+
+    &__content {
+        vertical-align: middle;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-color: $brand-hastings-red;
+        width: $arrow-side;
+        height: $arrow-side;
+        left: 50%;
+        bottom: -($arrow-side / 2);
+        transform: translateX(-50%) rotate(45deg);
+    }
+
+    @include media-breakpoint-down(md) {
+        right: 12%;
+        left: 12%;
+        width: auto;
+    }
+
+    &[data-position="top"] {
+        bottom: 100%;
+        transform: translateX(50%) translateY(-9px);
+
+        @include media-breakpoint-down(md) {
+            transform: translateY(-9px);
+        }
+    }
+}

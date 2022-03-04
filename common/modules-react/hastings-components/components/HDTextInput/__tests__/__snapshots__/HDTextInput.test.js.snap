@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTextInput /> render component with text value only 1`] = `
+<InputGroup
+  className={null}
+  size={null}
+>
+  <Styled(FormControl)
+    className="text-input"
+    data-testid="text-input"
+    disabled={false}
+    id=""
+    maxLength={null}
+    name="input-name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    path="path.to.input"
+    placeholder={null}
+    type={null}
+    value=""
+  />
+</InputGroup>
+`;

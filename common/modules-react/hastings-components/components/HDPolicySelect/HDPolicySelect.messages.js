@@ -1,0 +1,19 @@
+export const mainHeader = 'What kind of policy would you like?';
+export const componentText = "We've preselected the online policy as this is the cheaper option. The level of cover is the same as a standard policy.";
+export const infoBoxText = "Don't worry, we're always here to help if you have an accident"
+    + ' - our claims helpline number is available 24/7 whatever policy you choose.';
+export const online = 'online';
+export const standard = 'standard';
+export const onlineHeader = 'Lower cost, self-service insurance that you manage in the app and MyAccount.';
+export const standardHeader = 'Includes all the same features as an online policy, plus full support from our call centre.';
+export const commonListItem1 = 'Manage online';
+export const commonListItem2 = '24/7 access to policy';
+export const commonListItem3 = 'Highly rated app*';
+export const commonListItem4 = ' call centre support';
+export const onlineListItem = 'Limited';
+export const standardListItem = 'Full';
+export const astrisk = '*Rated 4.7 on App Store and 4.5 on Google Play as of 03/2021';
+export const overlayClosed = 'Overlay closed';
+export const policyType = 'standard';
+export const customizeQuotePolicySupp = 'Customise quote - Policy support type';
+export const eventValOnlineInfo = 'Info - Online only';

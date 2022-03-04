@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDOverLayPopup /> render component with text only and sample content tree 1`] = `
+<div
+  className="hd-information-tooltip "
+>
+  <div
+    className="hd-overlay-btn "
+    hidden={false}
+    id="sample-id"
+    onClick={[Function]}
+  />
+</div>
+`;

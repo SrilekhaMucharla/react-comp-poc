@@ -1,0 +1,14 @@
+.alert-container {
+  background: $error-color;
+  border-radius: 6px;
+  padding: 20px 25px;
+  margin: 14px 0 30px;
+  display: flex;
+  color: $white-color;
+  font-weight: 500;
+  line-height: 1.5;
+  i {
+    padding-top: 2px;
+    padding-right: 5px;
+  }
+}

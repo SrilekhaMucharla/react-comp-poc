@@ -1,0 +1,67 @@
+.primer-overlay__overlay-header {
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 4px;
+    }
+}
+
+.primer-overlay__overlay-subheader {
+    font-size: $font-size-md;
+    color: $app-theme;
+}
+
+.primer-overlay__overlay-ios {
+    color: $app-theme;
+    margin: 0;
+}
+
+.primer-overlay__ios-info {
+    font-weight: normal;
+    color: $app-theme;
+    margin-top: 3px;
+}
+
+.primer-overlay__ios {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+    object-fit: contain;
+}
+
+.primer-overlay__overlay-android {
+    color: $app-theme;
+    margin: 16px 0 0 0;
+}
+.primer-overlay__android-info {
+    display: flex;
+    color: $app-theme;
+    margin-top: 3px;
+}
+
+.primer-overlay__android {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+    object-fit: contain;
+}
+
+.primer-overlay__overlay-incampatible {
+    margin-top: 18px;
+    color: $app-theme;
+}
+
+.primer-overlay__cross-tick {
+    margin-left: 0;
+    margin-bottom: 12px;
+    margin-right: 5px;
+
+    i {
+        font-size: 25px;
+        color: $alert-color;
+    }
+}
+
+.primer-overlay__os {
+    display: flex;
+    font-size: $font-size-md;
+    color: $app-theme;
+}

@@ -1,0 +1,522 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDForm /> Render component with many nested elements 1`] = `
+<HDForm
+  className=""
+  initValues={Object {}}
+  onValidation={[Function]}
+  passedKey="default-key"
+  resetFormOnStart={false}
+  submissionVM={
+    Object {
+      "lobData": Object {},
+    }
+  }
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": undefined,
+      "_nodes": Array [],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {},
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+>
+  <Formik
+    initialTouched={Array []}
+    initialValues={Object {}}
+    key="default-key"
+    validateOnMount={true}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {},
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <Form
+      className=""
+      inline={false}
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div>
+          first
+        </div>
+        <div>
+          secound
+        </div>
+      </form>
+    </Form>
+  </Formik>
+</HDForm>
+`;
+
+exports[`<HDForm /> Render component with many nested elements and one function 1`] = `
+<HDForm
+  className=""
+  initValues={Object {}}
+  onValidation={[Function]}
+  passedKey="default-key"
+  resetFormOnStart={false}
+  submissionVM={
+    Object {
+      "lobData": Object {},
+    }
+  }
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": undefined,
+      "_nodes": Array [],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {},
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+>
+  <Formik
+    initialTouched={Array []}
+    initialValues={Object {}}
+    key="default-key"
+    validateOnMount={true}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {},
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <Form
+      className=""
+      inline={false}
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div>
+          first
+        </div>
+        <div>
+          secound
+        </div>
+        <div>
+          firstsecound
+        </div>
+      </form>
+    </Form>
+  </Formik>
+</HDForm>
+`;
+
+exports[`<HDForm /> Render component with one div 1`] = `
+<HDForm
+  className=""
+  initValues={Object {}}
+  onValidation={[Function]}
+  passedKey="default-key"
+  resetFormOnStart={false}
+  submissionVM={
+    Object {
+      "lobData": Object {},
+    }
+  }
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": undefined,
+      "_nodes": Array [],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {},
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+>
+  <Formik
+    initialTouched={Array []}
+    initialValues={Object {}}
+    key="default-key"
+    validateOnMount={true}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {},
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <Form
+      className=""
+      inline={false}
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div>
+          Wrapped
+        </div>
+      </form>
+    </Form>
+  </Formik>
+</HDForm>
+`;
+
+exports[`<HDForm /> Render component with one nested div and fn 1`] = `
+<HDForm
+  className=""
+  initValues={Object {}}
+  onValidation={[Function]}
+  passedKey="default-key"
+  resetFormOnStart={false}
+  submissionVM={
+    Object {
+      "lobData": Object {},
+    }
+  }
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": undefined,
+      "_nodes": Array [],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {},
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+>
+  <Formik
+    initialTouched={Array []}
+    initialValues={Object {}}
+    key="default-key"
+    validateOnMount={true}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {},
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <Form
+      className=""
+      inline={false}
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div>
+          <span>
+            span text
+          </span>
+          <div>
+            Values:
+            0
+          </div>
+        </div>
+      </form>
+    </Form>
+  </Formik>
+</HDForm>
+`;
+
+exports[`<HDForm /> Render component with one nested function 1`] = `
+<HDForm
+  className=""
+  initValues={Object {}}
+  onValidation={[Function]}
+  passedKey="default-key"
+  resetFormOnStart={false}
+  submissionVM={
+    Object {
+      "lobData": Object {},
+    }
+  }
+  validationSchema={
+    ObjectSchema {
+      "_blacklist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "_conditions": Array [],
+      "_defaultDefault": [Function],
+      "_deps": Array [],
+      "_excludedEdges": Array [],
+      "_exclusive": Object {},
+      "_mutate": undefined,
+      "_nodes": Array [],
+      "_options": Object {
+        "abortEarly": true,
+        "recursive": true,
+      },
+      "_type": "object",
+      "_typeError": [Function],
+      "_whitelist": RefSet {
+        "list": Set {},
+        "refs": Map {},
+      },
+      "fields": Object {},
+      "tests": Array [],
+      "transforms": Array [
+        [Function],
+      ],
+      "type": "object",
+    }
+  }
+>
+  <Formik
+    initialTouched={Array []}
+    initialValues={Object {}}
+    key="default-key"
+    validateOnMount={true}
+    validationSchema={
+      ObjectSchema {
+        "_blacklist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "_conditions": Array [],
+        "_defaultDefault": [Function],
+        "_deps": Array [],
+        "_excludedEdges": Array [],
+        "_exclusive": Object {},
+        "_mutate": undefined,
+        "_nodes": Array [],
+        "_options": Object {
+          "abortEarly": true,
+          "recursive": true,
+        },
+        "_type": "object",
+        "_typeError": [Function],
+        "_whitelist": RefSet {
+          "list": Set {},
+          "refs": Map {},
+        },
+        "fields": Object {},
+        "tests": Array [],
+        "transforms": Array [
+          [Function],
+        ],
+        "type": "object",
+      }
+    }
+  >
+    <Form
+      className=""
+      inline={false}
+      noValidate={true}
+      onSubmit={[Function]}
+    >
+      <form
+        className=""
+        noValidate={true}
+        onSubmit={[Function]}
+      >
+        <div>
+          Values:
+          0
+        </div>
+      </form>
+    </Form>
+  </Formik>
+</HDForm>
+`;

@@ -1,0 +1,19 @@
+$color-blue-light: #0085ff; 
+$color-blue-dark-1: #01355a;
+$color-blue-dark-2: #011831;
+$color-white: #fff;
+
+$bootstrap-sm-width: 576px;
+$bootstrap-md-width: 768px;
+
+@mixin atMobile {
+  @media (max-width: #{$bootstrap-sm-width}) {
+    @content;
+  }
+}
+
+@mixin atTablet {
+  @media (max-width: #{$bootstrap-md-width}) {
+    @content;
+  }
+}

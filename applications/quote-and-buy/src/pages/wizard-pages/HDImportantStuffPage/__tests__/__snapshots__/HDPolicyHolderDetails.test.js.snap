@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPolicyHolderDetails /> render component 1`] = `
+<Row
+  className="policyholder-details-container"
+  noGutters={false}
+>
+  <Col
+    className="policyholder-details__left-column"
+    lg={5}
+    xs={12}
+  >
+    <div
+      className="policyholder-details__left-column__registration"
+    >
+      RFI2 SJI
+    </div>
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className="mb-0"
+      id="policyholder-details-car-label"
+      text="Mercedes E Class"
+    />
+  </Col>
+  <Col
+    className="policyholder-details__right-column"
+    lg={7}
+    xs={12}
+  >
+    <Row
+      noGutters={true}
+    >
+      <Col
+        className="policyholder-details__right-column__item"
+        lg={6}
+        xs={12}
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            className="policyholder-details__right-column__item__key"
+            lg={12}
+            xs={6}
+          >
+            Policyholder
+          </Col>
+          <Col
+            lg={12}
+            xs={6}
+          >
+            <div
+              className="policyholder-details__right-column__item__value"
+            >
+              David Norman
+            </div>
+            <div
+              className="policyholder-details__right-column__item__value"
+            >
+              <span
+                className="font-bold"
+              >
+                9
+              </span>
+               years no claims discount
+            </div>
+          </Col>
+        </Row>
+      </Col>
+      <Col
+        className="policyholder-details__right-column__item order-lg-last"
+        lg={6}
+        xs={12}
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            className="policyholder-details__right-column__item__key"
+            lg={12}
+            xs={6}
+          >
+            Address
+          </Col>
+          <Col
+            className="policyholder-details__right-column__item__value"
+            lg={12}
+            xs={6}
+          >
+            Mill lane, TN33 OJH
+          </Col>
+        </Row>
+      </Col>
+      <Col
+        className="policyholder-details__right-column__item"
+        lg={6}
+        xs={12}
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            className="policyholder-details__right-column__item__key"
+            lg={12}
+            xs={6}
+          >
+            Named drivers
+          </Col>
+          <Col
+            lg={12}
+            xs={6}
+          >
+            <div
+              className="policyholder-details__right-column__item__value"
+              key="Victoria Norman"
+            >
+              Victoria Norman
+            </div>
+            <div
+              className="policyholder-details__right-column__item__value"
+              key="Sam Norman"
+            >
+              Sam Norman
+            </div>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;

@@ -1,0 +1,30 @@
+.vehicle_simple_details_row {
+    margin-top:28px;
+    .vehicle_simple_details_col {
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        .vheicle_detail_display_name_holder {
+        .vheicle_detail_display_name {
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: normal;
+            text-align: left;
+            color:$mono-midnight;
+        }
+    }
+        .vrn_highlighted {
+            > span {
+                padding: 3px;
+                background-color: #fbe700;
+                margin-right: 13px;
+                line-height: 1.35;
+                font-family: $font-licence-plate;
+                font-stretch: normal;
+                font-style: normal;
+                text-align: left;
+                font-size: 13px;
+            }
+        }
+    }
+}

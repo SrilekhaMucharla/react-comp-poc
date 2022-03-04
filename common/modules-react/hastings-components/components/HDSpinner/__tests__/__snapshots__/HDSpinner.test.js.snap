@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDSpinner /> renders default monochrome spinner when no props are passed 1`] = `
+<span
+  className="dizzy-squirrel"
+  data-testid="spinner-monochrome"
+>
+  <svg
+    style={
+      Object {
+        "width": 300,
+      }
+    }
+    viewBox="0 0 100 100"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g
+      className="monochrome"
+    >
+      <circle
+        cx="50"
+        cy="50"
+        r="45"
+        stroke="#f4f4f4"
+      />
+    </g>
+  </svg>
+</span>
+`;

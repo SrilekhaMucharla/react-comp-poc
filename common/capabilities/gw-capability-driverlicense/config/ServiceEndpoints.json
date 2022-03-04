@@ -1,0 +1,8 @@
+[
+  {
+    "server": "pc",
+    "serviceName": "driversLicenseUpload",
+    "service": "driverlicense/upload",
+    "skipMetadata": "true"
+  }
+]

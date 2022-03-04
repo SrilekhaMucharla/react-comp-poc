@@ -1,0 +1,68 @@
+@import "../../../theme/theme.scss";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/variables";
+
+.hd-directdebit-payment-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.hd-directdebit-payment-table__thead {
+    color: $mono-midnight;
+    background-color: $blue-transparent-10;
+    border-bottom: 1px solid $mono-light-steel;
+    @include media-breakpoint-down(sm) {
+        font-size: 12px;
+    }
+}
+
+.hd-directdebit-payment-table__tr {
+    height: 54px;
+}
+
+.hd-directdebit-payment-table__th {
+    text-align: right;
+    font-weight: bold;
+}
+
+.hd-directdebit-payment-table__th:first-child {
+    padding-left: 13px;
+    text-align: left;
+}
+
+.hd-directdebit-payment-table__th:last-child {
+    padding-right: 13px;
+}
+
+.hd-directdebit-payment-table__tbody {
+    background-color: $gray-light-7;
+    color: $info-color;
+    @include media-breakpoint-down(sm) {
+        font-size: 12px;
+    }
+}
+
+.hd-directdebit-payment-table__tr {
+    height: 40px;
+}
+
+.hd-directdebit-payment-table__td {
+    font-weight: 500;
+    text-align: right;
+}
+
+.hd-directdebit-payment-table__td:first-child {
+    padding-left: 13px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.hd-directdebit-payment-table__td:last-child {
+    padding-right: 13px;
+    font-weight: 600;
+}
+
+.hd-directdebit-payment-table__tr:nth-child(even) {
+    background-color: $mono-cultured;
+}

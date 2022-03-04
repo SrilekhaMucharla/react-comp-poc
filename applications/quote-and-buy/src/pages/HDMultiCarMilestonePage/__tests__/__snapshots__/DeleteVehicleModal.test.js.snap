@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteVehicleModal should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  cancelLabel="No, go back"
+  confirmLabel="Yes, remove"
+  customStyle="rev-button-order"
+  headerText="Are you sure?"
+  hideClose={false}
+  id="remove-vehicle-modal"
+  onBeforeOpen={null}
+  onCancel={[MockFunction]}
+  onClose={[MockFunction]}
+  onConfirm={[MockFunction]}
+  show={true}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Remove vehicle",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "Remove vehicle",
+    }
+  }
+>
+  <p
+    className="mb-5"
+  >
+    This will remove this car.
+  </p>
+</ForwardRef>
+`;

@@ -1,0 +1,146 @@
+.hd-mc-form__sections {
+    background-color: $mono-cotton-ball;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    @include media-breakpoint-down(md) {
+        flex-direction: column;
+    }
+
+    .hd-information-tooltip {
+        align-items: center;
+        display: flex;
+        flex: 0;
+        .overlay .overlay-body {
+            padding: 5% 5% 5% 5%;
+            height: 100%;
+            overflow: initial;
+        }
+        .overlay .overlay-close {
+            margin-right: 25px;
+        }
+    }
+}
+
+.hd-mc-form__overlay-outside {
+    background-color: $blue-transparent-95;
+}
+
+.hd-mc-form__section {
+    flex: 1;
+    border: 1px solid $mono-light-steel;
+    padding: 23px 35px 10px 35px;
+    @include media-breakpoint-up(md) {
+        padding: 23px 45px 10px 45px;
+    }
+
+    &:first-child {
+        @include media-breakpoint-up(lg) {
+            padding-right: 25px;
+            border-right: 0;
+            border-left: 0;
+        }
+        @include media-breakpoint-down(md) {
+            border-bottom: 0;
+        }
+    }
+    &:last-child {
+        @include media-breakpoint-up(lg) {
+            padding-left: 30px;
+            border-right: 0;
+        }
+    }
+}
+
+.hd-mc-form__section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: -3px;
+
+    h3 {
+        color: $blue-dark-3;
+        font-size: 22px;
+        line-height: 26.4px;
+        margin: 0;
+    }
+}
+
+.hd-mc-form__info {
+    font-family: $font-face-generic-regular;
+    font-size: 12px;
+    color: $mono-blue-yonder;
+    text-align: right;
+    flex: 1;
+}
+
+.hd-mc-form__excesses-section-content {
+    margin-top: 21px;
+    display: flex;
+}
+
+.hd-mc-form__excess-sign {
+    flex: 0.25;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 18px;
+    line-height: 22.5px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.hd-mc-form__excess-value {
+    &:last-child {
+        flex: unset;
+    }
+
+    div.custom > div > div > div > div {
+        color: $mono-midnight;
+        font-size: 15px;
+        line-height: 22.5px;
+
+        input {
+            height: 26.6px;
+        }
+    }
+}
+
+.hd-mc-form__com-excess-input {
+    background-color: $mono-cotton-ball;
+    width: 90px;
+    height: 40.6px;
+    border: 1px solid $mono-light-steel;
+    border-radius: 6px;
+    padding: 13px;
+    color: $mono-midnight;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.hd-mc-form__label {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22.5px;
+    color: $blue-light-3;
+}
+
+.hd-mc-form__total {
+    padding-top: 8px;
+    color: $mono-midnight;
+    font-size: 18px;
+    line-height: 22.5px;
+    font-weight: bold;
+}
+
+.hd-mc-form__excess-popup {
+    svg {
+        width: 29px;
+        height: auto;
+    }
+}
+
+.hd-mc-form__info-popup {
+    svg {
+        width: 29px;
+        height: auto;
+    }
+}

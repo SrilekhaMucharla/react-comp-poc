@@ -1,0 +1,1625 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDThanksPage should render correctly and match the snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <HDThanksPage
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "single_car",
+      }
+    }
+    toggleContinueElement={[Function]}
+  />
+</ContextProvider>
+`;
+
+exports[`HDThanksPage should render when mounted 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Provider
+      store={
+        Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        }
+      }
+    >
+      <HDThanksPage
+        pageMetadata={
+          Object {
+            "page_name": "test",
+            "page_type": "test",
+            "sales_journey_type": "single_car",
+          }
+        }
+        toggleContinueElement={[Function]}
+      >
+        <Container
+          className="thanks-page"
+          fluid={false}
+        >
+          <div
+            className="thanks-page container"
+          >
+            <div
+              className="arc-header"
+            >
+              <img
+                alt="arc-header"
+                className="arc-header_arc"
+                src="top-arc.svg"
+              />
+            </div>
+            <Row
+              className="mx-0"
+              noGutters={false}
+            >
+              <div
+                className="mx-0 row"
+              >
+                <Col
+                  className="thanks-page__container-header"
+                >
+                  <div
+                    className="thanks-page__container-header col"
+                  >
+                    <Row
+                      className="thanks-page__header-icon"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__header-icon row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <i
+                              className="fas fa-check fa-2x"
+                            />
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__header"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__header row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <HDLabelRefactor
+                              Tag="h1"
+                              adjustImagePosition={true}
+                              className=""
+                              text="You're all done!"
+                            >
+                              <h1
+                                className=""
+                              >
+                                You're all done!
+                              </h1>
+                            </HDLabelRefactor>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__sub-header"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__sub-header row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <HDLabelRefactor
+                              Tag="h5"
+                              adjustImagePosition={true}
+                              className=""
+                              text="Thanks for insuring with us"
+                            >
+                              <h5
+                                className=""
+                              >
+                                Thanks for insuring with us
+                              </h5>
+                            </HDLabelRefactor>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__container-car-info p-3"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__container-car-info p-3 row"
+                      >
+                        <Col
+                          className="thanks-page__container-registration"
+                        >
+                          <div
+                            className="thanks-page__container-registration col"
+                          >
+                            <Row
+                              className="thanks-page__container-registration-policy-text"
+                              noGutters={false}
+                            >
+                              <div
+                                className="thanks-page__container-registration-policy-text row"
+                              >
+                                <Col>
+                                  <div
+                                    className="col"
+                                  >
+                                    <div
+                                      className="thanks-page__car-registration"
+                                    >
+                                      AV12 BGE
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="pl-0"
+                                >
+                                  <div
+                                    className="pl-0 col"
+                                  >
+                                    <div
+                                      className="ml-3 thanks-page__car-policy-text"
+                                    >
+                                      Policy number
+                                    </div>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                            <Row
+                              className="thanks-page__container-registration-car-model-policy-number"
+                              noGutters={false}
+                            >
+                              <div
+                                className="thanks-page__container-registration-car-model-policy-number row"
+                              >
+                                <Col
+                                  className="pr-0"
+                                >
+                                  <div
+                                    className="pr-0 col"
+                                  >
+                                    <div
+                                      className="thanks-page__car-modal-info"
+                                    >
+                                      MERCEDES-BENZ E250 SPORT
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col>
+                                  <div
+                                    className="col"
+                                  >
+                                    <div
+                                      className="ml-3 thanks-page__car-policy-number"
+                                    >
+                                      XAXA200000027758
+                                    </div>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="thanks-page__body mx-0"
+              noGutters={false}
+            >
+              <div
+                className="thanks-page__body mx-0 row"
+              >
+                <Col
+                  className="thanks-page__body-left"
+                >
+                  <div
+                    className="thanks-page__body-left col"
+                  >
+                    <Row
+                      className="thanks-page__body-left__header mb-3"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__body-left__header mb-3 row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <HDLabelRefactor
+                              Tag="h4"
+                              adjustImagePosition={true}
+                              className=""
+                              text="Don't forget to check your documents. It's as easy as 1,2,3!"
+                            >
+                              <h4
+                                className=""
+                              >
+                                Don't forget to check your documents. It's as easy as 1,2,3!
+                              </h4>
+                            </HDLabelRefactor>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__left-subheader mb-3"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__left-subheader mb-3 row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <HDLabelRefactor
+                              Tag="h4"
+                              adjustImagePosition={true}
+                              className=""
+                              text="Just follow these steps:"
+                            >
+                              <h4
+                                className=""
+                              >
+                                Just follow these steps:
+                              </h4>
+                            </HDLabelRefactor>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__container-left-steps mb-3"
+                      key="Download the app"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__container-left-steps mb-3 row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <Row
+                              className="px-3 thanks-page__container-left-steps-column"
+                              noGutters={false}
+                            >
+                              <div
+                                className="px-3 thanks-page__container-left-steps-column row"
+                              >
+                                <Col
+                                  className="px-0"
+                                  sm={1}
+                                >
+                                  <div
+                                    className="px-0 col-sm-1"
+                                  >
+                                    <div
+                                      className="thanks-page__step-number"
+                                    >
+                                      1
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="thanks-page__step-header-hint"
+                                >
+                                  <div
+                                    className="thanks-page__step-header-hint col"
+                                  >
+                                    <Row
+                                      noGutters={false}
+                                    >
+                                      <div
+                                        className="row"
+                                      >
+                                        <Col>
+                                          <div
+                                            className="col"
+                                          >
+                                            <HDLabelRefactor
+                                              Tag="h5"
+                                              adjustImagePosition={true}
+                                              className="thanks-page__step-header"
+                                              text="Download the app"
+                                            >
+                                              <h5
+                                                className="thanks-page__step-header"
+                                              >
+                                                Download the app
+                                              </h5>
+                                            </HDLabelRefactor>
+                                          </div>
+                                        </Col>
+                                      </div>
+                                    </Row>
+                                    <Row
+                                      noGutters={false}
+                                    >
+                                      <div
+                                        className="row"
+                                      >
+                                        <Col
+                                          className="pr-0"
+                                        >
+                                          <div
+                                            className="pr-0 col"
+                                          >
+                                            <Row
+                                              className="mb-3"
+                                              noGutters={false}
+                                            >
+                                              <div
+                                                className="mb-3 row"
+                                              >
+                                                <Col>
+                                                  <div
+                                                    className="col"
+                                                  >
+                                                    <HDLabelRefactor
+                                                      Tag="span"
+                                                      adjustImagePosition={true}
+                                                      className="thanks-page__step-hint"
+                                                      text="You'll be able to log in to manage your account any time you want - everything you need is all in one place."
+                                                    >
+                                                      <span
+                                                        className="thanks-page__step-hint"
+                                                      >
+                                                        You'll be able to log in to manage your account any time you want - everything you need is all in one place.
+                                                      </span>
+                                                    </HDLabelRefactor>
+                                                  </div>
+                                                </Col>
+                                              </div>
+                                            </Row>
+                                            <Row
+                                              className="thanks-page__store-images"
+                                              noGutters={false}
+                                            >
+                                              <div
+                                                className="thanks-page__store-images row"
+                                              >
+                                                <Col
+                                                  className="pr-0"
+                                                >
+                                                  <div
+                                                    className="pr-0 col"
+                                                  >
+                                                    <img
+                                                      alt="appleStoreImage"
+                                                      src="static-apple-store-download-button.svg"
+                                                    />
+                                                  </div>
+                                                </Col>
+                                                <Col
+                                                  className="pl-0"
+                                                >
+                                                  <div
+                                                    className="pl-0 col"
+                                                  >
+                                                    <img
+                                                      alt="playStoreImage"
+                                                      src="static-google-play-download-button.svg"
+                                                    />
+                                                  </div>
+                                                </Col>
+                                              </div>
+                                            </Row>
+                                          </div>
+                                        </Col>
+                                      </div>
+                                    </Row>
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="thanks-page__mobile-hand-image text-right px-0"
+                                  md={4}
+                                  sm={12}
+                                >
+                                  <div
+                                    className="thanks-page__mobile-hand-image text-right px-0 col-md-4 col-sm-12"
+                                  >
+                                    <img
+                                      alt="mobileHandImage"
+                                      src="static-mobile-hands-001.jpg"
+                                    />
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__container-left-steps mb-3"
+                      key="Log in"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__container-left-steps mb-3 row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <Row
+                              className="px-3 thanks-page__container-left-steps-column"
+                              noGutters={false}
+                            >
+                              <div
+                                className="px-3 thanks-page__container-left-steps-column row"
+                              >
+                                <Col
+                                  className="px-0"
+                                  sm={1}
+                                >
+                                  <div
+                                    className="px-0 col-sm-1"
+                                  >
+                                    <div
+                                      className="thanks-page__step-number"
+                                    >
+                                      2
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="thanks-page__step-header-hint"
+                                >
+                                  <div
+                                    className="thanks-page__step-header-hint col"
+                                  >
+                                    <Row
+                                      noGutters={false}
+                                    >
+                                      <div
+                                        className="row"
+                                      >
+                                        <Col>
+                                          <div
+                                            className="col"
+                                          >
+                                            <HDLabelRefactor
+                                              Tag="h5"
+                                              adjustImagePosition={true}
+                                              className="thanks-page__step-header"
+                                              text="Log in"
+                                            >
+                                              <h5
+                                                className="thanks-page__step-header"
+                                              >
+                                                Log in
+                                              </h5>
+                                            </HDLabelRefactor>
+                                          </div>
+                                        </Col>
+                                      </div>
+                                    </Row>
+                                    <Row
+                                      noGutters={false}
+                                    >
+                                      <div
+                                        className="row"
+                                      >
+                                        <Col
+                                          className="pr-0"
+                                        >
+                                          <div
+                                            className="pr-0 col"
+                                          >
+                                            <Row
+                                              className="mb-3"
+                                              noGutters={false}
+                                            >
+                                              <div
+                                                className="mb-3 row"
+                                              >
+                                                <Col>
+                                                  <div
+                                                    className="col"
+                                                  >
+                                                    <HDLabelRefactor
+                                                      Tag="span"
+                                                      adjustImagePosition={true}
+                                                      className="thanks-page__step-hint"
+                                                      text="We've sent you an email, so just follow the instructions to verify your email address and set up your account. Then log in to the app or "
+                                                    >
+                                                      <span
+                                                        className="thanks-page__step-hint"
+                                                      >
+                                                        We've sent you an email, so just follow the instructions to verify your email address and set up your account. Then log in to the app or 
+                                                      </span>
+                                                    </HDLabelRefactor>
+                                                    <HDLabelRefactor
+                                                      Tag="a"
+                                                      adjustImagePosition={true}
+                                                      className="thanks-page__my-account"
+                                                      onClick={[Function]}
+                                                      onKeyDown={[Function]}
+                                                      role="button"
+                                                      tabIndex={0}
+                                                      text="MyAccount"
+                                                    >
+                                                      <a
+                                                        className="hd-tag thanks-page__my-account"
+                                                        onClick={[Function]}
+                                                        onKeyDown={[Function]}
+                                                        role="button"
+                                                        tabIndex={0}
+                                                      >
+                                                        <span>
+                                                          MyAccount
+                                                        </span>
+                                                      </a>
+                                                    </HDLabelRefactor>
+                                                    .
+                                                  </div>
+                                                </Col>
+                                              </div>
+                                            </Row>
+                                          </div>
+                                        </Col>
+                                      </div>
+                                    </Row>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__container-left-steps mb-3"
+                      key="Check your policy documents"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__container-left-steps mb-3 row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <Row
+                              className="px-3 thanks-page__container-left-steps-column"
+                              noGutters={false}
+                            >
+                              <div
+                                className="px-3 thanks-page__container-left-steps-column row"
+                              >
+                                <Col
+                                  className="px-0"
+                                  sm={1}
+                                >
+                                  <div
+                                    className="px-0 col-sm-1"
+                                  >
+                                    <div
+                                      className="thanks-page__step-number"
+                                    >
+                                      3
+                                    </div>
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="thanks-page__step-header-hint"
+                                >
+                                  <div
+                                    className="thanks-page__step-header-hint col"
+                                  >
+                                    <Row
+                                      noGutters={false}
+                                    >
+                                      <div
+                                        className="row"
+                                      >
+                                        <Col>
+                                          <div
+                                            className="col"
+                                          >
+                                            <HDLabelRefactor
+                                              Tag="h5"
+                                              adjustImagePosition={true}
+                                              className="thanks-page__step-header"
+                                              text="Check your policy documents"
+                                            >
+                                              <h5
+                                                className="thanks-page__step-header"
+                                              >
+                                                Check your policy documents
+                                              </h5>
+                                            </HDLabelRefactor>
+                                          </div>
+                                        </Col>
+                                      </div>
+                                    </Row>
+                                    <Row
+                                      noGutters={false}
+                                    >
+                                      <div
+                                        className="row"
+                                      >
+                                        <Col
+                                          className="pr-0"
+                                        >
+                                          <div
+                                            className="pr-0 col"
+                                          >
+                                            <Row
+                                              className="mb-3"
+                                              noGutters={false}
+                                            >
+                                              <div
+                                                className="mb-3 row"
+                                              >
+                                                <Col>
+                                                  <div
+                                                    className="col"
+                                                  >
+                                                    <HDLabelRefactor
+                                                      Tag="span"
+                                                      adjustImagePosition={true}
+                                                      className="thanks-page__step-hint"
+                                                      text="Go to the documents section and check through your Welcome Pack to make sure all your details are correct."
+                                                    >
+                                                      <span
+                                                        className="thanks-page__step-hint"
+                                                      >
+                                                        Go to the documents section and check through your Welcome Pack to make sure all your details are correct.
+                                                      </span>
+                                                    </HDLabelRefactor>
+                                                  </div>
+                                                </Col>
+                                              </div>
+                                            </Row>
+                                          </div>
+                                        </Col>
+                                      </div>
+                                    </Row>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col
+                          className="px-0"
+                        >
+                          <div
+                            className="px-0 col"
+                          >
+                            <Row
+                              noGutters={false}
+                            >
+                              <div
+                                className="row"
+                              >
+                                <Col
+                                  className="px-0 thanks-page__container-left-steps-line"
+                                >
+                                  <div
+                                    className="px-0 thanks-page__container-left-steps-line col"
+                                  >
+                                    <hr />
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="thanks-page__container-managepolicy mb-0"
+                      noGutters={false}
+                    >
+                      <div
+                        className="thanks-page__container-managepolicy mb-0 row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <Row
+                              noGutters={false}
+                            >
+                              <div
+                                className="row"
+                              >
+                                <Col>
+                                  <div
+                                    className="col"
+                                  >
+                                    <HDLabelRefactor
+                                      Tag="h4"
+                                      adjustImagePosition={true}
+                                      className="thanks-page__managepolicy-header"
+                                      text="Manage your policy 24/7 in the app and MyAccount"
+                                    >
+                                      <h4
+                                        className="thanks-page__managepolicy-header"
+                                      >
+                                        Manage your policy 24/7 in the app and MyAccount
+                                      </h4>
+                                    </HDLabelRefactor>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                            <Row
+                              className="thanks-page__managepolicy-steps"
+                              key="Check what you're covered for"
+                              noGutters={false}
+                            >
+                              <div
+                                className="thanks-page__managepolicy-steps row"
+                              >
+                                <Col
+                                  className="thanks-page__step-check-icon col-auto ml-3"
+                                >
+                                  <div
+                                    className="thanks-page__step-check-icon col-auto ml-3 col"
+                                  >
+                                    <i
+                                      className="fas fa-check fa-xs"
+                                    />
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="thanks-page__managepolicy-step"
+                                >
+                                  <div
+                                    className="thanks-page__managepolicy-step col"
+                                  >
+                                    <HDLabelRefactor
+                                      Tag="h5"
+                                      adjustImagePosition={true}
+                                      className="font-medium"
+                                      text="Check what you're covered for"
+                                    >
+                                      <h5
+                                        className="font-medium"
+                                      >
+                                        Check what you're covered for
+                                      </h5>
+                                    </HDLabelRefactor>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                            <Row
+                              className="thanks-page__managepolicy-steps"
+                              key="Get a quote or make policy changes"
+                              noGutters={false}
+                            >
+                              <div
+                                className="thanks-page__managepolicy-steps row"
+                              >
+                                <Col
+                                  className="thanks-page__step-check-icon col-auto ml-3"
+                                >
+                                  <div
+                                    className="thanks-page__step-check-icon col-auto ml-3 col"
+                                  >
+                                    <i
+                                      className="fas fa-check fa-xs"
+                                    />
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="thanks-page__managepolicy-step"
+                                >
+                                  <div
+                                    className="thanks-page__managepolicy-step col"
+                                  >
+                                    <HDLabelRefactor
+                                      Tag="h5"
+                                      adjustImagePosition={true}
+                                      className="font-medium"
+                                      text="Get a quote or make policy changes"
+                                    >
+                                      <h5
+                                        className="font-medium"
+                                      >
+                                        Get a quote or make policy changes
+                                      </h5>
+                                    </HDLabelRefactor>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                            <Row
+                              className="thanks-page__managepolicy-steps"
+                              key="Manage your payments"
+                              noGutters={false}
+                            >
+                              <div
+                                className="thanks-page__managepolicy-steps row"
+                              >
+                                <Col
+                                  className="thanks-page__step-check-icon col-auto ml-3"
+                                >
+                                  <div
+                                    className="thanks-page__step-check-icon col-auto ml-3 col"
+                                  >
+                                    <i
+                                      className="fas fa-check fa-xs"
+                                    />
+                                  </div>
+                                </Col>
+                                <Col
+                                  className="thanks-page__managepolicy-step"
+                                >
+                                  <div
+                                    className="thanks-page__managepolicy-step col"
+                                  >
+                                    <HDLabelRefactor
+                                      Tag="h5"
+                                      adjustImagePosition={true}
+                                      className="font-medium"
+                                      text="Manage your payments"
+                                    >
+                                      <h5
+                                        className="font-medium"
+                                      >
+                                        Manage your payments
+                                      </h5>
+                                    </HDLabelRefactor>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                            <Row
+                              className="thanks-page__managepolicy-button"
+                              noGutters={false}
+                            >
+                              <div
+                                className="thanks-page__managepolicy-button row"
+                              >
+                                <Col>
+                                  <div
+                                    className="col"
+                                  >
+                                    <ForwardRef
+                                      className="thanks-page__log-in-button theme-white"
+                                      id="login-button"
+                                      label="Log in to MyAccount"
+                                      onBeforeOpen={null}
+                                      onBlur={null}
+                                      onCancel={null}
+                                      onChange={null}
+                                      onClick={[Function]}
+                                      onConfirm={null}
+                                      onDelete={null}
+                                      onEdit={null}
+                                      onFocus={null}
+                                      onSelect={null}
+                                      size="sm"
+                                      variant="primary"
+                                      webAnalyticsEvent={
+                                        Object {
+                                          "event_action": "Confirmation - New customer",
+                                        }
+                                      }
+                                    >
+                                      <HDButtonRefactor
+                                        className="thanks-page__log-in-button theme-white"
+                                        disabled={false}
+                                        fullWidth={false}
+                                        id="login-button"
+                                        label="Log in to MyAccount"
+                                        onClick={[Function]}
+                                        onKeyPress={null}
+                                        size="sm"
+                                        type="button"
+                                        variant="primary"
+                                      >
+                                        <Button
+                                          active={false}
+                                          block={false}
+                                          className="hd-btn hd-btn-primary thanks-page__log-in-button theme-white"
+                                          disabled={false}
+                                          id="login-button"
+                                          onClick={[Function]}
+                                          onKeyPress={null}
+                                          size="sm"
+                                          type="button"
+                                          variant="primary"
+                                        >
+                                          <button
+                                            className="hd-btn hd-btn-primary thanks-page__log-in-button theme-white btn btn-primary btn-sm"
+                                            disabled={false}
+                                            id="login-button"
+                                            onClick={[Function]}
+                                            onKeyPress={null}
+                                            type="button"
+                                          >
+                                            Log in to MyAccount
+                                          </button>
+                                        </Button>
+                                      </HDButtonRefactor>
+                                    </ForwardRef>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col
+                          className="px-0"
+                        >
+                          <div
+                            className="px-0 col"
+                          >
+                            <Row
+                              noGutters={false}
+                            >
+                              <div
+                                className="row"
+                              >
+                                <Col
+                                  className="px-0 thanks-page__container-left-steps-line"
+                                >
+                                  <div
+                                    className="px-0 thanks-page__container-left-steps-line col"
+                                  >
+                                    <hr />
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <Row
+                              noGutters={false}
+                            >
+                              <div
+                                className="row"
+                              >
+                                <Col>
+                                  <div
+                                    className="col"
+                                  >
+                                    <HDLabelRefactor
+                                      Tag="h4"
+                                      adjustImagePosition={true}
+                                      className="thanks-page__renewalpreference-header"
+                                      text="Renewal preferences"
+                                    >
+                                      <h4
+                                        className="thanks-page__renewalpreference-header"
+                                      >
+                                        Renewal preferences
+                                      </h4>
+                                    </HDLabelRefactor>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                            <Row
+                              noGutters={false}
+                            >
+                              <div
+                                className="row"
+                              >
+                                <Col>
+                                  <div
+                                    className="col"
+                                  >
+                                    <div
+                                      className="mb-3 thanks-page__renewal-preference__header"
+                                    >
+                                      Your policy will renew automatically so you'll never be left without insurance. It doesn't cost any more and you'll have plenty of time to decide about staying with us before your renewal is due.
+                                    </div>
+                                    <div
+                                      className="mb-3"
+                                    >
+                                      If you'd prefer to opt out of automatic renewal all you need to do is tell us you want to change your preference.
+                                    </div>
+                                    <div
+                                      className="mb-3"
+                                    >
+                                      <HDLabelRefactor
+                                        Tag="a"
+                                        adjustImagePosition={true}
+                                        className="thanks-page__opt-out-link"
+                                        onClick={[Function]}
+                                        role="button"
+                                        tabIndex={0}
+                                        text="Change preference"
+                                      >
+                                        <a
+                                          className="hd-tag thanks-page__opt-out-link"
+                                          onClick={[Function]}
+                                          role="button"
+                                          tabIndex={0}
+                                        >
+                                          <span>
+                                            Change preference
+                                          </span>
+                                        </a>
+                                      </HDLabelRefactor>
+                                    </div>
+                                    <div
+                                      className="mb-3"
+                                    >
+                                      We'll email you to confirm you've opted out but you can double check this at any time in the app or MyAccount, or by calling us.
+                                    </div>
+                                    <div
+                                      className="mb-3"
+                                    >
+                                      Don't worry if the documents in your welcome pack still say you're opted in, these may have already processed before you made this change.
+                                    </div>
+                                    <div
+                                      className="mb-3"
+                                    >
+                                      You can also opt at a later date simply by changing your preference in the
+                                      <HDLabelRefactor
+                                        Tag="a"
+                                        adjustImagePosition={true}
+                                        className="thanks-page__my-account"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                        tabIndex={0}
+                                        text="app"
+                                      >
+                                        <a
+                                          className="hd-tag thanks-page__my-account"
+                                          onClick={[Function]}
+                                          onKeyDown={[Function]}
+                                          role="button"
+                                          tabIndex={0}
+                                        >
+                                          <span>
+                                            app
+                                          </span>
+                                        </a>
+                                      </HDLabelRefactor>
+                                      or
+                                      <HDLabelRefactor
+                                        Tag="a"
+                                        adjustImagePosition={true}
+                                        className="thanks-page__my-account"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                        tabIndex={0}
+                                        text="MyAccount"
+                                      >
+                                        <a
+                                          className="hd-tag thanks-page__my-account"
+                                          onClick={[Function]}
+                                          onKeyDown={[Function]}
+                                          role="button"
+                                          tabIndex={0}
+                                        >
+                                          <span>
+                                            MyAccount
+                                          </span>
+                                        </a>
+                                      </HDLabelRefactor>
+                                    </div>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                            <Row
+                              noGutters={false}
+                            >
+                              <div
+                                className="row"
+                              />
+                            </Row>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Col>
+                <Col
+                  className="thanks-page__body-right thanks-page__body-right-payment-breakdown mt-5 mt-md-0 px-0"
+                >
+                  <div
+                    className="thanks-page__body-right thanks-page__body-right-payment-breakdown mt-5 mt-md-0 px-0 col"
+                  >
+                    <HDPaymentBreakdown
+                      className=""
+                      steps={
+                        Array [
+                          Object {
+                            "circle": Object {
+                              "date": Object {
+                                "day": 1,
+                                "shortMonth": "2",
+                              },
+                              "type": "violet",
+                            },
+                            "description": Object {
+                              "label": Array [
+                                "TEST123",
+                              ],
+                              "name": Array [
+                                "TEST123",
+                              ],
+                              "quote": Object {
+                                "single": "£12",
+                              },
+                              "tooltip": <div />,
+                            },
+                            "id": 1,
+                          },
+                          Object {
+                            "circle": Object {
+                              "date": Object {
+                                "day": 1,
+                                "shortMonth": "2",
+                              },
+                            },
+                            "description": Object {
+                              "name": Array [
+                                "TEST123",
+                              ],
+                            },
+                            "id": 2,
+                          },
+                          Object {
+                            "circle": Object {
+                              "type": "dot",
+                            },
+                            "description": Object {
+                              "name": Array [
+                                "TEST123",
+                              ],
+                              "quote": Object {
+                                "single": "£12",
+                              },
+                            },
+                            "id": 3,
+                          },
+                          Object {
+                            "circle": Object {
+                              "date": Object {
+                                "day": 1,
+                                "shortMonth": "2",
+                              },
+                            },
+                            "description": Object {
+                              "tooltip": <div />,
+                            },
+                            "id": 7,
+                          },
+                        ]
+                      }
+                      title={
+                        <div
+                          className="thanks-page__body-right__header"
+                        >
+                          What you'll pay and when
+                        </div>
+                      }
+                    >
+                      <section
+                        className=""
+                      >
+                        <header>
+                          <h2
+                            className="hd-text-title pt-3 pt-md-0  pl-1 pl-md-0"
+                          >
+                            <div
+                              className="thanks-page__body-right__header"
+                            >
+                              What you'll pay and when
+                            </div>
+                          </h2>
+                        </header>
+                        <div
+                          className="hd-steps-container theme-white"
+                        >
+                          <div
+                            className="hd-steps__gradient-col"
+                          >
+                            <div
+                              className="hd-steps__gradient-col__vertical-dash"
+                            />
+                          </div>
+                          <div
+                            className="hd-steps__col-container"
+                          >
+                            <div
+                              className="hd-steps__col-container__row "
+                              data-testid="payment-breakdown-row"
+                              key="1"
+                            >
+                              <div
+                                className="hd-steps__col-container__row__circle-col"
+                              >
+                                <HDCircle
+                                  date={
+                                    Object {
+                                      "day": 1,
+                                      "shortMonth": "2",
+                                    }
+                                  }
+                                  type="violet"
+                                >
+                                  <div
+                                    className="hd-step-circle-date"
+                                    data-testid="circle-violet"
+                                  >
+                                    <span>
+                                      <strong>
+                                        1
+                                      </strong>
+                                    </span>
+                                    <span>
+                                      2
+                                    </span>
+                                  </div>
+                                </HDCircle>
+                              </div>
+                              <div
+                                className="hd-steps__col-container__row__description-col"
+                              >
+                                <HDDescription
+                                  extraSpace={null}
+                                  label={
+                                    Array [
+                                      "TEST123",
+                                    ]
+                                  }
+                                  name={
+                                    Array [
+                                      "TEST123",
+                                    ]
+                                  }
+                                  quote={
+                                    Object {
+                                      "single": "£12",
+                                    }
+                                  }
+                                  tooltip={<div />}
+                                >
+                                  <div
+                                    className="hd-description-label"
+                                  >
+                                    <span>
+                                      TEST123
+                                    </span>
+                                    <br />
+                                  </div>
+                                  <div
+                                    className="hd-description-name"
+                                  >
+                                    <span>
+                                      TEST123
+                                    </span>
+                                  </div>
+                                  <div
+                                    className="hd-description-detail"
+                                  >
+                                    <div
+                                      className="hd-quote"
+                                      data-testid="description-quote-single"
+                                    >
+                                      £12
+                                    </div>
+                                    <div
+                                      className="hd-tooltip-wrapper"
+                                    >
+                                      <div />
+                                    </div>
+                                  </div>
+                                </HDDescription>
+                              </div>
+                            </div>
+                            <div
+                              className="hd-steps__col-container__row "
+                              data-testid="payment-breakdown-row"
+                              key="2"
+                            >
+                              <div
+                                className="hd-steps__col-container__row__circle-col"
+                              >
+                                <HDCircle
+                                  date={
+                                    Object {
+                                      "day": 1,
+                                      "shortMonth": "2",
+                                    }
+                                  }
+                                  type="dot"
+                                >
+                                  <div
+                                    className="hd-step-circle-date"
+                                    data-testid="circle-date"
+                                  >
+                                    <span>
+                                      <strong>
+                                        1
+                                      </strong>
+                                    </span>
+                                    <span>
+                                      2
+                                    </span>
+                                  </div>
+                                </HDCircle>
+                              </div>
+                              <div
+                                className="hd-steps__col-container__row__description-col"
+                              >
+                                <HDDescription
+                                  extraSpace={null}
+                                  label={null}
+                                  name={
+                                    Array [
+                                      "TEST123",
+                                    ]
+                                  }
+                                  quote={null}
+                                  tooltip={null}
+                                >
+                                  <div
+                                    className="hd-description-name"
+                                  >
+                                    <span>
+                                      TEST123
+                                    </span>
+                                  </div>
+                                  <div
+                                    className="hd-description-detail"
+                                  />
+                                </HDDescription>
+                              </div>
+                            </div>
+                            <div
+                              className="hd-steps__col-container__row "
+                              data-testid="payment-breakdown-row"
+                              key="3"
+                            >
+                              <div
+                                className="hd-steps__col-container__row__circle-col"
+                              >
+                                <HDCircle
+                                  date={null}
+                                  type="dot"
+                                >
+                                  <div
+                                    className="hd-step-circle-small"
+                                    data-testid="circle-dot"
+                                  />
+                                </HDCircle>
+                              </div>
+                              <div
+                                className="hd-steps__col-container__row__description-col"
+                              >
+                                <HDDescription
+                                  extraSpace={null}
+                                  label={null}
+                                  name={
+                                    Array [
+                                      "TEST123",
+                                    ]
+                                  }
+                                  quote={
+                                    Object {
+                                      "single": "£12",
+                                    }
+                                  }
+                                  tooltip={null}
+                                >
+                                  <div
+                                    className="hd-description-name"
+                                  >
+                                    <span>
+                                      TEST123
+                                    </span>
+                                  </div>
+                                  <div
+                                    className="hd-description-detail"
+                                  >
+                                    <div
+                                      className="hd-quote"
+                                      data-testid="description-quote-single"
+                                    >
+                                      £12
+                                    </div>
+                                  </div>
+                                </HDDescription>
+                              </div>
+                            </div>
+                            <div
+                              className="hd-steps__col-container__row "
+                              data-testid="payment-breakdown-row"
+                              key="7"
+                            >
+                              <div
+                                className="hd-steps__col-container__row__circle-col"
+                              >
+                                <HDCircle
+                                  date={
+                                    Object {
+                                      "day": 1,
+                                      "shortMonth": "2",
+                                    }
+                                  }
+                                  type="dot"
+                                >
+                                  <div
+                                    className="hd-step-circle-date"
+                                    data-testid="circle-date"
+                                  >
+                                    <span>
+                                      <strong>
+                                        1
+                                      </strong>
+                                    </span>
+                                    <span>
+                                      2
+                                    </span>
+                                  </div>
+                                </HDCircle>
+                              </div>
+                              <div
+                                className="hd-steps__col-container__row__description-col"
+                              >
+                                <HDDescription
+                                  extraSpace={null}
+                                  label={null}
+                                  name={null}
+                                  quote={null}
+                                  tooltip={<div />}
+                                >
+                                  <div
+                                    className="hd-description-detail"
+                                  >
+                                    <div
+                                      className="hd-tooltip-wrapper"
+                                    >
+                                      <div />
+                                    </div>
+                                  </div>
+                                </HDDescription>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </HDPaymentBreakdown>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <HDModal
+              cancelLabel="Cancel"
+              className="renewal__preference-overlay"
+              confirmLabel="Confirm"
+              customStyle="wide"
+              disableConfirm={true}
+              headerText="Opting out"
+              hideCancelButton={false}
+              hideClose={false}
+              hideConfirmButton={false}
+              hideFooter={false}
+              id="renewal-preference-overlay"
+              onBeforeOpen={[Function]}
+              onCancel={[Function]}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              show={false}
+            >
+              <Portal
+                containerInfo={
+                  <div
+                    id="portal-root"
+                  >
+                    
+                  </div>
+                }
+              />
+            </HDModal>
+          </div>
+        </Container>
+      </HDThanksPage>
+    </Provider>
+  </Provider>
+</Component>
+`;

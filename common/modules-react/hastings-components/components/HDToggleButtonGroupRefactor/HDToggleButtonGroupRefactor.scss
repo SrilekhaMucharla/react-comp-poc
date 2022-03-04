@@ -1,0 +1,48 @@
+.btn-group-toggle {
+    .btn,
+    > .btn:not(:first-child),
+    > .btn-group:not(:first-child) > .btn,
+    > .btn:not(:last-child):not(.dropdown-toggle),
+    > .btn-group:not(:last-child) > .btn {
+        border-radius: 6px;
+        &.active {
+            border-radius: 7px;
+            box-shadow: none;
+        }
+    }
+
+    .btn {
+        padding: 18px 11px;
+        &.btn-secondary {
+            background: $midnight-nordic-noir;
+            border-color: $mono-blue-yonder;
+        }
+
+        &.btn-default {
+            &.disabled {
+                color: $mono-light-steel;
+                border-color: $mono-light-steel;
+                cursor: not-allowed;
+            }
+        }
+    }
+
+    &.grid {
+        display: grid;
+        gap: 32px;
+        grid-auto-rows: 1fr;
+        @include media-breakpoint-down(md) {
+            gap: 20px;
+        }
+    }
+
+    &.gap-tiny {
+        gap: $tiny-value !important;
+    }
+
+    &.gap-md {
+        gap: $md-value !important;
+    }
+
+    //<i class="fas fa-check fa-lg"></i>
+}

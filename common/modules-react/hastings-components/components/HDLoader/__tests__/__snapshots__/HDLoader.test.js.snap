@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDLoader /> correctly renders component tree without props passed 1`] = `
+Array [
+  <div
+    className="hd-loader-overlay"
+  />,
+  <div
+    className="hd-loader-container"
+  >
+    <span
+      className="dizzy-squirrel"
+      data-testid="spinner-monochrome"
+    >
+      <svg
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+        viewBox="0 0 100 100"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g
+          className="monochrome"
+        >
+          <circle
+            cx="50"
+            cy="50"
+            r="45"
+            stroke="#f4f4f4"
+          />
+        </g>
+      </svg>
+    </span>
+    <div
+      className="hd-loader-text-wrapper"
+    >
+      <span
+        data-testid="loader-text"
+      >
+        We're working on it..
+      </span>
+    </div>
+  </div>,
+]
+`;

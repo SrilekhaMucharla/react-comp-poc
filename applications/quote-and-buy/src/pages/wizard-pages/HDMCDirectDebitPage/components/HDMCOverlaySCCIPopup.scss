@@ -1,0 +1,16 @@
+.scci_popup_overlay {
+    .icon_holder_row {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .scci_info_header {
+        font-weight: bold;
+        margin-bottom: 14px;
+    }
+
+    .hd-overlay-btn {
+        display: inline;
+    }
+}

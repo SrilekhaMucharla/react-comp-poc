@@ -1,0 +1,626 @@
+.no-dd-modal-subhead {
+  margin-bottom: 14px;
+}
+
+.mc-customize-quote-summary__month-year-buttons {
+  .btn {
+    justify-content: initial;
+    &:hover {
+      color: $app-theme;
+    }
+  }
+}
+
+.mc-customize-quote-summary {
+  margin: 0 -15px;
+  // .n-cars-button,
+  .n-cars-button-ann,
+  // .deferred-btn,
+  // .deferred-btn-ann,
+  .default-ann {
+    .btn-group-toggle {
+      label {
+        height: auto;
+      }
+    }
+  }
+
+  .arc-header {
+    height: 245px;
+    z-index: 1;
+
+    @include media-breakpoint-between(md, xl) {
+      height: 260px;
+    }
+  }
+}
+
+.mc-customize-quote-summary__quote-card {
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: $mono-white;
+  .mc-customize-quote-summary__quote-header {
+    height: 40px;
+    background-color: $midnight-nordic-noir;
+    display: flex;
+    align-items: center;
+    padding: 8px 30px;
+    @include media-breakpoint-down(sm) {
+      padding: 8px 25px;
+    }
+
+    .mc-customize-quote-summary__car-reg-number-container {
+      display: flex;
+      border-radius: 2px;
+      overflow: hidden;
+
+      .mc-customize-quote-summary__car-reg-number {
+        background-color: $midnight-reg;
+        border-radius: 2px;
+        padding: 1px 6px;
+        margin-right: 12px;
+        font-family: $font-licence-plate;
+        font-size: 15px;
+        line-height: 1.35;
+      }
+    }
+
+    .mc-customize-quote-summary__remove-car {
+      cursor: pointer;
+      font-size: 15px;
+      color: $mono-white;
+      text-decoration: underline;
+      margin-left: auto;
+    }
+  }
+
+  .mc-customize-quote-summary__cover-details {
+    margin: 0 15px;
+    .cover-details-container .benefits-container {
+      border-bottom: none;
+    }
+  }
+}
+
+.mc-customize-quote-summary__part {
+  box-shadow: $secondary-shadow;
+  background-color: $mono-white;
+  margin-bottom: 20px;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 30px;
+    border-radius: 7px;
+  }
+}
+
+.mc-customize-quote-summary__basic-info-part {
+  padding: 0 17% 25px;
+  @include media-breakpoint-down(sm) {
+    padding: 0 20px 20px;
+  }
+  @include media-breakpoint-down(md) {
+    padding: 0 10% 25px;
+  }
+
+  .btn-group-toggle {
+    display: flex;
+    @include media-breakpoint-down(sm) {
+      .btn {
+        padding: 18px 8px;
+      }
+    }
+
+    label {
+      z-index: 2;
+      margin: 0;
+      margin-bottom: 10px;
+      height: 180px;
+      @include media-breakpoint-down(sm) {
+        height: auto;
+      }
+      background-color: $mono-cotton-ball;
+      color: $mono-midnight;
+      border: 1px solid $mono-light-steel !important;
+
+      &:first-child {
+        margin-right: 9px;
+      }
+
+      &.active {
+        position: relative;
+        background-color: $midnight-royal-blue !important;
+        background-image: url("../../assets/images/background/selected-vector.svg");
+        background-size: cover;
+        color: $mono-white !important;
+      }
+
+      &.active:before {
+        content: "";
+        background-image: url("./../../assets/images/icons/tick-icon-cqw.svg");
+        background-size: contain;
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        background-color: $white-fill;
+        border: 1px solid $white-fill;
+        border-radius: 50%;
+        left: calc(50% - 14px);
+        top: -14px;
+      }
+
+      &.active:after {
+        display: none;
+      }
+    }
+  }
+
+  .only-annually {
+    .btn-group-toggle {
+      display: inline-flex;
+      width: 100%;
+    }
+  }
+}
+
+.deferred-btn {
+  .btn-group-toggle {
+    label {
+      height: 240px !important;
+      @include media-breakpoint-down(sm) {
+        height: 175px !important;
+      }
+      @include media-breakpoint-down(xs) {
+        height: auto !important;
+      }
+    }
+  }
+}
+
+.deferred-btn-ann {
+  .btn-group-toggle {
+    label {
+      height: 257px !important;
+      @include media-breakpoint-down(sm) {
+        height: 194px !important;
+      }
+    }
+  }
+}
+
+.n-cars-button {
+  .btn-group-toggle {
+    label {
+      height: 171px !important;
+      @include media-breakpoint-down(sm) {
+        height: 130px !important;
+      }
+    }
+  }
+}
+
+.mc-customize-quote-summary__your-quote-header {
+  position: relative;
+  z-index: 3;
+  color: $mono-white;
+}
+
+.mc-customize-quote-summary__car-details {
+  background-color: $mono-white;
+  padding: 24px 30px 20px 30px;
+  @include media-breakpoint-down(sm) {
+    padding: 18px 15px 20px 15px;
+  }
+}
+
+.mc-customize-quote-summary__car-name {
+  display: flex;
+}
+
+.mc-customize-quote-summary__label-text {
+  text-transform: capitalize;
+  font-size: 26px !important;
+  color: $mono-midnight;
+  line-height: 1.2;
+  margin-bottom: -6px;
+  @include media-breakpoint-down(sm) {
+    font-size: 22px !important;
+  }
+}
+
+.mc-customize-quote-summary__car-info {
+  display: flex;
+}
+
+.mc-customize-quote-summary__car-info-one {
+  display: flex;
+  align-items: center;
+}
+
+.mc-customize-quote-summary__car-info-two {
+  display: flex;
+  align-items: center;
+}
+
+.mc-customize-quote-summary__edit-driver {
+  display: flex;
+  align-items: center;
+}
+
+.mc-customize-quote-summary__car-icon {
+  height: 42px;
+  margin-right: 2px;
+}
+
+.mc-customize-quote-summary__user-icon {
+  height: 23px;
+}
+
+.mc-customize-quote-summary__view-driver-link {
+  margin-left: 14px;
+}
+
+.mc-customize-quote-summary__view-car-details-link {
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  border-bottom: 2px solid $midnight-royal-blue;
+  cursor: pointer;
+}
+
+.mc-customize-quote-summary__quote-amount {
+  color: $midnight-royal-blue;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: auto;
+  line-height: 1.25;
+  @include media-breakpoint-down(sm) {
+    font-size: 21px;
+    line-height: 1.43;
+  }
+}
+
+.mc-customize-quote-summary__payment-content {
+  .mc-customize-quote-summary__btn-col {
+    padding: 0;
+  }
+
+  .mc-customize-quote-summary__payment-summary-text {
+    font-size: 16px;
+    line-height: 1.5;
+    @include media-breakpoint-down(sm) {
+      font-size: 12px;
+    }
+  }
+
+  .mc-customize-quote-summary__payment-value {
+    font-size: 42px;
+    line-height: 1.2;
+    @include media-breakpoint-down(sm) {
+      font-size: 28px;
+      line-height: 1.07;
+    }
+
+    .mc-customize-quote-summary__prefix {
+      font-size: 28px;
+      line-height: 120%;
+      @include media-breakpoint-down(md) {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .mc-customize-quote-summary__payment-description-bottom {
+    font-size: 16px;
+    line-height: 1.1;
+    @include media-breakpoint-down(sm) {
+      font-size: 13px;
+    }
+  }
+
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+  .payment-header {
+    margin-top: 0;
+    font-size: 15px;
+    line-height: 22.5px;
+    margin-bottom: 4px;
+  }
+
+  .mc-customize-quote-summary__payment-header {
+    line-height: 1.5;
+  }
+
+  .pay-monthly-three {
+    // margin-top: 25px;
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 8px;
+    @include media-breakpoint-down(sm) {
+      // margin-top: 15px;
+      font-size: 20px;
+      margin-bottom: 3px;
+    }
+  }
+
+  .total-price-n-cars {
+    margin-top: 8px;
+    font-size: 15px;
+    line-height: 18px;
+    margin-bottom: 0;
+    @include media-breakpoint-down(sm) {
+      margin-top: 3px;
+      font-size: 12px;
+      line-height: 13.2px;
+    }
+  }
+
+  .total-price-n-cars-amount {
+    font-size: 21px;
+    line-height: 25.2px;
+    margin-bottom: 15px;
+    @include media-breakpoint-down(sm) {
+      font-size: 15px;
+      line-height: 16.5px;
+      margin-bottom: 6px;
+    }
+  }
+
+  .payment-description-top {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .payment-description-bottom {
+    font-size: 16px;
+    line-height: 17.6px;
+    margin-bottom: 0;
+    @include media-breakpoint-down(sm) {
+      font-size: 13px;
+      line-height: 14.3px;
+    }
+  }
+
+  .payment-value {
+    height: 50px;
+    font-size: 42px;
+    @include media-breakpoint-down(sm) {
+      font-size: 28px;
+      height: 30px;
+    }
+    line-height: 120%;
+
+    .prefix {
+      font-size: 28px;
+      line-height: 120%;
+      @include media-breakpoint-down(sm) {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  .payment-value-def {
+    height: 50px;
+    font-size: 42px;
+    @include media-breakpoint-down(sm) {
+      font-size: 24px;
+      height: 30px;
+    }
+    line-height: 120%;
+
+    .prefix {
+      font-size: 28px;
+      line-height: 120%;
+      @include media-breakpoint-down(sm) {
+        font-size: 18px;
+        line-height: 30px;
+      }
+    }
+
+    .pay-today-later {
+      font-weight: 600;
+      margin-top: -5px;
+      font-size: 15px;
+      line-height: 1.2;
+      @include media-breakpoint-down(sm) {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .pay-value-height {
+    height: 68px;
+    @include media-breakpoint-down(sm) {
+      height: 36px;
+    }
+  }
+
+  .payment-value-scnd {
+    margin-top: 9px;
+  }
+
+  .payment-value-ann-scnd {
+    margin-top: 22px;
+    @include media-breakpoint-down(md) {
+      margin-top: 30px;
+    }
+  }
+
+  .payment-value-ann-scnd-nodd {
+    margin-top: 11px;
+  }
+
+  .payment-explanation-link {
+    text-decoration: 2px solid $mono-white;
+    font-size: 16px;
+    line-height: 1.2;
+    text-decoration: underline;
+    @include media-breakpoint-down(sm) {
+      margin-top: 11px;
+      font-size: 13px;
+    }
+  }
+}
+
+.hastings-modal.customize-quote-error {
+  background-color: $blue-transparent-95;
+  z-index: 909090;
+
+  .hastings-modal-content {
+    width: 327px;
+    padding: 26px;
+
+    .hd-modal-header {
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 30px;
+      color: $mono-midnight;
+    }
+
+    .hd-modal-body {
+      .error-modal-vrn {
+        padding: 2px 6px;
+        background-color: $midnight-reg;
+        font-family: $font-licence-plate;
+        font-size: 25px;
+        line-height: 1.35;
+      }
+
+      .error-modal-car-name {
+        font-weight: bold;
+        margin: 14px 0;
+      }
+
+      .gen-hrs-msg {
+        margin: 14px 0;
+        font-weight: 600;
+      }
+
+      .gen-hrs-container {
+        margin-bottom: 14px;
+        .gen-hrs-row {
+          display: flex;
+          .gen-hrs-left {
+            width: 50%;
+          }
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        color: $mono-midnight;
+      }
+
+      h4 {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19.2px;
+        color: $mono-midnight;
+      }
+
+      .additional-info {
+        margin-bottom: 34px;
+
+        i.alert {
+          padding: 0 9px;
+          font-size: 16px;
+          line-height: 24px;
+          color: $alert-color;
+        }
+
+        span {
+          font-size: 16px;
+          line-height: 24px;
+          color: $mono-midnight;
+        }
+
+        span.link {
+          font-weight: bold;
+          border-bottom: 2px solid $midnight-royal-blue;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .hd-modal-footer {
+      display: block;
+      margin-top: 14px;
+
+      button {
+        &.btn-btnprimary {
+          background-color: $mint-dark !important;
+          border-color: $mint-dark !important;
+          border-width: 1px !important;
+          color: $mono-light-steel;
+          margin: 0px !important;
+        }
+
+        &.btn-btnsecondary {
+          background-color: $green-transparent-20 !important;
+          border-color: $midnight-persian-green !important;
+          border-width: 1px !important;
+          color: $mono-midnight;
+        }
+
+        &:nth-child(2) {
+          margin-top: 18px !important;
+        }
+
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 24.3px;
+      }
+    }
+  }
+}
+
+.mc-customize-quote-summary__payment-value--monthly {
+  // display: flex;
+  // flex-direction: row;
+  // align-items: baseline;
+  // justify-content: center;
+  padding: 0;
+}
+
+.mc-customize-quote-summary__quote-info,
+.mc-customize-quote-summary__quote-info-con,
+.mc-customize-quote-summary__quote-info-desc {
+  font-size: $font-size-regular;
+  display: flex;
+  justify-content: center;
+}
+
+.mc-customize-quote-summary__quote-info-desc {
+  color: $mono-blue-yonder;
+  font-size: 13px;
+  line-height: normal;
+}
+
+.mc-customize-quote-summary__quote-info-col {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.mc-customize-quote-summary__quote-ref {
+  font-weight: bold;
+}
+
+.mc-customize-quote-summary__quote-ref-label {
+  font-size: $font-size-regular;
+}
+
+.mc-customize-quote-summary__btn-col {
+  .annual-only__bold {
+    & > .payment-explanation-link {
+      font-weight: bold;
+    }
+  }
+}

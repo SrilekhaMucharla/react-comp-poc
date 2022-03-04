@@ -1,0 +1,58 @@
+.dll-container {
+    .form-group {
+        &:first-child {
+            margin-bottom: 0;
+        }
+
+        &:last-child {
+            .invalid-feedback {
+                margin-bottom: 0px;
+
+                @include media-breakpoint-down(sm) {
+                    margin-bottom: -15px;
+                }
+            }
+        }
+
+        .hd-date-picker__label {
+            @include media-breakpoint-down(sm) {
+                font-size: 25px;
+                margin-top: 0;
+            }
+        }
+
+        .hd-date-picker__date-fields {
+            display: flex;
+            align-items: center;
+
+            & > .row > div[class^="col-"] > .row,
+            & > .row > div.col > .row {
+                margin-left: 0;
+
+                & > div[class^="col-"],
+                & > div.col {
+                    padding-right: 10px;
+                    padding-left: 0;
+                    i {
+                        right: 1px;
+                    }
+
+                    &:last-child {
+                        padding-right: 40px;
+                        i {
+                            right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    + div {
+        margin-top: 20px;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 30px;
+        }
+    }
+}

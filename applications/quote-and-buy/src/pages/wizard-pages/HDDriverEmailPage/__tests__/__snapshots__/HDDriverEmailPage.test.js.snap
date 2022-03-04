@@ -1,0 +1,753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDriverEmailPage /> render component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDDriverEmailPage)>
+    <HDDriverEmailPage
+      setNavigation={[Function]}
+      submissionVM={
+        Object {
+          "baseData": Object {
+            "accountHolder": Object {
+              "dateOfBirth": null,
+              "emailAddress1": "test@mail.uk",
+            },
+            "isExistingCustomer": false,
+            "isPostalDocument": false,
+            "jobType": "Submission",
+            "marketingContacts": Object {
+              "allowEmail": false,
+              "allowPost": false,
+              "allowSMS": false,
+              "allowTelephone": false,
+            },
+            "periodStatus": "Draft",
+            "policyAddress": Object {},
+            "producerCode": "Default",
+            "productCode": "PrivateCar_Ext",
+            "productName": "Private Car",
+            "termType": "Annual",
+          },
+          "lobData": Object {
+            "privateCar": Object {
+              "coverables": Object {
+                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                "drivers": Array [
+                  Object {
+                    "claimsAndConvictions": Object {
+                      "claimsDetailsCollection": Array [],
+                      "convictionsCollection": Array [],
+                    },
+                    "licenceObtainedDate": null,
+                    "person": Object {
+                      "prefix": Object {},
+                    },
+                    "previousPoliciesInformation": Object {},
+                    "residingInUKSince": null,
+                    "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                  },
+                ],
+                "vehicleDrivers": Array [
+                  Object {},
+                ],
+                "vehicles": Array [
+                  Object {
+                    "isCarModified": "",
+                    "ncdProtection": Object {
+                      "drivingExperience": Object {},
+                    },
+                    "tracker": "",
+                    "vehicleModifications": Array [],
+                    "vehicleWorth": "",
+                  },
+                ],
+              },
+              "preQualQuestionSets": Array [],
+            },
+          },
+        }
+      }
+      updateEmailSaveProgress={[Function]}
+    >
+      <Container
+        className="driver-email-container"
+        fluid={false}
+      >
+        <div
+          className="driver-email-container container"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className=""
+                    id="driver-email-label"
+                    text="What's your email address?"
+                  >
+                    <h2
+                      className=""
+                      id="driver-email-label"
+                    >
+                      What's your email address?
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDForm
+                    className=""
+                    initValues={Object {}}
+                    onValidation={[Function]}
+                    passedKey="default-key"
+                    resetFormOnStart={false}
+                    submissionVM={
+                      Object {
+                        "baseData": Object {
+                          "accountHolder": Object {
+                            "dateOfBirth": null,
+                            "emailAddress1": "test@mail.uk",
+                          },
+                          "isExistingCustomer": false,
+                          "isPostalDocument": false,
+                          "jobType": "Submission",
+                          "marketingContacts": Object {
+                            "allowEmail": false,
+                            "allowPost": false,
+                            "allowSMS": false,
+                            "allowTelephone": false,
+                          },
+                          "periodStatus": "Draft",
+                          "policyAddress": Object {},
+                          "producerCode": "Default",
+                          "productCode": "PrivateCar_Ext",
+                          "productName": "Private Car",
+                          "termType": "Annual",
+                        },
+                        "lobData": Object {
+                          "privateCar": Object {
+                            "coverables": Object {
+                              "addInterestTypeCategory": "PAVhcleAddlInterest",
+                              "drivers": Array [
+                                Object {
+                                  "claimsAndConvictions": Object {
+                                    "claimsDetailsCollection": Array [],
+                                    "convictionsCollection": Array [],
+                                  },
+                                  "licenceObtainedDate": null,
+                                  "person": Object {
+                                    "prefix": Object {},
+                                  },
+                                  "previousPoliciesInformation": Object {},
+                                  "residingInUKSince": null,
+                                  "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                                },
+                              ],
+                              "vehicleDrivers": Array [
+                                Object {},
+                              ],
+                              "vehicles": Array [
+                                Object {
+                                  "isCarModified": "",
+                                  "ncdProtection": Object {
+                                    "drivingExperience": Object {},
+                                  },
+                                  "tracker": "",
+                                  "vehicleModifications": Array [],
+                                  "vehicleWorth": "",
+                                },
+                              ],
+                            },
+                            "preQualQuestionSets": Array [],
+                          },
+                        },
+                      }
+                    }
+                    validationSchema={
+                      ObjectSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_defaultDefault": [Function],
+                        "_deps": Array [],
+                        "_excludedEdges": Array [],
+                        "_exclusive": Object {},
+                        "_mutate": undefined,
+                        "_nodes": Array [
+                          "emailAddress1",
+                        ],
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "object",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "fields": Object {
+                          "emailAddress1": StringSchema {
+                            "_blacklist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "_conditions": Array [],
+                            "_deps": Array [],
+                            "_exclusive": Object {
+                              "VMValidation": false,
+                              "blackList": false,
+                              "email": false,
+                              "required": true,
+                            },
+                            "_mutate": undefined,
+                            "_options": Object {
+                              "abortEarly": true,
+                              "recursive": true,
+                            },
+                            "_type": "string",
+                            "_typeError": [Function],
+                            "_whitelist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "tests": Array [
+                              [Function],
+                              [Function],
+                              [Function],
+                              [Function],
+                            ],
+                            "transforms": Array [
+                              [Function],
+                            ],
+                            "type": "string",
+                            "vmPath": "baseData.accountHolder.emailAddress1",
+                          },
+                        },
+                        "tests": Array [],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "object",
+                      }
+                    }
+                  >
+                    <Formik
+                      initialTouched={Array []}
+                      initialValues={
+                        Object {
+                          "emailAddress1": "",
+                        }
+                      }
+                      key="default-key"
+                      validateOnMount={true}
+                      validationSchema={
+                        ObjectSchema {
+                          "_blacklist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "_conditions": Array [],
+                          "_defaultDefault": [Function],
+                          "_deps": Array [],
+                          "_excludedEdges": Array [],
+                          "_exclusive": Object {},
+                          "_mutate": undefined,
+                          "_nodes": Array [
+                            "emailAddress1",
+                          ],
+                          "_options": Object {
+                            "abortEarly": true,
+                            "recursive": true,
+                          },
+                          "_type": "object",
+                          "_typeError": [Function],
+                          "_whitelist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "fields": Object {
+                            "emailAddress1": StringSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_deps": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                                "blackList": false,
+                                "email": false,
+                                "required": true,
+                              },
+                              "_mutate": undefined,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "string",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "tests": Array [
+                                [Function],
+                                [Function],
+                                [Function],
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "string",
+                              "vmPath": "baseData.accountHolder.emailAddress1",
+                            },
+                          },
+                          "tests": Array [],
+                          "transforms": Array [
+                            [Function],
+                          ],
+                          "type": "object",
+                        }
+                      }
+                    >
+                      <Form
+                        className=""
+                        inline={false}
+                        noValidate={true}
+                        onSubmit={[Function]}
+                      >
+                        <form
+                          className=""
+                          noValidate={true}
+                          onSubmit={[Function]}
+                        >
+                          <div />
+                          <Row
+                            noGutters={false}
+                          >
+                            <div
+                              className="row"
+                            >
+                              <Col
+                                md={8}
+                                xs={12}
+                              >
+                                <div
+                                  className="col-md-8 col-12"
+                                >
+                                  <FormGroup
+                                    key="baseData.accountHolder.emailAddress1.emailAddress1.driver-email-text-input"
+                                  >
+                                    <div
+                                      className="form-group"
+                                    >
+                                      <FormControl
+                                        as={
+                                          Object {
+                                            "$$typeof": Symbol(react.forward_ref),
+                                            "defaultProps": Object {
+                                              "id": "default-id",
+                                              "onBeforeOpen": null,
+                                              "onBlur": null,
+                                              "onCancel": null,
+                                              "onChange": null,
+                                              "onClick": null,
+                                              "onConfirm": null,
+                                              "onDelete": null,
+                                              "onEdit": null,
+                                              "onFocus": null,
+                                              "onSelect": null,
+                                              "webAnalyticsEvent": null,
+                                            },
+                                            "displayName": undefined,
+                                            "propTypes": Object {
+                                              "id": [Function],
+                                              "onBeforeOpen": [Function],
+                                              "onBlur": [Function],
+                                              "onCancel": [Function],
+                                              "onChange": [Function],
+                                              "onClick": [Function],
+                                              "onConfirm": [Function],
+                                              "onDelete": [Function],
+                                              "onEdit": [Function],
+                                              "onFocus": [Function],
+                                              "onSelect": [Function],
+                                              "webAnalyticsEvent": [Function],
+                                            },
+                                            "render": [Function],
+                                            "type": undefined,
+                                            "typeName": "HDTextInput",
+                                          }
+                                        }
+                                        className="undefined "
+                                        custom={true}
+                                        id="driver-email-text-input"
+                                        inputMode="email"
+                                        name="emailAddress1"
+                                        onBeforeOpen={null}
+                                        onBlur={[Function]}
+                                        onCancel={null}
+                                        onChange={[Function]}
+                                        onClick={null}
+                                        onConfirm={null}
+                                        onDelete={null}
+                                        onEdit={null}
+                                        onFocus={null}
+                                        onKeyPress={[Function]}
+                                        onSelect={null}
+                                        path="baseData.accountHolder.emailAddress1"
+                                        placeholder="Email address"
+                                        reference={
+                                          Object {
+                                            "current": <input
+                                              class="hd-text-input__form-control form-control"
+                                              data-testid="text-input"
+                                              id="driver-email-text-input"
+                                              inputmode="email"
+                                              name="emailAddress1"
+                                              path="baseData.accountHolder.emailAddress1"
+                                              placeholder="Email address"
+                                              value=""
+                                            />,
+                                          }
+                                        }
+                                        value=""
+                                        webAnalyticsEvent={
+                                          Object {
+                                            "event_action": "What's your email address?",
+                                          }
+                                        }
+                                      >
+                                        <ForwardRef
+                                          className="undefined  custom"
+                                          id="driver-email-text-input"
+                                          inputMode="email"
+                                          name="emailAddress1"
+                                          onBeforeOpen={null}
+                                          onBlur={[Function]}
+                                          onCancel={null}
+                                          onChange={[Function]}
+                                          onClick={null}
+                                          onConfirm={null}
+                                          onDelete={null}
+                                          onEdit={null}
+                                          onFocus={null}
+                                          onKeyPress={[Function]}
+                                          onSelect={null}
+                                          path="baseData.accountHolder.emailAddress1"
+                                          placeholder="Email address"
+                                          reference={
+                                            Object {
+                                              "current": <input
+                                                class="hd-text-input__form-control form-control"
+                                                data-testid="text-input"
+                                                id="driver-email-text-input"
+                                                inputmode="email"
+                                                name="emailAddress1"
+                                                path="baseData.accountHolder.emailAddress1"
+                                                placeholder="Email address"
+                                                value=""
+                                              />,
+                                            }
+                                          }
+                                          value=""
+                                          webAnalyticsEvent={
+                                            Object {
+                                              "event_action": "What's your email address?",
+                                            }
+                                          }
+                                        >
+                                          <ForwardRef
+                                            allowLeadingZero={false}
+                                            appendContent={null}
+                                            appendLabel={null}
+                                            className="undefined  custom"
+                                            customClassName=""
+                                            data={null}
+                                            disabled={false}
+                                            icon={null}
+                                            id="driver-email-text-input"
+                                            inputMode="email"
+                                            isInvalidCustom={null}
+                                            mask={null}
+                                            maskChar="_"
+                                            maxLength={null}
+                                            name="emailAddress1"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyPress={[Function]}
+                                            path="baseData.accountHolder.emailAddress1"
+                                            placeholder="Email address"
+                                            preText={null}
+                                            reference={
+                                              Object {
+                                                "current": <input
+                                                  class="hd-text-input__form-control form-control"
+                                                  data-testid="text-input"
+                                                  id="driver-email-text-input"
+                                                  inputmode="email"
+                                                  name="emailAddress1"
+                                                  path="baseData.accountHolder.emailAddress1"
+                                                  placeholder="Email address"
+                                                  value=""
+                                                />,
+                                              }
+                                            }
+                                            reset={false}
+                                            size={null}
+                                            svgIcon={null}
+                                            thousandSeprator={false}
+                                            tickIcon={false}
+                                            type={null}
+                                            value=""
+                                          >
+                                            <InputGroup
+                                              className="undefined  custom "
+                                              size={null}
+                                            >
+                                              <div
+                                                className="undefined  custom  input-group"
+                                              >
+                                                <FormControl
+                                                  className="hd-text-input__form-control"
+                                                  data-testid="text-input"
+                                                  disabled={false}
+                                                  id="driver-email-text-input"
+                                                  inputMode="email"
+                                                  maxLength={null}
+                                                  name="emailAddress1"
+                                                  onBlur={[Function]}
+                                                  onChange={[Function]}
+                                                  onFocus={[Function]}
+                                                  onKeyPress={[Function]}
+                                                  path="baseData.accountHolder.emailAddress1"
+                                                  placeholder="Email address"
+                                                  type={null}
+                                                  value=""
+                                                >
+                                                  <input
+                                                    className="hd-text-input__form-control form-control"
+                                                    data-testid="text-input"
+                                                    disabled={false}
+                                                    id="driver-email-text-input"
+                                                    inputMode="email"
+                                                    maxLength={null}
+                                                    name="emailAddress1"
+                                                    onBlur={[Function]}
+                                                    onChange={[Function]}
+                                                    onFocus={[Function]}
+                                                    onKeyPress={[Function]}
+                                                    path="baseData.accountHolder.emailAddress1"
+                                                    placeholder="Email address"
+                                                    type={null}
+                                                    value=""
+                                                  />
+                                                </FormControl>
+                                                <i
+                                                  className="fa fa-exclamation exclam hd-text-input__exclam"
+                                                />
+                                              </div>
+                                            </InputGroup>
+                                          </ForwardRef>
+                                        </ForwardRef>
+                                      </FormControl>
+                                      <Feedback
+                                        type="invalid"
+                                      >
+                                        <div
+                                          className="invalid-feedback"
+                                        >
+                                          Sorry, you need to answer this question
+                                        </div>
+                                      </Feedback>
+                                    </div>
+                                  </FormGroup>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                        </form>
+                      </Form>
+                    </Formik>
+                  </HDForm>
+                  <HDInfoCardRefactor
+                    className={null}
+                    id="driver-email-info-card"
+                    image="tip_circle_purple.svg"
+                    isRight={false}
+                    notes={null}
+                    paragraphs={
+                      Array [
+                        "By giving us your email address you can:",
+                        <ul
+                          className="pad-inl-start-beg m-0"
+                        >
+                          <li>
+                            <span>
+                              Get your quote emailed to you.
+                            </span>
+                          </li>
+                          <li>
+                            <span>
+                              Retrieve any quotes you’ve saved.
+                            </span>
+                          </li>
+                        </ul>,
+                        "It won't be shared with anyone else and, if you buy a policy, it will be used to set up your online account. You can then check or change your details, including email preferences.",
+                      ]
+                    }
+                    size={null}
+                    theme={null}
+                    title={null}
+                  >
+                    <div
+                      className="info-card left  "
+                      id="driver-email-info-card"
+                    >
+                      <img
+                        alt="info-card"
+                        className="info-card__icon"
+                        src="tip_circle_purple.svg"
+                      />
+                      <p
+                        className="info-card__paragraph paragraph_0"
+                        key="0"
+                      >
+                        By giving us your email address you can:
+                      </p>
+                      <p
+                        className="info-card__paragraph paragraph_1"
+                        key="1"
+                      >
+                        <ul
+                          className="pad-inl-start-beg m-0"
+                        >
+                          <li
+                            key="0"
+                          >
+                            <span>
+                              Get your quote emailed to you.
+                            </span>
+                          </li>
+                          <li
+                            key="1"
+                          >
+                            <span>
+                              Retrieve any quotes you’ve saved.
+                            </span>
+                          </li>
+                        </ul>
+                      </p>
+                      <p
+                        className="info-card__paragraph paragraph_2"
+                        key="2"
+                      >
+                        It won't be shared with anyone else and, if you buy a policy, it will be used to set up your online account. You can then check or change your details, including email preferences.
+                      </p>
+                    </div>
+                  </HDInfoCardRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="margin-top-xl"
+            disabled={true}
+            id="continue-button"
+            label="Continue"
+            onBeforeOpen={null}
+            onBlur={null}
+            onCancel={null}
+            onChange={null}
+            onClick={[Function]}
+            onConfirm={null}
+            onDelete={null}
+            onEdit={null}
+            onFocus={null}
+            onSelect={null}
+            size="md"
+            variant="primary"
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Continue - Redirecting from: HastingsPersonalDetails_Email",
+              }
+            }
+          >
+            <HDButtonRefactor
+              className="margin-top-xl"
+              disabled={true}
+              fullWidth={false}
+              id="continue-button"
+              label="Continue"
+              onClick={[Function]}
+              onKeyPress={null}
+              size="md"
+              type="button"
+              variant="primary"
+            >
+              <Button
+                active={false}
+                block={false}
+                className="hd-btn hd-btn-primary margin-top-xl"
+                disabled={true}
+                id="continue-button"
+                onClick={[Function]}
+                onKeyPress={null}
+                size="md"
+                type="button"
+                variant="primary"
+              >
+                <button
+                  className="hd-btn hd-btn-primary margin-top-xl btn btn-primary btn-md"
+                  disabled={true}
+                  id="continue-button"
+                  onClick={[Function]}
+                  onKeyPress={null}
+                  type="button"
+                >
+                  Continue
+                </button>
+              </Button>
+            </HDButtonRefactor>
+          </ForwardRef>
+        </div>
+      </Container>
+    </HDDriverEmailPage>
+  </Connect(HDDriverEmailPage)>
+</Provider>
+`;

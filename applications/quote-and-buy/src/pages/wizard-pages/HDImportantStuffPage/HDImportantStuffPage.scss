@@ -1,0 +1,240 @@
+.customize-quote-wizard .wizard-head.important-stuff__head {
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 115px;
+    margin-bottom: -80px;
+    height: 340px;
+    @include media-breakpoint-up(md) {
+        min-height: 375px;
+        height: 375px;
+        margin-bottom: -110px;
+        padding-bottom: 0;
+    }
+
+    //&::after {
+    //    border-radius: 0;
+    //    clip-path: ellipse(58% 50% at bottom);
+    //    height: 88px;
+    //    @include media-breakpoint-up(xxl) {
+    //        height: 100px;
+    //    }
+    //}
+}
+
+.important-stuff__payment-btns-group .btn-group-toggle label.btn {
+    background-color: $gray-light-9;
+    color: $app-theme;
+    justify-content: flex-start;
+    height: auto;
+    min-height: 170px;
+    @include media-breakpoint-down(sm) {
+        min-height: 146px;
+    }
+
+    &.active {
+        background-color: $link-color;
+        background-image: url("../images/icons/selected-vector.svg");
+        background-size: cover;
+        color: $white-fill;
+
+        &:not(:hover).btn-default {
+            border: 1px solid #60759e;
+        }
+    }
+
+    &.active:before {
+        content: "";
+        background-image: url("./../../assets/images/icons/tick-icon-cqw.svg");
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        background-color: $white-fill;
+        background-size: contain;
+        border: 2px solid $white-fill;
+        border-radius: 50%;
+        top: -14px;
+    }
+
+    &.active:after {
+        display: none;
+    }
+
+    &:hover {
+        border: 1px solid $mono-blue-yonder;
+    }
+}
+
+.important-stuff__payment-btns-group--only-annual .btn-group-toggle {
+    display: inline-flex;
+    width: 300px;
+    @include media-breakpoint-down(md) {
+        width: 250px;
+    }
+}
+
+.important-stuff__payment-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+    a {
+        margin-top: auto;
+    }
+}
+
+.important-stuff__payment-header {
+    font-size: $font-size-regular-1;
+    font-weight: 700;
+}
+
+.important-stuff__payment-value {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 42px;
+    @include media-breakpoint-down(md) {
+        font-size: $font-size-xl-1;
+    }
+}
+
+.important-stuff__payment-value__prefix {
+    font-size: $font-size-xl-1;
+    @include media-breakpoint-down(md) {
+        font-size: $font-size-lg;
+    }
+}
+
+.important-stuff__payment-summary-text {
+    font-weight: 500;
+    @include media-breakpoint-down(md) {
+        font-size: $font-size-sm;
+    }
+}
+
+.important-stuff__payment-summary-text--white {
+    border-bottom: 2px solid $white-color;
+}
+
+.important-stuff__payment-explanation-link {
+    display: flex;
+    flex: 1;
+    flex-flow: column-reverse;
+    font-weight: 700;
+    font-size: $font-size-sm-1;
+    line-height: 1.2;
+    text-decoration: underline;
+}
+
+.important-stuff__payment-description-bottom {
+    font-weight: normal;
+    font-size: $font-size-regular-1;
+    margin-top: -8px;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm-1;
+        margin-top: -5px;
+    }
+}
+
+.important-stuff__payments-description {
+    position: relative;
+    background-color: $gray-light-9;
+    border: 3px solid $link-color;
+    border-radius: 6px;
+    margin-top: 25px;
+    padding: 25px 90px;
+    @include media-breakpoint-down(sm) {
+        padding: 20px;
+    }
+
+    &:before {
+        position: absolute;
+        left: calc(50% - 15px);
+        top: -17px;
+        content: "";
+        width: 30px;
+        height: 30px;
+        background-color: $gray-light-9;
+        border-left: 3px solid $link-color;
+        border-top: 3px solid $link-color;
+        transform: matrix(0.71, 0.74, -0.68, 0.71, 0, 0);
+    }
+}
+
+.important-stuff__payments-description--monthly {
+    &:before {
+        left: calc(25% - 15px);
+    }
+}
+
+.important-stuff__payments-description--annual {
+    &:before {
+        left: calc(75% - 15px);
+    }
+}
+
+.important-stuff__payments-description__line {
+    display: flex;
+    justify-content: space-between;
+    color: $app-theme;
+    font-size: $font-size-regular;
+    & + & {
+        margin-top: 7px;
+    }
+
+    &.hp-coverage{
+        margin-top: 7px; 
+    }
+
+    div:last-child {
+        font-weight: 700;
+    }
+}
+
+.important-stuff__payments-description__hp{
+    margin-top:7px;
+}
+
+.important-stuff__payments-description__line--commented {
+    color: $mono-blue-yonder;
+    font-size: $font-size-regular;
+}
+
+.important-stuff__driver-details-header {
+    margin-top: 35px;
+    @include media-breakpoint-up(md) {
+        margin-top: 40px;
+    }
+}
+
+.important-stuff__driver-details-info {
+    font-size: $font-size-sm-1;
+    @include media-breakpoint-up(md) {
+        font-size: $font-size-md;
+    }
+}
+
+.important-stuff__car-details-header {
+    margin-top: 45px;
+    @include media-breakpoint-up(md) {
+        margin-top: 50px;
+    }
+}
+
+.important-stuff__payment-info-container {
+    margin-bottom: 40px;
+}
+
+.important-stuff__hr {
+    margin: 15px 0;
+    @include media-breakpoint-down(sm) {
+        margin: 10px 0;
+    }
+}
+
+.important-stuff__drivers-col {
+    i {
+        font-weight: normal;
+        font-style: normal;
+    }
+}

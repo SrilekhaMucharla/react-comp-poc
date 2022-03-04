@@ -1,0 +1,57 @@
+// Use ONLY Bootstrap media queries
+// More info on: https://getbootstrap.com/docs/4.5/layout/overview/#responsive-breakpoints
+
+// Tiny breakpoint added for smaller screen sizes
+$grid-breakpoints: (
+  xs:0,
+  super-small:330px,
+  tiny:375px,
+  sm:576px,
+  md:768px,
+  lg:992px,
+  xl:1200px,
+  xxl:1440px
+);
+
+// Some ready to use examples
+// @include media-breakpoint-between(xs, sm) {}
+// @include media-breakpoint-between(sm, xxl) {}
+// @include media-breakpoint-down(md) {} // based on max-width
+// @include media-breakpoint-up(lg) {} // based on min-width
+
+// Device orientation
+
+@mixin orientation($direction) {
+  $orientation-landscape: "(orientation:landscape)";
+  $orientation-portrait: "(orientation:portrait)";
+
+  @if $direction == landscape {
+    @media #{$orientation-landscape} { @content; }
+  }
+  @if $direction == portrait {
+    @media #{$orientation-portrait} { @content; }
+  }
+}
+
+// Device orientation Example
+
+//@include media-breakpoint-down(sm) {
+//  @include orientation(landscape) {
+//
+//  }
+//}
+
+@mixin vendor-keyframes($name) {
+  @-webkit-keyframes #{$name} {
+      @content;
+  }
+  @-moz-keyframes #{$name} {
+      @content;
+  }
+  @-o-keyframes #{$name} {
+      @content;
+  }
+  @keyframes #{$name} {
+      @content;
+  }
+}

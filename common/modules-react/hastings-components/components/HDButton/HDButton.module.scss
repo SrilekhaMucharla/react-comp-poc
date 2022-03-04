@@ -1,0 +1,129 @@
+.hastings-btn {
+    width: 315px;
+    height: 50px;
+    @include media-breakpoint-up(md) {
+        width: 350px;
+        height: 60px;
+    }
+}
+
+.hastings-btnprimary:focus,
+.hastings-btnprimary:hover,
+.hastings-btnprimary.hover {
+    color: $white-color !important;
+    background-color: $mint-dark !important;
+    border: 1px solid $info-color !important;
+    box-shadow: none;
+    font-size: $font-size-lg !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+}
+
+.hastings-btnprimary:disabled {
+    cursor: not-allowed;
+    color: $white-color !important;
+    background-color: $mint-dark !important;
+    border: 1px solid $info-color !important;
+    font-size: $font-size-lg !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+}
+
+.hastings-btnsecondary,
+.hastings-btnsecondary:focus,
+.hastings-btnsecondary:hover {
+    background: $blue-dark-4 !important;
+    color: $white-color !important;
+    border: 1px solid $info-color !important;
+    box-shadow: none;
+    margin-bottom:5px;
+    font-size: $font-size-lg !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+}
+
+.hastings-btnsecondary:disabled {
+    background: $blue-dark-4 !important;
+    color: $white-color !important;
+    border: 1px solid $info-color !important;
+    cursor: not-allowed;
+    font-size: $font-size-lg !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+}
+
+.hastings-cardbutton,
+.hastings-cardbutton:focus,
+.hastings-cardbutton:hover {
+    background: $blue-dark-4 !important;
+    box-shadow: none;
+    border: 1px solid $info-color !important;
+    border-radius: 6px !important;
+    color: $white-color !important;
+    font-size: $font-size-lg !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+    
+    @include media-breakpoint-between(xs, sm) {
+        width: 100%;
+        height: 3.75em;
+    }
+
+    @include media-breakpoint-between(md, xl) {
+        width: 18.75em;
+        height: 3.75em;
+    }
+}
+
+.hastings-cardbutton:disabled {
+    background: $blue-dark-4 !important;
+    border: 1px solid $info-color !important;
+    border-radius: 6px !important;
+    color: $white-color !important;
+    font-size: $font-size-lg !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+
+    @include media-breakpoint-between(xs, sm) {
+        width: 100%;
+        height: 3.75em;
+    }
+
+    @include media-breakpoint-between(md, xl) {
+        width: 18.75em;
+        height: 3.75em;
+    }
+
+    cursor: not-allowed;
+}
+
+.hastings-btntertiary,
+.hastings-btntertiary:focus,
+.hastings-btntertiary:hover {
+    background: $green-transparent-20 !important;
+    color: $white-color !important;
+    border: 1px solid $green-transparent-20 !important;
+    box-shadow: none;
+    margin-bottom:5px;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+}
+
+.hastings-btntertiary:disabled {
+    background: $green-transparent-20 !important;
+    color: $white-color !important;
+    border: 1px solid $green-transparent-20 !important;
+    cursor: not-allowed;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    line-height: 1.35 !important;
+    font-family: $font-face-generic-regular !important;
+}

@@ -1,0 +1,6 @@
+.other-things__content {
+  padding: 15px;
+  @include media-breakpoint-up(md) {
+      padding: 35px;
+  }
+}

@@ -1,0 +1,34 @@
+.direct-debit-seci-overlay {
+    &,
+    & > .hd-overlay-btn {
+        display: inline
+    }
+}
+
+.debit-debit-overlay__heading {
+    margin-bottom: 10px;
+}
+
+.direct-debit-seci-overlay__print-col {
+    @include media-breakpoint-up(md) {
+        margin-right: -33px;
+    }
+}
+
+.direct-debit-seci-overlay__print-col__content {
+    cursor: pointer;
+}
+
+.direct-debit-seci-overlay__print-col__icon {
+    font-size: 16px;
+}
+
+@media print {
+    .parent-row {
+        padding: 10px;
+        color: $app-theme;
+        .debit-debit-overlay__heading, p {
+            color: $info-color 
+        }
+    }
+}

@@ -1,0 +1,217 @@
+.interstitial-page-container {
+  .info-box {
+    .page-interstitial-info-box-title {
+      font-size: $hd-font-size-body;
+      @include media-breakpoint-down(md) {
+        font-size: $hd-font-size-md;
+      }
+    }
+    .interstitial-progress-bar {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      .line-progress {
+        width: calc(( 100% - 150px )/4);
+        height: 8px;
+        background: $mono-light-steel;
+        .animated-progress {
+          height: 100%;
+          animation-duration: 2s;
+          animation-name: lineFilled;
+          animation-fill-mode: forwards;
+        }
+        .animated-progress1 {
+          animation-delay: 1s;
+        }
+        .animated-progress2{
+          animation-delay: 5s;
+        }
+        .animated-progress3 {
+          animation-delay: 9s;
+        }
+      }
+      .circle-progress {
+        width: 60px;
+        height: 60px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 6px solid $mono-light-steel;
+        animation-name: cirlceFilled;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        i {
+          font-size: 23px;
+          color: $mono-light-steel;
+          animation-name: tickFilled;
+          animation-duration: 2s;
+        }
+      }
+
+      .circle-progress1{
+        animation-delay: 3s;
+        i {
+          animation-delay: 3s;
+          animation-fill-mode: forwards;
+        }
+      }
+      .circle-progress2{
+        animation-delay: 7s;
+        i {
+          animation-delay: 7s;
+          animation-fill-mode: both;
+        }
+      }
+      .circle-progress3{
+        animation-delay: 10s;
+        i {
+          animation-delay: 10s;
+          animation-fill-mode: both;
+        }
+      }
+      @keyframes tickFilled {
+        100% { color: $white-color}
+      }
+      @keyframes cirlceFilled {
+        100% {background:  #0069CC;border: 0 solid  #0069CC;}
+      }
+
+      @keyframes lineFilled {
+        from {width: 0;background: #0069CC;}
+        to { background: #0069CC;width: 100%;}
+      }
+      .circle-progress.filled {
+        background:  #0069CC;
+        border: 0 solid  #0069CC;
+        transition: 2s all;
+        i {
+          color: $white-color;
+        }
+      }
+    }
+
+    .interstitial-details {
+      display: flex;
+      align-items: flex-start;
+      margin-top: 20px;
+      margin-left: calc(( 100% - 150px )/8);
+      width: calc(100% - (( 100% - 150px )/8));
+      color: $mono-light-steel;
+
+      .progress-details {
+        display: float;
+        text-align: center;
+        font-size: $font-size-regular-1;
+        width: 33.33%;
+        font-family: $font-face-generic-regular;
+        font-weight: 600;
+        animation-name: detailsFilled;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        span {
+          margin: 0 auto;
+          display: block;
+          max-width: 100px;
+        }
+        &:last-child{
+          margin-right: 0;
+          @include media-breakpoint-up(tiny) {
+            margin-right: 15px;
+          }
+          @include media-breakpoint-up(md) {
+            margin-right: 30px;
+          }
+          @include media-breakpoint-up(lg) {
+            margin-right: 5px;
+          }
+          @include media-breakpoint-up(xl) {
+            margin-right: 15px;
+          }
+        }
+      }
+      .vehicle-details{
+        animation-delay: 3s;
+      }
+      .cover-details{
+        animation-delay: 7s;
+      }
+      .personal-details{
+        animation-delay: 10s;
+      }
+      @keyframes detailsFilled {
+        100%{color: $midnight-royal-blue;}
+      }
+    }
+
+    .align-content-center {
+      display: flex;
+      align-content: center;
+    }
+
+    .secure-safe-info {
+      font-size: $hd-font-size-small;
+      color: $mono-blue-yonder;
+      display: flex;
+      align-items: center;
+      margin: 0 auto 45px auto;
+      @include media-breakpoint-down(md){
+        margin: 0 auto 30px auto;
+      }
+
+      img {
+        display: flex;
+        margin-right: 5px;
+      }
+    }
+
+  }
+
+  .interstitial-ratings-wizard {
+    img {
+      image-rendering: -webkit-optimize-contrast;
+      height: 73px;
+      width: auto;
+      @include media-breakpoint-down(md){
+        height: 50px;
+      }
+    }
+    p {
+      font-size: $hd-font-size-small;
+      color: $mono-midnight;
+      margin: 15px auto 0 auto;
+      width: 100%;
+      max-width: 110px;
+    }
+
+    .interstitial-ratings-moneyFacts {
+      max-width: 130px;
+    }
+  }
+
+  .interstitial-subtitle {
+    position: relative;
+    height: 100px;
+
+
+    .subtitle {
+      opacity: 0;
+      animation-name: moveTitle;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;
+      width: 100%;
+    }
+
+    @keyframes moveTitle {
+      0% {opacity: 1; margin-left: 37%;}
+      25% {margin-left: 0;}
+      85% {opacity: 1}
+      100% {opacity: 0; height: 10%;}
+    }
+    h2 {
+      @include media-breakpoint-down(md){
+        font-size: $hd-font-size-h3-mobile;
+      }
+    }
+  }
+}

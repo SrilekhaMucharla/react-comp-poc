@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTickListItem /> render component 1`] = `
+<div
+  className="tick-list-item-container"
+>
+  <div>
+    <svg
+      fill="none"
+      height="18"
+      viewBox="0 0 32 32"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="16"
+        cy="16"
+        fill="#E40034"
+        r="15"
+        stroke="#fff"
+        strokeWidth="2"
+      />
+      <path
+        d="M17.678 16.00l5.158-5.108 1.051-1.051c.15-.15.15-.401 0-.601l-1.101-1.102c-.2-.15-.451-.15-.601 0l-6.16 6.21-6.21-6.21c-.15-.15-.4-.15-.6 0l-1.102 1.102c-.15.2-.15.45 0 .6l6.21 6.16-6.21 6.21c-.15.15-.15.4 0 .6l1.101 1.103c.2.15.451.15.601 0l6.21-6.21 5.108 5.158 1.052 1.052c.15.15.4.15.6 0l1.102-1.102c.15-.2.15-.45 0-.601l-6.21-6.21z"
+        fill="#fff"
+      />
+    </svg>
+  </div>
+  <div
+    className="tick-list-item__content"
+  >
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className=""
+      text="test"
+    />
+  </div>
+</div>
+`;
+
+exports[`<HDTickListItem /> render component with children 1`] = `
+<div
+  className="tick-list-item-container"
+>
+  <div>
+    <svg
+      fill="none"
+      height="18"
+      viewBox="0 0 32 32"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="16"
+        cy="16"
+        fill="#E40034"
+        r="15"
+        stroke="#fff"
+        strokeWidth="2"
+      />
+      <path
+        d="M17.678 16.00l5.158-5.108 1.051-1.051c.15-.15.15-.401 0-.601l-1.101-1.102c-.2-.15-.451-.15-.601 0l-6.16 6.21-6.21-6.21c-.15-.15-.4-.15-.6 0l-1.102 1.102c-.15.2-.15.45 0 .6l6.21 6.16-6.21 6.21c-.15.15-.15.4 0 .6l1.101 1.103c.2.15.451.15.601 0l6.21-6.21 5.108 5.158 1.052 1.052c.15.15.4.15.6 0l1.102-1.102c.15-.2.15-.45 0-.601l-6.21-6.21z"
+        fill="#fff"
+      />
+    </svg>
+  </div>
+  <div
+    className="tick-list-item__content"
+  >
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className=""
+      text="test"
+    />
+    <p
+      className="tick-list-item__description"
+    >
+      <div />
+    </p>
+  </div>
+</div>
+`;

@@ -1,0 +1,40 @@
+.scan-or-continue {
+  .page-scan-or-continue__other-driver-info {
+    margin-bottom: 36px;
+    @include media-breakpoint-up(md) {
+      margin-bottom: 50px;
+    }
+  }
+  .page-scan-or-continue__disclaimer {
+    margin: 20px 0;
+    line-height: normal;
+    @include media-breakpoint-up(lg) {
+      margin-bottom: 30px;
+    }
+    @include media-breakpoint-up(xl) {
+      margin-top: -20px;
+    }
+  }
+  .page-scan-or-continue__discount-img {
+    height: 112px;
+    width: 106px;
+    object-fit: none;
+    object-position: top;
+  }
+  .page-scan-or-continue__subtitle {
+    @include media-breakpoint-down(md) {
+      margin-top: 16px;
+    }
+  }
+  .page-scan-or-continue__button-scan-licence,
+  .page-scan-or-continue__button-continue {
+    height: 50px;
+  }
+  .page-scan-or-continue__driving-information {
+    padding: 12px;
+  }
+  .alert-container {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+}

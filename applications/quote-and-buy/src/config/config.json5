@@ -1,0 +1,73 @@
+{
+  // app configuration
+  // here you can override/add any settings that will be included into the src/generated/config.json
+  // e.g.
+  // "servers": {
+  //   "pc": {
+  //     "url": "https://another.host.net/xcenter/pc/service/unauthenticated/edge"
+  //   }
+  // }
+  "localisation": {
+    "languageVariant": "EDG_PH"
+  },
+  "microblink":  {
+
+  },
+  "productName": "QuoteAndBuy",
+  "phoneNumber": "1-800-555-0199",
+  "maxFileUploadSize": 50000000,
+  "personalAutoConfig": {
+    "ageAllowedToDrive": 16,
+    "oldestCarYear": 1908
+  },
+  "defaultLocaleDetails": {
+    "mapCenter": {
+      "lat": 37.923933,
+      "lon": -122.5203
+    }
+  },
+  "credentials": {
+    "googleMapsApiKey": "ENTER GOOGLE MAPS API KEY HERE"
+  },
+  "googleMaps": {
+    "libraries": "geometry,places",
+    "version": "3.exp"
+  },
+  // This block is used to configure the capabilities that
+  // are available in the application
+  // The content of this block indicates the following:
+  // - the capability is absent -> the capability is disabled
+  // - the capability is valued to false -> the capability is disabled
+  // - the capability is valued to an empty array -> only the common parts of capability are enabled (no LOB specific)
+  // - the capability is valued to an array of strings -> only the LOBs (strings) indicated will be enabled together with the common modules
+  // - the capability is valued to true -> all of the LOBs are enabled (and the common modules)
+  // for example:
+  // "quote": [ 'pa', 'ho', 'slq', 'gtp', 'bop'],
+  // is equivalent to
+  // "quote": true,
+  // if the only 'pa', 'ho', 'slq', 'gtp' and 'bop' exist as lines of business.
+  "capabilitiesConfig": {
+    "quote": [ 'pa' ],
+    "googleplaces": true,
+    "guidance": false,
+    "policyjob": false,
+    "address": true,
+    "driverlicense": true,
+    "policycommon": true,
+    "propertycode": true,
+    "vehicleinfo": true,
+    "vehicleinfolookup": true,
+    "addresslookup":  true,
+    "validation":  true,
+    "payment": true,
+    "segmentation": true,
+    "faq": true,
+    "matcher": true,
+    "ipid" : true,
+    "document": true,
+    "docretrieve": true,
+    "account": true,
+    "ncd":true,
+    "renewaloptions":true
+  }
+}

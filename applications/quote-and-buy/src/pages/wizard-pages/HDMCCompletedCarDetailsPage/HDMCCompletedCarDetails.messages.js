@@ -1,0 +1,15 @@
+export const carTitle = 'RF20 PFV';
+export const mekeSample = 'Range Rover';
+export const modelSample = 'Evoque';
+export const upNext = 'UP NEXT ...';
+export const moreInfoAboutDriver = 'We need a bit more info about the drivers';
+export const carDetails = 'Car details';
+export const driverDetails = 'Driver details';
+export const coverDetails = 'Cover details';
+export const quote = 'Quote';
+export const addAnotherCar = 'Add another car';
+export const carDetailsSorted = 'Great! That\'s your first car added...';
+export const childCarDetailsSorted = 'Great! That\'s another car added...';
+export const sortOutTheDriver = 'Now let’s sort out the drivers for this car.';
+export const continueBtnLabel = 'Continue to driver details';
+export const continueBtnEventLabel = 'Continue to driver details - Redirecting from HastingsMultiCarDetailsComplete';

@@ -1,0 +1,1027 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDStepper /> render component and match the snapshot 1`] = `
+<Row
+  className="hd-stepper"
+  noGutters={true}
+>
+  <div
+    className="blue-dot"
+    id="blue-dot"
+  />
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line-before"
+      id="wrapping-line-left"
+    />
+  </Col>
+  <Col
+    className="steps-container"
+    id="steps-container"
+    lg={4}
+    md={8}
+    sm={10}
+    xs={10}
+  >
+    <div
+      className="before stepper-line blue-line"
+      id="stepper-line-1"
+    />
+    <div
+      className="stepper-step"
+      id="stepper-step-1"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          1
+        </div>
+        <div
+          className="circle not-started"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        CAR
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-2"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          2
+        </div>
+        <div
+          className="circle not-started"
+        >
+          2
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        DRIVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-3"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          3
+        </div>
+        <div
+          className="circle not-started"
+        >
+          3
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        COVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-4"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          4
+        </div>
+        <div
+          className="circle not-started"
+        >
+          4
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        QUOTE
+      </div>
+    </div>
+    <div
+      className="after stepper-line blue-line"
+      id="stepper-line-2"
+    />
+    <div
+      className="after stepper-line pink-line"
+      id="stepper-pink-line-1"
+    />
+  </Col>
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line blue-line-after"
+      id="wrapping-line-right"
+    />
+  </Col>
+</Row>
+`;
+
+exports[`<HDStepper /> should render properly with fist step as a milestone 1`] = `
+<Row
+  className="hd-stepper"
+  noGutters={true}
+>
+  <div
+    className="blue-dot"
+    id="blue-dot"
+  />
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line-before"
+      id="wrapping-line-left"
+    />
+  </Col>
+  <Col
+    className="steps-container"
+    id="steps-container"
+    lg={4}
+    md={8}
+    sm={10}
+    xs={10}
+  >
+    <div
+      className="before stepper-line blue-line"
+      id="stepper-line-1"
+    />
+    <div
+      className="stepper-step"
+      id="stepper-step-1"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          1
+        </div>
+        <div
+          className="circle not-started"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        CAR
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-2"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          2
+        </div>
+        <div
+          className="circle not-started"
+        >
+          2
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        DRIVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-3"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          3
+        </div>
+        <div
+          className="circle not-started"
+        >
+          3
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        COVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-4"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          4
+        </div>
+        <div
+          className="circle not-started"
+        >
+          4
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        QUOTE
+      </div>
+    </div>
+    <div
+      className="after stepper-line blue-line"
+      id="stepper-line-2"
+    />
+    <div
+      className="after stepper-line pink-line"
+      id="stepper-pink-line-1"
+    />
+  </Col>
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line blue-line-after"
+      id="wrapping-line-right"
+    />
+  </Col>
+</Row>
+`;
+
+exports[`<HDStepper /> should render properly with last step as a milestone 1`] = `
+<Row
+  className="hd-stepper"
+  noGutters={true}
+>
+  <div
+    className="blue-dot"
+    id="blue-dot"
+  />
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line-before"
+      id="wrapping-line-left"
+    />
+  </Col>
+  <Col
+    className="steps-container"
+    id="steps-container"
+    lg={4}
+    md={8}
+    sm={10}
+    xs={10}
+  >
+    <div
+      className="before stepper-line blue-line"
+      id="stepper-line-1"
+    />
+    <div
+      className="stepper-step"
+      id="stepper-step-1"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          1
+        </div>
+        <div
+          className="circle not-started"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        CAR
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-2"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          2
+        </div>
+        <div
+          className="circle not-started"
+        >
+          2
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        DRIVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-3"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          3
+        </div>
+        <div
+          className="circle not-started"
+        >
+          3
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        COVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-4"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          4
+        </div>
+        <div
+          className="circle not-started"
+        >
+          4
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        QUOTE
+      </div>
+    </div>
+    <div
+      className="after stepper-line blue-line"
+      id="stepper-line-2"
+    />
+    <div
+      className="after stepper-line pink-line"
+      id="stepper-pink-line-1"
+    />
+  </Col>
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line blue-line-after"
+      id="wrapping-line-right"
+    />
+  </Col>
+</Row>
+`;
+
+exports[`<HDStepper /> should render properly with last step as current step 1`] = `
+<Row
+  className="hd-stepper"
+  noGutters={true}
+>
+  <div
+    className="blue-dot"
+    id="blue-dot"
+  />
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line-before"
+      id="wrapping-line-left"
+    />
+  </Col>
+  <Col
+    className="steps-container"
+    id="steps-container"
+    lg={4}
+    md={8}
+    sm={10}
+    xs={10}
+  >
+    <div
+      className="before stepper-line blue-line"
+      id="stepper-line-1"
+    />
+    <div
+      className="stepper-step"
+      id="stepper-step-1"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          1
+        </div>
+        <div
+          className="circle not-started"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        CAR
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-2"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          2
+        </div>
+        <div
+          className="circle not-started"
+        >
+          2
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        DRIVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-3"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          3
+        </div>
+        <div
+          className="circle not-started"
+        >
+          3
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        COVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-4"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          4
+        </div>
+        <div
+          className="circle not-started"
+        >
+          4
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        QUOTE
+      </div>
+    </div>
+    <div
+      className="after stepper-line blue-line"
+      id="stepper-line-2"
+    />
+    <div
+      className="after stepper-line pink-line"
+      id="stepper-pink-line-1"
+    />
+  </Col>
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line blue-line-after"
+      id="wrapping-line-right"
+    />
+  </Col>
+</Row>
+`;
+
+exports[`<HDStepper /> should render properly with middle step as a milestone 1`] = `
+<Row
+  className="hd-stepper"
+  noGutters={true}
+>
+  <div
+    className="blue-dot"
+    id="blue-dot"
+  />
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line-before"
+      id="wrapping-line-left"
+    />
+  </Col>
+  <Col
+    className="steps-container"
+    id="steps-container"
+    lg={4}
+    md={8}
+    sm={10}
+    xs={10}
+  >
+    <div
+      className="before stepper-line blue-line"
+      id="stepper-line-1"
+    />
+    <div
+      className="stepper-step"
+      id="stepper-step-1"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          1
+        </div>
+        <div
+          className="circle not-started"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        CAR
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-2"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          2
+        </div>
+        <div
+          className="circle not-started"
+        >
+          2
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        DRIVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-3"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          3
+        </div>
+        <div
+          className="circle not-started"
+        >
+          3
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        COVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-4"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          4
+        </div>
+        <div
+          className="circle not-started"
+        >
+          4
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        QUOTE
+      </div>
+    </div>
+    <div
+      className="after stepper-line blue-line"
+      id="stepper-line-2"
+    />
+    <div
+      className="after stepper-line pink-line"
+      id="stepper-pink-line-1"
+    />
+  </Col>
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line blue-line-after"
+      id="wrapping-line-right"
+    />
+  </Col>
+</Row>
+`;
+
+exports[`<HDStepper /> should render properly with middle step as current step 1`] = `
+<Row
+  className="hd-stepper"
+  noGutters={true}
+>
+  <div
+    className="blue-dot"
+    id="blue-dot"
+  />
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line-before"
+      id="wrapping-line-left"
+    />
+  </Col>
+  <Col
+    className="steps-container"
+    id="steps-container"
+    lg={4}
+    md={8}
+    sm={10}
+    xs={10}
+  >
+    <div
+      className="before stepper-line blue-line"
+      id="stepper-line-1"
+    />
+    <div
+      className="stepper-step"
+      id="stepper-step-1"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          1
+        </div>
+        <div
+          className="circle not-started"
+        >
+          1
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        CAR
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-2"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          2
+        </div>
+        <div
+          className="circle not-started"
+        >
+          2
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        DRIVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-3"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          3
+        </div>
+        <div
+          className="circle not-started"
+        >
+          3
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        COVER
+      </div>
+    </div>
+    <div
+      className="stepper-step"
+      id="stepper-step-4"
+    >
+      <div
+        className="circle-wrapper"
+      >
+        <img
+          alt="Completed"
+          className="tick "
+          src="Icons_Tick.svg"
+        />
+        <div
+          className="circle in-progress"
+        >
+          4
+        </div>
+        <div
+          className="circle not-started"
+        >
+          4
+        </div>
+      </div>
+      <div
+        className="stepper-text"
+      >
+        QUOTE
+      </div>
+    </div>
+    <div
+      className="after stepper-line blue-line"
+      id="stepper-line-2"
+    />
+    <div
+      className="after stepper-line pink-line"
+      id="stepper-pink-line-1"
+    />
+  </Col>
+  <Col
+    lg={4}
+    md={2}
+    sm={1}
+    xs={1}
+  >
+    <div
+      className="wrapping-line stepper-line flex-line blue-line blue-line-after"
+      id="wrapping-line-right"
+    />
+  </Col>
+</Row>
+`;

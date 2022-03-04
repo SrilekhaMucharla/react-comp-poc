@@ -1,0 +1,418 @@
+.thanks-page {
+    .btn-lg,
+    .btn-group-lg > .btn {
+        width: inherit;
+        color: $app-theme !important;
+        border: 1px solid $mint-color !important;
+        background-color: $green-transparent-20 !important;
+        @include media-breakpoint-between(xs, sm) {
+            width: 94%;
+        }
+    }
+    @include media-breakpoint-down(md) {
+        max-width: none;
+        padding: 0;
+    }
+
+    .arc-header {
+        height: 254px;
+
+        &:after {
+            background-color: $gray-light-8;
+        }
+
+        @include media-breakpoint-down(sm) {
+            height: 260px;
+        }
+    }
+}
+
+.thanks-page__container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $white-color;
+}
+
+.thanks-page__header-icon {
+    background-color: $link-color;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 1;
+    .fa-check {
+        top: 10px;
+        right: 5px;
+        position: relative;
+        font-weight: 600;
+    }
+}
+
+.thanks-page__header {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 1.2;
+    z-index: 1;
+    margin-bottom: -15px;
+    @include media-breakpoint-down(sm) {
+        font-size: 32px;
+        margin-top: 26px;
+        margin-bottom: 7px;
+    }
+}
+
+.thanks-page__sub-header {
+    font-size: $font-size-md;
+    line-height: 1.5;
+    z-index: 1;
+    margin-top: 0px;
+}
+
+.thanks-page__container-car-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: left;
+    background-color: $white-fill;
+    color: $app-theme;
+    margin-top: 30px;
+    border-radius: 7px;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05);
+    z-index: 1;
+    width: 483px;
+    @include media-breakpoint-down(sm) {
+        width: 335px;
+        margin-top: 30px;
+    }
+}
+
+.thanks-page__car-registration {
+    border-radius: 2px;
+    background-color: $yellow-color;
+    text-align: center;
+    width: 103px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.35;
+    color: $app-theme;
+    margin-top: 7px;
+
+    @include media-breakpoint-down(sm) {
+        margin-top: 0;
+    }
+}
+
+.thanks-page__car-modal-info {
+    font-weight: bold;
+    font-size: $font-size-md;
+    line-height: 1.2;
+
+    @include media-breakpoint-down(sm) {
+        margin-top: -8px !important;   
+    }
+}
+
+.thanks-page__car-policy-text {
+    font-size: $font-size-md;
+    line-height: 1.5;
+    margin-top: 15px;
+    @include media-breakpoint-down(sm) {
+        font-size: 13px;
+        margin-top: 21px;
+    }
+}
+
+.thanks-page__car-policy-number {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    color: $link-color;
+    margin-top: -5px;
+    @include media-breakpoint-down(sm) {
+        font-size: 13px;
+    }
+}
+
+.thanks-page__body {
+    display: flex;
+    text-align: left;
+    margin-top: 31px;
+    margin-bottom: 76px;
+    color: $app-theme;
+    @include media-breakpoint-between(xs, sm) {
+        display: block;
+    }
+}
+
+.thanks-page__body-left {
+    height: fit-content;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05);
+    padding: 0 30px 40px 30px;
+    border-radius: 6px;
+    background-color: $white-fill;
+    width: 55%;
+    @include media-breakpoint-between(xs, sm) {
+        width: 100%;
+    }
+}
+
+.thanks-page__body-left__header {
+    margin-top: 23px;
+}
+
+.thanks-page__renewal-preference__header {
+    margin-top: 20px;
+}
+
+.thanks-page__you-drive-logo-container {
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-bottom: 30px;
+
+    .col {
+        padding: 0;
+    }
+    .thanks-page__you-drive-logo {
+        width: 100%;
+    }
+}
+
+.thanks-page__container-left-steps {
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+
+    &-line {
+        margin-top: -15px;
+        hr {
+            background-color: $mono-light-steel;
+        }
+    }
+}
+
+.thanks-page__step-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 21px;
+    height: 21px;
+    padding: 10px;
+    margin-top: 7px;
+    border-radius: 50%;
+    background-color: $alert-color;
+    color: $white-color;
+    font-size: $font-size-md;
+    line-height: 1.2;
+    font-weight: bold;
+    position: relative;
+    bottom: 6px;
+}
+
+.thanks-page__step-header-hint {
+    z-index: 1;
+    padding-left: 0;
+
+    @include media-breakpoint-down(sm) {
+        margin-top: -25px;
+        padding-left: 40px;
+    }
+}
+
+.thanks-page__store-images {
+    flex-flow: row;
+    display: inline-flex;
+    margin-bottom: 30px;
+    img {
+        height: auto;
+        margin-right: 5px;
+    }
+    img:nth-child(2) {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+}
+
+.thanks-page__youdrivetabkey-image {
+    margin-top: 30px;
+    img {
+        height: auto;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-top: 0;
+        text-align: right;
+    }
+}
+
+.thanks-page__container-managepolicy {
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 45px;
+    }
+}
+
+.thanks-page__managepolicy-header {
+    font-size: 20px;
+    line-height: 1.2;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 8px;
+    }
+}
+
+.thanks-page__managepolicy-steps {
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+}
+
+.thanks-page__step-check-icon {
+    padding: 0;
+    color: $white-color;
+    background-color: $link-color;
+    width: 22px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    .fa-check {
+        position: relative;
+        top: 2px;
+    }
+}
+
+.thanks-page__managepolicy-step {
+    font-weight: normal;
+    color: #02213e;
+}
+
+.thanks-page__managepolicy-button {
+    padding: 30px 0;
+    @include media-breakpoint-down(sm) {
+        padding: 35px 0 20px 0;
+    }
+}
+
+.thanks-page__body-right {
+    height: fit-content;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    background-color: $white-fill;
+    width: 40%;
+    margin-left: 2%;
+
+    .hd-tooltip-wrapper {
+        border-bottom: none !important;
+    }
+
+    .hd-steps-container {
+        margin: 0;
+    }
+
+    .hd-steps-container .hd-quote {
+        font-size: $hd-font-size-h2-mobile !important;
+    }
+
+    @include media-breakpoint-between(xs, sm) {
+        width: auto;
+        margin-left: 0;
+        margin-bottom: 60px;
+    }
+    .hd-description-label {
+        position: relative;
+        top: 8px;
+    }
+
+    &-payment-breakdown {
+        .hd-steps__col-container {
+            .hd-steps__col-container__row {
+                &:nth-child(3) > .hd-steps__col-container__row__description-col {
+                    position: relative;
+                    top: 0; 
+                 }
+                &:last-child {
+                    margin-top: 90px;
+                }
+            }
+        }  
+    }
+}
+
+.thanks-page__body-right__header {
+    margin: 23px 20px 0 20px;
+}
+
+.thanks-page__log-in-button {
+    height: 50px;
+    padding: 18px 23px;
+    @include media-breakpoint-up(md) {
+        height: 60px;
+    }
+    &:hover {
+        padding: 18px 23px;
+    }
+}
+
+.thanks-page__policy-link {
+    border-bottom: 2px solid $link-color;
+}
+
+.thanks-page__sync-icon {
+    &::before {
+        color: $blue-secondary;
+        position: relative;
+        font-size: 23px;
+        top: 3px;
+    }
+}
+
+.thanks-page__mobile-hand-image {
+    z-index: 0;
+    @include media-breakpoint-down(super-small) {
+        right: 20%;
+    }
+    @include media-breakpoint-down(tiny) {
+        right: 10%;
+    }
+    img {
+        height: auto;
+        width: 75%;
+    }
+}
+
+.thanks-page__container-left-steps-column {
+    flex-flow: row;
+    @include media-breakpoint-down(sm) {
+        flex-wrap: wrap;
+    } 
+}
+
+.thanks-page__my-account {
+    color: $app-theme;
+}
+
+.thanks-page__overlay__link {
+    margin: 0;
+}
+
+.thanks-page__container-registration {
+    @include media-breakpoint-down(sm) {
+        padding: 0;
+    }
+}
+
+.thanks-page__container-registration-car-model-policy-number {
+    align-items: flex-start;
+    margin-top: 5px;
+}
+
+.thanks-page__opt-out-link {
+    &:hover {
+        span {
+            color: $white-color;
+        }
+    }
+    span {
+        color: $app-theme;
+    }
+}

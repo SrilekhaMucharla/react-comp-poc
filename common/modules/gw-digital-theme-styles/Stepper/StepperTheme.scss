@@ -1,0 +1,11 @@
+.digitalStepper {
+    --stepper-button-width: 40px;
+    --gw-stepper-button-size: 40px;
+    --stepper-input-margin: calc(var(--gw-stepper-button-size) / 2);
+    align-items: center;
+}
+
+.digitalStepperButton {
+    --gw-button-min-width: var(--gw-stepper-button-size);
+    --button-height-sm: var(--gw-stepper-button-size);
+}

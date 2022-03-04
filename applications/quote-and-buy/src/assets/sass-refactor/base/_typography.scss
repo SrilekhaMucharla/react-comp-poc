@@ -1,0 +1,511 @@
+// FONT imports
+
+// Vars specific for Font imports only
+$ttnorms-pro-root: '../fonts/ttnorms-pro';
+$source-sans-pro-root: '../fonts/source-sans-pro';
+$fa-font-path: '../fonts/font-awesome';
+$charles-wright-root: '../fonts/charles-wright';
+
+@import "../../fonts/ttnorms-pro/ttnorms-pro.scss";
+@import "../../fonts/charles-wright/charles-wright.scss";
+@import "../../fonts/font-awesome/vendor/font-awesome.scss";
+
+
+// TYPOGRAPHY
+
+$font-face-generic-regular: 'TTNormsPro', sans-serif;
+$font-licence-plate: 'CharlesWright-Bold', sans-serif;
+
+// FONT STYLES
+
+$font-size-xxs: 10px;
+$font-size-xs: 11px;
+$font-size-sm: 12px;
+$font-size-sm-1: 13px;
+$font-size-regular: 14px;
+$font-size-regular-1: 15px;
+$font-size-md: 16px;
+$font-size-lg: 18px;
+$font-size-lg-1: 20px;
+$font-size-lg-2: 22px;
+$font-size-xl: 26px;
+$font-size-xl-1: 28px;
+$font-size-xxl: 32px;
+$font-size-xxl-1: 34px;
+$licence-plate-lg:19px;
+$licence-plate-sm:15px;
+
+$line-height-regular: 20px;
+$line-height-lg: 21.6px;
+$line-height-md: 24px;
+$line-height-md-footer: 24.3px;
+
+$font-size-mob-sm: 12px;
+$font-size-mob-md: 13px;
+$font-size-mob-lg: 25px;
+$font-size-quote: 18px;
+
+$font-family-sans-serif: 'TTNormsPro', 'Helvetica Neue', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Arial', 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+
+
+// ZEPLIN VARS
+
+$hd-font-size-h1: 42px;
+$hd-font-size-h1-mobile: 32px;
+$hd-font-size-h2: 34px;
+$hd-font-size-h2-mobile: 25px;
+$hd-font-size-h3: 26px;
+$hd-font-size-h3-mobile: 18px;
+$hd-font-size-h4: 26px;
+$hd-font-size-h4-mobile: 25px;
+$hd-font-size-h5: 18px;
+$hd-font-size-button: 18px;
+$hd-font-size-body: 16px;
+$hd-font-size-md: 13px;
+$hd-font-size-small: 12px;
+$hd-font-size-xs: 10px;
+$hd-font-size-lp: 26px;
+
+
+body {
+  font-family: $font-face-generic-regular, sans-serif;
+  font-size: $hd-font-size-body;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-style: normal;
+}
+
+a,
+a.decorated-blue-line {
+  font-size: $hd-font-size-body;
+  color: $white-color;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  margin: 0 0 7px 0;
+  padding: 2px 3px;
+  border-bottom: 2px solid $link-color;
+  position: relative;
+  z-index: 1;
+  text-shadow: none;
+  cursor: pointer;
+  background-size: 204% 150%;
+  background-image: linear-gradient(to left, $link-color 50%, rgba(255, 255, 255, 0) 50%);
+  transition: background-position 0.5s cubic-bezier(1, 0, 0, 1);
+  &:hover {
+    text-decoration: none;
+    background-position: -97% 0;
+    color: $white-color;
+    cursor: pointer;
+  }
+  &:active {
+    background-image: linear-gradient(to left, $midnight-nordic-noir 50%, rgba(255, 255, 255, 0) 50%);
+    border-bottom: 2px solid $midnight-nordic-noir;
+  }
+  &:focus {
+    outline: none;
+    background-color: $midnight-nordic-noir;
+    border-bottom: 2px solid transparent;
+  }
+  &.is-disabled {
+    color: $info-color;
+    border-bottom: 2px solid $midnight-nordic-noir;
+    cursor: not-allowed;
+    background-image: none;
+    transition: none;
+  }
+  .theme-white &,
+  &.theme-white {
+    line-height: 1.1;
+    &:not(.theme-white-override) {
+      color: $mono-midnight;
+      border-bottom: 3px solid $midnight-electric-blue;
+      background-image: linear-gradient(to left, $midnight-electric-blue 50%, rgba(255, 255, 255, 0) 50%);
+
+      &:active {
+        background-image: linear-gradient(to left, $mono-first-snow 50%, rgba(255, 255, 255, 0) 50%);
+        border-bottom: 3px solid $mono-first-snow;
+      }
+
+      &:focus {
+        outline: none;
+        background-color: $mono-first-snow;
+        border-bottom: 2px solid transparent;
+      }
+
+      &.is-disabled {
+        color: $mono-light-steel;
+        border-bottom: 2px solid $mono-light-steel;
+        cursor: not-allowed;
+        background-image: none;
+        transition: none;
+      }
+    }
+  }
+}
+
+.anchor-with-icon{
+  align-items: flex-end;
+  img {
+    filter: invert(100%) saturate(0%) brightness(100%) contrast(100%);
+  }
+  &.is-disabled {
+    img {
+      filter: invert(45%) sepia(19%) saturate(990%) hue-rotate(181deg) brightness(96%) contrast(95%);
+    }
+  }
+  .theme-white & {
+    img {
+      filter: none;
+    }
+    &.is-disabled {
+      img {
+        filter: invert(87%) sepia(8%) saturate(150%) hue-rotate(179deg) brightness(87%) contrast(86%);
+      }
+    }
+  }
+  &.no-filter {
+    img {
+      filter: none;
+    }
+  }
+}
+
+a.secondary-style {
+  font-size: inherit;
+  color: $white-color;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  margin: 0 0 7px 0;
+  padding: 1px;
+  border-bottom: 1px solid $white-color;
+  position: relative;
+  z-index: 1;
+  text-shadow: none;
+  cursor: pointer;
+  background-size: 204% 150%;
+  background-image: linear-gradient(to left, $white-color 50%, rgba(255, 255, 255, 0) 50%);
+  transition: background-position 0.5s cubic-bezier(1, 0, 0, 1), color ease 0.5s, border ease 0.5s;
+  &:hover {
+    text-decoration: none;
+    background-position: -97% 0;
+    color: $midnight-royal-blue;
+    cursor: pointer;
+  }
+  &:active {
+    color: $white-color;
+    background-image: linear-gradient(to left, $midnight-royal-blue 50%, rgba(255, 255, 255, 0) 50%);
+    border-bottom: 2px solid $midnight-royal-blue;
+  }
+  &:focus {
+    color: $white-color;
+    background-color: $midnight-royal-blue;
+    background-image: linear-gradient(to left, $midnight-royal-blue 50%, rgba(255, 255, 255, 0) 50%);
+    border-bottom: 2px solid $midnight-royal-blue;
+  }
+  &.is-disabled {
+    color: $midnight-nordic-noir;
+    border-bottom: 2px solid $midnight-nordic-noir;
+    cursor: not-allowed;
+    background-image: none;
+    transition: none;
+  }
+  .theme-white &,
+  &.theme-white {
+    color: $mono-midnight;
+    border-bottom: 2px solid $midnight-electric-blue;
+    background-image: linear-gradient(to left, $midnight-electric-blue 50%, rgba(255, 255, 255, 0) 50%);
+    &:hover {
+      color: $mono-midnight;
+    }
+    &:active {
+      color: $mono-midnight;
+      background-image: linear-gradient(to left, $mono-first-snow 50%, rgba(255, 255, 255, 0) 50%);
+      border-bottom: 2px solid $mono-first-snow;
+      background: $mono-first-snow;
+    }
+    &:focus {
+      color: $mono-midnight;
+      background-image: linear-gradient(to left, $mono-first-snow 50%, rgba(255, 255, 255, 0) 50%);
+      border-bottom: 2px solid $mono-first-snow;
+      background: $mono-first-snow;
+    }
+    &.is-disabled {
+      color: $mono-light-steel;
+      border-bottom: 2px solid $mono-light-steel;
+      cursor: not-allowed;
+      background-image: none;
+      transition: none;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6, p,
+.h1, .h2, .h3, .h4, h4, .h6 .p{
+  font-family: $font-face-generic-regular;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  font-style: normal;
+}
+
+h1, .h1 {
+  font-size: $hd-font-size-h1;
+  margin-bottom: $lg-value;
+  line-height: 1.2;
+  @include media-breakpoint-down(md) {
+    font-size: $hd-font-size-h1-mobile;
+    margin-bottom: $md-value;
+  }
+}
+
+h2, .h2 {
+  font-size: $hd-font-size-h2;
+  margin-top: $md-value;
+  margin-bottom: $lg-value;
+  line-height: 1.2;
+  @include media-breakpoint-down(md) {
+    font-size: $hd-font-size-h2-mobile;
+    margin-bottom: $md-value;
+  }
+  @include media-breakpoint-down(sm) {
+    margin-top: $tiny-value;
+  }
+}
+
+h3, .h3 {
+  font-size: $hd-font-size-h3;
+  line-height: 1.2;
+
+  @include media-breakpoint-down(md) {
+    font-size: $hd-font-size-h3-mobile;
+    line-height: 1.2;
+  }
+}
+
+h4, .h4 {
+  font-size: $hd-font-size-h4;
+  line-height: 1.2;
+  @include media-breakpoint-down(md) {
+    font-size: $hd-font-size-h4-mobile;
+  }
+}
+
+h5, .h5 {
+  font-size: $hd-font-size-h5;
+  line-height: 1.2;
+}
+
+h6, .h6 {
+  font-size: $hd-font-size-body;
+}
+
+
+p, .p {
+  font-size: $hd-font-size-body;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.text-xs {
+  font-size: $hd-font-size-xs;
+}
+
+.text-small {
+  font-size: $font-size-sm;
+}
+
+.text-small-1 {
+  font-size: $font-size-sm-1;
+}
+
+.text-regular {
+  font-size: $font-size-regular;
+}
+
+.text-regular-1 {
+  font-size: $font-size-regular-1;
+}
+
+.text-md {
+  font-size: $font-size-md;
+}
+
+@include media-breakpoint-up(md) {
+  .text-md-lg {
+    font-size: $font-size-lg;
+  }
+
+  .text-md-md {
+    font-size: $font-size-md;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .text-lg-small {
+    font-size: $hd-font-size-small;
+  }
+
+  .text-lg-xxl-1 {
+    font-size: $font-size-xxl-1;
+  }
+}
+
+
+// FONT TICKNESS
+
+.font-extra-black {
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-extra-black-italic {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.font-extra-bold {
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-extra-bold-italic {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.font-bold {
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-bold-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.font-demi-bold {
+  font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-medium-italic {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.font-regular {
+  font-weight: 400;
+}
+
+.font-regular-italic {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.font-light-italic {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.font-extra-light {
+  font-weight: 200;
+}
+
+.font-extra-light-italic {
+  font-weight: 200;
+  font-style: italic;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.font-thin-italic {
+  font-weight: 100;
+  font-style: italic;
+}
+
+// LIST
+ul {
+  li {
+    font-size: $hd-font-size-body;
+    line-height: 1.5;
+    &::marker {
+      color: $link-color;
+    }
+    &+li {
+      margin-top: 10px;
+    }
+  }
+
+  &.list-tick {
+    padding: 0;
+    list-style: none;
+    li {
+      position: relative;
+      padding-left: 30px;
+      &:before {
+        content: "";
+        background-image: url("../images/icons/blue-tick-icon.svg");
+        width: 20px;
+        height: 20px;
+        background-size: cover;
+        position: absolute;
+        left: 0;
+        top: 2.5px;
+      }
+    }
+  }
+}
+
+a.text-small,
+a:hover.text-small{
+  font-size: $hd-font-size-small;
+}
+
+.capitalized-first-letter {
+  text-transform: lowercase;
+
+  &, * {
+    &::first-letter {
+      text-transform: capitalize;
+    }
+  }
+}
+
+.reg-num {
+  display: inline-block;
+  font-family: $font-licence-plate;
+  background-color: $midnight-reg;
+  color: $app-theme;
+  padding: 0px 0.4em;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.reg-num--anc-car-item {
+  @extend .reg-num;
+  padding: 0px 10px;
+  font-size: 18px;
+  @include media-breakpoint-up(lg) {
+      font-size: 24px;
+  }
+}
+
+.reg-num--toast {
+  @extend .reg-num;
+  padding: 1px 5px;
+  margin: 2px;
+}

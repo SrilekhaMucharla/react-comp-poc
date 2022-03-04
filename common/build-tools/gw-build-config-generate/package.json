@@ -1,0 +1,24 @@
+{
+  "name": "gw-build-config-generate",
+  "description": "Generates the configuration for the application",
+  "main": "configGenerate.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "bin": {
+    "gw-build-config-generate": "./bin/generateConfig.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "json5": "^2.1.0",
+    "fs-extra": "^8.1.0",
+    "flat": "^5.0.0"
+  },
+  "peerDependencies": {
+    "gw-build-config-environment": "11.2.0-db467149eb42",
+    "gw-build-capabilities-management": "11.2.0-db467149eb42",
+    "gw-build-config-paths": "11.2.0-db467149eb42",
+    "gw-build-config-urls": "11.2.0-db467149eb42",
+    "gw-build-jsonrpc": "11.2.0-db467149eb42"
+  }
+}

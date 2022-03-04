@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDInteractiveCard /> render component with one icon 1`] = `
+<styled.div>
+  <div
+    className="content"
+  >
+    <p>
+      Content
+    </p>
+  </div>
+  <div
+    className="icons"
+  >
+    <i />
+  </div>
+</styled.div>
+`;
+
+exports[`<HDInteractiveCard /> render component with two icons 1`] = `
+<styled.div>
+  <div
+    className="content"
+  >
+    <p>
+      Content
+    </p>
+  </div>
+  <div
+    className="icons"
+  >
+    <i />
+    <i />
+  </div>
+</styled.div>
+`;
+
+exports[`<HDInteractiveCard /> render component without icons 1`] = `
+<styled.div>
+  <div
+    className="content"
+  >
+    <p>
+      Content
+    </p>
+  </div>
+  <div
+    className="icons"
+  />
+</styled.div>
+`;

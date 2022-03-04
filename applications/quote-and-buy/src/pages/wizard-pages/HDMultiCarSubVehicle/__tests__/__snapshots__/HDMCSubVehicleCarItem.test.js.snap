@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDManualAddresssPopup /> render component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <HDMotorLegalCarItem
+    mcsubmissionVM={
+      Object {
+        "value": Object {
+          "quotes": Array [
+            Object {
+              "baseData": Object {
+                "brandCode": "PCW",
+              },
+              "lobData": Object {
+                "privateCar": Object {
+                  "offerings": Array [
+                    Object {
+                      "branchCode": "HP",
+                      "branchName": "HastingsPremium",
+                      "coverages": Array [
+                        Object {
+                          "name": "Motor Legal Expense",
+                          "selected": false,
+                        },
+                      ],
+                    },
+                  ],
+                },
+              },
+            },
+          ],
+        },
+      }
+    }
+  />
+</ContextProvider>
+`;

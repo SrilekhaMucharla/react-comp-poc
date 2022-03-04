@@ -1,0 +1,188 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/unauthenticated/edgev10/address/lookup",
+    "headers": {
+      "cookie": [
+        "_ga=GA1.1.1819875978.1616074694; _gid=GA1.1.665141834.1616074694; whoson=587-1616074744615; JSESSIONID=0000Mg24ynPe39TzGV7czI1O_NW:-1; utag_main=v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
+      ],
+      "accept-encoding": [
+        "gzip, deflate, br"
+      ],
+      "referer": [
+        "http://localhost:3000/quote-and-buy/get-a-price/driver-address"
+      ],
+      "sec-fetch-dest": [
+        "empty"
+      ],
+      "sec-fetch-mode": [
+        "cors"
+      ],
+      "sec-fetch-site": [
+        "same-origin"
+      ],
+      "origin": [
+        "http://localhost:3000"
+      ],
+      "content-type": [
+        "application/json; charset=utf-8"
+      ],
+      "user-agent": [
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+      ],
+      "sec-ch-ua-mobile": [
+        "?0"
+      ],
+      "accept-language": [
+        "null"
+      ],
+      "accept": [
+        "application/json"
+      ],
+      "sec-ch-ua": [
+        "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+      ],
+      "content-length": [
+        "76"
+      ],
+      "connection": [
+        "close"
+      ],
+      "host": [
+        "localhost:3000"
+      ]
+    },
+    "cookies": {
+      "JSESSIONID": "0000Mg24ynPe39TzGV7czI1O_NW:-1",
+      "_ga": "GA1.1.1819875978.1616074694",
+      "_gid": "GA1.1.665141834.1616074694",
+      "utag_main": "v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session",
+      "whoson": "587-1616074744615"
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "jsonrpc": "2.0",
+      "method": "lookupAddressUsingPostCode",
+      "params": [
+        "CV370AQ"
+      ]
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Date": [
+        "Fri, 19 Mar 2021 11:28:12 GMT"
+      ],
+      "content-length": [
+        "1640"
+      ]
+    },
+    "body": {
+      "result": {
+        "matches": [
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Adcock Associates",
+              "addressLine2": "Elta House",
+              "addressLine3": "Birmingham Road",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          },
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Pennington Dental",
+              "addressLine2": "Elta House",
+              "addressLine3": "Birmingham Road",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          },
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Flat 1 Porton House",
+              "addressLine2": "Birmingham Road",
+              "addressLine3": "",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          },
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Flat 2 Porton House",
+              "addressLine2": "Birmingham Road",
+              "addressLine3": "",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          },
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Flat 3 Porton House",
+              "addressLine2": "Birmingham Road",
+              "addressLine3": "",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          },
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Flat 4 Porton House",
+              "addressLine2": "Birmingham Road",
+              "addressLine3": "",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          },
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Flat 5 Porton House",
+              "addressLine2": "Birmingham Road",
+              "addressLine3": "",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          },
+          {
+            "matchAccuracy": 0.7,
+            "address": {
+              "addressLine1": "Flat 6 Porton House",
+              "addressLine2": "Birmingham Road",
+              "addressLine3": "",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ"
+            }
+          }
+        ]
+      },
+      "jsonrpc": "2.0"
+    }
+  }
+}

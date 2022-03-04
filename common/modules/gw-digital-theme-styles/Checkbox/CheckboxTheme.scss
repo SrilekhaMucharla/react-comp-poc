@@ -1,0 +1,26 @@
+.digitalCheckbox {
+    --checkbox-disabled-opacity: 1;
+
+    .digitalCheckboxInput:disabled + .digitalCheckboxElement {
+        --checkbox-color: var(--gw-white);
+        --checkbox-color-tick: var(--gw-grey-light-60-color);
+    }
+}
+
+.digitalCheckboxIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digitalCheckboxElement {
+    --checkbox-size: 25px;
+}
+
+.digitalCheckboxElement {
+    --checkbox-color: var(--gw-blue-5);
+}
+
+.digitalCheckboxElementWrapper {
+    width: 100%;
+}

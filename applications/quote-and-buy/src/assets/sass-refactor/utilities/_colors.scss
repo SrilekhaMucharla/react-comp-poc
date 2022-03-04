@@ -1,0 +1,154 @@
+// ONLY COLOR DEFINITIONS
+// SEARCH BEFORE CREATING NEW
+
+// HASTINGS COLORS TAKEN FROM FEDS
+// USE THESE AS THE FIRST CHOICE
+
+// Brand
+$brand-hastings-red: #e40034;
+$brand-hastings-blue: #0072ba;
+$brand-hastings-yellow: #febe00;
+
+// Mono
+$mono-midnight: #011831;
+$mono-big-stone: #1a2f46;
+$mono-blue-yonder: #60759e;
+$mono-light-steel: #afbdd1;
+$mono-first-snow: #e6eef8;
+$mono-faded: #e1e6ed;
+$mono-mystic: #e7ebf1;
+$mono-alice-blue: #e6eef8;
+$mono-cotton-ball: #f3f8ff;
+$mono-cultured: #f7f7f9;
+$mono-white: #ffffff;
+
+// Midnight
+$midnight-teal: #0e838a;
+$midnight-persian-green: #00a39e;
+$midnight-nordic-noir: #01355a;
+$midnight-ziggurat: #bfd8e4;
+$midnight-botticelli: #d4e6e8;
+$midnight-plum: #a24593;
+$midnight-lounge-violet: #58306a;
+$midnight-faded-fuchsia: #efe4ef;
+$midnight-electric-blue: #0084ff;
+$midnight-royal-blue: #0069cc;
+$midnight-pacific-depths: #00448c;
+$midnight-regal-blue: #014a77;
+$midnight-prussian-blue: #01355a;
+$midnight-oxford-blue: #011e3f;
+$midnight-pale-cerulean: #a2cbe6;
+$midnight-distant-shore: #a2cbe6;
+$midnight-pale-azure: #dbe7f8;
+$midnight-reg: #fbe700;
+$midnight-error: #e10930;
+$midnight-wandering: #a90d30;
+$midnight-crab: #f86738;
+$midnight-crab: #a90d30;
+$midnight-seaweed: #3ea926;
+
+
+// TODO: MAP HASTINGS COLORS WITH COLORS USED IN THE APP
+
+
+// WHITE AND BLACKS
+$white-color: #ffffff; //100+
+$white-fill: #ffffff; //84
+$black-color:#000000; //17
+
+// GRAYS
+$gray-default: #808080; //1
+$gray-light-1: #959595; //27
+$gray-light-2: #a9a9a9; //1
+$gray-light-3: #708090; //1
+$gray-light-4: #fffafa; //1
+$gray-light-5: #dfdfdf; //1
+$gray-light-6: #ececec; //1
+$gray-light-7: #fefefd; //1
+$gray-light-8: #f7f7f9; //27
+$gray-light-9: #f3f8ff; //31
+$gray-light-10: #c3cddc; //4
+$gray-light-11: #c9c8c8; //1
+$gray-light-12: #e5e5e5; //5
+
+$gray-light-14: #e0e0e0; //1
+$gray-light-15: #c9c9c9; //1
+$gray-light-16: #f2f2f2; //3
+
+$gray-light-18: #828282; //7
+
+
+
+$gray-dark-1: #1d1d1b; //3
+$gray-dark-2: #333333; //6
+$gray-dark-3: #404040; //15
+$gray-dark-4: #4f4f4f; //5
+$gray-dark-5: #727272; //5
+$gray-dark-6: #9c9c9c; //7
+
+// BLUES
+$app-theme: #011831; //100+ //$primaryTextColorDark: #011831;
+$link-color: #0069cc; //89
+$info-color: #60759e; //80
+$blue-color: #0085FF; //19
+$blue-secondary: #0b315a; //7
+$blue-dark: #212529; //1
+$blue-dark-2: #00448c; //5
+$blue-dark-3: #02213e; //19
+$blue-dark-4: #01355a; //38
+$blue-light: #afbdd1; //98
+$blue-light-2: #027abb; //5
+$blue-light-3: #4C6172; //9
+$blue-light-4: #8b98a6; //6
+$blue-light-5: #c3cdd8; //5
+$blue-light-6: #0257bb; //6
+// REDS
+$rating-color: #ED6B06; //7
+$red-color: #e10930; //8
+$error-color: #a90d30; //20
+$alert-color: #e40034; //15
+
+
+
+// PURPLE
+$purple-secondary: #a24593;
+$purple-tertiary: #58306a; //3
+$purple-dark-1: #60579e; //5
+$purple-light-1: #a73A95; //8
+
+// GREENS
+$mint-color:#00a39e; //10
+$mint-light: #8cdcd9; //13
+$mint-dark: #0e838a; //40
+$mint-light-2: #DBECED 15%; //5
+$mint-light-3: #d4e6e9; //2
+
+// YELLOWS
+$yellow-color: #fbe700; //10
+
+// TRANSPARENCY
+$loader-bg: rgba(0, 0, 0, 0.5); //3
+$black-transparent-10: rgba(167, 58, 149, 0.1); //8
+$black-transparent-15: rgba(0, 0, 0, 0.15); //2
+$black-transparent-25: rgba(0, 0, 0, 0.25); //2
+$black-transparent-30: rgba(0,0,0,0.3); //3
+$black-transparent-50: rgba(0,0,0,0.5); //2
+$white-transparent-0: rgba(255, 255, 255, 0);
+$white-transparent-30: rgba(247, 247, 249, 0.3);
+$blue-transparent-10: rgba(2, 87, 187, 0.1); //12
+$blue-transparent-15: rgba(14, 31, 38, 0.15); //2
+$blue-transparent-30: rgba(2, 122, 187, 0.3); //11
+$blue-transparent-95: rgba(1, 24, 49, 0.95); //7
+$red-transparent-50: rgba(235, 87, 87, 0.5); //3
+$green-transparent-15: rgba(14, 131, 138, 0.15); //5
+$blue-transparent-16: rgba(219, 231, 248, 1); //5
+$green-transparent-20: rgba(14, 131, 138, 0.2); //10
+
+// SHADOWS
+$primary-shadow: 0 4px 4px rgba(0, 0, 0, 0.25); //7
+$secondary-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05); //9
+$tertiary-shadow: 0 15px 20px 0 rgba(236, 177, 177, 0.05); //2
+
+$theme-colors: (
+        "primary": #fff,
+);

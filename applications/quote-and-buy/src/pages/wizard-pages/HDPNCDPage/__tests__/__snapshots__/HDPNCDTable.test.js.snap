@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPNCDTable /> should render the component and match snapshot 1`] = `
+<HDPNCDTable
+  ncdData={
+    Array [
+      Object {
+        "discount": 15,
+        "years": "2",
+      },
+      Object {
+        "discount": 25,
+        "years": "3",
+      },
+      Object {
+        "discount": 28,
+        "years": "4",
+      },
+      Object {
+        "discount": 30,
+        "years": "5",
+      },
+    ]
+  }
+>
+  <table
+    className="step-back-table"
+  >
+    <thead
+      className="step-back-table__head"
+    >
+      <tr
+        className="step-back-table__row"
+      >
+        <th
+          className="step-back-table__row__th"
+        >
+          Number of years NCD
+        </th>
+        <th
+          className="step-back-table__row__th"
+        >
+          Average NCD discount last year
+        </th>
+      </tr>
+    </thead>
+    <tbody
+      className="step-back-table__body"
+    >
+      <tr
+        className="step-back-table__body-row"
+      >
+        <td
+          className="step-back-table__body-row__td step-back-table__years"
+        >
+          2
+           years
+        </td>
+        <td
+          className="step-back-table__body-row__td step-back-table__discout"
+        >
+          15
+          %
+        </td>
+      </tr>
+      <tr
+        className="step-back-table__body-row"
+      >
+        <td
+          className="step-back-table__body-row__td step-back-table__years"
+        >
+          3
+           years
+        </td>
+        <td
+          className="step-back-table__body-row__td step-back-table__discout"
+        >
+          25
+          %
+        </td>
+      </tr>
+      <tr
+        className="step-back-table__body-row"
+      >
+        <td
+          className="step-back-table__body-row__td step-back-table__years"
+        >
+          4
+           years
+        </td>
+        <td
+          className="step-back-table__body-row__td step-back-table__discout"
+        >
+          28
+          %
+        </td>
+      </tr>
+      <tr
+        className="step-back-table__body-row"
+      >
+        <td
+          className="step-back-table__body-row__td step-back-table__years"
+        >
+          5
+           years
+        </td>
+        <td
+          className="step-back-table__body-row__td step-back-table__discout"
+        >
+          30
+          %
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</HDPNCDTable>
+`;

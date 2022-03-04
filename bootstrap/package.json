@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "a package manage the bootstrapping of the application",
+  "main": "hoist.js",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "es6-promise-pool": "^2.5.0",
+    "fast-glob": "^3.2.2",
+    "fs-extra": "^9.0.0",
+    "lodash": "^4.17.21"
+  }
+}

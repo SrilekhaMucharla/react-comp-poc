@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DeleteDriverModal should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  cancelLabel="Go back"
+  confirmLabel="Yes"
+  headerText="Are you sure?"
+  id="remove-driver-modal"
+  onBeforeOpen={null}
+  onCancel={[MockFunction]}
+  onClose={[MockFunction]}
+  onConfirm={[MockFunction]}
+  show={true}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Remove driver",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "Remove driver",
+    }
+  }
+>
+  <span>
+    Are you sure you want to remove
+    <b>
+       driver name
+    </b>
+    ?
+  </span>
+</ForwardRef>
+`;

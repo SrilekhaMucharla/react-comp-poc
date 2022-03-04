@@ -1,0 +1,13 @@
+checks:
+  title-validator:
+    matches:
+      - ^(OCTANE-US\d*).*
+      - ^(OCTANE-QS\d*).*
+      - ^(OCTANE-DE\d*).*
+      - ^Revert\s"(OCTANE-US\d*).*"
+      - ^Revert\s"(OCTANE-QS\d*).*"
+      - ^Revert\s"(OCTANE-DE\d*).*"
+    failure-message: |2
+      Pull Request Validation Failed. The pull request title should follow the below case-sensitive patterns
+      * `OCTANE-US/QS/DE12345 An optional small summary title`
+      * `Revert "OCTANE-US/QS/DE12345 An optional small summary title"`

@@ -1,0 +1,237 @@
+.hastings-modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: $loader-bg;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000000;
+
+    .hastings-modal-content {
+        width: 100%;
+        max-width: 371px;
+        margin: 0 20px;
+        position: relative;
+        background: $white-fill;
+        border-radius: 5px;
+        padding: $lg-value;
+        @include media-breakpoint-up(md) {
+            padding: 30px 43px;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            color: $mono-midnight;
+        }
+
+        h5 {
+            margin-top: $lg-value;
+            margin-bottom: $md-value;
+            color: $midnight-nordic-noir;
+        }
+
+        p {
+            color: $mono-midnight;
+        }
+
+        hr {
+            height: 0.5px;
+        }
+    }
+
+    .hd-modal-header {
+        text-align: left;
+
+        > span {
+            display: block;
+            text-align: right;
+
+            > img {
+                height: 36px;
+                width: 37px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .hd-modal-body {
+        font-family: $font-face-generic-regular;
+        font-style: normal;
+        font-weight: normal;
+        font-size: $font-size-md;
+        line-height: 24px;
+        color: $app-theme;
+
+        .btn-group-toggle .btn {
+            @extend .btn--light;
+        }
+
+        .drop-down-list > div > div > div {
+            font-weight: 600;
+        }
+    }
+
+    .hd-modal-footer {
+        display: flex;
+        margin-top: 20px;
+
+        .flex-column-reverse,
+        .footer-btns-w-100 {
+            button {
+                height: 50px;
+            }
+        }
+
+        @include media-breakpoint-up(sm) {
+            margin-top: 30px;
+
+            .row:not(.flex-column-reverse) {
+                .modal-btn-pl-small {
+                    padding-left: 6px;
+                }
+
+                .modal-btn-pr-small {
+                    padding-right: 6px;
+                }
+            }
+
+            .flex-column-reverse {
+                .modal-btn-pl-small {
+                    padding-right: 6px;
+                }
+
+                .modal-btn-pr-small {
+                    padding-left: 6px;
+                }
+            }
+        }
+    }
+
+    &.narrow {
+        .hd-modal-header {
+            h2 {
+                font-size: $hd-font-size-h2-mobile;
+                margin-top: 0;
+                margin-bottom: 9px;
+            }
+        }
+        .hd-modal-footer {
+            margin-top: 27px;
+        }
+    }
+
+    &.wide {
+        justify-content: flex-end;
+        .hastings-modal-content {
+            position: absolute;
+            left: 100%;
+            margin: 0;
+            padding: 60px 20px 40px 20px;
+            width: 100%;
+            max-width: 100%;
+            height: 100%;
+            border-radius: 0;
+            overflow: auto;
+
+            @include media-breakpoint-up(md) {
+                padding: 45px 76px 40px 67px;
+                width: 50%;
+                min-width: 559px;
+            }
+            @include media-breakpoint-up(xl) {
+                width: 30%;
+            }
+
+            .hd-modal-header {
+                > span {
+                    position: absolute;
+                    z-index: 1;
+                    top: 16px;
+                    right: 20px;
+                    @include media-breakpoint-up(md) {
+                        top: 35px;
+                        right: 32px;
+                    }
+                    > img {
+                        height: 28px;
+                        width: 28px;
+                        @include media-breakpoint-up(md) {
+                            height: 36px;
+                            width: 37px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .modal__footer.flex-row-reverse {
+        button {
+            font-weight: 600;
+        }
+    }
+}
+
+//TODO: Add non-wide style
+
+//TODO: review implementation
+.hastings-modal.ancillary-popup {
+    .hastings-modal-content {
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        min-height: 0;
+        width: 375px;
+        background-color: $black-transparent-25;
+
+        .hd-modal-header,
+        .hd-modal-footer {
+            display: none;
+        }
+
+        .hd-modal-body {
+            background-color: $app-theme;
+            margin-bottom: 0;
+            margin-left: 0;
+            margin-right: 0;
+
+            .popup-card {
+                padding: 10px;
+                display: flex;
+
+                .popup-message {
+                    font-size: $font-size-regular;
+                    text-align: left;
+                    color: $white-color;
+                }
+
+                .popup-icon {
+                    width: 10px;
+                    height: 10px;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    padding: 12px;
+                    border-radius: 50%;
+                    margin-right: 12px;
+                }
+
+                .popup-icon.popup-icon-added {
+                    background-image: url(../../../../../applications/quote-and-buy/src/assets/images/wizard-images/hastings-icons/icons/Tick.svg);
+                }
+
+                .popup-icon.popup-icon-removed {
+                    background-color: $alert-color;
+                    background-image: url(../../../../../applications/quote-and-buy/src/assets/images/wizard-images/hastings-icons/icons/Cross.svg);
+                }
+            }
+        }
+    }
+}

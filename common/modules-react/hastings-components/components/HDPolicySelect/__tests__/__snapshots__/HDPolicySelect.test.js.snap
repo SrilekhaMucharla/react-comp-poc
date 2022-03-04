@@ -1,0 +1,660 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPolicySelect /> render component 1`] = `
+<HDCreatePolicySelect
+  canHideOnlineInfo={false}
+  className={null}
+  colProps={null}
+  infoOverlay={
+    <div>
+      Overlay
+    </div>
+  }
+  onChange={[MockFunction]}
+  pageMetadata={null}
+  saveValue={null}
+  selectedOption={null}
+>
+  <Container
+    className="hd-create-policy-select__container"
+    fluid={false}
+  >
+    <div
+      className="hd-create-policy-select__container container"
+    >
+      <Row
+        noGutters={false}
+      >
+        <div
+          className="row"
+        >
+          <Col>
+            <div
+              className="col"
+            >
+              <HDLabelRefactor
+                Tag="h2"
+                adjustImagePosition={true}
+                className="hd-create-policy-select__header-label"
+                icon={
+                  <HDOverlayPopup
+                    cancelButton="Cancel"
+                    className=""
+                    closeOnSelect={false}
+                    confirmButton="Confirm"
+                    customStyle=""
+                    disabledConfirmButton={false}
+                    headerBar={null}
+                    hidden={false}
+                    hideOnConfirm={true}
+                    id="info-overlay"
+                    labelText="Online insurance"
+                    onBeforeClose={[Function]}
+                    onBeforeOpen={[Function]}
+                    onCancel={[Function]}
+                    onConfirm={[Function]}
+                    overlayButtonIcon={false}
+                    overlayButtonsClassName=""
+                    showButtons={false}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Overlay closed",
+                      }
+                    }
+                    webAnalyticsView={
+                      Object {
+                        "page_section": "Overlay closed",
+                      }
+                    }
+                  >
+                    <p>
+                      Online insurance is a lower cost, self-service policy that you manage yourself in the app and MyAccount. You'll have 24/7 access to your details so you can make changes at a time that suits you, all without having to call.
+                    </p>
+                    <p>
+                      Of course, there are certain things you'll need to call us about (such as to discuss a claim) but call centre support is limited and this saving is reflected in the price of the policy.
+                    </p>
+                    <h5>
+                      What elements of my policy do I manage online?
+                    </h5>
+                    <p>
+                      Although you can still call us for a few specific things, you'll be expected to manage most parts of your policy online. This includes:
+                    </p>
+                    <ul
+                      className="list-tick"
+                    >
+                      <li>
+                        Changing your car of editing the details
+                      </li>
+                      <li>
+                        Adding or removing drivers
+                      </li>
+                      <li>
+                        Updating personal info, like your address
+                      </li>
+                      <li>
+                        Managing your payments
+                      </li>
+                      <li>
+                        Registering or tracking a car claim
+                      </li>
+                    </ul>
+                    <p>
+                      If you'd prefer the option to call us to do these types of things, you'll need to switch to a standard policy. It has the same features as online policy but also includes full support from our call centre.
+                    </p>
+                    <h5>
+                      Is there a difference in price?
+                    </h5>
+                    <p>
+                      Yes, online policies are cheaper because there's limited call centre support, All fees, such as to change or cancel your policy, are the same as a standard policy.
+                    </p>
+                    <h5>
+                      Can I still call you if I need help?
+                    </h5>
+                    <p>
+                      As you can do most things online, you shouldn't need to phone us. However, you can call if you need to:
+                    </p>
+                    <ul
+                      className="list-tick"
+                    >
+                      <li>
+                        Discuss your claim in more detail
+                      </li>
+                      <li>
+                        Claim one one of your optional extras
+                      </li>
+                      <li>
+                        Renew or cancel your policy
+                      </li>
+                    </ul>
+                    <p>
+                      There may also be times when we need to speak to you, so we may ask you to call us for a specific reason.
+                    </p>
+                  </HDOverlayPopup>
+                }
+                iconPosition="r"
+                text="What kind of policy would you like?"
+              >
+                <Row
+                  className="label-with-icon align-items-start hd-create-policy-select__header-label"
+                  noGutters={false}
+                >
+                  <div
+                    className="label-with-icon align-items-start hd-create-policy-select__header-label row"
+                  >
+                    <Col
+                      className="pr-0"
+                    >
+                      <div
+                        className="pr-0 col"
+                      >
+                        <h2
+                          className="hd-create-policy-select__header-label"
+                        >
+                          What kind of policy would you like?
+                        </h2>
+                      </div>
+                    </Col>
+                    <Col
+                      className="mt-h2  "
+                      xs="auto"
+                    >
+                      <div
+                        className="mt-h2   col-auto"
+                      >
+                        <HDOverlayPopup
+                          cancelButton="Cancel"
+                          className=""
+                          closeOnSelect={false}
+                          confirmButton="Confirm"
+                          customStyle=""
+                          disabledConfirmButton={false}
+                          headerBar={null}
+                          hidden={false}
+                          hideOnConfirm={true}
+                          id="info-overlay"
+                          labelText="Online insurance"
+                          onBeforeClose={[Function]}
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onConfirm={[Function]}
+                          overlayButtonIcon={false}
+                          overlayButtonsClassName=""
+                          showButtons={false}
+                          webAnalyticsEvent={
+                            Object {
+                              "event_action": "Overlay closed",
+                            }
+                          }
+                          webAnalyticsView={
+                            Object {
+                              "page_section": "Overlay closed",
+                            }
+                          }
+                        >
+                          <div
+                            className="hd-information-tooltip "
+                          >
+                            <div
+                              className="hd-overlay-btn "
+                              hidden={false}
+                              id="info-overlay"
+                              onClick={[Function]}
+                            />
+                          </div>
+                        </HDOverlayPopup>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </HDLabelRefactor>
+              <HDToggleButtonGroup
+                availableValues={
+                  Array [
+                    Object {
+                      "content": <HDUpdateButton
+                        className={null}
+                        header="Lower cost, self-service insurance that you manage in the app and MyAccount."
+                        id="hd-create-policy-select-button"
+                        imageSource="logo-online-product-color-left.png"
+                        list={
+                          Array [
+                            "Manage online",
+                            "24/7 access to policy",
+                            "Highly rated app*",
+                            "Limited",
+                          ]
+                        }
+                        saveValue={null}
+                        selectedOption={null}
+                      />,
+                      "name": "online",
+                      "value": "online",
+                    },
+                    Object {
+                      "content": <HDUpdateButton
+                        className={null}
+                        header="Includes all the same features as an online policy, plus full support from our call centre."
+                        id="hd-create-policy-select-button"
+                        imageSource="logo-standard-product-color.png"
+                        list={
+                          Array [
+                            "Manage online",
+                            "24/7 access to policy",
+                            "Highly rated app*",
+                            "Full",
+                          ]
+                        }
+                        saveValue={null}
+                        selectedOption={null}
+                      />,
+                      "name": "standard",
+                      "value": "standard",
+                    },
+                  ]
+                }
+                btnClassName=""
+                btnGroupClassName=""
+                className="hd-create-policy-select__toggle-button"
+                customClassName=""
+                data={null}
+                disabled={false}
+                doReset={false}
+                label={null}
+                name="toggle-button-name"
+                onChange={[MockFunction]}
+                path="path.to.toggle-button"
+                type="radio"
+                value={null}
+              >
+                <div
+                  className=" hd-create-policy-select__toggle-button"
+                >
+                  <ForwardRef
+                    className=""
+                    name="toggle-button-name"
+                    type="radio"
+                    value={null}
+                    vertical={false}
+                  >
+                    <ButtonGroup
+                      className=""
+                      role="group"
+                      toggle={true}
+                      vertical={false}
+                    >
+                      <div
+                        className="btn-group btn-group-toggle"
+                        role="group"
+                      >
+                        <ToggleButton
+                          checked={false}
+                          className=""
+                          disabled={false}
+                          key=".$online"
+                          name="toggle-button-name"
+                          onChange={[Function]}
+                          type="radio"
+                          value="online"
+                          variant="default"
+                        >
+                          <Button
+                            active={false}
+                            as="label"
+                            className=""
+                            disabled={false}
+                            variant="default"
+                          >
+                            <label
+                              className="btn btn-default"
+                              disabled={false}
+                            >
+                              <input
+                                autoComplete="off"
+                                checked={false}
+                                disabled={false}
+                                name="toggle-button-name"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                type="radio"
+                                value="online"
+                              />
+                              <HDUpdateButton
+                                className={null}
+                                header="Lower cost, self-service insurance that you manage in the app and MyAccount."
+                                id="hd-create-policy-select-button"
+                                imageSource="logo-online-product-color-left.png"
+                                list={
+                                  Array [
+                                    "Manage online",
+                                    "24/7 access to policy",
+                                    "Highly rated app*",
+                                    "Limited",
+                                  ]
+                                }
+                                saveValue={null}
+                                selectedOption={null}
+                              >
+                                <div
+                                  className="update-button"
+                                >
+                                  <div
+                                    className="update-button-head"
+                                  >
+                                    <img
+                                      alt="button"
+                                      className="hd-update-button__logo"
+                                      src="logo-online-product-color-left.png"
+                                    />
+                                  </div>
+                                  <div
+                                    className="update-button-body"
+                                  >
+                                    <HDLabelRefactor
+                                      Tag="p"
+                                      adjustImagePosition={true}
+                                      className="hd-update-button__label"
+                                      text="Lower cost, self-service insurance that you manage in the app and MyAccount."
+                                    >
+                                      <p
+                                        className="hd-update-button__label"
+                                      >
+                                        Lower cost, self-service insurance that you manage in the app and MyAccount.
+                                      </p>
+                                    </HDLabelRefactor>
+                                    <ul>
+                                      <li>
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item"
+                                          text="Manage online"
+                                        >
+                                          <p
+                                            className="hd-update-button__list-item"
+                                          >
+                                            Manage online
+                                          </p>
+                                        </HDLabelRefactor>
+                                      </li>
+                                      <li>
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item"
+                                          text="24/7 access to policy"
+                                        >
+                                          <p
+                                            className="hd-update-button__list-item"
+                                          >
+                                            24/7 access to policy
+                                          </p>
+                                        </HDLabelRefactor>
+                                      </li>
+                                      <li>
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item"
+                                          text="Highly rated app*"
+                                        >
+                                          <p
+                                            className="hd-update-button__list-item"
+                                          >
+                                            Highly rated app*
+                                          </p>
+                                        </HDLabelRefactor>
+                                      </li>
+                                      <li
+                                        className="text-left"
+                                        key="option-4"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="span"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item font-weight-bold text-left"
+                                          text="Limited"
+                                        >
+                                          <span
+                                            className="hd-update-button__list-item font-weight-bold text-left"
+                                          >
+                                            Limited
+                                          </span>
+                                        </HDLabelRefactor>
+                                        <HDLabelRefactor
+                                          Tag="span"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item text-left"
+                                          text=" call centre support"
+                                        >
+                                          <span
+                                            className="hd-update-button__list-item text-left"
+                                          >
+                                             call centre support
+                                          </span>
+                                        </HDLabelRefactor>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div
+                                    className="update-button-footer"
+                                  >
+                                    <span
+                                      className="radio-mock"
+                                    />
+                                  </div>
+                                </div>
+                              </HDUpdateButton>
+                            </label>
+                          </Button>
+                        </ToggleButton>
+                        <ToggleButton
+                          checked={false}
+                          className=""
+                          disabled={false}
+                          key=".$standard"
+                          name="toggle-button-name"
+                          onChange={[Function]}
+                          type="radio"
+                          value="standard"
+                          variant="default"
+                        >
+                          <Button
+                            active={false}
+                            as="label"
+                            className=""
+                            disabled={false}
+                            variant="default"
+                          >
+                            <label
+                              className="btn btn-default"
+                              disabled={false}
+                            >
+                              <input
+                                autoComplete="off"
+                                checked={false}
+                                disabled={false}
+                                name="toggle-button-name"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                type="radio"
+                                value="standard"
+                              />
+                              <HDUpdateButton
+                                className={null}
+                                header="Includes all the same features as an online policy, plus full support from our call centre."
+                                id="hd-create-policy-select-button"
+                                imageSource="logo-standard-product-color.png"
+                                list={
+                                  Array [
+                                    "Manage online",
+                                    "24/7 access to policy",
+                                    "Highly rated app*",
+                                    "Full",
+                                  ]
+                                }
+                                saveValue={null}
+                                selectedOption={null}
+                              >
+                                <div
+                                  className="update-button"
+                                >
+                                  <div
+                                    className="update-button-head"
+                                  >
+                                    <img
+                                      alt="button"
+                                      className="hd-update-button__logo"
+                                      src="logo-standard-product-color.png"
+                                    />
+                                  </div>
+                                  <div
+                                    className="update-button-body"
+                                  >
+                                    <HDLabelRefactor
+                                      Tag="p"
+                                      adjustImagePosition={true}
+                                      className="hd-update-button__label"
+                                      text="Includes all the same features as an online policy, plus full support from our call centre."
+                                    >
+                                      <p
+                                        className="hd-update-button__label"
+                                      >
+                                        Includes all the same features as an online policy, plus full support from our call centre.
+                                      </p>
+                                    </HDLabelRefactor>
+                                    <ul>
+                                      <li>
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item"
+                                          text="Manage online"
+                                        >
+                                          <p
+                                            className="hd-update-button__list-item"
+                                          >
+                                            Manage online
+                                          </p>
+                                        </HDLabelRefactor>
+                                      </li>
+                                      <li>
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item"
+                                          text="24/7 access to policy"
+                                        >
+                                          <p
+                                            className="hd-update-button__list-item"
+                                          >
+                                            24/7 access to policy
+                                          </p>
+                                        </HDLabelRefactor>
+                                      </li>
+                                      <li>
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item"
+                                          text="Highly rated app*"
+                                        >
+                                          <p
+                                            className="hd-update-button__list-item"
+                                          >
+                                            Highly rated app*
+                                          </p>
+                                        </HDLabelRefactor>
+                                      </li>
+                                      <li
+                                        className="text-left"
+                                        key="option-4"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="span"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item font-weight-bold text-left"
+                                          text="Full"
+                                        >
+                                          <span
+                                            className="hd-update-button__list-item font-weight-bold text-left"
+                                          >
+                                            Full
+                                          </span>
+                                        </HDLabelRefactor>
+                                        <HDLabelRefactor
+                                          Tag="span"
+                                          adjustImagePosition={true}
+                                          className="hd-update-button__list-item text-left"
+                                          text=" call centre support"
+                                        >
+                                          <span
+                                            className="hd-update-button__list-item text-left"
+                                          >
+                                             call centre support
+                                          </span>
+                                        </HDLabelRefactor>
+                                      </li>
+                                    </ul>
+                                  </div>
+                                  <div
+                                    className="update-button-footer"
+                                  >
+                                    <span
+                                      className="radio-mock"
+                                    />
+                                  </div>
+                                </div>
+                              </HDUpdateButton>
+                            </label>
+                          </Button>
+                        </ToggleButton>
+                      </div>
+                    </ButtonGroup>
+                  </ForwardRef>
+                </div>
+              </HDToggleButtonGroup>
+              <HDQuoteInfoRefactor
+                className="hd-create-policy-select__quote-info"
+              >
+                <div
+                  className="quote-info theme-white hd-create-policy-select__quote-info"
+                  id="quote-info-body"
+                >
+                  <p
+                    className="quote-info__info-icon"
+                    id="quote-info-icon"
+                  >
+                    <span>
+                      !
+                    </span>
+                  </p>
+                  <p
+                    className="quote-info__info-paragraph align-self-center"
+                    id="quote-info-paragraph"
+                  >
+                    Don't worry, we're always here to help if you have an accident - our claims helpline number is available 24/7 whatever policy you choose.
+                  </p>
+                </div>
+              </HDQuoteInfoRefactor>
+              <HDLabelRefactor
+                Tag="p"
+                adjustImagePosition={true}
+                className="hd-create-policy-select__text-astrisk text-small"
+                text="*Rated 4.7 on App Store and 4.5 on Google Play as of 03/2021"
+              >
+                <p
+                  className="hd-create-policy-select__text-astrisk text-small"
+                >
+                  *Rated 4.7 on App Store and 4.5 on Google Play as of 03/2021
+                </p>
+              </HDLabelRefactor>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </div>
+  </Container>
+</HDCreatePolicySelect>
+`;

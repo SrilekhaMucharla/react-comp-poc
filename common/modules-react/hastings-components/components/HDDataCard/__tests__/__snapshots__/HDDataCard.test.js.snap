@@ -1,0 +1,185 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDataCard /> render component with all props 1`] = `
+<div
+  className="hd-data-card theme-white null"
+>
+  <Container
+    className="p-0"
+    fluid={true}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        md={8}
+        xs={12}
+      >
+        <div
+          className="icon p-3"
+        >
+          <i
+            className="fas fa-car fa-3x"
+          />
+        </div>
+        <div
+          className="licence-plate"
+        >
+          Title
+        </div>
+        <h4
+          className="description"
+        >
+          Desc
+        </h4>
+      </Col>
+      <Col
+        md={
+          Object {
+            "order": 3,
+            "span": 12,
+          }
+        }
+        xs={12}
+      >
+        <div
+          className="data"
+        >
+          <div
+            className="section"
+            key="0"
+          >
+            <div
+              className="item"
+              key="key1"
+            >
+              <div
+                className="key"
+              >
+                key1
+              </div>
+              <div
+                className="value"
+              >
+                value1
+              </div>
+            </div>
+            <div
+              className="item"
+              key="key2"
+            >
+              <div
+                className="key"
+              >
+                key2
+              </div>
+              <div
+                className="value"
+              >
+                10
+              </div>
+            </div>
+          </div>
+        </div>
+      </Col>
+      <Col
+        className="text-right-md-up mt-md-0 mt-4"
+        md={4}
+        xs={12}
+      >
+        <HDLabelRefactor
+          Tag="a"
+          adjustImagePosition={true}
+          className={null}
+          id="dc-link"
+          onClick={[MockFunction]}
+          text="Link"
+        />
+      </Col>
+    </Row>
+  </Container>
+</div>
+`;
+
+exports[`<HDDataCard /> render component with mandatory props 1`] = `
+<div
+  className="hd-data-card theme-white null"
+>
+  <Container
+    className="p-0"
+    fluid={true}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        md={8}
+        xs={12}
+      >
+        <div
+          className="licence-plate"
+        >
+          Title
+        </div>
+        <h4
+          className="description"
+        />
+      </Col>
+      <Col
+        md={
+          Object {
+            "order": 3,
+            "span": 12,
+          }
+        }
+        xs={12}
+      >
+        <div
+          className="data"
+        >
+          <div
+            className="section"
+            key="0"
+          >
+            <div
+              className="item"
+              key="key1"
+            >
+              <div
+                className="key"
+              >
+                key1
+              </div>
+              <div
+                className="value"
+              >
+                value1
+              </div>
+            </div>
+            <div
+              className="item"
+              key="key2"
+            >
+              <div
+                className="key"
+              >
+                key2
+              </div>
+              <div
+                className="value"
+              >
+                10
+              </div>
+            </div>
+          </div>
+        </div>
+      </Col>
+      <Col
+        className="text-right-md-up mt-md-0 mt-4"
+        md={4}
+        xs={12}
+      />
+    </Row>
+  </Container>
+</div>
+`;

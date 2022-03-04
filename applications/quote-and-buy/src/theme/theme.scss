@@ -1,0 +1,161 @@
+//DO NOTHING HERE
+
+//$appTheme: #011831;
+//$pageBG: #ffffff;
+//$alternateBG: #f7f7f9;
+//$bodyBG: #E5E5E5;
+//$alertColor: #E40034;
+//$linkColor: #0069CC;
+//$secondaryLink: #AFBDD1;
+//$tabBG: #F3F8FF;
+//$tabBorder: #AFBDD1;
+//$regularTextColor: #000000;
+//$secondaryTextColor: #ffffff;
+//
+//$primaryPageColor: #E5E5E5;
+//$secondaryPageColor: $appTheme; // #EBEBEB;
+//$secondaryPageBGColor: #EDEDED;
+//$neutralPanelColor: #EAEAEA;
+//$tipBGColor: #E0E0E0;
+//$primaryButtonBGColor: #404040;
+//$secondaryButtonBGColor: #FFFFFF;
+//$tertiaryButtonBGColor: #4F4F4F;
+//
+//$commonCompoBGColor: #01355a;
+//$commonCompoBGColorLightBlue2: #f3f8ff;
+//$commonCompoBGColorBlue: #00448c;
+//$commonCompoBGColorRed:#a90d30;
+//$commonCompoBGColorWhite: #ffffff;
+//$commonCompoBGColorBlueLight:#0069cc;
+//$commonCompoBGColorGreen:#0e838a;
+//$commonCompoTextColorBlueDark : #011831;
+//$commonCompoTextColorBlueGray: #60759e;
+//$commonCompoTextColorBlueLight:#0069cc;
+//$commonCompoTextColorBlueGrayLight: #afbdd1;
+//$commonCompoTextColor: #ffffff;
+//$commonCompoBorderColor:  #60759e;
+//$commonCompoBorderColorRed:#e10930;
+//$commonCompoBorderColorGreen:#00a39e;
+//$commonCompoBorderColorGreenDark:#0e838a;
+//$commonCompoBorderColorBlueLight: #0085ff;
+//
+//$leftContainerBGColor: $appTheme;
+//$loaderBG: rgba(0, 0, 0, 0.5);
+//$innerCardColor: #F2F2F2;
+//
+//$primaryTextColor: #404040;
+//$primaryTextColorDark: #011831;
+//$secondaryTextColor: #FFFFFF;
+//$neutralLabelColor: #BABABA;
+//$headerTextColor:  #FFFFFF;
+//
+//$regularButtonBorderColor: #9C9C9C;
+//$regularButtonBGColor: $secondaryButtonBGColor;
+//
+//$ratingBGColor: #ED6B06;
+//$secondaryRatingColor: #ff3d54;
+//$warningColor: rgb(235, 87, 87);
+//
+//$tipParagraphTextColor : #828282;
+//$tipBodyTextColor : #a2a2a2;
+//$blackColor:#000000;
+//$overlayCloseButtonColor:#727272;
+//$ancillaryFontColor:#011831;
+//
+//$regNumberBackgroundColor: #FBE700;
+//$topSelectedIconColor: #A24593;
+//$commentedColor: #8B98A6;
+//$infoColor: #60759e;
+//$multicarInfoColor: #01355A;
+//$labelColor: #4C6172;
+//$sectionHeaderColor: #02213e;
+//$inputShadowColor: #c3cdd8;
+//$calendarIconColor: #0085ff;
+//
+//$headerHeight: 80px;
+//$headerHeightMobile: 70px;
+//$loaderFontSize: 50px;
+//$footerProgressViewHeight: 150px;
+//$footerProgressViewHeightMobile: 195px;
+//$fontSizeSmall: 16px;
+//$lineHeightSmall: 24px;
+//
+//$genericFontFace: 'TTNormsPro';
+//$genericRegularFontFace: 'TTNormsPro-Regular';
+//$genericNormalFontFace: 'TTNormsPro-Normal';
+//$genericTitleBoldFontFace: 'TTNormsPro-Bold';
+//$genericDemiBoldFontFace: 'TTNormsPro-DemiBold';
+//$genericMediumFontFace: 'TTNormsPro-Medium';
+//$genericCharlesWrightFontFace: 'CharlesWright-Bold';
+//
+//$primaryShadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+//
+//$pcwDivColor:#DBECED 15%;
+//$coverdetailsContent: #60579E;
+//
+//$customizeQuoteBtnColor: #0E838A;
+//$customizeQuoteSecondaryBtnColor: rgba(14, 131, 138, 0.2);
+//$customizeQuoteSecondaryBtnBorderColor: #00A39E;
+//$customizeQuotePopupBackgroundColor: rgba(1, 24, 49, 0.95);
+//
+//$customizeQuoteBGColor : #E5E5E5;
+//$customizeQuoteButtonSelectionColor: #0085ff;
+//$customizeQuoteRACColor :#d4e6e9;
+//$racMessageColor:#f3d4e0;
+//$customizeQuoteMessageIconColor:#A73A95;
+//$lineSeparator: #027ABB;
+//
+//$errorBoxBackgroundColor: #A90D30;
+//$customizeQuoteTableRowBackgroundColor: #f7f7f9;
+//$customizeQuoteTipBackgroundColor: rgba(167, 58, 149, 0.1);
+//
+//$paymentAmountColor: #0085FF;
+//$InterstitialTitleColor: #f2f2f2;
+//
+//$stealBlue: #5984b3;
+//
+//$faqLightGray: rgba(2, 87, 187, 0.1);
+//
+///* Exclusively for usage in styled components */
+//:export {
+//    appTheme: $appTheme;
+//    secondaryTextColor: $secondaryTextColor;
+//    commonCompoBGColorWhite: $commonCompoBGColorWhite;
+//    commonCompoBGColor: $commonCompoBGColor;
+//    commonCompoBGColorLightBlue2: $commonCompoBGColorLightBlue2;
+//    commonCompoTextColor: $commonCompoTextColor;
+//    commonCompoTextColorBlueDark: $commonCompoTextColorBlueDark;
+//    commonCompoBGColorBlueLight: $commonCompoBGColorBlueLight;
+//    tertiaryTextColor: $commonCompoTextColorBlueGrayLight;
+//    genericFontFace: $genericFontFace;
+//    genericTitleBoldFontFace: $genericTitleBoldFontFace;
+//}
+///*GLobal css for calender icon*/
+//.section {
+//    position: relative;
+//    .hastings-date-control {
+//        .hastings-cal-icon {
+//            position: absolute;
+//            top: 7px;
+//            left: 125px;
+//        }
+//    }
+//}
+///*Global cass for loader*/
+//.loader {
+//    background: $loaderBG;
+//    color: $white-color;
+//    position: fixed;
+//    left: 0;
+//    top: 0;
+//    width: 100%;
+//    height: 100%;
+//    display: flex;
+//    align-items: center;
+//    justify-content: center;
+//    z-index: 99999999999;
+//    i.fa {
+//        font-size: $loaderFontSize;
+//        margin-left: 5px;
+//    }
+//}

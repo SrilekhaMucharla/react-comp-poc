@@ -1,0 +1,29 @@
+.driver-name-page {
+    .page-driver-name {
+        &__gender {
+            margin-top: 5px;
+        }
+
+        &__select-titles {
+            .btn-group-toggle.grid {
+                grid-gap: 20px;
+                gap: 20px;
+            }
+        }
+
+        &__select-titles {
+            @include media-breakpoint-down(sm) {
+                padding-right: 50px;
+            }
+        }
+    }
+
+    .gender-question-container {
+        hr {
+            @include media-breakpoint-down(sm) {
+                margin: 20px 0 25px;
+            }
+        }
+    }
+}
+

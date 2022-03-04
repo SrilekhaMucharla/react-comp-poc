@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDContainer /> render component with logo 1`] = `
+<div>
+  <div
+    className="policy-details-cover__title"
+  >
+    <Col
+      className="pl-0"
+      lg="auto"
+      md={6}
+      xs={6}
+    >
+      <img
+        alt="logo"
+        className="policy-details-cover__logo img-fluid"
+        src="logourl"
+      />
+    </Col>
+    <Col
+      className="policy-details-cover__title--label px-0"
+      lg={8}
+      md={6}
+      xs={6}
+    >
+      <HDLabelRefactor
+        Tag="h5"
+        adjustImagePosition={true}
+        className="mb-0"
+        text="Third party fire and theft"
+      />
+    </Col>
+  </div>
+  <div
+    className="policy-details-cover__list"
+  >
+    <HDTickListItem
+      key="Motor Legal Expenses"
+      selected={true}
+      title="Motor Legal Expenses"
+    />
+    <HDTickListItem
+      key="Roadside Assistance Breakdown cover"
+      selected={true}
+      title="Roadside Assistance Breakdown cover"
+    />
+    <HDTickListItem
+      key="Driving other cars"
+      selected={true}
+      title="Driving other cars"
+    >
+      Third party cover for the policyholder only, see your Certificate of Insurance for more information.
+    </HDTickListItem>
+    <HDTickListItem
+      key="Courtesy car"
+      selected={true}
+      title="Courtesy car"
+    >
+      A small car will be provided while your car's being repaired by one of our approved repairers.
+    </HDTickListItem>
+  </div>
+</div>
+`;
+
+exports[`<HDContainer /> render component with logo and comprehensive 1`] = `
+<div>
+  <div
+    className="policy-details-cover__title"
+  >
+    <Col
+      className="pl-0"
+      lg="auto"
+      md={6}
+      xs={6}
+    >
+      <img
+        alt="logo"
+        className="policy-details-cover__logo img-fluid"
+        src="logourl"
+      />
+    </Col>
+    <Col
+      className="policy-details-cover__title--label px-0"
+      lg={8}
+      md={6}
+      xs={6}
+    >
+      <HDLabelRefactor
+        Tag="h5"
+        adjustImagePosition={true}
+        className="mb-0"
+        text="Comprehensive"
+      />
+    </Col>
+  </div>
+  <div
+    className="policy-details-cover__list"
+  >
+    <HDTickListItem
+      key="Motor Legal Expenses"
+      selected={true}
+      title="Motor Legal Expenses"
+    />
+    <HDTickListItem
+      key="Roadside Assistance Breakdown cover"
+      selected={true}
+      title="Roadside Assistance Breakdown cover"
+    />
+    <HDTickListItem
+      key="Driving other cars"
+      selected={true}
+      title="Driving other cars"
+    >
+      Third party cover for the policyholder only, see your Certificate of Insurance for more information.
+    </HDTickListItem>
+    <HDTickListItem
+      key="Courtesy car"
+      selected={true}
+      title="Courtesy car"
+    >
+      A small car will be provided while your car's being repaired by one of our approved repairers.
+    </HDTickListItem>
+    <HDTickListItem
+      key="Windscreen or windows"
+      selected={false}
+      title="Windscreen or windows"
+    />
+    <HDTickListItem
+      key="Fire and theft damage"
+      selected={false}
+      title="Fire and theft damage"
+    />
+  </div>
+</div>
+`;
+
+exports[`<HDContainer /> render component with title 1`] = `
+<div>
+  <HDLabelRefactor
+    Tag="h4"
+    adjustImagePosition={true}
+    className="policy-details-cover__extra-title"
+    text="title"
+  />
+  <div
+    className="policy-details-cover__list"
+  >
+    <HDTickListItem
+      key="Motor Legal Expenses"
+      selected={true}
+      title="Motor Legal Expenses"
+    />
+    <HDTickListItem
+      key="Roadside Assistance Breakdown cover"
+      selected={true}
+      title="Roadside Assistance Breakdown cover"
+    />
+    <HDTickListItem
+      key="Driving other cars"
+      selected={true}
+      title="Driving other cars"
+    >
+      Third party cover for the policyholder only, see your Certificate of Insurance for more information.
+    </HDTickListItem>
+    <HDTickListItem
+      key="Courtesy car"
+      selected={true}
+      title="Courtesy car"
+    >
+      A small car will be provided while your car's being repaired by one of our approved repairers.
+    </HDTickListItem>
+  </div>
+</div>
+`;
+
+exports[`<HDContainer /> render component withuot header 1`] = `
+<div>
+  <HDLabelRefactor
+    Tag="h4"
+    adjustImagePosition={true}
+    className="policy-details-cover__extra-title"
+    text="title"
+  />
+  <div
+    className="policy-details-cover__list"
+  >
+    <HDTickListItem
+      key="Motor Legal Expenses"
+      selected={true}
+      title="Motor Legal Expenses"
+    />
+    <HDTickListItem
+      key="Roadside Assistance Breakdown cover"
+      selected={true}
+      title="Roadside Assistance Breakdown cover"
+    />
+    <HDTickListItem
+      key="Driving other cars"
+      selected={true}
+      title="Driving other cars"
+    >
+      Third party cover for the policyholder only, see your Certificate of Insurance for more information.
+    </HDTickListItem>
+    <HDTickListItem
+      key="Courtesy car"
+      selected={true}
+      title="Courtesy car"
+    >
+      A small car will be provided while your car's being repaired by one of our approved repairers.
+    </HDTickListItem>
+  </div>
+</div>
+`;

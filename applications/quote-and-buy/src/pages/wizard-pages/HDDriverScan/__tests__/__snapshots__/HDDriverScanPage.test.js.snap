@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDDriverScanPage renders component, with video tag 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HDDriverScanPage)
+      handleBackward={[MockFunction]}
+      handleForward={[MockFunction]}
+      setNavigation={[MockFunction]}
+    >
+      <HDDriverScanPage
+        handleBackward={[MockFunction]}
+        handleForward={[MockFunction]}
+        setAddressDisplay={[Function]}
+        setNavigation={[Function]}
+        setWizardPageState={[Function]}
+        submissionVM={
+          Object {
+            "baseData": Object {
+              "accountHolder": Object {
+                "dateOfBirth": null,
+              },
+              "isExistingCustomer": false,
+              "isPostalDocument": false,
+              "jobType": "Submission",
+              "marketingContacts": Object {
+                "allowEmail": false,
+                "allowPost": false,
+                "allowSMS": false,
+                "allowTelephone": false,
+              },
+              "periodStatus": "Draft",
+              "policyAddress": Object {},
+              "producerCode": "Default",
+              "productCode": "PrivateCar_Ext",
+              "productName": "Private Car",
+              "termType": "Annual",
+            },
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "addInterestTypeCategory": "PAVhcleAddlInterest",
+                  "drivers": Array [
+                    Object {
+                      "claimsAndConvictions": Object {
+                        "claimsDetailsCollection": Array [],
+                        "convictionsCollection": Array [],
+                      },
+                      "licenceObtainedDate": null,
+                      "person": Object {
+                        "prefix": Object {},
+                      },
+                      "previousPoliciesInformation": Object {},
+                      "residingInUKSince": null,
+                      "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                    },
+                  ],
+                  "vehicleDrivers": Array [
+                    Object {},
+                  ],
+                  "vehicles": Array [
+                    Object {
+                      "isCarModified": "",
+                      "ncdProtection": Object {
+                        "drivingExperience": Object {},
+                      },
+                      "tracker": "",
+                      "vehicleModifications": Array [],
+                      "vehicleWorth": "",
+                    },
+                  ],
+                },
+                "preQualQuestionSets": Array [],
+              },
+            },
+          }
+        }
+      >
+        <ForwardRef
+          confirmLabel="OK"
+          headerText="Sorry, something went wrong"
+          hideCancelButton={true}
+          hideClose={true}
+          id="something-went-wrong-modal"
+          onBeforeOpen={null}
+          onConfirm={[Function]}
+          show={false}
+          webAnalyticsEvent={
+            Object {
+              "event_action": "Sorry, something went wrong",
+            }
+          }
+          webAnalyticsView={
+            Object {
+              "page_section": "Sorry, something went wrong",
+            }
+          }
+        >
+          <ForwardRef
+            confirmLabel="OK"
+            headerText="Sorry, something went wrong"
+            hideCancelButton={true}
+            hideClose={true}
+            id="something-went-wrong-modal"
+            onBeforeOpen={[Function]}
+            onBlur={null}
+            onCancel={null}
+            onChange={null}
+            onClick={null}
+            onConfirm={[Function]}
+            onDelete={null}
+            onEdit={null}
+            onFocus={null}
+            onSelect={null}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Sorry, something went wrong",
+              }
+            }
+          >
+            <HDModal
+              cancelLabel="Cancel"
+              className=""
+              confirmLabel="OK"
+              customStyle=""
+              headerText="Sorry, something went wrong"
+              hideCancelButton={true}
+              hideClose={true}
+              hideConfirmButton={false}
+              hideFooter={false}
+              id="something-went-wrong-modal"
+              onBeforeOpen={[Function]}
+              onCancel={[Function]}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              show={false}
+            >
+              <Portal
+                containerInfo={
+                  <div
+                    id="portal-root"
+                  >
+                    
+                  </div>
+                }
+              />
+            </HDModal>
+          </ForwardRef>
+        </ForwardRef>
+        <div
+          className="scan"
+        >
+          <div
+            className="overlay is-active"
+            id="showcase-camera-overlay"
+          >
+            <div
+              className="overlay__header"
+            >
+              <div
+                className="control"
+              />
+              <div
+                className="control"
+              >
+                <div
+                  className="control__icon control__icon__close is-visible"
+                  id="close-camera"
+                  onClick={[Function]}
+                >
+                  <img
+                    alt="Close"
+                    src="Cross.svg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              className="overlay__center overlay__center__reticle"
+            >
+              <div
+                className="reticle is-default"
+                id="scanning-status"
+              >
+                <div
+                  className="reticle__cursor"
+                />
+                <div
+                  className="reticle__done"
+                >
+                  <img
+                    alt="spinner"
+                    src="green-tick-icon.svg"
+                  />
+                </div>
+              </div>
+              <p
+                className="label"
+                data-message="is-loading"
+              >
+                Video stream is loading
+              </p>
+              <p
+                className="label"
+                data-message="is-default"
+              >
+                Scan the front of the licence
+              </p>
+              <p
+                className="label"
+                data-message="is-error-move-farther"
+              >
+                Move farther
+              </p>
+              <p
+                className="label"
+                data-message="is-error-move-closer"
+              >
+                Move closer
+              </p>
+              <p
+                className="label"
+                data-message="is-error-adjust-angle"
+              >
+                Adjust the angle
+              </p>
+              <p
+                className="label"
+                data-message="is-fail"
+              >
+                Please try again
+              </p>
+              <p
+                className="label"
+                data-message="is-classification"
+              >
+                Document detected, hold it still while extracting data.
+              </p>
+            </div>
+            <div
+              className="overlay__camera"
+            >
+              <video
+                id="showcase-camera-feed"
+                playsInline={true}
+              />
+            </div>
+          </div>
+        </div>
+      </HDDriverScanPage>
+    </Connect(HDDriverScanPage)>
+  </Provider>
+</Component>
+`;

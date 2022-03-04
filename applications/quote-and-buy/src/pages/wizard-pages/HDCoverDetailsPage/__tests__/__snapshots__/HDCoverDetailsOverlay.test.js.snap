@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCoverDetailsOverlay /> should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  headerBar={null}
+  id="cover-details-overlay"
+  labelText="Your policy details"
+  onBeforeOpen={null}
+  overlayButtonIcon={
+    <HDLabelRefactor
+      Tag="a"
+      adjustImagePosition={true}
+      className="decorated-blue-line theme-white"
+      text="See full details"
+    />
+  }
+  showButtons={false}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Customize quote - See full details",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "Customize quote - See full details",
+    }
+  }
+>
+  <hr />
+  <Row
+    className="cover-details__overlay-policy-header"
+    noGutters={false}
+  >
+    <Col>
+      <Row
+        className="mb-2"
+        noGutters={false}
+      >
+        <Col
+          xs={5}
+        >
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className=""
+            text="Cover level:"
+          />
+        </Col>
+        <Col>
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className="font-medium"
+            text="HD"
+          />
+        </Col>
+      </Row>
+      <Row
+        className="mb-2"
+        noGutters={false}
+      >
+        <Col
+          className="align-self-center"
+          xs={5}
+        >
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className="align-items-center"
+            text="Cover type:"
+          />
+        </Col>
+        <Col>
+          <ForwardRef
+            customClassName="cover-details__overlay-dropdown font-medium"
+            id="cover-type-dropdown"
+            isDisabled={false}
+            onBeforeOpen={null}
+            onBlur={null}
+            onCancel={null}
+            onChange={[MockFunction]}
+            onClick={null}
+            onConfirm={null}
+            onDelete={null}
+            onEdit={null}
+            onFocus={null}
+            onSelect={null}
+            options={
+              Array [
+                Object {
+                  "label": "Comprehensive",
+                  "value": "comprehensive",
+                },
+                Object {
+                  "label": "Third Party",
+                  "value": "thirdParty",
+                },
+              ]
+            }
+            value={
+              Object {
+                "label": "Comprehensive",
+                "value": "comprehensive",
+              }
+            }
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Customize quote - Cover Type",
+              }
+            }
+          />
+        </Col>
+      </Row>
+      <Row
+        className="cover-details__overlay-policy-row mb-2"
+        noGutters={false}
+      >
+        <Col>
+          <HDQuoteInfoRefactor
+            className="customize-quote-summary__quote-notice__quote-info text-regular"
+          >
+            <div>
+              Sorry, if your car is worth more than £9,000 only comprehensive cover is available.
+            </div>
+          </HDQuoteInfoRefactor>
+        </Col>
+      </Row>
+      <Row
+        className="mb-2"
+        noGutters={false}
+      >
+        <Col
+          xs={5}
+        >
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className=""
+            text="Start date:"
+          />
+        </Col>
+        <Col>
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className="font-medium"
+            text="20/05/2021"
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col
+          xs={5}
+        >
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className=""
+            text="Payment terms:"
+          />
+        </Col>
+        <Col>
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className="font-medium"
+            text="Montlhy"
+          />
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+  <hr />
+  <Row
+    className="mb-3"
+    noGutters={false}
+  >
+    <Col>
+      <HDLabelRefactor
+        Tag="h5"
+        adjustImagePosition={true}
+        className="m-0 font-weight-bold"
+        text="What's included:"
+      />
+    </Col>
+  </Row>
+  <Row
+    className="cover-details__overlay-benefits-list d-block"
+    noGutters={false}
+  />
+  <p>
+    Content
+  </p>
+</ForwardRef>
+`;

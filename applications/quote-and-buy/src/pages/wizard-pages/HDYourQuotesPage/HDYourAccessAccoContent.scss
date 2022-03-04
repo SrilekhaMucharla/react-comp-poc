@@ -1,0 +1,31 @@
+.your-excess-acco__content {
+    color: $app-theme;
+}
+
+.your-excess-acco__header {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 24px;
+}
+
+.your-excess-acco__description {
+    font-size: $font-size-md;
+    line-height: 24px;
+    color: $info-color;
+}
+
+.your-excess-acco__tables {
+    table {
+        margin-top: 1.25em;
+    }
+
+    table:first-child {
+        margin-top: 0;
+    }
+}
+
+.popup-your-excess > span {
+    .label-text {
+        color: $app-theme;
+    }
+}

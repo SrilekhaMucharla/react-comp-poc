@@ -1,0 +1,37 @@
+node_modules
+build
+reports
+translation
+# Quote and Buy
+.DS_Store
+*.local
+*.log
+.idea
+.vscode
+
+# Prebuild
+applications/quote-and-buy/dist/
+applications/quote-and-buy/src/generated/config.json
+applications/quote-and-buy/src/generated/module-resolution.json
+applications/quote-and-buy/src/generated/metadata/questionSets-metadata.json
+applications/quote-and-buy/src/generated/metadata/product-metadata.json
+applications/quote-and-buy/src/i18n/en_GB.json
+applications/quote-and-buy/src/i18n/en_US.json
+
+# npm i & npm run bootstrap
+common/build-tools/gw-build-config-apache/bin/generateApacheConfig.js
+common/build-tools/gw-build-config-generate/bin/generateConfig.js
+common/build-tools/gw-build-product-metadata/metadataLocalisation.js
+common/build-tools/gw-build-product-metadata/bin/generateProductMetadata.js
+common/build-tools/gw-build-scripts/bin/build.js
+common/build-tools/gw-build-scripts/bin/resolveModules.js
+common/build-tools/gw-build-scripts/bin/start.js
+common/build-tools/gw-build-scripts/bin/verifySetup.js
+common/build-tools/gw-build-testing/bin/runTest.js
+framework/packages/@gwre-g11n/js-pseudolizer/bin/pseudolizer-cmd.js
+framework/visual-tests/scripts/prepareVisualReportArtifact.js
+
+# mock server
+mock-server/CertificateAuthorityCertificate.pem
+junit.xml
+vmInitial.diff

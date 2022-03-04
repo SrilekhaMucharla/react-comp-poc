@@ -1,0 +1,64 @@
+.customer-reviews-container {
+    overflow: hidden;
+    .reviews-badge {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+
+        .customer-reviews__box-para {
+            @include media-breakpoint-down(md) {
+                font-size: $font-size-sm-1;
+            }
+        }
+
+        // HIDDEN - VISIBLE
+
+        &.badge-horizontal {
+            display: none;
+            @include media-breakpoint-between(sm, lg) {
+                display: flex;
+            }
+            @include media-breakpoint-between(lg, xl) {
+                display: none;
+            }
+            @include media-breakpoint-up(xl) {
+                display: flex;
+            }
+            @media(width: 768px) {
+                display: none;
+            }
+            @media (min-width: 769px) and (max-width: 992px) {
+                display: none;
+            }
+        }
+
+        &.badge-vertical {
+            display: flex;
+            @include media-breakpoint-between(sm, lg) {
+                display: none;
+            }
+            @include media-breakpoint-between(lg, xl) {
+                display: flex;
+            }
+            @include media-breakpoint-up(xl) {
+                display: none;
+            }
+            @media(width: 768px) {
+                display: flex;
+            }
+            @media (min-width: 769px) and (max-width: 992px) {
+                display: flex !important;
+            }
+        }
+    }
+}
+
+.customer-reviews__substantiation {
+    font-size: $font-size-xxs;
+    line-height: 1.2;
+    color: $mono-blue-yonder;
+    @include media-breakpoint-up(md) {
+        font-size: $font-size-sm;
+        line-height: normal;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "gw-build-testing",
+  "description": "Provides tools for testing the applications",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "bin": {
+    "gw-test-app": "./bin/runTest.js"
+  },
+  "dependencies": {
+    "babel-jest": "^25.1.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^25.1.0",
+    "jest-canvas-mock": "^2.2.0",
+    "jest-enzyme": "^7.1.2",
+    "jest-json-schema": "^2.1.0",
+    "jest-junit": "^12.2.0",
+    "jest-pnp-resolver": "^1.2.1",
+    "jest-resolve": "^25.1.0",
+    "jest-runner-eslint": "^0.7.6",
+    "jest-watch-typeahead": "^0.4.2",
+    "json5-jest": "^1.0.1",
+    "lodash": "^4.17.21",
+    "react": "^16.9.0",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.9.0",
+    "react-intl": "^2.9.0",
+    "react-router-dom": "^4.3.1",
+    "regenerator-runtime": "^0.13.3"
+  },
+  "peerDependencies": {
+    "gw-build-config-environment": "11.2.0-db467149eb42",
+    "gw-build-config-webpack": "11.2.0-db467149eb42"
+  }
+}

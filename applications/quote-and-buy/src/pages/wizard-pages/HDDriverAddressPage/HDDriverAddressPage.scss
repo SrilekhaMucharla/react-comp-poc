@@ -1,0 +1,49 @@
+.address-page__lookup-button {
+  height: 60px;
+  margin-top: 0.3rem;
+  margin-bottom: 30px;
+  background-color: $green-transparent-20;
+  border: solid 1px $midnight-persian-green;
+  color: $mono-white;
+  &:hover {
+    background-color: $midnight-persian-green;
+    color: $mono-mystic;
+  }
+}
+
+.address-page__postcode-input{
+  &.input-group {
+    @include media-breakpoint-up(md) {
+      max-width: 410px;
+    }
+  }
+}
+
+.address-page {
+  &-container {
+    .interactive-card {
+      margin-bottom: 50px;
+
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 36px;
+      }
+    }
+    .error{
+      font-size: 16px !important;
+      font-weight: 500;
+    }
+  }
+
+  &__lookup-dropdown {
+    @include media-breakpoint-down(sm) {
+      margin-top: 30px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__dropdown {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 20px;
+    }
+  }
+}

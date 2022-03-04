@@ -1,0 +1,13 @@
+[
+  {
+    "server": "pc",
+    "serviceName": "userProfileInfo",
+    "service": "profileinfo/user"
+  },
+  {
+    "server": "pc",
+    "serviceName": "profileinfoProducer",
+    "service": "profileinfo/producer",
+    "skipMetadata": "true"
+  }
+]

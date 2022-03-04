@@ -1,0 +1,42 @@
+.car-worth-container {
+  .car-worth-error {
+    background: $red-transparent-50;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    i {
+      padding: 20px;
+    }
+    span {
+      font-style: normal;
+      display: flex;
+      text-align: left;
+      padding: 5px;
+    }
+  }
+
+  .invalid-feedback {
+    margin-bottom: 30px;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.car-worth {
+  &__text-input {
+    margin-bottom: 30px;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__info-card {
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 16px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.mc-promo-page__welcome-header {
+    font-size: 24px;
+    line-height: 1.32;
+    @include media-breakpoint-up(lg) {
+        font-size: 28px;
+    }
+}
+
+.mc-promo-page__main-header {
+    font-size: 30px;
+    box-decoration-break: clone;
+    background-color: $midnight-teal;
+    padding: 2px 12px;
+    @include media-breakpoint-up(lg) {
+        font-size: 54px;
+        padding: 2px 25px;
+    }
+    display: inline;
+}
+
+.mc-promo-page__main-header__reg-num {
+    font-family: $font-licence-plate;
+    background-color: $midnight-reg;
+    color: $app-theme;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    font-size: 22px;
+    @include media-breakpoint-up(lg) {
+        font-size: 35px;
+    }
+}
+
+.pad-inl-start-bullets {
+    white-space: break-spaces;
+}
+
+.mc-promo-page__last-note-div {
+    display: inline;
+}
+
+.margin-top-lg {
+    margin-top: 54px !important;
+}
+
+.mc-promo-page__last-note-span {
+    font-size: 20px;
+    display: block;
+    padding-top: 10px;
+}

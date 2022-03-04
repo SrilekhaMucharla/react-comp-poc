@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTimeoutPage /> render HDTimeoutPage 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDTimeoutPage)>
+    <HDTimeoutPage
+      updateEpticaId={[Function]}
+    >
+      <div
+        className="page-content-wrapper background-body"
+      >
+        <Container
+          className="timeout-container"
+          fluid={false}
+        >
+          <div
+            className="timeout-container container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h2"
+                      adjustImagePosition={true}
+                      className=""
+                      id="timeout-header-label"
+                      text="Whoops - we hit a bump in the road."
+                    >
+                      <h2
+                        className=""
+                        id="timeout-header-label"
+                      >
+                        Whoops - we hit a bump in the road.
+                      </h2>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      id="timeout-sub-header-one-label"
+                      text="Your session has been timed out to keep your personal details secure."
+                    >
+                      <p
+                        className=""
+                        id="timeout-sub-header-one-label"
+                      >
+                        Your session has been timed out to keep your personal details secure.
+                      </p>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="p"
+                      adjustImagePosition={true}
+                      className=""
+                      id="timeout-sub-header-two-label"
+                      text="You can start again with a new quote or, if you emailed yourself a link to this quote, check your inbox to retrieve it."
+                    >
+                      <p
+                        className=""
+                        id="timeout-sub-header-two-label"
+                      >
+                        You can start again with a new quote or, if you emailed yourself a link to this quote, check your inbox to retrieve it.
+                      </p>
+                    </HDLabelRefactor>
+                    <ForwardRef
+                      className="margin-top-lg"
+                      id="home-page-button"
+                      label="Go back to the homepage"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={null}
+                      onClick={[Function]}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={null}
+                      onFocus={null}
+                      onSelect={null}
+                      size="lg"
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Go back to the homepage",
+                        }
+                      }
+                    >
+                      <HDButtonRefactor
+                        className="margin-top-lg"
+                        disabled={false}
+                        fullWidth={false}
+                        id="home-page-button"
+                        label="Go back to the homepage"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size="lg"
+                        type="button"
+                        variant="primary"
+                      >
+                        <Button
+                          active={false}
+                          block={false}
+                          className="hd-btn hd-btn-primary margin-top-lg"
+                          disabled={false}
+                          id="home-page-button"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          size="lg"
+                          type="button"
+                          variant="primary"
+                        >
+                          <button
+                            className="hd-btn hd-btn-primary margin-top-lg btn btn-primary btn-lg"
+                            disabled={false}
+                            id="home-page-button"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            type="button"
+                          >
+                            Go back to the homepage
+                          </button>
+                        </Button>
+                      </HDButtonRefactor>
+                    </ForwardRef>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </div>
+    </HDTimeoutPage>
+  </Connect(HDTimeoutPage)>
+</Provider>
+`;

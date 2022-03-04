@@ -1,0 +1,123 @@
+.hd-table {
+    width: 100%;
+    position: relative;
+}
+
+.hd-table__header {
+    position: sticky;
+    top: $header-height;
+    z-index: 3;
+
+    @include media-breakpoint-down(md) {
+        top: $header-height-mobile;
+
+        @media (orientation: landscape) {
+            top: 0;
+        }
+    }
+
+    .vehicle-ribbon ~ * & {
+        top: $header-height + $ribbon-height;
+    
+        @include media-breakpoint-down(md) {
+            top: $header-height-mobile + $ribbon-height;
+    
+            @media (orientation: landscape) {
+                top: 0;
+            }
+        }
+    }
+
+    &.is-stickied {
+        .hd-bubble {
+            bottom: calc(100% + 24px);
+        }
+    }
+}
+
+.hd-table__header__grid {
+    display: grid;
+    grid-template-rows: max-content;
+    border-bottom: 2px solid $mono-blue-yonder;
+}
+
+.hd-table__header__grid__item {
+    background-color: $mono-white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+
+    &.selected {
+        background-color: $midnight-royal-blue;
+        color: $mono-white;
+    }
+}
+
+.hd-table__body {
+    z-index: 1;
+}
+
+.hd-table__body__row {
+    display: grid;
+    gap: 0px;
+    position: relative;
+    background-color: $mono-cultured;
+
+    &:nth-child(even) {
+        background-color: $mono-white;
+    }
+}
+
+.hd-table__body__row--highlighted {
+    background-color: $midnight-botticelli;
+}
+
+.hd-table__body__row__more-info {
+    text-align: center;
+    color: $app-theme;
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0;
+}
+
+.hd-table__body__row__more-info--with-label {
+    min-height: 45px;
+    padding-bottom: 15px;
+}
+
+.hd-table__body__row__label {
+    padding-top: 7px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    color: $midnight-prussian-blue;
+    grid-column: 1 / -1;
+    grid-row: 1;
+}
+
+.hd-table__body__row__cell-bg {
+    &.selected {
+        background-color: $blue-transparent-10;
+    }
+}
+
+.hd-table__sticky-sentinel {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: $ribbon-height;
+
+    &--top {
+        top: -$ribbon-height;
+    }
+
+    &--bottom {
+        bottom: -$ribbon-height;
+    }
+}

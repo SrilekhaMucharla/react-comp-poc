@@ -1,0 +1,119 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveVehicleRibbon should render correctly and match the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(VehicleRibbon)>
+    <VehicleRibbon
+      fromMCDriverAllocation={true}
+      resetCurrentPageIndex={[Function]}
+      setNavigation={[Function]}
+      updateMultiQuote={[Function]}
+    >
+      <HDRibbon
+        actionText=""
+        className="vehicle-ribbon"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={0}
+        text="null null"
+      >
+        <div
+          className="ribbon vehicle-ribbon"
+        >
+          <div
+            className="text"
+          >
+            null null
+          </div>
+        </div>
+      </HDRibbon>
+      <DeleteVehicleModal
+        hideClose={true}
+        onCancel={[Function]}
+        onClose={[Function]}
+        onConfirm={[Function]}
+        show={false}
+      >
+        <ForwardRef
+          cancelLabel="No, go back"
+          confirmLabel="Yes, remove"
+          customStyle="rev-button-order"
+          headerText="Are you sure?"
+          hideClose={true}
+          id="remove-vehicle-modal"
+          onBeforeOpen={null}
+          onCancel={[Function]}
+          onClose={[Function]}
+          onConfirm={[Function]}
+          show={false}
+          webAnalyticsEvent={
+            Object {
+              "event_action": "Remove vehicle",
+            }
+          }
+          webAnalyticsView={
+            Object {
+              "page_section": "Remove vehicle",
+            }
+          }
+        >
+          <ForwardRef
+            cancelLabel="No, go back"
+            confirmLabel="Yes, remove"
+            customStyle="rev-button-order"
+            headerText="Are you sure?"
+            hideClose={true}
+            id="remove-vehicle-modal"
+            onBeforeOpen={[Function]}
+            onBlur={null}
+            onCancel={[Function]}
+            onChange={null}
+            onClick={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            onDelete={null}
+            onEdit={null}
+            onFocus={null}
+            onSelect={null}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Remove vehicle",
+              }
+            }
+          >
+            <HDModal
+              cancelLabel="No, go back"
+              className=""
+              confirmLabel="Yes, remove"
+              customStyle="rev-button-order"
+              headerText="Are you sure?"
+              hideCancelButton={false}
+              hideClose={true}
+              hideConfirmButton={false}
+              hideFooter={false}
+              id="remove-vehicle-modal"
+              onBeforeOpen={[Function]}
+              onCancel={[Function]}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              show={false}
+            />
+          </ForwardRef>
+        </ForwardRef>
+      </DeleteVehicleModal>
+    </VehicleRibbon>
+  </Connect(VehicleRibbon)>
+</Provider>
+`;

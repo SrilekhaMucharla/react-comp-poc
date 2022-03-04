@@ -1,0 +1,13 @@
+{
+  "name": "hastings-capability-account",
+  "description": "Provides capability to manage account",
+  "main": "index.js",
+  "version": "1.0.0",
+  "author": "Hastings",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "gw-portals-transport-js": "11.2.0-db467149eb42",
+    "gw-portals-url-js": "11.2.0-db467149eb42"
+  }
+}

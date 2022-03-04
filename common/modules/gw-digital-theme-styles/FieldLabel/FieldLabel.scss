@@ -1,0 +1,20 @@
+.digitalFieldLabelContainer{
+    grid-area: label;
+}
+
+.digitalFieldLabel {
+    --fieldLabel-text-align-left: left;
+    --fieldLabel-padding-top-left: 0;
+    grid-area: label;
+    vertical-align: middle;
+    width: 100%;
+
+    .digitalPrimaryLabel:only-child {
+        --fieldLabel-label-margin-x: var(--GW-SPACING-XS);
+    }
+}
+
+.digitalLeft{
+    min-height: var(--input-height);
+    align-self: center;
+}

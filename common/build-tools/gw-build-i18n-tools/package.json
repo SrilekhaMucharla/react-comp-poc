@@ -1,0 +1,14 @@
+{
+  "name": "gw-build-i18n-tools",
+  "description": "I18N tools",
+  "main": "MergeTranslationsPlugin.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "fast-glob": "^3.0.4",
+    "lodash": "^4.17.21",
+    "normalize-path": "^3.0.0"
+  }
+}

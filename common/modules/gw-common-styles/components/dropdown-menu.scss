@@ -1,0 +1,120 @@
+/* ------------------------------------*\
+    DROPDOWN-MENU
+    N.B.: Expected HTML!!!
+
+    ul.dropdown-menu>( li>a | li.divider )
+\*------------------------------------ */
+
+// Dropdowns
+// -------------------------
+
+
+
+.gw-dropdown-menu {
+  --gw-dropdown-shadow-definition: 0 2px 3px 0 rgba(var(--gw-black), 0.15);
+  --gw-dropdown-zindex: 1000;
+  --gw-dropdown-menu-line-height: 30px;
+  --gw-dropdown-menu-padding-vert: 10px;
+  --gw-dropdown-menu-padding-hor: 16px;
+  --gw-dropdown-border-radius: 2px;
+  --gw-dropdown-bg: var(--gw-white);
+  --gw-dropdown-border-color: var(--gw-grey-light-30-color);
+  --gw-dropdown-link-color: var(--gw-grey-light-6);
+  --gw-button-dropdown-divider-bg: var(--gw-grey-light-11);
+
+  display: none; // none by default, but block on "open" of the menu
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  list-style: none;
+  z-index: var(--gw-dropdown-zindex);
+  margin: 0; // override default ul
+  padding: var(--gw-dropdown-menu-padding-vert) 0;
+  float: left;
+  min-width: 100px;
+  border-radius: var(--gw-dropdown-border-radius);
+  background-color: var(--gw-dropdown-bg);
+  border: 1px solid var(--gw-dropdown-border-color);
+  box-shadow: var(--gw-dropdown-shadow-definition);
+
+  // Links within the dropdown menu
+  > li > a {
+    display: block;
+    padding: 0 var(--gw-dropdown-menu-padding-hor);
+    clear: both;
+    font-weight: normal;
+    line-height: var(--gw-dropdown-menu-line-height);
+    white-space: nowrap;
+    color: var(--gw-dropdown-link-color);
+  }
+
+  // Hover state
+  // -----------
+  > li > a {
+    &:hover {
+      color: var(--gw-dropdown-link-color);
+      background-color: (--gw-dropdown-link-hover-bg);
+      text-decoration: none;
+    }
+  }
+
+  // Disabled state
+  // --------------
+  // Nuke hover effects
+  & > .gw-disabled > a {
+    &,
+    &:hover {
+      color: rgba(var(--gw-dropdown-link-color), 0.5);
+      text-decoration: none;
+      background-color: transparent;
+      cursor: default;
+    }
+  }
+
+  // Dividers (basically an hr) within the dropdown
+  .gw-divider {
+    height: 2px;
+    margin: calc(var(--gw-dropdown-menu-padding-vert) / 2) 0;
+    background-color: var(--gw-button-dropdown-divider-bg);
+  }
+}
+
+/* ------------------------------------*\
+    OTHER
+\*------------------------------------ */
+// Open state for the dropdown
+// ---------------------------
+.gw-open {
+  & > .gw-dropdown-menu {
+    display: block;
+  }
+}
+
+// Right aligned dropdowns
+// ---------------------------
+.gw-dropleft > .gw-dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+// Allow for dropdowns to go bottom up (aka, dropup-menu)
+// ------------------------------------------------------
+// Just add .dropup after the standard .dropdown class and you're set, bro.
+.gw-dropup {
+  .gw-btn-caret {
+    transform: rotate(180deg);
+    vertical-align: -2px;
+  }
+
+  .gw-dropdown-menu {
+    top: auto;
+    bottom: 100%;
+    margin-bottom: 1px;
+  }
+}
+
+.gw-dropup,
+.gw-dropdown {
+  position: relative;
+}

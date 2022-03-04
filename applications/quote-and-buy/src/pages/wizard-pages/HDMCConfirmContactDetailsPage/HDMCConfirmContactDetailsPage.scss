@@ -1,0 +1,7 @@
+.mc-confirm-contact-details {
+    &__input-container {
+        @include media-breakpoint-up(lg) {
+            width: 75%;
+        }
+    }
+}

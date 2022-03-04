@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDToast /> should match snapshot 1`] = `
+<HDToast
+  position="top-right"
+  toastList={
+    Array [
+      Object {
+        "bgColor": "main",
+        "content": "Test content",
+        "iconType": "tick",
+      },
+    ]
+  }
+>
+  <div
+    className="hd-toast-list-container top-right"
+  >
+    <Toast
+      className="hd-toast hd-toast--main"
+    >
+      <Fade
+        appear={false}
+        in={true}
+        mountOnEnter={false}
+        timeout={300}
+        unmountOnExit={true}
+      >
+        <Transition
+          addEndListener={[Function]}
+          appear={false}
+          enter={true}
+          exit={true}
+          in={true}
+          mountOnEnter={false}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          timeout={300}
+          unmountOnExit={true}
+        >
+          <div
+            aria-atomic="true"
+            aria-live="assertive"
+            className="fade toast hd-toast hd-toast--main show"
+            role="alert"
+          >
+            <ToastBody>
+              <div
+                className="toast-body"
+              >
+                <img
+                  alt="toast tick icon"
+                  className="hd-toast-icon hd-toast-icon--tick"
+                  src="022_tick.svg"
+                />
+                <div
+                  className="hd-toast-text-wrapper"
+                >
+                  Test content
+                </div>
+              </div>
+            </ToastBody>
+          </div>
+        </Transition>
+      </Fade>
+    </Toast>
+  </div>
+</HDToast>
+`;

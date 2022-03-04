@@ -1,0 +1,127 @@
+.hd-toast-list-container {
+    position: fixed;
+    z-index: 100000;
+    user-select: none;
+    cursor: pointer;
+
+    .toast-body {
+        padding: 0;
+    }
+
+    .hd-toast {
+        position: relative;
+        width: 335px;
+        font-size: $font-size-regular;
+        color: $white-color;
+        line-height: 1.5;
+        border-radius: 5px;
+        box-shadow: 0 4px 14px 0 $black-transparent-15;
+
+        &--main {
+            @extend .hd-toast;
+            background-color: $app-theme;
+        }
+
+        &--light {
+            @extend .hd-toast;
+            background-color: $mono-blue-yonder;
+        }
+
+        .hd-toast-icon {
+            position: absolute;
+            left: 10px;
+            top: 13px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            padding: 5px;
+
+
+            &--tick {
+                @extend .hd-toast-icon;
+                background-color: $link-color;
+            }
+
+            &--cross {
+                @extend .hd-toast-icon;
+                background-color: $alert-color;
+            }
+
+            &--white {
+                @extend .hd-toast-icon;
+                padding: 0;
+                background-color: transparent;
+            }
+        }
+
+        .hd-toast-text-wrapper {
+            padding: 13px 20px 13px 40px;
+        }
+    }
+
+    &.top-left {
+        top: 90px;
+        left: 60px;
+
+        > .hd-toast {
+            animation: slide-in-left ease-in-out .5s;
+        }
+    }
+
+    &.top-right {
+        top: 90px;
+        right: 60px;
+
+        > .hd-toast {
+            animation: slide-in-right ease-in-out .5s;
+        }
+    }
+
+    &.bottom-right {
+        bottom: 90px;
+        right: 60px;
+
+        > .hd-toast {
+            animation: slide-in-right ease-in-out .5s;
+        }
+    }
+
+    &.bottom-left {
+        bottom: 90px;
+        left: 60px;
+
+        > .hd-toast {
+            animation: slide-in-left ease-in-out .5s;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+
+        &.top-left, &.top-right {
+            top: 90px;
+            left: 0;
+
+            > .hd-toast {
+                animation: slide-in-bottom ease-in-out .5s;
+            }
+        }
+
+        &.bottom-right, &.bottom-left {
+            bottom: 90px;
+            left: 0;
+
+            > .hd-toast {
+                animation: slide-in-top ease-in-out .5s;
+            }
+        }
+
+        > .hd-toast {
+            margin: 16px auto;
+        }
+    }
+
+    > .hd-toast:not(:last-of-type) {
+        margin-bottom: 16px;
+    }
+}

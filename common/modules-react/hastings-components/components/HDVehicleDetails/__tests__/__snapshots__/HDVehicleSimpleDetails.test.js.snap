@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDVehicleSimpleDetails/> render component with vrn and display name 1`] = `
+<div
+  className="vehicle_simple_details_row  row"
+>
+  <div
+    className="vehicle_simple_details_col col"
+  >
+    <div
+      className="vrn_highlighted"
+    >
+      <span>
+        AV12 BGE
+      </span>
+    </div>
+    <div
+      className="vheicle_detail_display_name_holder"
+    >
+      <span
+        className="vheicle_detail_display_name"
+      >
+        MERCEDES-BENZ E250 SPORT ED125 CDI BLUE
+      </span>
+    </div>
+  </div>
+</div>
+`;

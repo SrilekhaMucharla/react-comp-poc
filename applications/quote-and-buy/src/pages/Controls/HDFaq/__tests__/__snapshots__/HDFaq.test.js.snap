@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDFaq /> should render correctly and match the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDFaq)>
+    <HDFaq
+      dispatch={[Function]}
+      epticaId={854}
+      isInPopup={false}
+    >
+      <div
+        className="faq"
+      >
+        <HDOverlayPopup
+          cancelButton="Cancel"
+          className=""
+          closeOnSelect={false}
+          confirmButton="Confirm"
+          customStyle="faq-overlay"
+          disabledConfirmButton={false}
+          headerBar={null}
+          hidden={false}
+          hideOnConfirm={true}
+          id="faq-overlay"
+          labelText="How can we help you?"
+          onBeforeClose={[Function]}
+          onBeforeOpen={[Function]}
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          overlayButtonIcon={
+            <div
+              className="help-icon"
+            >
+              <img
+                alt="Help"
+                src="help-icon.svg"
+              />
+              <HDLabelRefactor
+                Tag="a"
+                adjustImagePosition={true}
+                className=""
+                text="Help"
+              />
+            </div>
+          }
+          overlayButtonsClassName=""
+          showButtons={false}
+        >
+          <div
+            className="hd-information-tooltip "
+          >
+            <div
+              className="hd-overlay-btn "
+              hidden={false}
+              id="faq-overlay"
+              onClick={[Function]}
+            >
+              <div
+                className="help-icon"
+              >
+                <img
+                  alt="Help"
+                  src="help-icon.svg"
+                />
+                <HDLabelRefactor
+                  Tag="a"
+                  adjustImagePosition={true}
+                  className=""
+                  text="Help"
+                >
+                  <a
+                    className="hd-tag "
+                  >
+                    <span>
+                      Help
+                    </span>
+                  </a>
+                </HDLabelRefactor>
+              </div>
+            </div>
+          </div>
+        </HDOverlayPopup>
+      </div>
+    </HDFaq>
+  </Connect(HDFaq)>
+</Provider>
+`;
+
+exports[`<HDFaq /> should render correctly and match the snapshot when FAQ is in popup 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDFaq)
+    isInPopup={true}
+  >
+    <HDFaq
+      dispatch={[Function]}
+      epticaId={854}
+      isInPopup={true}
+    >
+      <div
+        className="faq"
+      >
+        <HDOverlayPopup
+          cancelButton="Cancel"
+          className=""
+          closeOnSelect={false}
+          confirmButton="Confirm"
+          customStyle="faq-overlay"
+          disabledConfirmButton={false}
+          headerBar={null}
+          hidden={false}
+          hideOnConfirm={true}
+          id="faq-overlay"
+          labelText="How can we help you?"
+          onBeforeClose={[Function]}
+          onBeforeOpen={[Function]}
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          overlayButtonIcon={
+            <div
+              className="help-icon"
+            >
+              <HDLabelRefactor
+                Tag="a"
+                adjustImagePosition={true}
+                className=""
+                text="FAQs"
+              />
+            </div>
+          }
+          overlayButtonsClassName=""
+          showButtons={false}
+        >
+          <div
+            className="hd-information-tooltip "
+          >
+            <div
+              className="hd-overlay-btn "
+              hidden={false}
+              id="faq-overlay"
+              onClick={[Function]}
+            >
+              <div
+                className="help-icon"
+              >
+                <HDLabelRefactor
+                  Tag="a"
+                  adjustImagePosition={true}
+                  className=""
+                  text="FAQs"
+                >
+                  <a
+                    className="hd-tag "
+                  >
+                    <span>
+                      FAQs
+                    </span>
+                  </a>
+                </HDLabelRefactor>
+              </div>
+            </div>
+          </div>
+        </HDOverlayPopup>
+      </div>
+    </HDFaq>
+  </Connect(HDFaq)>
+</Provider>
+`;

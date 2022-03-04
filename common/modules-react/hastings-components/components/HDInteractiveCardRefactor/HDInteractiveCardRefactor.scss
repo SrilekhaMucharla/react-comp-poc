@@ -1,0 +1,38 @@
+.interactive-card {
+  background: $white-color;
+  color: $app-theme;
+  box-shadow: $primary-shadow;
+  border-radius: 6px;
+  padding: 1rem;
+  display: flex;
+}
+
+.interactive-card__content,
+.interactive-card__content__header {
+    font-family: $font-face-generic-regular;
+    color: $app-theme;
+    font-weight: bold;
+    font-size: $font-size-lg;
+    line-height: 1.2;
+
+
+}
+
+.interactive-card__content__text{
+  color: $info-color;
+  font-weight: normal;
+  font-size: $font-size-md;
+  line-height: 1.5;
+  margin-top: 5px;
+}
+
+.interactive-card__icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    .car-tracker__interactive-card__edit-button,
+    .car-tracker__interactive-card__delete-button {
+      cursor: pointer;
+  }
+}

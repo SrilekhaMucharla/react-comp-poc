@@ -1,0 +1,19 @@
+/* eslint-disable max-len */
+export const feesText = 'Our fees';
+export const termsText = 'Terms & conditions';
+export const termsOfUseText = 'Terms of use';
+export const policyText = 'Privacy policy';
+export const cookieText = 'Cookie policy';
+export const accessibilityText = 'Accessibility policy';
+export const infoText = 'Important information about us';
+export const feesLink = 'https://www.hastingsdirect.com/popups/gw/our-fees.html';
+export const termsLink = 'https://www.hastingsdirect.com/popups/gw/terms-and-conditions.html';
+export const termsOfUseLink = 'https://www.hastingsdirect.com/popups/gw/terms-of-use.html';
+export const policyLink = 'https://www.hastingsdirect.com/popups/gw/privacy-notice.html';
+export const cookieLink = 'https://www.hastingsdirect.com/popups/gw/cookie-policy.html';
+export const accessibilityLink = 'https://www.hastingsdirect.com/popups/gw/accessibility.html';
+export const infoLink = 'https://www.hastingsdirect.com/popups/gw/insurers/';
+export const infoDescription1 = 'Hastings Insurance Services Limited, trading as Hastings Direct, is authorised and regulated by the Financial Conduct Authority (register number 311492). Registered Office: Conquest House, Collington Avenue, Bexhill-on-Sea, East Sussex, TN39 3LW. Registered in England and Wales no. 3116518. All policies are subject to English Law.';
+export const infoDescription2 = 'Calls to our numbers beginning with 0844 or 0843 cost 7p a minute; calls to 0871 numbers cost 13p a minute, and calls to 0845 or 0870 numbers cost 3p a minute. Your phone company will also charge you a fixed access fee when you make a call to any of these numbers. Please contact your phone company for their call access charges. Calls to 0800 or 0808 numbers are now free from mobiles as well as landlines. Calls to 03 numbers cost no more from mobiles and landlines than national rate calls, and count towards any inclusive minutes in the same way as 01 and 02 calls. Calls may be recorded for our mutual protection.';
+export const cookieConsent = "By continuing, you're agreeing to the use of cookies. If you want to know more, check out our ";
+export const cookieModalText = 'cookie policy';

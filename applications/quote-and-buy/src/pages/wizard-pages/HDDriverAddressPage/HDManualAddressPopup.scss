@@ -1,0 +1,33 @@
+//TODO: wrap definitions
+
+// .manual-address-popup {
+
+//     &__first-address-field {
+//         margin-top: 32px;
+//     }
+
+//     &__address-field2,
+//     &__address-field3,
+//     &__postcode-field,
+//     &__city-field {
+//         margin-top: 16px;
+//     }
+// }
+
+
+
+
+
+
+// .error {
+//     color: $error-color;
+// }
+
+
+
+.manual-address-popup {
+    &__error {
+        font-weight: 500;
+        line-height: 1.5;
+    }
+}

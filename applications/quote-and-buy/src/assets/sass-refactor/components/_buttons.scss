@@ -1,0 +1,53 @@
+.btn-lg,
+.btn-group-lg > .btn {
+  border-radius: 0.375rem;
+}
+
+.btn-lg {
+  width: -webkit-fill-available;
+  height: 3.55em;
+  @include media-breakpoint-up(lg) {
+    width: 18.6em;
+  }
+}
+
+.hastings-btnprimary {
+  color: $white-color !important;
+  background-color: $mint-dark !important;
+  border: 1px solid $info-color !important;
+  box-shadow: none;
+  margin-bottom: 5px;
+  font-size: $font-size-lg !important;
+  line-height: 1.35 !important;
+  font-family: $font-face-generic-regular;
+  width: 75%;
+  font-weight: 500 !important;
+}
+
+.continue-button {
+  width: auto;
+  height: 3.35em;
+}
+
+.btn--light {
+  border: 1px solid $mono-light-steel;
+  background-color: $mono-white;
+  color: $midnight-prussian-blue;
+
+  &:hover {
+    border: 2px solid $blue-color;
+  }
+}
+
+.btn-transparent {
+    border: none;
+    background: transparent;
+}
+
+button,
+.btn {
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

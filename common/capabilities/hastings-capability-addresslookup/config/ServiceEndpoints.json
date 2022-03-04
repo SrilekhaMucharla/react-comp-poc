@@ -1,0 +1,7 @@
+[
+  {
+    "server": "pc",
+    "service": "address/lookup",
+    "serviceName": "addressLookup"
+  }
+]

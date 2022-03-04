@@ -1,0 +1,212 @@
+$car-info-card-price-table-padding-x: 3px;
+
+.savings-page__no-reg-content {
+  font-size: $font-size-sm-1;
+  line-height: 1.5;
+}
+
+.car-info-card__header__car-name {
+  margin-right: 12px;
+  text-transform: capitalize;
+  font-size: $font-size-sm;
+  color: $mono-white;
+}
+
+.savings-page__error-container {
+  margin: auto;
+  max-width: 620px
+}
+
+.savings-page-container {
+    margin-top: 30px;
+    @include media-breakpoint-up(md) {
+        margin-top: 55px;
+    }
+}
+
+.savings-page__header {
+    font-size: 30px;
+    font-weight: bold;
+    box-decoration-break: clone;
+    background-color: $link-color;
+    padding: 2px 12px;
+    @include media-breakpoint-up(md) {
+        font-size: 54px;
+        text-align: center;
+        padding: 2px 25px;
+    }
+}
+
+.savings-page__subheader {
+    font-size: $font-size-sm;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    @include media-breakpoint-up(md) {
+        margin-top: 25px;
+    }
+}
+
+.car-info-card {
+    border-radius: 6px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.car-info-card__header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: $midnight-nordic-noir;
+    height: 46px;
+}
+
+.car-info-card__header__reg-number {
+    color: $mono-midnight;
+    background-color: $yellow-color;
+    border-radius: 2px;
+    padding: 1px 6px;
+    margin-right: 12px;
+    font-family: $font-licence-plate;
+}
+
+.car-info-card__header__remove-car {
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.car-info-card__header__warning-container {
+    display: flex;
+    margin-left: auto;
+}
+
+.car-info-card__header__warning-sign {
+    height: 24px;
+    width: 24px;
+}
+
+.car-info-card__body {
+    color: $app-theme;
+}
+
+.car-info-card__body__car-name-section,
+.car-info-card__body__car-quote-section {
+    padding: 16px 13px;
+    @include media-breakpoint-up(md) {
+        padding: 20px;
+    }
+}
+
+.car-info-card__body__car-name-section {
+    background-color: $mono-white;
+}
+
+.car-info-card__body__car-quote-section {
+    background-color: $mono-cotton-ball;
+}
+
+.car-info-card__body__no-quote-section {
+    padding: 20px;
+    background-color: #b10d2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-info-card__price-table {
+    width: 100%;
+    margin-left: -$car-info-card-price-table-padding-x;
+    margin-right: -$car-info-card-price-table-padding-x;
+}
+
+.car-info-card__price-table__head__row__th,
+.car-info-card__price-table__body__row__td {
+    padding: 0 $car-info-card-price-table-padding-x;
+}
+
+.car-info-card__price-table__head__row__th {
+    font-size: $font-size-sm;
+    color: $mono-blue-yonder;
+    font-weight: normal;
+}
+
+.car-info-card__price-table__body__row__td {
+    width: max-content;
+    font-weight: bold;
+    font-size: $font-size-lg;
+    padding-top: 10px;
+
+    @include media-breakpoint-up(sm) {
+        width: 33%;
+    }
+
+      .dont-have-reg-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 35px;
+        p {
+          color: $mono-midnight;
+          border-bottom: 2px solid $link-color;
+          cursor: pointer;
+        }
+      }
+    &--original-price {
+        color: $mono-blue-yonder;
+    }
+}
+
+.price-text-striked {
+    position: relative;
+    display: flex;
+}
+.price-text-striked::before {
+    content: "";
+    width: 78px;
+    position: absolute;
+    top: 40%;
+    border-bottom: 2px solid $alert-color;
+    -webkit-transform: skewY(-11deg);
+    transform: skewY(-11deg);
+    max-width: 100%;
+}
+
+.car-info-card__body__hd-logo {
+    height: 22px;
+}
+
+.car-info-card__body__more-info {
+    text-align: right;
+    font-size: $font-size-sm;
+    align-items: center;
+    color: $info-color;
+    text-decoration: underline;
+
+    img {
+        height: 20px;
+        width: 20px;
+        margin-left: -10px;
+    }
+}
+
+.car-info-card__body__reg-prompt {
+    color: $app-theme;
+    padding: 30px;
+    border-top: 1px solid $mono-light-steel;
+    background-color: $mono-white;
+    text-align: center;
+}
+
+.car-info-card__body__reg-prompt__input-section {
+    margin: 20px 0 0 0;
+    @include media-breakpoint-up(md) {
+        width: 75%;
+        margin: 20px auto 0 auto;
+    }
+}
+
+a.car-info-card__body__reg-prompt__no-reg {
+    margin: 24px 0 0 0;
+    @include media-breakpoint-up(md) {
+        margin: 35px 0 0 0;
+    }
+}

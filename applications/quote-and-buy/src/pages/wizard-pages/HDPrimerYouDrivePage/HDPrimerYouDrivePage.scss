@@ -1,0 +1,266 @@
+.wizard-head-youdrive {
+    height: 600px;
+
+    @include media-breakpoint-down(sm) {
+        justify-content: start;
+        padding-top: 23px;
+        height: 1100px;
+    }
+
+    &:before {
+        background: $gray-light-8;
+        z-index: 0;
+    }
+
+    &:after {
+        background: $gray-light-8;
+    }
+}
+
+.primer-youdrive__container {
+    position: relative;
+    margin-top: -463px;
+    margin-bottom: 70px;
+
+    @include media-breakpoint-down(sm) {
+        padding: 50px 5px 20px;
+        margin-top: -1070px;
+        margin-bottom: 0;
+    }
+}
+
+.primer-youdrive__question {
+    i {
+        color: $alert-color;
+        font-size: $font-size-lg-2;
+    }
+
+    b {
+        text-decoration: underline;
+        text-decoration-color: $blue-color;
+    }
+}
+
+.primer-youdrive__primer-wizard-image-container {
+    border-radius: 6px;
+    box-shadow: $secondary-shadow;
+    background-color: $white-fill;
+    padding: 26px 4px 22px 4px;
+    margin-bottom: 52px;
+
+    @include media-breakpoint-down(sm) {
+        padding: 38px 0 47px 0;
+        margin: 0;
+    }
+}
+
+.primer-youdrive__wizard-title {
+    color: $white-color;
+}
+
+.primer-youdrive__image-container {
+    min-height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.primer-youdrive__mobile-icon {
+    height: 8em;
+}
+
+.primer-youdrive__mobile-content {
+    text-align: left;
+
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+    }
+}
+
+.primer-youdrive__download-app {
+    width: 10.25em;
+    height: 3em;
+    object-fit: contain;
+}
+
+.primer-youdrive__mobile-info {
+    font-size: $font-size-sm;
+    text-align: left;
+    color: $app-theme;
+
+    @media (max-width: 500px) {
+        text-align: center;
+        padding: 0 9%;
+    }
+
+    @include media-breakpoint-between(md, lg) {
+        text-align: center;
+        padding: 0 9%;
+    }
+}
+
+.primer-youdrive__wireless-icon {
+    max-width: 100%;
+}
+
+.primer-youdrive__wireless-content {
+    text-align: left;
+
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+    }
+}
+
+.primer-youdrive__setup-tab {
+    width: 10.25em;
+    height: 3em;
+    object-fit: contain;
+}
+
+.primer-youdrive__setup-info {
+    font-size: $font-size-sm;
+    text-align: left;
+    color: $app-theme;
+
+    @media (max-width: 500px) {
+        text-align: center;
+        padding: 0 9%;
+        font-size: $font-size-sm;
+    }
+
+    @include media-breakpoint-between(md, lg) {
+        text-align: center;
+        padding: 0 9%;
+        font-size: $font-size-sm;
+    }
+}
+
+.primer-youdrive__car-icon {
+    max-width: 100%;
+}
+
+.primer-youdrive__car-content {
+    text-align: left;
+
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+    }
+}
+
+.primer-youdrive__drive {
+    width: 4.25em;
+    height: 2.9em;
+    object-fit: contain;
+}
+
+.primer-youdrive__drive-info {
+    font-size: $font-size-sm;
+    text-align: left;
+    color: $app-theme;
+
+    @include media-breakpoint-down(sm) {
+        text-align: center;
+        padding: 0 9%;
+
+        font-size: $font-size-sm;
+    }
+
+    @include media-breakpoint-between(md, lg) {
+        text-align: center;
+        padding: 0 9%;
+        font-size: $font-size-sm;
+    }
+}
+
+.primer-youdrive__primer-wizard-content {
+    .point-header {
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+    @include media-breakpoint-down(sm) {
+        margin: 41px 0 0 0px;
+    }
+}
+
+.primer-youdrive__point {
+    display: flex;
+
+    @include media-breakpoint-down(sm) {
+        margin: 15px 0 0 0;
+    }
+}
+
+.primer-youdrive__dot {
+    width: 6px;
+    height: 6px;
+    background-color: $link-color;
+    border-radius: 50%;
+    max-width: 6px;
+}
+
+.primer-youdrive__point-content {
+    width: 100%;
+    margin: -8px 0 20px 19px;
+    font-size: $font-size-md;
+    line-height: 1.5;
+    text-align: left;
+    color: $app-theme;
+
+    @include media-breakpoint-down(sm) {
+        margin: -18px 0 0 1%;
+        font-size: $hd-font-size-h2-mobile;
+        padding: 10px;
+
+        font-size: $font-size-md;
+    }
+}
+
+.primer-youdrive__overlay-check-phone {
+    font-size: $font-size-md;
+    font-weight: 500;
+    color: $app-theme !important;
+
+    @include media-breakpoint-between(md, lg) {
+        width: unset;
+    }
+}
+
+.primer-youdrive__primer-wizard-button {
+    width: --webkit-fill-available;
+    display: flex;
+    margin-top: 40px;
+
+    button {
+        height: 50px;
+        width: 100%;
+        padding: 15px 20px;
+        &:hover {
+            padding: 15px 19px;
+        }
+    }
+}
+
+.primer-youdrive__yes-btn {
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 20px;
+    }
+}
+
+.primer-youdrive__youdrive-popup-modal {
+    .hastings-modal-content {
+        padding: 26px;
+    }
+
+    .hd-modal-header {
+        position: relative;
+        > span {
+            position: absolute;
+            right: 0;
+        }
+
+        h2 {
+            margin: 5px 0 15px !important;
+        }
+    } 
+}

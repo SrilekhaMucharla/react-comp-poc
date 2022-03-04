@@ -1,0 +1,10 @@
+.digitalInlineNotification {
+  --inlineNotification-info-bg-color: var(--gw-blue-light-9);
+  --inlineNotification-info-color: var(--gw-grey-dark-90-color);
+  --inlineNotification-info-border-color: var(--gw-blue-light-9);
+}
+
+.digitalInlineNotificationIconWrapper {
+  padding: var(--gw-spacing-md) 0 var(--gw-spacing-md) 0;
+  margin-left: var(--gw-spacing-md);
+}

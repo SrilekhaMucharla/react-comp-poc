@@ -1,0 +1,53 @@
+/* BOOTSTRAP OVERRIDES */
+
+.mt-4 {
+  margin-top: $lg-value !important;
+  @include media-breakpoint-down(md) {
+    margin-top: $md-value !important;
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .mt-sm-0, .my-sm-0 {
+    margin-top: 0 !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .mt-md-0, .my-md-0 {
+    margin-top: 0 !important;
+  }
+}
+
+@include media-breakpoint-up(lg){
+  .page-content-wrapper .container--get-a-price,
+  .page-content-wrapper > .container,
+  .invalid-url-container-general {
+    max-width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@include media-breakpoint-up(xxl){
+  .page-content-wrapper .container--get-a-price,
+  .page-content-wrapper > .container,
+  .invalid-url-container-general {
+    max-width: 1440px;
+  }
+}
+
+.container--anc {
+  @include make-container(0);
+  max-width: 631px;
+}
+
+.container--get-a-price {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.container--milestone-cards {
+  @include make-container(0);
+  max-width: 520px;
+}

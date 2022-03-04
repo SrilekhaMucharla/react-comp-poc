@@ -1,0 +1,18 @@
+{
+  "deployment": {
+    "url": "http://qtb.com"
+  },
+  "authentication": {
+    "authServer": "uaa",
+    "servers": {
+      "uaa": {
+        "endpoints": {
+          "authorize": ""
+        }
+      }
+    }
+  },
+  "microblink": {
+    "licence": "sRwAAAYJbG9jYWxob3N0r/lOPgo/w35CpJlWLIUdxaJSXYrUXy3FxukJ5SLe34Ow77PE2fJCzTkyE146Y/4C5bDk4aJFKZAGzEXawY34Qex11gG1806I6vWwkzAutvOghDN6YYg1WHTvtUeDZQPVy4pZ5lkY2p5yafX0kRUWIWfh0U+GSoSLFetPLTMDpSBzbEZ9SgP4T40kWT70N4qQ"
+  }
+}

@@ -1,0 +1,338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDQuotePolicyDetails /> render component with hdComprehensive 1`] = `
+<Row
+  className="policy-details-container"
+  noGutters={false}
+>
+  <Col
+    className="margin-bottom-md"
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="px-md-0"
+      >
+        <HDLabelRefactor
+          Tag="h2"
+          adjustImagePosition={true}
+          className="mb-2 margin-top-lg"
+          id="policy-details-your-policy-label"
+          text="Your policy"
+        />
+        <p>
+          Here are the main features of your policy. You'll find full details in the documents section.
+        </p>
+        <HDInfoBox
+          policyDetails={
+            Array [
+              Object {
+                "key": "Quote reference:",
+                "value": "10500441968",
+              },
+              Object {
+                "key": "Length of policy:",
+                "value": "365 days",
+              },
+              Object {
+                "key": "Starts:",
+                "value": "15/09/2020",
+              },
+              Object {
+                "key": "Ends:",
+                "value": "14/09/2021 23:59",
+              },
+              Object {
+                "key": "Underwriter:",
+                "value": "Covea Insurance plc",
+              },
+            ]
+          }
+        />
+      </Col>
+    </Row>
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="policy-details__cover margin-top-md"
+      >
+        <HDContainer
+          hastingsDirectLogo="hastings-direct-oneline.svg"
+          isComprehensive={false}
+          isOnlineProductType={false}
+          items={
+            Array [
+              Object {
+                "description": "You'll be provided with a small car while yours is being repaired by one of our approved repairers. It won't be provided if your car can't be repaired or it has been stolen (and not recovered).",
+                "name": "Courtesy car",
+              },
+            ]
+          }
+          itemsNotCovered={
+            Array [
+              Object {
+                "description": "No cover for driving other cars.",
+                "name": "Driving other cars",
+              },
+            ]
+          }
+          title={null}
+        />
+        <HDContainer
+          hastingsDirectLogo={null}
+          isComprehensive={true}
+          isOnlineProductType={false}
+          items={
+            Array [
+              Object {
+                "description": "Meets your need for extra financial support if you or your passengers were injured following an accident involving your car",
+                "name": "Personal accident cover - £XX.XX",
+              },
+              Object {
+                "description": "Meets your need to have a replacement car like your if your car is written off or stolen and not recovered.",
+                "name": "Substitute vehicle - £XX.XX",
+              },
+              Object {
+                "description": "",
+                "name": "No claims discount protection - included",
+              },
+            ]
+          }
+          itemsNotCovered={null}
+          title="Your optional extras"
+        />
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;
+
+exports[`<HDQuotePolicyDetails /> render component with heComprehensive 1`] = `
+<Row
+  className="policy-details-container"
+  noGutters={false}
+>
+  <Col
+    className="margin-bottom-md"
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="px-md-0"
+      >
+        <HDLabelRefactor
+          Tag="h2"
+          adjustImagePosition={true}
+          className="mb-2 margin-top-lg"
+          id="policy-details-your-policy-label"
+          text="Your policy"
+        />
+        <p>
+          Here are the main features of your policy. You'll find full details in the documents section.
+        </p>
+        <HDInfoBox
+          policyDetails={
+            Array [
+              Object {
+                "key": "Quote reference:",
+                "value": "10500441968",
+              },
+              Object {
+                "key": "Length of policy:",
+                "value": "365 days",
+              },
+              Object {
+                "key": "Starts:",
+                "value": "15/09/2020",
+              },
+              Object {
+                "key": "Ends:",
+                "value": "14/09/2021 23:59",
+              },
+              Object {
+                "key": "Underwriter:",
+                "value": "Covea Insurance plc",
+              },
+            ]
+          }
+        />
+      </Col>
+    </Row>
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="policy-details__cover margin-top-md"
+      >
+        <HDContainer
+          hastingsDirectLogo="hastings-essential-oneline.svg"
+          isComprehensive={false}
+          isOnlineProductType={false}
+          items={
+            Array [
+              Object {
+                "description": "You'll be provided with a small car while yours is being repaired by one of our approved repairers. It won't be provided if your car can't be repaired or it has been stolen (and not recovered).",
+                "name": "Courtesy car",
+              },
+            ]
+          }
+          itemsNotCovered={
+            Array [
+              Object {
+                "description": "No cover for windscreen or windows.",
+                "name": "Windscreen cover",
+              },
+              Object {
+                "description": "No cover for driving other cars.",
+                "name": "Driving other cars",
+              },
+            ]
+          }
+          title={null}
+        />
+        <HDContainer
+          hastingsDirectLogo={null}
+          isComprehensive={true}
+          isOnlineProductType={false}
+          items={
+            Array [
+              Object {
+                "description": "Meets your need for extra financial support if you or your passengers were injured following an accident involving your car",
+                "name": "Personal accident cover - £XX.XX",
+              },
+              Object {
+                "description": "Meets your need to have a replacement car like your if your car is written off or stolen and not recovered.",
+                "name": "Substitute vehicle - £XX.XX",
+              },
+              Object {
+                "description": "",
+                "name": "No claims discount protection - included",
+              },
+            ]
+          }
+          itemsNotCovered={null}
+          title="Your optional extras"
+        />
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;
+
+exports[`<HDQuotePolicyDetails /> render component with hpComprehensive 1`] = `
+<Row
+  className="policy-details-container"
+  noGutters={false}
+>
+  <Col
+    className="margin-bottom-md"
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="px-md-0"
+      >
+        <HDLabelRefactor
+          Tag="h2"
+          adjustImagePosition={true}
+          className="mb-2 margin-top-lg"
+          id="policy-details-your-policy-label"
+          text="Your policy"
+        />
+        <p>
+          Here are the main features of your policy. You'll find full details in the documents section.
+        </p>
+        <HDInfoBox
+          policyDetails={
+            Array [
+              Object {
+                "key": "Quote reference:",
+                "value": "10500441968",
+              },
+              Object {
+                "key": "Length of policy:",
+                "value": "365 days",
+              },
+              Object {
+                "key": "Starts:",
+                "value": "15/09/2020",
+              },
+              Object {
+                "key": "Ends:",
+                "value": "14/09/2021 23:59",
+              },
+              Object {
+                "key": "Underwriter:",
+                "value": "Covea Insurance plc",
+              },
+            ]
+          }
+        />
+      </Col>
+    </Row>
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="policy-details__cover margin-top-md"
+      >
+        <HDContainer
+          hastingsDirectLogo="hastings-premier-oneline.svg"
+          isComprehensive={false}
+          isOnlineProductType={false}
+          items={
+            Array [
+              Object {
+                "name": "Motor legal expenses",
+              },
+              Object {
+                "name": "Roadside assistance",
+              },
+              Object {
+                "description": "You'll be provided with a small car while yours is being repaired by one of our approved repairers. It won't be provided if your car can't be repaired or it has been stolen (and not recovered).",
+                "name": "Courtesy car",
+              },
+            ]
+          }
+          itemsNotCovered={
+            Array [
+              Object {
+                "description": "No cover for driving other cars.",
+                "name": "Driving other cars",
+              },
+            ]
+          }
+          title={null}
+        />
+        <HDContainer
+          hastingsDirectLogo={null}
+          isComprehensive={true}
+          isOnlineProductType={false}
+          items={
+            Array [
+              Object {
+                "description": "Meets your need for extra financial support if you or your passengers were injured following an accident involving your car",
+                "name": "Personal accident cover - £XX.XX",
+              },
+              Object {
+                "description": "Meets your need to have a replacement car like your if your car is written off or stolen and not recovered.",
+                "name": "Substitute vehicle - £XX.XX",
+              },
+              Object {
+                "description": "",
+                "name": "No claims discount protection - included",
+              },
+            ]
+          }
+          itemsNotCovered={null}
+          title="Your optional extras"
+        />
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;

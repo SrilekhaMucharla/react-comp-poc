@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDAlert /> render component with message 1`] = `
+<styled.div>
+  <i
+    className="fas fa-exclamation-circle"
+  />
+  Error
+</styled.div>
+`;
+
+exports[`<HDAlert /> render component with message 2`] = `""`;

@@ -1,0 +1,8 @@
+.mc-policy-benefits__cover {
+    background-color: $mono-cultured;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    @include media-breakpoint-up(md) {
+      padding: 35px;
+  }
+}

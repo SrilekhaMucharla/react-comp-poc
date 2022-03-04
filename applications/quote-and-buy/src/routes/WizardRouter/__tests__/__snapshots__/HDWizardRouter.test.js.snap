@@ -1,0 +1,1227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDWizardRouter should render correctly and match the snapshot 1`] = `
+<Fragment>
+  <Container
+    className="WizardBaseRouterContainer page-content-wrapper background-body"
+    fluid={true}
+  >
+    <HDWizardStepper
+      location={
+        Object {
+          "pathname": "/get-a-price/driving-licence-number",
+        }
+      }
+      multiCarFlag={false}
+    />
+    <Container
+      className="container--get-a-price"
+      fluid={false}
+    >
+      <Row
+        noGutters={false}
+      >
+        <Col
+          className="px-0"
+          lg={
+            Object {
+              "offset": 3,
+              "span": 6,
+            }
+          }
+          md={
+            Object {
+              "offset": 2,
+              "span": 8,
+            }
+          }
+          sm={12}
+          xs={12}
+        >
+          <Container
+            className="stepper-go-back mt-3"
+            fluid={false}
+          >
+            <BackNavigation
+              aria-disabled={false}
+              className=""
+              disabled={false}
+              id="backNavMainWizard"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+            />
+          </Container>
+          <div>
+            <Switch>
+              <Connect(HDWizardRoute)
+                WizardPage={[Function]}
+                epticaId={857}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsCarDetails"
+                pageId="HastingsCarDetails"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsCarDetails",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/vehicle-details"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HastingsCarWorth)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={859}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsCarWorth"
+                pageId="HastingsCarWorth"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsCarWorth",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/car-worth"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HastingsTracker)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={860}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsTracker"
+                pageId="HastingsTracker"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsTracker",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/tracker"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HastingsDirectCarPurchasePage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={861}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsLegalOwner"
+                pageId="HastingsLegalOwner"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsLegalOwner",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/car-purchase"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HastingsCarUsage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={863}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsCarUsage"
+                pageId="HastingsCarUsage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsCarUsage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/car-usage"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDCarMileagePage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={864}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsCarMileage"
+                pageId="HastingsCarMileage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsCarMileage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mileage"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDCarLocationPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsCarLocation"
+                pageId="HastingsCarLocation"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsCarLocation",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/car-location"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDCompletedCarDetailsPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsCarDetails_Complete"
+                pageId="HastingsCarDetails_Complete"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsCarDetails_Complete",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/car-details"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverScanOrContinuePage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={866}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsScanOrContinue"
+                pageId="HastingsScanOrContinue"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsScanOrContinue",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-scan-or-continue"
+                personalDetails="true"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverScanPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={866}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsScanDrivingLicence"
+                pageId="HastingsScanDrivingLicence"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsScanDrivingLicence",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-scan"
+                personalDetails="true"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverNamePage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={867}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails"
+                pageId="HastingsPersonalDetails"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-name"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverDOBPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={868}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_DOB"
+                pageId="HastingsPersonalDetails_DOB"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_DOB",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-dob"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverEmailPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={869}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_Email"
+                pageId="HastingsPersonalDetails_Email"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_Email",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-email"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverAddressPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={870}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_Address"
+                pageId="HastingsPersonalDetails_Address"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_Address",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-address"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCAddressVerify)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCPersonalDetails_Address"
+                pageId="HastingsMCPersonalDetails_Address"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCPersonalDetails_Address",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-address-verify-child-ph"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverHomeOwnerPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={871}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_HomeOwner"
+                pageId="HastingsPersonalDetails_HomeOwner"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_HomeOwner",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-homeowner"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverMaritalStatusPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={873}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_MaritalStatus"
+                pageId="HastingsPersonalDetails_MaritalStatus"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_MaritalStatus",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-marital-status"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDPrimaryEmployementInfoPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={874}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_EmploymentStatus"
+                pageId="HastingsPersonalDetails_EmploymentStatus"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_EmploymentStatus",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/primary-employment"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDSecondaryEmployementInfoPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={874}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_AnotherJob"
+                pageId="HastingsPersonalDetails_AnotherJob"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_AnotherJob",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/secondary-employment"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverLicenceTypePage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={875}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_DrivingLicence"
+                pageId="HastingsPersonalDetails_DrivingLicence"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_DrivingLicence",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driving-licence-type"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverLicenceNumberPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={875}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_DrivingLicence_Number"
+                pageId="HastingsPersonalDetails_DrivingLicence_Number"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_DrivingLicence_Number",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driving-licence-number"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverLicenceLengthPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={875}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_DrivingLicence_Length"
+                pageId="HastingsPersonalDetails_DrivingLicence_Length"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_DrivingLicence_Length",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driving-licence-length"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverClaimsPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={877}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_Claims"
+                pageId="HastingsPersonalDetails_Claims"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_Claims",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-claims"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDDriverConvictionsPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={878}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_Convictions"
+                pageId="HastingsPersonalDetails_Convictions"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_Convictions",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/driver-convictions"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={[Function]}
+                epticaId={878}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPersonalDetails_Complete"
+                pageId="HastingsPersonalDetails_Complete"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPersonalDetails_Complete",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/add-another-driver"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDTransitionPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={878}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsTransitionPage"
+                pageId="HastingsTransitionPage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsTransitionPage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/transition"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDPolicyStartDatePage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={879}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPolicyStart"
+                pageId="HastingsPolicyStart"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPolicyStart",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/policy-start-date"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={[Function]}
+                epticaId={896}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsQuoteDeclinePage"
+                pageId="HastingsQuoteDeclinePage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsQuoteDeclinePage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/quote-decline"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDYourQuotesPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={879}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsYourQuotes"
+                pageId="HastingsYourQuotes"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsYourQuotes",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/your-quotes"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={[Function]}
+                epticaId={895}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsThanksPage"
+                pageId="HastingsThanksPage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsThanksPage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/thanks"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDCoverageTransitionPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={879}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsCoverageTransitionPage"
+                pageId="HastingsCoverageTransitionPage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsCoverageTransitionPage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/coverage-transition"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDPromotionalPage)",
+                    "type": [Function],
+                  }
+                }
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsPromotion"
+                pageId="HastingsPromotion"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsPromotion",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/promotion"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMultiCarMilestonePage)",
+                    "type": [Function],
+                  }
+                }
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCMilestonePage"
+                pageId="HastingsMCMilestonePage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCMilestonePage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-milestone"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCPolicyStartDatePage)",
+                    "type": [Function],
+                  }
+                }
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCPolicyStart"
+                pageId="HastingsMCPolicyStart"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCPolicyStart",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-policy-start-date"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCQuoteErrorPage)",
+                    "type": [Function],
+                  }
+                }
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCQuoteErrorPage"
+                pageId="HastingsMCQuoteErrorPage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCQuoteErrorPage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-quote-error"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDSavingsPage)",
+                    "type": [Function],
+                  }
+                }
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCSavingsPage"
+                pageId="HastingsMCSavingsPage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCSavingsPage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-savings-page"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCYourQuotesPage)",
+                    "type": [Function],
+                  }
+                }
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCYourQuotePage"
+                pageId="HastingsMCYourQuotePage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCYourQuotePage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-your-quotes"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCCompletedCarDetailsPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCDetailsComplete"
+                pageId="HastingsMCDetailsComplete"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCDetailsComplete",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-car-details"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCHeadsUpPage)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={866}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCDriverScanOrContinuePage"
+                pageId="HastingsMCDriverScanOrContinuePage"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCDriverScanOrContinuePage",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-driver-scan-or-continue"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCDriverAllocation)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={878}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCPersonalDetails_Complete"
+                pageId="HastingsMCPersonalDetails_Complete"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCPersonalDetails_Complete",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-driver-allocation"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={[Function]}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCQuoteDecline"
+                pageId="HastingsMCQuoteDecline"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCQuoteDecline",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-quote-decline"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCPolicyHolderAllocation)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCPolicyHolderAllocation"
+                pageId="HastingsMCPolicyHolderAllocation"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCPolicyHolderAllocation",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-policy-holder-allocation"
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCAddressVerify)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCAddressVerify"
+                pageId="HastingsMCAddressVerify"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCAddressVerify",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-address-verify"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCDriverHomeOwnership)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCDriverHomeOwnership"
+                pageId="HastingsMCDriverHomeOwnership"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCDriverHomeOwnership",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-driver-home-ownership"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCDriverClaims)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCDriverClaims"
+                pageId="HastingsMCDriverClaims"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCDriverClaims",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-driver-claims"
+                personalDetails={true}
+              />
+              <Connect(HDWizardRoute)
+                WizardPage={
+                  Object {
+                    "$$typeof": Symbol(react.memo),
+                    "WrappedComponent": [Function],
+                    "compare": null,
+                    "displayName": "Connect(HDMCDriverAllocationSecondary)",
+                    "type": [Function],
+                  }
+                }
+                epticaId={865}
+                handleBackward={[Function]}
+                handleForward={[Function]}
+                handleSkip={[Function]}
+                key="HastingsMCDriverAllocationSecondary"
+                pageId="HastingsMCDriverAllocationSecondary"
+                pageMetadata={
+                  Object {
+                    "page_name": "HastingsMCDriverAllocationSecondary",
+                    "page_type": "Car Insurance - Get Price",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+                path="/get-a-price/mc-driver-allocation-secondary"
+              />
+              <Route
+                component={[Function]}
+              />
+            </Switch>
+            <Container
+              className="wizard-navigation margin-top-lg margin-top-lg-mobile"
+              fluid={false}
+            >
+              <div
+                className="wizard-navigation-forward"
+              />
+            </Container>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+    <HDModal
+      cancelLabel="No, go back"
+      className=""
+      confirmLabel="Yes, I'm sure"
+      customStyle="rev-button-order footer-btns-w-100"
+      headerText="Are you sure?"
+      hideCancelButton={false}
+      hideClose={true}
+      hideConfirmButton={false}
+      hideFooter={false}
+      id="cancel-edit-driver-modal"
+      onBeforeOpen={[Function]}
+      onCancel={[Function]}
+      onClose={[Function]}
+      onConfirm={[Function]}
+      show={false}
+      webAnalyticsEvent={
+        Object {
+          "event_action": "Cancel edit driver - Are you sure?",
+        }
+      }
+      webAnalyticsView={
+        Object {
+          "page_section": "Cancel edit driver - Are you sure?",
+        }
+      }
+    >
+      <div>
+        You'll lose any changes you've made to your quote.
+      </div>
+    </HDModal>
+  </Container>
+</Fragment>
+`;

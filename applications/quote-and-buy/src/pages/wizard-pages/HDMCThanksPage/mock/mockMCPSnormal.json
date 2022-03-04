@@ -1,0 +1,417 @@
+{
+    "result": [
+        {
+            "submissionID": "0000005403",
+            "paymentSchedule": [
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.22
+                    },
+                    "paymentDate": {
+                        "month": 4,
+                        "year": 2022,
+                        "day": 14
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 6,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 7,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 8,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 9,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 10,
+                        "year": 2022,
+                        "day": 14
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 11,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 0,
+                        "year": 2023,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 1,
+                        "year": 2023,
+                        "day": 13
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 2,
+                        "year": 2023,
+                        "day": 13
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 3,
+                        "year": 2023,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 98.20
+                    },
+                    "paymentDate": {
+                        "month": 4,
+                        "year": 2023,
+                        "day": 12
+                    }
+                }
+            ]
+        },
+        {
+            "submissionID": "0000005402",
+            "paymentSchedule": [
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.22
+                    },
+                    "paymentDate": {
+                        "month": 4,
+                        "year": 2022,
+                        "day": 14
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 6,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 7,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 8,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 9,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 10,
+                        "year": 2022,
+                        "day": 14
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 11,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 0,
+                        "year": 2023,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 1,
+                        "year": 2023,
+                        "day": 13
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 2,
+                        "year": 2023,
+                        "day": 13
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 3,
+                        "year": 2023,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 100.20
+                    },
+                    "paymentDate": {
+                        "month": 4,
+                        "year": 2023,
+                        "day": 12
+                    }
+                }
+            ]
+        },
+        {
+            "submissionID": "0000005401",
+            "paymentSchedule": [
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.22
+                    },
+                    "paymentDate": {
+                        "month": 4,
+                        "year": 2022,
+                        "day": 14
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 6,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 7,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 8,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 9,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 10,
+                        "year": 2022,
+                        "day": 14
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 11,
+                        "year": 2022,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 0,
+                        "year": 2023,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 1,
+                        "year": 2023,
+                        "day": 13
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 2,
+                        "year": 2023,
+                        "day": 13
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 3,
+                        "year": 2023,
+                        "day": 12
+                    }
+                },
+                {
+                    "paymentAmount": {
+                        "currency": "gbp",
+                        "amount": 117.20
+                    },
+                    "paymentDate": {
+                        "month": 4,
+                        "year": 2023,
+                        "day": 12
+                    }
+                }
+            ]
+        }
+    ],
+    "id": "9b7392ed-b821-4a14-bb57-ceaa659ee313_2",
+    "jsonrpc": "2.0"
+}

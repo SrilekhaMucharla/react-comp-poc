@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`INITIAL_STATE is correct 1`] = `
+Object {
+  "quoteCoveragesError": null,
+  "quoteCoveragesObj": Object {},
+}
+`;
+
+exports[`UPDATE_QUOTE_COVERAGES_FAIL returns the error state 1`] = `
+Object {
+  "quoteCoveragesError": Object {
+    "error": Object {
+      "code": -32602,
+      "message": "ErrorCode: -32602-INVALID_PARAMS ErrorMessage: com.fasterxml.jackson.databind.JsonMappingException:Unknown method name: updateQuoteCoveragesc",
+    },
+    "jsonrpc": "2.0",
+  },
+  "quoteCoveragesObj": Object {},
+}
+`;
+
+exports[`UPDATE_QUOTE_COVERAGES_SUCCESS returns the correct state 1`] = `
+Object {
+  "quoteCoveragesError": null,
+  "quoteCoveragesObj": Object {
+    "baseData": Object {
+      "accountHolder": Object {
+        "dateOfBirth": null,
+      },
+      "isExistingCustomer": false,
+      "isPostalDocument": false,
+      "jobType": "Submission",
+      "marketingContacts": Object {
+        "allowEmail": false,
+        "allowPost": false,
+        "allowSMS": false,
+        "allowTelephone": false,
+      },
+      "periodStatus": "Draft",
+      "policyAddress": Object {},
+      "producerCode": "Default",
+      "productCode": "PrivateCar_Ext",
+      "productName": "Private Car",
+      "termType": "Annual",
+    },
+    "lobData": Object {
+      "privateCar": Object {
+        "coverables": Object {
+          "addInterestTypeCategory": "PAVhcleAddlInterest",
+          "drivers": Array [
+            Object {
+              "claimsAndConvictions": Object {
+                "claimsDetailsCollection": Array [],
+                "convictionsCollection": Array [],
+              },
+              "licenceObtainedDate": null,
+              "person": Object {
+                "prefix": Object {},
+              },
+              "previousPoliciesInformation": Object {},
+              "residingInUKSince": null,
+              "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+            },
+          ],
+          "vehicleDrivers": Array [
+            Object {},
+          ],
+          "vehicles": Array [
+            Object {
+              "isCarModified": "",
+              "ncdProtection": Object {
+                "drivingExperience": Object {},
+              },
+              "tracker": "",
+              "vehicleModifications": Array [],
+              "vehicleWorth": "",
+            },
+          ],
+        },
+        "preQualQuestionSets": Array [],
+      },
+    },
+  },
+}
+`;

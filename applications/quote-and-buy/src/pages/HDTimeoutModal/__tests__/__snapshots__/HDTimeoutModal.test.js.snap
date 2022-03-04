@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTimeoutModal /> render HDTimeoutModal 1`] = `
+<ForwardRef
+  confirmLabel="Continue"
+  customStyle="timeout-modal"
+  headerText="Whoops! You're about to timeout..."
+  hideCancelButton={true}
+  hideClose={true}
+  id="timeout-popup"
+  onBeforeOpen={null}
+  onConfirm={[Function]}
+  show={false}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Whoops! You're about to timeout...",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "Whoops! You're about to timeout...",
+    }
+  }
+>
+  <p
+    id="timeout-popup-text"
+  >
+    Your session will end in:
+  </p>
+  <p
+    className="font-bold mb-n3 mt-3"
+    id="timeout-popup-time"
+  />
+</ForwardRef>
+`;

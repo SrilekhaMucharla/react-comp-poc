@@ -1,0 +1,211 @@
+.fixed-footer {
+  width: 100%;
+  position: relative;
+  background-color: $app-theme;
+  padding: 0 15px 50px 15px;
+  font-size: $font-size-sm;
+  color: $white-color;
+  min-height: 100px;
+  margin-top: 10px;
+  z-index: 99;
+
+  .container {
+    @include media-breakpoint-up(lg) {
+      padding-left: 40px;
+      padding-right: 40px;
+      max-width: 100%;
+    }
+  }
+
+  &:after {
+    content: ' ';
+    background: $app-theme;
+    position: absolute;
+    top: -35px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 100%/30px 30px 0 0;
+  }
+
+  a {
+    font-size: $hd-font-size-small;
+  }
+
+  .footer-text-style {
+    color: $mono-light-steel;
+    font-size: $font-size-sm;
+    text-align: left;
+    margin: 20px 0 0 0;
+
+    img {
+      width: 16px;
+      height: 16px;
+      object-fit: contain;
+      margin-left: 10px;
+      margin-top: -5px;
+    }
+
+    //.privacy-link {
+    //  color: $mono-light-steel;
+    //  margin-left: 5px;
+    //  text-decoration: underline;
+    //
+    //}
+
+    .privacy-policy {
+      .hd-overlay-btn {
+        display: inherit;
+      }
+    }
+    a.secondary-style{
+      font-size: $font-size-sm;
+      color: $mono-light-steel;
+      text-decoration: none;
+      padding: 0 1px;
+      margin-right: 10px;
+      border-bottom:2px solid $mono-light-steel;
+      line-height: 1.8;
+      &:hover {
+        border-bottom:2px solid $white-color;
+        color: $midnight-royal-blue;
+      }
+      &:active,
+      &:focus{
+        color: $white-color;
+        border-bottom: 2px solid $midnight-royal-blue;
+      }
+    }
+
+    .info-collapse-text {
+      span {
+        margin-top: 15px;
+        display: block;
+      }
+      span:last-child {
+        margin-bottom: 15px;
+        @include media-breakpoint-down(md) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  .info-collapse-icon {
+    color: $mono-light-steel;
+    &:hover {
+      cursor: pointer;
+      color: $mono-light-steel;
+    }
+  }
+
+  .privacy-policy {
+    display: inline-flex;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .fixed-footer {
+    position: relative;
+    z-index: 1;
+    background-size: 100%;
+    padding: 0 0 80px 0;
+
+    //&:after {
+    //  content: none;
+    //}
+
+    .footer-text-style {
+      margin-top: 36px;
+      padding-left: 0;
+
+      .privacy-link {
+        margin-left: 0;
+        display: block;
+      }
+    }
+  }
+}
+
+/// INTRO and VRN PAGE FOOTER STYLE
+.transparent-footer {
+  @include media-breakpoint-up(lg) {
+    min-height: 100vh;
+  }
+}
+
+.transparent-footer + .fixed-footer {
+  background-color: $app-theme;
+  position: relative;
+  margin-top: 0;
+
+  &:after {
+    display: none;
+  }
+
+  @include media-breakpoint-up(lg) {
+    @media only screen and (min-height: 830px) {
+      position: fixed;
+      z-index: 998;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: transparent;
+    }
+  }
+  .footer-text-style {
+    width: 60%;
+    @include media-breakpoint-down(md) {
+      width: 100%;
+    }
+  }
+}
+
+.allow-scroll{
+  overflow:auto;
+  // when you edit car or driver and cookie bar is open 
+  & .cancel-finish-edit {
+    @include media-breakpoint-up(tiny) {
+      bottom: 206px;
+    }
+
+    @media (min-width: 421px) and (max-width: 768px) {
+      bottom: 182px;
+    }
+    
+    @include media-breakpoint-up(md) {
+      bottom: 119px;
+    }
+  }
+}
+
+.cookies-consent{
+  background: none;
+  height:0;
+
+  .container-fluid{
+    max-width: 1100px;
+  }
+
+  .hastings-modal-content{
+    max-width: none;
+    margin:0;
+    position: fixed;
+    bottom:0;
+    border-radius: 0;
+    padding: 30px 5px;
+    @include media-breakpoint-up(md) {
+      padding: 30px;
+    }
+
+    .hd-modal-footer{
+      margin-top:0;
+    }
+  }
+
+}
+
+// CHAT BUTTON
+.wo-button {
+  max-height: 40px;
+}

@@ -1,0 +1,9 @@
+.car-tracker-wrapper {
+    .interactive-card {
+        margin-bottom: 10px;
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 0;
+        }
+    }
+}

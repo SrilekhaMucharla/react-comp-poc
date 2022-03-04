@@ -1,0 +1,374 @@
+.scan {
+    box-sizing: border-box;
+
+    .overlay {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        visibility: hidden;
+        overflow: hidden;
+        transform-origin: center;
+        transform: translate(0, 0);
+        z-index: -1;
+        opacity: 0;
+        transition: opacity 0.2s ease 0.2s, visibility 0.1s ease 0.3s;
+        border-radius: 0px;
+        @include media-breakpoint-up(md) {
+            top: 15%;
+            height: 75%;
+        }
+    }
+
+    .overlay__content {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        transition: all 0.05s;
+        opacity: 0;
+    }
+
+    .overlay.is-active .overlay__content {
+        opacity: 1;
+        transition: all 0.8s ease;
+    }
+
+    .overlay__header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 88px;
+        padding: 90px 16px 0 16px;
+        background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .overlay.is-active {
+        background-color: $mono-midnight;
+        visibility: visible;
+        transform: translate(0, 0);
+        z-index: 9996;
+        opacity: 1;
+        border-radius: 0;
+        transition: opacity 0.2s ease, visibility 0.1s ease;
+    }
+
+    .overlay__center {
+        position: absolute;
+    }
+
+    .control__icon {
+        display: block;
+        width: 24px;
+        height: 24px;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.1));
+    }
+
+    .control__icon--close.is-visible {
+        opacity: 1;
+    }
+
+    .overlay__camera {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 50px;
+        left: 0;
+        z-index: -1;
+    }
+
+    .overlay__camera video {
+        width: 100%;
+        height: 100%;
+    }
+
+    .control__icon__close {
+        opacity: 0;
+        color: black;
+    }
+
+    .control__icon__close.is-visible {
+        opacity: 1;
+        border-radius: 100%;
+        background-color: $app-theme;
+        width: 100%;
+        height: 100%;
+        @include media-breakpoint-down(sm) {
+            margin-top: 30px;
+        }
+    }
+
+    .overlay__center__reticle {
+        width: 80px;
+        height: 80px;
+        top: 50%;
+        left: 50%;
+        transform-origin: center;
+        transform: translate(-50%, -50%);
+    }
+
+    @media screen and (min-width: 600px) {
+        .overlay__center__reticle {
+            width: 96px;
+            height: 96px;
+        }
+    }
+
+    .reticle {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: rgba(120, 120, 128, 0.2);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        -webkit-backdrop-filter: blur(27px);
+        backdrop-filter: blur(27px);
+        transition: all 0.4s ease;
+    }
+
+    .reticle__cursor {
+        display: block;
+        position: absolute;
+        width: 40%;
+        height: 40%;
+        left: 30%;
+        top: 30%;
+        border-radius: 50%;
+        border-color: transparent;
+        border-style: solid;
+        border-width: 4px;
+        transition: all 125ms cubic-bezier(0.42, 0.01, 0.35, 1.74);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    @keyframes reticle-rotation {
+        100% {
+            transform: rotate(360deg)
+        }
+    }
+
+    .reticle.is-loading .reticle__cursor,
+    .reticle.is-default .reticle__cursor,
+    .reticle.is-default-back .reticle__cursor {
+        animation: reticle-rotation 1000ms ease-in-out infinite;
+        border-style: none;
+        background-image: url("data:image/svg+xml,%3csvg width='48%25' height='48%25' xmlns='http://www.w3.org/2000/svg'%3e%3ccircle cx='50%25' cy='50%25' r='50%25' fill='none' stroke='%23fff' stroke-width='4' stroke-dasharray='9' opacity='0.5' stroke-linecap='square'/%3e%3c/svg%3e");
+    }
+
+    #showcase-container *:before, #showcase-container *:after {
+        box-sizing: border-box;
+    }
+
+    .reticle__cursor::before {
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        top: 50%;
+        left: 50%;
+        transition: all 0.2s ease;
+        transform-origin: center;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        border-radius: 50%;
+    }
+
+    .reticle__cursor::after {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        width: calc(50% + 4px);
+        height: calc(50% + 4px);
+        display: block;
+        border-left-width: 4px;
+        border-left-style: solid;
+        border-left-color: #fff;
+        border-top-width: 4px;
+        border-top-style: solid;
+        border-top-color: #fff;
+        border-top-left-radius: 100%;
+        transition: all 0.2s ease;
+        opacity: 0;
+        filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.1));
+    }
+
+    .reticle__done {
+        display: block;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        left: 25%;
+        top: 25%;
+        transition: all 125ms cubic-bezier(0.42, 0.01, 0.35, 1.74);
+        transform-origin: center;
+        transform: rotate(15deg) translateY(-5%);
+        opacity: 0;
+    }
+
+    .control {
+        display: flex;
+        align-items: center;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .label {
+        display: block;
+        margin: 0;
+        font-weight: 500;
+        padding: 8px 12px;
+        text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+        color: #fff;
+        background-color: rgba(60, 60, 67, 0.3);
+        -webkit-backdrop-filter: blur(27px);
+        backdrop-filter: blur(27px);
+        transition: all 200ms cubic-bezier(0.42, 0.01, 0.35, 1.74);
+        text-align: center;
+        white-space: nowrap;
+        opacity: 0;
+        visibility: hidden;
+        border-radius: 8px;
+    }
+
+    .overlay__center__reticle .label {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform-origin: center;
+        transform: translate(-50%, 0);
+    }
+
+    .label.is-active,
+    .reticle.is-loading ~ .label[data-message="is-loading"],
+    .reticle.is-default ~ .label[data-message="is-default"],
+    .reticle.is-default-back ~ .label[data-message="is-default-back"],
+    .reticle.is-fail ~ .label[data-message="is-fail"],
+    .reticle.is-classification ~ .label[data-message="is-classification"],
+    .reticle.is-done ~ .label[data-message="is-done"],
+    .reticle.is-done-all ~ .label[data-message="is-done-all"],
+    .reticle.is-flip ~ .label[data-message="is-flip"],
+    .reticle.is-error-move-farther ~ .label[data-message="is-error-move-farther"],
+    .reticle.is-error-move-closer ~ .label[data-message="is-error-move-closer"],
+    .reticle.is-error-adjust-angle ~ .label[data-message="is-error-adjust-angle"] {
+        opacity: 1;
+        visibility: visible;
+        margin: 8px 0 0 0
+    }
+
+    .reticle.is-error-move-closer {
+        background-color: rgba(255, 45, 85, 0.5);
+    }
+
+    .reticle.is-error-move-closer .reticle__cursor {
+        border-color: rgba(255, 255, 255, 0.75);
+        width: 60%;
+        height: 60%;
+        left: 20%;
+        top: 20%;
+        transition: all 125ms cubic-bezier(0.42, 0.01, 0.35, 1.74);
+    }
+
+    .reticle.is-error-move-farther {
+        background-color: rgba(255, 45, 85, 0.5)
+    }
+
+    .reticle.is-error-move-farther .reticle__cursor {
+        border-color: rgba(255, 255, 255, 0.75);
+        width: 40%;
+        height: 40%;
+        left: 30%;
+        top: 30%;
+        transition: all 125ms cubic-bezier(0.42, 0.01, 0.35, 1.74)
+    }
+
+    .reticle.is-error-move-closer {
+        background-color: rgba(255, 45, 85, 0.5)
+    }
+
+    .reticle.is-error-move-closer .reticle__cursor {
+        border-color: rgba(255, 255, 255, 0.75);
+        width: 60%;
+        height: 60%;
+        left: 20%;
+        top: 20%;
+        transition: all 125ms cubic-bezier(0.42, 0.01, 0.35, 1.74)
+    }
+
+    .reticle.is-error-adjust-angle {
+        background-color: rgba(255, 45, 85, 0.5)
+    }
+
+    .reticle.is-error-adjust-angle .reticle__cursor {
+        border-color: rgba(255, 255, 255, 0.75);
+        animation: reticle-horizontal-shrink 600ms cubic-bezier(0.42, 0.01, 0.35, 1.74)
+    }
+
+    .reticle.is-classification .reticle__cursor {
+        animation: reticle-rotation 250ms cubic-bezier(0.4, 0.02, 1, 1) infinite;
+        border-style: solid;
+        border-color: rgba(255, 255, 255, 0.25)
+    }
+
+    .reticle.is-classification .reticle__cursor::after {
+        opacity: 1
+    }
+
+    .reticle.is-done, .reticle.is-done-all {
+        box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1), 0px 2px 8px rgba(0, 0, 0, 0.05);
+        transition: all 125ms cubic-bezier(0.4, 0.02, 1, 1)
+    }
+
+    .reticle.is-done .reticle__done, .reticle.is-done-all .reticle__done {
+        transform: rotate(0) translateY(0);
+        opacity: 1;
+        background-color: $white-fill;
+        border-radius: 100%;
+
+        img {
+            width: 110%;
+            height: 110%;
+            top: -2px;
+            left: -2px;
+            position: absolute;
+        }
+    }
+
+    .reticle.is-done-all .reticle__cursor::before {
+        width: 150vw;
+        height: 150vh;
+        opacity: 0;
+        transition: all 200ms ease;
+    }
+}
+
+.camera-disabled {
+    :global(.label-text.size-xs) {
+        font-family: $font-face-generic-regular;
+    }
+
+    &__try-again-button {
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .buttons {
+        margin-top: 50px;
+    }
+}

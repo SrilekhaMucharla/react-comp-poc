@@ -1,0 +1,133 @@
+.confirm-contact-details__container {
+    background-color: $app-theme;
+    color: $mono-white;
+    .hd-information-tooltip .overlay .overlay-body {
+        padding: 20px;
+    }
+}
+
+.confirm-contact-details__background {
+    background-color: $app-theme;
+    margin-bottom: -20px;
+    padding-bottom: 20px;
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: -70px;
+    }
+
+    @media (min-width: 1920px) {
+        margin-bottom: -40px;
+    }
+}
+
+.confirm-contact-details__ccd-overlay-header {
+    font-size: 25px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: $app-theme;
+}
+
+.confirm-contact-details__ccd-overlay-body {
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    white-space: pre-line;
+    text-align: left;
+    color: $info-color;
+}
+
+.confirm-contact-details__back-button.btn {
+    margin-top: 30px;
+    margin-bottom: 35px;
+
+    @include media-breakpoint-down(tiny) {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.confirm-contact-details__overlay-container {
+    color: $black-color;
+    p:first-child {
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+    }
+}
+
+@include media-breakpoint-down(tiny) {
+    .confirm-contact-details__container {
+        padding: 22px;
+    }
+}
+
+.confirm-contact-details__button-container {
+    width: auto;
+    margin-bottom: 30px;
+
+    .form-group {
+        margin-bottom: 0;
+    }
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 20px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 75%;
+    }
+
+    .btn-group-toggle {
+        width: 205px;
+        @include media-breakpoint-down(lg) {
+            width:168px;
+        }
+        @include media-breakpoint-down(md) {
+            width: 179px;
+        }
+        @include media-breakpoint-down(sm) {
+            width: 150px;
+        }        
+    }
+}
+
+.confirm-contact-details__input-container {
+    width: auto;
+    input {
+        // overriding default input behavior
+        border-radius: 6px !important;
+    }
+    @include media-breakpoint-up(lg) {
+        width: 75%;
+    }
+}
+
+.confirm-contact-details__info-card-icon {
+    width: 22px;
+}
+
+.confirm-contact-details__label-text {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+
+    p {
+        font-size: 18px;
+        line-height: 1.2;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+}
+
+.confirm-contact-details__header {
+    margin-bottom: 20px;
+}
+
+.confirm-contact-details__form-field-container {
+    margin-bottom: 30px;
+}

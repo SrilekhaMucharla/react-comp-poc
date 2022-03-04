@@ -1,0 +1,893 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCustomizeQuoteFooterPage /> render component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDCustomizeQuoteFooterPage)
+    pageId="ms"
+    quoteID="000000078"
+  >
+    <HDCustomizeQuoteFooterPage
+      brand={null}
+      emailSaveProgress="ab@ab.com"
+      pageId="ms"
+      quoteID="000000078"
+      updateEmailSaveProgress={[Function]}
+    >
+      <Row
+        className="mt-2 mx-0"
+        noGutters={false}
+      >
+        <div
+          className="mt-2 mx-0 row"
+        >
+          <Col
+            className="px-0"
+          >
+            <div
+              className="px-0 col"
+            >
+              <img
+                alt="arc-footer"
+                className="email-progress__arc"
+                src="bottom-arc.svg"
+              />
+            </div>
+          </Col>
+        </div>
+      </Row>
+      <Container
+        className="email-progress"
+        fluid={true}
+      >
+        <div
+          className="email-progress container-fluid"
+        >
+          <Container
+            fluid={false}
+          >
+            <div
+              className="container"
+            >
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col
+                    md={
+                      Object {
+                        "offset": 1,
+                        "span": 10,
+                      }
+                    }
+                    sm={12}
+                  >
+                    <div
+                      className="col-md-10 col-sm-12 offset-md-1"
+                    >
+                      <Row
+                        noGutters={false}
+                      >
+                        <div
+                          className="row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <HDLabelRefactor
+                                Tag="h5"
+                                adjustImagePosition={true}
+                                className="margin-bottom-tiny"
+                                text="Don't have time now?"
+                              >
+                                <h5
+                                  className="margin-bottom-tiny"
+                                >
+                                  Don't have time now?
+                                </h5>
+                              </HDLabelRefactor>
+                              <HDLabelRefactor
+                                Tag="p"
+                                adjustImagePosition={true}
+                                className="progress-description"
+                                text="No worries. We've saved your progress, so we'll email you a link to your quote. You can pick up where you left off when you have more time."
+                              >
+                                <p
+                                  className="progress-description"
+                                >
+                                  No worries. We've saved your progress, so we'll email you a link to your quote. You can pick up where you left off when you have more time.
+                                </p>
+                              </HDLabelRefactor>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <div
+                        className="progress-form "
+                      >
+                        <HDForm
+                          className=""
+                          initValues={Object {}}
+                          onValidation={[Function]}
+                          passedKey="default-key"
+                          resetFormOnStart={false}
+                        >
+                          <Formik
+                            initialTouched={Array []}
+                            initialValues={
+                              Object {
+                                "emailAddress1": "",
+                              }
+                            }
+                            key="default-key"
+                            validateOnMount={true}
+                          >
+                            <Form
+                              className=""
+                              inline={false}
+                              noValidate={true}
+                              onSubmit={[Function]}
+                            >
+                              <form
+                                className=""
+                                noValidate={true}
+                                onSubmit={[Function]}
+                              >
+                                <Row
+                                  noGutters={false}
+                                >
+                                  <div
+                                    className="row"
+                                  >
+                                    <Col
+                                      md={8}
+                                      xs={12}
+                                    >
+                                      <div
+                                        className="col-md-8 col-12"
+                                      >
+                                        <FormGroup
+                                          key="undefined.emailAddress1.footer-progress-input"
+                                        >
+                                          <div
+                                            className="form-group"
+                                          >
+                                            <FormControl
+                                              as={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "defaultProps": Object {
+                                                    "id": "default-id",
+                                                    "onBeforeOpen": null,
+                                                    "onBlur": null,
+                                                    "onCancel": null,
+                                                    "onChange": null,
+                                                    "onClick": null,
+                                                    "onConfirm": null,
+                                                    "onDelete": null,
+                                                    "onEdit": null,
+                                                    "onFocus": null,
+                                                    "onSelect": null,
+                                                    "webAnalyticsEvent": null,
+                                                  },
+                                                  "displayName": undefined,
+                                                  "propTypes": Object {
+                                                    "id": [Function],
+                                                    "onBeforeOpen": [Function],
+                                                    "onBlur": [Function],
+                                                    "onCancel": [Function],
+                                                    "onChange": [Function],
+                                                    "onClick": [Function],
+                                                    "onConfirm": [Function],
+                                                    "onDelete": [Function],
+                                                    "onEdit": [Function],
+                                                    "onFocus": [Function],
+                                                    "onSelect": [Function],
+                                                    "webAnalyticsEvent": [Function],
+                                                  },
+                                                  "render": [Function],
+                                                  "type": undefined,
+                                                  "typeName": "HDTextInput",
+                                                }
+                                              }
+                                              className="progress-input "
+                                              custom={true}
+                                              data="ab@ab.com"
+                                              id="footer-progress-input"
+                                              inputMode="email"
+                                              name="emailAddress1"
+                                              onBeforeOpen={null}
+                                              onBlur={[Function]}
+                                              onCancel={null}
+                                              onChange={[Function]}
+                                              onClick={null}
+                                              onConfirm={null}
+                                              onDelete={null}
+                                              onEdit={null}
+                                              onFocus={null}
+                                              onSelect={null}
+                                              placeholder="Enter email"
+                                              value=""
+                                              webAnalyticsEvent={
+                                                Object {
+                                                  "event_action": "Don't have time now?",
+                                                }
+                                              }
+                                            >
+                                              <ForwardRef
+                                                className="progress-input  custom"
+                                                data="ab@ab.com"
+                                                id="footer-progress-input"
+                                                inputMode="email"
+                                                name="emailAddress1"
+                                                onBeforeOpen={null}
+                                                onBlur={[Function]}
+                                                onCancel={null}
+                                                onChange={[Function]}
+                                                onClick={null}
+                                                onConfirm={null}
+                                                onDelete={null}
+                                                onEdit={null}
+                                                onFocus={null}
+                                                onSelect={null}
+                                                placeholder="Enter email"
+                                                value=""
+                                                webAnalyticsEvent={
+                                                  Object {
+                                                    "event_action": "Don't have time now?",
+                                                  }
+                                                }
+                                              >
+                                                <ForwardRef
+                                                  allowLeadingZero={false}
+                                                  appendContent={null}
+                                                  appendLabel={null}
+                                                  className="progress-input  custom"
+                                                  customClassName=""
+                                                  data="ab@ab.com"
+                                                  disabled={false}
+                                                  icon={null}
+                                                  id="footer-progress-input"
+                                                  inputMode="email"
+                                                  isInvalidCustom={null}
+                                                  mask={null}
+                                                  maskChar="_"
+                                                  maxLength={null}
+                                                  name="emailAddress1"
+                                                  onBlur={[Function]}
+                                                  onChange={[Function]}
+                                                  onFocus={[Function]}
+                                                  onKeyPress={[Function]}
+                                                  path="path.to.input"
+                                                  placeholder="Enter email"
+                                                  preText={null}
+                                                  reset={false}
+                                                  size={null}
+                                                  svgIcon={null}
+                                                  thousandSeprator={false}
+                                                  tickIcon={false}
+                                                  type={null}
+                                                  value=""
+                                                >
+                                                  <InputGroup
+                                                    className="progress-input  custom "
+                                                    size={null}
+                                                  >
+                                                    <div
+                                                      className="progress-input  custom  input-group"
+                                                    >
+                                                      <FormControl
+                                                        className="hd-text-input__form-control"
+                                                        data-testid="text-input"
+                                                        disabled={false}
+                                                        id="footer-progress-input"
+                                                        inputMode="email"
+                                                        maxLength={null}
+                                                        name="emailAddress1"
+                                                        onBlur={[Function]}
+                                                        onChange={[Function]}
+                                                        onFocus={[Function]}
+                                                        onKeyPress={[Function]}
+                                                        path="path.to.input"
+                                                        placeholder="Enter email"
+                                                        type={null}
+                                                        value="ab@ab.com"
+                                                      >
+                                                        <input
+                                                          className="hd-text-input__form-control form-control"
+                                                          data-testid="text-input"
+                                                          disabled={false}
+                                                          id="footer-progress-input"
+                                                          inputMode="email"
+                                                          maxLength={null}
+                                                          name="emailAddress1"
+                                                          onBlur={[Function]}
+                                                          onChange={[Function]}
+                                                          onFocus={[Function]}
+                                                          onKeyPress={[Function]}
+                                                          path="path.to.input"
+                                                          placeholder="Enter email"
+                                                          type={null}
+                                                          value="ab@ab.com"
+                                                        />
+                                                      </FormControl>
+                                                      <i
+                                                        className="fa fa-exclamation exclam hd-text-input__exclam"
+                                                      />
+                                                    </div>
+                                                  </InputGroup>
+                                                </ForwardRef>
+                                              </ForwardRef>
+                                            </FormControl>
+                                            <Feedback
+                                              type="invalid"
+                                            >
+                                              <div
+                                                className="invalid-feedback"
+                                              />
+                                            </Feedback>
+                                          </div>
+                                        </FormGroup>
+                                      </div>
+                                    </Col>
+                                    <Col
+                                      md={4}
+                                      xs={12}
+                                    >
+                                      <div
+                                        className="col-md-4 col-12"
+                                      >
+                                        <ForwardRef
+                                          className="btn-block email-progress__send-btn"
+                                          disabled={false}
+                                          id="progress-button"
+                                          label="Email link"
+                                          onBeforeOpen={null}
+                                          onBlur={null}
+                                          onCancel={null}
+                                          onChange={null}
+                                          onClick={[Function]}
+                                          onConfirm={null}
+                                          onDelete={null}
+                                          onEdit={null}
+                                          onFocus={null}
+                                          onSelect={null}
+                                          variant="secondary"
+                                          webAnalyticsEvent={
+                                            Object {
+                                              "event_action": "Don't have time now?",
+                                            }
+                                          }
+                                        >
+                                          <HDButtonRefactor
+                                            className="btn-block email-progress__send-btn"
+                                            disabled={false}
+                                            fullWidth={false}
+                                            id="progress-button"
+                                            label="Email link"
+                                            onClick={[Function]}
+                                            onKeyPress={null}
+                                            size={null}
+                                            type="button"
+                                            variant="secondary"
+                                          >
+                                            <Button
+                                              active={false}
+                                              block={false}
+                                              className="hd-btn hd-btn-secondary btn-block email-progress__send-btn"
+                                              disabled={false}
+                                              id="progress-button"
+                                              onClick={[Function]}
+                                              onKeyPress={null}
+                                              size={null}
+                                              type="button"
+                                              variant="secondary"
+                                            >
+                                              <button
+                                                className="hd-btn hd-btn-secondary btn-block email-progress__send-btn btn btn-secondary"
+                                                disabled={false}
+                                                id="progress-button"
+                                                onClick={[Function]}
+                                                onKeyPress={null}
+                                                type="button"
+                                              >
+                                                Email link
+                                              </button>
+                                            </Button>
+                                          </HDButtonRefactor>
+                                        </ForwardRef>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Row>
+                              </form>
+                            </Form>
+                          </Formik>
+                        </HDForm>
+                        <Row
+                          noGutters={false}
+                        >
+                          <div
+                            className="row"
+                          >
+                            <Col
+                              xs={12}
+                            >
+                              <div
+                                className="col-12"
+                              />
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Container>
+        </div>
+      </Container>
+    </HDCustomizeQuoteFooterPage>
+  </Connect(HDCustomizeQuoteFooterPage)>
+</Provider>
+`;
+
+exports[`<HDCustomizeQuoteFooterPage /> render component with email 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDCustomizeQuoteFooterPage)
+    pageId="ms"
+    quoteID="000000078"
+  >
+    <HDCustomizeQuoteFooterPage
+      brand={null}
+      emailSaveProgress="ab@ab.com"
+      pageId="ms"
+      quoteID="000000078"
+      updateEmailSaveProgress={[Function]}
+    >
+      <Row
+        className="mt-2 mx-0"
+        noGutters={false}
+      >
+        <div
+          className="mt-2 mx-0 row"
+        >
+          <Col
+            className="px-0"
+          >
+            <div
+              className="px-0 col"
+            >
+              <img
+                alt="arc-footer"
+                className="email-progress__arc"
+                src="bottom-arc.svg"
+              />
+            </div>
+          </Col>
+        </div>
+      </Row>
+      <Container
+        className="email-progress"
+        fluid={true}
+      >
+        <div
+          className="email-progress container-fluid"
+        >
+          <Container
+            fluid={false}
+          >
+            <div
+              className="container"
+            >
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col
+                    md={
+                      Object {
+                        "offset": 1,
+                        "span": 10,
+                      }
+                    }
+                    sm={12}
+                  >
+                    <div
+                      className="col-md-10 col-sm-12 offset-md-1"
+                    >
+                      <Row
+                        noGutters={false}
+                      >
+                        <div
+                          className="row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <HDLabelRefactor
+                                Tag="h5"
+                                adjustImagePosition={true}
+                                className="margin-bottom-tiny"
+                                text="Don't have time now?"
+                              >
+                                <h5
+                                  className="margin-bottom-tiny"
+                                >
+                                  Don't have time now?
+                                </h5>
+                              </HDLabelRefactor>
+                              <HDLabelRefactor
+                                Tag="p"
+                                adjustImagePosition={true}
+                                className="progress-description"
+                                text="No worries. We've saved your progress, so we'll email you a link to your quote. You can pick up where you left off when you have more time."
+                              >
+                                <p
+                                  className="progress-description"
+                                >
+                                  No worries. We've saved your progress, so we'll email you a link to your quote. You can pick up where you left off when you have more time.
+                                </p>
+                              </HDLabelRefactor>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <div
+                        className="progress-form "
+                      >
+                        <HDForm
+                          className=""
+                          initValues={Object {}}
+                          onValidation={[Function]}
+                          passedKey="default-key"
+                          resetFormOnStart={false}
+                        >
+                          <Formik
+                            initialTouched={Array []}
+                            initialValues={
+                              Object {
+                                "emailAddress1": "",
+                              }
+                            }
+                            key="default-key"
+                            validateOnMount={true}
+                          >
+                            <Form
+                              className=""
+                              inline={false}
+                              noValidate={true}
+                              onSubmit={[Function]}
+                            >
+                              <form
+                                className=""
+                                noValidate={true}
+                                onSubmit={[Function]}
+                              >
+                                <Row
+                                  noGutters={false}
+                                >
+                                  <div
+                                    className="row"
+                                  >
+                                    <Col
+                                      md={8}
+                                      xs={12}
+                                    >
+                                      <div
+                                        className="col-md-8 col-12"
+                                      >
+                                        <FormGroup
+                                          key="undefined.emailAddress1.footer-progress-input"
+                                        >
+                                          <div
+                                            className="form-group"
+                                          >
+                                            <FormControl
+                                              as={
+                                                Object {
+                                                  "$$typeof": Symbol(react.forward_ref),
+                                                  "defaultProps": Object {
+                                                    "id": "default-id",
+                                                    "onBeforeOpen": null,
+                                                    "onBlur": null,
+                                                    "onCancel": null,
+                                                    "onChange": null,
+                                                    "onClick": null,
+                                                    "onConfirm": null,
+                                                    "onDelete": null,
+                                                    "onEdit": null,
+                                                    "onFocus": null,
+                                                    "onSelect": null,
+                                                    "webAnalyticsEvent": null,
+                                                  },
+                                                  "displayName": undefined,
+                                                  "propTypes": Object {
+                                                    "id": [Function],
+                                                    "onBeforeOpen": [Function],
+                                                    "onBlur": [Function],
+                                                    "onCancel": [Function],
+                                                    "onChange": [Function],
+                                                    "onClick": [Function],
+                                                    "onConfirm": [Function],
+                                                    "onDelete": [Function],
+                                                    "onEdit": [Function],
+                                                    "onFocus": [Function],
+                                                    "onSelect": [Function],
+                                                    "webAnalyticsEvent": [Function],
+                                                  },
+                                                  "render": [Function],
+                                                  "type": undefined,
+                                                  "typeName": "HDTextInput",
+                                                }
+                                              }
+                                              className="progress-input "
+                                              custom={true}
+                                              data="ab@ab.com"
+                                              id="footer-progress-input"
+                                              inputMode="email"
+                                              name="emailAddress1"
+                                              onBeforeOpen={null}
+                                              onBlur={[Function]}
+                                              onCancel={null}
+                                              onChange={[Function]}
+                                              onClick={null}
+                                              onConfirm={null}
+                                              onDelete={null}
+                                              onEdit={null}
+                                              onFocus={null}
+                                              onSelect={null}
+                                              placeholder="Enter email"
+                                              value=""
+                                              webAnalyticsEvent={
+                                                Object {
+                                                  "event_action": "Don't have time now?",
+                                                }
+                                              }
+                                            >
+                                              <ForwardRef
+                                                className="progress-input  custom"
+                                                data="ab@ab.com"
+                                                id="footer-progress-input"
+                                                inputMode="email"
+                                                name="emailAddress1"
+                                                onBeforeOpen={null}
+                                                onBlur={[Function]}
+                                                onCancel={null}
+                                                onChange={[Function]}
+                                                onClick={null}
+                                                onConfirm={null}
+                                                onDelete={null}
+                                                onEdit={null}
+                                                onFocus={null}
+                                                onSelect={null}
+                                                placeholder="Enter email"
+                                                value=""
+                                                webAnalyticsEvent={
+                                                  Object {
+                                                    "event_action": "Don't have time now?",
+                                                  }
+                                                }
+                                              >
+                                                <ForwardRef
+                                                  allowLeadingZero={false}
+                                                  appendContent={null}
+                                                  appendLabel={null}
+                                                  className="progress-input  custom"
+                                                  customClassName=""
+                                                  data="ab@ab.com"
+                                                  disabled={false}
+                                                  icon={null}
+                                                  id="footer-progress-input"
+                                                  inputMode="email"
+                                                  isInvalidCustom={null}
+                                                  mask={null}
+                                                  maskChar="_"
+                                                  maxLength={null}
+                                                  name="emailAddress1"
+                                                  onBlur={[Function]}
+                                                  onChange={[Function]}
+                                                  onFocus={[Function]}
+                                                  onKeyPress={[Function]}
+                                                  path="path.to.input"
+                                                  placeholder="Enter email"
+                                                  preText={null}
+                                                  reset={false}
+                                                  size={null}
+                                                  svgIcon={null}
+                                                  thousandSeprator={false}
+                                                  tickIcon={false}
+                                                  type={null}
+                                                  value=""
+                                                >
+                                                  <InputGroup
+                                                    className="progress-input  custom "
+                                                    size={null}
+                                                  >
+                                                    <div
+                                                      className="progress-input  custom  input-group"
+                                                    >
+                                                      <FormControl
+                                                        className="hd-text-input__form-control"
+                                                        data-testid="text-input"
+                                                        disabled={false}
+                                                        id="footer-progress-input"
+                                                        inputMode="email"
+                                                        maxLength={null}
+                                                        name="emailAddress1"
+                                                        onBlur={[Function]}
+                                                        onChange={[Function]}
+                                                        onFocus={[Function]}
+                                                        onKeyPress={[Function]}
+                                                        path="path.to.input"
+                                                        placeholder="Enter email"
+                                                        type={null}
+                                                        value="ab@ab.com"
+                                                      >
+                                                        <input
+                                                          className="hd-text-input__form-control form-control"
+                                                          data-testid="text-input"
+                                                          disabled={false}
+                                                          id="footer-progress-input"
+                                                          inputMode="email"
+                                                          maxLength={null}
+                                                          name="emailAddress1"
+                                                          onBlur={[Function]}
+                                                          onChange={[Function]}
+                                                          onFocus={[Function]}
+                                                          onKeyPress={[Function]}
+                                                          path="path.to.input"
+                                                          placeholder="Enter email"
+                                                          type={null}
+                                                          value="ab@ab.com"
+                                                        />
+                                                      </FormControl>
+                                                      <i
+                                                        className="fa fa-exclamation exclam hd-text-input__exclam"
+                                                      />
+                                                    </div>
+                                                  </InputGroup>
+                                                </ForwardRef>
+                                              </ForwardRef>
+                                            </FormControl>
+                                            <Feedback
+                                              type="invalid"
+                                            >
+                                              <div
+                                                className="invalid-feedback"
+                                              />
+                                            </Feedback>
+                                          </div>
+                                        </FormGroup>
+                                      </div>
+                                    </Col>
+                                    <Col
+                                      md={4}
+                                      xs={12}
+                                    >
+                                      <div
+                                        className="col-md-4 col-12"
+                                      >
+                                        <ForwardRef
+                                          className="btn-block email-progress__send-btn"
+                                          disabled={false}
+                                          id="progress-button"
+                                          label="Email link"
+                                          onBeforeOpen={null}
+                                          onBlur={null}
+                                          onCancel={null}
+                                          onChange={null}
+                                          onClick={[Function]}
+                                          onConfirm={null}
+                                          onDelete={null}
+                                          onEdit={null}
+                                          onFocus={null}
+                                          onSelect={null}
+                                          variant="secondary"
+                                          webAnalyticsEvent={
+                                            Object {
+                                              "event_action": "Don't have time now?",
+                                            }
+                                          }
+                                        >
+                                          <HDButtonRefactor
+                                            className="btn-block email-progress__send-btn"
+                                            disabled={false}
+                                            fullWidth={false}
+                                            id="progress-button"
+                                            label="Email link"
+                                            onClick={[Function]}
+                                            onKeyPress={null}
+                                            size={null}
+                                            type="button"
+                                            variant="secondary"
+                                          >
+                                            <Button
+                                              active={false}
+                                              block={false}
+                                              className="hd-btn hd-btn-secondary btn-block email-progress__send-btn"
+                                              disabled={false}
+                                              id="progress-button"
+                                              onClick={[Function]}
+                                              onKeyPress={null}
+                                              size={null}
+                                              type="button"
+                                              variant="secondary"
+                                            >
+                                              <button
+                                                className="hd-btn hd-btn-secondary btn-block email-progress__send-btn btn btn-secondary"
+                                                disabled={false}
+                                                id="progress-button"
+                                                onClick={[Function]}
+                                                onKeyPress={null}
+                                                type="button"
+                                              >
+                                                Email link
+                                              </button>
+                                            </Button>
+                                          </HDButtonRefactor>
+                                        </ForwardRef>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Row>
+                              </form>
+                            </Form>
+                          </Formik>
+                        </HDForm>
+                        <Row
+                          noGutters={false}
+                        >
+                          <div
+                            className="row"
+                          >
+                            <Col
+                              xs={12}
+                            >
+                              <div
+                                className="col-12"
+                              />
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Container>
+        </div>
+      </Container>
+    </HDCustomizeQuoteFooterPage>
+  </Connect(HDCustomizeQuoteFooterPage)>
+</Provider>
+`;

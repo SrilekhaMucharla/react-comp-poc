@@ -1,0 +1,15 @@
+.hd-quote-download {
+  display: flex;
+  width: fit-content;
+  cursor: pointer;
+  color: $blue-dark-3;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.hd-quote-download__link-text{ 
+  color: #011831;
+  border-bottom: 3px solid $link-color;
+  background-image: linear-gradient(to left, #0084ff 50%, rgba(255, 255, 255, 0) 50%);
+}
+

@@ -1,0 +1,211 @@
+.email-progress {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: $app-theme;
+    padding: 15px 0 30px 0;
+    font-size: $font-size-sm;
+    color: $white-color;
+    margin: 0;
+
+    p {
+        color: $mono-light-steel;
+        margin-bottom: 20px;
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-sm-1;
+        }
+    }
+
+    &:after {
+        content: " ";
+        background: $app-theme;
+        position: absolute;
+        top: -4%;
+        left: 0;
+        width: 100%;
+        height: 5%;
+        border-radius: 100%/5px 20px 0 0;
+        @include media-breakpoint-up(md) {
+            top: -49px;
+            height: 50px;
+            border-radius: 100%/30px 30px 0 0;
+        }
+    }
+    &:before {
+        content: " ";
+        background-color: $app-theme;
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 1;
+        height: 0;
+        border-radius: 0;
+        @include media-breakpoint-up(md) {
+            height: 9%;
+            border-radius: 100%/30px 30px 0 0;
+        }
+    }
+    .saved-progress {
+        margin: 0 auto;
+        .progress-title {
+            font-size: $font-size-lg;
+            line-height: $line-height-lg;
+            font-family: $font-face-generic-regular;
+            font-weight: bold;
+        }
+        .progress-description {
+            color: $blue-light;
+            margin: 2% 0;
+            font-size: $font-size-md;
+            line-height: $line-height-md;
+            font-family: $font-face-generic-regular;
+            font-weight: 400;
+        }
+        .progress-form {
+            display: flex;
+            .progress-input {
+                margin-right: 2%;
+                width: 70%;
+                input {
+                    border-radius: 6px;
+                    line-height: $line-height-md-footer;
+                    font-weight: 500;
+                }
+            }
+            button {
+                height: 60px;
+                width: 30%;
+                background-color: $green-transparent-20 !important;
+                border: 1px solid $mint-color !important;
+                border-radius: 6px;
+                font-weight: 500;
+                line-height: $line-height-md-footer;
+            }
+        }
+    }
+}
+
+.wizard-pages-email,
+.contact-details-email {
+    .email-progress__arc {
+        top: -35px;
+        @include media-breakpoint-up(sm) {
+            top: -55px;
+        }
+    }
+    .email-progress {
+        background-color: $blue-dark-4;
+        padding: 5px 0 60px 0;
+        @include media-breakpoint-down(sm) {
+            padding: 15px 0 60px 0;
+        }
+        &:after {
+            background-color: $blue-dark-4;
+        }
+        &:before {
+            background-color: $app-theme;
+        }
+    }
+    .progress-form {
+        .progress-input {
+            box-shadow: none;
+        }
+    }
+}
+
+.WizardBaseRouterContainerOverride {
+    .wizard-pages-email,
+    .contact-details-email {
+        .email-progress {
+            background-color: $app-theme;
+            &:after {
+                background-color: $app-theme;
+            }
+        }
+    }
+}
+
+.WizardBaseRouterContainerOverride + .fixed-footer {
+    &:after {
+        height:0;
+        top: 0;
+        left: 0;
+    }
+}
+
+.customize-quote-email {
+    padding-top: 47px;
+    .email-progress {
+        &,
+        &:before {
+            bottom: 0;
+        }
+    }
+    @media (min-width: 1920px) {
+        padding-top: 60px;
+    }
+}
+
+.wizard-pages-email {
+    padding-top: 50px;
+    @include media-breakpoint-up(md) {
+        padding-top: 89px;
+    }
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .email-progress {
+        .saved-progress {
+            width: 90%;
+            .progress-form {
+                display: block;
+                .progress-input {
+                    width: 100%;
+                    margin-right: 0;
+                }
+                button {
+                    width: 100%;
+                    margin-top: 2%;
+                }
+            }
+        }
+    }
+}
+
+.email-progress__send-btn {
+    @include media-breakpoint-down(sm) {
+        margin-top: 12px;
+    }
+}
+
+.email-progress__arc {
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    top: -35px;
+    position: absolute;
+    @include media-breakpoint-up(sm) {
+        top: -65px;
+    }
+    @include media-breakpoint-up(lg) {
+        top: -68px;
+    }
+    @media (min-width: 1920px) {
+        top: -97px;
+    }
+}
+
+.disable-wizard-pages-email {
+    margin-bottom: 120px;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 60px;
+    }
+    .wizard-pages-email {
+        display: none;
+    }
+}

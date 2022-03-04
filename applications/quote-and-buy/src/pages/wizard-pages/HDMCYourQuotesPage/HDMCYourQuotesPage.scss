@@ -1,0 +1,88 @@
+.hd-mc-your-quotes {
+
+    &__reg-num {
+        $self: &;
+        @extend .reg-num;
+        padding: 2px 5px 2px 6px;
+        z-index: 1;
+
+        &--small {
+            @extend #{ $self };
+            font-size: 13px;
+            @include media-breakpoint-up(md) {
+                font-size: 15px;
+            }
+        }
+    }
+
+    &__head {
+        background-image: url('../images/background/top-arc.svg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 10px;
+        padding-bottom: 42px;
+        margin-bottom: -55px;
+        @include media-breakpoint-up(md) {
+            margin-bottom: -72px;
+        }
+    }
+
+    &__total-savings-label,
+    &__total-savings-sublabel {
+        color: $app-theme;
+        text-align: center;
+    }
+
+    &__total-savings-label {
+        margin-bottom: 10px;
+        @include media-breakpoint-up(md) {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__cover-table {
+        margin-top: 70px;
+        @media (min-width: 366px)  {
+            margin-top: 55px;
+        }
+        @media (min-width: 413px)  {
+            margin-top: 35px;
+        }
+        
+        .hd-bubble[data-position="top"] {
+            line-height: 1.1;
+            left: 9%;
+            right: 9%;
+            width: auto;
+            transform: translateY(13px);
+            @include media-breakpoint-down(md) {
+                padding: 6px;
+                right: 3px;
+                left: 3px;
+            }
+        }
+    
+        .hd-table__body__row:first-child {
+            position: sticky;
+            top: 280px;
+            @media (orientation: landscape) {
+                top: 173px;
+            }
+            @include media-breakpoint-up(lg) {
+                top: 310px;
+            }
+            z-index: 2;
+        }
+    }
+
+    &__confirm-cover-btn {
+        $self: &;
+        &.btn.theme-white:disabled {
+            opacity: unset;
+            background: rgba(230, 238, 248, .6);
+            #{ $self }__regular-text {
+                opacity: .6;
+            }
+        }
+    }
+}

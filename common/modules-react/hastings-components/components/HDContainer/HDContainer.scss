@@ -1,0 +1,43 @@
+.policy-details-cover__title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    align-items: center;
+    @include media-breakpoint-up(md) {
+        justify-content: initial;
+    }
+
+    h5 {
+        padding-top: 1%;
+    }
+    
+    &--label {
+        @include media-breakpoint-up(xxl) {
+            padding-left: 0;
+        }
+
+        @include media-breakpoint-down(sm) {
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+
+    &--online {
+        @include media-breakpoint-up(xxl) {
+            padding-left: 0;
+        }
+    }
+}
+
+.policy-details-cover__extra-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.policy-details-cover__logo{
+    margin-right: 10px;
+    @media (min-width: 768px) {
+        margin-right: 35px;
+    }
+}

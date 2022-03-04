@@ -1,0 +1,723 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HastingsInterstitialPage /> Retrieve quote by quoteid 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HastingsInterstitialPage)>
+    <HastingsInterstitialPage
+      dispatch={[Function]}
+      retrieveQuote={[Function]}
+      setNavigation={[Function]}
+      setOfferedQuotesDetails={[Function]}
+      setSubmissionVM={[Function]}
+      setWizardPageState={[Function]}
+      submissionVM={
+        Object {
+          "baseData": Object {
+            "accountHolder": Object {
+              "dateOfBirth": null,
+            },
+            "isExistingCustomer": false,
+            "isPostalDocument": false,
+            "jobType": "Submission",
+            "marketingContacts": Object {
+              "allowEmail": false,
+              "allowPost": false,
+              "allowSMS": false,
+              "allowTelephone": false,
+            },
+            "periodStatus": "Draft",
+            "policyAddress": Object {},
+            "producerCode": "Default",
+            "productCode": "PrivateCar_Ext",
+            "productName": "Private Car",
+            "termType": "Annual",
+          },
+          "lobData": Object {
+            "privateCar": Object {
+              "coverables": Object {
+                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                "drivers": Array [
+                  Object {
+                    "claimsAndConvictions": Object {
+                      "claimsDetailsCollection": Array [],
+                      "convictionsCollection": Array [],
+                    },
+                    "licenceObtainedDate": null,
+                    "person": Object {
+                      "prefix": Object {},
+                    },
+                    "previousPoliciesInformation": Object {},
+                    "residingInUKSince": null,
+                    "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                  },
+                ],
+                "vehicleDrivers": Array [
+                  Object {},
+                ],
+                "vehicles": Array [
+                  Object {
+                    "isCarModified": "",
+                    "ncdProtection": Object {
+                      "drivingExperience": Object {},
+                    },
+                    "tracker": "",
+                    "vehicleModifications": Array [],
+                    "vehicleWorth": "",
+                  },
+                ],
+              },
+              "preQualQuestionSets": Array [],
+            },
+          },
+        }
+      }
+      updateAncillaryJourney={[Function]}
+      updateEmailSaveProgress={[Function]}
+      updateEpticaId={[Function]}
+    >
+      <div
+        className="page-content-wrapper background-body interstitial-page-container car-bg-outer transparent-footer"
+      >
+        <Container
+          fluid={false}
+        >
+          <div
+            className="container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  />
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="margin-top-lg"
+              noGutters={false}
+            >
+              <div
+                className="margin-top-lg row"
+              >
+                <Col
+                  lg={6}
+                  md={6}
+                  xs={12}
+                >
+                  <div
+                    className="col-lg-6 col-md-6 col-12"
+                  >
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <HDLabelRefactor
+                              Tag="h1"
+                              adjustImagePosition={true}
+                              className="mb-0"
+                              id="page-interstitial-title"
+                              text="Hi there!"
+                            >
+                              <h1
+                                className="mb-0"
+                                id="page-interstitial-title"
+                              >
+                                Hi there!
+                              </h1>
+                            </HDLabelRefactor>
+                            <HDLabelRefactor
+                              Tag="h1"
+                              adjustImagePosition={true}
+                              className=""
+                              id="page-interstitial-title-line-two"
+                              text="Thanks for stopping by"
+                            >
+                              <h1
+                                className=""
+                                id="page-interstitial-title-line-two"
+                              >
+                                Thanks for stopping by
+                              </h1>
+                            </HDLabelRefactor>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <div
+                              className="interstitial-subtitle"
+                            >
+                              <HDOfferSlideshow
+                                interval={4000}
+                                items={
+                                  Array [
+                                    <div
+                                      className="subtitle first-subtitle"
+                                    >
+                                      <HDLabelRefactor
+                                        Tag="h2"
+                                        adjustImagePosition={true}
+                                        className=""
+                                        id="page-interstitial-title-line-two"
+                                        text="Join the 3 million customers who've already chosen Hastings Direct..."
+                                      />
+                                    </div>,
+                                    <div
+                                      className="subtitle second-subtitle"
+                                    >
+                                      <HDLabelRefactor
+                                        Tag="h2"
+                                        adjustImagePosition={true}
+                                        className=""
+                                        id="page-interstitial-title-line-two"
+                                        text="Did you know you can report and track claims online? All without having to call..."
+                                      />
+                                    </div>,
+                                    <div
+                                      className="subtitle third-subtitle"
+                                    >
+                                      <HDLabelRefactor
+                                        Tag="h2"
+                                        adjustImagePosition={true}
+                                        className=""
+                                        id="page-interstitial-title-line-two"
+                                        text="You'll be able to manage your policy 24/7 with the app and MyAccount..."
+                                      />
+                                    </div>,
+                                  ]
+                                }
+                              >
+                                <Carousel
+                                  controls={false}
+                                  defaultActiveIndex={0}
+                                  fade={true}
+                                  indicators={false}
+                                  interval={4000}
+                                  keyboard={true}
+                                  nextIcon={
+                                    <span
+                                      aria-hidden="true"
+                                      className="carousel-control-next-icon"
+                                    />
+                                  }
+                                  nextLabel="Next"
+                                  pause={false}
+                                  prevIcon={
+                                    <span
+                                      aria-hidden="true"
+                                      className="carousel-control-prev-icon"
+                                    />
+                                  }
+                                  prevLabel="Previous"
+                                  slide={true}
+                                  touch={true}
+                                  wrap={true}
+                                >
+                                  <div
+                                    className="carousel slide carousel-fade"
+                                    onKeyDown={[Function]}
+                                    onMouseOut={[Function]}
+                                    onMouseOver={[Function]}
+                                    onTouchEnd={[Function]}
+                                    onTouchMove={[Function]}
+                                    onTouchStart={[Function]}
+                                  >
+                                    <div
+                                      className="carousel-inner"
+                                    >
+                                      <Transition
+                                        addEndListener={[Function]}
+                                        appear={false}
+                                        enter={true}
+                                        exit={true}
+                                        in={true}
+                                        key=".$item no 1"
+                                        mountOnEnter={false}
+                                        onEnter={[Function]}
+                                        onEntered={[Function]}
+                                        onEntering={[Function]}
+                                        onExit={[Function]}
+                                        onExited={[Function]}
+                                        onExiting={[Function]}
+                                        unmountOnExit={false}
+                                      >
+                                        <CarouselItem
+                                          className="active"
+                                          key="item no 1"
+                                        >
+                                          <div
+                                            className="active carousel-item"
+                                          >
+                                            <div
+                                              className="subtitle first-subtitle"
+                                            >
+                                              <HDLabelRefactor
+                                                Tag="h2"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="page-interstitial-title-line-two"
+                                                text="Join the 3 million customers who've already chosen Hastings Direct..."
+                                              >
+                                                <h2
+                                                  className=""
+                                                  id="page-interstitial-title-line-two"
+                                                >
+                                                  Join the 3 million customers who've already chosen Hastings Direct...
+                                                </h2>
+                                              </HDLabelRefactor>
+                                            </div>
+                                          </div>
+                                        </CarouselItem>
+                                      </Transition>
+                                      <Transition
+                                        addEndListener={[Function]}
+                                        appear={false}
+                                        enter={true}
+                                        exit={true}
+                                        in={false}
+                                        key=".$item no 2"
+                                        mountOnEnter={false}
+                                        onEnter={[Function]}
+                                        onEntered={[Function]}
+                                        onEntering={[Function]}
+                                        onExit={[Function]}
+                                        onExited={[Function]}
+                                        onExiting={[Function]}
+                                        unmountOnExit={false}
+                                      >
+                                        <CarouselItem
+                                          className=""
+                                          key="item no 2"
+                                        >
+                                          <div
+                                            className="carousel-item"
+                                          >
+                                            <div
+                                              className="subtitle second-subtitle"
+                                            >
+                                              <HDLabelRefactor
+                                                Tag="h2"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="page-interstitial-title-line-two"
+                                                text="Did you know you can report and track claims online? All without having to call..."
+                                              >
+                                                <h2
+                                                  className=""
+                                                  id="page-interstitial-title-line-two"
+                                                >
+                                                  Did you know you can report and track claims online? All without having to call...
+                                                </h2>
+                                              </HDLabelRefactor>
+                                            </div>
+                                          </div>
+                                        </CarouselItem>
+                                      </Transition>
+                                      <Transition
+                                        addEndListener={[Function]}
+                                        appear={false}
+                                        enter={true}
+                                        exit={true}
+                                        in={false}
+                                        key=".$item no 3"
+                                        mountOnEnter={false}
+                                        onEnter={[Function]}
+                                        onEntered={[Function]}
+                                        onEntering={[Function]}
+                                        onExit={[Function]}
+                                        onExited={[Function]}
+                                        onExiting={[Function]}
+                                        unmountOnExit={false}
+                                      >
+                                        <CarouselItem
+                                          className=""
+                                          key="item no 3"
+                                        >
+                                          <div
+                                            className="carousel-item"
+                                          >
+                                            <div
+                                              className="subtitle third-subtitle"
+                                            >
+                                              <HDLabelRefactor
+                                                Tag="h2"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="page-interstitial-title-line-two"
+                                                text="You'll be able to manage your policy 24/7 with the app and MyAccount..."
+                                              >
+                                                <h2
+                                                  className=""
+                                                  id="page-interstitial-title-line-two"
+                                                >
+                                                  You'll be able to manage your policy 24/7 with the app and MyAccount...
+                                                </h2>
+                                              </HDLabelRefactor>
+                                            </div>
+                                          </div>
+                                        </CarouselItem>
+                                      </Transition>
+                                    </div>
+                                  </div>
+                                </Carousel>
+                              </HDOfferSlideshow>
+                            </div>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Col>
+                <Col
+                  className="margin-top-mobile-lg"
+                  lg={
+                    Object {
+                      "offset": 1,
+                      "span": 5,
+                    }
+                  }
+                  md={
+                    Object {
+                      "offset": 0,
+                      "span": 6,
+                    }
+                  }
+                  sm={
+                    Object {
+                      "offset": 0,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="margin-top-mobile-lg col-lg-5 col-md-6 col-sm-12 offset-lg-1 offset-md-0 offset-sm-0"
+                  >
+                    <div
+                      className="info-box"
+                    >
+                      <div
+                        className="info-box-title pr-0 pl-0 pb-4"
+                      >
+                        <Row
+                          className="no-gutters pr-4 pl-4"
+                          noGutters={false}
+                        >
+                          <div
+                            className="no-gutters pr-4 pl-4 row"
+                          >
+                            <Col
+                              className="text-center"
+                            >
+                              <div
+                                className="text-center col"
+                              />
+                            </Col>
+                          </div>
+                        </Row>
+                        <Row
+                          className="margin-top-md margin-bottom-md"
+                          noGutters={false}
+                        >
+                          <div
+                            className="margin-top-md margin-bottom-md row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                <div
+                                  className="interstitial-progress-bar"
+                                >
+                                  <div
+                                    className="line-progress"
+                                  >
+                                    <div
+                                      className="animated-progress animated-progress1"
+                                    />
+                                  </div>
+                                  <div
+                                    className="circle-progress circle-progress1"
+                                  >
+                                    <i
+                                      className="fa fa-check"
+                                    />
+                                  </div>
+                                  <div
+                                    className="line-progress"
+                                  >
+                                    <div
+                                      className="animated-progress animated-progress2"
+                                    />
+                                  </div>
+                                  <div
+                                    className="circle-progress circle-progress2"
+                                  >
+                                    <i
+                                      className="fa fa-check"
+                                    />
+                                  </div>
+                                  <div
+                                    className="line-progress"
+                                  >
+                                    <div
+                                      className="animated-progress animated-progress3"
+                                    />
+                                  </div>
+                                  <div
+                                    className="circle-progress circle-progress3"
+                                  >
+                                    <i
+                                      className="fa fa-check"
+                                    />
+                                  </div>
+                                </div>
+                                <div
+                                  className="interstitial-details interstitial-progress-bar"
+                                >
+                                  <div
+                                    className="progress-details vehicle-details"
+                                  >
+                                    <span>
+                                      Your car details
+                                    </span>
+                                  </div>
+                                  <div
+                                    className="progress-details cover-details"
+                                  >
+                                    <span>
+                                      Your personal details
+                                    </span>
+                                  </div>
+                                  <div
+                                    className="progress-details personal-details"
+                                  >
+                                    <span>
+                                      Your cover details
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <Row
+                          className="margin-top-md no-gutters pr-4 pl-4"
+                          noGutters={false}
+                        >
+                          <div
+                            className="margin-top-md no-gutters pr-4 pl-4 row"
+                          >
+                            <Col
+                              className="align-content-center"
+                            >
+                              <div
+                                className="align-content-center col"
+                              >
+                                <p
+                                  className="secure-safe-info"
+                                >
+                                  <img
+                                    alt="lock icon"
+                                    src="lock-icon.svg"
+                                  />
+                                   
+                                  Your information is safe and secure
+                                </p>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <Row
+                          className="margin-top-md no-gutters pr-4 pl-4"
+                          noGutters={false}
+                        >
+                          <div
+                            className="margin-top-md no-gutters pr-4 pl-4 row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                <HastingsInterstitialRatingsWizardComponent
+                                  brand={null}
+                                >
+                                  <Row
+                                    className="interstitial-ratings-wizard"
+                                    noGutters={false}
+                                  >
+                                    <div
+                                      className="interstitial-ratings-wizard row"
+                                    >
+                                      <Col
+                                        className="text-center"
+                                      >
+                                        <div
+                                          className="text-center col"
+                                        >
+                                          <img
+                                            alt="Defaqto2"
+                                            className="img-fluid"
+                                            src="../../img/defaqto/defaqto-5-star-rated-car.svg"
+                                          />
+                                          <p>
+                                            5 Star Defaqto rating
+                                          </p>
+                                        </div>
+                                      </Col>
+                                      <Col
+                                        className="text-center"
+                                      >
+                                        <div
+                                          className="text-center col"
+                                        >
+                                          <img
+                                            alt="car insurance provider"
+                                            className="main-logo"
+                                            src="insurance-provider-icon.png"
+                                          />
+                                          <p
+                                            className="interstitial-ratings-moneyFacts"
+                                          >
+                                            Our car insurance is Moneyfacts 5 star rated
+                                          </p>
+                                        </div>
+                                      </Col>
+                                    </div>
+                                  </Row>
+                                </HastingsInterstitialRatingsWizardComponent>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                      <div
+                        className="info-box-description"
+                      >
+                        <Row
+                          noGutters={false}
+                        >
+                          <div
+                            className="row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                <HDCustomerReviewsWidget
+                                  onLoadReviewsBagde={
+                                    [MockFunction] {
+                                      "calls": Array [
+                                        Array [
+                                          "reviews-badge",
+                                          "small",
+                                        ],
+                                      ],
+                                      "results": Array [
+                                        Object {
+                                          "type": "return",
+                                          "value": undefined,
+                                        },
+                                      ],
+                                    }
+                                  }
+                                >
+                                  <div
+                                    className="customer-reviews-container"
+                                  >
+                                    <div
+                                      className="reviews-badge badge-horizontal"
+                                      id="badge-horizontal"
+                                    />
+                                    <div
+                                      className="reviews-badge badge-vertical"
+                                      id="badge-vertical"
+                                    />
+                                  </div>
+                                </HDCustomerReviewsWidget>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+        <div
+          className="car-bg"
+        />
+      </div>
+    </HastingsInterstitialPage>
+  </Connect(HastingsInterstitialPage)>
+</Provider>
+`;
+
+exports[`<HastingsInterstitialPage /> render component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HastingsInterstitialPage) />
+</ContextProvider>
+`;

@@ -1,0 +1,1835 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTrackerPage /> with wrapper unmounting (independent) render component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HastingsTracker) />
+</ContextProvider>
+`;
+
+exports[`<HDTrackerPage /> with wrapper unmounting (independent) render component with mount 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HastingsTracker)>
+      <HastingsTracker
+        setNavigation={[Function]}
+        submissionVM={
+          Object {
+            "baseData": Object {
+              "accountHolder": Object {
+                "dateOfBirth": null,
+              },
+              "isExistingCustomer": false,
+              "isPostalDocument": false,
+              "jobType": "Submission",
+              "marketingContacts": Object {
+                "allowEmail": false,
+                "allowPost": false,
+                "allowSMS": false,
+                "allowTelephone": false,
+              },
+              "periodStatus": "Draft",
+              "policyAddress": Object {},
+              "producerCode": "Default",
+              "productCode": "PrivateCar_Ext",
+              "productName": "Private Car",
+              "termType": "Annual",
+            },
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "addInterestTypeCategory": "PAVhcleAddlInterest",
+                  "drivers": Array [
+                    Object {
+                      "claimsAndConvictions": Object {
+                        "claimsDetailsCollection": Array [],
+                        "convictionsCollection": Array [],
+                      },
+                      "licenceObtainedDate": null,
+                      "person": Object {
+                        "prefix": Object {},
+                      },
+                      "previousPoliciesInformation": Object {},
+                      "residingInUKSince": null,
+                      "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                    },
+                  ],
+                  "vehicleDrivers": Array [
+                    Object {},
+                  ],
+                  "vehicles": Array [
+                    Object {
+                      "isCarModified": "",
+                      "ncdProtection": Object {
+                        "drivingExperience": Object {},
+                      },
+                      "tracker": "",
+                      "vehicleModifications": Array [],
+                      "vehicleWorth": "",
+                    },
+                  ],
+                },
+                "preQualQuestionSets": Array [],
+              },
+            },
+          }
+        }
+      >
+        <Container
+          className="car-tracker-wrapper"
+          fluid={false}
+        >
+          <div
+            className="car-tracker-wrapper container"
+          >
+            <HDForm
+              className="car-tracker__tracker-form"
+              initValues={Object {}}
+              onValidation={[Function]}
+              passedKey="default-key"
+              resetFormOnStart={false}
+              submissionVM={
+                Object {
+                  "baseData": Object {
+                    "accountHolder": Object {
+                      "dateOfBirth": null,
+                    },
+                    "isExistingCustomer": false,
+                    "isPostalDocument": false,
+                    "jobType": "Submission",
+                    "marketingContacts": Object {
+                      "allowEmail": false,
+                      "allowPost": false,
+                      "allowSMS": false,
+                      "allowTelephone": false,
+                    },
+                    "periodStatus": "Draft",
+                    "policyAddress": Object {},
+                    "producerCode": "Default",
+                    "productCode": "PrivateCar_Ext",
+                    "productName": "Private Car",
+                    "termType": "Annual",
+                  },
+                  "lobData": Object {
+                    "privateCar": Object {
+                      "coverables": Object {
+                        "addInterestTypeCategory": "PAVhcleAddlInterest",
+                        "drivers": Array [
+                          Object {
+                            "claimsAndConvictions": Object {
+                              "claimsDetailsCollection": Array [],
+                              "convictionsCollection": Array [],
+                            },
+                            "licenceObtainedDate": null,
+                            "person": Object {
+                              "prefix": Object {},
+                            },
+                            "previousPoliciesInformation": Object {},
+                            "residingInUKSince": null,
+                            "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                          },
+                        ],
+                        "vehicleDrivers": Array [
+                          Object {},
+                        ],
+                        "vehicles": Array [
+                          Object {
+                            "isCarModified": "",
+                            "ncdProtection": Object {
+                              "drivingExperience": Object {},
+                            },
+                            "tracker": "",
+                            "vehicleModifications": Array [],
+                            "vehicleWorth": "",
+                          },
+                        ],
+                      },
+                      "preQualQuestionSets": Array [],
+                    },
+                  },
+                }
+              }
+              validationSchema={
+                ObjectSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_defaultDefault": [Function],
+                  "_deps": Array [],
+                  "_excludedEdges": Array [],
+                  "_exclusive": Object {},
+                  "_mutate": undefined,
+                  "_nodes": Array [
+                    "isCarModified",
+                    "tracker",
+                  ],
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "object",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "fields": Object {
+                    "isCarModified": StringSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [],
+                      "_deps": Array [],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                        "required": true,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "string",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                      "vmPath": "lobData.privateCar.coverables.vehicles.children[0].isCarModified",
+                    },
+                    "tracker": StringSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [],
+                      "_deps": Array [],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                        "required": true,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "string",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                      "vmPath": "lobData.privateCar.coverables.vehicles.children[0].tracker",
+                    },
+                  },
+                  "tests": Array [],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "object",
+                }
+              }
+            >
+              <Formik
+                initialTouched={Array []}
+                initialValues={
+                  Object {
+                    "isCarModified": "",
+                    "tracker": "",
+                    "type": "",
+                  }
+                }
+                key="default-key"
+                validateOnMount={true}
+                validationSchema={
+                  ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "isCarModified",
+                      "tracker",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "isCarModified": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                        "vmPath": "lobData.privateCar.coverables.vehicles.children[0].isCarModified",
+                      },
+                      "tracker": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                        "vmPath": "lobData.privateCar.coverables.vehicles.children[0].tracker",
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "object",
+                  }
+                }
+              >
+                <Form
+                  className="car-tracker__tracker-form"
+                  inline={false}
+                  noValidate={true}
+                  onSubmit={[Function]}
+                >
+                  <form
+                    className="car-tracker__tracker-form"
+                    noValidate={true}
+                    onSubmit={[Function]}
+                  >
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.vehicles.children[0].tracker.tracker.tracker-button-group"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDToggleButtonGroup",
+                                    }
+                                  }
+                                  availableValues={
+                                    Array [
+                                      Object {
+                                        "name": "Yes",
+                                        "value": "true",
+                                      },
+                                      Object {
+                                        "name": "No",
+                                        "value": "false",
+                                      },
+                                    ]
+                                  }
+                                  btnGroupClassName="grid grid--col-2 grid--col-xl-3"
+                                  className="undefined "
+                                  custom={true}
+                                  customClassName="car-tracker__tracker-buttons"
+                                  id="tracker-button-group"
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "icon": <ForwardRef
+                                        id="car-tracker-overlay-body"
+                                        labelText="What's a tracker?"
+                                        onBeforeOpen={null}
+                                        overlayButtonIcon={
+                                          <img
+                                            alt="info_circle"
+                                            src="Darkicons_desktopinfo.svg"
+                                          />
+                                        }
+                                        webAnalyticsEvent={
+                                          Object {
+                                            "event_action": "Tracker Info",
+                                          }
+                                        }
+                                        webAnalyticsView={
+                                          Object {
+                                            "page_section": "Tracker Info",
+                                          }
+                                        }
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="car-tracker-overlay-answer"
+                                          text="A tracker uses GPS signals to track a car's location in real time. If the car is stolen, it means you can locate it and report it to the police to get it recovered."
+                                        />
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="car-tracker-overlay-check"
+                                          text="Most vehicles don't come with a tracker, so if one hasn't been professionally fitted or you're not sure, just choose no."
+                                        />
+                                      </ForwardRef>,
+                                      "iconPosition": "r",
+                                      "text": "Is it fitted with a tracker?",
+                                    }
+                                  }
+                                  name="tracker"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.vehicles.children[0].tracker"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "Is it fitted with a tracker?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    availableValues={
+                                      Array [
+                                        Object {
+                                          "name": "Yes",
+                                          "value": "true",
+                                        },
+                                        Object {
+                                          "name": "No",
+                                          "value": "false",
+                                        },
+                                      ]
+                                    }
+                                    btnGroupClassName="grid grid--col-2 grid--col-xl-3"
+                                    className="undefined  custom"
+                                    customClassName="car-tracker__tracker-buttons"
+                                    id="tracker-button-group"
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "icon": <ForwardRef
+                                          id="car-tracker-overlay-body"
+                                          labelText="What's a tracker?"
+                                          onBeforeOpen={null}
+                                          overlayButtonIcon={
+                                            <img
+                                              alt="info_circle"
+                                              src="Darkicons_desktopinfo.svg"
+                                            />
+                                          }
+                                          webAnalyticsEvent={
+                                            Object {
+                                              "event_action": "Tracker Info",
+                                            }
+                                          }
+                                          webAnalyticsView={
+                                            Object {
+                                              "page_section": "Tracker Info",
+                                            }
+                                          }
+                                        >
+                                          <HDLabelRefactor
+                                            Tag="p"
+                                            adjustImagePosition={true}
+                                            className=""
+                                            id="car-tracker-overlay-answer"
+                                            text="A tracker uses GPS signals to track a car's location in real time. If the car is stolen, it means you can locate it and report it to the police to get it recovered."
+                                          />
+                                          <HDLabelRefactor
+                                            Tag="p"
+                                            adjustImagePosition={true}
+                                            className=""
+                                            id="car-tracker-overlay-check"
+                                            text="Most vehicles don't come with a tracker, so if one hasn't been professionally fitted or you're not sure, just choose no."
+                                          />
+                                        </ForwardRef>,
+                                        "iconPosition": "r",
+                                        "text": "Is it fitted with a tracker?",
+                                      }
+                                    }
+                                    name="tracker"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.vehicles.children[0].tracker"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "Is it fitted with a tracker?",
+                                      }
+                                    }
+                                  >
+                                    <HDToggleButtonGroup
+                                      availableValues={
+                                        Array [
+                                          Object {
+                                            "name": "Yes",
+                                            "value": "true",
+                                          },
+                                          Object {
+                                            "name": "No",
+                                            "value": "false",
+                                          },
+                                        ]
+                                      }
+                                      btnClassName=""
+                                      btnGroupClassName="grid grid--col-2 grid--col-xl-3"
+                                      className="undefined  custom"
+                                      customClassName="car-tracker__tracker-buttons"
+                                      data={null}
+                                      disabled={false}
+                                      doReset={false}
+                                      id="tracker-button-group"
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "icon": <ForwardRef
+                                            id="car-tracker-overlay-body"
+                                            labelText="What's a tracker?"
+                                            onBeforeOpen={null}
+                                            overlayButtonIcon={
+                                              <img
+                                                alt="info_circle"
+                                                src="Darkicons_desktopinfo.svg"
+                                              />
+                                            }
+                                            webAnalyticsEvent={
+                                              Object {
+                                                "event_action": "Tracker Info",
+                                              }
+                                            }
+                                            webAnalyticsView={
+                                              Object {
+                                                "page_section": "Tracker Info",
+                                              }
+                                            }
+                                          >
+                                            <HDLabelRefactor
+                                              Tag="p"
+                                              adjustImagePosition={true}
+                                              className=""
+                                              id="car-tracker-overlay-answer"
+                                              text="A tracker uses GPS signals to track a car's location in real time. If the car is stolen, it means you can locate it and report it to the police to get it recovered."
+                                            />
+                                            <HDLabelRefactor
+                                              Tag="p"
+                                              adjustImagePosition={true}
+                                              className=""
+                                              id="car-tracker-overlay-check"
+                                              text="Most vehicles don't come with a tracker, so if one hasn't been professionally fitted or you're not sure, just choose no."
+                                            />
+                                          </ForwardRef>,
+                                          "iconPosition": "r",
+                                          "text": "Is it fitted with a tracker?",
+                                        }
+                                      }
+                                      name="tracker"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      path="lobData.privateCar.coverables.vehicles.children[0].tracker"
+                                      type="radio"
+                                      value=""
+                                    >
+                                      <div
+                                        className="car-tracker__tracker-buttons undefined  custom"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          icon={
+                                            <ForwardRef
+                                              id="car-tracker-overlay-body"
+                                              labelText="What's a tracker?"
+                                              onBeforeOpen={null}
+                                              overlayButtonIcon={
+                                                <img
+                                                  alt="info_circle"
+                                                  src="Darkicons_desktopinfo.svg"
+                                                />
+                                              }
+                                              webAnalyticsEvent={
+                                                Object {
+                                                  "event_action": "Tracker Info",
+                                                }
+                                              }
+                                              webAnalyticsView={
+                                                Object {
+                                                  "page_section": "Tracker Info",
+                                                }
+                                              }
+                                            >
+                                              <HDLabelRefactor
+                                                Tag="p"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="car-tracker-overlay-answer"
+                                                text="A tracker uses GPS signals to track a car's location in real time. If the car is stolen, it means you can locate it and report it to the police to get it recovered."
+                                              />
+                                              <HDLabelRefactor
+                                                Tag="p"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="car-tracker-overlay-check"
+                                                text="Most vehicles don't come with a tracker, so if one hasn't been professionally fitted or you're not sure, just choose no."
+                                              />
+                                            </ForwardRef>
+                                          }
+                                          iconPosition="r"
+                                          text="Is it fitted with a tracker?"
+                                        >
+                                          <Row
+                                            className="label-with-icon align-items-start "
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="label-with-icon align-items-start  row"
+                                            >
+                                              <Col
+                                                className="pr-0"
+                                              >
+                                                <div
+                                                  className="pr-0 col"
+                                                >
+                                                  <h2
+                                                    className=""
+                                                  >
+                                                    Is it fitted with a tracker?
+                                                  </h2>
+                                                </div>
+                                              </Col>
+                                              <Col
+                                                className="mt-h2  "
+                                                xs="auto"
+                                              >
+                                                <div
+                                                  className="mt-h2   col-auto"
+                                                >
+                                                  <ForwardRef
+                                                    id="car-tracker-overlay-body"
+                                                    labelText="What's a tracker?"
+                                                    onBeforeOpen={null}
+                                                    overlayButtonIcon={
+                                                      <img
+                                                        alt="info_circle"
+                                                        src="Darkicons_desktopinfo.svg"
+                                                      />
+                                                    }
+                                                    webAnalyticsEvent={
+                                                      Object {
+                                                        "event_action": "Tracker Info",
+                                                      }
+                                                    }
+                                                    webAnalyticsView={
+                                                      Object {
+                                                        "page_section": "Tracker Info",
+                                                      }
+                                                    }
+                                                  >
+                                                    <ForwardRef
+                                                      id="car-tracker-overlay-body"
+                                                      labelText="What's a tracker?"
+                                                      onBeforeOpen={[Function]}
+                                                      onBlur={null}
+                                                      onCancel={null}
+                                                      onChange={null}
+                                                      onClick={null}
+                                                      onConfirm={null}
+                                                      onDelete={null}
+                                                      onEdit={null}
+                                                      onFocus={null}
+                                                      onSelect={null}
+                                                      overlayButtonIcon={
+                                                        <img
+                                                          alt="info_circle"
+                                                          src="Darkicons_desktopinfo.svg"
+                                                        />
+                                                      }
+                                                      webAnalyticsEvent={
+                                                        Object {
+                                                          "event_action": "Tracker Info",
+                                                        }
+                                                      }
+                                                    >
+                                                      <HDOverlayPopup
+                                                        cancelButton="Cancel"
+                                                        className=""
+                                                        closeOnSelect={false}
+                                                        confirmButton="Confirm"
+                                                        customStyle=""
+                                                        disabledConfirmButton={false}
+                                                        headerBar={null}
+                                                        hidden={false}
+                                                        hideOnConfirm={true}
+                                                        id="car-tracker-overlay-body"
+                                                        labelText="What's a tracker?"
+                                                        onBeforeClose={[Function]}
+                                                        onBeforeOpen={[Function]}
+                                                        onCancel={[Function]}
+                                                        onConfirm={[Function]}
+                                                        overlayButtonIcon={
+                                                          <img
+                                                            alt="info_circle"
+                                                            src="Darkicons_desktopinfo.svg"
+                                                          />
+                                                        }
+                                                        overlayButtonsClassName=""
+                                                        showButtons={false}
+                                                      >
+                                                        <div
+                                                          className="hd-information-tooltip "
+                                                        >
+                                                          <div
+                                                            className="hd-overlay-btn "
+                                                            hidden={false}
+                                                            id="car-tracker-overlay-body"
+                                                            onClick={[Function]}
+                                                          >
+                                                            <img
+                                                              alt="info_circle"
+                                                              src="Darkicons_desktopinfo.svg"
+                                                            />
+                                                          </div>
+                                                        </div>
+                                                      </HDOverlayPopup>
+                                                    </ForwardRef>
+                                                  </ForwardRef>
+                                                </div>
+                                              </Col>
+                                            </div>
+                                          </Row>
+                                        </HDLabelRefactor>
+                                        <ForwardRef
+                                          className="grid grid--col-2 grid--col-xl-3"
+                                          name="tracker"
+                                          type="radio"
+                                          value=""
+                                          vertical={false}
+                                        >
+                                          <ButtonGroup
+                                            className="grid grid--col-2 grid--col-xl-3"
+                                            role="group"
+                                            toggle={true}
+                                            vertical={false}
+                                          >
+                                            <div
+                                              className="grid grid--col-2 grid--col-xl-3 btn-group btn-group-toggle"
+                                              role="group"
+                                            >
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$true"
+                                                name="tracker"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="true"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="tracker"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="true"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        Yes
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$false"
+                                                name="tracker"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="false"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="tracker"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="false"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        No
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                            </div>
+                                          </ButtonGroup>
+                                        </ForwardRef>
+                                      </div>
+                                    </HDToggleButtonGroup>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    This field is required
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col
+                          className="mb-5 mt-5"
+                        >
+                          <div
+                            className="mb-5 mt-5 col"
+                          >
+                            <div
+                              className="horizontal-line"
+                              id="car-tracker-h-line"
+                            />
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.vehicles.children[0].isCarModified.isCarModified.modification-button-group"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDToggleButtonGroup",
+                                    }
+                                  }
+                                  availableValues={
+                                    Array [
+                                      Object {
+                                        "name": "Yes",
+                                        "value": "true",
+                                      },
+                                      Object {
+                                        "name": "No",
+                                        "value": "false",
+                                      },
+                                    ]
+                                  }
+                                  btnGroupClassName="grid grid--col-2 grid--col-xl-3"
+                                  className="undefined "
+                                  custom={true}
+                                  customClassName="car-tracker__modification-buttons"
+                                  doReset={false}
+                                  id="modification-button-group"
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "icon": <ForwardRef
+                                        id="car-tracker-modal-body"
+                                        labelText="Has it been modified at all?"
+                                        onBeforeOpen={null}
+                                        overlayButtonIcon={
+                                          <img
+                                            alt="info_circle"
+                                            src="Darkicons_desktopinfo.svg"
+                                          />
+                                        }
+                                        webAnalyticsEvent={
+                                          Object {
+                                            "event_action": "Modification Info",
+                                          }
+                                        }
+                                        webAnalyticsView={
+                                          Object {
+                                            "page_section": "Modification Info",
+                                          }
+                                        }
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="car-tracker-modal-answer-1"
+                                          text="Modifications are things that have changed a car's standard manufacturer's specification."
+                                        />
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="car-tracker-modal-answer-2"
+                                          text="Tinted windows or spoilers are examples of modifications to the car's body but you can also enhance the car's performance with changes to the brakes, exhaust or engine."
+                                        />
+                                        <HDLabelRefactor
+                                          Tag="p"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="car-tracker-modal-answer-3"
+                                          text="These are the things we need to know about."
+                                        />
+                                      </ForwardRef>,
+                                      "iconPosition": "r",
+                                      "text": "Has it been modified in any way?",
+                                    }
+                                  }
+                                  name="isCarModified"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.vehicles.children[0].isCarModified"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "Has it been modified in any way?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    availableValues={
+                                      Array [
+                                        Object {
+                                          "name": "Yes",
+                                          "value": "true",
+                                        },
+                                        Object {
+                                          "name": "No",
+                                          "value": "false",
+                                        },
+                                      ]
+                                    }
+                                    btnGroupClassName="grid grid--col-2 grid--col-xl-3"
+                                    className="undefined  custom"
+                                    customClassName="car-tracker__modification-buttons"
+                                    doReset={false}
+                                    id="modification-button-group"
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "icon": <ForwardRef
+                                          id="car-tracker-modal-body"
+                                          labelText="Has it been modified at all?"
+                                          onBeforeOpen={null}
+                                          overlayButtonIcon={
+                                            <img
+                                              alt="info_circle"
+                                              src="Darkicons_desktopinfo.svg"
+                                            />
+                                          }
+                                          webAnalyticsEvent={
+                                            Object {
+                                              "event_action": "Modification Info",
+                                            }
+                                          }
+                                          webAnalyticsView={
+                                            Object {
+                                              "page_section": "Modification Info",
+                                            }
+                                          }
+                                        >
+                                          <HDLabelRefactor
+                                            Tag="p"
+                                            adjustImagePosition={true}
+                                            className=""
+                                            id="car-tracker-modal-answer-1"
+                                            text="Modifications are things that have changed a car's standard manufacturer's specification."
+                                          />
+                                          <HDLabelRefactor
+                                            Tag="p"
+                                            adjustImagePosition={true}
+                                            className=""
+                                            id="car-tracker-modal-answer-2"
+                                            text="Tinted windows or spoilers are examples of modifications to the car's body but you can also enhance the car's performance with changes to the brakes, exhaust or engine."
+                                          />
+                                          <HDLabelRefactor
+                                            Tag="p"
+                                            adjustImagePosition={true}
+                                            className=""
+                                            id="car-tracker-modal-answer-3"
+                                            text="These are the things we need to know about."
+                                          />
+                                        </ForwardRef>,
+                                        "iconPosition": "r",
+                                        "text": "Has it been modified in any way?",
+                                      }
+                                    }
+                                    name="isCarModified"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.vehicles.children[0].isCarModified"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "Has it been modified in any way?",
+                                      }
+                                    }
+                                  >
+                                    <HDToggleButtonGroup
+                                      availableValues={
+                                        Array [
+                                          Object {
+                                            "name": "Yes",
+                                            "value": "true",
+                                          },
+                                          Object {
+                                            "name": "No",
+                                            "value": "false",
+                                          },
+                                        ]
+                                      }
+                                      btnClassName=""
+                                      btnGroupClassName="grid grid--col-2 grid--col-xl-3"
+                                      className="undefined  custom"
+                                      customClassName="car-tracker__modification-buttons"
+                                      data={null}
+                                      disabled={false}
+                                      doReset={false}
+                                      id="modification-button-group"
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "icon": <ForwardRef
+                                            id="car-tracker-modal-body"
+                                            labelText="Has it been modified at all?"
+                                            onBeforeOpen={null}
+                                            overlayButtonIcon={
+                                              <img
+                                                alt="info_circle"
+                                                src="Darkicons_desktopinfo.svg"
+                                              />
+                                            }
+                                            webAnalyticsEvent={
+                                              Object {
+                                                "event_action": "Modification Info",
+                                              }
+                                            }
+                                            webAnalyticsView={
+                                              Object {
+                                                "page_section": "Modification Info",
+                                              }
+                                            }
+                                          >
+                                            <HDLabelRefactor
+                                              Tag="p"
+                                              adjustImagePosition={true}
+                                              className=""
+                                              id="car-tracker-modal-answer-1"
+                                              text="Modifications are things that have changed a car's standard manufacturer's specification."
+                                            />
+                                            <HDLabelRefactor
+                                              Tag="p"
+                                              adjustImagePosition={true}
+                                              className=""
+                                              id="car-tracker-modal-answer-2"
+                                              text="Tinted windows or spoilers are examples of modifications to the car's body but you can also enhance the car's performance with changes to the brakes, exhaust or engine."
+                                            />
+                                            <HDLabelRefactor
+                                              Tag="p"
+                                              adjustImagePosition={true}
+                                              className=""
+                                              id="car-tracker-modal-answer-3"
+                                              text="These are the things we need to know about."
+                                            />
+                                          </ForwardRef>,
+                                          "iconPosition": "r",
+                                          "text": "Has it been modified in any way?",
+                                        }
+                                      }
+                                      name="isCarModified"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      path="lobData.privateCar.coverables.vehicles.children[0].isCarModified"
+                                      type="radio"
+                                      value=""
+                                    >
+                                      <div
+                                        className="car-tracker__modification-buttons undefined  custom"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          icon={
+                                            <ForwardRef
+                                              id="car-tracker-modal-body"
+                                              labelText="Has it been modified at all?"
+                                              onBeforeOpen={null}
+                                              overlayButtonIcon={
+                                                <img
+                                                  alt="info_circle"
+                                                  src="Darkicons_desktopinfo.svg"
+                                                />
+                                              }
+                                              webAnalyticsEvent={
+                                                Object {
+                                                  "event_action": "Modification Info",
+                                                }
+                                              }
+                                              webAnalyticsView={
+                                                Object {
+                                                  "page_section": "Modification Info",
+                                                }
+                                              }
+                                            >
+                                              <HDLabelRefactor
+                                                Tag="p"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="car-tracker-modal-answer-1"
+                                                text="Modifications are things that have changed a car's standard manufacturer's specification."
+                                              />
+                                              <HDLabelRefactor
+                                                Tag="p"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="car-tracker-modal-answer-2"
+                                                text="Tinted windows or spoilers are examples of modifications to the car's body but you can also enhance the car's performance with changes to the brakes, exhaust or engine."
+                                              />
+                                              <HDLabelRefactor
+                                                Tag="p"
+                                                adjustImagePosition={true}
+                                                className=""
+                                                id="car-tracker-modal-answer-3"
+                                                text="These are the things we need to know about."
+                                              />
+                                            </ForwardRef>
+                                          }
+                                          iconPosition="r"
+                                          text="Has it been modified in any way?"
+                                        >
+                                          <Row
+                                            className="label-with-icon align-items-start "
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="label-with-icon align-items-start  row"
+                                            >
+                                              <Col
+                                                className="pr-0"
+                                              >
+                                                <div
+                                                  className="pr-0 col"
+                                                >
+                                                  <h2
+                                                    className=""
+                                                  >
+                                                    Has it been modified in any way?
+                                                  </h2>
+                                                </div>
+                                              </Col>
+                                              <Col
+                                                className="mt-h2  "
+                                                xs="auto"
+                                              >
+                                                <div
+                                                  className="mt-h2   col-auto"
+                                                >
+                                                  <ForwardRef
+                                                    id="car-tracker-modal-body"
+                                                    labelText="Has it been modified at all?"
+                                                    onBeforeOpen={null}
+                                                    overlayButtonIcon={
+                                                      <img
+                                                        alt="info_circle"
+                                                        src="Darkicons_desktopinfo.svg"
+                                                      />
+                                                    }
+                                                    webAnalyticsEvent={
+                                                      Object {
+                                                        "event_action": "Modification Info",
+                                                      }
+                                                    }
+                                                    webAnalyticsView={
+                                                      Object {
+                                                        "page_section": "Modification Info",
+                                                      }
+                                                    }
+                                                  >
+                                                    <ForwardRef
+                                                      id="car-tracker-modal-body"
+                                                      labelText="Has it been modified at all?"
+                                                      onBeforeOpen={[Function]}
+                                                      onBlur={null}
+                                                      onCancel={null}
+                                                      onChange={null}
+                                                      onClick={null}
+                                                      onConfirm={null}
+                                                      onDelete={null}
+                                                      onEdit={null}
+                                                      onFocus={null}
+                                                      onSelect={null}
+                                                      overlayButtonIcon={
+                                                        <img
+                                                          alt="info_circle"
+                                                          src="Darkicons_desktopinfo.svg"
+                                                        />
+                                                      }
+                                                      webAnalyticsEvent={
+                                                        Object {
+                                                          "event_action": "Modification Info",
+                                                        }
+                                                      }
+                                                    >
+                                                      <HDOverlayPopup
+                                                        cancelButton="Cancel"
+                                                        className=""
+                                                        closeOnSelect={false}
+                                                        confirmButton="Confirm"
+                                                        customStyle=""
+                                                        disabledConfirmButton={false}
+                                                        headerBar={null}
+                                                        hidden={false}
+                                                        hideOnConfirm={true}
+                                                        id="car-tracker-modal-body"
+                                                        labelText="Has it been modified at all?"
+                                                        onBeforeClose={[Function]}
+                                                        onBeforeOpen={[Function]}
+                                                        onCancel={[Function]}
+                                                        onConfirm={[Function]}
+                                                        overlayButtonIcon={
+                                                          <img
+                                                            alt="info_circle"
+                                                            src="Darkicons_desktopinfo.svg"
+                                                          />
+                                                        }
+                                                        overlayButtonsClassName=""
+                                                        showButtons={false}
+                                                      >
+                                                        <div
+                                                          className="hd-information-tooltip "
+                                                        >
+                                                          <div
+                                                            className="hd-overlay-btn "
+                                                            hidden={false}
+                                                            id="car-tracker-modal-body"
+                                                            onClick={[Function]}
+                                                          >
+                                                            <img
+                                                              alt="info_circle"
+                                                              src="Darkicons_desktopinfo.svg"
+                                                            />
+                                                          </div>
+                                                        </div>
+                                                      </HDOverlayPopup>
+                                                    </ForwardRef>
+                                                  </ForwardRef>
+                                                </div>
+                                              </Col>
+                                            </div>
+                                          </Row>
+                                        </HDLabelRefactor>
+                                        <ForwardRef
+                                          className="grid grid--col-2 grid--col-xl-3"
+                                          name="isCarModified"
+                                          type="radio"
+                                          value=""
+                                          vertical={false}
+                                        >
+                                          <ButtonGroup
+                                            className="grid grid--col-2 grid--col-xl-3"
+                                            role="group"
+                                            toggle={true}
+                                            vertical={false}
+                                          >
+                                            <div
+                                              className="grid grid--col-2 grid--col-xl-3 btn-group btn-group-toggle"
+                                              role="group"
+                                            >
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$true"
+                                                name="isCarModified"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="true"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="isCarModified"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="true"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        Yes
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$false"
+                                                name="isCarModified"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="false"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="isCarModified"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="false"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        No
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                            </div>
+                                          </ButtonGroup>
+                                        </ForwardRef>
+                                      </div>
+                                    </HDToggleButtonGroup>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    This field is required
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <HDInfoCardRefactor
+                              className="car-tracker__modification-info-card"
+                              id="car-tracker-info-card"
+                              image="tip_circle_purple.svg"
+                              isRight={false}
+                              notes={null}
+                              paragraphs={
+                                Array [
+                                  Array [
+                                    "Any extras added when the car was manufactured don't count as modifications.",
+                                  ],
+                                ]
+                              }
+                              size={null}
+                              theme={null}
+                              title={null}
+                            >
+                              <div
+                                className="info-card left  car-tracker__modification-info-card"
+                                id="car-tracker-info-card"
+                              >
+                                <img
+                                  alt="info-card"
+                                  className="info-card__icon"
+                                  src="tip_circle_purple.svg"
+                                />
+                                <p
+                                  className="info-card__paragraph paragraph_0"
+                                  key="0"
+                                >
+                                  Any extras added when the car was manufactured don't count as modifications.
+                                </p>
+                              </div>
+                            </HDInfoCardRefactor>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      className="margin-top-md margin-bottom-md"
+                      noGutters={false}
+                    >
+                      <div
+                        className="margin-top-md margin-bottom-md row"
+                      >
+                        <Col
+                          md={8}
+                          xs={12}
+                        >
+                          <div
+                            className="col-md-8 col-12"
+                          />
+                        </Col>
+                      </div>
+                    </Row>
+                    <ForwardRef
+                      cancelLabel="Cancel"
+                      confirmLabel="Add"
+                      customStyle="wide"
+                      headerText="Modification"
+                      id="modification-modal"
+                      onBeforeOpen={null}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Modification - Add  modification",
+                        }
+                      }
+                      webAnalyticsView={
+                        Object {
+                          "page_section": "Add Modification",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        cancelLabel="Cancel"
+                        confirmLabel="Add"
+                        customStyle="wide"
+                        headerText="Modification"
+                        id="modification-modal"
+                        onBeforeOpen={[Function]}
+                        onBlur={null}
+                        onCancel={[Function]}
+                        onChange={null}
+                        onClick={null}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Modification - Add  modification",
+                          }
+                        }
+                      >
+                        <HDModal
+                          cancelLabel="Cancel"
+                          className=""
+                          confirmLabel="Add"
+                          customStyle="wide"
+                          headerText="Modification"
+                          hideCancelButton={false}
+                          hideClose={false}
+                          hideConfirmButton={false}
+                          hideFooter={false}
+                          id="modification-modal"
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          show={false}
+                        >
+                          <Portal
+                            containerInfo={
+                              <div
+                                id="portal-root"
+                              >
+                                
+                                
+                              </div>
+                            }
+                          />
+                        </HDModal>
+                      </ForwardRef>
+                    </ForwardRef>
+                  </form>
+                </Form>
+              </Formik>
+            </HDForm>
+            <ForwardRef
+              cancelLabel="Go back"
+              confirmLabel="Yes"
+              headerText="Are you sure?"
+              hideClose={true}
+              id="delete-modification-modal"
+              onBeforeOpen={null}
+              onCancel={[Function]}
+              onConfirm={[Function]}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Modification - Remove Modification",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_section": "Remove Modification",
+                }
+              }
+            >
+              <ForwardRef
+                cancelLabel="Go back"
+                confirmLabel="Yes"
+                headerText="Are you sure?"
+                hideClose={true}
+                id="delete-modification-modal"
+                onBeforeOpen={[Function]}
+                onBlur={null}
+                onCancel={[Function]}
+                onChange={null}
+                onClick={null}
+                onConfirm={[Function]}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                show={false}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Modification - Remove Modification",
+                  }
+                }
+              >
+                <HDModal
+                  cancelLabel="Go back"
+                  className=""
+                  confirmLabel="Yes"
+                  customStyle=""
+                  headerText="Are you sure?"
+                  hideCancelButton={false}
+                  hideClose={true}
+                  hideConfirmButton={false}
+                  hideFooter={false}
+                  id="delete-modification-modal"
+                  onBeforeOpen={[Function]}
+                  onCancel={[Function]}
+                  onClose={[Function]}
+                  onConfirm={[Function]}
+                  show={false}
+                >
+                  <Portal
+                    containerInfo={
+                      <div
+                        id="portal-root"
+                      >
+                        
+                        
+                      </div>
+                    }
+                  />
+                </HDModal>
+              </ForwardRef>
+            </ForwardRef>
+          </div>
+        </Container>
+      </HastingsTracker>
+    </Connect(HastingsTracker)>
+  </Provider>
+</Component>
+`;

@@ -1,0 +1,213 @@
+.direct-debit {
+  position: relative;
+  display: flex;
+  b {
+    font-weight: bold;
+  }
+
+  .hd-overlay-btn {
+    text-decoration: none;
+  }
+
+  hr {
+    height: 1.55px;
+  }
+
+  .error {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 22px;
+  }
+
+  .input-group {
+    .input {
+      border: none;
+      &.active {
+        border: none;
+      }
+      &.focus {
+        border: none;
+      }
+    }
+  }
+
+  .agree-container {
+    .agree-content {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    .agree-footer {
+      height: 0;
+      max-height: 60px;
+    }
+  }
+
+  .arc-header {
+    height: 390px;
+    &:after {
+      background-color: $gray-light-8;
+    }
+
+    @include media-breakpoint-down(sm) {
+      height: 190px;
+      &:after {
+        background-color: $mono-white;
+      }
+    }
+  }
+
+  &--container {
+    margin-top: 35px;
+    @include media-breakpoint-down(sm){
+      margin: 15px -15px 0;
+    }
+  }
+}
+
+.direct-debit__body_right {
+  height: max-content;
+  border-radius: 7px;
+  background-color: $white-fill;
+  text-align: left;
+  min-height: 365px;
+  margin-bottom: 25px;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 15px;
+  }
+
+  @include media-breakpoint-down(md) {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid $blue-transparent-30;
+  }
+  @include media-breakpoint-up(lg) {
+    margin-right: 7%;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-right: 10%;
+  }
+
+  .hd-description-label {
+    @include media-breakpoint-down(sm) {
+      margin-bottom: -10px;
+    }
+  }
+}
+
+.direct-debit__debit-left-container {
+  @include media-breakpoint-up(lg) {
+    margin-left: 7%;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-left: 10%;
+  }
+  border-radius: 7px;
+  background: $white-fill;
+  z-index: 99;
+
+  h5 {
+    color: $midnight-prussian-blue;
+  }
+}
+
+.direct-debit__debit-overlay-heading {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  color: $info-color;
+}
+
+.direct-debit__monthly-payment-box {
+  color: $app-theme;
+  background-color: $mono-cotton-ball;
+  border: 3px solid $link-color;
+  border-radius: 6px;
+  padding: 20px 5px 20px 0px;
+}
+
+.direct-debit__line {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding-bottom: 2%;
+  &.direct-debit__total {
+    margin-top: 3px;
+  }
+  b {
+    font-size: 12px;
+    @include media-breakpoint-up(md) {
+      font-size: 16px;
+    }
+  }
+}
+
+.direct-debit__rate-line {
+  font-size: 12px;
+  text-align: left;
+  color: $info-color;
+}
+
+.direct-debit__credit-agreement-hr {
+  margin: 18px 0;
+  height: 1.55px;
+}
+
+.direct-debit__imp {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  color: $app-theme;
+  margin-bottom: 5%;
+}
+
+.direct-debit__title {
+  color: $mono-white;
+  margin-bottom: 50px;
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 30px;
+  }
+}
+
+.direct-debit__info-card-agree {
+  @include media-breakpoint-up(lg) {
+    margin-left: 5.6%;
+    padding-right: 7%;
+  }
+  @include media-breakpoint-up(xl) {
+    margin-left: 9%;
+    padding-right: 7%;
+  }
+}
+
+.dd_continue{
+  @include media-breakpoint-up(xl) {
+    margin-left: 0;
+  }
+}
+
+.hd-directdebit-payment-breakdown-monthly__refresh-icon {
+  color: $blue-secondary;
+  align-items: flex-end;
+  display: flex !important;
+  bottom: 3px;
+  position: relative;
+}
+
+// continue button aligment left 
+.customize-quote-wizard__continue-button--left {
+  padding-left: 25px;
+  @include media-breakpoint-only(lg) {
+    margin-left: 4.5%;
+  }
+}
+
+// For canelling your credit agreement - margin between elements
+.direct-debit__cancelling-your-credit-agreement {
+  p {
+    margin-bottom: 5px;
+  }
+}

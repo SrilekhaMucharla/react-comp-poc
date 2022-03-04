@@ -1,0 +1,14 @@
+// Normalize.css
+// or
+// Reboot, what is part of Bootstrap check
+
+.clearfix {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

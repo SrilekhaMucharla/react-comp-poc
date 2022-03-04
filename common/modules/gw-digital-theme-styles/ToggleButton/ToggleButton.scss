@@ -1,0 +1,31 @@
+.digitalToggle .digitalToggleButton {
+
+  overflow-x: unset;
+  padding: 0 10px;
+  --toggleButton-height: 32px;
+  --toggleButton-inset-shadow-box-width: var(--GW-BORDER-WIDTH-THICK);
+  --toggleButton-bg-color: var(--gw-white);
+  --toggleButton-color: var(--gw-grey-light-60-color);
+  --toggleButton-hover-bg-color: var(--gw-blue-light-1);
+  --toggle-focus-not-active-color: var(--gw-grey-light-60-color);
+
+  &:hover, &:focus {
+    --toggleButton-box-shadow: var(--toggleButton-box-shadow-inset-top),
+    var(--toggleButton-box-shadow-inset-right),
+    var(--toggleButton-box-shadow-inset-bottom),
+    var(--toggleButton-box-shadow-inset-left);
+    --toggleButton-bg-color: var(--toggleButton-hover-bg-color);
+  }
+
+  &.digitalToggleActive {
+    --gw-toggle-active-background: linear-gradient(to top, var(--gw-blue-light-2) 4px, var(--gw-white) 5px);
+    --gw-toggle-hover-active-background: linear-gradient(to top, var(--gw-blue-light-2) 4px, var(--gw-blue-light-1) 5px);
+    --toggleButton-bg-image: var(--gw-toggle-active-background);
+    --toggleButton-color: var(--gw-grey-dark-90-color);
+    --toggleButton-active-bg-color: none;
+
+    &:hover {
+      background-image: var(--gw-toggle-hover-active-background);
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.mc-customize-quote-wizard {
+    color: $mono-midnight;
+    background: #F7F7F9;
+}
+
+.no-toast-margin {
+    margin-top: -5px;
+}
+
+.mc-customize-quote-wizard {
+    .wizard-content {
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            &.set-margin-bottom {
+                padding-bottom: 275px;
+                margin-bottom: 10em;
+            }
+        }
+    }
+
+    &.mc-important-stuff {
+        .wizard-content {
+            min-height: 100vh;
+        }
+    }
+}
+
+.mc-customize-quote-wizard__continue-button {
+    font-weight: 600;
+    margin: 0 0 50px;
+
+    @include media-breakpoint-down(sm) {
+        margin: 8px 0 0;
+        height: 50px;
+    }
+    @include media-breakpoint-up(md) {
+        width: 100%;
+    }
+}
+
+.container-continue-btn {
+    @include media-breakpoint-up(md) { 
+        max-width: 885px;
+    }
+    @include media-breakpoint-up(xl) {
+        max-width: 1150px;
+    }
+    @include media-breakpoint-up(xxl) {
+        max-width: 82%;
+    }
+}

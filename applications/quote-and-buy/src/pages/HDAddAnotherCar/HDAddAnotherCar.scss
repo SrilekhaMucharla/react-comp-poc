@@ -1,0 +1,24 @@
+.add-car__card {
+  background-color: $mono-white;
+  border-radius: 6px;
+  color: $mono-midnight;
+
+}
+
+.add-car__mc-image-mob {
+  width: inherit;
+  margin-bottom: 20px;
+}
+.add-car__mc-points {
+  margin-left: 0;
+  ul {
+    padding-left: 0.3rem;
+  }
+}
+
+
+.add-car__add-button {
+  @include media-breakpoint-down(sm) {
+    margin-top: 30px !important;
+  }
+}

@@ -1,0 +1,72 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-group {
+  margin-bottom: $md-value;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.hd-checkbox {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.hd-checkbox input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.hd-checkbox label {
+  position: relative;
+  cursor: pointer;
+  top: 5px;
+}
+
+.hd-checkbox label:before {
+  content: '';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid $white-color;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -9px rgba(0, 0, 0, 0.05);
+  //padding: 9px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 15px;
+  top: -5px;
+}
+
+.hd-checkbox input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 7px;
+  height: 14px;
+  border: solid $app-theme;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.hd-checkbox input:checked + label:before{
+    background: $white-fill;
+}
+
+

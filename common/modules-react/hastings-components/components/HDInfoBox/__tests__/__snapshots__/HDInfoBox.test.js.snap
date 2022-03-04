@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDInfoBox /> render component 1`] = `
+<table>
+  <tbody
+    className="hd-info-box__table__body"
+  >
+    <tr
+      key="0"
+    >
+      <td>
+        keyItem
+      </td>
+      <td>
+        value
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

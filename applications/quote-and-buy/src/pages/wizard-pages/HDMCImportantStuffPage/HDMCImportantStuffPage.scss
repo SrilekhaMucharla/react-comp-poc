@@ -1,0 +1,55 @@
+.customize-quote-wizard .wizard-head.mc-important-stuff__head {
+    align-items: stretch;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    margin-bottom: -70px;
+    height: initial;
+    @include media-breakpoint-up(md) {
+        margin-bottom: -40px;
+    }
+}
+
+.mc-important-stuff__driver-details-header {
+    margin-top: 35px;
+    @include media-breakpoint-up(md) {
+        margin-top: 40px;
+    }
+}
+
+.mc-important-stuff__car-details-header {
+    margin-top: 45px;
+    @include media-breakpoint-up(md) {
+        margin-top: 50px;
+    }
+}
+
+.mc-important-stuff--info-text-1 {
+    color: $mono-light-steel;
+}
+
+.mc-important-stuff--info-text-2 {
+    color: $mono-blue-yonder;
+}
+
+.mc-important-stuff__header {
+    margin-bottom: 5%;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 25%;
+    }
+    @include media-breakpoint-between(md, lg) {
+        margin-bottom: 10%;
+    }
+}
+
+.tablet-padding-sm {
+     @include media-breakpoint-up(md) {
+         padding-left: 5px;
+         padding-right: 5px;
+     }
+}
+
+@import "components/HDMCVehicleDetails/HDVehicleDetails.scss";
+@import "components/HDDriverDetails.scss";
+@import "components/HDPolicyBenefits.scss";
+@import "components/HDAdditionalInformation.scss";

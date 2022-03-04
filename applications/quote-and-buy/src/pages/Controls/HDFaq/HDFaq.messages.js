@@ -1,0 +1,10 @@
+export const helpText = 'Help';
+export const faqsText = 'FAQs';
+export const title = 'How can we help you?';
+export const searchInputPlaceholder = 'Search your question here';
+export const topQuestionsHeader = 'Top questions';
+export const customerSupportText = 'Customer Support';
+export const customerSupportPhoneNumber = '0333 321 9829';
+export const weekdaysOpenHours = 'Weekdays: 9am - 6pm';
+export const weekendsOpenHours = 'Weekends: 10am - 2pm';
+export const error = 'Sorry, something\'s not working. Please try again later.';

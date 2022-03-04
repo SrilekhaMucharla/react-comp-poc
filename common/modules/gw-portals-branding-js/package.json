@@ -1,0 +1,11 @@
+{
+  "name": "gw-portals-branding-js",
+  "description": "Provides Branding functionality",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "query-string": "^6.8.3"
+  }
+}

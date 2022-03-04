@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDStartDatePopup /> render component 1`] = `
+<ForwardRef
+  className={null}
+  id="popup-start-date"
+  onBeforeOpen={null}
+  overlayButtonIcon={
+    <InfoIcon
+      color="#0085ff"
+      height="20"
+      width="20"
+    />
+  }
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Customise quote - Your start date",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "Customise quote - Your start date",
+    }
+  }
+>
+  <Row
+    className="popup-start-date"
+    noGutters={false}
+  >
+    <Col>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className="popup-start-date__label"
+            size="lg"
+            text="Your start date"
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-start-date__description"
+            text="Your start date is when you need the policy to begin. This will be either to continue insuring a car from the date the existing cover is due to end or to start insuring a new car."
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-start-date__description"
+            text="All cover will start at 00:01 on your chosen start date, unless you want your cover to start today (in which case it will start as soon as you buy the policy)."
+          />
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+</ForwardRef>
+`;

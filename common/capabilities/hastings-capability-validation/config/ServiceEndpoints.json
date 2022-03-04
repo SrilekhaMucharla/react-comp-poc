@@ -1,0 +1,7 @@
+[
+  {
+    "server": "pc",
+    "service": "validation/validate",
+    "serviceName": "validateLicense"
+  }
+]

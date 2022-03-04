@@ -1,0 +1,15 @@
+/* ------------------------------------*\
+   CSS Custom Properties to define default breakpoint variables
+\*------------------------------------ */
+$breakpoints: (
+  phonePortrait: 480px,
+  phoneLandscape: 640px,
+  tabletPortrait: 768px,
+  tabletLandscape: 1024px,
+  desktopSmall: 1200px
+) !default;
+
+/* ------------------------------------
+  MEDIA QUERIES MIXIN
+------------------------------------ */
+@import "~include-media/dist/include-media";

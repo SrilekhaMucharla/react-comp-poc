@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDOfferSlideshow /> component renders 1`] = `
+<HDOfferSlideshow
+  interval={1000}
+  items={
+    Array [
+      <div>
+        Test01
+      </div>,
+      <div>
+        Test02
+      </div>,
+      <div>
+        Test03
+      </div>,
+    ]
+  }
+>
+  <Carousel
+    controls={false}
+    defaultActiveIndex={0}
+    fade={true}
+    indicators={false}
+    interval={1000}
+    keyboard={true}
+    nextIcon={
+      <span
+        aria-hidden="true"
+        className="carousel-control-next-icon"
+      />
+    }
+    nextLabel="Next"
+    pause={false}
+    prevIcon={
+      <span
+        aria-hidden="true"
+        className="carousel-control-prev-icon"
+      />
+    }
+    prevLabel="Previous"
+    slide={true}
+    touch={true}
+    wrap={true}
+  >
+    <div
+      className="carousel slide carousel-fade"
+      onKeyDown={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+    >
+      <div
+        className="carousel-inner"
+      >
+        <Transition
+          addEndListener={[Function]}
+          appear={false}
+          enter={true}
+          exit={true}
+          in={true}
+          key=".$item no 1"
+          mountOnEnter={false}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          unmountOnExit={false}
+        >
+          <CarouselItem
+            className="active"
+            key="item no 1"
+          >
+            <div
+              className="active carousel-item"
+            >
+              <div>
+                Test01
+              </div>
+            </div>
+          </CarouselItem>
+        </Transition>
+        <Transition
+          addEndListener={[Function]}
+          appear={false}
+          enter={true}
+          exit={true}
+          in={false}
+          key=".$item no 2"
+          mountOnEnter={false}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          unmountOnExit={false}
+        >
+          <CarouselItem
+            className=""
+            key="item no 2"
+          >
+            <div
+              className="carousel-item"
+            >
+              <div>
+                Test02
+              </div>
+            </div>
+          </CarouselItem>
+        </Transition>
+        <Transition
+          addEndListener={[Function]}
+          appear={false}
+          enter={true}
+          exit={true}
+          in={false}
+          key=".$item no 3"
+          mountOnEnter={false}
+          onEnter={[Function]}
+          onEntered={[Function]}
+          onEntering={[Function]}
+          onExit={[Function]}
+          onExited={[Function]}
+          onExiting={[Function]}
+          unmountOnExit={false}
+        >
+          <CarouselItem
+            className=""
+            key="item no 3"
+          >
+            <div
+              className="carousel-item"
+            >
+              <div>
+                Test03
+              </div>
+            </div>
+          </CarouselItem>
+        </Transition>
+      </div>
+    </div>
+  </Carousel>
+</HDOfferSlideshow>
+`;

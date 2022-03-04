@@ -1,0 +1,68 @@
+.mc-your-credit-agreement,
+.mc-our-fees,
+.mc-other-things {
+    .placeholder-w-header__header {
+        padding: 8px 15px;
+        @include media-breakpoint-up(md) {
+            padding: 8px 35px;
+        }
+    }
+    margin-bottom: 35px;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 50px;
+    }
+}
+
+.mc-your-credit-agreement__content,
+.mc-our-fees__content,
+.mc-other-things__content {
+    padding: 15px;
+    @include media-breakpoint-up(md) {
+        padding: 40px 35px;
+    }
+}
+
+.mc-important-stuff__additional-information__header {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    @include media-breakpoint-up(md) {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+.mc-important-stuff__additional-information__subheader {
+    margin-top: 30px;
+    @include media-breakpoint-up(md) {
+        margin-top: 35px;
+    }
+}
+
+.mc-our-fees__content__table__th {
+    padding-bottom: 8px;
+    &:last-child {
+        padding-right: 20px;
+    }
+}
+
+.mc-our-fees__content__table__body {
+    color: $info-color;
+}
+
+.mc-our-fees__content__table__body__tr {
+    &:nth-child(odd) {
+        background-color: $mono-cultured;
+    }
+    
+    &:nth-child(even) {
+        background-color: $white-transparent-30;
+    }
+}
+
+.mc-our-fees__content__table__td {
+    padding: 10px 20px;
+    line-height: 1.5;
+    &:first-child {
+        padding-right: 0;
+    }
+}

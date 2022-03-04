@@ -1,0 +1,127 @@
+export const yourQuoteHeader = 'FIRST_NAME, here\'s your quote';
+export const yourQuoteHeaderFor = ' for';
+export const policyPriceLabel = 'Policy price';
+export const totalCreditChargeLabel = 'Total credit charge';
+export const totalAmountPayableLabel = 'Total amount payable';
+export const ratesComment = 'APR APR_RATE%\xa0\xa0Interest rate INTEREST_RATE%';
+export const initialPaymentLabel = 'Initial payment';
+export const elevenMonthlyPayment = '11 montly payments';
+export const payMonthlyHeader = 'Pay monthly';
+export const payMonthlyDescription = 'The flexible way to pay';
+export const payMonthlyPrefix = '11 x';
+export const prePayMonthlyInitalPaymentInfo = '+ ';
+export const postPayMonthlyInitalPaymentInfo = ' initial payment';
+export const payMonthlySummaryText = 'See monthly summary';
+export const payAnnuallyHeader = 'Pay in full';
+export const payAnnuallyDescription = 'An entire year all at once';
+export const priceInfo = 'This price will be held until midnight tonight and includes all taxes.';
+// eslint-disable-next-line max-len
+export const warningInfo = 'Choosing to pay for your policy monthly means you\'ll pay more for your insurance. This is because your repayments will include our interest charges.';
+export const quoteRefLabel = 'Quote ref:';
+export const quoteInfoDescription = "Make sure to double-check your details because it's really important we've got all your information right.";
+export const viewOrEditDetailsLink = 'View or edit details';
+export const yourExcessHeader = 'Your excess';
+export const startDateHeader = 'Start date';
+export const otherExcessesInfo = 'Other excesses may apply';
+export const compulsoryExcessLabel = 'Compulsory';
+export const voluntaryExcessLabel = 'Voluntary';
+export const totalExcessLabel = 'Total';
+export const multicarPartHeader = 'More than one car at home?';
+export const multicarPartInfoLine = 'Switch to Multi Car cover and save money! As a Multi Car customer, you can save around £44 for each car you add!* '
+    + 'And don\'t worry if additional cars aren\'t due for renewal yet - we\'ve got that covered too.';
+export const bottomlineText = '*Based on average premiums for 12 month car policies sold between April and June 2021';
+export const multicarPartLink = 'Add another car';
+export const rerateModalHeader = 'Just so you know...';
+export const rerateModalContent = 'We try and keep things simple for you, so any changes you make here will be applied to all our Hastings brands, '
+    + 'including InsurePink and People\'s Choice.';
+export const rerateModalConfirmLabel = 'Continue';
+export const policyStartDateInfo = 'Please note, changing your start date may change the price of your quote';
+export const missingMonthlyPaymentExplanation = 'Why can\'t I pay monthly?';
+export const missingMonthlyPaymentsModalHeader = 'Paying by Direct Debit';
+export const missingMonthlyPaymentsModalContent = [
+    'We\'re sorry, you haven\'t quite met our lending criteria so we can\'t offer you the option to pay monthly.',
+    'You can still buy this quote, you\'ll just need to pay for it in full today.'
+];
+export const missingMonthlyPaymentsModalConfirmLabel = 'Ok, continue';
+export const invalidDate = 'Sorry, we don\'t recognise that date. Please try again';
+export const policyStartDateInPast = 'Sorry, you can\'t use a date in the past. Please try again';
+export const policyStartDate30Days = 'Sorry, we don\'t recognise that date. Please try again';
+export const voluntaryExcessRequired = 'Voluntary excess is required';
+export const noRegistationNumberLink = 'Don\'t forget to tell us the reg number!';
+export const missingRegNumberModalHeader = 'Important!';
+export const missingRegNumberModalContent = [
+    'You won\'t be able to buy this cover today without a reg number, as we can\'t provide you with an accurate price.',
+    'You can either tell us it now or carry on without it to get an estimated price (just come back to buy your cover when you have the reg number).'
+];
+export const missingRegNumberModalConfirmLabel = 'Ok, continue';
+export const missingRegNumberModalCancelLabel = 'Add reg number';
+export const HE = 'HE';
+export const HD = 'HD';
+export const HP = 'HP';
+export const YD = 'YD';
+export const Loading = 'Loading';
+export const customizeQuote = 'Customize quote';
+export const customizeQuotePolicySupp = 'Customise quote - Policy support type';
+export const voluntaryExcess = 'Voluntary Excess';
+export const paymentFrequency = 'Payment frequency';
+export const startDate = 'Start Date';
+export const addAnotherCar = 'Add another car';
+export const continueLabel = 'Continue';
+export const editDetails = 'Edit details';
+export const addAnotherDriver = 'Add another driver';
+export const rerate = 'Rerate';
+export const paymentType = 'Payment Type';
+export const monthlyPaymentPremiumAnnualCostDefaultValue = '440.19';
+export const monthlyPaymentTotalAmountCreditDefaultValue = '60.01';
+export const monthlyPaymentFirstInstalmentPDefaultValue = '500.20';
+export const monthlyPaymentFirstInstalmentsDefaultValue = '40.09';
+export const monthlyPaymentElevenMonthsInstalmentsDefaultValue = '40.02';
+export const accidentalDamageCompulsaryKey = 'PCAccDmgCompExcessCT_Ext';
+export const accidentalDamageYAndIComKey = 'PCAccDmgYngInexpDrivExcessCT_Ext';
+export const accidentalDamageVoluntaryKey = 'PCAccDmgVolExcessCT_Ext';
+export const windScreenExcessRepairKey = 'PCGlassDmgWrepairdmgCT_Ext';
+export const windScreenExcessReplacementKey = 'PCGlassDmgWreplacementdmgCT_Ext';
+export const theftCompulsaryKey = 'PCLossFireTheftCompExcessCT_Ext';
+export const theftVountaryKey = 'PCLossFireTheftVolExcessCT_Ext';
+export const accidentalDamage = 'PCAccidentalDamageCov_Ext';
+export const fireAndTheft = 'PCLossFireTheftCov_Ext';
+export const windScreenExcess = 'PCGlassDamageCov_Ext';
+export const welcomeBack = 'Welcome back!';
+export const homePage = 'Go back to the homepage';
+export const viewOrEditCar = 'View / edit car';
+export const viewOrEditDriver = 'View / edit drivers';
+export const manualUpgrade = 'Manual Upgrade';
+export const manualDowngrade = 'Manual Downgrade';
+export const accidentalDamageText = 'Accidental damage';
+export const fireAndTheftText = 'Fire and Theft';
+export const windowGlassText = 'Windscreen/glass';
+export const ok = 'ok';
+export const sorryCannotChooseThat = "Sorry you can't choose that amount";
+export const maxExcess = 'The maximum voluntary excess you can choose for this quote is';
+export const toastForOnlie = 'Great. You\'ve been changed to an online policy - your price has been updated';
+export const toastForStandard = 'Great. You\'ve been changed to a standard policy - your price has been updated';
+export const tpft = 'tpft';
+export const eventValueOnline = 'Online policy';
+export const eventValueStandard = 'Standard policy';
+export const getYourQuoteHeader = (submissionVM, registrationNumber, defaultFirstName) => {
+    const firstName = Object.keys(submissionVM).length && submissionVM.value.baseData && submissionVM.value.baseData.accountHolder
+        && submissionVM.value.baseData.accountHolder.firstName ? submissionVM.value.baseData.accountHolder.firstName : defaultFirstName;
+    const optionalMessage = registrationNumber ? yourQuoteHeaderFor : '...';
+    return `${firstName}, here's your quote${optionalMessage}`;
+};
+export const producersCodeText = 'Default';
+export const getPolicyTypeBasedOnFlag = (flag) => (flag ? 'online' : 'standard');
+export const standardAccDmgExcessKey = 'PCAccDmgCompExcessCT_Ext';
+export const onlineAccDmgExcessKey = 'PCAccOnlineCompExcessCT_Ext';
+export const standardLossFireTheftCovKey = 'PCLossFireTheftCompExcessCT_Ext';
+export const onlineLossFireTheftCovKey = 'PCOnlineLossFireTheftCompExcessCT_Ext';
+export const directText = 'direct';
+export const ANCBREAKDOWNCOV_EXT = 'ANCBreakdownCov_Ext';
+export const Breakdown = 'Breakdown';
+export const roadside = 'Roadside';
+export const roadsideRecovery = 'Roadside and recovery';
+export const roadsideRecoveryCase = 'Roadside and Recovery';
+export const roadsideRecoveryHome = 'Roadside, recovery and at home';
+export const roadsideRecoveryHomeEuropean = 'Roadside, recovery, at home and European';
+export const homestart = 'Homestart';
+export const european = 'European';

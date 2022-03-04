@@ -1,0 +1,48 @@
+a.mc-vehicle-details__scci-link {
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.mc-vehicle-details__ipid-details-wrapper,
+.mc-vehicle-details__amendment-policy-wrapper,
+.mc-vehicle-details__credit-agreement,
+.mc-vehicle-details__scci-info-box {
+    margin: 0 0 30px 0;
+    @include media-breakpoint-up(md) {
+        padding: 0 35px;
+    }
+}
+
+.mc-vehicle-details__ipid-details__col {
+    & > * {
+        margin-bottom: 10px;
+    }
+    a.decorated-blue-line {
+        color: $app-theme;
+    }
+}
+
+.mc-vehicle-details__credit-agreement-box {
+    background-color: $mono-cotton-ball;
+    border: 3px solid $midnight-royal-blue;
+    border-radius: 6px;
+    padding: 22px 16px 22px 22px;
+    font-size: 13px;
+
+    @include media-breakpoint-up(md) {
+        padding: 25px 24px;
+    }
+
+    & > .row {
+        margin-top: 11px;
+    }
+}
+
+.mc-vehicle-details__credit-agreement__reg-num {
+    @extend .reg-num;
+    font-size: 20px;
+}
+
+
+@import "components/HDVehicleDetailsHeader.scss";
+@import "components/HDYourPolicy.scss";

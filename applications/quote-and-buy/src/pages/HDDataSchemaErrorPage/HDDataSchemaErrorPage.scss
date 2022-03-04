@@ -1,0 +1,35 @@
+.data-schema-error-container {
+    background: $app-theme;
+
+    .get-a-new-quote {
+        margin-top: 30px;
+    }
+    .invalid-url-navigation {
+        margin-top: 30px;
+    }
+    &--btn {
+        @include media-breakpoint-between(lg, xl) {
+            padding: 0 15px;
+        }
+    }
+
+    .time-chart {
+        &-row {
+            @include media-breakpoint-down(sm) {
+                flex-wrap: nowrap !important;
+
+                p {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+        &-hours {
+            text-align: right !important;
+            @include media-breakpoint-down(sm) {
+                text-align: left !important;
+            }
+        }
+    }
+}
+

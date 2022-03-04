@@ -1,0 +1,20 @@
+{
+  "name": "gw-build-config-apache",
+  "description": "Provides common configuration for babel",
+  "main": "babel.config.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "bin": {
+    "gw-generate-apache-config": "bin/generateApacheConfig.js"
+  },
+  "dependencies": {
+    "fs-extra": "^8.1.0"
+  },
+  "peerDependencies": {
+    "lodash": "4.x",
+    "gw-build-config-environment": "11.2.0-db467149eb42",
+    "gw-build-config-paths": "11.2.0-db467149eb42",
+    "gw-build-proxy-setup": "11.2.0-db467149eb42"
+  }
+}

@@ -1,0 +1,23 @@
+.placeholder-w-header {
+    background-color: $mono-white;
+    box-shadow: $secondary-shadow;
+    border-radius: 6px;
+}
+
+.placeholder-w-header__header {
+    @extend .font-bold;
+    font-size: $font-size-lg;
+    color: $mono-white;
+    background-color: $midnight-prussian-blue;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    align-items: center;
+    padding: 8px 20px;
+    @include media-breakpoint-up(md) {
+        padding-left: 30px;
+    }
+}
+
+.placeholder-w-header__header--dark {
+    background-color: $app-theme;
+}

@@ -1,0 +1,37 @@
+.vehicle-ribbon {
+    position: sticky;
+    z-index: 4;
+    top: $header-height-mobile;
+    @include orientation(landscape) {
+        top: 0;
+        transition: .2s top;
+        @include media-breakpoint-down(md) {
+            .vehicle-ribbon-hidden-mobile-landscape & {
+                top: -40px;
+            }
+        }
+    }
+    @include media-breakpoint-up(lg) {
+        top: $header-height;
+    }
+
+    .text {
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 17.6px;
+        background: $yellow-color;
+        color: $app-theme;
+        font-family: $font-licence-plate;
+    }
+}
+
+.vehicle-ribbon--cq {
+    @include media-breakpoint-up(lg) {
+        padding: 0 35px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: unset;
+    }
+}

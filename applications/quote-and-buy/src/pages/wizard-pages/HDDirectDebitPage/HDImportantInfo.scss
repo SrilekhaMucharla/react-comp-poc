@@ -1,0 +1,11 @@
+.hd-important-info-container {
+    margin-top: 30px;
+
+    h5 {
+        color: $app-theme;
+    }
+}
+
+.hd-important-info-container__info-content {
+    font-size: $font-size-sm;
+}

@@ -1,0 +1,2717 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPrimaryEmployementInfoPage /> should render the component and match snapshot 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HDPrimaryEmployementInfoPage)>
+      <HDPrimaryEmployementInfoPage
+        multiCarFlag={true}
+        setNavigation={[Function]}
+        submissionVM={
+          Object {
+            "baseData": Object {
+              "accountHolder": Object {
+                "dateOfBirth": null,
+              },
+              "isExistingCustomer": false,
+              "isPostalDocument": false,
+              "jobType": "Submission",
+              "marketingContacts": Object {
+                "allowEmail": false,
+                "allowPost": false,
+                "allowSMS": false,
+                "allowTelephone": false,
+              },
+              "periodStatus": "Draft",
+              "policyAddress": Object {},
+              "producerCode": "Default",
+              "productCode": "PrivateCar_Ext",
+              "productName": "Private Car",
+              "termType": "Annual",
+            },
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "addInterestTypeCategory": "PAVhcleAddlInterest",
+                  "drivers": Array [
+                    Object {
+                      "claimsAndConvictions": Object {
+                        "claimsDetailsCollection": Array [],
+                        "convictionsCollection": Array [],
+                      },
+                      "licenceObtainedDate": null,
+                      "person": Object {
+                        "prefix": Object {},
+                      },
+                      "previousPoliciesInformation": Object {},
+                      "residingInUKSince": null,
+                      "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                    },
+                  ],
+                  "vehicleDrivers": Array [
+                    Object {},
+                  ],
+                  "vehicles": Array [
+                    Object {
+                      "isCarModified": "",
+                      "ncdProtection": Object {
+                        "drivingExperience": Object {},
+                      },
+                      "tracker": "",
+                      "vehicleModifications": Array [],
+                      "vehicleWorth": "",
+                    },
+                  ],
+                },
+                "preQualQuestionSets": Array [],
+              },
+            },
+          }
+        }
+      >
+        <Container
+          className="primary-empl-container"
+          fluid={false}
+        >
+          <div
+            className="primary-empl-container container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDForm
+                      className=""
+                      initValues={Object {}}
+                      onValidation={[Function]}
+                      passedKey="default-key"
+                      resetFormOnStart={false}
+                      submissionVM={
+                        Object {
+                          "baseData": Object {
+                            "accountHolder": Object {
+                              "dateOfBirth": null,
+                            },
+                            "isExistingCustomer": false,
+                            "isPostalDocument": false,
+                            "jobType": "Submission",
+                            "marketingContacts": Object {
+                              "allowEmail": false,
+                              "allowPost": false,
+                              "allowSMS": false,
+                              "allowTelephone": false,
+                            },
+                            "periodStatus": "Draft",
+                            "policyAddress": Object {},
+                            "producerCode": "Default",
+                            "productCode": "PrivateCar_Ext",
+                            "productName": "Private Car",
+                            "termType": "Annual",
+                          },
+                          "lobData": Object {
+                            "privateCar": Object {
+                              "coverables": Object {
+                                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                                "drivers": Array [
+                                  Object {
+                                    "claimsAndConvictions": Object {
+                                      "claimsDetailsCollection": Array [],
+                                      "convictionsCollection": Array [],
+                                    },
+                                    "licenceObtainedDate": null,
+                                    "person": Object {
+                                      "prefix": Object {},
+                                    },
+                                    "previousPoliciesInformation": Object {},
+                                    "residingInUKSince": null,
+                                    "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                                  },
+                                ],
+                                "vehicleDrivers": Array [
+                                  Object {},
+                                ],
+                                "vehicles": Array [
+                                  Object {
+                                    "isCarModified": "",
+                                    "ncdProtection": Object {
+                                      "drivingExperience": Object {},
+                                    },
+                                    "tracker": "",
+                                    "vehicleModifications": Array [],
+                                    "vehicleWorth": "",
+                                  },
+                                ],
+                              },
+                              "preQualQuestionSets": Array [],
+                            },
+                          },
+                        }
+                      }
+                      validationSchema={
+                        ObjectSchema {
+                          "_blacklist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "_conditions": Array [],
+                          "_defaultDefault": [Function],
+                          "_deps": Array [],
+                          "_excludedEdges": Array [],
+                          "_exclusive": Object {},
+                          "_mutate": undefined,
+                          "_nodes": Array [
+                            "businessTypeFull",
+                            "occupationFull",
+                            "fullEmpStatus",
+                          ],
+                          "_options": Object {
+                            "abortEarly": true,
+                            "recursive": true,
+                          },
+                          "_type": "object",
+                          "_typeError": [Function],
+                          "_whitelist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "fields": Object {
+                            "businessTypeFull": ObjectSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_defaultDefault": [Function],
+                              "_deps": Array [],
+                              "_excludedEdges": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                              },
+                              "_mutate": undefined,
+                              "_nodes": Array [],
+                              "_nullable": true,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "object",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "fields": Object {},
+                              "tests": Array [
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "object",
+                              "vmPath": "lobData.privateCar.coverables.drivers.children.0.businessTypeFull",
+                            },
+                            "fullEmpStatus": ObjectSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_defaultDefault": [Function],
+                              "_deps": Array [],
+                              "_excludedEdges": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                                "required": true,
+                              },
+                              "_mutate": undefined,
+                              "_nodes": Array [],
+                              "_nullable": true,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "object",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "fields": Object {},
+                              "tests": Array [
+                                [Function],
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "object",
+                              "vmPath": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                            },
+                            "occupationFull": ObjectSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_defaultDefault": [Function],
+                              "_deps": Array [],
+                              "_excludedEdges": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                              },
+                              "_mutate": undefined,
+                              "_nodes": Array [],
+                              "_nullable": true,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "object",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "fields": Object {},
+                              "tests": Array [
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "object",
+                              "vmPath": "lobData.privateCar.coverables.drivers.children.0.occupationFull",
+                            },
+                          },
+                          "tests": Array [],
+                          "transforms": Array [
+                            [Function],
+                          ],
+                          "type": "object",
+                        }
+                      }
+                    >
+                      <Formik
+                        initialTouched={Array []}
+                        initialValues={
+                          Object {
+                            "businessTypeFull": "",
+                            "fullEmpStatus": "",
+                            "occupationFull": "",
+                          }
+                        }
+                        key="default-key"
+                        validateOnMount={true}
+                        validationSchema={
+                          ObjectSchema {
+                            "_blacklist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "_conditions": Array [],
+                            "_defaultDefault": [Function],
+                            "_deps": Array [],
+                            "_excludedEdges": Array [],
+                            "_exclusive": Object {},
+                            "_mutate": undefined,
+                            "_nodes": Array [
+                              "businessTypeFull",
+                              "occupationFull",
+                              "fullEmpStatus",
+                            ],
+                            "_options": Object {
+                              "abortEarly": true,
+                              "recursive": true,
+                            },
+                            "_type": "object",
+                            "_typeError": [Function],
+                            "_whitelist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "fields": Object {
+                              "businessTypeFull": ObjectSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_defaultDefault": [Function],
+                                "_deps": Array [],
+                                "_excludedEdges": Array [],
+                                "_exclusive": Object {
+                                  "VMValidation": false,
+                                },
+                                "_mutate": undefined,
+                                "_nodes": Array [],
+                                "_nullable": true,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "object",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "fields": Object {},
+                                "tests": Array [
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                                "type": "object",
+                                "vmPath": "lobData.privateCar.coverables.drivers.children.0.businessTypeFull",
+                              },
+                              "fullEmpStatus": ObjectSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_defaultDefault": [Function],
+                                "_deps": Array [],
+                                "_excludedEdges": Array [],
+                                "_exclusive": Object {
+                                  "VMValidation": false,
+                                  "required": true,
+                                },
+                                "_mutate": undefined,
+                                "_nodes": Array [],
+                                "_nullable": true,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "object",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "fields": Object {},
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                                "type": "object",
+                                "vmPath": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                              },
+                              "occupationFull": ObjectSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_defaultDefault": [Function],
+                                "_deps": Array [],
+                                "_excludedEdges": Array [],
+                                "_exclusive": Object {
+                                  "VMValidation": false,
+                                },
+                                "_mutate": undefined,
+                                "_nodes": Array [],
+                                "_nullable": true,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "object",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "fields": Object {},
+                                "tests": Array [
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                                "type": "object",
+                                "vmPath": "lobData.privateCar.coverables.drivers.children.0.occupationFull",
+                              },
+                            },
+                            "tests": Array [],
+                            "transforms": Array [
+                              [Function],
+                            ],
+                            "type": "object",
+                          }
+                        }
+                      >
+                        <Form
+                          className=""
+                          inline={false}
+                          noValidate={true}
+                          onSubmit={[Function]}
+                        >
+                          <form
+                            className=""
+                            noValidate={true}
+                            onSubmit={[Function]}
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.fullEmpStatus.fullEmpStatus.primary-empl-status"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDDropdownList",
+                                    }
+                                  }
+                                  className="undefined "
+                                  custom={true}
+                                  id="primary-empl-status"
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "icon": <ForwardRef
+                                        id="primary-empl-status-overlay"
+                                        labelText="What's your employment status?"
+                                        onBeforeOpen={null}
+                                        overlayButtonIcon={
+                                          <img
+                                            alt="info_circle"
+                                            src="Darkicons_desktopinfo.svg"
+                                          />
+                                        }
+                                        webAnalyticsEvent={
+                                          Object {
+                                            "event_action": "Employment Status Info",
+                                          }
+                                        }
+                                        webAnalyticsView={
+                                          Object {
+                                            "page_section": "Employment Status Info",
+                                          }
+                                        }
+                                      >
+                                        <p>
+                                          If more than one of these applies, pick the one that they do most. For example, if their main role is looking after their home, but they also have a part-time job, choose 'household duties'.
+                                        </p>
+                                      </ForwardRef>,
+                                      "iconPosition": "r",
+                                      "id": "primary-empl-status-label",
+                                      "text": "What's your employment status?",
+                                    }
+                                  }
+                                  name="fullEmpStatus"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  options={
+                                    Array [
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                        "value": "E",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                        "value": "S",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                        "value": "F",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                        "value": "R",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                        "value": "H",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                        "value": "U",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                        "value": "V",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                        "value": "I",
+                                      },
+                                      Object {
+                                        "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                        "value": "N",
+                                      },
+                                    ]
+                                  }
+                                  path="lobData.privateCar.coverables.drivers.children.0.fullEmpStatus"
+                                  selectSize="md-8"
+                                  theme="blue"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "What's your employment status?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    className="undefined  custom"
+                                    id="primary-empl-status"
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "icon": <ForwardRef
+                                          id="primary-empl-status-overlay"
+                                          labelText="What's your employment status?"
+                                          onBeforeOpen={null}
+                                          overlayButtonIcon={
+                                            <img
+                                              alt="info_circle"
+                                              src="Darkicons_desktopinfo.svg"
+                                            />
+                                          }
+                                          webAnalyticsEvent={
+                                            Object {
+                                              "event_action": "Employment Status Info",
+                                            }
+                                          }
+                                          webAnalyticsView={
+                                            Object {
+                                              "page_section": "Employment Status Info",
+                                            }
+                                          }
+                                        >
+                                          <p>
+                                            If more than one of these applies, pick the one that they do most. For example, if their main role is looking after their home, but they also have a part-time job, choose 'household duties'.
+                                          </p>
+                                        </ForwardRef>,
+                                        "iconPosition": "r",
+                                        "id": "primary-empl-status-label",
+                                        "text": "What's your employment status?",
+                                      }
+                                    }
+                                    name="fullEmpStatus"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    options={
+                                      Array [
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                          "value": "E",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                          "value": "S",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                          "value": "F",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                          "value": "R",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                          "value": "H",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                          "value": "U",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                          "value": "V",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                          "value": "I",
+                                        },
+                                        Object {
+                                          "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                          "value": "N",
+                                        },
+                                      ]
+                                    }
+                                    path="lobData.privateCar.coverables.drivers.children.0.fullEmpStatus"
+                                    selectSize="md-8"
+                                    theme="blue"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "What's your employment status?",
+                                      }
+                                    }
+                                  >
+                                    <HDDropdownList
+                                      className="undefined  custom"
+                                      customClassName=""
+                                      data={null}
+                                      defaultValue={null}
+                                      displayValidationMessage={true}
+                                      enableNative={false}
+                                      id="primary-empl-status"
+                                      isDisabled={false}
+                                      isSearchable={true}
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "icon": <ForwardRef
+                                            id="primary-empl-status-overlay"
+                                            labelText="What's your employment status?"
+                                            onBeforeOpen={null}
+                                            overlayButtonIcon={
+                                              <img
+                                                alt="info_circle"
+                                                src="Darkicons_desktopinfo.svg"
+                                              />
+                                            }
+                                            webAnalyticsEvent={
+                                              Object {
+                                                "event_action": "Employment Status Info",
+                                              }
+                                            }
+                                            webAnalyticsView={
+                                              Object {
+                                                "page_section": "Employment Status Info",
+                                              }
+                                            }
+                                          >
+                                            <p>
+                                              If more than one of these applies, pick the one that they do most. For example, if their main role is looking after their home, but they also have a part-time job, choose 'household duties'.
+                                            </p>
+                                          </ForwardRef>,
+                                          "iconPosition": "r",
+                                          "id": "primary-empl-status-label",
+                                          "text": "What's your employment status?",
+                                        }
+                                      }
+                                      name="fullEmpStatus"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      options={
+                                        Array [
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                            "value": "E",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                            "value": "S",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                            "value": "F",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                            "value": "R",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                            "value": "H",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                            "value": "U",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                            "value": "V",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                            "value": "I",
+                                          },
+                                          Object {
+                                            "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                            "value": "N",
+                                          },
+                                        ]
+                                      }
+                                      path="lobData.privateCar.coverables.drivers.children.0.fullEmpStatus"
+                                      placeholder="Please select"
+                                      ref={null}
+                                      reset={false}
+                                      selectSize="md-8"
+                                      theme="blue"
+                                      titleTag="h5"
+                                      value=""
+                                    >
+                                      <div
+                                        className="undefined  custom "
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          icon={
+                                            <ForwardRef
+                                              id="primary-empl-status-overlay"
+                                              labelText="What's your employment status?"
+                                              onBeforeOpen={null}
+                                              overlayButtonIcon={
+                                                <img
+                                                  alt="info_circle"
+                                                  src="Darkicons_desktopinfo.svg"
+                                                />
+                                              }
+                                              webAnalyticsEvent={
+                                                Object {
+                                                  "event_action": "Employment Status Info",
+                                                }
+                                              }
+                                              webAnalyticsView={
+                                                Object {
+                                                  "page_section": "Employment Status Info",
+                                                }
+                                              }
+                                            >
+                                              <p>
+                                                If more than one of these applies, pick the one that they do most. For example, if their main role is looking after their home, but they also have a part-time job, choose 'household duties'.
+                                              </p>
+                                            </ForwardRef>
+                                          }
+                                          iconPosition="r"
+                                          id="primary-empl-status-label"
+                                          text="What's your employment status?"
+                                        >
+                                          <Row
+                                            className="label-with-icon align-items-start "
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="label-with-icon align-items-start  row"
+                                            >
+                                              <Col
+                                                className="pr-0"
+                                              >
+                                                <div
+                                                  className="pr-0 col"
+                                                >
+                                                  <h2
+                                                    className=""
+                                                    id="primary-empl-status-label"
+                                                  >
+                                                    What's your employment status?
+                                                  </h2>
+                                                </div>
+                                              </Col>
+                                              <Col
+                                                className="mt-h2  "
+                                                xs="auto"
+                                              >
+                                                <div
+                                                  className="mt-h2   col-auto"
+                                                >
+                                                  <ForwardRef
+                                                    id="primary-empl-status-overlay"
+                                                    labelText="What's your employment status?"
+                                                    onBeforeOpen={null}
+                                                    overlayButtonIcon={
+                                                      <img
+                                                        alt="info_circle"
+                                                        src="Darkicons_desktopinfo.svg"
+                                                      />
+                                                    }
+                                                    webAnalyticsEvent={
+                                                      Object {
+                                                        "event_action": "Employment Status Info",
+                                                      }
+                                                    }
+                                                    webAnalyticsView={
+                                                      Object {
+                                                        "page_section": "Employment Status Info",
+                                                      }
+                                                    }
+                                                  >
+                                                    <ForwardRef
+                                                      id="primary-empl-status-overlay"
+                                                      labelText="What's your employment status?"
+                                                      onBeforeOpen={[Function]}
+                                                      onBlur={null}
+                                                      onCancel={null}
+                                                      onChange={null}
+                                                      onClick={null}
+                                                      onConfirm={null}
+                                                      onDelete={null}
+                                                      onEdit={null}
+                                                      onFocus={null}
+                                                      onSelect={null}
+                                                      overlayButtonIcon={
+                                                        <img
+                                                          alt="info_circle"
+                                                          src="Darkicons_desktopinfo.svg"
+                                                        />
+                                                      }
+                                                      webAnalyticsEvent={
+                                                        Object {
+                                                          "event_action": "Employment Status Info",
+                                                        }
+                                                      }
+                                                    >
+                                                      <HDOverlayPopup
+                                                        cancelButton="Cancel"
+                                                        className=""
+                                                        closeOnSelect={false}
+                                                        confirmButton="Confirm"
+                                                        customStyle=""
+                                                        disabledConfirmButton={false}
+                                                        headerBar={null}
+                                                        hidden={false}
+                                                        hideOnConfirm={true}
+                                                        id="primary-empl-status-overlay"
+                                                        labelText="What's your employment status?"
+                                                        onBeforeClose={[Function]}
+                                                        onBeforeOpen={[Function]}
+                                                        onCancel={[Function]}
+                                                        onConfirm={[Function]}
+                                                        overlayButtonIcon={
+                                                          <img
+                                                            alt="info_circle"
+                                                            src="Darkicons_desktopinfo.svg"
+                                                          />
+                                                        }
+                                                        overlayButtonsClassName=""
+                                                        showButtons={false}
+                                                      >
+                                                        <div
+                                                          className="hd-information-tooltip "
+                                                        >
+                                                          <div
+                                                            className="hd-overlay-btn "
+                                                            hidden={false}
+                                                            id="primary-empl-status-overlay"
+                                                            onClick={[Function]}
+                                                          >
+                                                            <img
+                                                              alt="info_circle"
+                                                              src="Darkicons_desktopinfo.svg"
+                                                            />
+                                                          </div>
+                                                        </div>
+                                                      </HDOverlayPopup>
+                                                    </ForwardRef>
+                                                  </ForwardRef>
+                                                </div>
+                                              </Col>
+                                            </div>
+                                          </Row>
+                                        </HDLabelRefactor>
+                                        <StateManager
+                                          className="hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue"
+                                          components={
+                                            Object {
+                                              "IndicatorSeparator": [Function],
+                                            }
+                                          }
+                                          defaultInputValue=""
+                                          defaultMenuIsOpen={false}
+                                          defaultValue={null}
+                                          isDisabled={false}
+                                          isSearchable={true}
+                                          name="fullEmpStatus"
+                                          onBlur={[Function]}
+                                          onChange={[Function]}
+                                          options={
+                                            Array [
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                "value": "E",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                "value": "S",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                "value": "F",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                "value": "R",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                "value": "H",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                "value": "U",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                "value": "V",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                "value": "I",
+                                              },
+                                              Object {
+                                                "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                "value": "N",
+                                              },
+                                            ]
+                                          }
+                                          path="lobData.privateCar.coverables.drivers.children.0.fullEmpStatus"
+                                          placeholder="Please select"
+                                          styles={
+                                            Object {
+                                              "control": [Function],
+                                              "dropdownIndicator": [Function],
+                                              "menu": [Function],
+                                              "option": [Function],
+                                            }
+                                          }
+                                          value=""
+                                        >
+                                          <Select
+                                            backspaceRemovesValue={true}
+                                            blurInputOnSelect={true}
+                                            captureMenuScroll={false}
+                                            className="hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue"
+                                            closeMenuOnScroll={false}
+                                            closeMenuOnSelect={true}
+                                            components={
+                                              Object {
+                                                "IndicatorSeparator": [Function],
+                                              }
+                                            }
+                                            controlShouldRenderValue={true}
+                                            escapeClearsValue={false}
+                                            filterOption={[Function]}
+                                            formatGroupLabel={[Function]}
+                                            getOptionLabel={[Function]}
+                                            getOptionValue={[Function]}
+                                            inputValue=""
+                                            isDisabled={false}
+                                            isLoading={false}
+                                            isMulti={false}
+                                            isOptionDisabled={[Function]}
+                                            isRtl={false}
+                                            isSearchable={true}
+                                            loadingMessage={[Function]}
+                                            maxMenuHeight={300}
+                                            menuIsOpen={false}
+                                            menuPlacement="bottom"
+                                            menuPosition="absolute"
+                                            menuShouldBlockScroll={false}
+                                            menuShouldScrollIntoView={true}
+                                            minMenuHeight={140}
+                                            name="fullEmpStatus"
+                                            noOptionsMessage={[Function]}
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onInputChange={[Function]}
+                                            onMenuClose={[Function]}
+                                            onMenuOpen={[Function]}
+                                            openMenuOnClick={true}
+                                            openMenuOnFocus={false}
+                                            options={
+                                              Array [
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                  "value": "E",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                  "value": "S",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                  "value": "F",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                  "value": "R",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                  "value": "H",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                  "value": "U",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                  "value": "V",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                  "value": "I",
+                                                },
+                                                Object {
+                                                  "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                  "value": "N",
+                                                },
+                                              ]
+                                            }
+                                            pageSize={5}
+                                            path="lobData.privateCar.coverables.drivers.children.0.fullEmpStatus"
+                                            placeholder="Please select"
+                                            screenReaderStatus={[Function]}
+                                            styles={
+                                              Object {
+                                                "control": [Function],
+                                                "dropdownIndicator": [Function],
+                                                "menu": [Function],
+                                                "option": [Function],
+                                              }
+                                            }
+                                            tabIndex="0"
+                                            tabSelectsValue={true}
+                                            value=""
+                                          >
+                                            <SelectContainer
+                                              className="hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue"
+                                              clearValue={[Function]}
+                                              cx={[Function]}
+                                              getStyles={[Function]}
+                                              getValue={[Function]}
+                                              hasValue={false}
+                                              innerProps={
+                                                Object {
+                                                  "id": undefined,
+                                                  "onKeyDown": [Function],
+                                                }
+                                              }
+                                              isDisabled={false}
+                                              isFocused={false}
+                                              isMulti={false}
+                                              isRtl={false}
+                                              options={
+                                                Array [
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                    "value": "E",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                    "value": "S",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                    "value": "F",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                    "value": "R",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                    "value": "H",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                    "value": "U",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                    "value": "V",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                    "value": "I",
+                                                  },
+                                                  Object {
+                                                    "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                    "value": "N",
+                                                  },
+                                                ]
+                                              }
+                                              selectOption={[Function]}
+                                              selectProps={
+                                                Object {
+                                                  "backspaceRemovesValue": true,
+                                                  "blurInputOnSelect": true,
+                                                  "captureMenuScroll": false,
+                                                  "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                  "closeMenuOnScroll": false,
+                                                  "closeMenuOnSelect": true,
+                                                  "components": Object {
+                                                    "IndicatorSeparator": [Function],
+                                                  },
+                                                  "controlShouldRenderValue": true,
+                                                  "escapeClearsValue": false,
+                                                  "filterOption": [Function],
+                                                  "formatGroupLabel": [Function],
+                                                  "getOptionLabel": [Function],
+                                                  "getOptionValue": [Function],
+                                                  "inputValue": "",
+                                                  "isDisabled": false,
+                                                  "isLoading": false,
+                                                  "isMulti": false,
+                                                  "isOptionDisabled": [Function],
+                                                  "isRtl": false,
+                                                  "isSearchable": true,
+                                                  "loadingMessage": [Function],
+                                                  "maxMenuHeight": 300,
+                                                  "menuIsOpen": false,
+                                                  "menuPlacement": "bottom",
+                                                  "menuPosition": "absolute",
+                                                  "menuShouldBlockScroll": false,
+                                                  "menuShouldScrollIntoView": true,
+                                                  "minMenuHeight": 140,
+                                                  "name": "fullEmpStatus",
+                                                  "noOptionsMessage": [Function],
+                                                  "onBlur": [Function],
+                                                  "onChange": [Function],
+                                                  "onFocus": undefined,
+                                                  "onInputChange": [Function],
+                                                  "onMenuClose": [Function],
+                                                  "onMenuOpen": [Function],
+                                                  "openMenuOnClick": true,
+                                                  "openMenuOnFocus": false,
+                                                  "options": Array [
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                      "value": "E",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                      "value": "S",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                      "value": "F",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                      "value": "R",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                      "value": "H",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                      "value": "U",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                      "value": "V",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                      "value": "I",
+                                                    },
+                                                    Object {
+                                                      "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                      "value": "N",
+                                                    },
+                                                  ],
+                                                  "pageSize": 5,
+                                                  "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                  "placeholder": "Please select",
+                                                  "screenReaderStatus": [Function],
+                                                  "styles": Object {
+                                                    "control": [Function],
+                                                    "dropdownIndicator": [Function],
+                                                    "menu": [Function],
+                                                    "option": [Function],
+                                                  },
+                                                  "tabIndex": "0",
+                                                  "tabSelectsValue": true,
+                                                  "value": "",
+                                                }
+                                              }
+                                              setValue={[Function]}
+                                              theme={
+                                                Object {
+                                                  "borderRadius": 4,
+                                                  "colors": Object {
+                                                    "danger": "#DE350B",
+                                                    "dangerLight": "#FFBDAD",
+                                                    "neutral0": "hsl(0, 0%, 100%)",
+                                                    "neutral10": "hsl(0, 0%, 90%)",
+                                                    "neutral20": "hsl(0, 0%, 80%)",
+                                                    "neutral30": "hsl(0, 0%, 70%)",
+                                                    "neutral40": "hsl(0, 0%, 60%)",
+                                                    "neutral5": "hsl(0, 0%, 95%)",
+                                                    "neutral50": "hsl(0, 0%, 50%)",
+                                                    "neutral60": "hsl(0, 0%, 40%)",
+                                                    "neutral70": "hsl(0, 0%, 30%)",
+                                                    "neutral80": "hsl(0, 0%, 20%)",
+                                                    "neutral90": "hsl(0, 0%, 10%)",
+                                                    "primary": "#2684FF",
+                                                    "primary25": "#DEEBFF",
+                                                    "primary50": "#B2D4FF",
+                                                    "primary75": "#4C9AFF",
+                                                  },
+                                                  "spacing": Object {
+                                                    "baseUnit": 4,
+                                                    "controlHeight": 38,
+                                                    "menuGutter": 8,
+                                                  },
+                                                }
+                                              }
+                                            >
+                                              <div
+                                                className="css-1pcexqc-container hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue"
+                                                onKeyDown={[Function]}
+                                              >
+                                                <Control
+                                                  clearValue={[Function]}
+                                                  cx={[Function]}
+                                                  getStyles={[Function]}
+                                                  getValue={[Function]}
+                                                  hasValue={false}
+                                                  innerProps={
+                                                    Object {
+                                                      "onMouseDown": [Function],
+                                                      "onTouchEnd": [Function],
+                                                    }
+                                                  }
+                                                  innerRef={[Function]}
+                                                  isDisabled={false}
+                                                  isFocused={false}
+                                                  isMulti={false}
+                                                  isRtl={false}
+                                                  menuIsOpen={false}
+                                                  options={
+                                                    Array [
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                        "value": "E",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                        "value": "S",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                        "value": "F",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                        "value": "R",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                        "value": "H",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                        "value": "U",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                        "value": "V",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                        "value": "I",
+                                                      },
+                                                      Object {
+                                                        "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                        "value": "N",
+                                                      },
+                                                    ]
+                                                  }
+                                                  selectOption={[Function]}
+                                                  selectProps={
+                                                    Object {
+                                                      "backspaceRemovesValue": true,
+                                                      "blurInputOnSelect": true,
+                                                      "captureMenuScroll": false,
+                                                      "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                      "closeMenuOnScroll": false,
+                                                      "closeMenuOnSelect": true,
+                                                      "components": Object {
+                                                        "IndicatorSeparator": [Function],
+                                                      },
+                                                      "controlShouldRenderValue": true,
+                                                      "escapeClearsValue": false,
+                                                      "filterOption": [Function],
+                                                      "formatGroupLabel": [Function],
+                                                      "getOptionLabel": [Function],
+                                                      "getOptionValue": [Function],
+                                                      "inputValue": "",
+                                                      "isDisabled": false,
+                                                      "isLoading": false,
+                                                      "isMulti": false,
+                                                      "isOptionDisabled": [Function],
+                                                      "isRtl": false,
+                                                      "isSearchable": true,
+                                                      "loadingMessage": [Function],
+                                                      "maxMenuHeight": 300,
+                                                      "menuIsOpen": false,
+                                                      "menuPlacement": "bottom",
+                                                      "menuPosition": "absolute",
+                                                      "menuShouldBlockScroll": false,
+                                                      "menuShouldScrollIntoView": true,
+                                                      "minMenuHeight": 140,
+                                                      "name": "fullEmpStatus",
+                                                      "noOptionsMessage": [Function],
+                                                      "onBlur": [Function],
+                                                      "onChange": [Function],
+                                                      "onFocus": undefined,
+                                                      "onInputChange": [Function],
+                                                      "onMenuClose": [Function],
+                                                      "onMenuOpen": [Function],
+                                                      "openMenuOnClick": true,
+                                                      "openMenuOnFocus": false,
+                                                      "options": Array [
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                          "value": "E",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                          "value": "S",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                          "value": "F",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                          "value": "R",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                          "value": "H",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                          "value": "U",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                          "value": "V",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                          "value": "I",
+                                                        },
+                                                        Object {
+                                                          "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                          "value": "N",
+                                                        },
+                                                      ],
+                                                      "pageSize": 5,
+                                                      "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                      "placeholder": "Please select",
+                                                      "screenReaderStatus": [Function],
+                                                      "styles": Object {
+                                                        "control": [Function],
+                                                        "dropdownIndicator": [Function],
+                                                        "menu": [Function],
+                                                        "option": [Function],
+                                                      },
+                                                      "tabIndex": "0",
+                                                      "tabSelectsValue": true,
+                                                      "value": "",
+                                                    }
+                                                  }
+                                                  setValue={[Function]}
+                                                  theme={
+                                                    Object {
+                                                      "borderRadius": 4,
+                                                      "colors": Object {
+                                                        "danger": "#DE350B",
+                                                        "dangerLight": "#FFBDAD",
+                                                        "neutral0": "hsl(0, 0%, 100%)",
+                                                        "neutral10": "hsl(0, 0%, 90%)",
+                                                        "neutral20": "hsl(0, 0%, 80%)",
+                                                        "neutral30": "hsl(0, 0%, 70%)",
+                                                        "neutral40": "hsl(0, 0%, 60%)",
+                                                        "neutral5": "hsl(0, 0%, 95%)",
+                                                        "neutral50": "hsl(0, 0%, 50%)",
+                                                        "neutral60": "hsl(0, 0%, 40%)",
+                                                        "neutral70": "hsl(0, 0%, 30%)",
+                                                        "neutral80": "hsl(0, 0%, 20%)",
+                                                        "neutral90": "hsl(0, 0%, 10%)",
+                                                        "primary": "#2684FF",
+                                                        "primary25": "#DEEBFF",
+                                                        "primary50": "#B2D4FF",
+                                                        "primary75": "#4C9AFF",
+                                                      },
+                                                      "spacing": Object {
+                                                        "baseUnit": 4,
+                                                        "controlHeight": 38,
+                                                        "menuGutter": 8,
+                                                      },
+                                                    }
+                                                  }
+                                                >
+                                                  <div
+                                                    className="css-hrbt24-control"
+                                                    onMouseDown={[Function]}
+                                                    onTouchEnd={[Function]}
+                                                  >
+                                                    <ValueContainer
+                                                      clearValue={[Function]}
+                                                      cx={[Function]}
+                                                      getStyles={[Function]}
+                                                      getValue={[Function]}
+                                                      hasValue={false}
+                                                      isDisabled={false}
+                                                      isMulti={false}
+                                                      isRtl={false}
+                                                      options={
+                                                        Array [
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                            "value": "E",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                            "value": "S",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                            "value": "F",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                            "value": "R",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                            "value": "H",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                            "value": "U",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                            "value": "V",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                            "value": "I",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                            "value": "N",
+                                                          },
+                                                        ]
+                                                      }
+                                                      selectOption={[Function]}
+                                                      selectProps={
+                                                        Object {
+                                                          "backspaceRemovesValue": true,
+                                                          "blurInputOnSelect": true,
+                                                          "captureMenuScroll": false,
+                                                          "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                          "closeMenuOnScroll": false,
+                                                          "closeMenuOnSelect": true,
+                                                          "components": Object {
+                                                            "IndicatorSeparator": [Function],
+                                                          },
+                                                          "controlShouldRenderValue": true,
+                                                          "escapeClearsValue": false,
+                                                          "filterOption": [Function],
+                                                          "formatGroupLabel": [Function],
+                                                          "getOptionLabel": [Function],
+                                                          "getOptionValue": [Function],
+                                                          "inputValue": "",
+                                                          "isDisabled": false,
+                                                          "isLoading": false,
+                                                          "isMulti": false,
+                                                          "isOptionDisabled": [Function],
+                                                          "isRtl": false,
+                                                          "isSearchable": true,
+                                                          "loadingMessage": [Function],
+                                                          "maxMenuHeight": 300,
+                                                          "menuIsOpen": false,
+                                                          "menuPlacement": "bottom",
+                                                          "menuPosition": "absolute",
+                                                          "menuShouldBlockScroll": false,
+                                                          "menuShouldScrollIntoView": true,
+                                                          "minMenuHeight": 140,
+                                                          "name": "fullEmpStatus",
+                                                          "noOptionsMessage": [Function],
+                                                          "onBlur": [Function],
+                                                          "onChange": [Function],
+                                                          "onFocus": undefined,
+                                                          "onInputChange": [Function],
+                                                          "onMenuClose": [Function],
+                                                          "onMenuOpen": [Function],
+                                                          "openMenuOnClick": true,
+                                                          "openMenuOnFocus": false,
+                                                          "options": Array [
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                              "value": "E",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                              "value": "S",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                              "value": "F",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                              "value": "R",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                              "value": "H",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                              "value": "U",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                              "value": "V",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                              "value": "I",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                              "value": "N",
+                                                            },
+                                                          ],
+                                                          "pageSize": 5,
+                                                          "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                          "placeholder": "Please select",
+                                                          "screenReaderStatus": [Function],
+                                                          "styles": Object {
+                                                            "control": [Function],
+                                                            "dropdownIndicator": [Function],
+                                                            "menu": [Function],
+                                                            "option": [Function],
+                                                          },
+                                                          "tabIndex": "0",
+                                                          "tabSelectsValue": true,
+                                                          "value": "",
+                                                        }
+                                                      }
+                                                      setValue={[Function]}
+                                                      theme={
+                                                        Object {
+                                                          "borderRadius": 4,
+                                                          "colors": Object {
+                                                            "danger": "#DE350B",
+                                                            "dangerLight": "#FFBDAD",
+                                                            "neutral0": "hsl(0, 0%, 100%)",
+                                                            "neutral10": "hsl(0, 0%, 90%)",
+                                                            "neutral20": "hsl(0, 0%, 80%)",
+                                                            "neutral30": "hsl(0, 0%, 70%)",
+                                                            "neutral40": "hsl(0, 0%, 60%)",
+                                                            "neutral5": "hsl(0, 0%, 95%)",
+                                                            "neutral50": "hsl(0, 0%, 50%)",
+                                                            "neutral60": "hsl(0, 0%, 40%)",
+                                                            "neutral70": "hsl(0, 0%, 30%)",
+                                                            "neutral80": "hsl(0, 0%, 20%)",
+                                                            "neutral90": "hsl(0, 0%, 10%)",
+                                                            "primary": "#2684FF",
+                                                            "primary25": "#DEEBFF",
+                                                            "primary50": "#B2D4FF",
+                                                            "primary75": "#4C9AFF",
+                                                          },
+                                                          "spacing": Object {
+                                                            "baseUnit": 4,
+                                                            "controlHeight": 38,
+                                                            "menuGutter": 8,
+                                                          },
+                                                        }
+                                                      }
+                                                    >
+                                                      <div
+                                                        className="css-1hwfws3"
+                                                      >
+                                                        <Placeholder
+                                                          clearValue={[Function]}
+                                                          cx={[Function]}
+                                                          getStyles={[Function]}
+                                                          getValue={[Function]}
+                                                          hasValue={false}
+                                                          isDisabled={false}
+                                                          isFocused={false}
+                                                          isMulti={false}
+                                                          isRtl={false}
+                                                          key="placeholder"
+                                                          options={
+                                                            Array [
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                                "value": "E",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                                "value": "S",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                                "value": "F",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                                "value": "R",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                                "value": "H",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                                "value": "U",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                                "value": "V",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                                "value": "I",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                                "value": "N",
+                                                              },
+                                                            ]
+                                                          }
+                                                          selectOption={[Function]}
+                                                          selectProps={
+                                                            Object {
+                                                              "backspaceRemovesValue": true,
+                                                              "blurInputOnSelect": true,
+                                                              "captureMenuScroll": false,
+                                                              "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                              "closeMenuOnScroll": false,
+                                                              "closeMenuOnSelect": true,
+                                                              "components": Object {
+                                                                "IndicatorSeparator": [Function],
+                                                              },
+                                                              "controlShouldRenderValue": true,
+                                                              "escapeClearsValue": false,
+                                                              "filterOption": [Function],
+                                                              "formatGroupLabel": [Function],
+                                                              "getOptionLabel": [Function],
+                                                              "getOptionValue": [Function],
+                                                              "inputValue": "",
+                                                              "isDisabled": false,
+                                                              "isLoading": false,
+                                                              "isMulti": false,
+                                                              "isOptionDisabled": [Function],
+                                                              "isRtl": false,
+                                                              "isSearchable": true,
+                                                              "loadingMessage": [Function],
+                                                              "maxMenuHeight": 300,
+                                                              "menuIsOpen": false,
+                                                              "menuPlacement": "bottom",
+                                                              "menuPosition": "absolute",
+                                                              "menuShouldBlockScroll": false,
+                                                              "menuShouldScrollIntoView": true,
+                                                              "minMenuHeight": 140,
+                                                              "name": "fullEmpStatus",
+                                                              "noOptionsMessage": [Function],
+                                                              "onBlur": [Function],
+                                                              "onChange": [Function],
+                                                              "onFocus": undefined,
+                                                              "onInputChange": [Function],
+                                                              "onMenuClose": [Function],
+                                                              "onMenuOpen": [Function],
+                                                              "openMenuOnClick": true,
+                                                              "openMenuOnFocus": false,
+                                                              "options": Array [
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                                  "value": "E",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                                  "value": "S",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                                  "value": "F",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                                  "value": "R",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                                  "value": "H",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                                  "value": "U",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                                  "value": "V",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                                  "value": "I",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                                  "value": "N",
+                                                                },
+                                                              ],
+                                                              "pageSize": 5,
+                                                              "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                              "placeholder": "Please select",
+                                                              "screenReaderStatus": [Function],
+                                                              "styles": Object {
+                                                                "control": [Function],
+                                                                "dropdownIndicator": [Function],
+                                                                "menu": [Function],
+                                                                "option": [Function],
+                                                              },
+                                                              "tabIndex": "0",
+                                                              "tabSelectsValue": true,
+                                                              "value": "",
+                                                            }
+                                                          }
+                                                          setValue={[Function]}
+                                                          theme={
+                                                            Object {
+                                                              "borderRadius": 4,
+                                                              "colors": Object {
+                                                                "danger": "#DE350B",
+                                                                "dangerLight": "#FFBDAD",
+                                                                "neutral0": "hsl(0, 0%, 100%)",
+                                                                "neutral10": "hsl(0, 0%, 90%)",
+                                                                "neutral20": "hsl(0, 0%, 80%)",
+                                                                "neutral30": "hsl(0, 0%, 70%)",
+                                                                "neutral40": "hsl(0, 0%, 60%)",
+                                                                "neutral5": "hsl(0, 0%, 95%)",
+                                                                "neutral50": "hsl(0, 0%, 50%)",
+                                                                "neutral60": "hsl(0, 0%, 40%)",
+                                                                "neutral70": "hsl(0, 0%, 30%)",
+                                                                "neutral80": "hsl(0, 0%, 20%)",
+                                                                "neutral90": "hsl(0, 0%, 10%)",
+                                                                "primary": "#2684FF",
+                                                                "primary25": "#DEEBFF",
+                                                                "primary50": "#B2D4FF",
+                                                                "primary75": "#4C9AFF",
+                                                              },
+                                                              "spacing": Object {
+                                                                "baseUnit": 4,
+                                                                "controlHeight": 38,
+                                                                "menuGutter": 8,
+                                                              },
+                                                            }
+                                                          }
+                                                        >
+                                                          <div
+                                                            className="css-151xaom-placeholder"
+                                                          >
+                                                            Please select
+                                                          </div>
+                                                        </Placeholder>
+                                                        <Input
+                                                          aria-autocomplete="list"
+                                                          autoCapitalize="none"
+                                                          autoComplete="off"
+                                                          autoCorrect="off"
+                                                          cx={[Function]}
+                                                          getStyles={[Function]}
+                                                          id="react-select-2-input"
+                                                          innerRef={[Function]}
+                                                          isDisabled={false}
+                                                          isHidden={false}
+                                                          onBlur={[Function]}
+                                                          onChange={[Function]}
+                                                          onFocus={[Function]}
+                                                          selectProps={
+                                                            Object {
+                                                              "backspaceRemovesValue": true,
+                                                              "blurInputOnSelect": true,
+                                                              "captureMenuScroll": false,
+                                                              "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                              "closeMenuOnScroll": false,
+                                                              "closeMenuOnSelect": true,
+                                                              "components": Object {
+                                                                "IndicatorSeparator": [Function],
+                                                              },
+                                                              "controlShouldRenderValue": true,
+                                                              "escapeClearsValue": false,
+                                                              "filterOption": [Function],
+                                                              "formatGroupLabel": [Function],
+                                                              "getOptionLabel": [Function],
+                                                              "getOptionValue": [Function],
+                                                              "inputValue": "",
+                                                              "isDisabled": false,
+                                                              "isLoading": false,
+                                                              "isMulti": false,
+                                                              "isOptionDisabled": [Function],
+                                                              "isRtl": false,
+                                                              "isSearchable": true,
+                                                              "loadingMessage": [Function],
+                                                              "maxMenuHeight": 300,
+                                                              "menuIsOpen": false,
+                                                              "menuPlacement": "bottom",
+                                                              "menuPosition": "absolute",
+                                                              "menuShouldBlockScroll": false,
+                                                              "menuShouldScrollIntoView": true,
+                                                              "minMenuHeight": 140,
+                                                              "name": "fullEmpStatus",
+                                                              "noOptionsMessage": [Function],
+                                                              "onBlur": [Function],
+                                                              "onChange": [Function],
+                                                              "onFocus": undefined,
+                                                              "onInputChange": [Function],
+                                                              "onMenuClose": [Function],
+                                                              "onMenuOpen": [Function],
+                                                              "openMenuOnClick": true,
+                                                              "openMenuOnFocus": false,
+                                                              "options": Array [
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                                  "value": "E",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                                  "value": "S",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                                  "value": "F",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                                  "value": "R",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                                  "value": "H",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                                  "value": "U",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                                  "value": "V",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                                  "value": "I",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                                  "value": "N",
+                                                                },
+                                                              ],
+                                                              "pageSize": 5,
+                                                              "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                              "placeholder": "Please select",
+                                                              "screenReaderStatus": [Function],
+                                                              "styles": Object {
+                                                                "control": [Function],
+                                                                "dropdownIndicator": [Function],
+                                                                "menu": [Function],
+                                                                "option": [Function],
+                                                              },
+                                                              "tabIndex": "0",
+                                                              "tabSelectsValue": true,
+                                                              "value": "",
+                                                            }
+                                                          }
+                                                          spellCheck="false"
+                                                          tabIndex="0"
+                                                          theme={
+                                                            Object {
+                                                              "borderRadius": 4,
+                                                              "colors": Object {
+                                                                "danger": "#DE350B",
+                                                                "dangerLight": "#FFBDAD",
+                                                                "neutral0": "hsl(0, 0%, 100%)",
+                                                                "neutral10": "hsl(0, 0%, 90%)",
+                                                                "neutral20": "hsl(0, 0%, 80%)",
+                                                                "neutral30": "hsl(0, 0%, 70%)",
+                                                                "neutral40": "hsl(0, 0%, 60%)",
+                                                                "neutral5": "hsl(0, 0%, 95%)",
+                                                                "neutral50": "hsl(0, 0%, 50%)",
+                                                                "neutral60": "hsl(0, 0%, 40%)",
+                                                                "neutral70": "hsl(0, 0%, 30%)",
+                                                                "neutral80": "hsl(0, 0%, 20%)",
+                                                                "neutral90": "hsl(0, 0%, 10%)",
+                                                                "primary": "#2684FF",
+                                                                "primary25": "#DEEBFF",
+                                                                "primary50": "#B2D4FF",
+                                                                "primary75": "#4C9AFF",
+                                                              },
+                                                              "spacing": Object {
+                                                                "baseUnit": 4,
+                                                                "controlHeight": 38,
+                                                                "menuGutter": 8,
+                                                              },
+                                                            }
+                                                          }
+                                                          type="text"
+                                                          value=""
+                                                        >
+                                                          <div
+                                                            className="css-1g6gooi"
+                                                          >
+                                                            <AutosizeInput
+                                                              aria-autocomplete="list"
+                                                              autoCapitalize="none"
+                                                              autoComplete="off"
+                                                              autoCorrect="off"
+                                                              className=""
+                                                              disabled={false}
+                                                              id="react-select-2-input"
+                                                              injectStyles={true}
+                                                              inputRef={[Function]}
+                                                              inputStyle={
+                                                                Object {
+                                                                  "background": 0,
+                                                                  "border": 0,
+                                                                  "color": "inherit",
+                                                                  "fontSize": "inherit",
+                                                                  "label": "input",
+                                                                  "opacity": 1,
+                                                                  "outline": 0,
+                                                                  "padding": 0,
+                                                                }
+                                                              }
+                                                              minWidth={1}
+                                                              onBlur={[Function]}
+                                                              onChange={[Function]}
+                                                              onFocus={[Function]}
+                                                              spellCheck="false"
+                                                              tabIndex="0"
+                                                              type="text"
+                                                              value=""
+                                                            >
+                                                              <div
+                                                                className=""
+                                                                style={
+                                                                  Object {
+                                                                    "display": "inline-block",
+                                                                  }
+                                                                }
+                                                              >
+                                                                <input
+                                                                  aria-autocomplete="list"
+                                                                  autoCapitalize="none"
+                                                                  autoComplete="off"
+                                                                  autoCorrect="off"
+                                                                  disabled={false}
+                                                                  id="react-select-2-input"
+                                                                  onBlur={[Function]}
+                                                                  onChange={[Function]}
+                                                                  onFocus={[Function]}
+                                                                  spellCheck="false"
+                                                                  style={
+                                                                    Object {
+                                                                      "background": 0,
+                                                                      "border": 0,
+                                                                      "boxSizing": "content-box",
+                                                                      "color": "inherit",
+                                                                      "fontSize": "inherit",
+                                                                      "label": "input",
+                                                                      "opacity": 1,
+                                                                      "outline": 0,
+                                                                      "padding": 0,
+                                                                      "width": "2px",
+                                                                    }
+                                                                  }
+                                                                  tabIndex="0"
+                                                                  type="text"
+                                                                  value=""
+                                                                />
+                                                                <div
+                                                                  style={
+                                                                    Object {
+                                                                      "height": 0,
+                                                                      "left": 0,
+                                                                      "overflow": "scroll",
+                                                                      "position": "absolute",
+                                                                      "top": 0,
+                                                                      "visibility": "hidden",
+                                                                      "whiteSpace": "pre",
+                                                                    }
+                                                                  }
+                                                                />
+                                                              </div>
+                                                            </AutosizeInput>
+                                                          </div>
+                                                        </Input>
+                                                      </div>
+                                                    </ValueContainer>
+                                                    <IndicatorsContainer
+                                                      clearValue={[Function]}
+                                                      cx={[Function]}
+                                                      getStyles={[Function]}
+                                                      getValue={[Function]}
+                                                      hasValue={false}
+                                                      isDisabled={false}
+                                                      isMulti={false}
+                                                      isRtl={false}
+                                                      options={
+                                                        Array [
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                            "value": "E",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                            "value": "S",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                            "value": "F",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                            "value": "R",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                            "value": "H",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                            "value": "U",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                            "value": "V",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                            "value": "I",
+                                                          },
+                                                          Object {
+                                                            "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                            "value": "N",
+                                                          },
+                                                        ]
+                                                      }
+                                                      selectOption={[Function]}
+                                                      selectProps={
+                                                        Object {
+                                                          "backspaceRemovesValue": true,
+                                                          "blurInputOnSelect": true,
+                                                          "captureMenuScroll": false,
+                                                          "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                          "closeMenuOnScroll": false,
+                                                          "closeMenuOnSelect": true,
+                                                          "components": Object {
+                                                            "IndicatorSeparator": [Function],
+                                                          },
+                                                          "controlShouldRenderValue": true,
+                                                          "escapeClearsValue": false,
+                                                          "filterOption": [Function],
+                                                          "formatGroupLabel": [Function],
+                                                          "getOptionLabel": [Function],
+                                                          "getOptionValue": [Function],
+                                                          "inputValue": "",
+                                                          "isDisabled": false,
+                                                          "isLoading": false,
+                                                          "isMulti": false,
+                                                          "isOptionDisabled": [Function],
+                                                          "isRtl": false,
+                                                          "isSearchable": true,
+                                                          "loadingMessage": [Function],
+                                                          "maxMenuHeight": 300,
+                                                          "menuIsOpen": false,
+                                                          "menuPlacement": "bottom",
+                                                          "menuPosition": "absolute",
+                                                          "menuShouldBlockScroll": false,
+                                                          "menuShouldScrollIntoView": true,
+                                                          "minMenuHeight": 140,
+                                                          "name": "fullEmpStatus",
+                                                          "noOptionsMessage": [Function],
+                                                          "onBlur": [Function],
+                                                          "onChange": [Function],
+                                                          "onFocus": undefined,
+                                                          "onInputChange": [Function],
+                                                          "onMenuClose": [Function],
+                                                          "onMenuOpen": [Function],
+                                                          "openMenuOnClick": true,
+                                                          "openMenuOnFocus": false,
+                                                          "options": Array [
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                              "value": "E",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                              "value": "S",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                              "value": "F",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                              "value": "R",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                              "value": "H",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                              "value": "U",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                              "value": "V",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                              "value": "I",
+                                                            },
+                                                            Object {
+                                                              "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                              "value": "N",
+                                                            },
+                                                          ],
+                                                          "pageSize": 5,
+                                                          "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                          "placeholder": "Please select",
+                                                          "screenReaderStatus": [Function],
+                                                          "styles": Object {
+                                                            "control": [Function],
+                                                            "dropdownIndicator": [Function],
+                                                            "menu": [Function],
+                                                            "option": [Function],
+                                                          },
+                                                          "tabIndex": "0",
+                                                          "tabSelectsValue": true,
+                                                          "value": "",
+                                                        }
+                                                      }
+                                                      setValue={[Function]}
+                                                      theme={
+                                                        Object {
+                                                          "borderRadius": 4,
+                                                          "colors": Object {
+                                                            "danger": "#DE350B",
+                                                            "dangerLight": "#FFBDAD",
+                                                            "neutral0": "hsl(0, 0%, 100%)",
+                                                            "neutral10": "hsl(0, 0%, 90%)",
+                                                            "neutral20": "hsl(0, 0%, 80%)",
+                                                            "neutral30": "hsl(0, 0%, 70%)",
+                                                            "neutral40": "hsl(0, 0%, 60%)",
+                                                            "neutral5": "hsl(0, 0%, 95%)",
+                                                            "neutral50": "hsl(0, 0%, 50%)",
+                                                            "neutral60": "hsl(0, 0%, 40%)",
+                                                            "neutral70": "hsl(0, 0%, 30%)",
+                                                            "neutral80": "hsl(0, 0%, 20%)",
+                                                            "neutral90": "hsl(0, 0%, 10%)",
+                                                            "primary": "#2684FF",
+                                                            "primary25": "#DEEBFF",
+                                                            "primary50": "#B2D4FF",
+                                                            "primary75": "#4C9AFF",
+                                                          },
+                                                          "spacing": Object {
+                                                            "baseUnit": 4,
+                                                            "controlHeight": 38,
+                                                            "menuGutter": 8,
+                                                          },
+                                                        }
+                                                      }
+                                                    >
+                                                      <div
+                                                        className="css-1wy0on6"
+                                                      >
+                                                        <IndicatorSeparator
+                                                          clearValue={[Function]}
+                                                          cx={[Function]}
+                                                          getStyles={[Function]}
+                                                          getValue={[Function]}
+                                                          hasValue={false}
+                                                          isDisabled={false}
+                                                          isFocused={false}
+                                                          isMulti={false}
+                                                          isRtl={false}
+                                                          options={
+                                                            Array [
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                                "value": "E",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                                "value": "S",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                                "value": "F",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                                "value": "R",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                                "value": "H",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                                "value": "U",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                                "value": "V",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                                "value": "I",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                                "value": "N",
+                                                              },
+                                                            ]
+                                                          }
+                                                          selectOption={[Function]}
+                                                          selectProps={
+                                                            Object {
+                                                              "backspaceRemovesValue": true,
+                                                              "blurInputOnSelect": true,
+                                                              "captureMenuScroll": false,
+                                                              "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                              "closeMenuOnScroll": false,
+                                                              "closeMenuOnSelect": true,
+                                                              "components": Object {
+                                                                "IndicatorSeparator": [Function],
+                                                              },
+                                                              "controlShouldRenderValue": true,
+                                                              "escapeClearsValue": false,
+                                                              "filterOption": [Function],
+                                                              "formatGroupLabel": [Function],
+                                                              "getOptionLabel": [Function],
+                                                              "getOptionValue": [Function],
+                                                              "inputValue": "",
+                                                              "isDisabled": false,
+                                                              "isLoading": false,
+                                                              "isMulti": false,
+                                                              "isOptionDisabled": [Function],
+                                                              "isRtl": false,
+                                                              "isSearchable": true,
+                                                              "loadingMessage": [Function],
+                                                              "maxMenuHeight": 300,
+                                                              "menuIsOpen": false,
+                                                              "menuPlacement": "bottom",
+                                                              "menuPosition": "absolute",
+                                                              "menuShouldBlockScroll": false,
+                                                              "menuShouldScrollIntoView": true,
+                                                              "minMenuHeight": 140,
+                                                              "name": "fullEmpStatus",
+                                                              "noOptionsMessage": [Function],
+                                                              "onBlur": [Function],
+                                                              "onChange": [Function],
+                                                              "onFocus": undefined,
+                                                              "onInputChange": [Function],
+                                                              "onMenuClose": [Function],
+                                                              "onMenuOpen": [Function],
+                                                              "openMenuOnClick": true,
+                                                              "openMenuOnFocus": false,
+                                                              "options": Array [
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                                  "value": "E",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                                  "value": "S",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                                  "value": "F",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                                  "value": "R",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                                  "value": "H",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                                  "value": "U",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                                  "value": "V",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                                  "value": "I",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                                  "value": "N",
+                                                                },
+                                                              ],
+                                                              "pageSize": 5,
+                                                              "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                              "placeholder": "Please select",
+                                                              "screenReaderStatus": [Function],
+                                                              "styles": Object {
+                                                                "control": [Function],
+                                                                "dropdownIndicator": [Function],
+                                                                "menu": [Function],
+                                                                "option": [Function],
+                                                              },
+                                                              "tabIndex": "0",
+                                                              "tabSelectsValue": true,
+                                                              "value": "",
+                                                            }
+                                                          }
+                                                          setValue={[Function]}
+                                                          theme={
+                                                            Object {
+                                                              "borderRadius": 4,
+                                                              "colors": Object {
+                                                                "danger": "#DE350B",
+                                                                "dangerLight": "#FFBDAD",
+                                                                "neutral0": "hsl(0, 0%, 100%)",
+                                                                "neutral10": "hsl(0, 0%, 90%)",
+                                                                "neutral20": "hsl(0, 0%, 80%)",
+                                                                "neutral30": "hsl(0, 0%, 70%)",
+                                                                "neutral40": "hsl(0, 0%, 60%)",
+                                                                "neutral5": "hsl(0, 0%, 95%)",
+                                                                "neutral50": "hsl(0, 0%, 50%)",
+                                                                "neutral60": "hsl(0, 0%, 40%)",
+                                                                "neutral70": "hsl(0, 0%, 30%)",
+                                                                "neutral80": "hsl(0, 0%, 20%)",
+                                                                "neutral90": "hsl(0, 0%, 10%)",
+                                                                "primary": "#2684FF",
+                                                                "primary25": "#DEEBFF",
+                                                                "primary50": "#B2D4FF",
+                                                                "primary75": "#4C9AFF",
+                                                              },
+                                                              "spacing": Object {
+                                                                "baseUnit": 4,
+                                                                "controlHeight": 38,
+                                                                "menuGutter": 8,
+                                                              },
+                                                            }
+                                                          }
+                                                        />
+                                                        <DropdownIndicator
+                                                          clearValue={[Function]}
+                                                          cx={[Function]}
+                                                          getStyles={[Function]}
+                                                          getValue={[Function]}
+                                                          hasValue={false}
+                                                          innerProps={
+                                                            Object {
+                                                              "aria-hidden": "true",
+                                                              "onMouseDown": [Function],
+                                                              "onTouchEnd": [Function],
+                                                            }
+                                                          }
+                                                          isDisabled={false}
+                                                          isFocused={false}
+                                                          isMulti={false}
+                                                          isRtl={false}
+                                                          options={
+                                                            Array [
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                                "value": "E",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                                "value": "S",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                                "value": "F",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                                "value": "R",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                                "value": "H",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                                "value": "U",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                                "value": "V",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                                "value": "I",
+                                                              },
+                                                              Object {
+                                                                "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                                "value": "N",
+                                                              },
+                                                            ]
+                                                          }
+                                                          selectOption={[Function]}
+                                                          selectProps={
+                                                            Object {
+                                                              "backspaceRemovesValue": true,
+                                                              "blurInputOnSelect": true,
+                                                              "captureMenuScroll": false,
+                                                              "className": "hd-dropdown col-md-8 pl-0 pr-0 drop-down-list blue",
+                                                              "closeMenuOnScroll": false,
+                                                              "closeMenuOnSelect": true,
+                                                              "components": Object {
+                                                                "IndicatorSeparator": [Function],
+                                                              },
+                                                              "controlShouldRenderValue": true,
+                                                              "escapeClearsValue": false,
+                                                              "filterOption": [Function],
+                                                              "formatGroupLabel": [Function],
+                                                              "getOptionLabel": [Function],
+                                                              "getOptionValue": [Function],
+                                                              "inputValue": "",
+                                                              "isDisabled": false,
+                                                              "isLoading": false,
+                                                              "isMulti": false,
+                                                              "isOptionDisabled": [Function],
+                                                              "isRtl": false,
+                                                              "isSearchable": true,
+                                                              "loadingMessage": [Function],
+                                                              "maxMenuHeight": 300,
+                                                              "menuIsOpen": false,
+                                                              "menuPlacement": "bottom",
+                                                              "menuPosition": "absolute",
+                                                              "menuShouldBlockScroll": false,
+                                                              "menuShouldScrollIntoView": true,
+                                                              "minMenuHeight": 140,
+                                                              "name": "fullEmpStatus",
+                                                              "noOptionsMessage": [Function],
+                                                              "onBlur": [Function],
+                                                              "onChange": [Function],
+                                                              "onFocus": undefined,
+                                                              "onInputChange": [Function],
+                                                              "onMenuClose": [Function],
+                                                              "onMenuOpen": [Function],
+                                                              "openMenuOnClick": true,
+                                                              "openMenuOnFocus": false,
+                                                              "options": Array [
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.E",
+                                                                  "value": "E",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.S",
+                                                                  "value": "S",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.F",
+                                                                  "value": "F",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.R",
+                                                                  "value": "R",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.H",
+                                                                  "value": "H",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.U",
+                                                                  "value": "U",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.V",
+                                                                  "value": "V",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.I",
+                                                                  "value": "I",
+                                                                },
+                                                                Object {
+                                                                  "label": "typekey.FullTimeEmpStatus_Ext.N",
+                                                                  "value": "N",
+                                                                },
+                                                              ],
+                                                              "pageSize": 5,
+                                                              "path": "lobData.privateCar.coverables.drivers.children.0.fullEmpStatus",
+                                                              "placeholder": "Please select",
+                                                              "screenReaderStatus": [Function],
+                                                              "styles": Object {
+                                                                "control": [Function],
+                                                                "dropdownIndicator": [Function],
+                                                                "menu": [Function],
+                                                                "option": [Function],
+                                                              },
+                                                              "tabIndex": "0",
+                                                              "tabSelectsValue": true,
+                                                              "value": "",
+                                                            }
+                                                          }
+                                                          setValue={[Function]}
+                                                          theme={
+                                                            Object {
+                                                              "borderRadius": 4,
+                                                              "colors": Object {
+                                                                "danger": "#DE350B",
+                                                                "dangerLight": "#FFBDAD",
+                                                                "neutral0": "hsl(0, 0%, 100%)",
+                                                                "neutral10": "hsl(0, 0%, 90%)",
+                                                                "neutral20": "hsl(0, 0%, 80%)",
+                                                                "neutral30": "hsl(0, 0%, 70%)",
+                                                                "neutral40": "hsl(0, 0%, 60%)",
+                                                                "neutral5": "hsl(0, 0%, 95%)",
+                                                                "neutral50": "hsl(0, 0%, 50%)",
+                                                                "neutral60": "hsl(0, 0%, 40%)",
+                                                                "neutral70": "hsl(0, 0%, 30%)",
+                                                                "neutral80": "hsl(0, 0%, 20%)",
+                                                                "neutral90": "hsl(0, 0%, 10%)",
+                                                                "primary": "#2684FF",
+                                                                "primary25": "#DEEBFF",
+                                                                "primary50": "#B2D4FF",
+                                                                "primary75": "#4C9AFF",
+                                                              },
+                                                              "spacing": Object {
+                                                                "baseUnit": 4,
+                                                                "controlHeight": 38,
+                                                                "menuGutter": 8,
+                                                              },
+                                                            }
+                                                          }
+                                                        >
+                                                          <div
+                                                            aria-hidden="true"
+                                                            className="css-xwlmv4-indicatorContainer"
+                                                            onMouseDown={[Function]}
+                                                            onTouchEnd={[Function]}
+                                                          >
+                                                            <DownChevron>
+                                                              <Svg
+                                                                size={20}
+                                                              >
+                                                                <svg
+                                                                  aria-hidden="true"
+                                                                  className="css-19bqh2r"
+                                                                  focusable="false"
+                                                                  height={20}
+                                                                  viewBox="0 0 20 20"
+                                                                  width={20}
+                                                                >
+                                                                  <path
+                                                                    d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                                                                  />
+                                                                </svg>
+                                                              </Svg>
+                                                            </DownChevron>
+                                                          </div>
+                                                        </DropdownIndicator>
+                                                      </div>
+                                                    </IndicatorsContainer>
+                                                  </div>
+                                                </Control>
+                                                <input
+                                                  name="fullEmpStatus"
+                                                  type="hidden"
+                                                  value=""
+                                                />
+                                              </div>
+                                            </SelectContainer>
+                                          </Select>
+                                        </StateManager>
+                                      </div>
+                                    </HDDropdownList>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you need to answer this question
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </form>
+                        </Form>
+                      </Formik>
+                    </HDForm>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </HDPrimaryEmployementInfoPage>
+    </Connect(HDPrimaryEmployementInfoPage)>
+  </Provider>
+</Component>
+`;

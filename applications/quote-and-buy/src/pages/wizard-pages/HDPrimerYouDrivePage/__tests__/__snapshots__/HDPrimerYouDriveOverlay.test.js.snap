@@ -1,0 +1,547 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPrimerYouDriveOverlay /> render component 1`] = `
+<HDPrimerYouDriveOverlay>
+  <Container
+    fluid={true}
+  >
+    <div
+      className="container-fluid"
+    >
+      <Row
+        noGutters={false}
+      >
+        <div
+          className="row"
+        >
+          <Col>
+            <div
+              className="col"
+            >
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col>
+                    <div
+                      className="col"
+                    >
+                      <HDLabelRefactor
+                        Tag="p"
+                        adjustImagePosition={true}
+                        className="primer-overlay__overlay-subheader"
+                        text="Hastings Direct YouDrive is compatible with most iPhones and Android smartphones."
+                      >
+                        <p
+                          className="primer-overlay__overlay-subheader"
+                        >
+                          Hastings Direct YouDrive is compatible with most iPhones and Android smartphones.
+                        </p>
+                      </HDLabelRefactor>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="pl-md-0"
+                  >
+                    <div
+                      className="pl-md-0 col"
+                    >
+                      <Row
+                        noGutters={false}
+                      >
+                        <div
+                          className="row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <HDLabelRefactor
+                                Tag="h6"
+                                adjustImagePosition={true}
+                                className="primer-overlay__overlay-ios"
+                                text="iOS/iPhone requirements:"
+                              >
+                                <h6
+                                  className="primer-overlay__overlay-ios"
+                                >
+                                  iOS/iPhone requirements:
+                                </h6>
+                              </HDLabelRefactor>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <Row
+                        className="primer-overlay__ios-info align-items-center"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-overlay__ios-info align-items-center row"
+                        >
+                          <Col
+                            className="col-auto pr-0 d-flex"
+                          >
+                            <div
+                              className="col-auto pr-0 d-flex col"
+                            >
+                              <img
+                                alt="iOS/iPhone"
+                                className="primer-overlay__ios"
+                                src="Tick.svg"
+                              />
+                            </div>
+                          </Col>
+                          <Col
+                            className="pl-0"
+                          >
+                            <div
+                              className="pl-0 col"
+                            >
+                              iOS version 12.0 or higher
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="pl-md-0"
+                  >
+                    <div
+                      className="pl-md-0 col"
+                    >
+                      <Row
+                        noGutters={false}
+                      >
+                        <div
+                          className="row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <HDLabelRefactor
+                                Tag="h6"
+                                adjustImagePosition={true}
+                                className="primer-overlay__overlay-android"
+                                text="Android requirements:"
+                              >
+                                <h6
+                                  className="primer-overlay__overlay-android"
+                                >
+                                  Android requirements:
+                                </h6>
+                              </HDLabelRefactor>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <Row
+                        className="primer-overlay__android-info align-items-center"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-overlay__android-info align-items-center row"
+                        >
+                          <Col
+                            className="col-auto pr-0 d-flex"
+                          >
+                            <div
+                              className="col-auto pr-0 d-flex col"
+                            >
+                              <img
+                                alt="iOS/iPhone"
+                                className="primer-overlay__android"
+                                src="Tick.svg"
+                              />
+                            </div>
+                          </Col>
+                          <Col
+                            className="pl-0"
+                          >
+                            <div
+                              className="pl-0 col"
+                            >
+                              Android version 6.0 or higher
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__overlay-incampatible"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__overlay-incampatible row"
+                >
+                  <Col>
+                    <div
+                      className="col"
+                    >
+                      <HDLabelRefactor
+                        Tag="p"
+                        adjustImagePosition={true}
+                        className=""
+                        text="The following devices are incompatible with Hastings Direct YouDrive:"
+                      >
+                        <p
+                          className=""
+                        >
+                          The following devices are incompatible with Hastings Direct YouDrive:
+                        </p>
+                      </HDLabelRefactor>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      iOS versions below 12.0
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      Android versions below 6.0
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      Android phones which don't have access to the Google Play Store
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      Phones that are currently or have previously been rooted/jailbroken
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0 mt-2"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 mt-2 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      <b>
+                        Samsung
+                      </b>
+                       - Galaxy Note II
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      <b>
+                        HTC
+                      </b>
+                       - One M8
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      <b>
+                        Huawei
+                      </b>
+                       - P7, P8, P8 Lite
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      <b>
+                        BLU
+                      </b>
+                       - Life One XL
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      <b>
+                        ASUS
+                      </b>
+                       - Zenforce 2
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-overlay__os ml-2 ml-md-0"
+                noGutters={false}
+              >
+                <div
+                  className="primer-overlay__os ml-2 ml-md-0 row"
+                >
+                  <Col
+                    className="primer-overlay__cross-tick col-auto pr-0 pl-md-0"
+                  >
+                    <div
+                      className="primer-overlay__cross-tick col-auto pr-0 pl-md-0 col"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="fa fa-times-circle"
+                      />
+                    </div>
+                  </Col>
+                  <Col
+                    className="pl-1"
+                  >
+                    <div
+                      className="pl-1 col"
+                    >
+                      <b>
+                        ZTE
+                      </b>
+                       - Blade Z Max Z982, Blade Spark Z971
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </div>
+  </Container>
+</HDPrimerYouDriveOverlay>
+`;

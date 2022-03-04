@@ -1,0 +1,17 @@
+{
+  "name": "gw-build-capabilities-management",
+  "description": "Provides tools to manage capabilities",
+  "main": "capabilitiesManagement.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "json5": "^2.1.0",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "gw-build-config-paths": "11.2.0-db467149eb42",
+    "gw-build-dependency-analysis": "11.2.0-db467149eb42"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "gw-portals-util-js",
+    "description": "Provides utilities",
+    "main": "index.js",
+    "version": "11.2.0-db467149eb42",
+    "author": "Guidewire",
+    "private": true,
+    "dependencies": {
+      "moment": "2.24.0"
+    },
+    "peerDependencies": {
+      "gw-portals-url-js": "11.2.0-db467149eb42",
+      "lodash": "4.x"
+    }
+  }

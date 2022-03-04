@@ -1,0 +1,134 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/edgev10/locale/locale",
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "usertoken": [
+        "any"
+      ],
+      "Authorization": [
+        "Basic c3U6Z3c="
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "65"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ],
+      "Host": [
+        "localhost:1080"
+      ]
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "id": "1",
+      "jsonrpc": "2.0",
+      "method": "getLocaleConfig",
+      "params": []
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Server-Timing": [
+        "dtRpid;desc=\"-526026222\""
+      ],
+      "X-OneAgent-JS-Injection": [
+        "true"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Set-Cookie": [
+        "dtCookie=v_4_srv_3_sn_9BA04CED04376AC9E11DCA7EDADB30FC_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0; Path=/",
+        "JSESSIONID=0000j3XxU67_Llq2lLaET7-cXZs:-1; Path=/; HttpOnly",
+        "JSESSIONID=687bf10a-ec39-45b2-8bab-b6b24e46d16b; Expires=Fri, 28-May-21 10:12:31 GMT; Path=/"
+      ],
+      "Date": [
+        "Fri, 28 May 2021 09:12:31 GMT"
+      ],
+      "Expires": [
+        "Thu, 01 Dec 1994 16:00:00 GMT"
+      ],
+      "Cache-Control": [
+        "no-cache=\"set-cookie, set-cookie2\""
+      ],
+      "content-length": [
+        "591"
+      ]
+    },
+    "cookies": {
+      "dtCookie": "v_4_srv_3_sn_9BA04CED04376AC9E11DCA7EDADB30FC_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0",
+      "JSESSIONID": "687bf10a-ec39-45b2-8bab-b6b24e46d16b"
+    },
+    "body": {
+      "result": {
+        "currency": {
+          "fractionSize": 2,
+          "symbol": "£",
+          "code": "gbp"
+        },
+        "address": {
+          "pcfMode": "Hastings",
+          "fieldNames": [
+            "Country",
+            "PostalCode",
+            "AddressLine1",
+            "AddressLine2",
+            "City",
+            "AddressLine3"
+          ],
+          "PostalCodeRegex": ".+"
+        },
+        "country": {
+          "name": "United Kingdom",
+          "code": "GB"
+        },
+        "locales": {
+          "en_GB": "English (UK)",
+          "en_US": "English (US)"
+        },
+        "name": {
+          "mode": "default",
+          "formatMode": "default",
+          "visibleFields": [
+            "MiddleName",
+            "Suffix",
+            "LastName",
+            "Prefix",
+            "Name",
+            "FirstName"
+          ]
+        },
+        "preferredLocale": "en_GB",
+        "fallbackLocale": "en_GB",
+        "phone": {
+          "sample": "0121 234 5678",
+          "UserDefaultPhoneCountry": "GB"
+        }
+      },
+      "id": "1",
+      "jsonrpc": "2.0"
+    }
+  }
+}

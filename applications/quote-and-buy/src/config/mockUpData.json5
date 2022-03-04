@@ -1,0 +1,98 @@
+{
+	"quote": {
+		"common": {
+			"baseData": {
+				"accountHolder": {
+					"emailAddress1": "dummy@email.dummy",
+					"accountHolder": true
+				},
+				"policyAddress": {
+					"addressLine1": "0streamlinedquote0",
+					"state": "CA",
+					"city": "0streamlinedquote0",
+					"postalCode": "94044",
+					"country": "US"
+				}
+			},
+			"bindData": {
+				"contactPhone": "650-357-9100"
+			}
+		},
+		"slq": {
+			"baseData": {
+				"productCode": "PersonalAuto",
+				"accountHolder": {
+					"firstName": "0dummyname0",
+					"lastName": "0dummyname0",
+					"licenseNumber": "0streamlinedquote0"
+				}
+			}
+		},
+		"bop": {
+			"baseData": {
+				"productCode": "BusinessOwners",
+				"accountHolder": {
+					"subtype": "Company",
+					"contactName": "0dummyname0"
+				}
+			},
+			"lobData": {
+				"businessOwners": {
+					"accountOrgType": "commonownership",
+					"smallBusinessType": "apartment"
+				}
+			}
+		},
+		"ho": {
+			"baseData": {
+				"productCode": "Homeowners",
+				"accountHolder": {
+					"firstName": "0dummyname0",
+					"lastName": "0dummyname0",
+					"subtype": "Person"
+				}
+			}
+		},
+		"pa": {
+			"baseData": {
+				"productCode": "PersonalAuto",
+				"accountHolder": {
+					"firstName": "0dummyname0",
+					"lastName": "0dummyname0",
+					"subtype": "Person",
+					"dateOfBirth": {
+						"day": 1,
+						"month": 1,
+						"year": 1880
+					}
+				}
+			},
+			"lobData": {
+				"personalAuto": {
+					"coverables": {
+						"drivers": [{
+							"licenseNumber": "0streamlinedquote0",
+							"person": {
+								"firstname": "0dummyname0",
+								"lastname": "0dummyname0"
+							}
+						}],
+						"vehicles": [{
+							"license": "0streamlinedquote0",
+							"vin": "0streamlinedquote0"
+						}]
+					}
+				}
+			}
+		},
+		"codegen": {
+			"baseData": {
+				"accountHolder": {
+					"firstName": "0dummyname0",
+					"lastName": "0dummyname0",
+					"subtype": "Person"
+				}
+			}
+		}
+	}
+}

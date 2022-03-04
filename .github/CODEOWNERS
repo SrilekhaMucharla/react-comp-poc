@@ -1,0 +1,6 @@
+*               @HD-IT-Development/development-peer-review
+
+Jenkinsfile     @HD-IT-Development/release-management-peer-review
+.gitignore      @HD-IT-Development/release-management-peer-review
+.github/        @HD-IT-Development/release-management-peer-review
+azure/			@HD-IT-Development/release-management-peer-review

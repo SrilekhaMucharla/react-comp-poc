@@ -1,0 +1,12 @@
+a.preferred-payment-date__view-details {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 36px;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 42px;
+    }
+
+    .invalid-field + & {
+        margin-top: 10px;
+    }
+}

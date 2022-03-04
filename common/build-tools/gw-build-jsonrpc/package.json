@@ -1,0 +1,16 @@
+{
+  "name": "gw-build-jsonrpc",
+  "description": "A package with utilities needed to send JSON-RPC requests",
+  "main": "jsonrpc.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-fetch": "^2.3.0"
+  },
+  "peerDependencies": {
+    "gw-build-config-urls": "11.2.0-db467149eb42",
+    "gw-build-config-environment": "11.2.0-db467149eb42"
+  }
+}

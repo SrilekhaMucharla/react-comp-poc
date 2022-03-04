@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HastingsInterstitialRatingsWizardComponent /> render component with HD brand 1`] = `
+<Row
+  className="interstitial-ratings-wizard"
+  noGutters={false}
+>
+  <Col
+    className="text-center"
+  >
+    <img
+      alt="Defaqto2"
+      className="img-fluid"
+      src="../../img/defaqto/defaqto-5-star-rated-car.svg"
+    />
+    <p>
+      5 Star Defaqto rating
+    </p>
+  </Col>
+  <Col
+    className="text-center"
+  >
+    <img
+      alt="car insurance provider"
+      className="main-logo"
+      src="insurance-provider-icon.png"
+    />
+    <p
+      className="interstitial-ratings-moneyFacts"
+    >
+      Our car insurance is Moneyfacts 5 star rated
+    </p>
+  </Col>
+</Row>
+`;
+
+exports[`<HastingsInterstitialRatingsWizardComponent /> render component with HE brand 1`] = `
+<Row
+  className="interstitial-ratings-wizard"
+  noGutters={false}
+>
+  <Col
+    className="text-center"
+  >
+    <img
+      alt="car insurance provider"
+      className="main-logo"
+      src="insurance-provider-icon.png"
+    />
+    <p
+      className="interstitial-ratings-moneyFacts"
+    >
+      Our car insurance is Moneyfacts 5 star rated
+    </p>
+  </Col>
+</Row>
+`;
+
+exports[`<HastingsInterstitialRatingsWizardComponent /> render component without brand 1`] = `
+<Row
+  className="interstitial-ratings-wizard"
+  noGutters={false}
+>
+  <Col
+    className="text-center"
+  >
+    <img
+      alt="Defaqto2"
+      className="img-fluid"
+      src="../../img/defaqto/defaqto-5-star-rated-car.svg"
+    />
+    <p>
+      5 Star Defaqto rating
+    </p>
+  </Col>
+  <Col
+    className="text-center"
+  >
+    <img
+      alt="car insurance provider"
+      className="main-logo"
+      src="insurance-provider-icon.png"
+    />
+    <p
+      className="interstitial-ratings-moneyFacts"
+    >
+      Our car insurance is Moneyfacts 5 star rated
+    </p>
+  </Col>
+</Row>
+`;

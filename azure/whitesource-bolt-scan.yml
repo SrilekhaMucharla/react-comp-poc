@@ -1,0 +1,43 @@
+name: $(SourceBranchName)_$(date:yyyyMMdd)$(rev:.r)
+
+schedules:
+- cron: "0 2 * * *"
+  displayName: Daily WhiteSource Scan
+  branches:
+    include:
+    - master
+
+trigger:
+  branches:
+    include:
+      - master
+      - development
+      - emergency-*
+      - release-*
+  paths:
+    include:
+      - package-lock.json
+
+pr: none
+   
+pool:
+  name: vmss-application-build
+
+steps:
+  - task: NodeTool@0 
+    displayName: 'Use specific Node.js version'
+    inputs:
+      versionSpec: '12.14.1'
+
+  - task: PowerShell@2
+    displayName: 'Install necessary dependencies'
+    inputs:
+      targetType: 'inline'
+      script: |
+        npm run bootstrap
+
+  - task: WhiteSource@21
+    displayName: 'White Source Scanning'
+    inputs:
+      cwd: '$(System.DefaultWorkingDirectory)'
+      projectName: 'qnb-report'

@@ -1,0 +1,99 @@
+@import "~gw-common-styles";
+
+.digitalButton {
+    // JUTRO VARIABLES
+    --button-height: 40px;
+    --button-line-height: 0;
+    --button-font-weight: var(--font-weight-normal-bold);
+    // PRIMARY
+    --button-primary-bg-image: none;
+    --button-primary-hover-bg-image: none;
+    --button-primary-active-bg-image: none;
+    --button-primary-color: var(--gw-white);
+    --button-primary-hover-color: var(--gw-white);
+    --button-primary-focus-color: var(--gw-white);
+    // SECONDARY
+    --button-secondary-bg-color: var(--gw-white);
+    --button-secondary-hover-border-color: var(--gw-lime-green);
+    --button-secondary-hover-bg-color: var(--gw-light-green-2);
+    --button-secondary-hover-color: var(--gw-dark-green);
+    --consumerButton-secondary-box-shadow-inner: none;
+    //TERTIARY
+    --button-tertiary-color: var(--gw-green-2);
+    --button-tertiary-hover-bg-color: var(--gw-grey-light-30-color);
+    --button-tertiary-hover-color: var(--gw-dark-green);
+    --button-tertiary-active-bg-color: var(--gw-grey-light-30-color);
+    --button-tertiary-focus-color: var(--gw-dark-green);
+
+    // CUSTOM VARIABLES
+    --gw-button-min-width: 152px;
+    --gw-button-transition-time: .25s;
+
+    @include media("<phonePortrait") {
+        --gw-button-min-width: 80px;
+    }
+
+    // CUSTOM STYLES
+    @include media(">=desktopSmall") {
+        min-width: var(--gw-button-min-width);
+    }
+    box-shadow: none;
+    transition:
+        min-width var(--gw-button-transition-time),
+        min-height var(--gw-button-transition-time),
+        background-color var(--gw-button-transition-time),
+        color var(--gw-button-transition-time),
+        border var(--gw-button-transition-time);
+
+    &:disabled {
+        color: var(--gw-white);
+        border-color: var(--gw-grey-light-30-color);
+        background-color: var(--gw-grey-light-30-color);
+        box-shadow: none;
+    }
+}
+
+.digitalSecondary {
+    --button-font-weight: var(--font-weight-regular);
+    --gw-button-secondary-border: .067rem solid var(--gw-lime-green);
+    --button-color: var(--gw-green-2);
+    --button-focus-color: var(--gw-green-2);
+    border: var(--gw-button-secondary-border);
+
+    &:hover {
+      --button-hover-bg-color: var(--gw-light-green-2);
+      --button-hover-color: var(--gw-dark-green);
+      background-image: unset;
+    }
+
+    &:active {
+      --button-bg-color: var(--gw-light-green-2);
+      --button-color: var(--gw-dark-green);
+      --button-active-bg-color: var(--gw-light-green-2);
+      --button-active-color: var(--gw-dark-green);
+      --button-active-bg-image: unset;
+    }
+
+    &:active:focus {
+      --button-bg-color: var(--gw-white);
+      --button-color: var(--gw-dark-green);
+    }
+
+    &:active:focus:hover {
+      --button-bg-color: var(--gw-white);
+      --button-color: var(--gw-dark-green);
+    }
+
+    &:focus {
+      border: var(--gw-button-secondary-border);
+      box-shadow: var(--button-secondary-focus-box-shadow);
+      --button-bg-color: var(--gw-light-green-2);
+      --button-color: var(--gw-dark-green);
+      background-image: unset;
+      --button-bg-color: var(--gw-light-green-2);
+      --button-color: var(--gw-dark-green);
+      --button-active-bg-color: var(--gw-light-green-2);
+      --button-active-color: var(--gw-dark-green);
+      --button-active-bg-image: unset;
+    }
+}

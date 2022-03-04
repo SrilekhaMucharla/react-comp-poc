@@ -1,0 +1,13 @@
+{
+  "name": "gw-portals-metadata-js",
+  "description": "Provides API to work with metadata",
+  "main": "module.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "lodash": "4.x",
+    "gw-portals-util-js": "11.2.0-db467149eb42"
+  }
+}

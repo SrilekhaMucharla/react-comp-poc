@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MaxVehicleModal should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  cancelLabel="Go back"
+  confirmLabel="OK"
+  headerText="Important"
+  id="maximum-vehicle-count-modal"
+  onBeforeOpen={null}
+  onCancel={[MockFunction]}
+  onClose={[MockFunction]}
+  onConfirm={[MockFunction]}
+  show={true}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "You've reached the maximum amount of cars.",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "You've reached the maximum amount of cars.",
+    }
+  }
+>
+  <span>
+    You've reached the maximum amount of cars.
+  </span>
+</ForwardRef>
+`;

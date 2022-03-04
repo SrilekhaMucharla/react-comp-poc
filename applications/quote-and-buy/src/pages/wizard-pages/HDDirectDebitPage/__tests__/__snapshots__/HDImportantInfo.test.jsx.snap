@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDImportantInfo /> render component 1`] = `
+<Row
+  className="hd-important-info-container theme-white"
+  noGutters={false}
+>
+  <Col>
+    <HDLabelRefactor
+      Tag="h3"
+      adjustImagePosition={true}
+      className=""
+      text="Important information"
+    />
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className=""
+      text="Making changes to your policy"
+    />
+    <p
+      className="info-content text-small"
+    >
+      If you need to make a change to your policy, you might want to borrow more funds. If you do, we may carry out further creditworthiness checks. If you don't meet our lending criteria at the time, you could be asked to pay for the change upfront.
+    </p>
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className=""
+      text="Late or missed payments"
+    />
+    <p
+      className="info-content text-small"
+    >
+      If you miss a payment, you could be charged a late payment fee and your credit file could be affected.
+    </p>
+    <p
+      className="info-content text-small"
+    >
+      If you don't pay an overdue amount, your loan agreement and policy may be cancelled. Your debt could also be passed to a debt collection agency.
+    </p>
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className=""
+      text="Right of withdrawal"
+    />
+    <p
+      className="info-content text-small"
+    >
+      You can withdraw from this loan agreement without giving any reason.
+    </p>
+    <p
+      className="info-content text-small"
+    >
+      Your right to do this begins the day after we've confirmed the credit agreement has been made and ends 14 calendar days later.
+    </p>
+    <p
+      className="info-content text-small"
+    >
+      If you withdraw from the loan agreement, your insurance will be cancelled. You may be charged a cancellation fee and be asked to pay for the time you were insured by us.
+    </p>
+    <p
+      className="info-content text-small"
+    >
+      If you'd like to do this, you'll need to call us on 0333 321 9801. Please also get in touch if you have any questions about the loan agreement.
+    </p>
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className=""
+      text="Consumer Credit Agreement"
+    />
+    <p
+      className="hd-important-info-container__info-content text-small"
+    >
+      Please read and make sure you're happy with the terms and conditions in this 
+      <HDLabelRefactor
+        Tag="a"
+        adjustImagePosition={true}
+        className="hd-important-info-container__doc-link text-small p-0"
+        href="https://hastingsdirect.com/documents/example-of-customer-credit-agreement.pdf"
+        rel="noopener noreferrer"
+        target="_blank"
+        text="Consumer Credit Agreement"
+      />
+    </p>
+    <p
+      className="info-content text-small"
+    >
+      The terms of this agreement apply to you as the policyholder if the loan is in your name. If the loan is being paid by someone else, these terms apply to them as the third party Loanholder.
+    </p>
+    <HDLabelRefactor
+      Tag="h5"
+      adjustImagePosition={true}
+      className=""
+      text="Cancelling your credit agreement"
+    />
+    <p
+      className="info-content text-small"
+    >
+      <p
+        className="direct-debit__cancelling-your-credit-agreement"
+      >
+        <p
+          className="text-small"
+        >
+          You can cancel your credit agreement at any time by calling us on 0333 321 9801 or by writing to:
+        </p>
+        <p
+          className="text-small"
+        >
+          Hastings Insurance Services Limited
+        </p>
+        <p
+          className="text-small"
+        >
+          Conquest House
+        </p>
+        <p
+          className="text-small"
+        >
+          Collington Avenue
+        </p>
+        <p
+          className="text-small"
+        >
+          Bexhill-on-Sea
+        </p>
+        <p
+          className="text-small"
+        >
+          TN39 3LW
+        </p>
+      </p>
+    </p>
+  </Col>
+</Row>
+`;

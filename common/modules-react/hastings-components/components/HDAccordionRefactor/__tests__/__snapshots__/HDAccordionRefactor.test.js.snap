@@ -1,0 +1,500 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDAccordionRefactor /> clicking toggle should show content 1`] = `
+<HDAccordionRefactor
+  cards={
+    Array [
+      Object {
+        "content": <div
+          className="test"
+        >
+          Test content
+        </div>,
+        "header": "Test header",
+      },
+    ]
+  }
+  className={null}
+  size={null}
+  supportInnerHTML={false}
+>
+  <Accordion
+    className="hd-accordion null"
+  >
+    <div
+      className="hd-accordion null accordion"
+    >
+      <div
+        className="hd-accordion__card"
+        key="0"
+      >
+        <hr />
+        <div
+          className="hd-accordion__header "
+        >
+          <h5>
+            Test header
+          </h5>
+          <ForwardRef
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "active": false,
+                  "disabled": false,
+                  "variant": "primary",
+                },
+                "displayName": "Button",
+                "render": [Function],
+              }
+            }
+            className="hd-accordion__toggle"
+            eventKey="eventKey0"
+            onClick={[Function]}
+            variant="link"
+          >
+            <Button
+              active={false}
+              className="hd-accordion__toggle"
+              disabled={false}
+              onClick={[Function]}
+              variant="link"
+            >
+              <button
+                className="hd-accordion__toggle btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <i
+                  className="hd-accordion__link fas fa-angle-up"
+                />
+              </button>
+            </Button>
+          </ForwardRef>
+        </div>
+        <AccordionCollapse
+          eventKey="eventKey0"
+        >
+          <ForwardRef
+            appear={false}
+            getDimensionValue={[Function]}
+            in={true}
+            mountOnEnter={false}
+            timeout={300}
+            unmountOnExit={false}
+          >
+            <Transition
+              addEndListener={[Function]}
+              appear={false}
+              aria-expanded={null}
+              enter={true}
+              exit={true}
+              in={true}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <div
+                aria-expanded={null}
+                className="collapsing"
+              >
+                <div
+                  className="hd-accordion__content"
+                >
+                  <div
+                    className="test"
+                  >
+                    Test content
+                  </div>
+                </div>
+              </div>
+            </Transition>
+          </ForwardRef>
+        </AccordionCollapse>
+      </div>
+    </div>
+  </Accordion>
+</HDAccordionRefactor>
+`;
+
+exports[`<HDAccordionRefactor /> clicking toggle should show content 2`] = `
+<HDAccordionRefactor
+  cards={
+    Array [
+      Object {
+        "content": <div
+          className="test"
+        >
+          Test content
+        </div>,
+        "header": "Test header",
+      },
+    ]
+  }
+  className={null}
+  size={null}
+  supportInnerHTML={false}
+>
+  <Accordion
+    className="hd-accordion null"
+  >
+    <div
+      className="hd-accordion null accordion"
+    >
+      <div
+        className="hd-accordion__card"
+        key="0"
+      >
+        <hr />
+        <div
+          className="hd-accordion__header "
+        >
+          <h5>
+            Test header
+          </h5>
+          <ForwardRef
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "active": false,
+                  "disabled": false,
+                  "variant": "primary",
+                },
+                "displayName": "Button",
+                "render": [Function],
+              }
+            }
+            className="hd-accordion__toggle"
+            eventKey="eventKey0"
+            onClick={[Function]}
+            variant="link"
+          >
+            <Button
+              active={false}
+              className="hd-accordion__toggle"
+              disabled={false}
+              onClick={[Function]}
+              variant="link"
+            >
+              <button
+                className="hd-accordion__toggle btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <i
+                  className="hd-accordion__link fas fa-angle-down"
+                />
+              </button>
+            </Button>
+          </ForwardRef>
+        </div>
+        <AccordionCollapse
+          eventKey="eventKey0"
+        >
+          <ForwardRef
+            appear={false}
+            getDimensionValue={[Function]}
+            in={false}
+            mountOnEnter={false}
+            timeout={300}
+            unmountOnExit={false}
+          >
+            <Transition
+              addEndListener={[Function]}
+              appear={false}
+              aria-expanded={null}
+              enter={true}
+              exit={true}
+              in={false}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <div
+                aria-expanded={null}
+                className="collapse"
+              >
+                <div
+                  className="hd-accordion__content"
+                >
+                  <div
+                    className="test"
+                  >
+                    Test content
+                  </div>
+                </div>
+              </div>
+            </Transition>
+          </ForwardRef>
+        </AccordionCollapse>
+      </div>
+    </div>
+  </Accordion>
+</HDAccordionRefactor>
+`;
+
+exports[`<HDAccordionRefactor /> render component 1`] = `
+<HDAccordionRefactor
+  cards={
+    Array [
+      Object {
+        "content": <div
+          className="test"
+        >
+          Test content
+        </div>,
+        "header": "Test header",
+      },
+    ]
+  }
+  className={null}
+  size={null}
+  supportInnerHTML={false}
+>
+  <Accordion
+    className="hd-accordion null"
+  >
+    <div
+      className="hd-accordion null accordion"
+    >
+      <div
+        className="hd-accordion__card"
+        key="0"
+      >
+        <hr />
+        <div
+          className="hd-accordion__header "
+        >
+          <h5>
+            Test header
+          </h5>
+          <ForwardRef
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "active": false,
+                  "disabled": false,
+                  "variant": "primary",
+                },
+                "displayName": "Button",
+                "render": [Function],
+              }
+            }
+            className="hd-accordion__toggle"
+            eventKey="eventKey0"
+            onClick={[Function]}
+            variant="link"
+          >
+            <Button
+              active={false}
+              className="hd-accordion__toggle"
+              disabled={false}
+              onClick={[Function]}
+              variant="link"
+            >
+              <button
+                className="hd-accordion__toggle btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <i
+                  className="hd-accordion__link fas fa-angle-down"
+                />
+              </button>
+            </Button>
+          </ForwardRef>
+        </div>
+        <AccordionCollapse
+          eventKey="eventKey0"
+        >
+          <ForwardRef
+            appear={false}
+            getDimensionValue={[Function]}
+            in={false}
+            mountOnEnter={false}
+            timeout={300}
+            unmountOnExit={false}
+          >
+            <Transition
+              addEndListener={[Function]}
+              appear={false}
+              aria-expanded={null}
+              enter={true}
+              exit={true}
+              in={false}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <div
+                aria-expanded={null}
+                className="collapse"
+              >
+                <div
+                  className="hd-accordion__content"
+                >
+                  <div
+                    className="test"
+                  >
+                    Test content
+                  </div>
+                </div>
+              </div>
+            </Transition>
+          </ForwardRef>
+        </AccordionCollapse>
+      </div>
+    </div>
+  </Accordion>
+</HDAccordionRefactor>
+`;
+
+exports[`<HDAccordionRefactor /> setting supportInnerHTML to true will show inner html 1`] = `
+<HDAccordionRefactor
+  cards={
+    Array [
+      Object {
+        "content": <div
+          className="test"
+        >
+          Test content
+        </div>,
+        "header": "Test header",
+      },
+    ]
+  }
+  className={null}
+  size={null}
+  supportInnerHTML={true}
+>
+  <Accordion
+    className="hd-accordion null"
+  >
+    <div
+      className="hd-accordion null accordion"
+    >
+      <div
+        className="hd-accordion__card"
+        key="0"
+      >
+        <hr />
+        <div
+          className="hd-accordion__header "
+        >
+          <h5>
+            Test header
+          </h5>
+          <ForwardRef
+            as={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "defaultProps": Object {
+                  "active": false,
+                  "disabled": false,
+                  "variant": "primary",
+                },
+                "displayName": "Button",
+                "render": [Function],
+              }
+            }
+            className="hd-accordion__toggle"
+            eventKey="eventKey0"
+            onClick={[Function]}
+            variant="link"
+          >
+            <Button
+              active={false}
+              className="hd-accordion__toggle"
+              disabled={false}
+              onClick={[Function]}
+              variant="link"
+            >
+              <button
+                className="hd-accordion__toggle btn btn-link"
+                disabled={false}
+                onClick={[Function]}
+                type="button"
+              >
+                <i
+                  className="hd-accordion__link fas fa-angle-down"
+                />
+              </button>
+            </Button>
+          </ForwardRef>
+        </div>
+        <AccordionCollapse
+          eventKey="eventKey0"
+        >
+          <ForwardRef
+            appear={false}
+            getDimensionValue={[Function]}
+            in={false}
+            mountOnEnter={false}
+            timeout={300}
+            unmountOnExit={false}
+          >
+            <Transition
+              addEndListener={[Function]}
+              appear={false}
+              aria-expanded={null}
+              enter={true}
+              exit={true}
+              in={false}
+              mountOnEnter={false}
+              onEnter={[Function]}
+              onEntered={[Function]}
+              onEntering={[Function]}
+              onExit={[Function]}
+              onExited={[Function]}
+              onExiting={[Function]}
+              timeout={300}
+              unmountOnExit={false}
+            >
+              <div
+                aria-expanded={null}
+                className="collapse"
+              >
+                <div
+                  className="hd-accordion__inner-html"
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": <div
+                        className="test"
+                      >
+                        Test content
+                      </div>,
+                    }
+                  }
+                />
+              </div>
+            </Transition>
+          </ForwardRef>
+        </AccordionCollapse>
+      </div>
+    </div>
+  </Accordion>
+</HDAccordionRefactor>
+`;

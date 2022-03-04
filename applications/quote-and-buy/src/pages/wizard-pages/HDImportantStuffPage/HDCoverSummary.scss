@@ -1,0 +1,13 @@
+.cover-summary__covers-list {
+    div + div {
+        margin-top: 10px;
+        @include media-breakpoint-up(md) {
+            margin-top: 0;
+        }
+    }
+    div + div + div {
+        @include media-breakpoint-up(md) {
+            margin-top: 0;
+        }
+    }
+}

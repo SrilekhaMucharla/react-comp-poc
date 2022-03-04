@@ -1,0 +1,11 @@
+export const header = 'Enter address manually';
+export const addressLine1Placeholder = 'Address line 1';
+export const addressLine2Placeholder = 'Address line 2 (optional)';
+export const addressLine3Placeholder = 'Address line 3 (optional)';
+export const cityPlaceholder = 'Town/City';
+export const postCodePlaceholder = 'Postcode';
+export const addLabel = 'Add';
+export const cancelLabel = 'Cancel';
+export const updateLabel = 'Update';
+export const requiredFieldMessage = 'Sorry, you need to answer this question.';
+export const invalidPostCodeMessage = 'Sorry, we don\'t recognize that address. Please try again.';

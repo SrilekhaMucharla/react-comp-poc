@@ -1,0 +1,11 @@
+{
+  "name": "gw-portals-config-js",
+  "description": "Provides tools to manage the application configuration",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDExcessTable /> render with mandatory props 1`] = `
+<table
+  className="excess-table "
+>
+  <thead
+    className="excess-table__head"
+  >
+    <tr
+      className="excess-table__row"
+    >
+      <th
+        className="excess-table__row__th excess-table__name"
+      >
+        James Bond
+      </th>
+      <th
+        className="excess-table__row__th excess-table__col-1"
+      />
+      <th
+        className="excess-table__row__th excess-table__col-2"
+      />
+      <th
+        className="excess-table__row__th excess-table__total-header"
+      >
+        Total
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="excess-table__body"
+  >
+    <tr
+      className="excess-table__body-row"
+      key="0"
+    >
+      <td
+        className="excess-table__body-row__td excess-table__excess-name"
+      >
+        Fire
+      </td>
+      <td
+        className="excess-table__body-row__td excess-table__compulsory-amount"
+      >
+        £200
+      </td>
+      <td
+        className="excess-table__body-row__td excess-table__voluntary-amount"
+      >
+        £100
+      </td>
+      <td
+        className="excess-table__body-row__td excess-table__total-amount"
+      >
+        £300
+      </td>
+    </tr>
+    <tr
+      className="excess-table__body-row"
+      key="1"
+    >
+      <td
+        className="excess-table__body-row__td excess-table__excess-name"
+      >
+        Demage
+      </td>
+      <td
+        className="excess-table__body-row__td excess-table__compulsory-amount"
+      >
+        £300
+      </td>
+      <td
+        className="excess-table__body-row__td excess-table__voluntary-amount"
+      >
+        £200
+      </td>
+      <td
+        className="excess-table__body-row__td excess-table__total-amount"
+      >
+        £500
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

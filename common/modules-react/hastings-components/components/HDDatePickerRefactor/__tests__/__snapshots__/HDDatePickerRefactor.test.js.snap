@@ -1,0 +1,621 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDatePickerRefactor /> render component with children 1`] = `
+<div
+  className="  hd-date-picker__date-control hd-date-picker__date-control__dark"
+  id=""
+>
+  <div
+    className="hd-date-picker__date-fields"
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col>
+        <Row
+          noGutters={false}
+        >
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__day "
+              id="hd-date-picker-date-input-day"
+              inputMode="numeric"
+              max="31"
+              min="1"
+              name="day"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="DD"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__month "
+              id="hd-date-picker-date-input-month"
+              inputMode="numeric"
+              max="12"
+              min="1"
+              name="month"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="MM"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__year "
+              id="hd-date-picker-date-input-year"
+              inputMode="numeric"
+              name="year"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="YYYY"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+        </Row>
+      </Col>
+      <Col
+        className="pl-0"
+        xs={1}
+      >
+        <div
+          className="hd-date-picker__cal-icon"
+        >
+          <HDOverlayPopup
+            cancelButton="Cancel"
+            className="hd-date-picker__cal-overlay"
+            closeOnSelect={false}
+            confirmButton="Confirm"
+            customStyle=""
+            disabledConfirmButton={false}
+            headerBar={null}
+            hidden={false}
+            hideOnConfirm={true}
+            id="hd-date-picker-overlay"
+            labelText="Your start date"
+            onBeforeClose={[Function]}
+            onBeforeOpen={[Function]}
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            overlayButtonIcon={
+              <img
+                alt="Icons_Calendar_img"
+                onClick={[Function]}
+                src="Icons_Calendar.svg"
+              />
+            }
+            overlayButtonsClassName=""
+            showButtons={false}
+          >
+            <div
+              className="hd-date-picker__overlay-container"
+              id="hd-date-picker-overlay-container"
+            >
+              <DatePicker
+                allowSameDay={false}
+                dateFormat="dd/MM/yyyy"
+                dateFormatCalendar="LLLL yyyy"
+                disabled={false}
+                disabledKeyboardNavigation={false}
+                dropdownMode="scroll"
+                id=""
+                inline={true}
+                maxDate={2020-12-14T10:24:04.395Z}
+                minDate={2019-12-15T10:24:04.395Z}
+                monthsShown={1}
+                nextMonthButtonLabel="Next month"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClickOutside={[Function]}
+                onFocus={[Function]}
+                onInputClick={[Function]}
+                onInputError={[Function]}
+                onKeyDown={[Function]}
+                onMonthChange={[Function]}
+                onSelect={[Function]}
+                onYearChange={[Function]}
+                preventOpenOnFocus={false}
+                previousMonthButtonLabel="Previous Month"
+                readOnly={false}
+                renderDayContents={[Function]}
+                selected={null}
+                shouldCloseOnSelect={true}
+                showTimeSelect={false}
+                timeCaption="Time"
+                timeIntervals={30}
+                withPortal={false}
+              />
+            </div>
+          </HDOverlayPopup>
+        </div>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;
+
+exports[`<HDDatePickerRefactor /> render component with default date 1`] = `
+<div
+  className="  hd-date-picker__date-control hd-date-picker__date-control__dark"
+  id=""
+>
+  <div
+    className="hd-date-picker__date-fields"
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col>
+        <Row
+          noGutters={false}
+        >
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__day "
+              id="hd-date-picker-date-input-day"
+              inputMode="numeric"
+              max="31"
+              min="1"
+              name="day"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="DD"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__month "
+              id="hd-date-picker-date-input-month"
+              inputMode="numeric"
+              max="12"
+              min="1"
+              name="month"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="MM"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__year "
+              id="hd-date-picker-date-input-year"
+              inputMode="numeric"
+              name="year"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="YYYY"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+        </Row>
+      </Col>
+      <Col
+        className="pl-0"
+        xs={1}
+      >
+        <div
+          className="hd-date-picker__cal-icon"
+        >
+          <HDOverlayPopup
+            cancelButton="Cancel"
+            className="hd-date-picker__cal-overlay"
+            closeOnSelect={false}
+            confirmButton="Confirm"
+            customStyle=""
+            disabledConfirmButton={false}
+            headerBar={null}
+            hidden={false}
+            hideOnConfirm={true}
+            id="hd-date-picker-overlay"
+            labelText="Your start date"
+            onBeforeClose={[Function]}
+            onBeforeOpen={[Function]}
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            overlayButtonIcon={
+              <img
+                alt="Icons_Calendar_img"
+                onClick={[Function]}
+                src="Icons_Calendar.svg"
+              />
+            }
+            overlayButtonsClassName=""
+            showButtons={false}
+          >
+            <div
+              className="hd-date-picker__overlay-container"
+              id="hd-date-picker-overlay-container"
+            >
+              <DatePicker
+                allowSameDay={false}
+                dateFormat="dd/MM/yyyy"
+                dateFormatCalendar="LLLL yyyy"
+                disabled={false}
+                disabledKeyboardNavigation={false}
+                dropdownMode="scroll"
+                id=""
+                inline={true}
+                maxDate={2020-12-14T10:24:04.395Z}
+                minDate={2019-12-15T10:24:04.395Z}
+                monthsShown={1}
+                nextMonthButtonLabel="Next month"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClickOutside={[Function]}
+                onFocus={[Function]}
+                onInputClick={[Function]}
+                onInputError={[Function]}
+                onKeyDown={[Function]}
+                onMonthChange={[Function]}
+                onSelect={[Function]}
+                onYearChange={[Function]}
+                preventOpenOnFocus={false}
+                previousMonthButtonLabel="Previous Month"
+                readOnly={false}
+                renderDayContents={[Function]}
+                selected={null}
+                shouldCloseOnSelect={true}
+                showTimeSelect={false}
+                timeCaption="Time"
+                timeIntervals={30}
+                withPortal={false}
+              />
+            </div>
+          </HDOverlayPopup>
+        </div>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;
+
+exports[`<HDDatePickerRefactor /> render component with max date 1`] = `
+<div
+  className="  hd-date-picker__date-control hd-date-picker__date-control__dark"
+  id=""
+>
+  <div
+    className="hd-date-picker__date-fields"
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col>
+        <Row
+          noGutters={false}
+        >
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__day "
+              id="hd-date-picker-date-input-day"
+              inputMode="numeric"
+              max="31"
+              min="1"
+              name="day"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="DD"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__month "
+              id="hd-date-picker-date-input-month"
+              inputMode="numeric"
+              max="12"
+              min="1"
+              name="month"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="MM"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__year "
+              id="hd-date-picker-date-input-year"
+              inputMode="numeric"
+              name="year"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="YYYY"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+        </Row>
+      </Col>
+      <Col
+        className="pl-0"
+        xs={1}
+      >
+        <div
+          className="hd-date-picker__cal-icon"
+        >
+          <HDOverlayPopup
+            cancelButton="Cancel"
+            className="hd-date-picker__cal-overlay"
+            closeOnSelect={false}
+            confirmButton="Confirm"
+            customStyle=""
+            disabledConfirmButton={false}
+            headerBar={null}
+            hidden={false}
+            hideOnConfirm={true}
+            id="hd-date-picker-overlay"
+            labelText="Your start date"
+            onBeforeClose={[Function]}
+            onBeforeOpen={[Function]}
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            overlayButtonIcon={
+              <img
+                alt="Icons_Calendar_img"
+                onClick={[Function]}
+                src="Icons_Calendar.svg"
+              />
+            }
+            overlayButtonsClassName=""
+            showButtons={false}
+          >
+            <div
+              className="hd-date-picker__overlay-container"
+              id="hd-date-picker-overlay-container"
+            >
+              <DatePicker
+                allowSameDay={false}
+                dateFormat="dd/MM/yyyy"
+                dateFormatCalendar="LLLL yyyy"
+                disabled={false}
+                disabledKeyboardNavigation={false}
+                dropdownMode="scroll"
+                id=""
+                inline={true}
+                maxDate={2020-12-14T10:24:04.395Z}
+                minDate={2019-12-15T10:24:04.395Z}
+                monthsShown={1}
+                nextMonthButtonLabel="Next month"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClickOutside={[Function]}
+                onFocus={[Function]}
+                onInputClick={[Function]}
+                onInputError={[Function]}
+                onKeyDown={[Function]}
+                onMonthChange={[Function]}
+                onSelect={[Function]}
+                onYearChange={[Function]}
+                preventOpenOnFocus={false}
+                previousMonthButtonLabel="Previous Month"
+                readOnly={false}
+                renderDayContents={[Function]}
+                selected={null}
+                shouldCloseOnSelect={true}
+                showTimeSelect={false}
+                timeCaption="Time"
+                timeIntervals={30}
+                withPortal={false}
+              />
+            </div>
+          </HDOverlayPopup>
+        </div>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;
+
+exports[`<HDDatePickerRefactor /> render component with min date 1`] = `
+<div
+  className="  hd-date-picker__date-control hd-date-picker__date-control__dark"
+  id=""
+>
+  <div
+    className="hd-date-picker__date-fields"
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col>
+        <Row
+          noGutters={false}
+        >
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__day "
+              id="hd-date-picker-date-input-day"
+              inputMode="numeric"
+              max="31"
+              min="1"
+              name="day"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="DD"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__month "
+              id="hd-date-picker-date-input-month"
+              inputMode="numeric"
+              max="12"
+              min="1"
+              name="month"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="MM"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+          <Col>
+            <input
+              className="form-control hd-date-picker__date-fields__year "
+              id="hd-date-picker-date-input-year"
+              inputMode="numeric"
+              name="year"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              pattern="/[^0-9]/g"
+              placeholder="YYYY"
+              type="string"
+              value=""
+            />
+            <i
+              className="fa fa-exclamation exclam hd-date-picker__exclam"
+            />
+          </Col>
+        </Row>
+      </Col>
+      <Col
+        className="pl-0"
+        xs={1}
+      >
+        <div
+          className="hd-date-picker__cal-icon"
+        >
+          <HDOverlayPopup
+            cancelButton="Cancel"
+            className="hd-date-picker__cal-overlay"
+            closeOnSelect={false}
+            confirmButton="Confirm"
+            customStyle=""
+            disabledConfirmButton={false}
+            headerBar={null}
+            hidden={false}
+            hideOnConfirm={true}
+            id="hd-date-picker-overlay"
+            labelText="Your start date"
+            onBeforeClose={[Function]}
+            onBeforeOpen={[Function]}
+            onCancel={[Function]}
+            onConfirm={[Function]}
+            overlayButtonIcon={
+              <img
+                alt="Icons_Calendar_img"
+                onClick={[Function]}
+                src="Icons_Calendar.svg"
+              />
+            }
+            overlayButtonsClassName=""
+            showButtons={false}
+          >
+            <div
+              className="hd-date-picker__overlay-container"
+              id="hd-date-picker-overlay-container"
+            >
+              <DatePicker
+                allowSameDay={false}
+                dateFormat="dd/MM/yyyy"
+                dateFormatCalendar="LLLL yyyy"
+                disabled={false}
+                disabledKeyboardNavigation={false}
+                dropdownMode="scroll"
+                id=""
+                inline={true}
+                maxDate={2020-12-14T10:24:04.395Z}
+                minDate={2019-12-15T10:24:04.395Z}
+                monthsShown={1}
+                nextMonthButtonLabel="Next month"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClickOutside={[Function]}
+                onFocus={[Function]}
+                onInputClick={[Function]}
+                onInputError={[Function]}
+                onKeyDown={[Function]}
+                onMonthChange={[Function]}
+                onSelect={[Function]}
+                onYearChange={[Function]}
+                preventOpenOnFocus={false}
+                previousMonthButtonLabel="Previous Month"
+                readOnly={false}
+                renderDayContents={[Function]}
+                selected={null}
+                shouldCloseOnSelect={true}
+                showTimeSelect={false}
+                timeCaption="Time"
+                timeIntervals={30}
+                withPortal={false}
+              />
+            </div>
+          </HDOverlayPopup>
+        </div>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;

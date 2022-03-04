@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amendments for HE should render Amendments correctly and match the snapshot 1`] = `
+<Row
+  className="my-5"
+  noGutters={false}
+>
+  <Col
+    className="px-mobile-0"
+  >
+    <div
+      className="important-stuff__amendment-policy-wrapper elevated-box"
+    >
+      <HDLabelRefactor
+        Tag="h2"
+        adjustImagePosition={true}
+        className="mt-0 mb-3"
+        id="important-stuff-amendments-header"
+        text="Amendments or exceptions to your policy"
+      />
+      <Endorsement
+        description="No insurance cover applies while your car is being driven by anyone under 25 years of age, unless that person’s name is shown on this schedule against this endorsement number"
+        key="PCE07Cond_Ext"
+        number={1}
+        title="E07 - Drivers under 25 years of age aren’t included unless named on this schedule"
+      />
+      <Endorsement
+        description="This policy won’t cover your car for loss or damage caused by theft or attempted theft unless your car is fitted with a GPS satellite tracking device with a continuous subscription in place."
+        key="PCE26Cond_Ext"
+        number={2}
+        title="E26 - Tracking device subscription required"
+      />
+      <Endorsement
+        description="If you don't use one of our nominated repairers to repair your car when making a claim under sections 1 or 2 of your policy, the excess/es on your schedule will be doubled."
+        key="PCE31Cond_Ext"
+        number={3}
+        title="E31 - Double voluntary and compulsory excess/es"
+      />
+    </div>
+  </Col>
+</Row>
+`;
+
+exports[`Amendments for brand other than HE should render Amendments correctly and match the snapshot 1`] = `
+<Row
+  className="my-5"
+  noGutters={false}
+>
+  <Col
+    className="px-mobile-0"
+  >
+    <div
+      className="important-stuff__amendment-policy-wrapper elevated-box"
+    >
+      <HDLabelRefactor
+        Tag="h2"
+        adjustImagePosition={true}
+        className="mt-0 mb-3"
+        id="important-stuff-amendments-header"
+        text="Amendments or exceptions to your policy"
+      />
+      <Endorsement
+        description="No insurance cover applies while your car is being driven by anyone under 25 years of age, unless that person’s name is shown on this schedule against this endorsement number"
+        key="PCE07Cond_Ext"
+        number={1}
+        title="E07 - Drivers under 25 years of age aren’t included unless named on this schedule"
+      />
+      <Endorsement
+        description="This policy won’t cover your car for loss or damage caused by theft or attempted theft unless your car is fitted with a GPS satellite tracking device with a continuous subscription in place."
+        key="PCE26Cond_Ext"
+        number={2}
+        title="E26 - Tracking device subscription required"
+      />
+    </div>
+  </Col>
+</Row>
+`;

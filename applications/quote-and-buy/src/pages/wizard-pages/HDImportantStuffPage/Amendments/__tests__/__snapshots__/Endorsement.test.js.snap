@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Endorsement should render Endorsement correctly and match the snapshot 1`] = `
+<Fragment>
+  <HDLabelRefactor
+    Tag="h5"
+    adjustImagePosition={true}
+    className="margin-top-md mb-3"
+    id="important-stuff-amendments-subheader"
+    text="Endorsement 1"
+  />
+  <HDLabelRefactor
+    Tag="p"
+    adjustImagePosition={true}
+    className="important-stuff__amendment-policy-wrapper__info-text font-bold"
+    id="important-stuff-amendments-title"
+    text="E07 - Drivers under 25 years of age aren’t included unless named on this schedule"
+  />
+  <p
+    className="important-stuff__amendment-policy-wrapper__info-text mb-0"
+    id="important-stuff-amendments-description"
+  >
+    No insurance cover applies while your car is being driven by anyone under 25 years of age, unless that person’s name is shown on this schedule against this endorsement number
+  </p>
+</Fragment>
+`;

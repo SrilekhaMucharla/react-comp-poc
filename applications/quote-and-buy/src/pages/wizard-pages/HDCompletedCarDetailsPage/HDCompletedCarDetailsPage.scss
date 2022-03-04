@@ -1,0 +1,9 @@
+.car-completed-details__label {
+  @include media-breakpoint-up(lg) {
+    white-space: nowrap;
+  }
+}
+
+.car-completed-details__cont-btn {
+  margin-top: 38px;
+}

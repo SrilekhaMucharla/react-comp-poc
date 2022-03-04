@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDButtonDashed - default onClick and onKeyDown should execute default onClick when clicked 1`] = `
+<div
+  className="btn-dashed--dark test-classname"
+  id={null}
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <img
+    alt="Plus"
+    className="icon"
+    src="Icon-before.svg"
+  />
+  <div
+    className="text"
+  >
+    test-title
+  </div>
+</div>
+`;
+
+exports[`HDButtonDashed - default onClick and onKeyDown should execute default onKeyDown when key pressed 1`] = `
+<div
+  className="btn-dashed--dark test-classname"
+  id={null}
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <img
+    alt="Plus"
+    className="icon"
+    src="Icon-before.svg"
+  />
+  <div
+    className="text"
+  >
+    test-title
+  </div>
+</div>
+`;
+
+exports[`HDButtonDashed should render correctly and match the snapshot 1`] = `
+<div
+  className="btn-dashed--dark test-classname"
+  id={null}
+  onClick={[Function]}
+  onKeyDown={[MockFunction]}
+  role="button"
+  tabIndex={0}
+>
+  <img
+    alt="Plus"
+    className="icon"
+    src="Icon-before.svg"
+  />
+  <div
+    className="text"
+  >
+    test-title
+  </div>
+</div>
+`;

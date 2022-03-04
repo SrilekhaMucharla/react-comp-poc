@@ -1,0 +1,2144 @@
+{
+  "sessionUUID": "e4a37204-5a55-4f92-882b-db58728adfa7",
+  "quoteID": "0000011098",
+  "baseData": {
+    "periodStatus": "Quoted",
+    "accountHolder": {
+      "emailAddress1": "sad@gmail.com",
+      "publicID": "csdt2:18567",
+      "displayName": "sdf RNEWQ",
+      "subtype": "Person",
+      "primaryAddress": {
+        "publicID": "csdt2:29694",
+        "displayName": "Flat 2 Porton House, Birmingham Road, STRATFORD-UPON-AVON, CV370AQ",
+        "addressLine1": "Flat 2 Porton House",
+        "addressLine2": "Birmingham Road",
+        "city": "STRATFORD-UPON-AVON",
+        "county": "Warwickshire",
+        "postalCode": "CV370AQ",
+        "country": "GB",
+        "addressType": "home"
+      },
+      "additionalAddresses": [],
+      "accountHolder": true,
+      "dateOfBirth": {
+        "year": 1987,
+        "month": 3,
+        "day": 1
+      },
+      "firstName": "sdf",
+      "lastName": "RNEWQ",
+      "prefix": "003_Mr",
+      "licenseState": "GB",
+      "maritalStatus": "D"
+    },
+    "termType": "Annual",
+    "numberOfCarsOnHousehold": 4,
+    "producerCode": "Default",
+    "brandCode": "HE",
+    "insurer": "91",
+    "isPostalDocument": false,
+    "marketingContacts": {
+      "allowEmail": false,
+      "allowTelephone": false,
+      "allowSMS": false,
+      "allowPost": false
+    },
+    "isExistingCustomer": false,
+    "accountNumber": "10000007750",
+    "productCode": "PrivateCar_Ext",
+    "policyAddress": {
+      "publicID": "csdt2:29694",
+      "displayName": "Flat 2 Porton House, Birmingham Road, STRATFORD-UPON-AVON, CV370AQ",
+      "addressLine1": "Flat 2 Porton House",
+      "addressLine2": "Birmingham Road",
+      "city": "STRATFORD-UPON-AVON",
+      "county": "Warwickshire",
+      "postalCode": "CV370AQ",
+      "country": "GB",
+      "addressType": "home"
+    },
+    "periodStartDate": {
+      "year": 2021,
+      "month": 2,
+      "day": 6
+    },
+    "periodEndDate": {
+      "year": 2022,
+      "month": 2,
+      "day": 6
+    },
+    "productName": "Private Car",
+    "jobType": "Submission"
+  },
+  "lobData": {
+    "privateCar": {
+      "preQualQuestionSets": [],
+      "coverables": {
+        "drivers": [{
+          "fixedId": 101207,
+          "publicID": "csdt2:101207",
+          "person": {
+            "publicID": "csdt2:18567",
+            "displayName": "sdf RNEWQ",
+            "firstName": "sdf",
+            "lastName": "RNEWQ",
+            "prefix": "003_Mr",
+            "maritalStatus": "D",
+            "dateOfBirth": {
+              "year": 1987,
+              "month": 3,
+              "day": 1
+            }
+          },
+          "displayName": "sdf RNEWQ",
+          "licenseState": "GB",
+          "dateOfBirth": {
+            "year": 1987,
+            "month": 3,
+            "day": 1
+          },
+          "isPolicyHolder": true,
+          "isPolicyOwner": true,
+          "licenceHeldFor": "4",
+          "licenceObtainedDate": {
+            "year": 2017,
+            "month": 2,
+            "day": 2
+          },
+          "licenceType": "F_FM",
+          "maritalStatus": "D",
+          "resUKSinceBirth": false,
+          "residingInUKSince": {
+            "year": 1987,
+            "month": 3,
+            "day": 1
+          },
+          "accessToOtherVehicles": "own_motorcycle",
+          "dvlaReportedMedCond": "99_NO",
+          "fullEmpStatus": "F",
+          "occupationFull": "S48",
+          "businessTypeFull": "950",
+          "isTemporaryDriver": false,
+          "claimsAndConvictions": {
+            "anyClaims": false,
+            "anyConvictions": false,
+            "unspentNonMotorConvictions": false,
+            "claimsDetailsCollection": [],
+            "convictionsCollection": []
+          },
+          "previousPoliciesInformation": {
+            "hadInsurancePolicyDeclinedCancelledVoidedOrSpecialTerms": false,
+            "hadInsurancePolicyCancelledOrDeclined": false,
+            "hadInsurancePolicyVoided": false,
+            "hadInsurancePolicyWithSpecialTerms": false
+          },
+          "hasPartTimeEmp": false,
+          "ownYourHome": true,
+          "yearsLivedAtCurrentAddress": "4",
+          "anyChildrenUnder16": true
+        }],
+        "vehicles": [{
+          "fixedId": 60249,
+          "publicID": "csdt2:60249",
+          "license": "AV12BGE",
+          "vehicleNumber": 1,
+          "registrationsNumber": "AV12BGE",
+          "year": 2012,
+          "make": "MERCEDES-BENZ",
+          "model": "E250 SPORT ED125 CDI BLUE",
+          "annualMileage": 12000,
+          "displayName": "MERCEDES-BENZ E250 SPORT ED125 CDI BLUE (2012) AV12BGE",
+          "body": "Saloon",
+          "yearManufactured": 2012,
+          "transmission": "001",
+          "engineSize": 2143,
+          "importType": "no",
+          "numberOfSeats": 5,
+          "alarmImmobilizer": "93",
+          "drivingSide": "R",
+          "purchaseDate": "2020-11-01T00:00:00Z",
+          "vehicleWorth": 12.00,
+          "typeOfUse": "04",
+          "overnightParkingArrangements": "4",
+          "isCarModified": false,
+          "bodyCode": "02",
+          "isOvernightLocationHome": true,
+          "isVehicleBought": false,
+          "coverType": "comprehensive",
+          "overnightLocationPostcode": "CV370AQ",
+          "registeredKeeper": "1_PR",
+          "legalOwner": "1_PR",
+          "isRegisteredKeeperAndLegalOwner": true,
+          "vehicleModifications": [],
+          "tracker": true,
+          "voluntaryExcess": "400",
+          "changeEffectiveDate": "2021-03-06T00:01:00Z",
+          "ncdProtection": {
+            "ncdearnedInUkFlag": true,
+            "ncdgrantedYears": "3",
+            "ncdsource": "11",
+            "drivingExperience": {
+              "protectNCD": true
+            }
+          },
+          "abiCode": "32120102",
+          "insurancePaymentType": "1",
+          "numberOfDoors": 4
+        }],
+        "vehicleDrivers": [{
+          "driverID": 101207,
+          "vehicleID": 60249
+        }],
+        "addInterestTypeCategory": "PAVhcleAddlInterest"
+      },
+      "offerings": [{
+        "branchName": "Hastings Essential",
+        "branchCode": "HE",
+        "coverages": {
+          "vehicleCoverages": [{
+            "publicID": "csdt2:60249",
+            "fixedId": 60249,
+            "vehicleName": "2012 MERCEDES-BENZ E250 SPORT ED125 CDI BLUE (AV12BGE/AV12BGE)",
+            "coverages": [{
+              "name": "Accidental Damage",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCAccDmgCompExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Accidental Damage Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgCompExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 10.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAccDmgVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Young/Inexperienced Driver Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCAccidentalDamageCov_Ext",
+              "description": "Accidental Damage",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Courtesy Car",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCRepairDurationCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "Duration of repairs if insurer nominated repairer used",
+                "coveragePublicID": "PCCourtesyCar_Ext",
+                "patternCode": "PCRepairDurationCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCCourtesyCar_Ext",
+              "description": "Courtesy Car",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Driving Other Cars",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "PCDrivingOtherCarsCov_Ext",
+              "description": "Driving Other Cars",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Liability to third parties",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Legal Expenses",
+                "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                "patternCode": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "5000000.0000",
+                "chosenTermValue": "5,000,000",
+                "directValue": 5000000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Property Damage",
+                "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                "patternCode": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "20000000.0000",
+                "chosenTermValue": "20,000,000",
+                "directValue": 20000000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCLiabilityThirdPartiesCov_Ext",
+              "description": "Liability to third parties",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Loss by Fire and Theft",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCLossFireTheftCompExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Fire and Theft Excess",
+                "coveragePublicID": "PCLossFireTheftCov_Ext",
+                "patternCode": "PCLossFireTheftCompExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCLossFireTheftVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCLossFireTheftCov_Ext",
+                "patternCode": "PCLossFireTheftVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCLossFireTheftCov_Ext",
+              "description": "Loss by Fire and Theft",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Theft of Keys/Transmitter",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCTheftKeyTransCompFnTheftCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Fire and Theft Excess",
+                "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                "patternCode": "PCTheftKeyTransCompFnTheftCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCTheftKeyTransVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                "patternCode": "PCTheftKeyTransVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCTheftKeysTransmitterCov_Ext",
+              "description": "Theft of Keys/Transmitter",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }]
+          }],
+          "ancillaryCoverages": [{
+            "publicID": "csdt2:60249",
+            "fixedId": 60249,
+            "vehicleName": "2012 MERCEDES-BENZ E250 SPORT ED125 CDI BLUE (AV12BGE/AV12BGE)",
+            "coverages": [{
+              "name": "Breakdown",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCBreakdownCov_Ext",
+              "description": "Breakdown",
+              "amount": {
+                "amount": 19.99,
+                "currency": "gbp"
+              },
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Motor Legal Expenses",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCMotorLegalExpensesCov_Ext",
+              "description": "Motor Legal Expenses",
+              "amount": {
+                "amount": 29.99,
+                "currency": "gbp"
+              },
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Motor Personal Accident",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCMotorPersonalAccidentCov_Ext",
+              "description": "Motor Personal Accident",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Excess Protector",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCProtectorCov_Ext",
+              "description": "Protector",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Substitute Vehicle",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCSubstituteVehicleCov_Ext",
+              "description": "Substitute Vehicle",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Key Cover",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCKeyCoverCov_Ext",
+              "description": "Key Cover",
+              "coverageCategoryCode": "AncStandardEXT",
+              "coverageCategoryDisplayName": "Ancillary Line Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }]
+          }]
+        }
+      }, {
+        "branchName": "Hastings Direct",
+        "branchCode": "HD",
+        "coverages": {
+          "vehicleCoverages": [{
+            "publicID": "csdt2:60251",
+            "fixedId": 60249,
+            "vehicleName": "2012 MERCEDES-BENZ E250 SPORT ED125 CDI BLUE (AV12BGE/AV12BGE)",
+            "coverages": [{
+              "name": "Accidental Damage",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCAccDmgCompExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Accidental Damage Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgCompExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAccDmgVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Young/Inexperienced Driver Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCAccidentalDamageCov_Ext",
+              "description": "Accidental Damage",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Audio/Sat Nav",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCAudSatNavLimitPostRegCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Post Reg",
+                "coveragePublicID": "PCAudioSatNavCov_Ext",
+                "patternCode": "PCAudSatNavLimitPostRegCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "300.0000",
+                "chosenTermValue": "300",
+                "directValue": 300.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAudSatNavLimitFirstRegCT_Ext",
+                "type": "OptionPCAudSatNavLimitFirstRegCT_ExtType",
+                "name": "Limit - At First Reg",
+                "coveragePublicID": "PCAudioSatNavCov_Ext",
+                "patternCode": "PCAudSatNavLimitFirstRegCT_Ext",
+                "options": [{
+                  "name": "Unlimited",
+                  "code": "zqiiem3ifr5rnakeaqh3q7337r9",
+                  "optionValue": 5,
+                  "maxValue": 5
+                }],
+                "chosenTerm": "zqiiem3ifr5rnakeaqh3q7337r9",
+                "chosenTermValue": "Unlimited",
+                "isAscendingBetter": true,
+                "updated": false,
+                "required": true
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCAudioSatNavCov_Ext",
+              "description": "Audio/Sat Nav",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Child Seat Cover",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCChildSeatLimitCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCChildSeatCov_Ext",
+                "patternCode": "PCChildSeatLimitCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "300.0000",
+                "chosenTermValue": "300",
+                "directValue": 300.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCChildSeatCov_Ext",
+              "description": "Child Seat Cover",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Courtesy Car",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCRepairDurationCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "Duration of repairs if insurer nominated repairer used",
+                "coveragePublicID": "PCCourtesyCar_Ext",
+                "patternCode": "PCRepairDurationCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCCourtesyCar_Ext",
+              "description": "Courtesy Car",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Driving Other Cars",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "PCDrivingOtherCarsCov_Ext",
+              "description": "Driving Other Cars",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Extended Territorial Limits (EU)",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCExtTerrDaysCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Days",
+                "coveragePublicID": "PCExtendedTerritorialLimitsCov_Ext",
+                "patternCode": "PCExtTerrDaysCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "90.0000",
+                "chosenTermValue": "90",
+                "directValue": 90.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Days",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCExtendedTerritorialLimitsCov_Ext",
+              "description": "Extended Territorial Limits (EU)",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Glass Damage (Windscreen)",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCGlassDmgWreplacementdmgCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Windscreen Replacement Damage",
+                "coveragePublicID": "PCGlassDamageCov_Ext",
+                "patternCode": "PCGlassDmgWreplacementdmgCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "85.0000",
+                "chosenTermValue": "85",
+                "directValue": 85.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCGlassDmgWrepairdmgCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Windscreen Repair Damage",
+                "coveragePublicID": "PCGlassDamageCov_Ext",
+                "patternCode": "PCGlassDmgWrepairdmgCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "20.0000",
+                "chosenTermValue": "20",
+                "directValue": 20.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCGlassDamageCov_Ext",
+              "description": "Glass Damage (Windscreen)",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Liability to third parties",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Legal Expenses",
+                "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                "patternCode": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "5000000.0000",
+                "chosenTermValue": "5,000,000",
+                "directValue": 5000000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Property Damage",
+                "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                "patternCode": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "20000000.0000",
+                "chosenTermValue": "20,000,000",
+                "directValue": 20000000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCLiabilityThirdPartiesCov_Ext",
+              "description": "Liability to third parties",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Loss by Fire and Theft",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCLossFireTheftCompExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Fire and Theft Excess",
+                "coveragePublicID": "PCLossFireTheftCov_Ext",
+                "patternCode": "PCLossFireTheftCompExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCLossFireTheftVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCLossFireTheftCov_Ext",
+                "patternCode": "PCLossFireTheftVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCLossFireTheftCov_Ext",
+              "description": "Loss by Fire and Theft",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Medical Expenses",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCMedExpLimitCTEXT",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCMedicalExpensesCov_Ext",
+                "patternCode": "PCMedExpLimitCTEXT",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "500.0000",
+                "chosenTermValue": "500",
+                "directValue": 500.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCMedicalExpensesCov_Ext",
+              "description": "Medical Expenses",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "New Car Replacement",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCNewCarReplacementCovCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "Replace vehicle new for old subject to:\n •\tRepairs exceeding 60% of value\n •\tYou are the only registered keeper\n •\tvehicle under one year old\n •\tavailable immediately.",
+                "coveragePublicID": "PCNewCarReplacementCov_Ext",
+                "patternCode": "PCNewCarReplacementCovCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCNewCarReplacementCov_Ext",
+              "description": "New Car Replacement",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Overnight Accomodation/onward Transport",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCOvnghtAccomoOnwdTransLimitByPersonCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "PerPerson",
+                "coveragePublicID": "PCOvernightAccoTransCov_Ext",
+                "patternCode": "PCOvnghtAccomoOnwdTransLimitByPersonCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "50.0000",
+                "chosenTermValue": "50",
+                "directValue": 50.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCOvnghtAccomoOnwdTransLimitByAccidentCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "PerAccident",
+                "coveragePublicID": "PCOvernightAccoTransCov_Ext",
+                "patternCode": "PCOvnghtAccomoOnwdTransLimitByAccidentCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCOvernightAccoTransCov_Ext",
+              "description": "Overnight Accomodation/onward Transport",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Personal Accident Cover",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCPersonalAccCovLimitCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCPersonalAccidentCov_Ext",
+                "patternCode": "PCPersonalAccCovLimitCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "5000.0000",
+                "chosenTermValue": "5,000",
+                "directValue": 5000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCPersonalAccidentCov_Ext",
+              "description": "Personal Accident Cover",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Personal Belongings",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCPersonalBelongingsLimitCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCPersonalBlngsCov_Ext",
+                "patternCode": "PCPersonalBelongingsLimitCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "300.0000",
+                "chosenTermValue": "300",
+                "directValue": 300.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCPersonalBlngsCov_Ext",
+              "description": "Personal Belongings",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Theft of Keys/Transmitter",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCTheftKeyTransCompFnTheftCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Fire and Theft Excess",
+                "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                "patternCode": "PCTheftKeyTransCompFnTheftCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCTheftKeyTransVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                "patternCode": "PCTheftKeyTransVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCTheftKeysTransmitterCov_Ext",
+              "description": "Theft of Keys/Transmitter",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Uninsured Driver promise",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCUninsDrivPromNCDCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "NCD Unaffected and no excess paid",
+                "coveragePublicID": "PCUninsuredDriverPromCov_Ext",
+                "patternCode": "PCUninsDrivPromNCDCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCUninsuredDriverPromCov_Ext",
+              "description": "Uninsured Driver promise",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Vandalism Promise",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCVandPromNCDUnaffCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "NCD Unaffected",
+                "coveragePublicID": "PCVandalismPromiseCov_Ext",
+                "patternCode": "PCVandPromNCDUnaffCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCVandalismPromiseCov_Ext",
+              "description": "Vandalism Promise",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }]
+          }],
+          "ancillaryCoverages": [{
+            "publicID": "csdt2:60251",
+            "fixedId": 60249,
+            "vehicleName": "2012 MERCEDES-BENZ E250 SPORT ED125 CDI BLUE (AV12BGE/AV12BGE)",
+            "coverages": [{
+              "name": "Breakdown",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCBreakdownCov_Ext",
+              "description": "Breakdown",
+              "amount": {
+                "amount": 19.99,
+                "currency": "gbp"
+              },
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Motor Legal Expenses",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCMotorLegalExpensesCov_Ext",
+              "description": "Motor Legal Expenses",
+              "amount": {
+                "amount": 29.99,
+                "currency": "gbp"
+              },
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Motor Personal Accident",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCMotorPersonalAccidentCov_Ext",
+              "description": "Motor Personal Accident",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Excess Protector",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCProtectorCov_Ext",
+              "description": "Protector",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Substitute Vehicle",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCSubstituteVehicleCov_Ext",
+              "description": "Substitute Vehicle",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Key Cover",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCKeyCoverCov_Ext",
+              "description": "Key Cover",
+              "coverageCategoryCode": "AncStandardEXT",
+              "coverageCategoryDisplayName": "Ancillary Line Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }]
+          }]
+        }
+      }, {
+        "branchName": "Hastings Premier",
+        "branchCode": "HP",
+        "coverages": {
+          "vehicleCoverages": [{
+            "publicID": "csdt2:60253",
+            "fixedId": 60249,
+            "vehicleName": "2012 MERCEDES-BENZ E250 SPORT ED125 CDI BLUE (AV12BGE/AV12BGE)",
+            "coverages": [{
+              "name": "Accidental Damage",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCAccDmgCompExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Accidental Damage Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgCompExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAccDmgVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Young/Inexperienced Driver Excess",
+                "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                "patternCode": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCAccidentalDamageCov_Ext",
+              "description": "Accidental Damage",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Audio/Sat Nav",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCAudSatNavLimitPostRegCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Post Reg",
+                "coveragePublicID": "PCAudioSatNavCov_Ext",
+                "patternCode": "PCAudSatNavLimitPostRegCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "300.0000",
+                "chosenTermValue": "300",
+                "directValue": 300.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCAudSatNavLimitFirstRegCT_Ext",
+                "type": "OptionPCAudSatNavLimitFirstRegCT_ExtType",
+                "name": "Limit - At First Reg",
+                "coveragePublicID": "PCAudioSatNavCov_Ext",
+                "patternCode": "PCAudSatNavLimitFirstRegCT_Ext",
+                "options": [{
+                  "name": "Unlimited",
+                  "code": "zqiiem3ifr5rnakeaqh3q7337r9",
+                  "optionValue": 5,
+                  "maxValue": 5
+                }],
+                "chosenTerm": "zqiiem3ifr5rnakeaqh3q7337r9",
+                "chosenTermValue": "Unlimited",
+                "isAscendingBetter": true,
+                "updated": false,
+                "required": true
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCAudioSatNavCov_Ext",
+              "description": "Audio/Sat Nav",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Child Seat Cover",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCChildSeatLimitCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCChildSeatCov_Ext",
+                "patternCode": "PCChildSeatLimitCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "300.0000",
+                "chosenTermValue": "300",
+                "directValue": 300.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCChildSeatCov_Ext",
+              "description": "Child Seat Cover",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Courtesy Car",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCRepairDurationCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "Duration of repairs if insurer nominated repairer used",
+                "coveragePublicID": "PCCourtesyCar_Ext",
+                "patternCode": "PCRepairDurationCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCCourtesyCar_Ext",
+              "description": "Courtesy Car",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Driving Other Cars",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "PCDrivingOtherCarsCov_Ext",
+              "description": "Driving Other Cars",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Extended Territorial Limits (EU)",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCExtTerrDaysCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Days",
+                "coveragePublicID": "PCExtendedTerritorialLimitsCov_Ext",
+                "patternCode": "PCExtTerrDaysCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "90.0000",
+                "chosenTermValue": "90",
+                "directValue": 90.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Days",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCExtendedTerritorialLimitsCov_Ext",
+              "description": "Extended Territorial Limits (EU)",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Glass Damage (Windscreen)",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCGlassDmgWreplacementdmgCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Windscreen Replacement Damage",
+                "coveragePublicID": "PCGlassDamageCov_Ext",
+                "patternCode": "PCGlassDmgWreplacementdmgCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "85.0000",
+                "chosenTermValue": "85",
+                "directValue": 85.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCGlassDmgWrepairdmgCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Windscreen Repair Damage",
+                "coveragePublicID": "PCGlassDamageCov_Ext",
+                "patternCode": "PCGlassDmgWrepairdmgCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "20.0000",
+                "chosenTermValue": "20",
+                "directValue": 20.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCGlassDamageCov_Ext",
+              "description": "Glass Damage (Windscreen)",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Liability to third parties",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Legal Expenses",
+                "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                "patternCode": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "5000000.0000",
+                "chosenTermValue": "5,000,000",
+                "directValue": 5000000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit - Property Damage",
+                "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                "patternCode": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "20000000.0000",
+                "chosenTermValue": "20,000,000",
+                "directValue": 20000000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCLiabilityThirdPartiesCov_Ext",
+              "description": "Liability to third parties",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Loss by Fire and Theft",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCLossFireTheftCompExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Fire and Theft Excess",
+                "coveragePublicID": "PCLossFireTheftCov_Ext",
+                "patternCode": "PCLossFireTheftCompExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCLossFireTheftVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCLossFireTheftCov_Ext",
+                "patternCode": "PCLossFireTheftVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCLossFireTheftCov_Ext",
+              "description": "Loss by Fire and Theft",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Medical Expenses",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCMedExpLimitCTEXT",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCMedicalExpensesCov_Ext",
+                "patternCode": "PCMedExpLimitCTEXT",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "500.0000",
+                "chosenTermValue": "500",
+                "directValue": 500.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCMedicalExpensesCov_Ext",
+              "description": "Medical Expenses",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "New Car Replacement",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCNewCarReplacementCovCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "Replace vehicle new for old subject to:\n •\tRepairs exceeding 60% of value\n •\tYou are the only registered keeper\n •\tvehicle under one year old\n •\tavailable immediately.",
+                "coveragePublicID": "PCNewCarReplacementCov_Ext",
+                "patternCode": "PCNewCarReplacementCovCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCNewCarReplacementCov_Ext",
+              "description": "New Car Replacement",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Overnight Accomodation/onward Transport",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCOvnghtAccomoOnwdTransLimitByPersonCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "PerPerson",
+                "coveragePublicID": "PCOvernightAccoTransCov_Ext",
+                "patternCode": "PCOvnghtAccomoOnwdTransLimitByPersonCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "50.0000",
+                "chosenTermValue": "50",
+                "directValue": 50.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCOvnghtAccomoOnwdTransLimitByAccidentCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "PerAccident",
+                "coveragePublicID": "PCOvernightAccoTransCov_Ext",
+                "patternCode": "PCOvnghtAccomoOnwdTransLimitByAccidentCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCOvernightAccoTransCov_Ext",
+              "description": "Overnight Accomodation/onward Transport",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Personal Accident Cover",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCPersonalAccCovLimitCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCPersonalAccidentCov_Ext",
+                "patternCode": "PCPersonalAccCovLimitCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "5000.0000",
+                "chosenTermValue": "5,000",
+                "directValue": 5000.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCPersonalAccidentCov_Ext",
+              "description": "Personal Accident Cover",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Personal Belongings",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCPersonalBelongingsLimitCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Limit",
+                "coveragePublicID": "PCPersonalBlngsCov_Ext",
+                "patternCode": "PCPersonalBelongingsLimitCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "300.0000",
+                "chosenTermValue": "300",
+                "directValue": 300.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCPersonalBlngsCov_Ext",
+              "description": "Personal Belongings",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Theft of Keys/Transmitter",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCTheftKeyTransCompFnTheftCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Compulsory Fire and Theft Excess",
+                "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                "patternCode": "PCTheftKeyTransCompFnTheftCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "0.0000",
+                "chosenTermValue": "0",
+                "directValue": 0.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }, {
+                "publicID": "PCTheftKeyTransVolExcessCT_Ext",
+                "type": "DirectCovTerm",
+                "name": "Voluntary Excess",
+                "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                "patternCode": "PCTheftKeyTransVolExcessCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }],
+                "chosenTerm": "250.0000",
+                "chosenTermValue": "250",
+                "directValue": 250.0000,
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "Money",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCTheftKeysTransmitterCov_Ext",
+              "description": "Theft of Keys/Transmitter",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Uninsured Driver promise",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCUninsDrivPromNCDCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "NCD Unaffected and no excess paid",
+                "coveragePublicID": "PCUninsuredDriverPromCov_Ext",
+                "patternCode": "PCUninsDrivPromNCDCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCUninsuredDriverPromCov_Ext",
+              "description": "Uninsured Driver promise",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Vandalism Promise",
+              "updated": false,
+              "terms": [{
+                "publicID": "PCVandPromNCDUnaffCT_Ext",
+                "type": "BooleanCovTerm",
+                "name": "NCD Unaffected",
+                "coveragePublicID": "PCVandalismPromiseCov_Ext",
+                "patternCode": "PCVandPromNCDUnaffCT_Ext",
+                "options": [{
+                  "name": "None Selected"
+                }, {
+                  "name": "Yes",
+                  "code": "true",
+                  "optionValue": 1,
+                  "maxValue": 1
+                }, {
+                  "name": "No",
+                  "code": "false",
+                  "optionValue": 0,
+                  "maxValue": 1
+                }],
+                "chosenTermValue": "",
+                "isAscendingBetter": true,
+                "updated": false,
+                "valueType": "bit",
+                "required": false
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "PCVandalismPromiseCov_Ext",
+              "description": "Vandalism Promise",
+              "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Coverage Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }]
+          }],
+          "ancillaryCoverages": [{
+            "publicID": "csdt2:60253",
+            "fixedId": 60249,
+            "vehicleName": "2012 MERCEDES-BENZ E250 SPORT ED125 CDI BLUE (AV12BGE/AV12BGE)",
+            "coverages": [{
+              "name": "Breakdown",
+              "updated": false,
+              "terms": [{
+                "publicID": "ANCBreakdownTypeCovTerm_Ext",
+                "type": "OptionANCBreakdownTypeCovTerm_ExtType",
+                "name": "Breakdown",
+                "coveragePublicID": "ANCBreakdownCov_Ext",
+                "patternCode": "ANCBreakdownTypeCovTerm_Ext",
+                "options": [{
+                  "name": "Roadside",
+                  "code": "zokh28gtick0i2bklnj5bk9n97a",
+                  "optionValue": 1,
+                  "maxValue": 5
+                }, {
+                  "name": "Roadside and Recovery",
+                  "code": "zahjctmpdgb7pdjphvv03hfdlra",
+                  "optionValue": 3,
+                  "maxValue": 5
+                }, {
+                  "name": "Homestart",
+                  "code": "z8jje5jcuaogs4qpum9mnjucrvb",
+                  "optionValue": 4,
+                  "maxValue": 5
+                }, {
+                  "name": "European",
+                  "code": "ze1g6t5ci5lkl13eaovil4lm3pa",
+                  "optionValue": 5,
+                  "maxValue": 5
+                }],
+                "chosenTerm": "zokh28gtick0i2bklnj5bk9n97a",
+                "chosenTermValue": "Roadside",
+                "isAscendingBetter": true,
+                "updated": false,
+                "required": true
+              }],
+              "selected": true,
+              "required": true,
+              "publicID": "ANCBreakdownCov_Ext",
+              "description": "Breakdown",
+              "amount": {
+                "amount": 34.99,
+                "currency": "gbp"
+              },
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Motor Legal Expenses",
+              "updated": false,
+              "terms": [],
+              "selected": true,
+              "required": true,
+              "publicID": "ANCMotorLegalExpensesCov_Ext",
+              "description": "Motor Legal Expenses",
+              "amount": {
+                "amount": 12.49,
+                "currency": "gbp"
+              },
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Motor Personal Accident",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCMotorPersonalAccidentCov_Ext",
+              "description": "Motor Personal Accident",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Excess Protector",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCProtectorCov_Ext",
+              "description": "Protector",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": true,
+              "isValid": true
+            }, {
+              "name": "Substitute Vehicle",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCSubstituteVehicleCov_Ext",
+              "description": "Substitute Vehicle",
+              "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+              "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }, {
+              "name": "Key Cover",
+              "updated": false,
+              "terms": [],
+              "selected": false,
+              "required": false,
+              "publicID": "ANCKeyCoverCov_Ext",
+              "description": "Key Cover",
+              "coverageCategoryCode": "AncStandardEXT",
+              "coverageCategoryDisplayName": "Ancillary Line Standard Coverages",
+              "hasTerms": false,
+              "isValid": true
+            }]
+          }]
+        }
+      }]
+    }
+  },
+  "quoteData": {
+    "offeredQuotes": [{
+      "publicID": "csdt2:35734",
+      "branchName": "Hastings Essential",
+      "branchCode": "HE",
+      "hastingsPremium": {
+        "creditCardInterestRate": 0.0,
+        "monthlyPayment": {
+          "elevenMonthsInstalments": {
+            "amount": 73.62,
+            "currency": "gbp"
+          },
+          "firstInstalment": {
+            "amount": 73.65,
+            "currency": "gbp"
+          },
+          "representativeAPR": 29.9,
+          "rateOfInterest": 14.9,
+          "totalAmountCredit": 768.9,
+          "billingID": "bc:36",
+          "premiumAnnualCost": {
+            "amount": 883.47,
+            "currency": "gbp"
+          },
+          "arrangementFee": {
+            "amount": 20.0,
+            "currency": "gbp"
+          }
+        },
+        "annuallyPayment": {
+          "billingID": "bc:11",
+          "premiumAnnualCost": {
+            "amount": 4806.30,
+            "currency": "gbp"
+          },
+          "arrangementFee": {
+            "amount": 20.00,
+            "currency": "gbp"
+          },
+          "changeInPremium": {
+            "amount": 4806.30,
+            "currency": "gbp"
+          }
+        }
+      }
+    }, {
+      "publicID": "csdt2:35735",
+      "branchName": "Hastings Direct",
+      "branchCode": "HD",
+      "hastingsPremium": {
+        "creditCardInterestRate": 0.0,
+        "monthlyPayment": {
+          "elevenMonthsInstalments": {
+            "amount": 79.83,
+            "currency": "gbp"
+          },
+          "firstInstalment": {
+            "amount": 79.84,
+            "currency": "gbp"
+          },
+          "representativeAPR": 29.9,
+          "rateOfInterest": 14.9,
+          "totalAmountCredit": 833.74,
+          "billingID": "bc:36",
+          "premiumAnnualCost": {
+            "amount": 957.97,
+            "currency": "gbp"
+          },
+          "arrangementFee": {
+            "amount": 20.0,
+            "currency": "gbp"
+          }
+        },
+        "annuallyPayment": {
+          "billingID": "bc:11",
+          "premiumAnnualCost": {
+            "amount": 4930.60,
+            "currency": "gbp"
+          },
+          "arrangementFee": {
+            "amount": 20.00,
+            "currency": "gbp"
+          },
+          "changeInPremium": {
+            "amount": 4930.60,
+            "currency": "gbp"
+          }
+        }
+      }
+    }, {
+      "publicID": "csdt2:35736",
+      "branchName": "Hastings Premier",
+      "branchCode": "HP",
+      "hastingsPremium": {
+        "creditCardInterestRate": 0.0,
+        "monthlyPayment": {
+          "elevenMonthsInstalments": {
+            "amount": 84.74,
+            "currency": "gbp"
+          },
+          "firstInstalment": {
+            "amount": 84.69,
+            "currency": "gbp"
+          },
+          "representativeAPR": 29.9,
+          "rateOfInterest": 14.9,
+          "totalAmountCredit": 884.97,
+          "billingID": "bc:36",
+          "premiumAnnualCost": {
+            "amount": 1016.83,
+            "currency": "gbp"
+          },
+          "arrangementFee": {
+            "amount": 20.0,
+            "currency": "gbp"
+          }
+        },
+        "annuallyPayment": {
+          "billingID": "bc:11",
+          "premiumAnnualCost": {
+            "amount": 5004.67,
+            "currency": "gbp"
+          },
+          "arrangementFee": {
+            "amount": 20.00,
+            "currency": "gbp"
+          },
+          "changeInPremium": {
+            "amount": 5004.67,
+            "currency": "gbp"
+          }
+        }
+      }
+    }]
+  },
+  "bindData": {
+    "accountNumber": "10000007750",
+    "chosenQuote": "csdt2:35734",
+    "selectedPaymentPlan": "bc:11",
+    "contactEmail": "sad@gmail.com"
+  }
+}

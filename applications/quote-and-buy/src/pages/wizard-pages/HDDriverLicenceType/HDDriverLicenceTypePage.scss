@@ -1,0 +1,48 @@
+.driver-licence-type-container {
+    .btn-group-toggle.grid {
+        @include media-breakpoint-down(sm) {
+            grid-gap: 20px;
+            gap: 20px;
+        }  
+    }
+
+    // check this - distance between form group and continuo button on other pages 20px on this one 12px
+    .form-group {
+        &:last-child {
+            h2 {
+                margin-top: 40px;
+                @include media-breakpoint-down(sm) {
+                    margin-top: -8px;
+                }
+            }
+            margin-bottom: 0;
+            @include media-breakpoint-down(sm) {
+                margin-bottom: 12px;
+            }
+
+            .invalid-feedback {
+                margin-bottom: -15px;
+                @include media-breakpoint-down(sm) {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: -16px;
+        }
+    }
+
+    + div {
+        @include media-breakpoint-down(sm) {
+            margin-top: 0;
+        }
+    }
+
+    hr {
+        margin: 36px 0 15px;
+        @include media-breakpoint-down(sm) {
+            margin: 36px 0 30px;
+        }
+    }
+}

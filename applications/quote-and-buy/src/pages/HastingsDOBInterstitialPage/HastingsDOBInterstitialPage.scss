@@ -1,0 +1,53 @@
+$dob-interstitial-date-grid-gutter: 5px;
+
+.dob-interstitial__date-input-row {
+    margin-left: -$dob-interstitial-date-grid-gutter;
+    margin-right: -$dob-interstitial-date-grid-gutter;
+}
+
+.dob-interstitial__date-input-col {
+    padding-left: $dob-interstitial-date-grid-gutter;
+    padding-right: $dob-interstitial-date-grid-gutter;
+
+    input {
+        @include media-breakpoint-up(tiny) {
+            padding: 18px 19px;
+        }
+    }
+}
+
+.dob-interstitial__invalid-field {
+    margin: 20px 0;
+}
+
+.dob-interstitial__confirm-btn {
+    margin-top: 30px;
+    @include media-breakpoint-up(md) {
+        margin-top: 36px;
+    }
+}
+
+.dob-interstitial__date-header {
+    font-size: $hd-font-size-h1;
+    margin-bottom: 30px;
+}
+
+.dob-interstitial__update-inception-modal {
+    &.narrow .hd-modal-footer {
+        margin-top: 5px;
+    }
+
+    .hastings-modal-content {
+        padding: 26px;
+    }
+}
+
+.dob-interstitial__opening-hours {
+    & + & {
+        margin-top: 5px;
+    }
+    
+    p {
+        margin-bottom: 0;
+    }
+}

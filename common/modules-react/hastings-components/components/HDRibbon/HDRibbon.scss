@@ -1,0 +1,27 @@
+.ribbon {
+    padding: 0 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: $ribbon-height;
+    background-color: $midnight-nordic-noir;
+
+    .text {
+        background-color: $link-color;
+        padding: 5px 7px;
+        border-radius: 2px;
+        font-size: $font-size-sm;
+        color: $white-color;
+        margin-right: 20px;
+    }
+    
+    .action {
+        color: $white-color;
+        text-decoration: underline;
+        font-size: $font-size-regular;
+
+        @include media-breakpoint-down(xs) {
+            margin-left: auto;
+		}
+    }
+}

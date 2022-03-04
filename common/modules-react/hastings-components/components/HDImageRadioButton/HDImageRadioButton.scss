@@ -1,0 +1,105 @@
+.hd-image-radio-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.hd-image-radio-btn__header-value {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    flex-grow: 1;
+    padding: 20px 0 10px 0;
+
+    @include media-breakpoint-up(md) {
+        font-size: 16px;
+    }
+}
+
+.hd-image-radio-btn__inverted-text {
+    margin: 15px 0 0 0;
+    padding: 6px 6px 6px;
+    border-radius: 2px;
+    background-color: $app-theme;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: $mono-white;
+    position: relative;
+
+    &:after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -10px;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid $app-theme;
+    }
+}
+
+.hd-image-radio-btn__image {
+    height: 35px;
+    width: 100%;
+    margin-top: 37px;
+    margin-bottom: 29px;
+
+    &.selected {
+        filter: brightness(0) invert(1);
+    }
+
+    &.online-product-on {
+        margin-bottom: 5px;
+    }
+}
+
+.hd-image-radio-btn__image_online {
+    height: 35px;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    display: flex;
+
+    &.selected {
+        filter: brightness(0) invert(1);
+    }
+}
+
+.hd-image-radio-btn_input {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    margin: 10px 0;
+    border: 2.5px solid $info-color;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+
+    &:checked {
+        border: 2.5px solid $mono-white;
+    }
+
+    &:checked:after {
+        content: "";
+        height: 22px;
+        width: 22px;
+        background-color: $mono-white;
+        border: 3px solid $midnight-royal-blue;
+        border-radius: 50%;
+    }
+}

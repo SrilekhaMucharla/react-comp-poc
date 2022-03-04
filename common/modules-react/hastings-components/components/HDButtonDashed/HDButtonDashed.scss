@@ -1,0 +1,64 @@
+//TODO: remove theme, set with regular buttons
+
+@mixin btn-dashed($theme: 'dark') {
+    $text-color: $white-color;
+    @if $theme == 'light' {
+        $text-color: $app-theme
+    }
+
+    height: 50px;
+    background: rgba(14, 131, 138, 0.15);
+    border: 1px dashed $mint-dark;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    cursor: pointer;
+
+    @include media-breakpoint-up(md) {
+        height: 60px;
+    }
+
+    .text {
+        color: $white-color;
+        font-size: $font-size-lg;
+        line-height: 1.35;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    &:hover {
+        background: transparent;
+        border: 2px dashed $mint-dark;
+    }
+
+    &:focus {
+        background: $blue-transparent-30;
+        outline: none;
+        border: 2px dashed $mint-dark;
+    }
+
+    &.disabled {
+        cursor: not-allowed;
+        border: 1px dashed $mono-blue-yonder;
+        background: transparent;
+        .text {
+            color: $mono-blue-yonder;
+            cursor: not-allowed;
+        }
+
+        .icon {
+            filter: opacity(30%)
+        }
+    }
+}
+
+.btn-dashed--dark {
+    @include btn-dashed('dark');
+}
+  
+.btn-dashed--light {
+    @include btn-dashed('light');
+}

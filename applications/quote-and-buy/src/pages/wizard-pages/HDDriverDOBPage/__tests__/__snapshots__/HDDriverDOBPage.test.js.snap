@@ -1,0 +1,1136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDriverDOBPage /> should render the component and match snapshot 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HDDriverDOBPage)>
+      <HDDriverDOBPage
+        setNavigation={[Function]}
+        setWizardPageState={[Function]}
+        submissionVM={
+          Object {
+            "baseData": Object {
+              "accountHolder": Object {
+                "dateOfBirth": "",
+              },
+              "isExistingCustomer": false,
+              "isPostalDocument": false,
+              "jobType": "Submission",
+              "marketingContacts": Object {
+                "allowEmail": false,
+                "allowPost": false,
+                "allowSMS": false,
+                "allowTelephone": false,
+              },
+              "periodStatus": "Draft",
+              "policyAddress": Object {},
+              "producerCode": "Default",
+              "productCode": "PrivateCar_Ext",
+              "productName": "Private Car",
+              "termType": "Annual",
+            },
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "addInterestTypeCategory": "PAVhcleAddlInterest",
+                  "drivers": Array [
+                    Object {
+                      "claimsAndConvictions": Object {
+                        "claimsDetailsCollection": Array [],
+                        "convictionsCollection": Array [],
+                      },
+                      "licenceObtainedDate": null,
+                      "person": Object {
+                        "prefix": Object {},
+                      },
+                      "previousPoliciesInformation": Object {},
+                      "residingInUKSince": null,
+                      "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                    },
+                  ],
+                  "vehicleDrivers": Array [
+                    Object {},
+                  ],
+                  "vehicles": Array [
+                    Object {
+                      "isCarModified": "",
+                      "ncdProtection": Object {
+                        "drivingExperience": Object {},
+                      },
+                      "tracker": "",
+                      "vehicleModifications": Array [],
+                      "vehicleWorth": "",
+                    },
+                  ],
+                },
+                "preQualQuestionSets": Array [],
+              },
+            },
+          }
+        }
+      >
+        <Container
+          className="hd-driver-dob__container"
+          fluid={false}
+        >
+          <div
+            className="hd-driver-dob__container container"
+          >
+            <HDForm
+              className=""
+              initValues={Object {}}
+              onValidation={[Function]}
+              passedKey="default-key"
+              resetFormOnStart={false}
+              submissionVM={
+                Object {
+                  "baseData": Object {
+                    "accountHolder": Object {
+                      "dateOfBirth": "",
+                    },
+                    "isExistingCustomer": false,
+                    "isPostalDocument": false,
+                    "jobType": "Submission",
+                    "marketingContacts": Object {
+                      "allowEmail": false,
+                      "allowPost": false,
+                      "allowSMS": false,
+                      "allowTelephone": false,
+                    },
+                    "periodStatus": "Draft",
+                    "policyAddress": Object {},
+                    "producerCode": "Default",
+                    "productCode": "PrivateCar_Ext",
+                    "productName": "Private Car",
+                    "termType": "Annual",
+                  },
+                  "lobData": Object {
+                    "privateCar": Object {
+                      "coverables": Object {
+                        "addInterestTypeCategory": "PAVhcleAddlInterest",
+                        "drivers": Array [
+                          Object {
+                            "claimsAndConvictions": Object {
+                              "claimsDetailsCollection": Array [],
+                              "convictionsCollection": Array [],
+                            },
+                            "licenceObtainedDate": null,
+                            "person": Object {
+                              "prefix": Object {},
+                            },
+                            "previousPoliciesInformation": Object {},
+                            "residingInUKSince": null,
+                            "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                          },
+                        ],
+                        "vehicleDrivers": Array [
+                          Object {},
+                        ],
+                        "vehicles": Array [
+                          Object {
+                            "isCarModified": "",
+                            "ncdProtection": Object {
+                              "drivingExperience": Object {},
+                            },
+                            "tracker": "",
+                            "vehicleModifications": Array [],
+                            "vehicleWorth": "",
+                          },
+                        ],
+                      },
+                      "preQualQuestionSets": Array [],
+                    },
+                  },
+                }
+              }
+              validationSchema={
+                ObjectSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_defaultDefault": [Function],
+                  "_deps": Array [],
+                  "_excludedEdges": Array [],
+                  "_exclusive": Object {},
+                  "_mutate": undefined,
+                  "_nodes": Array [
+                    "dateOfBirth",
+                    "residingInUKSince",
+                  ],
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "object",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "fields": Object {
+                    "dateOfBirth": DateSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [],
+                      "_deps": Array [],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                        "before17thBirthday": false,
+                        "min": true,
+                        "notInTheFuture": false,
+                        "required": true,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "date",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "date",
+                      "vmPath": "lobData.privateCar.coverables.drivers.children.0.dateOfBirth",
+                    },
+                    "residingInUKSince": DateSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [
+                        Condition {
+                          "fn": [Function],
+                          "refs": Array [
+                            Reference {
+                              "getter": [Function],
+                              "isContext": false,
+                              "isSibling": true,
+                              "isValue": false,
+                              "key": "dateOfBirth",
+                              "map": undefined,
+                              "path": "dateOfBirth",
+                            },
+                          ],
+                        },
+                      ],
+                      "_deps": Array [
+                        "dateOfBirth",
+                      ],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                        "max": true,
+                        "required": true,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "date",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "date",
+                      "vmPath": "lobData.privateCar.coverables.drivers.children.0.residingInUKSince",
+                    },
+                  },
+                  "tests": Array [],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "object",
+                }
+              }
+            >
+              <Formik
+                initialTouched={Array []}
+                initialValues={
+                  Object {
+                    "dateOfBirth": undefined,
+                    "residingInUKSince": undefined,
+                  }
+                }
+                key="default-key"
+                validateOnMount={true}
+                validationSchema={
+                  ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "dateOfBirth",
+                      "residingInUKSince",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "dateOfBirth": DateSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                          "before17thBirthday": false,
+                          "min": true,
+                          "notInTheFuture": false,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "date",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "date",
+                        "vmPath": "lobData.privateCar.coverables.drivers.children.0.dateOfBirth",
+                      },
+                      "residingInUKSince": DateSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [
+                          Condition {
+                            "fn": [Function],
+                            "refs": Array [
+                              Reference {
+                                "getter": [Function],
+                                "isContext": false,
+                                "isSibling": true,
+                                "isValue": false,
+                                "key": "dateOfBirth",
+                                "map": undefined,
+                                "path": "dateOfBirth",
+                              },
+                            ],
+                          },
+                        ],
+                        "_deps": Array [
+                          "dateOfBirth",
+                        ],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                          "max": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "date",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "date",
+                        "vmPath": "lobData.privateCar.coverables.drivers.children.0.residingInUKSince",
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "object",
+                  }
+                }
+              >
+                <Form
+                  className=""
+                  inline={false}
+                  noValidate={true}
+                  onSubmit={[Function]}
+                >
+                  <form
+                    className=""
+                    noValidate={true}
+                    onSubmit={[Function]}
+                  >
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.dateOfBirth.dateOfBirth.hd-driver-dob-dob"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDDatePicker",
+                                    }
+                                  }
+                                  className="hd-driver-dob__dob-picker "
+                                  custom={true}
+                                  hidePicker={true}
+                                  id="hd-driver-dob-dob"
+                                  inputCols={
+                                    Array [
+                                      Object {
+                                        "xs": 3,
+                                      },
+                                      Object {
+                                        "xs": 3,
+                                      },
+                                      Object {
+                                        "xs": 6,
+                                      },
+                                    ]
+                                  }
+                                  inputSectionCol={
+                                    Object {
+                                      "lg": 10,
+                                      "md": 12,
+                                      "sm": 10,
+                                      "xl": 8,
+                                      "xs": 12,
+                                    }
+                                  }
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "text": "What's your date of birth?",
+                                    }
+                                  }
+                                  name="dateOfBirth"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.dateOfBirth"
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "What's your date of birth?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    className="hd-driver-dob__dob-picker  custom"
+                                    hidePicker={true}
+                                    id="hd-driver-dob-dob"
+                                    inputCols={
+                                      Array [
+                                        Object {
+                                          "xs": 3,
+                                        },
+                                        Object {
+                                          "xs": 3,
+                                        },
+                                        Object {
+                                          "xs": 6,
+                                        },
+                                      ]
+                                    }
+                                    inputSectionCol={
+                                      Object {
+                                        "lg": 10,
+                                        "md": 12,
+                                        "sm": 10,
+                                        "xl": 8,
+                                        "xs": 12,
+                                      }
+                                    }
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "text": "What's your date of birth?",
+                                      }
+                                    }
+                                    name="dateOfBirth"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.dateOfBirth"
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "What's your date of birth?",
+                                      }
+                                    }
+                                  >
+                                    <HDDatePickerRefactor
+                                      className="hd-driver-dob__dob-picker  custom"
+                                      customClassName=""
+                                      hidePicker={true}
+                                      id="hd-driver-dob-dob"
+                                      information={null}
+                                      initialDate={null}
+                                      inputCols={
+                                        Array [
+                                          Object {
+                                            "xs": 3,
+                                          },
+                                          Object {
+                                            "xs": 3,
+                                          },
+                                          Object {
+                                            "xs": 6,
+                                          },
+                                        ]
+                                      }
+                                      inputSectionCol={
+                                        Object {
+                                          "lg": 10,
+                                          "md": 12,
+                                          "sm": 10,
+                                          "xl": 8,
+                                          "xs": 12,
+                                        }
+                                      }
+                                      inputStyle={null}
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "text": "What's your date of birth?",
+                                        }
+                                      }
+                                      maxDate={365}
+                                      minDate={0}
+                                      name="dateOfBirth"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onConfirm={[Function]}
+                                      onSelect={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.dateOfBirth"
+                                      pickerPos="input-right"
+                                      showFieldsNames={false}
+                                      subLabel={null}
+                                      theme="dark"
+                                    >
+                                      <div
+                                        className=" hd-driver-dob__dob-picker  custom hd-date-picker__date-control hd-date-picker__date-control__dark"
+                                        id="hd-driver-dob-dob"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className="hd-date-picker__label"
+                                          id="hd-date-picker-label"
+                                          text="What's your date of birth?"
+                                        >
+                                          <h2
+                                            className="hd-date-picker__label"
+                                            id="hd-date-picker-label"
+                                          >
+                                            What's your date of birth?
+                                          </h2>
+                                        </HDLabelRefactor>
+                                        <div
+                                          className="hd-date-picker__date-fields"
+                                        >
+                                          <Row
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="row"
+                                            >
+                                              <Col
+                                                lg={10}
+                                                md={12}
+                                                sm={10}
+                                                xl={8}
+                                                xs={12}
+                                              >
+                                                <div
+                                                  className="col-xl-8 col-lg-10 col-md-12 col-sm-10 col-12"
+                                                >
+                                                  <Row
+                                                    noGutters={false}
+                                                  >
+                                                    <div
+                                                      className="row"
+                                                    >
+                                                      <Col
+                                                        xs={3}
+                                                      >
+                                                        <div
+                                                          className="col-3"
+                                                        >
+                                                          <input
+                                                            className="form-control hd-date-picker__date-fields__day "
+                                                            id="hd-date-picker-date-input-day"
+                                                            inputMode="numeric"
+                                                            max="31"
+                                                            min="1"
+                                                            name="day"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            onFocus={[Function]}
+                                                            pattern="/[^0-9]/g"
+                                                            placeholder="DD"
+                                                            type="string"
+                                                            value=""
+                                                          />
+                                                          <i
+                                                            className="fa fa-exclamation exclam hd-date-picker__exclam"
+                                                          />
+                                                        </div>
+                                                      </Col>
+                                                      <Col
+                                                        xs={3}
+                                                      >
+                                                        <div
+                                                          className="col-3"
+                                                        >
+                                                          <input
+                                                            className="form-control hd-date-picker__date-fields__month "
+                                                            id="hd-date-picker-date-input-month"
+                                                            inputMode="numeric"
+                                                            max="12"
+                                                            min="1"
+                                                            name="month"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            onFocus={[Function]}
+                                                            pattern="/[^0-9]/g"
+                                                            placeholder="MM"
+                                                            type="string"
+                                                            value=""
+                                                          />
+                                                          <i
+                                                            className="fa fa-exclamation exclam hd-date-picker__exclam"
+                                                          />
+                                                        </div>
+                                                      </Col>
+                                                      <Col
+                                                        xs={6}
+                                                      >
+                                                        <div
+                                                          className="col-6"
+                                                        >
+                                                          <input
+                                                            className="form-control hd-date-picker__date-fields__year "
+                                                            id="hd-date-picker-date-input-year"
+                                                            inputMode="numeric"
+                                                            name="year"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            onFocus={[Function]}
+                                                            pattern="/[^0-9]/g"
+                                                            placeholder="YYYY"
+                                                            type="string"
+                                                            value=""
+                                                          />
+                                                          <i
+                                                            className="fa fa-exclamation exclam hd-date-picker__exclam"
+                                                          />
+                                                        </div>
+                                                      </Col>
+                                                    </div>
+                                                  </Row>
+                                                </div>
+                                              </Col>
+                                            </div>
+                                          </Row>
+                                        </div>
+                                      </div>
+                                    </HDDatePickerRefactor>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you need to answer this question.
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <hr />
+                    <Row
+                      className="mb-4"
+                      noGutters={false}
+                    >
+                      <div
+                        className="mb-4 row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.residingInUKSince.residingInUKSince.hd-driver-dob-residency"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDDatePicker",
+                                    }
+                                  }
+                                  className="hd-driver-dob__residency-picker "
+                                  custom={true}
+                                  hidePicker={true}
+                                  id="hd-driver-dob-residency"
+                                  inputCols={
+                                    Array [
+                                      Object {
+                                        "xs": 3,
+                                      },
+                                      Object {
+                                        "xs": 3,
+                                      },
+                                      Object {
+                                        "xs": 6,
+                                      },
+                                    ]
+                                  }
+                                  inputSectionCol={
+                                    Object {
+                                      "lg": 10,
+                                      "md": 12,
+                                      "sm": 10,
+                                      "xl": 8,
+                                      "xs": 12,
+                                    }
+                                  }
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "text": "When did you become a UK resident?",
+                                    }
+                                  }
+                                  name="residingInUKSince"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.residingInUKSince"
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "When did you become a UK resident?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    className="hd-driver-dob__residency-picker  custom"
+                                    hidePicker={true}
+                                    id="hd-driver-dob-residency"
+                                    inputCols={
+                                      Array [
+                                        Object {
+                                          "xs": 3,
+                                        },
+                                        Object {
+                                          "xs": 3,
+                                        },
+                                        Object {
+                                          "xs": 6,
+                                        },
+                                      ]
+                                    }
+                                    inputSectionCol={
+                                      Object {
+                                        "lg": 10,
+                                        "md": 12,
+                                        "sm": 10,
+                                        "xl": 8,
+                                        "xs": 12,
+                                      }
+                                    }
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "text": "When did you become a UK resident?",
+                                      }
+                                    }
+                                    name="residingInUKSince"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.residingInUKSince"
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "When did you become a UK resident?",
+                                      }
+                                    }
+                                  >
+                                    <HDDatePickerRefactor
+                                      className="hd-driver-dob__residency-picker  custom"
+                                      customClassName=""
+                                      hidePicker={true}
+                                      id="hd-driver-dob-residency"
+                                      information={null}
+                                      initialDate={null}
+                                      inputCols={
+                                        Array [
+                                          Object {
+                                            "xs": 3,
+                                          },
+                                          Object {
+                                            "xs": 3,
+                                          },
+                                          Object {
+                                            "xs": 6,
+                                          },
+                                        ]
+                                      }
+                                      inputSectionCol={
+                                        Object {
+                                          "lg": 10,
+                                          "md": 12,
+                                          "sm": 10,
+                                          "xl": 8,
+                                          "xs": 12,
+                                        }
+                                      }
+                                      inputStyle={null}
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "text": "When did you become a UK resident?",
+                                        }
+                                      }
+                                      maxDate={365}
+                                      minDate={0}
+                                      name="residingInUKSince"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onConfirm={[Function]}
+                                      onSelect={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.residingInUKSince"
+                                      pickerPos="input-right"
+                                      showFieldsNames={false}
+                                      subLabel={null}
+                                      theme="dark"
+                                    >
+                                      <div
+                                        className=" hd-driver-dob__residency-picker  custom hd-date-picker__date-control hd-date-picker__date-control__dark"
+                                        id="hd-driver-dob-residency"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className="hd-date-picker__label"
+                                          id="hd-date-picker-label"
+                                          text="When did you become a UK resident?"
+                                        >
+                                          <h2
+                                            className="hd-date-picker__label"
+                                            id="hd-date-picker-label"
+                                          >
+                                            When did you become a UK resident?
+                                          </h2>
+                                        </HDLabelRefactor>
+                                        <div
+                                          className="hd-date-picker__date-fields"
+                                        >
+                                          <Row
+                                            noGutters={false}
+                                          >
+                                            <div
+                                              className="row"
+                                            >
+                                              <Col
+                                                lg={10}
+                                                md={12}
+                                                sm={10}
+                                                xl={8}
+                                                xs={12}
+                                              >
+                                                <div
+                                                  className="col-xl-8 col-lg-10 col-md-12 col-sm-10 col-12"
+                                                >
+                                                  <Row
+                                                    noGutters={false}
+                                                  >
+                                                    <div
+                                                      className="row"
+                                                    >
+                                                      <Col
+                                                        xs={3}
+                                                      >
+                                                        <div
+                                                          className="col-3"
+                                                        >
+                                                          <input
+                                                            className="form-control hd-date-picker__date-fields__day "
+                                                            id="hd-date-picker-date-input-day"
+                                                            inputMode="numeric"
+                                                            max="31"
+                                                            min="1"
+                                                            name="day"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            onFocus={[Function]}
+                                                            pattern="/[^0-9]/g"
+                                                            placeholder="DD"
+                                                            type="string"
+                                                            value=""
+                                                          />
+                                                          <i
+                                                            className="fa fa-exclamation exclam hd-date-picker__exclam"
+                                                          />
+                                                        </div>
+                                                      </Col>
+                                                      <Col
+                                                        xs={3}
+                                                      >
+                                                        <div
+                                                          className="col-3"
+                                                        >
+                                                          <input
+                                                            className="form-control hd-date-picker__date-fields__month "
+                                                            id="hd-date-picker-date-input-month"
+                                                            inputMode="numeric"
+                                                            max="12"
+                                                            min="1"
+                                                            name="month"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            onFocus={[Function]}
+                                                            pattern="/[^0-9]/g"
+                                                            placeholder="MM"
+                                                            type="string"
+                                                            value=""
+                                                          />
+                                                          <i
+                                                            className="fa fa-exclamation exclam hd-date-picker__exclam"
+                                                          />
+                                                        </div>
+                                                      </Col>
+                                                      <Col
+                                                        xs={6}
+                                                      >
+                                                        <div
+                                                          className="col-6"
+                                                        >
+                                                          <input
+                                                            className="form-control hd-date-picker__date-fields__year "
+                                                            id="hd-date-picker-date-input-year"
+                                                            inputMode="numeric"
+                                                            name="year"
+                                                            onBlur={[Function]}
+                                                            onChange={[Function]}
+                                                            onFocus={[Function]}
+                                                            pattern="/[^0-9]/g"
+                                                            placeholder="YYYY"
+                                                            type="string"
+                                                            value=""
+                                                          />
+                                                          <i
+                                                            className="fa fa-exclamation exclam hd-date-picker__exclam"
+                                                          />
+                                                        </div>
+                                                      </Col>
+                                                    </div>
+                                                  </Row>
+                                                </div>
+                                              </Col>
+                                            </div>
+                                          </Row>
+                                        </div>
+                                      </div>
+                                    </HDDatePickerRefactor>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you need to answer this question.
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </form>
+                </Form>
+              </Formik>
+            </HDForm>
+          </div>
+        </Container>
+      </HDDriverDOBPage>
+    </Connect(HDDriverDOBPage)>
+  </Provider>
+</Component>
+`;

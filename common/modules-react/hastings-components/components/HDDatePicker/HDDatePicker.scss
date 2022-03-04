@@ -1,0 +1,218 @@
+.hastings-date-control-blue {
+  .hastings-date-fields {
+    .fields {
+      div {
+        div {
+          font-family: $font-face-generic-regular;
+          font-size: $font-size-regular-1;
+          font-weight: 600;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.5;
+          letter-spacing: normal;
+          color: $blue-light-3;
+        }
+      }
+    }     
+  }
+}
+.hastings-date-control {
+  line-height: 39px;
+  .datepickerroverlaycontainer{
+    .substitute-vehicle-info-paragraph{
+      line-height: 23px;
+    }
+  }
+
+  @include media-breakpoint-between(xs, sm) {
+    line-height: 27px;
+  }
+
+  input {
+    border: 1px solid $gray-dark-6;
+    width: 27%;
+    height: 58px;
+    margin: 0 10px 0 0;
+    padding: 16px;
+    box-sizing: border-box;
+    background: $white-fill;
+    border-radius: 5px;
+
+    @include media-breakpoint-down(md) {
+      border-radius: 6px;
+      height: 60px;
+    }
+  }
+  .hastings-date-control-label {
+    font-family: $font-face-generic-regular;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 1.2;
+    text-align: left;
+    color: $white-color;
+  }
+  .hastings-date-control-sublabel {
+    font-family: $font-face-generic-regular;
+    font-size: $font-size-md;
+    line-height: 1.5;
+    text-align: left;
+    color: $white-color;
+  }
+  .hastings-cal-icon {
+    display: inline;
+    margin: 0 3px;
+    position: relative;
+
+    .overlaycalendar {
+      font-size: 36px;
+      width: 10%;
+      position: absolute;
+      right: 0;
+      top: -18px;
+
+      @include media-breakpoint-between(xs, sm) {
+        font-size: 25px;
+        top: -12px;
+      }
+    }
+    .datepickerroverlaycontainer {
+      .datepickerroverlayheader {
+        font-family: $font-face-generic-regular;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 1.2;
+        text-align: left;
+        color: $app-theme;
+      }
+      .react-datepicker {
+        border: 1px solid $blue-light;
+        background: $white-fill;
+        .react-datepicker__navigation--previous {
+          //border-right-color: $app-theme;
+          background: url(../images/icons/Icons_Chevron-left.svg) no-repeat;
+          width: 30px;
+          height: 30px;
+          border: none;
+        }
+        .react-datepicker__navigation--next {
+          //border-left-color: $app-theme;
+          background: url(../images/icons/Icons_Chevron-right.svg) no-repeat;
+          width: 30px;
+          height: 30px;
+          border: none;
+        }
+        
+
+        .react-datepicker__month-container {
+          
+          .react-datepicker__header {
+            background-color:  $white-fill;
+            border-bottom: 1px solid $blue-light;
+            .react-datepicker__current-month {
+              font-family: $font-face-generic-regular;
+              font-weight: bold;
+              font-size: $font-size-xl;
+              line-height: 1.2;
+              color: $app-theme;
+            }
+            .react-datepicker__day-names {
+              div {
+                font-family: $font-face-generic-regular;
+                font-size: $font-size-md;
+                line-height: 1.5;
+                color: $app-theme;
+              }
+            }
+          }
+          .react-datepicker__month {
+            .react-datepicker__week {
+              div {
+                font-family: $font-face-generic-regular;
+                font-weight: bold;
+                font-size: $font-size-md;
+                line-height: 1.2;
+              }
+              .react-datepicker__day:hover {
+                background-color: rgba(14, 131, 138, 0.2);
+                border: solid 2px $mint-dark;
+                border-radius: 6px;
+                color: $app-theme;
+              }
+              .react-datepicker__day--selected {
+                background-color: rgba(14, 131, 138, 0.2);
+                border: solid 2px $mint-dark;
+                border-radius: 6px;
+                color: $app-theme;
+              }
+            }
+          }
+        }
+         @include media-breakpoint-between(xs, sm) {
+          .react-datepicker__month-container {
+            .react-datepicker__header {
+              .react-datepicker__day-names {
+                
+                div {
+                  font-family:  $font-face-generic-regular;
+                  font-size: $font-size-sm;
+                  font-weight: normal;
+                  font-stretch: normal;
+                  font-style: normal;
+                  line-height: normal;
+                  letter-spacing: normal;
+                  text-align: center;
+                }
+              }
+            } 
+            .react-datepicker__month {
+              .react-datepicker__week {
+                div {
+                  font-family: $font-face-generic-regular;
+                  font-weight: bold;
+                  font-size: $font-size-sm;
+                  line-height: 1.2;
+                }
+              }
+            }
+          }
+            
+        }
+      }    
+    }
+  }
+
+  .hastings-date-fields {
+    display: flex;
+    align-items: center;
+
+    .fields {
+      display: flex;
+  
+      div {
+        div {
+          margin-left: 3px;
+        }
+      }
+    }     
+  }
+
+  .hastings-date-dd,
+  .hastings-date-mm {
+    width: 80px;
+  }
+
+  .hastings-date-yyyy {
+    width: 190px;
+  }
+
+  @include media-breakpoint-down(lg) {
+    .hastings-date-dd,
+    .hastings-date-mm {
+      width: 86px;
+    }
+
+    .hastings-date-yyyy {
+      width: 126px;
+    }
+  }
+}

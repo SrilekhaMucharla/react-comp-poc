@@ -1,0 +1,7 @@
+[
+  {
+    "server": "pc",
+    "serviceName": "guidance",
+    "service": "guidance/guidance"
+  }
+]

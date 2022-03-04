@@ -1,0 +1,362 @@
+// BUTTON HELPERS
+
+// TO BE USED ON .ROW ELEMENT
+.col-elem-same-height > div {
+  display: flex;
+  align-items: stretch;
+}
+
+// BUTTON DEFINITIONS
+
+.btn,
+.hd-btn {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  font-family: $font-face-generic-regular;
+  font-size: $font-size-lg;
+  line-height: 1.35;
+  font-weight: 500;
+  box-shadow: none;
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 6px;
+
+  @include media-breakpoint-up(md) {
+    width: auto;
+    flex: 0;
+    padding: 15px 50px;
+  }
+
+  // BORDER WIDTH COMPENSATION
+
+  &:hover {
+    @include media-breakpoint-up(md) {
+      padding: 15px 49px;
+    }
+  }
+  &:active {
+    padding: 15px 48px;
+  }
+
+  // PRIMARY BUTTON
+
+  &.btn-primary,
+  &.hd-btn-primary,
+  &.btn-primary.active,
+  &.btn-primary:not(:disabled):not(.disabled).active{
+    color: $white-color;
+    background-color: $midnight-teal;
+    border: 1px solid $midnight-teal;
+  }
+
+  &.btn-primary:hover,
+  &.hd-btn-primary:hover {
+    color: $white-color;
+    background-color: transparent;
+    border: 2px solid $midnight-persian-green;
+  }
+
+  &.btn-primary:active,
+  &.hd-btn-primary:active,
+  &.btn-primary:not(:disabled):not(.disabled):active{
+    color: $white-color;
+    background-color: $midnight-prussian-blue;
+    border: 3px solid $midnight-teal;
+  }
+
+  &.btn-primary:disabled,
+  &.hd-btn-primary:disabled {
+    color: $mono-blue-yonder;
+    background-color: $midnight-prussian-blue;
+    border: 2px solid $midnight-prussian-blue;
+    cursor: not-allowed;
+  }
+
+  &.theme-white,
+  .hastings-modal-content &,
+  .hd-information-tooltip &,
+  .wizard-navigation-forward_override &{
+    &.hd-btn-primary:hover {
+      color: $mono-midnight;
+    }
+
+    &.btn-primary:active,
+    &.hd-btn-primary:active {
+      color: $mono-midnight;
+      background: $mono-alice-blue;
+    }
+
+    &.btn-primary:disabled,
+    &.hd-btn-primary:disabled {
+      color: $mono-blue-yonder;
+      background: $mono-alice-blue;
+      border: 2px solid $mono-alice-blue;
+    }
+  }
+
+
+  // SECONDARY BUTTON
+
+  &.btn-secondary,
+  &.hd-btn-secondary,
+  &.btn-secondary.active,
+  &.btn-secondary:not(:disabled):not(.disabled).active{
+    color: $white-color;
+    background-color: $green-transparent-20;
+    border: 1px solid $midnight-persian-green;
+  }
+
+  &.btn-secondary:hover,
+  &.hd-btn-secondary:hover {
+    color: $white-color;
+    background-color: transparent;
+    border: 2px solid $mono-blue-yonder;
+  }
+
+  &.btn-secondary:active,
+  &.hd-btn-secondary:active,
+  &.btn-secondary:not(:disabled):not(.disabled):active{
+    color: $white-color;
+    background-color: $midnight-prussian-blue;
+    border: 3px solid $mono-blue-yonder;
+  }
+
+  &.btn-secondary:disabled,
+  &.hd-btn-secondary:disabled {
+    color: $mono-blue-yonder;
+    background: $mono-midnight;
+    border: 2px solid $midnight-prussian-blue;
+    cursor: not-allowed;
+  }
+
+  &.theme-white,
+  .hastings-modal-content &,
+  .hd-information-tooltip &{
+    &.btn-secondary,
+    &.hd-btn-secondary{
+      color: $mono-midnight;
+      background: $green-transparent-20;
+      border: 1px solid $mint-color;
+    }
+    &.btn-secondary:hover ,
+    &.hd-btn-secondary:hover {
+      color: $mono-midnight;
+      background: $white-fill;
+      border: 2px solid $mono-blue-yonder;
+    }
+    &.btn-secondary:active,
+    &.hd-btn-secondary:active {
+      color: $mono-midnight;
+      background: $mono-alice-blue;
+      border: 3px solid $mono-blue-yonder;
+    }
+  }
+
+  // TERTIARY BUTTON
+
+  &.hd-btn-tertiary {
+    color: $white-color;
+    background-color: $midnight-prussian-blue;
+    border: 2px solid $mono-light-steel;
+  }
+  &.hd-btn-tertiary:hover {
+    color: $white-color;
+    background-color: transparent;
+    border: 2px solid $midnight-prussian-blue;
+  }
+  &.hd-btn-tertiary:active,
+  &.btn-tertiary:not(:disabled):not(.disabled):active{
+    color: $white-color;
+    background-color: $midnight-prussian-blue;
+    border: 3px solid $midnight-regal-blue;
+  }
+
+  &.hd-btn-tertiary:disabled {
+    color: $mono-blue-yonder;
+    background-color: $mono-midnight;
+    border: 2px solid $midnight-prussian-blue;
+    cursor: not-allowed;
+  }
+
+  // DEFAULT BUTTON
+
+  &.btn-default,
+  &.hd-btn-default {
+    color: $white-color;
+    background-color: $midnight-nordic-noir;
+    border: 1px solid $mono-blue-yonder;
+  }
+  &.btn-default:hover,
+  &.hd-btn-default:hover,
+  &.btn-default.active:hover{
+    color: $white-color;
+    background-color: transparent;
+    border: 2px solid $blue-color;
+    &.active:after {
+      right: -14px;
+      top: -13px;
+    }
+  }
+  &.hd-btn-default.active,
+  &.hd-btn-default:active,
+  &.btn-default.active,
+  &.btn-default:active {
+    color: $white-color;
+    background-color: $midnight-prussian-blue;
+    border: 2px solid $blue-color;
+    &.active:after {
+      right: -14px;
+      top: -13px;
+    }
+  }
+
+  &.btn-default:disabled,
+  &.hd-btn-default:disabled {
+    color: $mono-blue-yonder;
+    background-color: $mono-midnight;
+    border: 2px solid $midnight-prussian-blue;
+    cursor: not-allowed;
+  }
+
+  &.theme-white,
+  .hastings-modal-content &,
+  .hd-information-tooltip &{
+    &.btn-default,
+    &.hd-btn-default,
+    &.btn.active:not(:hover).btn-default{
+      color: $mono-midnight;
+      background-color: $white-fill;
+      border: 1px solid $mono-blue-yonder;
+    }
+    &.btn-default:hover,
+    &.hd-btn-default:hover {
+      color: $mono-midnight;
+      background-color: transparent;
+      border: 2px solid $blue-color;
+    }
+    &.btn-default:active,
+    &.hd-btn-default:active,
+    &.btn-default:not(:disabled):not(.disabled):active,
+    &.btn-default.active,
+    &.btn-default:not(:disabled):not(.disabled).active{
+      color: $mono-midnight;
+      background-color: $blue-transparent-10;
+      border: 2px solid $blue-color;
+      &.active:after {
+        right: -14px;
+        top: -13px;
+      }
+    }
+
+  }
+
+  // CARD BUTTON
+
+  &.hd-btn-card,
+  &.hd-btn-card:active,
+  &.hd-btn-card:hover {
+    background: $blue-dark-4;
+    border: 1px solid $info-color;
+    border-radius: 6px;
+    color: $white-color;
+
+    @include media-breakpoint-down(sm) {
+      width: 100%;
+      height: 3.75em;
+    }
+
+    @include media-breakpoint-up(md) {
+      width: 18.75em;
+      height: 3.75em;
+    }
+  }
+
+  &.hd-btn-card:disabled {
+    background: $blue-dark-4;
+    border: 1px solid $info-color;
+    color: $white-color;
+    cursor: not-allowed;
+  }
+
+  &.hd-button-icon-row {
+    span {
+      display: flex;
+      flex: 1;
+    }
+  }
+
+  &.active:not(:hover) {
+    &.btn-primary,
+    &.btn-secondary,
+    &.btn-default {
+      border: 2px solid $blue-color;
+      background: $midnight-pacific-depths;
+    }
+  }
+
+  &.active:after {
+    content: '\f00c';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-color: $link-color;
+    border-radius: 50%;
+    right: -13px;
+    top: -12px;
+    color: $white-color;
+    font-size: 15px;
+    padding: 3px;
+  }
+
+  &.btn-block {
+    padding: 15px 10px;
+    width: 100%;
+    flex: 1;
+
+    &:active {
+      padding: 15px 8px;
+    }
+  }
+
+  &.hd-button-narrow {
+    padding: 15px 20px;
+    width: 100%;
+  }
+  &.btn-link{
+    height: auto;
+  }
+  .btn-tall-height &{
+    height: auto;
+    @include media-breakpoint-up(md) {
+      height: 128px;
+      padding: 12px 5px !important;
+    }
+  }
+  .btn-mid-height &{
+    height: 100px;
+  }
+}
+
+.btn-sm {
+  height: 50px;
+}
+
+.btn-md {
+  height: 50px;
+  @include media-breakpoint-up(md) {
+    height: 60px;
+  }
+}
+
+.btn-continue-lg-lg {
+  @include media-breakpoint-up(md) {
+    height: 60px;
+    max-width: 410px;
+  }
+}

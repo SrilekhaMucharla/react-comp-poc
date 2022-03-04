@@ -1,0 +1,23 @@
+//TODO: check font family
+.popup-start-date {
+    color: $app-theme;
+}
+
+.popup-start-date__label {
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.popup-start-date__description {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: $font-size-md;
+    line-height: 24px;
+    color: $info-color;
+}
+
+.popup-start-date > span {
+    .label-text {
+        color: $app-theme;
+    }
+}

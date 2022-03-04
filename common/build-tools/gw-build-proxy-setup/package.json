@@ -1,0 +1,16 @@
+{
+  "name": "gw-build-proxy-setup",
+  "version": "11.2.0-db467149eb42",
+  "private": true,
+  "main": "setupProxy.js",
+  "dependencies": {
+    "http-proxy-middleware": "^0.20.0",
+    "node-http-proxy-json": "^0.1.9",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "gw-build-config-environment": "11.2.0-db467149eb42",
+    "gw-build-config-paths": "11.2.0-db467149eb42",
+    "gw-build-config-urls": "11.2.0-db467149eb42"
+  }
+}

@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDOurFees /> render component 1`] = `
+<HDPlaceholderWithHeader
+  className=""
+  icon={null}
+  theme="dark-header"
+  title={
+    <HDLabelRefactor
+      Tag="h2"
+      adjustImagePosition={true}
+      className="my-0"
+      text="Our fees"
+    />
+  }
+>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="our-fees__content"
+    >
+      <p>
+        We charge fees to cover the costs involved in setting up, servicing and cancelling a policy and it's important you understand them
+      </p>
+      <p
+        className="mb-4"
+      >
+        Here are some of the fees we get asked about most often:
+      </p>
+      <table
+        className="our-fees__content__table"
+      >
+        <thead>
+          <tr>
+            <th
+              className="our-fees__content__table__th font-bold text-md-lg"
+            >
+              Type of fee
+            </th>
+            <th
+              className="our-fees__content__table__th font-medium text-right text-md-lg"
+            >
+              Fee
+            </th>
+          </tr>
+        </thead>
+        <tbody
+          className="our-fees__content__table__body"
+        >
+          <tr
+            className="our-fees__content__table__body__tr"
+            key="0"
+          >
+            <td
+              className="our-fees__content__table__td"
+            >
+              Arrangement fee (included in your price)
+            </td>
+            <td
+              className="our-fees__content__table__td text-right font-bold"
+            >
+              £20
+            </td>
+          </tr>
+          <tr
+            className="our-fees__content__table__body__tr"
+            key="1"
+          >
+            <td
+              className="our-fees__content__table__td"
+            >
+              Cancelling within 14 days of your policy's start date - there's no cancellation fee, but the £20 arrangement fee is non-refundable
+            </td>
+            <td
+              className="our-fees__content__table__td text-right font-bold"
+            >
+              £0
+            </td>
+          </tr>
+          <tr
+            className="our-fees__content__table__body__tr"
+            key="2"
+          >
+            <td
+              className="our-fees__content__table__td"
+            >
+              Cancelling 14 days or more after your policy's start date. Any fees incurred during your policy will also be charged and the £20 arrangement fee (which was included in your price) will not be refunded
+            </td>
+            <td
+              className="our-fees__content__table__td text-right font-bold"
+            >
+              £45
+            </td>
+          </tr>
+          <tr
+            className="our-fees__content__table__body__tr"
+            key="3"
+          >
+            <td
+              className="our-fees__content__table__td"
+            >
+              Changes to your policy (such as updating your address or changing your vehicle)
+            </td>
+            <td
+              className="our-fees__content__table__td text-right font-bold"
+            >
+              £20
+            </td>
+          </tr>
+          <tr
+            className="our-fees__content__table__body__tr"
+            key="4"
+          >
+            <td
+              className="our-fees__content__table__td"
+            >
+              Changes to your policy that we need to make (due to information not being sent when we ask for it or the wrong information being provided)
+            </td>
+            <td
+              className="our-fees__content__table__td text-right font-bold"
+            >
+              £30
+            </td>
+          </tr>
+          <tr
+            className="our-fees__content__table__body__tr"
+            key="5"
+          >
+            <td
+              className="our-fees__content__table__td"
+            >
+              Missing a Direct Debit payment
+            </td>
+            <td
+              className="our-fees__content__table__td text-right font-bold"
+            >
+              £12
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <ForwardRef
+        id="our-fees-all-fees-overlay"
+        onBeforeOpen={null}
+        overlayButtonIcon={
+          <HDLabelRefactor
+            Tag="a"
+            adjustImagePosition={true}
+            className="my-3 mt-md-4 mb-md-0"
+            text="See all fees"
+          />
+        }
+        showButtons={false}
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Our fees",
+          }
+        }
+        webAnalyticsView={
+          Object {
+            "page_section": "Our fees",
+          }
+        }
+      >
+        <HDOurFeesOverlay />
+      </ForwardRef>
+    </Col>
+  </Row>
+</HDPlaceholderWithHeader>
+`;

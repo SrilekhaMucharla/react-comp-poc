@@ -1,0 +1,377 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDYourQuotesPage /> choosing annual payment type results in relevant information rendered in cover options table 1`] = `
+"{
+  \\"rowLabel\\": \\"Pay in full\\",
+  \\"highlighted\\": true,
+  \\"cells\\": [
+    {
+      \\"value\\": \\"£4,806.30\\"
+    },
+    {
+      \\"value\\": \\"£4,930.60\\"
+    },
+    {
+      \\"value\\": \\"£5,004.67\\"
+    },
+    {
+      \\"value\\": \\"£232.99\\"
+    }
+  ]
+}"
+`;
+
+exports[`<HDYourQuotesPage /> choosing monthly payment type results in relevant information rendered in cover options table 1`] = `
+"{
+  \\"rowLabel\\": \\"Pay monthly\\",
+  \\"highlighted\\": true,
+  \\"cells\\": [
+    {
+      \\"value\\": \\"£883.47\\",
+      \\"extraLines\\": [
+        \\"11 x £73.62\\",
+        \\"(£73.65 today)\\"
+      ]
+    },
+    {
+      \\"value\\": \\"£957.97\\",
+      \\"extraLines\\": [
+        \\"11 x £79.83\\",
+        \\"(£79.84 today)\\"
+      ]
+    },
+    {
+      \\"value\\": \\"£1,016.83\\",
+      \\"extraLines\\": [
+        \\"11 x £84.74\\",
+        \\"(£84.69 today)\\"
+      ]
+    },
+    {
+      \\"value\\": \\"£883.47\\",
+      \\"extraLines\\": [
+        \\"11 x £73.62\\",
+        \\"(£73.65 today)\\"
+      ]
+    }
+  ]
+}"
+`;
+
+exports[`<HDYourQuotesPage /> offered values table is rendered with matching values 1`] = `
+Array [
+  Object {
+    "image": "hastings-essential.svg",
+    "stickyHeaderText": false,
+    "value": "HE",
+  },
+  Object {
+    "image": "hastings-direct.svg",
+    "stickyHeaderText": false,
+    "value": "HD",
+  },
+  Object {
+    "image": "hastings-premier.svg",
+    "stickyHeaderText": false,
+    "value": "HP",
+  },
+  Object {
+    "image": "hastings-youdrive.svg",
+    "stickyHeaderText": <React.Fragment>
+      Requires your driving data
+       
+      <span
+        className="fa fa-rss"
+      />
+    </React.Fragment>,
+    "value": "YD",
+  },
+]
+`;
+
+exports[`<HDYourQuotesPage /> offered values table is rendered with matching values 2`] = `
+Array [
+  Object {
+    "cells": Array [
+      Object {
+        "value": "£4,806.30",
+      },
+      Object {
+        "value": "£4,930.60",
+      },
+      Object {
+        "value": "£5,004.67",
+      },
+      Object {
+        "value": "£232.99",
+      },
+    ],
+    "highlighted": true,
+    "rowLabel": "Pay in full",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": "£260.00",
+      },
+      Object {
+        "value": "£250.00",
+      },
+      Object {
+        "value": "£250.00",
+      },
+      Object {
+        "value": "£345.00",
+      },
+    ],
+    "rowLabel": "Total excess (inc. voluntary)",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": "+ £29.99",
+      },
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": "+ £29.99",
+      },
+    ],
+    "rowLabel": "Motor legal expenses",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": <div
+          className="hd-your-quote__table__from-value"
+        >
+          from £34.99
+        </div>,
+      },
+    ],
+    "rowLabel": "RAC breakdown (Roadside assistance)",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "Courtesy car",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "24/7 claims helpline",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "EU cover",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "Driving other cars",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "Manage your policy 24/7",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "Windscreen cover",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "Vandalism promise",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "Uninsured driver promise",
+  },
+  Object {
+    "cells": Array [
+      Object {
+        "value": false,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+      Object {
+        "value": true,
+      },
+    ],
+    "rowLabel": "Personal belongings cover",
+  },
+]
+`;
+
+exports[`<HDYourQuotesPage /> render component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HDYourQuotesPage) />
+</ContextProvider>
+`;
+
+exports[`<HDYourQuotesPage /> total excess is calculated properly 1`] = `
+"{
+  \\"rowLabel\\": \\"Total excess (inc. voluntary)\\",
+  \\"cells\\": [
+    {
+      \\"value\\": \\"£260.00\\"
+    },
+    {
+      \\"value\\": \\"£250.00\\"
+    },
+    {
+      \\"value\\": \\"£250.00\\"
+    },
+    {
+      \\"value\\": \\"£345.00\\"
+    }
+  ]
+}"
+`;

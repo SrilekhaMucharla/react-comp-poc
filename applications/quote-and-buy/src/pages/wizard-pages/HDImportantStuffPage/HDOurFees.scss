@@ -1,0 +1,32 @@
+.our-fees__content {
+    padding: 15px;
+    @include media-breakpoint-up(md) {
+        padding: 40px 35px;
+    }
+}
+
+.our-fees__content__table__th {
+    padding-bottom: 8px;
+    &:last-child {
+        padding-right: 20px;
+    }
+}
+
+.our-fees__content__table__body {
+    color: $info-color;
+}
+
+.our-fees__content__table__body__tr {
+    &:nth-child(odd) {
+        background-color: $mono-cultured;
+    }
+    
+    &:nth-child(even) {
+        background-color: $white-transparent-30;
+    }
+}
+
+.our-fees__content__table__td {
+    padding: 10px 20px;
+    line-height: 1.5;
+}

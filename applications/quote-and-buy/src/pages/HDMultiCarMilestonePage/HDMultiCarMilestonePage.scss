@@ -1,0 +1,60 @@
+.mc-milestone-container {
+    margin-bottom: 130px;
+}
+
+.mc-milestone__quote-details-container {
+    & + & {
+        margin-top: 55px;
+    }
+}
+
+.mc-milestone__quote-details__max-drivers-info {
+    margin: 20px 0 0 0;
+    @include media-breakpoint-up(md) {
+        margin: 30px 0 0 0;
+    }
+}
+
+.mc-milestone__hr {
+    margin: 50px 0;
+}
+
+.mc-milestone__more-cars-header {
+    margin: 40px 0 20px 0;
+    @include media-breakpoint-up(md) {
+        margin: 50px 0 25px 0;
+    }
+}
+
+.completed-info-card__main-text {
+    font-size: $licence-plate-lg;
+    font-weight: bold;
+    line-height: 1.35;
+
+    &.driver {
+      color: $mono-white;
+    }
+
+    &.car {
+      width: fit-content;
+      height: 26px;
+      padding: 4px;
+      border-radius: 2px;
+      background-color: $midnight-reg;
+      color: $mono-midnight;
+      font-family: $font-licence-plate;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .completed-info-card__additional-text {
+    padding-top: 6px;
+    font-weight: bold;
+    color: $mono-midnight;
+    line-height: 1.2;
+    margin-bottom: 0;
+    @include media-breakpoint-down(sm) {
+      font-size: $font-size-sm;
+    }
+  }

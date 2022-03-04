@@ -1,0 +1,30 @@
+/* eslint-disable max-len */
+// CCD --> Confirm contact details
+export const CCDTitle = 'What contact details would you like to use for your account?';
+export const CCDEmailAddText = 'Email address';
+export const CCDEmailAddOverlayText = 'Your email address is used to log in to the app and MyAccount. Once you set up a password you’ll have instant access to your policy 24/7, where you can manage your policy and any claims. \n\n We’ll also use your email address to contact you if there have been important changes to your policy or our services. And we may sometimes email you for marketing reasons, unless you\'ve opted out.';
+export const CCDEmailPlaceholder = 'Please enter your email address';
+export const CCDEmailHintText = 'This will be used as your log-in for the app and MyAccount, where you\'ll be able to view your documents and make claims. We\'ll also use it to email you about any important changes to your policy.';
+export const CCDMobileNumText = 'Mobile number';
+export const CCDMobileText = 'Mobile';
+export const CCDMobileOverlayText = 'We’ll use your mobile number to contact you about things relating to your policy, such as texting you a reminder if your renewal’s due soon or you’ve missed a payment. \n\n Your number won’t be used for marketing purposes, unless you’ve told us you’re happy for us to do so.';
+export const CCDMobilePlaceholder = 'Please enter your mobile number';
+export const CCDMobileHintText = "It's really helpful if you tell us a mobile number, so we can keep in touch about any claim updates or important changes to your policy.";
+export const CCDYourPreText = 'Your preferences';
+export const CCDYourPreTextMsg = 'We’d love to be able to let you know about any offers, services or products we think you might be interested in. You can change your mind at any time by updating your preferences in MyAccount.';
+export const CCDBestWayContactText = 'What’s the best way to contact you?';
+export const CCDEmailText = 'Email';
+export const CCDPhoneText = 'Phone';
+export const CCDTextText = 'Text message';
+export const CCDPostText = 'Post';
+export const CCDOptOutHintMsg = 'Prefer to opt out? Don’t worry, we’ll still contact you about any important changes to your policy or our services.';
+export const invalidInputMessage = 'Sorry, we don\'t recognise that. Please try again';
+export const mobileNumberTooShort = 'The minimum length is 11';
+export const requiredField = 'Sorry, you need to answer this question';
+export const tips = 'Tips!';
+export const summary = 'Summary';
+export const confirmContactDetails = 'Confirm Contact Details';
+export const marketingPreferences = 'Marketing preferences';
+export const continueToPayment = 'Continue to payment';
+export const provideMobileNumber = 'Please provide mobile number';
+export const homePage = 'Go back to the homepage';

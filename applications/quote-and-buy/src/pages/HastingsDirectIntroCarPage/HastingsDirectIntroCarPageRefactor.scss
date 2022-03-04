@@ -1,0 +1,22 @@
+.car-intro-page-container {
+  padding-top: 30px;
+
+  .intro-car-button {
+    height: auto;
+    @include media-breakpoint-up(super-small) {
+      height: 110px;
+    }
+    padding: 15px 10px;
+    width: 100%;
+    flex: 1;
+    border-radius: 7px;
+
+    &>span {
+      padding: 0;
+      img {
+        width: 70px;
+        height: auto;
+      }
+    }
+  }
+}

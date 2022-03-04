@@ -1,0 +1,575 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDriverLicenceNumberPage /> Render component 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HDDriverLicenceNumberPage)
+      pageId="test-page"
+    >
+      <HDDriverLicenceNumberPage
+        pageId="test-page"
+        setErrorStatusCode={[Function]}
+        setNavigation={[Function]}
+        setWizardPageState={[Function]}
+        submissionVM={
+          Object {
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "drivers": Object {
+                    "children": Array [
+                      Object {
+                        "dateOfBirth": Object {
+                          "day": Object {
+                            "value": 11,
+                          },
+                          "month": Object {
+                            "value": 2,
+                          },
+                          "year": Object {
+                            "value": 1976,
+                          },
+                        },
+                        "gender": Object {
+                          "value": Object {
+                            "code": "F",
+                          },
+                        },
+                        "licenceType": Object {
+                          "value": Object {
+                            "code": "F_FM",
+                          },
+                        },
+                        "licenseNumber": Object {
+                          "aspects": Object {
+                            "subtreeValid": true,
+                          },
+                        },
+                        "person": Object {
+                          "lastName": Object {
+                            "value": "jones",
+                          },
+                        },
+                      },
+                    ],
+                  },
+                },
+              },
+            },
+          }
+        }
+      >
+        <Container
+          className="dln-container margin-bottom-lg footer-button-large"
+          fluid={false}
+        >
+          <div
+            className="dln-container margin-bottom-lg footer-button-large container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h2"
+                      additionalContent={
+                        <h3
+                          className="d-inline"
+                        >
+                           (optional)
+                        </h3>
+                      }
+                      adjustImagePosition={true}
+                      className="dln__title"
+                      icon={
+                        <img
+                          alt="discount"
+                          className="mb-2"
+                          src="discount.png"
+                        />
+                      }
+                      iconPosition="r"
+                      id="dln-discount-label"
+                      text="Tell us your driving licence number and you could get a discount..."
+                    >
+                      <Row
+                        className="label-with-icon align-items-start dln__title"
+                        noGutters={false}
+                      >
+                        <div
+                          className="label-with-icon align-items-start dln__title row"
+                        >
+                          <Col
+                            className="pr-0"
+                          >
+                            <div
+                              className="pr-0 col"
+                            >
+                              <h2
+                                className="dln__title"
+                                id="dln-discount-label"
+                              >
+                                Tell us your driving licence number and you could get a discount...
+                                <h3
+                                  className="d-inline"
+                                >
+                                   (optional)
+                                </h3>
+                              </h2>
+                            </div>
+                          </Col>
+                          <Col
+                            className="mt-h2  "
+                            xs="auto"
+                          >
+                            <div
+                              className="mt-h2   col-auto"
+                            >
+                              <img
+                                alt="discount"
+                                className="mb-2"
+                                src="discount.png"
+                              />
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </HDLabelRefactor>
+                    <div
+                      className="text-small"
+                    >
+                      *Based on online quoted premiums from June to August 2021
+                    </div>
+                    <HDInfoCardRefactor
+                      className="margin-top-lg margin-bottom-lg"
+                      id="dln-parking-general-info"
+                      image="exclamation-icon.svg"
+                      isRight={false}
+                      notes={null}
+                      paragraphs={
+                        Array [
+                          "We'll be able to access your driving information from the DVLA, so we can  calculate any discounts you qualify for, based on your driving record.",
+                          "Your licence must be from England, Wales or Scotland as DVLA data isn't available for licences from Northern Ireland, the Isle of Man or the Channel Islands.",
+                        ]
+                      }
+                      size={null}
+                      theme={null}
+                      title={null}
+                    >
+                      <div
+                        className="info-card left  margin-top-lg margin-bottom-lg"
+                        id="dln-parking-general-info"
+                      >
+                        <img
+                          alt="info-card"
+                          className="info-card__icon"
+                          src="exclamation-icon.svg"
+                        />
+                        <p
+                          className="info-card__paragraph paragraph_0"
+                          key="0"
+                        >
+                          We'll be able to access your driving information from the DVLA, so we can  calculate any discounts you qualify for, based on your driving record.
+                        </p>
+                        <p
+                          className="info-card__paragraph paragraph_1"
+                          key="1"
+                        >
+                          Your licence must be from England, Wales or Scotland as DVLA data isn't available for licences from Northern Ireland, the Isle of Man or the Channel Islands.
+                        </p>
+                      </div>
+                    </HDInfoCardRefactor>
+                    <div
+                      className="margin-bottom-lg"
+                    >
+                      <img
+                        alt="DLN"
+                        className="img-fluid"
+                        src="DLN_Image.png"
+                      />
+                    </div>
+                    <HDLabelRefactor
+                      Tag="h3"
+                      adjustImagePosition={true}
+                      className=""
+                      id="dln-enter-dln-label"
+                      text="Please enter the next five
+characters:"
+                    >
+                      <h3
+                        className=""
+                        id="dln-enter-dln-label"
+                      >
+                        Please enter the next five
+characters:
+                      </h3>
+                    </HDLabelRefactor>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col
+                          className="pr-0 pr-sm-2"
+                          md={4}
+                          xs={7}
+                        >
+                          <div
+                            className="pr-0 pr-sm-2 col-md-4 col-7"
+                          >
+                            <ForwardRef
+                              className="font-bold dln-container__dln-prefix-input"
+                              disabled={true}
+                              id="partOne"
+                              name="partOne"
+                              onBeforeOpen={null}
+                              onBlur={null}
+                              onCancel={null}
+                              onChange={[Function]}
+                              onClick={null}
+                              onConfirm={null}
+                              onDelete={null}
+                              onEdit={null}
+                              onFocus={null}
+                              onSelect={null}
+                              type="alphanum"
+                              value="JONES753116"
+                              webAnalyticsEvent={null}
+                            >
+                              <ForwardRef
+                                allowLeadingZero={false}
+                                appendContent={null}
+                                appendLabel={null}
+                                className="font-bold dln-container__dln-prefix-input"
+                                customClassName=""
+                                data={null}
+                                disabled={true}
+                                icon={null}
+                                id="partOne"
+                                inputMode={null}
+                                isInvalidCustom={null}
+                                mask={null}
+                                maskChar="_"
+                                maxLength={null}
+                                name="partOne"
+                                onBeforeOpen={null}
+                                onBlur={null}
+                                onCancel={null}
+                                onChange={[Function]}
+                                onClick={null}
+                                onConfirm={null}
+                                onDelete={null}
+                                onEdit={null}
+                                onFocus={null}
+                                onKeyPress={[Function]}
+                                onSelect={null}
+                                path="path.to.input"
+                                placeholder={null}
+                                preText={null}
+                                reset={false}
+                                size={null}
+                                svgIcon={null}
+                                thousandSeprator={false}
+                                tickIcon={false}
+                                type="alphanum"
+                                value="JONES753116"
+                                webAnalyticsEvent={null}
+                              >
+                                <InputGroup
+                                  className="font-bold dln-container__dln-prefix-input "
+                                  size={null}
+                                >
+                                  <div
+                                    className="font-bold dln-container__dln-prefix-input  input-group"
+                                  >
+                                    <FormControl
+                                      className="hd-text-input__form-control"
+                                      data-testid="text-input"
+                                      disabled={true}
+                                      id="partOne"
+                                      inputMode={null}
+                                      maxLength={null}
+                                      name="partOne"
+                                      onBlur={null}
+                                      onChange={[Function]}
+                                      onFocus={null}
+                                      onKeyPress={[Function]}
+                                      path="path.to.input"
+                                      placeholder={null}
+                                      type="alphanum"
+                                      value="JONES753116"
+                                    >
+                                      <input
+                                        className="hd-text-input__form-control form-control"
+                                        data-testid="text-input"
+                                        disabled={true}
+                                        id="partOne"
+                                        inputMode={null}
+                                        maxLength={null}
+                                        name="partOne"
+                                        onBlur={null}
+                                        onChange={[Function]}
+                                        onFocus={null}
+                                        onKeyPress={[Function]}
+                                        path="path.to.input"
+                                        placeholder={null}
+                                        type="alphanum"
+                                        value="JONES753116"
+                                      />
+                                    </FormControl>
+                                    <i
+                                      className="fa fa-exclamation exclam hd-text-input__exclam"
+                                    />
+                                  </div>
+                                </InputGroup>
+                              </ForwardRef>
+                            </ForwardRef>
+                          </div>
+                        </Col>
+                        <Col
+                          md={3}
+                          xs={5}
+                        >
+                          <div
+                            className="col-md-3 col-5"
+                          >
+                            <ForwardRef
+                              className="dln-container__dln-input"
+                              id="partTwo"
+                              isInvalidCustom={false}
+                              maxLength={5}
+                              name="partTwo"
+                              onBeforeOpen={null}
+                              onBlur={null}
+                              onCancel={null}
+                              onChange={[Function]}
+                              onClick={null}
+                              onConfirm={null}
+                              onDelete={null}
+                              onEdit={null}
+                              onFocus={null}
+                              onKeyPress={[Function]}
+                              onSelect={null}
+                              reference={
+                                Object {
+                                  "current": <input
+                                    class="hd-text-input__form-control form-control"
+                                    data-testid="text-input"
+                                    id="partTwo"
+                                    maxlength="5"
+                                    name="partTwo"
+                                    path="path.to.input"
+                                    type="alphanum"
+                                    value=""
+                                  />,
+                                }
+                              }
+                              type="alphanum"
+                              value=""
+                              webAnalyticsEvent={
+                                Object {
+                                  "event_action": "Tell us your driving licence number and you could get a discount...",
+                                  "event_value": "Please enter the next five
+characters:",
+                                }
+                              }
+                            >
+                              <ForwardRef
+                                allowLeadingZero={false}
+                                appendContent={null}
+                                appendLabel={null}
+                                className="dln-container__dln-input"
+                                customClassName=""
+                                data={null}
+                                disabled={false}
+                                icon={null}
+                                id="partTwo"
+                                inputMode={null}
+                                isInvalidCustom={false}
+                                mask={null}
+                                maskChar="_"
+                                maxLength={5}
+                                name="partTwo"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                onKeyPress={[Function]}
+                                path="path.to.input"
+                                placeholder={null}
+                                preText={null}
+                                reference={
+                                  Object {
+                                    "current": <input
+                                      class="hd-text-input__form-control form-control"
+                                      data-testid="text-input"
+                                      id="partTwo"
+                                      maxlength="5"
+                                      name="partTwo"
+                                      path="path.to.input"
+                                      type="alphanum"
+                                      value=""
+                                    />,
+                                  }
+                                }
+                                reset={false}
+                                size={null}
+                                svgIcon={null}
+                                thousandSeprator={false}
+                                tickIcon={false}
+                                type="alphanum"
+                                value=""
+                              >
+                                <InputGroup
+                                  className="dln-container__dln-input "
+                                  size={null}
+                                >
+                                  <div
+                                    className="dln-container__dln-input  input-group"
+                                  >
+                                    <FormControl
+                                      className="hd-text-input__form-control"
+                                      data-testid="text-input"
+                                      disabled={false}
+                                      id="partTwo"
+                                      inputMode={null}
+                                      maxLength={5}
+                                      name="partTwo"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyPress={[Function]}
+                                      path="path.to.input"
+                                      placeholder={null}
+                                      type="alphanum"
+                                      value=""
+                                    >
+                                      <input
+                                        className="hd-text-input__form-control form-control"
+                                        data-testid="text-input"
+                                        disabled={false}
+                                        id="partTwo"
+                                        inputMode={null}
+                                        maxLength={5}
+                                        name="partTwo"
+                                        onBlur={[Function]}
+                                        onChange={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyPress={[Function]}
+                                        path="path.to.input"
+                                        placeholder={null}
+                                        type="alphanum"
+                                        value=""
+                                      />
+                                    </FormControl>
+                                    <i
+                                      className="fa fa-exclamation exclam hd-text-input__exclam"
+                                    />
+                                  </div>
+                                </InputGroup>
+                              </ForwardRef>
+                            </ForwardRef>
+                          </div>
+                        </Col>
+                        <Col
+                          xs={12}
+                        >
+                          <div
+                            className="col-12"
+                          >
+                            <HDAlertRefactor
+                              className="margin-top-md mb-0"
+                              message={null}
+                            />
+                          </div>
+                        </Col>
+                        <div
+                          className="wizard-buttons-footer"
+                        >
+                          <Row
+                            noGutters={false}
+                          >
+                            <div
+                              className="row"
+                            >
+                              <Col>
+                                <div
+                                  className="col"
+                                >
+                                  <HDButtonRefactor
+                                    className="hd-btn-primary button-continue"
+                                    disabled={false}
+                                    fullWidth={false}
+                                    id="dln-continue-btn"
+                                    label="Continue"
+                                    onClick={[Function]}
+                                    onKeyPress={null}
+                                    size={null}
+                                    type="button"
+                                    variant="primary"
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "Continue - Redirecting from: HastingsPersonalDetails_DrivingLicence_Number",
+                                        "event_value": "Continue",
+                                      }
+                                    }
+                                  >
+                                    <Button
+                                      active={false}
+                                      block={false}
+                                      className="hd-btn hd-btn-primary hd-btn-primary button-continue"
+                                      disabled={false}
+                                      id="dln-continue-btn"
+                                      onClick={[Function]}
+                                      onKeyPress={null}
+                                      size={null}
+                                      type="button"
+                                      variant="primary"
+                                    >
+                                      <button
+                                        className="hd-btn hd-btn-primary hd-btn-primary button-continue btn btn-primary"
+                                        disabled={false}
+                                        id="dln-continue-btn"
+                                        onClick={[Function]}
+                                        onKeyPress={null}
+                                        type="button"
+                                      >
+                                        Continue
+                                      </button>
+                                    </Button>
+                                  </HDButtonRefactor>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                        </div>
+                      </div>
+                    </Row>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </HDDriverLicenceNumberPage>
+    </Connect(HDDriverLicenceNumberPage)>
+  </Provider>
+</Component>
+`;

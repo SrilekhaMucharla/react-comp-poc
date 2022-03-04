@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDExcessTableRefactor /> render with mandatory props 1`] = `
+<table
+  className="excess-table-ref "
+>
+  <thead
+    className="excess-table-ref__head"
+  >
+    <tr
+      className="excess-table-ref__row"
+    >
+      <th
+        className="excess-table-ref__row__th excess-table-ref__name"
+      />
+      <th
+        className="excess-table-ref__row__th excess-table-ref__col-1"
+      />
+      <th
+        className="excess-table-ref__row__th excess-table-ref__col-2"
+      />
+      <th
+        className="excess-table-ref__row__th excess-table-ref__total-header"
+      >
+        Total
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="excess-table-ref__body"
+  >
+    <tr
+      className="excess-table-ref__body-row"
+      key="1"
+    >
+      <td
+        className="excess-table-ref__body-row__td excess-table-ref__excess-name"
+      >
+        All drivers
+      </td>
+      <td
+        className="excess-table-ref__body-row__td excess-table-ref__compulsory-amount"
+      >
+        £undefined
+      </td>
+      <td
+        className="excess-table-ref__body-row__td excess-table-ref__voluntary-amount"
+      >
+        £undefined
+      </td>
+      <td
+        className="excess-table-ref__body-row__td excess-table-ref__total-amount"
+      >
+        £NaN
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`<HDExcessTableRefactor /> render with mandatory props and hide total column 1`] = `
+<table
+  className="excess-table-ref "
+>
+  <thead
+    className="excess-table-ref__head"
+  >
+    <tr
+      className="excess-table-ref__row"
+    >
+      <th
+        className="excess-table-ref__row__th excess-table-ref__name"
+      />
+      <th
+        className="excess-table-ref__row__th excess-table-ref__col-1"
+      />
+      <th
+        className="excess-table-ref__row__th excess-table-ref__col-2"
+      />
+      <th />
+    </tr>
+  </thead>
+  <tbody
+    className="excess-table-ref__body"
+  >
+    <tr
+      className="excess-table-ref__body-row"
+      key="1"
+    >
+      <td
+        className="excess-table-ref__body-row__td excess-table-ref__excess-name"
+      >
+        All drivers
+      </td>
+      <td
+        className="excess-table-ref__body-row__td excess-table-ref__compulsory-amount"
+      >
+        £undefined
+      </td>
+      <td
+        className="excess-table-ref__body-row__td excess-table-ref__voluntary-amount"
+      >
+        £undefined
+      </td>
+      <td
+        className="excess-table-ref__body-row__td"
+      />
+    </tr>
+  </tbody>
+</table>
+`;

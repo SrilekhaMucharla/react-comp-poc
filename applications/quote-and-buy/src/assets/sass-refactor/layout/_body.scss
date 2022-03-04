@@ -1,0 +1,158 @@
+html {
+  --gw-header-image: url("https://www.hastingsdirect.com/img/logos/hastings-direct.svg");
+  --gw-mobile-header-image: url("https://www.hastingsdirect.com/img/logos/hastings-direct.svg");
+  font-size: 100%;
+}
+
+body {
+  font-family: $font-family-sans-serif;
+  background: $app-theme;
+  margin: 0;
+  padding: 0;
+  color: $white-color;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.page-content-wrapper {
+
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 100px);
+  padding-left: 0;
+  padding-right: 0;
+
+  @include media-breakpoint-down(md) {
+    padding-top: 0;
+    padding-bottom: 0;
+    min-height: calc(100vh - 150px);
+  }
+
+
+  @include media-breakpoint-down(md) {
+    @include orientation(landscape) {
+      margin-top: 0;
+    }
+  }
+}
+
+.arc-header {
+  height: 380px;
+  background-color: $app-theme;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+
+  @include media-breakpoint-down(md) {
+    height: 340px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    height: 320px;
+  }
+
+  .arc-header_arc {
+    width: 100%;
+    position: absolute;
+    bottom:-50px;
+    left: 0;
+    @include media-breakpoint-down(md) {
+      bottom:-25px;
+    }
+  }
+}
+
+.back-button {
+  position: absolute;
+  top: 42px;
+  left: 18.85%;
+  display: inline-flex;
+  align-items: center;
+  z-index: 2;
+  color: $white-fill;
+  cursor: pointer;
+  font-family: $font-face-generic-regular;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24.3px;
+  @include media-breakpoint-down(sm) {
+    top: 35px;
+  }
+
+  &.locked {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  img {
+    margin-right: 5px;
+  }
+}
+
+.background-body {
+  background: $app-theme;
+}
+
+.background-mono {
+  background: $mono-cultured;
+  text-align: center;
+}
+
+.qnbMain {
+  background-color: $white-fill;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.qnbMainContent {
+  min-height: 100vh;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  &::before, &::after {
+    display: none
+  }
+}
+
+.faqPage {
+  width: 70%;
+  margin: auto;
+}
+
+.userLogo {
+  padding-top: 2em;
+}
+
+.car-bg-outer {
+  position: relative;
+  z-index: 1;
+
+  .car-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-image: url('../../assets/images/background/interstitial-car-image.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    z-index: -1;
+    background-size: contain;
+
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
+  }
+}

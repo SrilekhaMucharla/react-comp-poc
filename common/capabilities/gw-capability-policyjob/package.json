@@ -1,0 +1,13 @@
+{
+  "name": "gw-capability-policyjob",
+  "description": "Provides capability to manage policy job",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "gw-portals-transport-js": "11.2.0-db467149eb42",
+    "gw-portals-url-js": "11.2.0-db467149eb42"
+  }
+}

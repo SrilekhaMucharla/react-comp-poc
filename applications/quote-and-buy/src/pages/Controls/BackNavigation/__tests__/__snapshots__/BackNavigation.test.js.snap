@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BackNavigation should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  className="go-back "
+  id="backNavMain"
+  label="Go back"
+  name="go-back"
+  onBeforeOpen={null}
+  onBlur={null}
+  onCancel={null}
+  onChange={null}
+  onClick={[Function]}
+  onConfirm={null}
+  onDelete={null}
+  onEdit={null}
+  onFocus={null}
+  onKeyPress={[Function]}
+  onSelect={null}
+  variant="default"
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Go back",
+    }
+  }
+>
+  <span
+    className="back-icon"
+  >
+    <_default />
+  </span>
+</ForwardRef>
+`;

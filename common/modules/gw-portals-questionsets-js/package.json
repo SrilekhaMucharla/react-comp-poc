@@ -1,0 +1,11 @@
+{
+  "name": "gw-portals-questionsets-js",
+  "description": "gw-portals-questionsets-js",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

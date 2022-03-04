@@ -1,0 +1,351 @@
+//DISABLED
+
+//.carintropagecontainer {
+//  background: $app-theme;
+//  margin-top: $header-height;
+//  height: calc(90vh - 58px);
+//
+//
+//  .go-back {
+//    pointer-events: none;
+//    opacity: 0.5;
+//  }
+//
+//  .info-intro-car-page {
+//    display: flex;
+//    & > p {
+//      margin-right: 4.2%;
+//    }
+//  }
+//
+//  @include media-breakpoint-down(md) {
+//    margin-top: $header-height-mobile;
+//  }
+//
+//  .item-left-container button {
+//    width: 32.98%;
+//    height: 110px;
+//    cursor: pointer;
+//    box-sizing: border-box;
+//    @include media-breakpoint-down(md) {
+//      width: 48.8%;
+//    }
+//  }
+//
+//  .item-left-container button span {
+//    display: block;
+//  }
+//
+//  .dont-know-link {
+//    margin-top: 20px;
+//    display: flex;
+//    color: $white-color;
+//    text-decoration: underline;
+//    text-decoration-color: $link-color;
+//    cursor: pointer;
+//    font-family: $font-face-generic-regular;
+//    font-size: 1rem;
+//    line-height: 1.5;
+//    span {
+//      padding: 0 0.26% 0 0.26%;
+//    }
+//
+//    @include media-breakpoint-down(md) {
+//      margin-left: 0;
+//    }
+//  }
+//
+//  .carpage-header {
+//    font-size: $font-size-xxl;
+//    font-family: $font-face-generic-regular;
+//    font-weight: bold;
+//    text-align: left;
+//    line-height: 1.2;
+//    margin-bottom: 43px;
+//    color: $white-color;
+//
+//    @include media-breakpoint-down(md) {
+//      font-size: 28px;
+//      line-height: 34px;
+//      margin-bottom: 29px;
+//    }
+//  }
+//
+//  .grid-container {
+//    display: flex;
+//    @include media-breakpoint-down(lg) {
+//      display: block;
+//    }
+//  }
+//
+//  .item-left,
+//  .item-right {
+//    position: relative;
+//    display: block;
+//    min-width: 50%;
+//    max-width: 50%;
+//    width: 50%;
+//
+//    @include media-breakpoint-down(lg) {
+//      min-width: 100%;
+//      max-width: 100%;
+//      width: 100%;
+//      display: inline-block;
+//    }
+//  }
+//
+//  .item-left {
+//    .item-left-container {
+//      width: 80%;
+//      vertical-align: middle;
+//      padding-top: 12%;
+//      text-align: left;
+//      button {
+//        font-family: $font-face-generic-regular !important;
+//      }
+//      .first-btn {
+//        margin-right: 30px;
+//
+//        @include media-breakpoint-down(md) {
+//
+//          margin-right: 2.4%;
+//        }
+//      }
+//
+//      @include media-breakpoint-down(md) {
+//        width: 93.2%;
+//        margin: 0 3.4%;
+//      }
+//
+//      .tip-main-left {
+//        margin-top: 20px;
+//        width: 99.48%;
+//
+//        div {
+//          display: flex;
+//          background-color: $blue-dark-4;
+//          color: $white-color;
+//          img {
+//            display: inline-flex;
+//            align-self: baseline;
+//          }
+//          p {
+//            display: inline-flex;
+//            font-family: $font-face-generic-regular;
+//            padding-left: 10px;
+//            font-size: 1rem;
+//            line-height: 1.5;
+//            text-align: left;
+//          }
+//        }
+//      }
+//    }
+//  }
+//
+//  .item-right {
+//    background: transparent;
+//    z-index: 1;
+//
+//    @include media-breakpoint-down(lg) {
+//      margin-bottom: 120px;
+//    }
+//
+//    .item-right-container {
+//      width: 72.22%;
+//      padding-top: 16.66%;
+//
+//      @include media-breakpoint-down(md) {
+//        margin: 0 3.4%;
+//        width: auto;
+//      }
+//      .item-right-info-box {
+//        .item-right-title {
+//          border-top-right-radius: 6px;
+//          border-top-left-radius: 6px;
+//          padding: 9.24% 8.67% 7.12% 8.67%;
+//          background-color: $white-fill;
+//          border-bottom: 1px solid $blue-light;
+//          span {
+//            margin-bottom: 0;
+//          }
+//          .size-sm {
+//            @include media-breakpoint-between(xs, sm) {
+//              font-size: 1.1rem;
+//              line-height: 1.2;
+//            }
+//          }
+//          .label-text span {
+//            color: $app-theme;
+//            font-size: 1.625rem;
+//            line-height: 1.33;
+//            @include media-breakpoint-down(md) {
+//              font-size: 1.1rem;
+//              line-height: 1.2;
+//            }
+//          }
+//        }
+//        .item-right-description {
+//          border-bottom-right-radius: 6px;
+//          border-bottom-left-radius: 6px;
+//          padding: 5% 8%;
+//          background-color: $gray-light-9;
+//          color: $app-theme;
+//          .item-right-defaqto-container {
+//            display: flex;
+//            align-items: center;
+//            color: $app-theme;
+//            .item-right-defaqto-img {
+//              flex: 1;
+//              @include media-breakpoint-down(md) {
+//                img {
+//                  width: 100%;
+//                }
+//              }
+//            }
+//            .item-right-defaqto-text {
+//              flex: 2;
+//              padding-left: 4%;
+//              color: $app-theme;
+//              font-size: 1rem;
+//              text-align: left;
+//              font-family: $font-face-generic-regular;
+//              font-weight: bold;
+//              @include media-breakpoint-between(xs, sm) {
+//                font-family: $font-face-generic-regular;
+//                font-size: 0.75rem;
+//              }
+//            }
+//          }
+//        }
+//        .item-right-footer {
+//          text-align: left;
+//          padding-top: 2%;
+//          color: $info-color;
+//          font-size: 0.8rem;
+//          font-family: $font-face-generic-regular;
+//          @include media-breakpoint-between(xs, sm) {
+//            padding-top: 8%;
+//            font-size: 0.63rem;
+//            line-height: 1.6;
+//          }
+//        }
+//      }
+//
+//      @include media-breakpoint-down(lg) {
+//        padding: 0%;
+//        margin-top: 8%;
+//      }
+//    }
+//
+//    .tip-main-right {
+//      background-color: $app-theme;
+//      border-radius: 8px;
+//      padding: 0;
+//
+//      .tip-main-header {
+//        font-size: 24px;
+//        color: $gray-dark-3;
+//        font-weight: 700;
+//        font-style: normal;
+//        line-height: 30px;
+//      }
+//
+//      .tip-main-body {
+//        padding-top: 28px;
+//        font-size: $font-size-regular;
+//        color: $gray-dark-3;
+//        font-weight: normal;
+//        font-style: normal;
+//        line-height: 16px;
+//      }
+//
+//      .tip-main-footer {
+//        padding-top: 10px;
+//        font-size: $font-size-sm;
+//        color: $gray-light-18;
+//        font-weight: normal;
+//        font-style: normal;
+//        line-height: 17px;
+//      }
+//    }
+//  }
+//
+//  .no-bg {
+//    background: none !important;
+//    background-color: transparent !important;
+//  }
+//
+//  .defaqto-ratings {
+//    background-color: $white-color;
+//    border: 2px solid $black-color;
+//    border-radius: 8px;
+//    flex-direction: column;
+//    display: flex;
+//    margin-bottom: 10px;
+//  }
+//
+//  .defaqto-header {
+//    font-size: 40px;
+//    font-family: $font-face-generic-regular;
+//  }
+//
+//  .defaqto-subheader {
+//    color: $rating-color;
+//    font-weight: bold;
+//  }
+//
+//  .defaqto-year {
+//    background-color: $gray-dark-1;
+//  }
+//
+//  .defaqto-year-span {
+//    color: $white-color;
+//  }
+//
+//  .defaqto-message {
+//    font-family: $font-face-generic-regular;
+//    font-style: normal;
+//    font-weight: normal;
+//    font-size: $font-size-regular;
+//    line-height: 17px;
+//
+//    color: $gray-dark-3;
+//  }
+//
+//  .defaqto-stars i {
+//    color: $rating-color;
+//  }
+//
+//  .defaqto-content {
+//    display: grid;
+//    align-content: center;
+//    justify-content: center;
+//  }
+//
+//  .defaqto-stars {
+//    display: flex;
+//    justify-content: center;
+//    margin-top: 10px;
+//  }
+//
+//  .defaqto {
+//    width: 87.5%;
+//    margin-left: 10%;
+//  }
+//
+//  @include media-breakpoint-down(sm) {
+//    .item-left,
+//    .item-right {
+//      height: auto;
+//    }
+//
+//    .defaqto {
+//      width: 60%;
+//      margin-left: 20%;
+//    }
+//
+//    .item-right {
+//      background: $app-theme;
+//    }
+//  }
+//}

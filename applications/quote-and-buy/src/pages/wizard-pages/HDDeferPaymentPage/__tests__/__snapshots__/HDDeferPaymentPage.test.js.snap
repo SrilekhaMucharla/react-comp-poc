@@ -1,0 +1,438 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDeferPaymentPage /> should render page with default props 1`] = `
+<HDDeferPaymentPage
+  payments={
+    Array [
+      Object {
+        "amount": 458.5,
+        "dueDate": "today",
+      },
+      Object {
+        "amount": 301.4,
+        "dueDate": "15/12/2020",
+      },
+      Object {
+        "amount": 237.16,
+        "dueDate": "02/02/2021",
+      },
+    ]
+  }
+>
+  <Container
+    className="container-defer-payment"
+    fluid={false}
+  >
+    <div
+      className="container-defer-payment container"
+    >
+      <Row
+        noGutters={false}
+      >
+        <div
+          className="row"
+        >
+          <Col
+            md={10}
+            xs={12}
+          >
+            <div
+              className="col-md-10 col-12"
+            >
+              <BackNavigation
+                className=""
+                onClick={null}
+                onKeyPress={null}
+              >
+                <ForwardRef
+                  className="go-back "
+                  id="backNavMain"
+                  label="Go back"
+                  name="go-back"
+                  onBeforeOpen={null}
+                  onBlur={null}
+                  onCancel={null}
+                  onChange={null}
+                  onClick={[Function]}
+                  onConfirm={null}
+                  onDelete={null}
+                  onEdit={null}
+                  onFocus={null}
+                  onKeyPress={[Function]}
+                  onSelect={null}
+                  variant="default"
+                  webAnalyticsEvent={
+                    Object {
+                      "event_action": "Go back",
+                    }
+                  }
+                >
+                  <HDButtonRefactor
+                    className="go-back "
+                    disabled={false}
+                    fullWidth={false}
+                    id="backNavMain"
+                    label="Go back"
+                    name="go-back"
+                    onClick={[Function]}
+                    onKeyPress={[Function]}
+                    size={null}
+                    type="button"
+                    variant="default"
+                  >
+                    <Button
+                      active={false}
+                      block={false}
+                      className="hd-btn hd-btn-default go-back "
+                      disabled={false}
+                      id="backNavMain"
+                      onClick={[Function]}
+                      onKeyPress={[Function]}
+                      size={null}
+                      type="button"
+                      variant="default"
+                    >
+                      <button
+                        className="hd-btn hd-btn-default go-back  btn btn-default"
+                        disabled={false}
+                        id="backNavMain"
+                        onClick={[Function]}
+                        onKeyPress={[Function]}
+                        type="button"
+                      >
+                        <span
+                          className="back-icon"
+                        >
+                          <_default>
+                            <svg
+                              height="14"
+                              viewBox="0 0 8 14"
+                              width="8"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M0.225564 6.49312C0.0845862 6.6422 -2.91944e-07 6.8211 -2.84124e-07 7C-2.75001e-07 7.20872 0.0845862 7.38761 0.225564 7.50688L5.69549 13.2913C5.83647 13.4404 6.00564 13.5 6.17481 13.5C6.37218 13.5 6.54135 13.4404 6.65414 13.2913L7.27444 12.6353C7.41541 12.5161 7.5 12.3372 7.5 12.1284C7.5 11.9495 7.44361 11.7706 7.30263 11.6216L2.93233 7L7.30263 2.37844C7.44361 2.25917 7.5 2.08028 7.5 1.87156C7.5 1.69266 7.41541 1.51376 7.27444 1.36468L6.65414 0.708715C6.54135 0.58945 6.37218 0.5 6.17481 0.5C6.00564 0.5 5.83647 0.58945 5.69549 0.708715L0.225564 6.49312Z"
+                                fill="#0069CC"
+                              />
+                            </svg>
+                          </_default>
+                        </span>
+                        Go back
+                      </button>
+                    </Button>
+                  </HDButtonRefactor>
+                </ForwardRef>
+              </BackNavigation>
+              <h1
+                className="heading-primary u-margin-bottom-mid"
+              >
+                What would you like to do about your payments?
+              </h1>
+              <ForwardRef
+                availableValues={
+                  Array [
+                    Object {
+                      "content": <React.Fragment>
+                        <span>
+                          Pay all today
+                        </span>
+                        <span
+                          className="btn-secondary-description"
+                        >
+                          (£997.06 for all cars)
+                        </span>
+                      </React.Fragment>,
+                      "value": "payFull",
+                    },
+                    Object {
+                      "content": <React.Fragment>
+                        <span>
+                          Pay when each policy starts
+                        </span>
+                        <span
+                          className="btn-secondary-description"
+                          data-testid="text-defer"
+                        >
+                          £458.5 today, £301.4 on 15/12/2020 and £237.16 on 02/02/2021
+                        </span>
+                      </React.Fragment>,
+                      "value": "payDefer",
+                    },
+                  ]
+                }
+                className="btn-group-defer u-margin-bottom-mid"
+                id="pay-all-button-group"
+                onBeforeOpen={null}
+                onBlur={null}
+                onCancel={null}
+                onChange={null}
+                onClick={null}
+                onConfirm={null}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "What would you like to do about your payments?",
+                  }
+                }
+              >
+                <HDToggleButtonGroup
+                  availableValues={
+                    Array [
+                      Object {
+                        "content": <React.Fragment>
+                          <span>
+                            Pay all today
+                          </span>
+                          <span
+                            className="btn-secondary-description"
+                          >
+                            (£997.06 for all cars)
+                          </span>
+                        </React.Fragment>,
+                        "value": "payFull",
+                      },
+                      Object {
+                        "content": <React.Fragment>
+                          <span>
+                            Pay when each policy starts
+                          </span>
+                          <span
+                            className="btn-secondary-description"
+                            data-testid="text-defer"
+                          >
+                            £458.5 today, £301.4 on 15/12/2020 and £237.16 on 02/02/2021
+                          </span>
+                        </React.Fragment>,
+                        "value": "payDefer",
+                      },
+                    ]
+                  }
+                  btnClassName=""
+                  btnGroupClassName=""
+                  className="btn-group-defer u-margin-bottom-mid"
+                  customClassName=""
+                  data={null}
+                  disabled={false}
+                  doReset={false}
+                  id="pay-all-button-group"
+                  label={null}
+                  name="toggle-button-name"
+                  onChange={[Function]}
+                  path="path.to.toggle-button"
+                  type="radio"
+                  value=""
+                >
+                  <div
+                    className=" btn-group-defer u-margin-bottom-mid"
+                  >
+                    <ForwardRef
+                      className=""
+                      name="toggle-button-name"
+                      type="radio"
+                      value=""
+                      vertical={false}
+                    >
+                      <ButtonGroup
+                        className=""
+                        role="group"
+                        toggle={true}
+                        vertical={false}
+                      >
+                        <div
+                          className="btn-group btn-group-toggle"
+                          role="group"
+                        >
+                          <ToggleButton
+                            checked={false}
+                            className=""
+                            disabled={false}
+                            key=".$payFull"
+                            name="toggle-button-name"
+                            onChange={[Function]}
+                            type="radio"
+                            value="payFull"
+                            variant="default"
+                          >
+                            <Button
+                              active={false}
+                              as="label"
+                              className=""
+                              disabled={false}
+                              variant="default"
+                            >
+                              <label
+                                className="btn btn-default"
+                                disabled={false}
+                              >
+                                <input
+                                  autoComplete="off"
+                                  checked={false}
+                                  disabled={false}
+                                  name="toggle-button-name"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  type="radio"
+                                  value="payFull"
+                                />
+                                <span>
+                                  Pay all today
+                                </span>
+                                <span
+                                  className="btn-secondary-description"
+                                >
+                                  (£997.06 for all cars)
+                                </span>
+                              </label>
+                            </Button>
+                          </ToggleButton>
+                          <ToggleButton
+                            checked={false}
+                            className=""
+                            disabled={false}
+                            key=".$payDefer"
+                            name="toggle-button-name"
+                            onChange={[Function]}
+                            type="radio"
+                            value="payDefer"
+                            variant="default"
+                          >
+                            <Button
+                              active={false}
+                              as="label"
+                              className=""
+                              disabled={false}
+                              variant="default"
+                            >
+                              <label
+                                className="btn btn-default"
+                                disabled={false}
+                              >
+                                <input
+                                  autoComplete="off"
+                                  checked={false}
+                                  disabled={false}
+                                  name="toggle-button-name"
+                                  onBlur={[Function]}
+                                  onChange={[Function]}
+                                  onFocus={[Function]}
+                                  type="radio"
+                                  value="payDefer"
+                                />
+                                <span>
+                                  Pay when each policy starts
+                                </span>
+                                <span
+                                  className="btn-secondary-description"
+                                  data-testid="text-defer"
+                                >
+                                  £458.5 today, £301.4 on 15/12/2020 and £237.16 on 02/02/2021
+                                </span>
+                              </label>
+                            </Button>
+                          </ToggleButton>
+                        </div>
+                      </ButtonGroup>
+                    </ForwardRef>
+                  </div>
+                </HDToggleButtonGroup>
+              </ForwardRef>
+              <HDInfoCard
+                className="u-margin-bottom-big"
+                image={null}
+                isRight={false}
+                notes={null}
+                paragraphs={Array []}
+                title={null}
+              >
+                <styled.div
+                  className="i-card-container left u-margin-bottom-big"
+                >
+                  <div
+                    className="sc-iCoGMd hIYlRK i-card-container left u-margin-bottom-big"
+                  >
+                    <img
+                      alt="tip icon"
+                      src="tip_circle_purple.svg"
+                    />
+                    <p
+                      style={
+                        Object {
+                          "margin": 0,
+                        }
+                      }
+                    >
+                      If you choose to pay some of these later, we'll take payment automatically on the date it's due.
+But don't worry, we'll always send you  a reminder nearer the time.
+                    </p>
+                  </div>
+                </styled.div>
+              </HDInfoCard>
+              <ForwardRef
+                id="continue-to-summary-button"
+                label={null}
+                onBeforeOpen={null}
+                onBlur={null}
+                onCancel={null}
+                onChange={null}
+                onClick={null}
+                onConfirm={null}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                variant="btnprimary"
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Continue - Redirecting from: HastingsMCDeferPayment",
+                  }
+                }
+              >
+                <HDButtonRefactor
+                  className=""
+                  disabled={false}
+                  fullWidth={false}
+                  id="continue-to-summary-button"
+                  label={null}
+                  onClick={[Function]}
+                  onKeyPress={null}
+                  size={null}
+                  type="button"
+                  variant="btnprimary"
+                >
+                  <Button
+                    active={false}
+                    block={false}
+                    className="hd-btn "
+                    disabled={false}
+                    id="continue-to-summary-button"
+                    onClick={[Function]}
+                    onKeyPress={null}
+                    size={null}
+                    type="button"
+                    variant="btnprimary"
+                  >
+                    <button
+                      className="hd-btn  btn btn-btnprimary"
+                      disabled={false}
+                      id="continue-to-summary-button"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      type="button"
+                    >
+                      Continue to summary
+                    </button>
+                  </Button>
+                </HDButtonRefactor>
+              </ForwardRef>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </div>
+  </Container>
+</HDDeferPaymentPage>
+`;

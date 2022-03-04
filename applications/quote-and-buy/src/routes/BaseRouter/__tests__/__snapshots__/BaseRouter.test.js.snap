@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseRouter should render correctly and match the snapshot 1`] = `
+<Fragment>
+  <Header
+    quote={true}
+  />
+  <ErrorHandler>
+    <Switch>
+      <Redirect
+        from="/:url*(/+)"
+        to={
+          Object {
+            "pathname": "",
+            "search": undefined,
+            "state": undefined,
+          }
+        }
+      />
+      <Route
+        exact={true}
+        path="/"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        key="HastingsDirectIntroCar"
+        path="/intro"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        key="HastingsDirectInterstitial"
+        path="/interstitial"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        key="HastingsMCIntro"
+        path="/about-mc-cover"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        key="HastingsDirectVRNSearch"
+        path="/vrn-search-page"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        key="HDPrimerYouDrive"
+        path="/primer-youdrive"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        key="HastingsDirectCustomizeQuoteWizard"
+        path="/customise-quote-wizard"
+        render={[Function]}
+      />
+      <Route
+        exact={true}
+        key="HDMCCustomizeQuoteWizard"
+        path="/mc-customize-quote-wizard"
+        render={[Function]}
+      />
+      <PrivateRoute
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(HDWizardRouter)",
+            "type": [Function],
+          }
+        }
+        path="/get-a-price"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(HastingsDOBInterstitialPage)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/retrievepage"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(HastingsDOBInterstitialPage)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/mc-retrievepage"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(HDQuoteRetrievePage)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/quote-retrieve"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(HDTimeoutPage)",
+            "type": [Function],
+          }
+        }
+        exact={true}
+        path="/timeout-page"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(HDDownloadPage)",
+            "type": [Function],
+          }
+        }
+        path="/download/:pageName/:documentUUID/:referenceNumber/:sessionUUID"
+      />
+      <Route
+        component={
+          Object {
+            "$$typeof": Symbol(react.memo),
+            "WrappedComponent": [Function],
+            "compare": null,
+            "displayName": "Connect(HDInvalidURLErrorPage)",
+            "type": [Function],
+          }
+        }
+      />
+    </Switch>
+  </ErrorHandler>
+  <withRouter(Footer)
+    name="Hastings Insurance Services Limited"
+  />
+  <HDTimeoutModal />
+</Fragment>
+`;

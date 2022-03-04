@@ -1,0 +1,89 @@
+.break-down-cover {
+
+    &-container {
+        margin-bottom: 30px;
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 0;
+        }
+        ._loading_overlay_overlay {
+            position: fixed;
+            background-color: $mono-midnight;
+            opacity: 0.9;
+            font-weight: 100;
+            font-size: large;
+          }
+    
+          ._loading_overlay_spinner {
+            position: relative;
+            margin: 0px auto 10px auto;
+            width: 230px;
+            max-height: 100%;
+            svg{
+                -webkit-animation: spin 2s linear infinite;
+                animation: spin 2s linear infinite;
+                circle{
+                    stroke-width: 2.5;
+                    stroke: $midnight-electric-blue;
+                    stroke-linecap: square;
+                }
+            }
+            @-webkit-keyframes spin {
+                0% { -webkit-transform: rotate(0deg); }
+                100% { -webkit-transform: rotate(360deg); }
+                }
+                
+                @keyframes spin {
+                0% { transform: rotate(0deg); }
+                100% { transform: rotate(360deg); }
+                }
+          }
+    }
+
+    &__header-image {
+        @include media-breakpoint-down(sm) {
+            height: 32px;
+        }
+    }
+
+    &__toggle-btn-group {
+        .btn-group-toggle .btn {
+            font-weight: 600;
+        }
+    }
+
+    &__continue-button {
+        font-weight: 600;
+    }
+
+    &__table {
+        .hd-table__body__row__label {
+            color: $app-theme;
+        }
+    }
+}
+
+a.break-down-cover__no-cov-needed-link-btn {
+    margin-bottom: 0;
+
+    @include media-breakpoint-up(md) {
+        margin-bottom: 30px;
+    }
+}
+
+.confirm-cover-modal__btn-margin-top {
+    .hd-modal-footer {
+        margin-top: 0 !important;
+    }
+}
+
+.break-down-cover__table.elevated-box {
+    .hd-image-radio-btn_input {
+        border: 2.5px solid $info-color;
+    }
+    .hd-table__header__grid__item.selected {
+        .hd-image-radio-btn_input {
+            border: 2.5px solid $white-color;
+        }
+    }
+}

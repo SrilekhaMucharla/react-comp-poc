@@ -1,0 +1,12 @@
+{
+  "name": "gw-portals-google-maps-js",
+  "description": "Google Maps Loader",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "gw-portals-util-js": "11.2.0-db467149eb42"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "gw-portals-transport-js",
+  "description": "Provides HTTP transport API",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "uuid": "^3.3.2"
+  },
+  "peerDependencies": {
+    "gw-portals-auth-inactivity-timer-js": "11.2.0-db467149eb42"
+  }
+}

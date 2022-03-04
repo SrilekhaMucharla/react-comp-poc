@@ -1,0 +1,91 @@
+@font-face {
+    font-family: TTNormsPro;
+    src: url('fonts/TTNormsPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: TTNormsPro;
+    src: url('fonts/TTNormsPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+  font-family: TTNormsPro;
+  src: url('fonts/TTNormsPro-DemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+    font-family: TTNormsPro;
+    src: url('fonts/TTNormsPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block;
+  }
+
+body {
+    background-color: #011831;
+    color: #ffffff;
+    font-family: TTNormsPro;
+}
+
+.header {
+    height: 80px;
+    margin-bottom: 110px;
+}
+
+.header .navbar-brand {
+    padding-left: 20px;
+    padding-top: 34px;
+}
+
+.phone-number {
+    font-weight: 600;
+}
+
+.btn-go-home {
+    background-color: #0e838a;
+    border: 1px solid #0e838a;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.35;
+    padding: 15px 50px;
+}
+
+.btn-go-home:hover {
+    background-color: transparent;
+    border: 2px solid #00a39e;
+}
+
+h2 {
+    font-size: 34px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-bottom: 50px;
+    }
+
+    .btn-go-home {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+}

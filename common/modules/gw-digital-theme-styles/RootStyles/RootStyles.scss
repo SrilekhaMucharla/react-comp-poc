@@ -1,0 +1,48 @@
+.digitalRoot {
+
+    // FONTS
+    --GW-VALUE-FONT-FAMILY: var(--base-font-family);
+    --GW-FONT-FAMILY: var(--base-font-family);
+
+    // FONT SIZES
+    --GW-FONT-SIZE-XS: var(--font-xs);
+    --GW-FONT-SIZE-SM: var(--font-s);
+    --GW-FONT-SIZE: var(--base-font-size);
+    --GW-FONT-SIZE-MD: var(--base-font-size);
+    --GW-FONT-SIZE-LG: var(--font-l);
+    --GW-FONT-SIZE-XL: var(--font-xl);
+    --GW-FONT-SIZE-XXL: var(--font-xxl);
+
+    // COLORS
+    --GW-COLOR-BRAND-1: var(--gw-lime-green);
+    --GW-COLOR-BRAND-1-ACTIVE: var(--gw-lime-green);
+    --GW-COLOR-BRAND-1-HOVER: var(--gw-green-2);
+    --GW-COLOR-BRAND-1-CONTRAST: var(--gw-dark-green);
+    --GW-COLOR-BRAND-1-GRADIENT: var(--gw-lime-green);
+    --GW-COLOR-BRAND-1-GRADIENT-HOVER: var(--gw-dark-green-2);
+    --GW-COLOR-BRAND-1-GRADIENT-HOVER-ACTIVE: var(--gw-dark-green-3);
+
+    // LINE HEIGHT
+    --GW-LINE-HEIGHT-XS: var(--line-height-xs);
+    --GW-LINE-HEIGHT-SM: var(--line-height-s);
+    --GW-LINE-HEIGHT: var(--line-height-m);
+    --GW-LINE-HEIGHT-MD: var(--line-height-m);
+    --GW-LINE-HEIGHT-LG: var(--line-height-l);
+    --GW-LINE-HEIGHT-XL: var(--line-height-xl);
+    --GW-LINE-HEIGHT-XXL: var(--line-height-xxl);
+
+    // SPACING
+    --GW-SPACING-SM: var(--gw-spacing-sm);
+    --GW-SPACING: var(--gw-spacing-md);
+    --GW-SPACING-LG: var(--gw-spacing-lg);
+    --GW-SPACING-XL: var(--gw-spacing-xl);
+
+    // BORDER COLOR
+    --GW-COLOR-BORDER: var(--gw-grey-light-2);
+
+    // BORDER RADIUS
+    --GW-BORDER-RADIUS: 2px;
+
+    // BOX SHADOW
+    --GW-BOX-SHADOW-4: 0 1px 1px 0 var(--gw-black-opaque-1)
+}

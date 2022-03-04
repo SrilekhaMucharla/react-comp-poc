@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchToSingleCarModal should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  cancelLabel="No, go back"
+  confirmLabel="Continue with one car"
+  customStyle="footer-btns-w-100 rev-button-order"
+  headerText="Are you sure?"
+  hideClose={true}
+  id="switch-to-single-car-modal"
+  onBeforeOpen={null}
+  onCancel={[MockFunction]}
+  onClose={[MockFunction]}
+  onConfirm={[MockFunction]}
+  show={true}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "This is a Multi Car quote but you’ve only added one car.",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_name": "test",
+      "page_section": "This is a Multi Car quote but you’ve only added one car.",
+      "page_type": "test",
+      "sales_journey_type": "multi_car",
+    }
+  }
+>
+  <span>
+    This is a Multi Car quote but you’ve only added one car.
+  </span>
+</ForwardRef>
+`;

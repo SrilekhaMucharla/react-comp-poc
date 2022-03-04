@@ -1,0 +1,14 @@
+{
+  "name": "gw-portals-viewmodel-react",
+  "description": "Provides API to work with View Model",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "16.x",
+    "lodash": "4.x",
+    "prop-types": "15.x"
+  }
+}

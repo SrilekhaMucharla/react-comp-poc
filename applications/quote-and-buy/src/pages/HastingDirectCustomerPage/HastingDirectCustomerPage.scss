@@ -1,0 +1,344 @@
+.introcustomerpagecontainer {
+  width: 100%;;
+  margin-top: $header-height;
+  background: $app-theme;
+  .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  @include media-breakpoint-between(xs, sm) {
+    margin-top: $header-height-mobile;
+  }
+
+  .info-intro-customer-page {
+    display: flex;
+    & > p {
+      margin-right: 4.2%;
+    }
+  }
+
+  .go-back {
+    pointer-events: none;
+    opacity: 0.5;
+  }
+
+  .introcustomeroverlaycontainer {
+    padding: 10px 30px;
+    color: $info-color;
+    font-family: $font-face-generic-regular;
+
+    .introcustomeroverlayheader {
+      border: 0;
+      color: $app-theme;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 1.6rem;
+      line-height: 1.2;
+      color: $app-theme;
+      margin-bottom: 2rem;
+      font-family: $font-face-generic-regular;
+    }
+    ul,
+    ol {
+      li {
+        font-family: $font-face-generic-regular;
+        padding: 2%;
+      }
+      span {
+        vertical-align: initial;
+      }
+    }
+    ol {
+      list-style: none;
+      counter-reset: li;
+      li {
+        counter-increment: li;
+      }
+      li::before {
+        content: counter(li);
+        color: $link-color;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+      }
+    }
+    ul {
+      padding-left: 5.5%;
+      @include media-breakpoint-between(xs, sm) {
+        padding-left: 7.5%;
+      }
+      li {
+        list-style: none;
+        list-style-position: inside;
+        position: relative;
+        span {
+          vertical-align: initial;
+        }
+        &::before {
+          font-weight: bold;
+          display: inline-block;
+          width: 1em;
+          margin-left: -1em;
+          color: $link-color;
+          font-size: 1.1em;
+        }
+      }
+    }
+
+    .introcustomeroverlaybody {
+      font-style: normal;
+      font-weight: normal;
+      font-size: $font-size-md;
+      line-height: 1.5;
+      color: $blue-light;
+    }
+  }
+}
+
+.grid-container {
+  display: flex;
+  margin: 0;
+
+  @include media-breakpoint-down(lg) {
+    display: block;
+  }
+}
+
+.item-left,
+.item-right {
+  
+  display: block;
+  text-align: center;
+
+  @include media-breakpoint-down(lg) {
+    min-width: 100%;
+    max-width: 100%;
+    width: 100%;
+    display: inline-block; 
+  }
+}
+
+.item-left {
+  background: $app-theme;
+  //height: 90vh;
+  width:50%;
+  @include media-breakpoint-between(xs, sm) {
+    //height: 100%;
+  }
+  span.label-text {
+    font-size: 2.625rem;
+    line-height: 1.2;
+    @include media-breakpoint-down(lg) {
+      font-size: 2.1rem;
+      line-height: 1.2;
+    }
+  }
+
+  .item-left-container {
+    // padding: 10% 20% 25% 25%;
+    width: 87.5%;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    //padding-top: 12%;
+
+    @include media-breakpoint-between(xs, sm) {
+      width: 90%;
+    }
+
+    .disable {
+      color: rgba(0, 0, 0, 0.4);
+    }
+
+    .sub-header {
+      font-size: $font-size-xxl;
+      font-weight: bold;
+      margin-bottom: 38px;
+      text-align: left;
+    }
+    .hd-overlay-btn {
+      text-decoration: none;
+    }
+    
+    .customer-button {     
+      @include media-breakpoint-up(md) {
+        display: inline-block;
+        margin-bottom: 0;
+        width: 48.6%;
+        &.first-btn {
+          margin-right: 2.8%;
+        }
+      }
+
+      margin-bottom: 14px;
+      .btn-cardbutton {
+        font-family: $font-face-generic-regular !important;
+        font-weight: 600;
+        @include media-breakpoint-up(md){
+          width: 100%;
+        }
+      }
+
+      span {
+        padding-left: 31px;
+      }
+
+      @include media-breakpoint-down(lg) {        
+        margin-bottom: 27px;
+      }
+    }
+
+    .tip-main-left {
+      margin-top: 30px;
+      width: 100%;;
+
+      @include media-breakpoint-down(lg) {    
+        margin-top: 20px;
+      }
+
+      div {
+        display: flex;
+        background-color: $blue-dark-4;
+        color: $white-color;
+        img {
+          display: inline-flex;
+          align-self: baseline;
+        }
+        p {
+          display: inline-flex;
+          padding-left: 10px;
+          font-size: $font-size-md;
+          line-height: 1.5;
+          text-align: left;
+          font-family: $font-face-generic-regular;
+        }
+      }
+    }
+
+    .acceptance-criteria {
+      margin-top: 14px;
+      span:first-child {
+        @include media-breakpoint-between(xs, sm) {
+          margin-bottom: 0;
+        }
+      }
+      .label-text {
+        color: $white-color;
+        font-size: $font-size-md;
+        line-height: 1.5;
+        font-weight: bold;
+        text-align: left;
+        p.acceptance-criteria-link {
+          text-decoration: underline;
+          text-decoration-color: $link-color;
+        }
+        span.acceptance-criteria-prefix {
+          text-decoration: none !important;
+        }
+      }
+
+      @include media-breakpoint-down(lg) {     
+          margin-top: 20px;
+      }
+    }
+  }
+}
+
+.item-right {
+  background-color: transparent;
+  z-index: 1;
+  @include media-breakpoint-down(lg) { 
+    padding-bottom: 10%;
+    margin-top: 0;
+    width:50%;
+    position:absolute;
+  }
+
+  .item-right-container {
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    width: 86%;
+    padding-top: 20%;
+
+    @include media-breakpoint-between(xs, sm) {
+      width: 90%;
+    }
+
+    @include media-breakpoint-down(lg) {   
+      padding: 0%;
+    }
+  }
+
+  .tip-main-right {
+    border-radius: 8px;
+    text-align: left;
+    div {
+      background-color: $white-color;
+    }
+
+    .right {
+      padding: 28px;
+    }
+
+    .info-card-title {
+      font-style: normal;
+      font-size: 1.625rem;
+      line-height: 1.2;
+      color: $app-theme;
+      margin: 0;
+      font-family: $font-face-generic-regular;
+      font-weight: bold;
+    }
+
+    .info-card-paragraph {
+      font-family: $font-face-generic-regular;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: $app-theme;
+      margin-top: 2%;
+    }
+
+    .info-card-notes {
+      font-family: $font-face-generic-regular;
+      font-style: normal;
+      font-weight: normal;
+      font-size: .75rem;
+      line-height: 1.25;
+      color: $blue-light;
+      margin-top: 10%;
+    }
+
+    // will be removed in future commit
+    .tip-main-header {
+      font-size: 24px;
+      color: $gray-dark-3;
+      font-weight: 700;
+      font-style: normal;
+      line-height: 30px;
+    }
+
+    // will be removed in future commit
+    .tip-main-body {
+      padding-top: 28px;
+      font-size: $font-size-regular;
+      color: $gray-dark-3;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 16px;
+    }
+
+    // will be removed in future commit
+    .tip-main-footer {
+      padding-top: 10px;
+      font-size: $font-size-sm;
+      color: $gray-light-18;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 17px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+/* eslint-disable max-len */
+export const infoTipText = ["You'll find this date on the vehicle registration form (V5) or give us an approximate date if you're not sure."];
+export const carPurchaseDate = 'When was the car bought?';
+export const legalOwner = 'Are you (or will you be) the legal owner and registered keeper?';
+export const legalOwnerChild = 'Will the policyholder for this car be the registered keeper and legal owner?';
+export const carPurchasedLabel = "I haven't bought it yet";
+export const otherCarPurchasedLabel = "It hasn't been bought yet";
+export const ownerSelectLabel = 'Who is the owner?';
+export const keeperSelectLabel = 'Who is the registered keeper?';
+export const overlayMessageHeader = 'Are you (or will you be) the legal owner and registered keeper?';
+export const overlayMessageOne = "Put simply, the legal owner is the person who bought the car and the registered keeper is whoever is named in the V5 certificate or log book. These are generally the same person (but don't worry if not).";
+export const overlayMessageTwo = "Also, if you've not bought the car yet but you're going to be the owner and keeper, you can answer yes to this question.";
+export const overlayMessageThree = "If you lease your car, please answer 'no'.";
+export const dummyToolTip = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas aliquam luctus lorem eget blandit. Donec tempor tortor in ex commodo iaculis sit amet non tortor. Nam pharetra lacus et eros porttitor, sit amet sagittis mi viverra. Phasellus sollicitudin quam non dui rutrum pulvinar. Sed ac metus et lorem aliquam aliquet. Vivamus blandit fringilla dolor, eu egestas felis rhoncus quis. Donec pharetra mattis orci a convallis.';
+export const futureDateErrMsg = "Sorry, you can't use a date in the future.";
+export const invalidMonth = "Sorry, we don't recognise that date. Please try again";
+export const yes = 'Yes';
+export const no = 'No';
+export const dropdownTheme = 'blue';
+export const legalOwnerLabel = 'Legal Owner';
+export const owner = 'Owner';
+export const registeredKeeper = 'Registered Keeper';
+export const fieldRequiredMsg = 'Sorry, you need to answer this question.';

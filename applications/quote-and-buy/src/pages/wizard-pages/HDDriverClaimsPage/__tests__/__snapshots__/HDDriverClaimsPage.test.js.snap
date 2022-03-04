@@ -1,0 +1,444 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDDriverClaimsPage shallow render HDDropDown inside HDModal 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HDDriverClaimsPage)>
+    <HDDropdownList
+      className=""
+      customClassName=""
+      data={null}
+      defaultValue={null}
+      displayValidationMessage={true}
+      enableNative={false}
+      isDisabled={false}
+      isSearchable={true}
+      label={null}
+      name="accidentType"
+      onBlur={[Function]}
+      onChange={[MockFunction]}
+      options={
+        Array [
+          Object {
+            "label": "Accident",
+            "value": "A",
+          },
+          Object {
+            "label": "Accidental Damage",
+            "value": "B",
+          },
+          Object {
+            "label": "Chemical",
+            "value": "C",
+          },
+          Object {
+            "label": "Collission",
+            "value": "L",
+          },
+        ]
+      }
+      path="path.to.dropdown"
+      placeholder="Please select"
+      ref={null}
+      reset={false}
+      selectSize="lg"
+      theme="white"
+      titleTag="h5"
+      value={null}
+    />
+  </Connect(HDDriverClaimsPage)>
+</ContextProvider>
+`;
+
+exports[`HDDriverClaimsPage shallow render HDLabel 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HDDriverClaimsPage)>
+    <HDLabel
+      additionalText={null}
+      icon={null}
+      iconPosition="r"
+      size="sm"
+      text={[Function]}
+      theme="dark"
+    />
+  </Connect(HDDriverClaimsPage)>
+</ContextProvider>
+`;
+
+exports[`HDDriverClaimsPage shallow render HDLabel inside HDModal 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HDDriverClaimsPage)>
+    <HDModal
+      cancelLabel="Cancel"
+      className=""
+      confirmLabel="Add"
+      customStyle=""
+      headerText="Incident"
+      hideCancelButton={false}
+      hideClose={false}
+      hideConfirmButton={false}
+      hideFooter={false}
+      id="driver-claims-popup"
+      onBeforeOpen={[Function]}
+      onCancel={[MockFunction]}
+      onClose={[MockFunction]}
+      onConfirm={[Function]}
+      show={true}
+      size="wide"
+    >
+      <HDLabel
+        additionalText={null}
+        icon={null}
+        iconPosition="r"
+        size="sm"
+        text="When did the incident happen?"
+        theme="dark"
+      />
+    </HDModal>
+  </Connect(HDDriverClaimsPage)>
+</ContextProvider>
+`;
+
+exports[`HDDriverClaimsPage shallow render component 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HDDriverClaimsPage) />
+</ContextProvider>
+`;
+
+exports[`HDDriverClaimsPage shallow render delete modal click 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HDDriverClaimsPage)>
+    <HDModal
+      cancelLabel="Go back"
+      className=""
+      confirmLabel="Yes"
+      customStyle=""
+      headerText="Are you sure?"
+      hideCancelButton={false}
+      hideClose={false}
+      hideConfirmButton={false}
+      hideFooter={false}
+      id="delete-claims-popup"
+      onBeforeOpen={[Function]}
+      onCancel={[Function]}
+      onClose={[Function]}
+      onConfirm={[Function]}
+      show={true}
+    >
+      <p
+        className="popup-text"
+      >
+        <Component />
+      </p>
+    </HDModal>
+  </Connect(HDDriverClaimsPage)>
+</ContextProvider>
+`;
+
+exports[`HDDriverClaimsPage shallow render togglebutton group 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <Connect(HDDriverClaimsPage)>
+    <HDToggleButtonGroup
+      availableValues={
+        Array [
+          Object {
+            "name": "Yes",
+            "value": "true",
+          },
+          Object {
+            "name": "No",
+            "value": "false",
+          },
+        ]
+      }
+      btnClassName=""
+      btnGroupClassName=""
+      className="driver-claims-toggle"
+      customClassName=""
+      data={null}
+      disabled={false}
+      doReset={false}
+      label={
+        Object {
+          "icon": undefined,
+          "iconPosition": "r",
+          "size": "sm",
+          "text": [Function],
+        }
+      }
+      name="hadInsurancePolicyDeclinedCancelledVoidedOrSpecialTerms"
+      onChange={[MockFunction]}
+      path="lobData.privateCar.coverables.drivers.children[0].previousPoliciesInformation.hadInsurancePolicyDeclinedCancelledVoidedOrSpecialTerms"
+      type="radio"
+      value=""
+    />
+  </Connect(HDDriverClaimsPage)>
+</ContextProvider>
+`;
+
+exports[`HDDriverClaimsPage shallow render togglebutton group inside modal 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <HDModal
+    cancelLabel="Cancel"
+    className=""
+    confirmLabel="Add"
+    customStyle=""
+    headerText="Incident"
+    hideCancelButton={false}
+    hideClose={false}
+    hideConfirmButton={false}
+    hideFooter={false}
+    id="driver-claims-popup"
+    onBeforeOpen={[Function]}
+    onCancel={[MockFunction]}
+    onClose={[MockFunction]}
+    onConfirm={[Function]}
+    show={true}
+    size="wide"
+  >
+    <HDToggleButtonGroup
+      availableValues={
+        Array [
+          Object {
+            "name": "Yes",
+            "value": "true",
+          },
+          Object {
+            "name": "No",
+            "value": "false",
+          },
+        ]
+      }
+      btnClassName=""
+      btnGroupClassName=""
+      className="driver-claims-toggle"
+      customClassName=""
+      data={null}
+      disabled={false}
+      doReset={false}
+      label={
+        Object {
+          "icon": undefined,
+          "iconPosition": "r",
+          "size": "sm",
+          "text": [Function],
+        }
+      }
+      name="hadInsurancePolicyDeclinedCancelledVoidedOrSpecialTerms"
+      onChange={[MockFunction]}
+      path="lobData.privateCar.coverables.drivers.children[0].previousPoliciesInformation.hadInsurancePolicyDeclinedCancelledVoidedOrSpecialTerms"
+      type="radio"
+      value=""
+    />
+  </HDModal>
+</ContextProvider>
+`;

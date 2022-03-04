@@ -1,0 +1,390 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Elements with analytics AnalyticsHDAsyncSelect should render and match the snapshot 1`] = `
+<HDAsyncSelect
+  cacheOptions={false}
+  className=""
+  customClassName=""
+  defaultOptions={false}
+  defaultValue={null}
+  displayValidationMessage={true}
+  id="default-id"
+  label={null}
+  loadOptions={[Function]}
+  name="dropdown-name"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onInputChange={[Function]}
+  options={null}
+  otherProp="some value"
+  path="path.to.dropdown"
+  placeholder="text"
+  selectSize={null}
+  value={null}
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDButton should render and match the snapshot 1`] = `
+<HDButtonRefactor
+  className=""
+  disabled={false}
+  fullWidth={false}
+  id="default-id"
+  label="button"
+  onClick={[Function]}
+  onKeyPress={null}
+  otherProp="some value"
+  size={null}
+  type="button"
+  variant="primary"
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDButtonDashed should render and match the snapshot 1`] = `
+<HDButtonDashed
+  className={null}
+  disabled={false}
+  icon={false}
+  id="default-id"
+  label={null}
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  otherProp="some value"
+  tabIndex={0}
+  theme="dark"
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDCheckbox should render and match the snapshot 1`] = `
+<HDCheckbox
+  className="some-class-name"
+  data="String"
+  doReset={false}
+  id="default-id"
+  label="Some Label"
+  name="toggle-button-name"
+  onChange={[Function]}
+  path="path.to.toggle-button"
+  text="Sample text"
+  type="checkbox"
+  value="Some value"
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDCheckboxButtonList should render and match the snapshot 1`] = `
+<HDCheckboxButtonList
+  className="Something"
+  colProps={
+    Object {
+      "lg": 10,
+      "xl": 8,
+      "xs": 12,
+    }
+  }
+  id="default-id"
+  items={Array []}
+  onChange={[Function]}
+  selectedItems={Array []}
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDCompletedCardInfo should render and match the snapshot 1`] = `
+<HDCompletedCardInfo
+  additionalText="Some additional text"
+  className={null}
+  deleteTabIndex={1}
+  editTabIndex={0}
+  id="default-id"
+  onDelete={[Function]}
+  onDeleteKeyDown={[Function]}
+  onEdit={[Function]}
+  onEditKeyDown={[Function]}
+  text="Some sample text"
+  variant="driver"
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDDatePicker should render and match the snapshot 1`] = `
+<HDDatePickerRefactor
+  className=""
+  customClassName=""
+  hidePicker={false}
+  id="default-id"
+  information={null}
+  initialDate={null}
+  inputCols={Array []}
+  inputStyle={null}
+  label={null}
+  maxDate={365}
+  minDate={0}
+  name="input-name"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onConfirm={[Function]}
+  onSelect={[Function]}
+  otherProp="some value"
+  path="path.to.input"
+  pickerPos="input-right"
+  showFieldsNames={false}
+  subLabel={null}
+  theme="dark"
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDDropdownList should render and match the snapshot 1`] = `
+<HDDropdownList
+  className=""
+  customClassName=""
+  data={null}
+  defaultValue={null}
+  displayValidationMessage={true}
+  enableNative={false}
+  id="default-id"
+  isDisabled={false}
+  isSearchable={true}
+  label={null}
+  name="dropdown-name"
+  onBlur={[Function]}
+  onChange={[Function]}
+  options={
+    Array [
+      Object {
+        "name": "name 1",
+        "value": "value 1",
+      },
+      Object {
+        "name": "name 2",
+        "value": "value 2",
+      },
+    ]
+  }
+  otherProp="some value"
+  path="path.to.dropdown"
+  placeholder="Please select"
+  ref={null}
+  reset={false}
+  selectSize={null}
+  theme="white"
+  titleTag="h5"
+  value={null}
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDLabel should render and match the snapshot 1`] = `
+<HDLabelRefactor
+  Tag="r"
+  adjustImagePosition={false}
+  className="label-with-icon align-items-start"
+  href="https://www.hastingsdirect.com"
+  iconPosition="l"
+  id="default-id"
+  onClick={[Function]}
+  otherProp="some value"
+  target="SomeTarget"
+  text="Something"
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDModal should render and match the snapshot 1`] = `
+<ForwardRef
+  id="default-id"
+  onBeforeOpen={null}
+  onBlur={null}
+  onCancel={null}
+  onChange={null}
+  onClick={null}
+  onConfirm={[Function]}
+  onDelete={null}
+  onEdit={null}
+  onFocus={null}
+  onSelect={null}
+  otherProp="some value"
+  show={true}
+  webAnalyticsEvent={
+    Object {
+      "analytics_data": "top secret",
+    }
+  }
+  webAnalyticsView={null}
+>
+  <div>
+    Some children
+  </div>
+</ForwardRef>
+`;
+
+exports[`Elements with analytics AnalyticsHDOverlayPopup should render and match the snapshot 1`] = `
+<ForwardRef
+  id="default-id"
+  onBeforeOpen={null}
+  onBlur={null}
+  onCancel={null}
+  onChange={null}
+  onClick={null}
+  onConfirm={null}
+  onDelete={null}
+  onEdit={null}
+  onFocus={null}
+  onSelect={null}
+  otherProp="some value"
+  webAnalyticsEvent={
+    Object {
+      "analytics_data": "top secret",
+    }
+  }
+  webAnalyticsView={null}
+>
+  <div>
+    Some children
+  </div>
+</ForwardRef>
+`;
+
+exports[`Elements with analytics AnalyticsHDQuoteDownload should render and match the snapshot 1`] = `
+<HDQuoteDownloadRefactor
+  className=""
+  id="default-id"
+  linkText="Link"
+  onClick={[Function]}
+  otherProp="some value"
+  showIcon={false}
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDRadioButtonList should render and match the snapshot 1`] = `
+<HDRadioButtonList
+  className="Something"
+  id="default-id"
+  items={Array []}
+  onChange={[Function]}
+  value={
+    Object {
+      "id": "SomeID",
+      "label": "Some Label",
+      "value": "Required Value",
+    }
+  }
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDSwitch should render and match the snapshot 1`] = `
+<HDSwitch
+  id="default-id"
+  name="name"
+  onChange={[Function]}
+  otherProp="some value"
+  path="path"
+  theme="dark"
+  value="name 1"
+  values={
+    Array [
+      Object {
+        "name": "name 1",
+        "value": "value 1",
+      },
+      Object {
+        "name": "name 2",
+        "value": "value 2",
+      },
+    ]
+  }
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDTable should render and match the snapshot 1`] = `
+<HDTable
+  className=""
+  data={Array []}
+  defaultIndex={-1}
+  headerValues={
+    Array [
+      Object {
+        "headerLabelValue": "headerLabelValue",
+        "image": <div>
+          img
+        </div>,
+        "secondaryLabel": "secondaryLabel",
+        "stickyHeaderText": "stickyHeaderText",
+        "value": "value",
+      },
+    ]
+  }
+  hideBubbleOnHeaderSticky={false}
+  id="default-id"
+  moreDetailsLabel={null}
+  moreDetailsPopups={Array []}
+  name="name"
+  onSelect={[Function]}
+  onlineProduct={false}
+  otherProp="some value"
+  selectedHeaderValue={null}
+  topHeader={null}
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDTextInput should render and match the snapshot 1`] = `
+<ForwardRef
+  allowLeadingZero={false}
+  appendContent={null}
+  appendLabel={null}
+  className=""
+  customClassName=""
+  data={null}
+  disabled={false}
+  icon={null}
+  id="default-id"
+  inputMode={null}
+  isInvalidCustom={null}
+  mask={null}
+  maskChar="_"
+  maxLength={null}
+  name="input-name"
+  onBlur={[Function]}
+  onChange={[Function]}
+  onFocus={[Function]}
+  onKeyPress={[Function]}
+  otherProp="some value"
+  path="path.to.input"
+  placeholder={null}
+  preText={null}
+  reset={false}
+  size={null}
+  svgIcon={null}
+  thousandSeprator={false}
+  tickIcon={false}
+  type={null}
+  value=""
+/>
+`;
+
+exports[`Elements with analytics AnalyticsHDToggleButtonGroup should render and match the snapshot 1`] = `
+<HDToggleButtonGroup
+  availableValues={
+    Array [
+      Object {
+        "name": "name 1",
+        "value": "value 1",
+      },
+      Object {
+        "name": "name 2",
+        "value": "value 2",
+      },
+    ]
+  }
+  btnClassName=""
+  btnGroupClassName=""
+  className=""
+  customClassName=""
+  data={null}
+  disabled={false}
+  doReset={false}
+  id="default-id"
+  label={null}
+  name="toggle-button-name"
+  onChange={[Function]}
+  otherProp="some value"
+  path="path.to.toggle-button"
+  type="radio"
+  value=""
+/>
+`;

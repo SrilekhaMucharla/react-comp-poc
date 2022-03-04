@@ -1,0 +1,19 @@
+/* eslint-disable max-len */
+export const ourfees = 'Our fees';
+export const feesContentOne = "We charge fees to cover the costs involved in setting up, servicing and cancelling a policy and it's important you understand them";
+export const feesContentTwo = 'Here are some of the fees we get asked about most often:';
+export const typeoffee = 'Type of fee';
+export const fee = 'Fee';
+export const policyone = 'Arrangement fee (included in your price)';
+export const twenty = '£20';
+export const policytwo = "Cancelling within 14 days of your policy's start date - there's no cancellation fee, but the £20 arrangement fee is non-refundable";
+export const zero = '£0';
+export const policythree = "Cancelling 14 days or more after your policy's start date. Any fees incurred during your policy will also be charged and the £20 arrangement fee (which was included in your price) will not be refunded";
+export const fourtyfive = '£45';
+export const policyfour = 'Changes to your policy (such as updating your address or changing your vehicle)';
+export const policyfive = 'Changes to your policy that we need to make (due to information not being sent when we ask for it or the wrong information being provided)';
+export const thirty = '£30';
+export const policysix = 'Missing a Direct Debit payment';
+export const twelve = '£12';
+export const seeall = 'See all fees';
+export const summary = 'Summary';

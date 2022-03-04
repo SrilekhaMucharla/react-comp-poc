@@ -1,0 +1,18 @@
+{
+  "name": "gw-build-dependency-analysis",
+  "description": "Provides tools to manage application dependencies",
+  "main": "dependencyAnalysis.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "fast-glob": "^3.0.4",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.21",
+    "normalize-path": "^3.0.0"
+  },
+  "peerDependencies": {
+    "gw-build-config-paths": "11.2.0-db467149eb42",
+    "gw-portals-config-js": "11.2.0-db467149eb42"
+  }
+}

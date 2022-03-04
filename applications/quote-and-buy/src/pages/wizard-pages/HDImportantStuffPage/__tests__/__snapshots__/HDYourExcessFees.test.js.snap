@@ -1,0 +1,495 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDYourExcessFees /> render component 1`] = `
+<HDYourExcessFees
+  accidentalDamage={
+    Array [
+      Object {
+        "compulsoryAmount": 145,
+        "voluntaryAmount": 145,
+      },
+    ]
+  }
+  driverList={
+    Array [
+      Object {
+        "displayName": "test user",
+        "youngAndInExpExcess": 195,
+      },
+    ]
+  }
+  periodStartDate={null}
+  theftDamage={
+    Array [
+      Object {
+        "compulsoryAmount": 145,
+        "excessName": "All drivers",
+        "voluntaryAmount": 145,
+      },
+    ]
+  }
+  windScreenDamage={
+    Array [
+      Object {
+        "compulsoryAmount": 85,
+        "excessName": "All drivers",
+        "voluntaryAmount": 85,
+      },
+    ]
+  }
+>
+  <Row
+    className="your-excess-details-container"
+    noGutters={false}
+  >
+    <div
+      className="your-excess-details-container row"
+    >
+      <Col
+        className="px-md-0"
+      >
+        <div
+          className="px-md-0 col"
+        >
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className=""
+            id="your-excess-details-header-label"
+            text="Your excess"
+          >
+            <h2
+              className=""
+              id="your-excess-details-header-label"
+            >
+              Your excess
+            </h2>
+          </HDLabelRefactor>
+          <p>
+            This is the amount you'll pay if you make a claim. It's made up of two parts - your voluntary amount and your compulsory amount.
+          </p>
+          <HDLabelRefactor
+            Tag="span"
+            adjustImagePosition={true}
+            className="your-excess-details__more-info"
+            icon={
+              <ForwardRef
+                id="your-excess-overlay"
+                onBeforeOpen={null}
+                overlayButtonIcon={
+                  <img
+                    alt="info_circle"
+                    src="Darkicons_desktopinfo.svg"
+                  />
+                }
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Your excess explained",
+                  }
+                }
+                webAnalyticsView={
+                  Object {
+                    "page_section": "Your excess explained",
+                  }
+                }
+              >
+                <HDLabelRefactor
+                  Tag="h4"
+                  adjustImagePosition={true}
+                  className="margin-bottom-md"
+                  text="Your excess explained"
+                />
+                <p>
+                  In simple terms, this is the amount you'll pay if you make a claim. It's made up of two parts - your voluntary amount and your compulsory amount.
+                </p>
+                <p>
+                  If you're a young driver (under 25) or you're new to driving, you'll also have to pay a young and inexperienced driver excess. But don't worry, this will automatically be included in your compulsory excess amount.
+                </p>
+                <p>
+                  Good news though - if your claim is settled as not being your fault you'll usually get your excess payment refunded as part of your settlement amount.
+                </p>
+                <HDLabelRefactor
+                  Tag="h5"
+                  adjustImagePosition={true}
+                  className="mt-4"
+                  text="Voluntary excess"
+                />
+                <p>
+                  You get to choose the amount. Setting a higher voluntary excess usually reduces the price of your policy but you must make sure it's an amount you'd be comfortable paying should you make a claim. And remember, you'll be paying your total excess, so it will be your voluntary amount and your complusory amount added together.
+                </p>
+                <HDLabelRefactor
+                  Tag="h5"
+                  adjustImagePosition={true}
+                  className="mt-4"
+                  text="Compulsory excess"
+                />
+                <p>
+                  This amount is set by your insurer and can't be changed.
+                </p>
+                <HDLabelRefactor
+                  Tag="h5"
+                  adjustImagePosition={true}
+                  className="mt-4"
+                  text="In short..."
+                />
+                <p>
+                  Let's say you have a compulsory excess of £250 and you set your voluntary excess at £150. If you make a claim you'll pay £400 in total. This payment goes towards the cost of your repairs and we'll pay the rest of the repair costs to get you back on the road.
+                </p>
+              </ForwardRef>
+            }
+            iconPosition="r"
+            id="your-excess-details-more-info-label"
+            text="More info"
+          >
+            <Row
+              className="label-with-icon align-items-start your-excess-details__more-info"
+              noGutters={false}
+            >
+              <div
+                className="label-with-icon align-items-start your-excess-details__more-info row"
+              >
+                <Col
+                  className="pr-0"
+                >
+                  <div
+                    className="pr-0 col"
+                  >
+                    <span
+                      className="your-excess-details__more-info"
+                      id="your-excess-details-more-info-label"
+                    >
+                      More info
+                    </span>
+                  </div>
+                </Col>
+                <Col
+                  className="  "
+                  xs="auto"
+                >
+                  <div
+                    className="   col-auto"
+                  >
+                    <ForwardRef
+                      id="your-excess-overlay"
+                      onBeforeOpen={null}
+                      overlayButtonIcon={
+                        <img
+                          alt="info_circle"
+                          src="Darkicons_desktopinfo.svg"
+                        />
+                      }
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Your excess explained",
+                        }
+                      }
+                      webAnalyticsView={
+                        Object {
+                          "page_section": "Your excess explained",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        id="your-excess-overlay"
+                        onBeforeOpen={[Function]}
+                        onBlur={null}
+                        onCancel={null}
+                        onChange={null}
+                        onClick={null}
+                        onConfirm={null}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        overlayButtonIcon={
+                          <img
+                            alt="info_circle"
+                            src="Darkicons_desktopinfo.svg"
+                          />
+                        }
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Your excess explained",
+                          }
+                        }
+                      >
+                        <HDOverlayPopup
+                          cancelButton="Cancel"
+                          className=""
+                          closeOnSelect={false}
+                          confirmButton="Confirm"
+                          customStyle=""
+                          disabledConfirmButton={false}
+                          headerBar={null}
+                          hidden={false}
+                          hideOnConfirm={true}
+                          id="your-excess-overlay"
+                          labelText=""
+                          onBeforeClose={[Function]}
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onConfirm={[Function]}
+                          overlayButtonIcon={
+                            <img
+                              alt="info_circle"
+                              src="Darkicons_desktopinfo.svg"
+                            />
+                          }
+                          overlayButtonsClassName=""
+                          showButtons={false}
+                        >
+                          <div
+                            className="hd-information-tooltip "
+                          >
+                            <div
+                              className="hd-overlay-btn "
+                              hidden={false}
+                              id="your-excess-overlay"
+                              onClick={[Function]}
+                            >
+                              <img
+                                alt="info_circle"
+                                src="Darkicons_desktopinfo.svg"
+                              />
+                            </div>
+                          </div>
+                        </HDOverlayPopup>
+                      </ForwardRef>
+                    </ForwardRef>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </HDLabelRefactor>
+          <HDExcessTable
+            className="your-excess-details__excess-table"
+            excesses={
+              Array [
+                Object {
+                  "compulsoryAmount": 340,
+                  "excessName": "test user",
+                  "voluntaryAmount": 145,
+                },
+              ]
+            }
+            name="Accidental damage"
+            tableColumnOne="Compulsory"
+            tableColumnTwo="Voluntary"
+          >
+            <table
+              className="excess-table your-excess-details__excess-table"
+            >
+              <thead
+                className="excess-table__head"
+              >
+                <tr
+                  className="excess-table__row"
+                >
+                  <th
+                    className="excess-table__row__th excess-table__name"
+                  >
+                    Accidental damage
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__col-1"
+                  >
+                    Compulsory
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__col-2"
+                  >
+                    Voluntary
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__total-header"
+                  >
+                    Total
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                className="excess-table__body"
+              >
+                <tr
+                  className="excess-table__body-row"
+                  key="0"
+                >
+                  <td
+                    className="excess-table__body-row__td excess-table__excess-name"
+                  >
+                    test user
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__compulsory-amount"
+                  >
+                    £340
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__voluntary-amount"
+                  >
+                    £145
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__total-amount"
+                  >
+                    £485
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </HDExcessTable>
+          <HDExcessTable
+            className="your-excess-details__excess-table"
+            excesses={
+              Array [
+                Object {
+                  "compulsoryAmount": 145,
+                  "excessName": "All drivers",
+                  "voluntaryAmount": 145,
+                },
+              ]
+            }
+            name="Fire and theft"
+            tableColumnOne="Compulsory"
+            tableColumnTwo="Voluntary"
+          >
+            <table
+              className="excess-table your-excess-details__excess-table"
+            >
+              <thead
+                className="excess-table__head"
+              >
+                <tr
+                  className="excess-table__row"
+                >
+                  <th
+                    className="excess-table__row__th excess-table__name"
+                  >
+                    Fire and theft
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__col-1"
+                  >
+                    Compulsory
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__col-2"
+                  >
+                    Voluntary
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__total-header"
+                  >
+                    Total
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                className="excess-table__body"
+              >
+                <tr
+                  className="excess-table__body-row"
+                  key="0"
+                >
+                  <td
+                    className="excess-table__body-row__td excess-table__excess-name"
+                  >
+                    All drivers
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__compulsory-amount"
+                  >
+                    £145
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__voluntary-amount"
+                  >
+                    £145
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__total-amount"
+                  >
+                    £290
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </HDExcessTable>
+          <HDExcessTable
+            className="your-excess-details__excess-table"
+            excesses={
+              Array [
+                Object {
+                  "compulsoryAmount": 85,
+                  "excessName": "All drivers",
+                  "voluntaryAmount": 85,
+                },
+              ]
+            }
+            hideTotalColumn={true}
+            name="Windscreen/glass"
+            tableColumnOne="Repair"
+            tableColumnTwo="Replacement"
+          >
+            <table
+              className="excess-table your-excess-details__excess-table"
+            >
+              <thead
+                className="excess-table__head"
+              >
+                <tr
+                  className="excess-table__row"
+                >
+                  <th
+                    className="excess-table__row__th excess-table__name"
+                  >
+                    Windscreen/glass
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__col-1"
+                  >
+                    Repair
+                  </th>
+                  <th
+                    className="excess-table__row__th excess-table__col-2"
+                  >
+                    Replacement
+                  </th>
+                  <th />
+                </tr>
+              </thead>
+              <tbody
+                className="excess-table__body"
+              >
+                <tr
+                  className="excess-table__body-row"
+                  key="0"
+                >
+                  <td
+                    className="excess-table__body-row__td excess-table__excess-name"
+                  >
+                    All drivers
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__compulsory-amount"
+                  >
+                    £85
+                  </td>
+                  <td
+                    className="excess-table__body-row__td excess-table__voluntary-amount"
+                  >
+                    £85
+                  </td>
+                  <td
+                    className="excess-table__body-row__td"
+                  />
+                </tr>
+              </tbody>
+            </table>
+          </HDExcessTable>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</HDYourExcessFees>
+`;

@@ -1,0 +1,371 @@
+// MARGINS
+$xs-value: 5px;
+$tiny-value: 10px;
+$sm-value: 15px;
+$md-value: 20px;
+$lg-value: 30px;
+$lg-bold-value: 35px;
+$xl-value: 45px;
+$xxl-value: 60px;
+
+body {
+    .margin-top-sm {
+        margin-top: $sm-value;
+    }
+
+    .margin-bottom-sm {
+        margin-bottom: $sm-value;
+    }
+
+    .margin-top-tiny {
+        margin-top: $tiny-value;
+    }
+
+    .margin-bottom-tiny {
+        margin-bottom: $tiny-value;
+    }
+
+    .margin-top-md {
+        margin-top: $md-value;
+    }
+
+    .margin-bottom-md {
+        margin-bottom: $md-value;
+    }
+
+    .margin-top-lg {
+        margin-top: $lg-value;
+    }
+
+    .margin-top-lg-bold {
+        margin-top: $lg-bold-value;
+    }
+
+    .margin-top-lg-mobile {
+        @include media-breakpoint-down(sm) {
+            margin-top: $md-value;
+        }
+    }
+    .margin-top-lg-desktop-md-mobile {
+        margin-top: $lg-value;
+        @include media-breakpoint-down(md) {
+            margin-top: $md-value;
+        }
+    }
+
+    .margin-bottom-lg {
+        margin-bottom: $lg-value;
+    }
+
+    .margin-top-xl {
+        margin-top: $xl-value;
+    }
+
+    .margin-bottom-xl {
+        margin-bottom: $xl-value;
+    }
+
+    .margin-top-xxl {
+        margin-top: $xxl-value;
+    }
+
+    .margin-bottom-xxl {
+        margin-bottom: $xxl-value;
+    }
+
+    .margin-top-only-mobile-lg {
+        @include media-breakpoint-down(md) {
+            margin-top: $lg-value;
+        }
+    }
+
+    .margin-bottom-only-mobile-lg {
+        @include media-breakpoint-down(sm) {
+            margin-bottom: $lg-value;
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        .margin-bottom-md-xxl {
+            margin-bottom: $xxl-value;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .margin-top-lg-lg {
+            margin-top: $lg-value;
+        }
+
+        .margin-bottom-lg-lg {
+            margin-bottom: $lg-value;
+        }
+    }
+}
+
+.mt-h2 {
+    margin-top: 15px;
+    @include media-breakpoint-up(md) {
+        margin-top: 27px;
+    }
+}
+
+.mt-h3 {
+    margin-top: 0;
+    @include media-breakpoint-up(lg) {
+        margin-top: 4px;
+    }
+}
+
+//SS: REVIEW AND DO NOT USE 3 BELOW, THEY ARE OVERRIDING BS STYLES
+//TODO: rename to somthing like .margin-top-<size>
+.mt-sm-0 {
+    @include media-breakpoint-down(sm) {
+        margin-top: 0;
+    }
+}
+
+.mt-sm-2 {
+    @include media-breakpoint-down(sm) {
+        margin-top: $md-value;
+    }
+}
+
+.mt-md-0 {
+    @include media-breakpoint-down(md) {
+        margin-top: 0;
+    }
+}
+////////
+
+.clear-child-margins > * {
+    margin: 0 !important;
+}
+
+// PADDINGS
+
+.padding-top-sm {
+    padding-top: $sm-value;
+}
+
+.padding-bottom-sm {
+    padding-bottom: $sm-value;
+}
+
+.padding-top-xl {
+    padding-top: $xl-value;
+}
+
+.padding-bottom-xl {
+    padding-bottom: $xl-value;
+}
+
+.padding-top-xxl {
+    padding-top: $xxl-value;
+}
+
+.padding-bottom-xxl {
+    padding-bottom: $xxl-value;
+}
+
+.padding-right-md-tiny {
+    @include media-breakpoint-up(md) {
+        padding-right: $tiny-value;
+    }
+}
+
+.padding-left-md-tiny {
+    @include media-breakpoint-up(md) {
+        padding-left: $tiny-value;
+    }
+}
+
+.px-mobile-0 {
+    @include media-breakpoint-down(sm) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.px-tab-0 {
+    @include media-breakpoint-down(md) {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+
+.pad-inl-start-beg {
+    padding-inline-start: 20px;
+}
+
+.pad-inl-start-sm {
+    padding-inline-start: 25px;
+}
+
+// USAGE: DOB page
+.pr-xs-all {
+    padding-right: 5px;
+}
+
+.pl-xs-all {
+    padding-left: 5px;
+}
+// USAGE: modal and overlay bottom buttons
+.pr-xs {
+    @include media-breakpoint-up(sm) {
+        padding-right: 4px;
+    }
+}
+
+.pl-xs {
+    @include media-breakpoint-up(sm) {
+        padding-left: 4px;
+    }
+}
+
+.pr-xs-mobile {
+    @include media-breakpoint-down(sm) {
+        padding-right: 4px;
+    }
+}
+
+.pl-xs-mobile {
+    @include media-breakpoint-down(sm) {
+        padding-left: 4px;
+    }
+}
+
+/* Global cass for loader */
+.loader {
+    background: $loader-bg;
+    color: $white-color;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999999999;
+
+    i.fa {
+        font-size: 50px;
+        margin-left: 5px;
+    }
+}
+
+/* GLobal css for calender icon */
+.section {
+    position: relative;
+
+    .hastings-date-control {
+        .hastings-cal-icon {
+            position: absolute;
+            top: 7px;
+            left: 125px;
+        }
+    }
+}
+
+/** POSITIONS **/
+
+.page-margin-between {
+    margin: 20px 0;
+}
+
+hr {
+    display: flex;
+    background: $blue-transparent-30;
+    border: 0 solid;
+    height: 1px;
+    margin: 36px 0;
+}
+
+.hr-mob-small {
+    @include media-breakpoint-down(sm) {
+        margin: 20px 0;
+    }
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    border-radius: 6px;
+    background-color: $blue-transparent-30;
+}
+
+.horizontal-line--bright {
+    @extend .horizontal-line;
+    background-color: $mono-blue-yonder;
+}
+
+.horizontal-line--bright-2 {
+    @extend .horizontal-line;
+    background-color:$blue-transparent-30;
+}
+
+.no-feedback {
+    .invalid-feedback {
+        display: none;
+    }
+}
+
+.text-right-md-up {
+    justify-content: flex-start;
+    @include media-breakpoint-up(md) {
+        justify-content: flex-end;
+        text-align: right;
+    }
+}
+
+/** GRID **/
+/* GAP definitions moved to HDToggleButtonGroup */
+
+.grid--col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--col-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+@include media-breakpoint-up(md) {
+    .grid--col-md-4 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .grid--col-md-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .grid--col-lg-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid--col-lg-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid--col-lg-6 {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@include media-breakpoint-up(xl) {
+    .grid--col-xl-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.width-max-content {
+    width: max-content;
+}
+
+.white-space-md-normal {
+    @include media-breakpoint-up(md) {
+        white-space: normal;
+    }
+}

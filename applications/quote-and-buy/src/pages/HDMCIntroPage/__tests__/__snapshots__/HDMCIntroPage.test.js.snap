@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDMCIntroPage /> render component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDMCIntroPage)>
+    <HDMCIntroPage
+      customizeSubmissionVM={null}
+      setNavigation={[Function]}
+      singleToMultiProductModel={
+        Object {
+          "loading": false,
+          "multiQuoteObj": Object {},
+          "quoteError": null,
+        }
+      }
+      submissionVM={
+        Object {
+          "baseData": Object {
+            "accountHolder": Object {
+              "dateOfBirth": null,
+            },
+            "isExistingCustomer": false,
+            "isPostalDocument": false,
+            "jobType": "Submission",
+            "marketingContacts": Object {
+              "allowEmail": false,
+              "allowPost": false,
+              "allowSMS": false,
+              "allowTelephone": false,
+            },
+            "periodStatus": "Draft",
+            "policyAddress": Object {},
+            "producerCode": "Default",
+            "productCode": "PrivateCar_Ext",
+            "productName": "Private Car",
+            "termType": "Annual",
+          },
+          "lobData": Object {
+            "privateCar": Object {
+              "coverables": Object {
+                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                "drivers": Array [
+                  Object {
+                    "claimsAndConvictions": Object {
+                      "claimsDetailsCollection": Array [],
+                      "convictionsCollection": Array [],
+                    },
+                    "licenceObtainedDate": null,
+                    "person": Object {
+                      "prefix": Object {},
+                    },
+                    "previousPoliciesInformation": Object {},
+                    "residingInUKSince": null,
+                    "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                  },
+                ],
+                "vehicleDrivers": Array [
+                  Object {},
+                ],
+                "vehicles": Array [
+                  Object {
+                    "isCarModified": "",
+                    "ncdProtection": Object {
+                      "drivingExperience": Object {},
+                    },
+                    "tracker": "",
+                    "vehicleModifications": Array [],
+                    "vehicleWorth": "",
+                  },
+                ],
+              },
+              "preQualQuestionSets": Array [],
+            },
+          },
+        }
+      }
+    >
+      <div
+        className="mc-intro-container"
+      >
+        <div
+          className="mc-intro__arc-header arc-header"
+        />
+        <Container
+          className="mc-intro__content-container"
+          fluid={false}
+        >
+          <div
+            className="mc-intro__content-container container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <ForwardRef
+                      className="go-back margin-bottom-md"
+                      id="backNavMain"
+                      label="Go back"
+                      name="go-back"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={null}
+                      onClick={[Function]}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={null}
+                      onFocus={null}
+                      onSelect={null}
+                      variant="default"
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Go back",
+                        }
+                      }
+                    >
+                      <HDButtonRefactor
+                        className="go-back margin-bottom-md"
+                        disabled={false}
+                        fullWidth={false}
+                        id="backNavMain"
+                        label="Go back"
+                        name="go-back"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="default"
+                      >
+                        <Button
+                          active={false}
+                          block={false}
+                          className="hd-btn hd-btn-default go-back margin-bottom-md"
+                          disabled={false}
+                          id="backNavMain"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          size={null}
+                          type="button"
+                          variant="default"
+                        >
+                          <button
+                            className="hd-btn hd-btn-default go-back margin-bottom-md btn btn-default"
+                            disabled={false}
+                            id="backNavMain"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            type="button"
+                          >
+                            <img
+                              alt="Back"
+                              className="back-icon"
+                              src="back-icon.svg"
+                            />
+                            Go back
+                          </button>
+                        </Button>
+                      </HDButtonRefactor>
+                    </ForwardRef>
+                    <HDLabelRefactor
+                      Tag="h1"
+                      adjustImagePosition={true}
+                      className="margin-bottom-tiny"
+                      text="About Multi Car..."
+                    >
+                      <h1
+                        className="margin-bottom-tiny"
+                      >
+                        About Multi Car...
+                      </h1>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="h5"
+                      adjustImagePosition={true}
+                      className="margin-bottom-lg"
+                      text="Here's a quick overview before you start."
+                    >
+                      <h5
+                        className="margin-bottom-lg"
+                      >
+                        Here's a quick overview before you start.
+                      </h5>
+                    </HDLabelRefactor>
+                    <div
+                      className="mc-intro__info-box elevated-box"
+                    >
+                      <div
+                        className="mc-intro__info-box__img-container"
+                      >
+                        <img
+                          alt="Multi Car Img"
+                          className="mc-intro__info-box__img-container__image-mob"
+                          src="rectangle-2830.png"
+                        />
+                        <img
+                          alt="Multi Car Img"
+                          className="mc-intro__info-box__img-container__image-desk"
+                          src="car-info-found-it-bg.png"
+                        />
+                      </div>
+                      <div
+                        className="mc-intro__info-box__points"
+                      >
+                        <ul>
+                          <li>
+                            <HDLabelRefactor
+                              Tag="p"
+                              adjustImagePosition={true}
+                              className="mc-intro__info-box__points__item"
+                              text="You'll get a discount for every car you insure."
+                            >
+                              <p
+                                className="mc-intro__info-box__points__item"
+                              >
+                                You'll get a discount for every car you insure.
+                              </p>
+                            </HDLabelRefactor>
+                          </li>
+                          <li>
+                            <HDLabelRefactor
+                              Tag="p"
+                              adjustImagePosition={true}
+                              className="mc-intro__info-box__points__item"
+                              text="Each car can have a different start date and we'll align them at your renewal next year."
+                            >
+                              <p
+                                className="mc-intro__info-box__points__item"
+                              >
+                                Each car can have a different start date and we'll align them at your renewal next year.
+                              </p>
+                            </HDLabelRefactor>
+                          </li>
+                          <li>
+                            <HDLabelRefactor
+                              Tag="p"
+                              adjustImagePosition={true}
+                              className="mc-intro__info-box__points__item"
+                              text="You can add cars for anyone who lives at your address."
+                            >
+                              <p
+                                className="mc-intro__info-box__points__item"
+                              >
+                                You can add cars for anyone who lives at your address.
+                              </p>
+                            </HDLabelRefactor>
+                          </li>
+                          <li>
+                            <HDLabelRefactor
+                              Tag="p"
+                              adjustImagePosition={true}
+                              className="mc-intro__info-box__points__item"
+                              text="All cars must be DVLA registered at the same address."
+                            >
+                              <p
+                                className="mc-intro__info-box__points__item"
+                              >
+                                All cars must be DVLA registered at the same address.
+                              </p>
+                            </HDLabelRefactor>
+                          </li>
+                          <li>
+                            <HDLabelRefactor
+                              Tag="p"
+                              adjustImagePosition={true}
+                              className="mc-intro__info-box__points__item"
+                              text="You'll be the account holder, so you're responsible for all payments and can manage the policies online."
+                            >
+                              <p
+                                className="mc-intro__info-box__points__item"
+                              >
+                                You'll be the account holder, so you're responsible for all payments and can manage the policies online.
+                              </p>
+                            </HDLabelRefactor>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <Row
+                      className="mc-intro__cta-footer"
+                      noGutters={false}
+                    >
+                      <div
+                        className="mc-intro__cta-footer row"
+                      >
+                        <Col
+                          md={6}
+                          xs={12}
+                        >
+                          <div
+                            className="col-md-6 col-12"
+                          >
+                            <ForwardRef
+                              className="theme-white btn-block mc-intro__cta-footer__mc-btn"
+                              id="mc-intro-continue-with-mc-button"
+                              label="Continue with Multi Car"
+                              onBeforeOpen={null}
+                              onBlur={null}
+                              onCancel={null}
+                              onChange={null}
+                              onClick={[Function]}
+                              onConfirm={null}
+                              onDelete={null}
+                              onEdit={null}
+                              onFocus={null}
+                              onSelect={null}
+                              size="md"
+                              variant="primary"
+                              webAnalyticsEvent={
+                                Object {
+                                  "event_action": "Continue with Multi Car",
+                                }
+                              }
+                            >
+                              <HDButtonRefactor
+                                className="theme-white btn-block mc-intro__cta-footer__mc-btn"
+                                disabled={false}
+                                fullWidth={false}
+                                id="mc-intro-continue-with-mc-button"
+                                label="Continue with Multi Car"
+                                onClick={[Function]}
+                                onKeyPress={null}
+                                size="md"
+                                type="button"
+                                variant="primary"
+                              >
+                                <Button
+                                  active={false}
+                                  block={false}
+                                  className="hd-btn hd-btn-primary theme-white btn-block mc-intro__cta-footer__mc-btn"
+                                  disabled={false}
+                                  id="mc-intro-continue-with-mc-button"
+                                  onClick={[Function]}
+                                  onKeyPress={null}
+                                  size="md"
+                                  type="button"
+                                  variant="primary"
+                                >
+                                  <button
+                                    className="hd-btn hd-btn-primary theme-white btn-block mc-intro__cta-footer__mc-btn btn btn-primary btn-md"
+                                    disabled={false}
+                                    id="mc-intro-continue-with-mc-button"
+                                    onClick={[Function]}
+                                    onKeyPress={null}
+                                    type="button"
+                                  >
+                                    Continue with Multi Car
+                                  </button>
+                                </Button>
+                              </HDButtonRefactor>
+                            </ForwardRef>
+                          </div>
+                        </Col>
+                        <Col
+                          md={6}
+                          xs={12}
+                        >
+                          <div
+                            className="col-md-6 col-12"
+                          >
+                            <ForwardRef
+                              className="theme-white btn-block mc-intro__cta-footer__sc-btn"
+                              id="mc-intro-continue-with-sc-button"
+                              label="Continue with a quote for one car"
+                              onBeforeOpen={null}
+                              onBlur={null}
+                              onCancel={null}
+                              onChange={null}
+                              onClick={[Function]}
+                              onConfirm={null}
+                              onDelete={null}
+                              onEdit={null}
+                              onFocus={null}
+                              onSelect={null}
+                              size="md"
+                              variant="secondary"
+                              webAnalyticsEvent={
+                                Object {
+                                  "event_action": "Continue with a quote for one car",
+                                }
+                              }
+                            >
+                              <HDButtonRefactor
+                                className="theme-white btn-block mc-intro__cta-footer__sc-btn"
+                                disabled={false}
+                                fullWidth={false}
+                                id="mc-intro-continue-with-sc-button"
+                                label="Continue with a quote for one car"
+                                onClick={[Function]}
+                                onKeyPress={null}
+                                size="md"
+                                type="button"
+                                variant="secondary"
+                              >
+                                <Button
+                                  active={false}
+                                  block={false}
+                                  className="hd-btn hd-btn-secondary theme-white btn-block mc-intro__cta-footer__sc-btn"
+                                  disabled={false}
+                                  id="mc-intro-continue-with-sc-button"
+                                  onClick={[Function]}
+                                  onKeyPress={null}
+                                  size="md"
+                                  type="button"
+                                  variant="secondary"
+                                >
+                                  <button
+                                    className="hd-btn hd-btn-secondary theme-white btn-block mc-intro__cta-footer__sc-btn btn btn-secondary btn-md"
+                                    disabled={false}
+                                    id="mc-intro-continue-with-sc-button"
+                                    onClick={[Function]}
+                                    onKeyPress={null}
+                                    type="button"
+                                  >
+                                    Continue with a quote for one car
+                                  </button>
+                                </Button>
+                              </HDButtonRefactor>
+                            </ForwardRef>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </div>
+    </HDMCIntroPage>
+  </Connect(HDMCIntroPage)>
+</Provider>
+`;

@@ -1,0 +1,13 @@
+{
+  "name": "gw-capability-driverlicense",
+  "description": "Provides capability to manage drivers license",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "gw-portals-url-js": "11.2.0-db467149eb42",
+    "gw-portals-document-js": "11.2.0-db467149eb42"
+  }
+}

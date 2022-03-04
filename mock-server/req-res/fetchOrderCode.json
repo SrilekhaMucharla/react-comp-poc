@@ -1,0 +1,138 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/unauthenticated/edgev10/payment/payment",
+    "headers": {
+      "cookie": [
+        "_ga=GA1.1.1819875978.1616074694; _gid=GA1.1.665141834.1616074694; whoson=587-1616074744615; JSESSIONID=0000Mg24ynPe39TzGV7czI1O_NW:-1; utag_main=v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
+      ],
+      "accept-encoding": [
+        "gzip, deflate, br"
+      ],
+      "referer": [
+        "http://localhost:3000/quote-and-buy/customize-quote-wizard"
+      ],
+      "sec-fetch-dest": [
+        "empty"
+      ],
+      "sec-fetch-mode": [
+        "cors"
+      ],
+      "sec-fetch-site": [
+        "same-origin"
+      ],
+      "origin": [
+        "http://localhost:3000"
+      ],
+      "content-type": [
+        "application/json; charset=utf-8"
+      ],
+      "user-agent": [
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+      ],
+      "sec-ch-ua-mobile": [
+        "?0"
+      ],
+      "accept-language": [
+        "null"
+      ],
+      "accept": [
+        "application/json"
+      ],
+      "sec-ch-ua": [
+        "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+      ],
+      "content-length": [
+        "912"
+      ],
+      "connection": [
+        "close"
+      ],
+      "host": [
+        "localhost:3000"
+      ]
+    },
+    "cookies": {
+      "JSESSIONID": "0000Mg24ynPe39TzGV7czI1O_NW:-1",
+      "_ga": "GA1.1.1819875978.1616074694",
+      "_gid": "GA1.1.665141834.1616074694",
+      "utag_main": "v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session",
+      "whoson": "587-1616074744615"
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "jsonrpc": "2.0",
+      "method": "fetchOrderCode",
+      "params": [
+        {
+          "sessionUUID": "afbd8494-374b-4112-b152-d88eb7febfcc",
+          "quoteId": "0000009658",
+          "merchantCode": "HASGWWEBDC",
+          "transactionType": "newcardpayment",
+          "payerInfo": {
+            "emailAddress1": "john@doe.com",
+            "publicID": "csdt2:19108",
+            "displayName": "John Doe",
+            "subtype": "Person",
+            "primaryAddress": {
+              "linkedID": "None",
+              "publicID": "csdt2:31791",
+              "displayName": "Flat 2 Porton House, Birmingham Road, STRATFORD-UPON-AVON, CV370AQ",
+              "addressLine1": "Flat 2 Porton House",
+              "addressLine2": "Birmingham Road",
+              "city": "STRATFORD-UPON-AVON",
+              "county": "Warwickshire",
+              "postalCode": "CV370AQ",
+              "country": "GB",
+              "addressType": "home"
+            },
+            "additionalAddresses": [],
+            "accountHolder": true,
+            "cellNumber": "1133333333",
+            "dateOfBirth": {
+              "year": 1999,
+              "month": 0,
+              "day": 1
+            },
+            "gender": "M",
+            "firstName": "John",
+            "lastName": "Doe",
+            "prefix": "003_Mr",
+            "licenseState": "GB",
+            "maritalStatus": "S"
+          },
+          "paymentAmount": {
+            "amount": 659.51,
+            "currency": "gbp"
+          }
+        }
+      ]
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Date": [
+        "Fri, 19 Mar 2021 11:40:08 GMT"
+      ],
+      "content-length": [
+        "49"
+      ]
+    },
+    "body": {
+      "result": "csdt2_210319_0000468",
+      "jsonrpc": "2.0"
+    }
+  }
+}

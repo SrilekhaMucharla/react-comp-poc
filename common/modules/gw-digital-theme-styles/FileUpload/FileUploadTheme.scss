@@ -1,0 +1,76 @@
+.digitalFileUploadWrapper {
+    --fileUploadField-border: 1px dashed var(--gw-lime-green);
+    display: flex;
+    padding: 0;
+
+    button {
+        --button-hover-bg-color: unset;
+        --button-hover-box-shadow: unset;
+        --button-focus-bg-color: unset;
+        --button-focus-box-shadow: unset;
+        --button-active-bg-color: unset;
+        --button-active-box-shadow: unset;
+        --fileUploadField-padding: 20px;
+        width: 100%;
+        padding: var(--fileUploadField-padding);
+        height: auto;
+
+        i {
+            --fileUpload-icon-line-height: 1;
+            font-size: var(--font-l);
+            padding: 10px;
+            border-radius: 50%;
+            border: .067rem solid var(--gw-lime-green);
+            line-height: var(--fileUpload-icon-line-height);
+        }
+        span {
+            font-size: var(--font-m);
+            color: var(--gw-blue-light-8);
+            font-weight: var(--font-weight-medium);
+        }
+    }
+}
+
+.digitalFileUploadValueText {
+    display: none;
+}
+
+.buttonFileUpload .digitalFileUploadWrapper {
+    --fileUploadField-border: unset;
+    --fileUploadField-background-color: none;
+
+    // CUSTOM VARIABLES
+    --gw-button-min-width: 152px;
+
+    // CUSTOM STYLES
+    min-width: var(--gw-button-min-width);
+    border: none;
+
+    button {
+        --button-bg-color: var(--gw-lime-green);
+        --button-hover-bg-color: var(--GW-COLOR-BRAND-1-HOVER);
+        --button-hover-color: var(--gw-white);
+        --button-active-bg-color: var(--gw-lime-green);
+        --button-active-color: var(--gw-white);
+        --button-focus-bg-color: var(--gw-lime-green);
+        --button-focus-color: var(--gw-white);
+        width: unset;
+        color: var(--gw-white);
+        padding: 0 var(--fileUploadField-padding);
+
+        i {
+            font-size: var(--font-l);
+            padding: 10px;
+            border-radius: 50%;
+            border: none;
+
+            &::before {
+                content: var(--icon-font-awesome-plus);
+            }
+        }
+        span {
+            color: var(--gw-white);
+            font-size: var(--font-ml);
+        }
+    }
+}

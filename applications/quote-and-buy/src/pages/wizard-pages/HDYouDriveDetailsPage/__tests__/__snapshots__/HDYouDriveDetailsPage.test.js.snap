@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDYouDriveDetailsPage /> render component 1`] = `
+<Row
+  className="you-drive-cover-details"
+  noGutters={false}
+>
+  <Col>
+    <Row
+      className="you-drive-cover-details__container text-left"
+      noGutters={false}
+    >
+      <Col
+        className="you-drive-cover-details__benefits-messages"
+      >
+        <Row
+          className="you-drive-cover-details__benefits-header mb-3"
+          noGutters={false}
+        >
+          <Col>
+            <HDLabelRefactor
+              Tag="h5"
+              adjustImagePosition={true}
+              className="you-drive-cover-details__benefits-header-label"
+              size="md"
+              text="Why YouDrive is different"
+            />
+          </Col>
+          <Col
+            className="text-left px-0 col-2"
+          >
+            <HDYouDriveOverlay />
+          </Col>
+        </Row>
+        <Row
+          noGutters={false}
+        >
+          <Col>
+            <HDLabelRefactor
+              Tag="p"
+              adjustImagePosition={true}
+              className="you-drive-cover-details__benefits-header-info"
+              text="Get a lower price from day one by easily sharing your driving data through our app and tab technology"
+            />
+          </Col>
+        </Row>
+        <Row
+          noGutters={false}
+        >
+          <Col>
+            <HDLabelRefactor
+              Tag="h5"
+              adjustImagePosition={true}
+              className=""
+              icon={
+                <img
+                  alt="tick"
+                  src="tick-icon.svg"
+                />
+              }
+              iconPosition="l"
+              text="Simple"
+            />
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash mb-1"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message mb-1"
+                  text="60 second set-up"
+                />
+              </Col>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash mb-1"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message mb-1"
+                  text="Works automatically"
+                />
+              </Col>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message"
+                  text="No time of day penalties"
+                />
+              </Col>
+            </Row>
+            <HDLabelRefactor
+              Tag="h5"
+              adjustImagePosition={true}
+              className=""
+              icon={
+                <img
+                  alt="tick"
+                  src="tick-icon.svg"
+                />
+              }
+              iconPosition="l"
+              size="md"
+              text="Great value"
+            />
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash mb-1"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message mb-1"
+                  text="Great price today"
+                />
+              </Col>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message"
+                  text="Ongoing low prices for good drivers"
+                />
+              </Col>
+            </Row>
+            <HDLabelRefactor
+              Tag="h5"
+              adjustImagePosition={true}
+              className=""
+              icon={
+                <img
+                  alt="tick"
+                  src="tick-icon.svg"
+                />
+              }
+              iconPosition="l"
+              size="md"
+              text="You're in control"
+            />
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash mb-1"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message mb-1"
+                  text="See the data we see"
+                />
+              </Col>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash mb-1"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message mb-1"
+                  text="Manage your policy in the app"
+                />
+              </Col>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <Col
+                className="you-drive-cover-details__benefits-list-point"
+              >
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-dash mb-1"
+                  text="-"
+                />
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className="you-drive-cover-details__benefits-message mb-1"
+                  text="Helps protect against fraudulent claims"
+                />
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </Col>
+      <Col
+        className="you-drive-cover-details__image px-0"
+      >
+        <div
+          className="you-drive-cover-details__control-mask"
+        >
+          <img
+            alt=""
+            className="you-drive-cover-details__image-desktop"
+            src="static-youdrive-phone-sea-001.jpg"
+          />
+        </div>
+      </Col>
+    </Row>
+    <Row
+      className="you-drive-cover-details__control-benefits"
+      noGutters={false}
+    >
+      <Col>
+        <Row
+          className="mt-5"
+          noGutters={false}
+        >
+          <Col
+            className="text-center"
+          >
+            <HDLabelRefactor
+              Tag="h5"
+              adjustImagePosition={true}
+              className="you-drive-cover-details__control-header"
+              text="You’re in control"
+            />
+          </Col>
+        </Row>
+        <Row
+          className="mb-5"
+          noGutters={false}
+        >
+          <Col
+            className="text-center"
+          >
+            <HDLabelRefactor
+              Tag="p"
+              adjustImagePosition={true}
+              className="you-drive-cover-detail__benefits-subheader"
+              text="You can start driving straight away. Then, when your tab arrives, here's what to do..."
+            />
+          </Col>
+        </Row>
+        <Row
+          className="d-block d-md-flex"
+          noGutters={false}
+        >
+          <Col
+            className="you-drive-cover-details__control-app"
+          >
+            <Row
+              className="you-drive-cover-details__control-steps-image"
+              noGutters={false}
+            >
+              <Col
+                className="text-center"
+              >
+                <img
+                  alt=""
+                  className="you-drive-cover-details__control-app-image"
+                  src="static-youdrive-journey-phone-001.png"
+                />
+              </Col>
+            </Row>
+            <Row
+              className="you-drive-cover-details__control-app-header justify-content-center justify-content-md-start"
+              noGutters={false}
+            >
+              <Col
+                className="col-1 col-md-2"
+              >
+                <img
+                  alt=""
+                  className="you-drive-cover-details__control-number-image"
+                  src="circle-number-1.svg"
+                />
+              </Col>
+              <Col
+                className="col-5 col-md-10"
+              >
+                <HDLabelRefactor
+                  Tag="h5"
+                  adjustImagePosition={true}
+                  className="text-left"
+                  text="Download the app"
+                />
+              </Col>
+            </Row>
+            <Row
+              className="you-drive-cover-details__control-app-message steps-message mt-2"
+              noGutters={false}
+            >
+              <Col>
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className=""
+                  text="Download the Hastings Direct app to your smartphone. It only uses a small amount of battery and you can save data by using wi-fi only sharing."
+                />
+              </Col>
+            </Row>
+          </Col>
+          <Col
+            className="you-drive-cover-details__control-you-drive-key"
+          >
+            <Row
+              className="you-drive-cover-details__control-steps-image"
+              noGutters={false}
+            >
+              <Col
+                className="text-center"
+              >
+                <img
+                  alt=""
+                  className="you-drive-cover-details__control-key-image"
+                  src="static-youdrive-tab-keyfob-001.png"
+                />
+              </Col>
+            </Row>
+            <Row
+              className="you-drive-cover-details__control-key-header justify-content-center justify-content-md-start"
+              noGutters={false}
+            >
+              <Col
+                className="col-1 col-md-2"
+              >
+                <img
+                  alt=""
+                  className="you-drive-cover-details__control-number-image"
+                  src="circle-number-2.svg"
+                />
+              </Col>
+              <Col
+                className="col-5 col-md-10"
+              >
+                <HDLabelRefactor
+                  Tag="h5"
+                  adjustImagePosition={true}
+                  className="text-left"
+                  text="Set up wireless tab"
+                />
+              </Col>
+            </Row>
+            <Row
+              className="you-drive-cover-details__control-key-message steps-message mt-2"
+              noGutters={false}
+            >
+              <Col>
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className=""
+                  text="Your tab will be posted to your home address. When it arrives (it's about the same size as your keyfob), pop it in your car and pair it with your smartphone."
+                />
+              </Col>
+            </Row>
+          </Col>
+          <Col
+            className="you-drive-cover-details__control-you-drive-car"
+          >
+            <Row
+              className="you-drive-cover-details__control-steps-image"
+              noGutters={false}
+            >
+              <Col
+                className="text-center"
+              >
+                <img
+                  alt=""
+                  className="you-drive-cover-details__control-car-image"
+                  src="static-red-car-001.png"
+                />
+              </Col>
+            </Row>
+            <Row
+              className="you-drive-cover-details__control-car-header justify-content-center justify-content-md-start"
+              noGutters={false}
+            >
+              <Col
+                className="col-1 col-md-2"
+              >
+                <img
+                  alt=""
+                  className="you-drive-cover-details__control-number-image"
+                  src="circle-number-3.svg"
+                />
+              </Col>
+              <Col
+                className="col-4 col-md-10"
+              >
+                <HDLabelRefactor
+                  Tag="h5"
+                  adjustImagePosition={true}
+                  className="text-left"
+                  text="Drive"
+                />
+              </Col>
+            </Row>
+            <Row
+              className="you-drive-cover-details__control-car-message steps-message mt-2"
+              noGutters={false}
+            >
+              <Col>
+                <HDLabelRefactor
+                  Tag="p"
+                  adjustImagePosition={true}
+                  className=""
+                  text="You'll see exactly how you're doing in the Hastings Direct app, with the tab picking up things like speeding and using your phone while driving."
+                />
+              </Col>
+            </Row>
+          </Col>
+        </Row>
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;

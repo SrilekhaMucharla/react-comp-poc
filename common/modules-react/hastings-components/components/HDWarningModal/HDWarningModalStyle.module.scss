@@ -1,0 +1,134 @@
+//TODO: sort out vars
+// refactor jsx
+$modal-font-family-arial: Arial;
+$modal-title-font-weight: 700;
+$modal-font-style-normal: normal;
+$modal-title-font-size: 20px;
+$modal-title-line-height: 23px;
+$modal-title-color:#000000;
+$modal-dialog-width-lg: 508px;
+$modal-dialog-width-sm: 320px;
+$modal-dialog-border-radius: 10px;
+$modal-dialog-row-gap-sm: 14px;
+$modal-dialog-row-gap-lg: 16px;
+$modal-display-flex: flex;
+$modal-btn-width: 130px;
+$modal-btn-height:50px;
+$modal-btn-font-family: Helvetica Neue;
+$modal-btn-font-weight-bold: bold;
+$modal-btn-font-size: $font-size-md;
+$modal-btn-line-height: 20px;
+$modal-text-align-center: center;
+$modal-btn-border-radius: 6px;
+$modal-padding-none: 0;
+
+
+div.hastings-modal-dialog {
+    @include media-breakpoint-between(xs, sm) {
+        width: $modal-dialog-width-sm;
+    }
+    @include media-breakpoint-between(md, xl) {
+        width: $modal-dialog-width-lg;
+    }
+    max-width: none !important;
+}
+
+:global(#hd-modal-dialog) {
+    :global(.modal-content) {
+        border: 1px solid $gray-light-1;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: $modal-dialog-border-radius;
+        @include media-breakpoint-between(xs, sm) {
+            row-gap: $modal-dialog-row-gap-sm;
+        }
+        @include media-breakpoint-between(md, xl) {
+            row-gap: $modal-dialog-row-gap-lg;
+        }
+    }
+}
+
+div.hastings-modal-header {
+    display: $modal-display-flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 63px;
+    margin-left: 27px;
+    margin-top: 29px;
+}
+
+div.hastings-modal-title {
+    font-family: $modal-font-family-arial;
+    font-weight: $modal-title-font-weight;
+    font-style: $modal-font-style-normal;
+    font-size: $modal-title-font-size;
+    line-height: $modal-title-line-height;
+    color: $modal-title-color;
+    margin-bottom: 0;
+}
+
+div.hastings-modal-body {
+    display: $modal-display-flex;
+    font-family: $modal-font-family-arial;
+    font-style: $modal-font-style-normal;
+    color: $black-color;
+    font-size: $font-size-md;
+    font-weight: normal;
+    line-height: 18.4px;
+    margin-left: 27px;
+    margin-right: 17px;
+}
+
+div.hastings-modal-body > p  {
+    margin-bottom: 18.4px;
+}
+
+div.hastings-modal-footer {
+    display: $modal-display-flex;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom:26px;
+    margin-top:18px;
+    @include media-breakpoint-between(xs, sm) {
+        margin-right:17px;
+    }
+    @include media-breakpoint-between(md, xl) {
+        margin-right:29px;
+    }
+    margin-right:29px;
+}
+
+div.hastings-modal-btn-leave {
+    width:  $modal-btn-width;
+    height: $modal-btn-height;
+    padding:$modal-padding-none;
+    font-family: $modal-btn-font-family;
+    font-style: $modal-font-style-normal;
+    font-weight: $modal-btn-font-weight-bold;
+    font-size: $modal-btn-font-size;
+    line-height: $modal-btn-line-height;
+    text-align: $modal-text-align-center;
+    color: $white-color;
+    border-radius: $modal-btn-border-radius;
+
+}
+
+div.hastings-modal-btn-back {
+    background-color: $white-fill;
+    width: $modal-btn-width;
+    height: $modal-btn-height;
+    padding:$modal-padding-none;
+    font-family: $modal-btn-font-family;
+    font-style: $modal-font-style-normal;
+    font-weight: $modal-btn-font-weight-bold;
+    font-size: $modal-btn-font-size;
+    line-height: $modal-btn-line-height;
+    text-align: $modal-text-align-center;
+    color: $black-color;
+    border-radius: $modal-btn-border-radius;
+    margin-right:21px;
+    border: 1px solid #404040;
+}
+
+

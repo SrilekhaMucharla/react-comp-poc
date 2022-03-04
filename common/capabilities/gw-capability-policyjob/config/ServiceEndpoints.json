@@ -1,0 +1,7 @@
+[
+    {
+        "server": "pc",
+        "serviceName": "policydiff",
+        "service": "policydiff/policydiff"
+    }
+]

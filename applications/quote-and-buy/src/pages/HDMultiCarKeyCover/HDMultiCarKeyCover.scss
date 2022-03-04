@@ -1,0 +1,234 @@
+@import '../..//theme/theme.scss';
+
+.key-cover-mc {
+  text-align: left;
+  padding: 8% 0 8% 0;
+  .quote-table-row{ 
+    &:nth-child(1) {
+        background: none !important;
+    }
+  }
+
+  @media (max-width: 440px) {
+    padding: 15% 0 4% 0;
+  }
+  @media(min-width: 767px) {
+    margin-left: 33%;
+    margin-right: 33%;
+  }
+
+  .mobile-padding {
+    @media (max-width: 440px) {
+      padding: 20px;
+    }
+    .select-key-cover {
+        .btn{
+            color: #212529;
+            background-color: #fff;
+          }
+    }
+  }
+
+  .key-cover-table {
+    .table-header-value {
+      @media (max-width: 440px) {
+        padding: 0 20%;
+      }
+    }
+  }
+
+  .key-cover-prefix {
+    color: $infoColor;
+    line-height: 40.8px;
+    font-family: TTNormsPro-Regular;
+    letter-spacing: -1.7px;
+  }
+
+  .key-cover-title {
+    line-height: 40.8px;
+    font-family: TTNormsPro-Bold;
+    color: $appTheme;
+  }
+
+  .key-cover-subtitle {
+    margin-top: 22px;
+    margin-bottom: 32px;
+    font-weight: bold;
+    font-size: 26px;
+    color: $ancillaryFontColor;
+    line-height: 31.2px;
+    font-family: TTNormsPro-Bold;
+
+    @media (max-width: 440px) {
+      margin-top: 15px;
+      margin-bottom: 22px;
+      font-size: 18px;
+    }
+  }
+
+  .key-cover-paragraph {
+    font-size: 16px;
+    margin-bottom: 43px;
+    color: $ancillaryFontColor;
+    line-height: 24px;
+    font-family: TTNormsPro;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+
+    @media (max-width: 440px) {
+      margin-bottom: 22px;
+    }
+  }
+
+  .key-cover-details {
+    margin: 15px 0px 24px 0;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: TTNormsPro;
+
+    p {
+      color: $ancillaryFontColor;
+      text-align: left;
+    }
+  }
+
+  .key-cover-text span {
+    font-size: 34px;
+
+    @media (max-width: 440px) {
+      display: flex;
+      font-size: 25px;
+      line-height: 1.2;
+    }
+  }
+
+  .download-link-text {
+    font-family: TTNormsPro;
+  }
+
+  .key-cover-question {
+    font-size: 34px;
+    line-height: 40.8px;
+    font-family: TTNormsPro-Bold;
+    color: $appTheme;
+    text-align: left;
+
+    @media (max-width: 440px) {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .key-cover-icon {
+    font-size: 34px;
+    background-color: $commonCompoTextColorBlueLight;
+    color: $commonCompoBGColorWhite;
+    padding: 8px;
+    border-radius: 100%;
+  }
+
+  .key-icon {
+    width: 30px;
+    height: 30px;
+    background-color: $linkColor;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../../assets/images/wizard-images/hastings-icons/icons/Key.svg);
+    padding: 30px;
+    border-radius: 50%;
+  }
+
+  .key-cover-card {
+    display: flex;
+    border-radius: 6px;
+    padding: 12px;
+
+    .key-cover-paragraph {
+      font-size: 16px;
+      margin-bottom: 0;
+      text-align: left;
+      line-height: 24px;
+      font-family: TTNormsPro;
+      ;
+    }
+
+    .key-cover-icon {
+      width: 10px;
+      height: 10px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 12px;
+      border-radius: 50%;
+      margin-right: 12px;
+    }
+  }
+
+  .key-cover-info-card {
+    background-color: #0e838a26;
+    margin: 25px 0;
+
+    .key-cover-info-icon {
+      background-color:$customizeQuoteBtnColor;
+      background-image: url(../../assets/images/wizard-images/hastings-icons/icons/Exclamation.svg);
+    }
+  }
+
+  .key-cover-message-card {
+    background-color: #a73a951a;
+
+    .key-cover-message-icon {
+      background-color: $customizeQuoteMessageIconColor;
+      background-image: url(../../assets/images/wizard-images/hastings-icons/icons/Lightbulb.svg);
+    }
+  }
+
+  div.btn-group-toggle {
+    @media (max-width: 460px) {
+      display: flex;
+      width: 100%;
+    }
+
+    .btn {
+      width: 189px;
+      height: 60px;
+      border-radius: 6px;
+      border: 1px solid #C3CDDC;
+
+      @media (max-width: 768px) {
+        width: 158px;
+      }
+    }
+  }
+
+  .quote-table-body {
+    .quote-table-data {
+      font-family: TTNormsPro;
+    }
+
+    :nth-child(n+2) {
+      p {
+        line-height: 14.4px !important;
+
+      }
+    }
+
+    :nth-child(1),
+    :nth-child(2) {
+      p {
+        line-height: 19.2px !important;
+        font-family: TTNormsPro;
+        font-weight: bold;
+      }
+    }
+  }
+  .substitute-navigation {
+    margin-bottom: 5%;
+    text-align: left;
+  }
+}

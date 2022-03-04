@@ -1,0 +1,17 @@
+[
+  {
+    "server": "pc",
+    "serviceName": "quote",
+    "service": "quote/quote"
+  },
+  {
+    "server": "pc",
+    "serviceName": "customquote",
+    "service": "quote/customquote"
+  },
+  {
+    "server": "pc",
+    "serviceName": "slquote",
+    "service": "quote/slquote"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "name": "hastings-capability-validation",
+  "description": "Provides capability to validate things",
+  "main": "index.js",
+  "version": "1.0.0",
+  "author": "Hastings",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "lodash": "^4.17.21",
+    "dayjs": "^1.10.5",
+    "gw-portals-transport-js": "11.2.0-db467149eb42",
+    "gw-portals-url-js": "11.2.0-db467149eb42"
+  }
+}

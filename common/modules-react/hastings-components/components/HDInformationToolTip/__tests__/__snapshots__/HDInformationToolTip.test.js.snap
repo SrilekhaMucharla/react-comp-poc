@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDInformationToolTip /> render information tooltip 1`] = `
+<div
+  className="hd-information-tooltip"
+>
+  <button
+    className="hd-tooltip"
+    hidden={false}
+    onClick={[Function]}
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-info-circle"
+    />
+  </button>
+</div>
+`;

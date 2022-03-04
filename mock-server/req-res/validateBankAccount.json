@@ -1,0 +1,104 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/unauthenticated/edgev10/validation/validate",
+    "headers": {
+      "cookie": [
+        "_ga=GA1.1.1819875978.1616074694; _gid=GA1.1.665141834.1616074694; whoson=587-1616074744615; JSESSIONID=0000Mg24ynPe39TzGV7czI1O_NW:-1; utag_main=v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
+      ],
+      "accept-encoding": [
+        "gzip, deflate, br"
+      ],
+      "referer": [
+        "http://localhost:3000/quote-and-buy/customize-quote-wizard"
+      ],
+      "sec-fetch-dest": [
+        "empty"
+      ],
+      "sec-fetch-mode": [
+        "cors"
+      ],
+      "sec-fetch-site": [
+        "same-origin"
+      ],
+      "origin": [
+        "http://localhost:3000"
+      ],
+      "content-type": [
+        "application/json; charset=utf-8"
+      ],
+      "user-agent": [
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+      ],
+      "sec-ch-ua-mobile": [
+        "?0"
+      ],
+      "accept-language": [
+        "null"
+      ],
+      "accept": [
+        "application/json"
+      ],
+      "sec-ch-ua": [
+        "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+      ],
+      "content-length": [
+        "184"
+      ],
+      "connection": [
+        "close"
+      ],
+      "host": [
+        "localhost:3000"
+      ]
+    },
+    "cookies": {
+      "JSESSIONID": "0000Mg24ynPe39TzGV7czI1O_NW:-1",
+      "_ga": "GA1.1.1819875978.1616074694",
+      "_gid": "GA1.1.665141834.1616074694",
+      "utag_main": "v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session",
+      "whoson": "587-1616074744615"
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "jsonrpc": "2.0",
+      "method": "validateBankAccount",
+      "params": [
+        {
+          "accountNumber": "55743513",
+          "sortCode": "112235",
+          "sessionUUID": "5a062ae2-f67b-4947-a7d8-578c3961ffc5",
+          "quoteID": "0000009635"
+        }
+      ]
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Date": [
+        "Fri, 19 Mar 2021 09:38:09 GMT"
+      ],
+      "content-length": [
+        "44"
+      ]
+    },
+    "body": {
+      "result": {
+        "isValid": true
+      },
+      "jsonrpc": "2.0"
+    }
+  }
+}

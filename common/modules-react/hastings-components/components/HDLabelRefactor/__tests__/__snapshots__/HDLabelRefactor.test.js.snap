@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDLabelRefactor /> render component with text and icon on left 1`] = `
+<HDLabelRefactor
+  Tag="h1"
+  adjustImagePosition={true}
+  className=""
+  icon="car"
+  id="Random-ID"
+  text="Random label"
+>
+  <h1
+    className=""
+    id="Random-ID"
+  >
+    Random label
+    car
+  </h1>
+</HDLabelRefactor>
+`;
+
+exports[`<HDLabelRefactor /> render component with text and icon on right 1`] = `
+<HDLabelRefactor
+  Tag="h1"
+  adjustImagePosition={true}
+  className=""
+  icon="car"
+  iconPosition="r"
+  id="Random-ID"
+  text="Random label"
+>
+  <Row
+    className="label-with-icon align-items-start "
+    noGutters={false}
+  >
+    <div
+      className="label-with-icon align-items-start  row"
+    >
+      <Col
+        className="pr-0"
+      >
+        <div
+          className="pr-0 col"
+        >
+          <h1
+            className=""
+            id="Random-ID"
+          >
+            Random label
+          </h1>
+        </div>
+      </Col>
+      <Col
+        className="  "
+        xs="auto"
+      >
+        <div
+          className="   col-auto"
+        >
+          car
+        </div>
+      </Col>
+    </div>
+  </Row>
+</HDLabelRefactor>
+`;
+
+exports[`<HDLabelRefactor /> render component with text only 1`] = `
+<HDLabelRefactor
+  Tag="h1"
+  adjustImagePosition={true}
+  className=""
+  id="Random-ID"
+  text="Random label"
+>
+  <h1
+    className=""
+    id="Random-ID"
+  >
+    Random label
+  </h1>
+</HDLabelRefactor>
+`;
+
+exports[`<HDLabelRefactor /> render component with text only 2`] = `
+<HDLabelRefactor
+  Tag="h1"
+  adjustImagePosition={true}
+  className=""
+  id="Random-ID"
+  size="xs"
+  text="Random label"
+>
+  <h1
+    className=""
+    id="Random-ID"
+    size="xs"
+  >
+    Random label
+  </h1>
+</HDLabelRefactor>
+`;

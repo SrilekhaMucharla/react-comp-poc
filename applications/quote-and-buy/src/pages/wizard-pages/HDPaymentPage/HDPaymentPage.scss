@@ -1,0 +1,196 @@
+.payment-page {
+  max-width: fit-content;
+  @include media-breakpoint-up(lg) {
+    background-color: $gray-light-8;
+  }
+
+  &.container-fluid {
+    @include media-breakpoint-up(sm) {
+      background-color: $gray-light-8;
+    }
+  }
+
+  @include media-breakpoint-down(sm) {
+    box-shadow: $secondary-shadow;
+    margin-bottom: 90px;
+  }
+
+  @include media-breakpoint-down(xs) {
+    .container {
+      padding : 0;
+    }
+  }
+
+  .arc-header {
+    height: 180px;
+    @include media-breakpoint-up(lg) {
+      height: 350px;
+    }
+  }
+
+  .payment-page__page-content {
+    margin-top: 20px;
+    @include media-breakpoint-up(sm) {
+      margin-top: 125px;
+      margin-bottom: 50px;
+    }@include media-breakpoint-up(md) {
+      margin-top: 45px;
+    }
+
+     
+    &--info {
+      @include media-breakpoint-down(sm) {
+        background-color: $white-fill;
+        box-shadow: $secondary-shadow;
+      }
+    }
+
+    &--pay {
+      @include media-breakpoint-down(sm) {
+        background-color: $white-fill;
+        margin-top: 30px;
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  .container {
+    @include media-breakpoint-down(sm) {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+}
+
+.payment-page__main-header {
+  max-width: 80%;
+  color: $white-fill;
+  line-height: 38.4px;
+  margin: 25px 0;
+  @include media-breakpoint-up(lg) {
+    position: relative;
+    text-align: left;
+  }
+}
+.payment-page__amount {
+  color: $blue-color;
+}
+
+payment-page__worldpay-container-wrapper {
+  @include media-breakpoint-up(md) {
+    padding-right: 25px;
+  }
+}
+
+.payment-page__worldpay-container {
+  background-color: $white-fill;
+  width: 100%;
+  padding: 0;
+  color: $app-theme;
+  border-radius: 7px;
+  margin-top: 30px;
+
+  @include media-breakpoint-up(sm) {
+    box-shadow: $secondary-shadow;
+    padding: 30px;
+  }
+  @include media-breakpoint-up(md) {
+    margin-top: 0;
+  }
+}
+
+.payment-page__label {
+  font-size: $font-size-sm;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 1.25em;
+
+  div {
+    margin: 0.25em 0;
+  }
+}
+
+.payment-page__error-box {
+  padding: 20px 25px;
+  background-color: $error-color;
+  border-radius: 6px;
+  margin-bottom: 1.25em;
+
+  span {
+    line-height: 24px;
+    color: $white-color;
+  }
+}
+
+.payment-page__worldpay {
+  margin-bottom: 1.25em;
+}
+
+.payment-page__payment-info-container {
+  background-color: $white-fill;
+  color: $app-theme;
+  padding: 35px 0 25px 0;
+  text-align: left;
+  border-radius: 7px;
+  @include media-breakpoint-up(sm) {
+    box-shadow: $secondary-shadow;
+    padding: 35px 40px 25px 40px;
+  }
+}
+
+.payment-page__payment-info {
+  font-weight: bold;
+  text-align: left;
+  line-height: 30px;
+  margin-bottom: 22px;
+  @include media-breakpoint-up(sm) {
+    line-height: 40.8px;
+  }
+}
+
+.payment-page__cpa-label {
+  margin: 22px 0;
+}
+
+.payment-page__cpa-content {
+  margin-bottom: 25px;
+  font-size: $font-size-md;
+  line-height: 24px;
+  text-align: left;
+  @include media-breakpoint-up(sm) {
+    margin-bottom: 30px;
+  }
+}
+
+.payment-page__phone-number {
+  font-weight: 600;
+}
+
+.payment-page__quote-ref {
+  font-weight: 600;
+}
+
+.payment-page__opening-hours {
+  display: flex;
+  margin-bottom: 1.25em;
+
+  div:first-child {
+    flex: 1;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.payment-page__opening-hours-header {
+  line-height: 24px;
+  text-align: left;
+  font-weight: 600;
+  color: $app-theme;
+}
+
+.payment-page__cancel-info-container {
+  background-color: $mono-white;
+  border-radius: 6px;
+}

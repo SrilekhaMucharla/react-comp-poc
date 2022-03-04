@@ -1,0 +1,112 @@
+@import "../../../theme/theme.scss";
+
+.you-drive-cover-details {
+    .steps-message {
+        .label-text {
+            text-align: center;
+        }
+    }
+}
+
+.you-drive-cover-details__control-app-image {
+    height: 130px;
+}
+
+.you-drive-cover-details__control-key-image {
+    padding: 1.5em;
+}
+
+.you-drive-cover-details__control-car-image {
+    padding: 0.6em;
+}
+
+.you-drive-cover-details__container {
+    display: flex;
+    border-bottom: 1px solid $blue-light;
+
+    @include media-breakpoint-down(sm) {
+        flex-direction: column-reverse;
+    }
+}
+
+.you-drive-cover-details__benefits-list {
+    .size-md {
+        color: $blue-dark-3;
+        line-height: 24.3px;
+        font-family: $font-face-generic-regular;
+        font-weight: 600;
+    }
+}
+
+.you-drive-cover-details__benefits-list-point {
+    display: inherit;
+}
+
+.you-drive-cover-details__benefits-list-last-point {
+    padding-bottom: 15px;
+}
+
+.you-drive-cover-details__benefits-messages {
+    padding: 30px 30px 48px;
+    @include media-breakpoint-down(sm) {
+        margin-bottom: -70px;
+        padding: 50px 20px 20px;
+    }
+    @include media-breakpoint-down(md) {
+        padding: 20px;
+    }
+}
+
+.you-drive-cover-details__benefits-header {
+    display: flex;
+    align-items: baseline;
+}
+
+.you-drive-cover-details__benefits-dash {
+    padding-left: 2em;
+}
+
+.you-drive-cover-details__benefits-message {
+    padding-left: 1em;
+}
+
+.you-drive-cover-details__control-mask {
+    text-align: end;
+    &::before {
+        content: "";
+        background-color: $midnight-royal-blue;
+        position: absolute;
+        width: 100%;
+        height: 299px;
+        @include media-breakpoint-up(md) {
+            width: 200px;
+        }
+    }
+}
+.you-drive-cover-details__image-desktop {
+    z-index: 1;
+    width: 100%;
+    clip-path: ellipse(438px 214px at 66.5% 0px);
+    @include media-breakpoint-up(sm) {
+        clip-path: ellipse(495px 286px at 66.5% 0px);
+    }
+    @include media-breakpoint-up(md) {
+        width: auto;
+        clip-path: ellipse(350px 374px at 96% 0);
+        height: 100%;
+    }
+}
+
+.you-drive-cover-detail__benefits-subheader {
+    margin-bottom: 20px;
+}
+
+.you-drive-cover-details__image {
+    clip-path: ellipse(506px 219px at 65% 0);
+    @include media-breakpoint-up(sm) {
+        clip-path: ellipse(594px 290px at 65% 0);
+    }
+    @include media-breakpoint-up(md) {
+        clip-path: ellipse(401px 374px at 100.5% 0px);
+    }
+}

@@ -1,0 +1,256 @@
+@import "utilities/variables.scss";
+@import "utilities/mixins.scss";
+@import "utilities/colors.scss";
+@import "utilities/functions.scss";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "themes/theme.scss";
+
+@import "base/reset.scss";
+@import "base/helpers.scss";
+@import "base/typography.scss";
+@import "base/forms.scss";
+@import "base/animations.scss";
+@import "base/errors.scss";
+
+@import "layout/body.scss";
+@import "layout/header.scss";
+@import "layout/footer.scss";
+
+@import "components/buttons.scss";
+@import "components/boxes.scss";
+
+// Vendor  library overrides
+@import "vendors/bootstrap.scss";
+
+// HD COMPONENTS
+// TODO: Clear duplicates
+@import "../../../../../common/modules-react/hastings-components/components/HDTextInput/HDTextInput.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDButton/HDButton.module.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDTextInputRefactor/HDTextInputRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDAccordionRefactor/HDAccordionRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDButtonRefactor/HDButtonRefactor.module.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDButtonDashed/HDButtonDashed.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDCheckbox/HDCheckbox.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDClickableCard/HDClickableCard.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDInteractiveCardRefactor/HDInteractiveCardRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDCompletedCardInfo/HDCompletedCardInfo.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDCustomerReviews/HDCustomerReviews.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDDataCard/HDDataCard.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDDatePicker/HDDatePicker.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDDatePickerRefactor/HDDatePickerRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDQuoteInfoRefactor/HDQuoteInfoRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDQuoteInfoWarning/HDQuoteInfoWarning.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDDropdownList/HDDropdownList.module.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDAlertRefactor/HDAlertRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDImageRadioButton/HDImageRadioButton.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDInfoCard/HDInfoCard.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDInfoCardRefactor/HDInfoCardRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDInformationToolTip/hd-information-tooltip.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDLabelRefactor/HDLabelRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDModal/HDModal.styles.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDOverlayPopup/hd-overlay-popup.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDPaymentBreakdown/HDPaymentBreakdown.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDPriceTable/HDPriceTable.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDRibbon/HDRibbon.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDSpinner/HDSpinner.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDStepper/HDStepper.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDSwitch/HDSwitch.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDTable/HDTable.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDTable/HDTableCell.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDToast/HDToast.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDToggleButtonGroup/HDToggleButtonGroup.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDToggleButtonGroupRefactor/HDToggleButtonGroupRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDWarningModal/HDWarningModalStyle.module.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDPlaceholderWithHeader/HDPlaceholderWithHeader.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDContainer/HDContainer.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDTickListItem/HDTickListItem.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDInfoBox/HDInfoBox.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDBubble/HDBubble.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDQuoteDownloadRefactor/HDQuoteDownloadRefactor.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDRadioButtonList/HDRadioButtonList.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDCheckboxButtonList/HDCheckboxButtonList.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDPolicySelect/HDPolicySelect.scss";
+@import "../../../../../common/modules-react/hastings-components/components/HDPolicySelect/components/HDUpdateButton.scss";
+
+@import "../../../../../common/modules-react/hastings-components/components/HDVehicleDetails/HDVehicleSimpleDetails.scss";
+// ROUTER
+@import "../../routes/WizardRouter/HDWizardRouter.scss";
+
+// CONTROLS
+@import "../../pages/Controls/BackNavigation/BackNavigation.scss";
+@import "../../pages/Controls/DropDownControl/DropDownControl.scss";
+@import "../../pages/Controls/Footer/Footer.scss";
+@import "../../pages/Controls/Header/Header.scss";
+@import "../../pages/Controls/HDFaq/HDFaq.scss";
+
+// PAGES
+@import "../../pages/HastingDirectCustomerPage/HastingDirectCustomerPage.scss";
+@import "../../pages/HastingsDirectIntroCarPage/HastingsDirectIntroCarPage.scss";
+@import "../../pages/HastingsDirectIntroCarPage/HastingsDirectIntroCarPageRefactor.scss";
+@import "../../pages/HastingsDirectIntroPage/HastingsDirectIntroPage.scss";
+@import "../../pages/HastingsDOBInterstitialPage/HastingsDOBInterstitialPage.scss";
+@import "../../pages/HastingsDOBInterstitialPage/HastingsUpdateInceptionDate.scss";
+@import "../../pages/HastingsInterstitialPageContainer/HastingsInterstitialPage.scss";
+@import "../../pages/HDCustomizeQuoteWizard/HDCustomizeQuoteWizard.scss";
+@import "../../pages/HDMCIntroPage/HDMCIntroPage.scss";
+@import "../../pages/HDSearchVehiclePage/HDSearchVehiclePage.scss";
+@import "../../pages/HDVRNSearchPage/HDVRNSearchPage.scss";
+@import "../../pages/HDTimeoutPage/HDTimeoutPage.scss";
+@import "../../pages/HDTimeoutModal/HDTimeoutModal.scss";
+@import "../../pages/HDAddAnotherCar/HDAddAnotherCar.scss";
+@import "../../pages/HDInvalidURLErrorPage/HDInvalidURLErrorPage.scss";
+@import "../../pages/HDDataSchemaErrorPage/HDDataSchemaErrorPage.scss";
+@import "../../pages/HDErrorBoundaryPage/HDErrorBoundaryPage.scss";
+@import "../../pages/wizard-pages/HDMCPolicyHolderAllocation/HDMCPolicyHolderAllocation.scss";
+@import "../../pages/wizard-pages/HDMCHeadsUpPage/HDMCHeadsUpPage.scss";
+@import "../../pages/wizard-pages/HDMCDriverAllocation/HDMCDriverAllocation.scss";
+@import "../../pages/wizard-pages/HDMCDriverAllocationSecondary/HDMCDriverAllocationSecondary.scss";
+@import "../../pages/wizard-pages/HDMCPNCDPage/HDMCPNCDPage.scss";
+@import "../../pages/wizard-pages/HDRenewalPreferenceOverlay/HDRenewalPrefrenceOverlay.scss";
+@import "../../pages/HastingsMCDOBInterstitialPage/HastingsMCDOBInterstitialPage.scss";
+@import "../../pages/HastingsMCDOBInterstitialPage/HastingsMCUpdateInceptionDate.scss";
+
+// WIZARD PAGES
+@import "../../pages/wizard-pages/HDAddAnotherCarPage/HDAddAnotherCarPage.scss";
+@import "../../pages/wizard-pages/HDAddAnotherDriverPage/HDAddAnotherDriverPage.scss";
+@import "../../pages/wizard-pages/HDAddAnotherDriverPage/VehicleRibbon.scss";
+@import "../../pages/wizard-pages/HDAddAnotherDriverPage/RemoveDriverRibbon.scss";
+@import "../../pages/wizard-pages/HDAutomaticUpgrade/HDAutomaticUpgrade.scss";
+@import "../../pages/wizard-pages/HDCarLocationPage/HDCarLocationPage.scss";
+@import "../../pages/wizard-pages/HDCarMileagePage/HDCarMileagePage";
+@import "../../pages/wizard-pages/HDCarPurchasePage/HDCarPurchasePage";
+@import "../../pages/wizard-pages/HDCarUsagePage/HDCarUsagePage.scss";
+@import "../../pages/wizard-pages/HDCarWorthPage/HDCarWorthPage.scss";
+@import "../../pages/wizard-pages/HDCompletedCarDetailsPage/HDCompletedCarDetailsPage.scss";
+@import "../../pages/wizard-pages/HDConfirmContactDetailsPage/HDConfirmContactDetailsPage.scss";
+@import "../../pages/wizard-pages/HDCoverDetailsPage/HDCoverDetailsPage.scss";
+@import "../../pages/wizard-pages/HDCreatePasswordPage/HDCreatePasswordPage.scss";
+@import "../../pages/wizard-pages/HDCustomizeQuoteBreakDownCoverPage/HDCustomizeQuoteBreakDownCoverPage.scss";
+@import "../../pages/wizard-pages/HDCustomizeQuoteFooterPage/HDCustomizeQuoteFooterPage.scss";
+
+@import "../../pages/wizard-pages/HDCustomizeQuoteSummaryPage/HDCarFinder.scss";
+@import "../../pages/wizard-pages/HDCustomizeQuoteSummaryPage/HDCustomizeQuoteSummaryPage.scss";
+@import "../../pages/wizard-pages/HDCustomizeQuoteSummaryPage/components/HDExcessTableRefactor.scss";
+@import "../../pages/wizard-pages/HDCustomizeQuoteSummaryPage/HDStartDatePopup.scss";
+@import "../../pages/wizard-pages/HDCustomizeQuoteSummaryPage/HDYourExcessPopup.scss";
+
+@import "../../pages/wizard-pages/HDDirectDebitPage/HDBankAccountDetailsPage.scss";
+@import "../../pages/wizard-pages/HDDirectDebitPage/HDAccountHolderDetailsPage.scss";
+@import "../../pages/wizard-pages/HDDirectDebitPage/HDDirectDebitPage.scss";
+@import "../../pages/wizard-pages/HDDirectDebitPage/HDImportantInfo.scss";
+@import "../../pages/wizard-pages/HDDirectDebitPage/HDPreferredPaymentTable.scss";
+@import "../../pages/wizard-pages/HDDirectDebitPage/HDPreferredPaymentDatePage.scss";
+
+@import "../../pages/wizard-pages/HDDriverAddressPage/HDDriverAddressPage.scss";
+@import "../../pages/wizard-pages/HDDriverAddressPage/HDManualAddressPopup.scss";
+@import "../../pages/wizard-pages/HDDriverClaimsPage/HDDriverClaimsPage.scss";
+
+@import "../../pages/wizard-pages/HDDriverConvictionsPage/HDDriverConvictionsPage.scss";
+@import "../../pages/wizard-pages/HDDriverDOBPage/HDDriverDOBPage.scss";
+@import "../../pages/wizard-pages/HDDriverEmailPage/HDDriverEmailPage.scss";
+@import "../../pages/wizard-pages/HDDriverEmployementPage/HDDriverEmployement.scss";
+@import "../../pages/wizard-pages/HDDriverHomeOwner/HDDriverHomeOwnerPage.scss";
+@import "../../pages/wizard-pages/HDDriverLicenceLength/HDDriverLicenceLengthPage.scss";
+@import "../../pages/wizard-pages/HDDriverLicenceNumber/HDDriverLicenceNumberPage.scss";
+@import "../../pages/wizard-pages/HDDriverLicenceType/HDDriverLicenceTypePage.scss";
+@import "../../pages/wizard-pages/HDDriverMaritalStatus/HDDriverMaritalStatusPage.scss";
+@import "../../pages/wizard-pages/HDDriverNamePage/HDDriverNamePage.scss";
+@import "../../pages/wizard-pages/HDDriverScan/HDDriverScanPage.module.scss";
+@import "../../pages/wizard-pages/HDDriverScanOrContinue/HDDriverScanOrContinuePage.module.scss";
+// COMBINE TO 11 to 1
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDCoverSummary.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDDriverDetails.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDExcessTable.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDImportantStuffPage.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDInsurersOverlay.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDOtherThings.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDOurFees.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDOurFeesOverlay.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDPolicyHolderDetails.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDQuotePolicyDetails.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDYourExcessFees.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/HDIpidDocumentPage.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/Amendments/Amendments.scss";
+@import "../../pages/wizard-pages/HDImportantStuffPage/Amendments/Endorsement.scss";
+@import "../../pages/wizard-pages/HDDirectDebitPage/HDDirectDebitPageSECIOverlay.scss";
+
+@import "../../pages/wizard-pages/HDPNCDPage/HDPNCDPage.scss";
+
+@import "../../pages/wizard-pages/HDKeyCoverAncillaryPage/HDKeyCoverAncillaryPage.scss";
+@import "../../pages/wizard-pages/HDManualUpgradeDowngrade/HDManualUpgradeDowngrade.scss";
+@import "../../pages/wizard-pages/HDMotorLegal/HDMotorLegalPage.scss";
+@import "../../pages/wizard-pages/HDPaymentPage/HDPaymentPage.scss";
+@import "../../pages/wizard-pages/HDPaymentPage/HDBindErrorPage.scss";
+@import "../../pages/wizard-pages/HDPersonalAccidentsPage/HDPersonalAccidentsPage.scss";
+@import "../../pages/wizard-pages/HDPolicyStartDatePage/HDPolicyStartDatePage.scss";
+
+@import "../../pages/wizard-pages/HDPrimerYouDrivePage/HDPrimerYouDriveOverlay.scss";
+@import "../../pages/wizard-pages/HDPrimerYouDrivePage/HDPrimerYouDrivePage.scss";
+@import "../../pages/wizard-pages/HDQuoteDeclinePage/HDQuoteDeclinePage.scss";
+@import "../../pages/wizard-pages/HDSubstituteVehiclePage/HDSubstituteVehiclePage.scss";
+@import "../../pages/wizard-pages/HDThanksPage/HDThanksPage.scss";
+@import "../../pages/wizard-pages/HDTrackerPage/HDTrackerPage.scss";
+@import "../../pages/wizard-pages/HDVehicleDetailsPage/HDVehicleDetailsPage.scss";
+@import "../../pages/wizard-pages/HDYouDriveDetailsPage/HDYouDriveDetailsPage.scss";
+@import "../../pages/wizard-pages/HDYouDriveDetailsPage/HDYouDriveOverlay.scss";
+
+@import "../../pages/wizard-pages/HDYourQuotesPage/HDMoreDetailsPopup.scss";
+@import "../../pages/wizard-pages/HDYourQuotesPage/HDPolicyFeaturesInfoPopup.scss";
+@import "../../pages/wizard-pages/HDYourQuotesPage/HDVoluntaryExcessPopup.scss";
+@import "../../pages/wizard-pages/HDYourQuotesPage/HDYourQuotesPage.scss";
+@import "../../pages/wizard-pages/HDYourQuotesPage/HDYourAccessAccoContent.scss";
+@import "../../pages/wizard-pages/HDTransitionPage/HDTransitionPage.scss";
+
+@import "../../pages/wizard-pages/HDMCDirectDebitPage/HDMCDirectDebitPage.scss";
+@import "../../pages/wizard-pages/HDMCDirectDebitPage/components/HDMCVehicleDetailsWithSCCI.scss";
+@import "../../pages/wizard-pages/HDMCDirectDebitPage/components/HDMCCreditAgreementsBreakdown.scss";
+@import "../../pages/wizard-pages/HDMCDirectDebitPage/components/HDMCOverlaySCCIPopup.scss";
+
+@import "../../pages/wizard-pages/HDMCCompletedCarDetailsPage/HDMCCompletedCarDetailsPage.scss";
+@import "../../pages/wizard-pages/HDMCPolicyStartDatePage/HDMCPolicyStartDatePage.scss";
+@import "../../pages/wizard-pages/HDMotorLegalMultiCarPage/HDMotorLegalMultiCarPage.scss";
+@import "../../pages/HDMultiCarMilestonePage/HDMultiCarMilestonePage.scss";
+@import "../../pages/wizard-pages/HDSavingsPage/HDSavingsPage.scss";
+@import "../../pages/wizard-pages/HDSavingsPage/HDSavingsPageCard.scss";
+@import "../../pages/HDMCCustomizeQuoteWizard/HDMCCustomizeQuoteWizard.scss";
+@import "../../pages/wizard-pages/HDMCImportantStuffPage/HDMCImportantStuffPage.scss";
+@import "../../pages/wizard-pages/HDMotorLegalMultiCarPage/HDMotorLegalCarItem.scss";
+@import "../../pages/wizard-pages/HDMCCustomizeQuoteSummaryPage/HDMCCustomizeQuoteSummaryPage.scss";
+@import "../../pages/wizard-pages/HDMCCustomizeQuoteSummaryPage/HDMCCQSPCardForm.scss";
+@import "../../pages/wizard-pages/HDMCCustomizeQuoteSummaryPage/HDMCCQSPMonthlyBreakdown.scss";
+@import "../../pages/wizard-pages/HDMCCustomizeQuoteSummaryPage/HDMCYourExcessPopup.scss";
+@import "../../pages/wizard-pages/HDPromotionalPage/HDPromotionalPage.scss";
+@import "../../pages/wizard-pages/HDMCPersonalAccident/HDMCPersonalAccidentCarItem.scss";
+@import "../../pages/wizard-pages/HDMCPersonalAccident/HDMCPersonalAccident.scss";
+@import "../../pages/wizard-pages/HDMultiCarSubVehicle/HDMultiCarSubVehicle.scss";
+@import "../../pages/wizard-pages/HDMultiCarSubVehicle/HDMCSubVehicleCarItem.scss";
+@import "../../pages/wizard-pages/HDMCQuoteDeclinePage/HDMCQuoteDeclinePage.scss";
+@import "../../pages/wizard-pages/HDMCThanksPage/HDMCThanksPage.scss";
+@import "../../pages/wizard-pages/HDMCYourQuotesPage/HDMCYourQuotesPage.scss";
+@import "../../pages/wizard-pages/HDMCRACBreakDownPage/HDMCRACBreakDownPage.scss";
+@import "../../pages/wizard-pages/HDMCPolicyHolderAllocation/HDMCAddressVerify/HDMCAddressVerify.scss";
+@import "../../pages/wizard-pages/HDMCPolicyHolderAllocation/HDMCDriverHomeOwnership/HDMCDriverHomeOwnership.scss";
+@import "../../pages/wizard-pages/HDMCPolicyHolderAllocation/HDMCDriverClaims/HDMCDriverClaims.scss";
+@import "../../pages/wizard-pages/HDMCKeyCoverAncillaryPage/HDMCKeyCoverAncillaryPage.scss";
+
+
+@import "../../pages/wizard-pages/HDMCQuoteErrorPage/HDMCQuoteErrorPage.scss";
+@import "../../pages/wizard-pages/HDMCConfirmContactDetailsPage/HDMCConfirmContactDetailsPage.scss";
+@import "../../pages/wizard-pages/HDMCCustomizeQuoteSummaryPage/HDChildsQuoteDecline.scss";
+// no styles declarations in this file
+
+:export {
+    appTheme: $app-theme;
+    secondaryTextcolor: $white-color;
+    commonCompoBGColorWhite: $white-color;
+    commonCompoBGColor: $blue-dark-4;
+    commonCompoBGColorLightBlue2: $gray-light-9;
+    commonCompoTextcolor: $white-color;
+    commonCompoTextColorBlueDark: $app-theme;
+    commonCompoBGColorBlueLight: $link-color;
+    tertiaryTextColor: $blue-light;
+    genericFontFace: $font-face-generic-regular;
+    genericTitleBoldFontFace: $font-face-generic-regular;
+}

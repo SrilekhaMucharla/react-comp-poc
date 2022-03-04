@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDMCPNCDPage /> should render button group 1`] = `
+<HDToggleButtonGroup
+  availableValues={
+    Array [
+      Object {
+        "name": "Yes",
+        "value": "yes",
+      },
+      Object {
+        "name": "No",
+        "value": "no",
+      },
+    ]
+  }
+  btnClassName=""
+  btnGroupClassName=""
+  className=""
+  customClassName=""
+  data={null}
+  disabled={false}
+  doReset={false}
+  id="default-id"
+  label={null}
+  name="toggle-button-name"
+  onBeforeOpen={null}
+  onBlur={null}
+  onCancel={null}
+  onChange={null}
+  onClick={null}
+  onConfirm={null}
+  onDelete={null}
+  onEdit={null}
+  onFocus={null}
+  onSelect={null}
+  path="path.to.toggle-button"
+  type="radio"
+  value=""
+  webAnalyticsEvent={null}
+/>
+`;
+
+exports[`<HDMCPNCDPage /> should render page 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

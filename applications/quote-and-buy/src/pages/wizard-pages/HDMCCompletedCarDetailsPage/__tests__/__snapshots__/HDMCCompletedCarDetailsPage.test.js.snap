@@ -1,0 +1,771 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDMCCompletedCarDetailsPage /> with filled make, model and reg render component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDMCCompletedCarDetailsPage)>
+    <HDMCCompletedCarDetailsPage
+      mcsubmissionVM={null}
+      setNavigation={[Function]}
+      submissionVM={
+        Object {
+          "baseData": Object {
+            "accountHolder": Object {
+              "dateOfBirth": null,
+            },
+            "isExistingCustomer": false,
+            "isPostalDocument": false,
+            "jobType": "Submission",
+            "marketingContacts": Object {
+              "allowEmail": false,
+              "allowPost": false,
+              "allowSMS": false,
+              "allowTelephone": false,
+            },
+            "periodStatus": "Draft",
+            "policyAddress": Object {},
+            "producerCode": "Default",
+            "productCode": "PrivateCar_Ext",
+            "productName": "Private Car",
+            "termType": "Annual",
+          },
+          "lobData": Object {
+            "privateCar": Object {
+              "coverables": Object {
+                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                "drivers": Array [
+                  Object {
+                    "claimsAndConvictions": Object {
+                      "claimsDetailsCollection": Array [],
+                      "convictionsCollection": Array [],
+                    },
+                    "licenceObtainedDate": null,
+                    "person": Object {
+                      "prefix": Object {},
+                    },
+                    "previousPoliciesInformation": Object {},
+                    "residingInUKSince": null,
+                    "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                  },
+                ],
+                "vehicleDrivers": Array [
+                  Object {},
+                ],
+                "vehicles": Array [
+                  Object {
+                    "isCarModified": "",
+                    "ncdProtection": Object {
+                      "drivingExperience": Object {},
+                    },
+                    "tracker": "",
+                    "vehicleModifications": Array [],
+                    "vehicleWorth": "",
+                  },
+                ],
+              },
+              "preQualQuestionSets": Array [],
+            },
+          },
+        }
+      }
+    >
+      <div
+        className="mc-car-details-wrapper"
+      >
+        <Container
+          className="mc-car-completed-details-container"
+          fluid={true}
+        >
+          <div
+            className="mc-car-completed-details-container container-fluid"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h1"
+                      adjustImagePosition={true}
+                      className="margin-bottom-sm"
+                      id="car-details-sorted-label"
+                      text="Great! That's your first car added..."
+                    >
+                      <h1
+                        className="margin-bottom-sm"
+                        id="car-details-sorted-label"
+                      >
+                        Great! That's your first car added...
+                      </h1>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="h5"
+                      adjustImagePosition={true}
+                      className="margin-bottom-lg"
+                      id="car-details-sorted-driver-label"
+                      text="Now let’s sort out the drivers for this car."
+                    >
+                      <h5
+                        className="margin-bottom-lg"
+                        id="car-details-sorted-driver-label"
+                      >
+                        Now let’s sort out the drivers for this car.
+                      </h5>
+                    </HDLabelRefactor>
+                    <div
+                      className="horizontal-line--bright"
+                    />
+                    <ForwardRef
+                      additionalText=" undefined undefined"
+                      id="car-details-sorted-completed-card-info"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={null}
+                      onClick={null}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={[Function]}
+                      onFocus={null}
+                      onSelect={null}
+                      variant="car"
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Now let’s sort out the drivers for this car.",
+                        }
+                      }
+                    >
+                      <HDCompletedCardInfo
+                        additionalText=" undefined undefined"
+                        className={null}
+                        deleteTabIndex={1}
+                        editTabIndex={0}
+                        id="car-details-sorted-completed-card-info"
+                        onDelete={null}
+                        onDeleteKeyDown={[Function]}
+                        onEdit={[Function]}
+                        onEditKeyDown={[Function]}
+                        text=""
+                        variant="car"
+                      >
+                        <div
+                          className="completed-info-card"
+                        >
+                          <div
+                            className="completed-info-card__icon"
+                          >
+                            <img
+                              alt="Car"
+                              className="completed-info-card__icon-main"
+                              src="Illustrations_1-car.svg"
+                            />
+                            <img
+                              alt="tick"
+                              className="completed-info-card__purple-tick"
+                              src="Icon_Tick_Purple.svg"
+                            />
+                          </div>
+                          <div
+                            className="completed-info-card__text"
+                          >
+                            <HDLabelRefactor
+                              Tag="p"
+                              adjustImagePosition={true}
+                              className="completed-info-card__additional-text"
+                              text=" undefined undefined"
+                            >
+                              <p
+                                className="completed-info-card__additional-text"
+                              >
+                                 undefined undefined
+                              </p>
+                            </HDLabelRefactor>
+                          </div>
+                          <div
+                            className="completed-info-card__icon-edit mb-3 "
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            role="button"
+                            tabIndex={0}
+                          >
+                            <img
+                              alt="Edit"
+                              src="Icons_Edit.svg"
+                            />
+                          </div>
+                        </div>
+                      </HDCompletedCardInfo>
+                    </ForwardRef>
+                    <div
+                      className="horizontal-line--bright"
+                    />
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <DeleteVehicleModal
+                      hideClose={true}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                    >
+                      <ForwardRef
+                        cancelLabel="No, go back"
+                        confirmLabel="Yes, remove"
+                        customStyle="rev-button-order"
+                        headerText="Are you sure?"
+                        hideClose={true}
+                        id="remove-vehicle-modal"
+                        onBeforeOpen={null}
+                        onCancel={[Function]}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Remove vehicle",
+                          }
+                        }
+                        webAnalyticsView={
+                          Object {
+                            "page_section": "Remove vehicle",
+                          }
+                        }
+                      >
+                        <ForwardRef
+                          cancelLabel="No, go back"
+                          confirmLabel="Yes, remove"
+                          customStyle="rev-button-order"
+                          headerText="Are you sure?"
+                          hideClose={true}
+                          id="remove-vehicle-modal"
+                          onBeforeOpen={[Function]}
+                          onBlur={null}
+                          onCancel={[Function]}
+                          onChange={null}
+                          onClick={null}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          onDelete={null}
+                          onEdit={null}
+                          onFocus={null}
+                          onSelect={null}
+                          show={false}
+                          webAnalyticsEvent={
+                            Object {
+                              "event_action": "Remove vehicle",
+                            }
+                          }
+                        >
+                          <HDModal
+                            cancelLabel="No, go back"
+                            className=""
+                            confirmLabel="Yes, remove"
+                            customStyle="rev-button-order"
+                            headerText="Are you sure?"
+                            hideCancelButton={false}
+                            hideClose={true}
+                            hideConfirmButton={false}
+                            hideFooter={false}
+                            id="remove-vehicle-modal"
+                            onBeforeOpen={[Function]}
+                            onCancel={[Function]}
+                            onClose={[Function]}
+                            onConfirm={[Function]}
+                            show={false}
+                          >
+                            <Portal
+                              containerInfo={
+                                <div
+                                  id="portal-root"
+                                >
+                                  
+                                </div>
+                              }
+                            />
+                          </HDModal>
+                        </ForwardRef>
+                      </ForwardRef>
+                    </DeleteVehicleModal>
+                    <ForwardRef
+                      className="mc-car-completed-details__cont-btn"
+                      id="car-details-sorted-continue-button"
+                      label="Continue to driver details"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={null}
+                      onClick={[Function]}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={null}
+                      onFocus={null}
+                      onSelect={null}
+                      size="md"
+                      variant="primary"
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Continue to driver details - Redirecting from HastingsMultiCarDetailsComplete",
+                        }
+                      }
+                    >
+                      <HDButtonRefactor
+                        className="mc-car-completed-details__cont-btn"
+                        disabled={false}
+                        fullWidth={false}
+                        id="car-details-sorted-continue-button"
+                        label="Continue to driver details"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size="md"
+                        type="button"
+                        variant="primary"
+                      >
+                        <Button
+                          active={false}
+                          block={false}
+                          className="hd-btn hd-btn-primary mc-car-completed-details__cont-btn"
+                          disabled={false}
+                          id="car-details-sorted-continue-button"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          size="md"
+                          type="button"
+                          variant="primary"
+                        >
+                          <button
+                            className="hd-btn hd-btn-primary mc-car-completed-details__cont-btn btn btn-primary btn-md"
+                            disabled={false}
+                            id="car-details-sorted-continue-button"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            type="button"
+                          >
+                            Continue to driver details
+                          </button>
+                        </Button>
+                      </HDButtonRefactor>
+                    </ForwardRef>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </div>
+    </HDMCCompletedCarDetailsPage>
+  </Connect(HDMCCompletedCarDetailsPage)>
+</Provider>
+`;
+
+exports[`<HDMCCompletedCarDetailsPage /> without filled make, model and reg render component 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Connect(HDMCCompletedCarDetailsPage)>
+    <HDMCCompletedCarDetailsPage
+      mcsubmissionVM={null}
+      setNavigation={[Function]}
+      submissionVM={
+        Object {
+          "baseData": Object {
+            "accountHolder": Object {
+              "dateOfBirth": null,
+            },
+            "isExistingCustomer": false,
+            "isPostalDocument": false,
+            "jobType": "Submission",
+            "marketingContacts": Object {
+              "allowEmail": false,
+              "allowPost": false,
+              "allowSMS": false,
+              "allowTelephone": false,
+            },
+            "periodStatus": "Draft",
+            "policyAddress": Object {},
+            "producerCode": "Default",
+            "productCode": "PrivateCar_Ext",
+            "productName": "Private Car",
+            "termType": "Annual",
+          },
+          "lobData": Object {
+            "privateCar": Object {
+              "coverables": Object {
+                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                "drivers": Array [
+                  Object {
+                    "claimsAndConvictions": Object {
+                      "claimsDetailsCollection": Array [],
+                      "convictionsCollection": Array [],
+                    },
+                    "licenceObtainedDate": null,
+                    "previousPoliciesInformation": Object {},
+                    "residingInUKSince": null,
+                  },
+                ],
+                "vehicleDrivers": Array [
+                  Object {},
+                ],
+                "vehicles": Array [
+                  Object {
+                    "isCarModified": "",
+                    "isOvernightLocationHome": false,
+                    "make": "ma",
+                    "model": "mo",
+                    "registrationsNumber": "SAM42A",
+                    "tracker": "",
+                    "vehicleModifications": Array [
+                      Object {
+                        "modification": "",
+                      },
+                    ],
+                    "vehicleWorth": "",
+                  },
+                ],
+              },
+              "preQualQuestionSets": Array [],
+            },
+          },
+        }
+      }
+    >
+      <div
+        className="mc-car-details-wrapper"
+      >
+        <Container
+          className="mc-car-completed-details-container"
+          fluid={true}
+        >
+          <div
+            className="mc-car-completed-details-container container-fluid"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h1"
+                      adjustImagePosition={true}
+                      className="margin-bottom-sm"
+                      id="car-details-sorted-label"
+                      text="Great! That's your first car added..."
+                    >
+                      <h1
+                        className="margin-bottom-sm"
+                        id="car-details-sorted-label"
+                      >
+                        Great! That's your first car added...
+                      </h1>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="h5"
+                      adjustImagePosition={true}
+                      className="margin-bottom-lg"
+                      id="car-details-sorted-driver-label"
+                      text="Now let’s sort out the drivers for this car."
+                    >
+                      <h5
+                        className="margin-bottom-lg"
+                        id="car-details-sorted-driver-label"
+                      >
+                        Now let’s sort out the drivers for this car.
+                      </h5>
+                    </HDLabelRefactor>
+                    <div
+                      className="horizontal-line--bright"
+                    />
+                    <ForwardRef
+                      additionalText=" undefined undefined"
+                      id="car-details-sorted-completed-card-info"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={null}
+                      onClick={null}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={[Function]}
+                      onFocus={null}
+                      onSelect={null}
+                      variant="car"
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Now let’s sort out the drivers for this car.",
+                        }
+                      }
+                    >
+                      <HDCompletedCardInfo
+                        additionalText=" undefined undefined"
+                        className={null}
+                        deleteTabIndex={1}
+                        editTabIndex={0}
+                        id="car-details-sorted-completed-card-info"
+                        onDelete={null}
+                        onDeleteKeyDown={[Function]}
+                        onEdit={[Function]}
+                        onEditKeyDown={[Function]}
+                        text=""
+                        variant="car"
+                      >
+                        <div
+                          className="completed-info-card"
+                        >
+                          <div
+                            className="completed-info-card__icon"
+                          >
+                            <img
+                              alt="Car"
+                              className="completed-info-card__icon-main"
+                              src="Illustrations_1-car.svg"
+                            />
+                            <img
+                              alt="tick"
+                              className="completed-info-card__purple-tick"
+                              src="Icon_Tick_Purple.svg"
+                            />
+                          </div>
+                          <div
+                            className="completed-info-card__text"
+                          >
+                            <HDLabelRefactor
+                              Tag="p"
+                              adjustImagePosition={true}
+                              className="completed-info-card__additional-text"
+                              text=" undefined undefined"
+                            >
+                              <p
+                                className="completed-info-card__additional-text"
+                              >
+                                 undefined undefined
+                              </p>
+                            </HDLabelRefactor>
+                          </div>
+                          <div
+                            className="completed-info-card__icon-edit mb-3 "
+                            onClick={[Function]}
+                            onKeyDown={[Function]}
+                            role="button"
+                            tabIndex={0}
+                          >
+                            <img
+                              alt="Edit"
+                              src="Icons_Edit.svg"
+                            />
+                          </div>
+                        </div>
+                      </HDCompletedCardInfo>
+                    </ForwardRef>
+                    <div
+                      className="horizontal-line--bright"
+                    />
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <DeleteVehicleModal
+                      hideClose={true}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                    >
+                      <ForwardRef
+                        cancelLabel="No, go back"
+                        confirmLabel="Yes, remove"
+                        customStyle="rev-button-order"
+                        headerText="Are you sure?"
+                        hideClose={true}
+                        id="remove-vehicle-modal"
+                        onBeforeOpen={null}
+                        onCancel={[Function]}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Remove vehicle",
+                          }
+                        }
+                        webAnalyticsView={
+                          Object {
+                            "page_section": "Remove vehicle",
+                          }
+                        }
+                      >
+                        <ForwardRef
+                          cancelLabel="No, go back"
+                          confirmLabel="Yes, remove"
+                          customStyle="rev-button-order"
+                          headerText="Are you sure?"
+                          hideClose={true}
+                          id="remove-vehicle-modal"
+                          onBeforeOpen={[Function]}
+                          onBlur={null}
+                          onCancel={[Function]}
+                          onChange={null}
+                          onClick={null}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          onDelete={null}
+                          onEdit={null}
+                          onFocus={null}
+                          onSelect={null}
+                          show={false}
+                          webAnalyticsEvent={
+                            Object {
+                              "event_action": "Remove vehicle",
+                            }
+                          }
+                        >
+                          <HDModal
+                            cancelLabel="No, go back"
+                            className=""
+                            confirmLabel="Yes, remove"
+                            customStyle="rev-button-order"
+                            headerText="Are you sure?"
+                            hideCancelButton={false}
+                            hideClose={true}
+                            hideConfirmButton={false}
+                            hideFooter={false}
+                            id="remove-vehicle-modal"
+                            onBeforeOpen={[Function]}
+                            onCancel={[Function]}
+                            onClose={[Function]}
+                            onConfirm={[Function]}
+                            show={false}
+                          >
+                            <Portal
+                              containerInfo={
+                                <div
+                                  id="portal-root"
+                                >
+                                  
+                                  
+                                </div>
+                              }
+                            />
+                          </HDModal>
+                        </ForwardRef>
+                      </ForwardRef>
+                    </DeleteVehicleModal>
+                    <ForwardRef
+                      className="mc-car-completed-details__cont-btn"
+                      id="car-details-sorted-continue-button"
+                      label="Continue to driver details"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={null}
+                      onClick={[Function]}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={null}
+                      onFocus={null}
+                      onSelect={null}
+                      size="md"
+                      variant="primary"
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Continue to driver details - Redirecting from HastingsMultiCarDetailsComplete",
+                        }
+                      }
+                    >
+                      <HDButtonRefactor
+                        className="mc-car-completed-details__cont-btn"
+                        disabled={false}
+                        fullWidth={false}
+                        id="car-details-sorted-continue-button"
+                        label="Continue to driver details"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size="md"
+                        type="button"
+                        variant="primary"
+                      >
+                        <Button
+                          active={false}
+                          block={false}
+                          className="hd-btn hd-btn-primary mc-car-completed-details__cont-btn"
+                          disabled={false}
+                          id="car-details-sorted-continue-button"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          size="md"
+                          type="button"
+                          variant="primary"
+                        >
+                          <button
+                            className="hd-btn hd-btn-primary mc-car-completed-details__cont-btn btn btn-primary btn-md"
+                            disabled={false}
+                            id="car-details-sorted-continue-button"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            type="button"
+                          >
+                            Continue to driver details
+                          </button>
+                        </Button>
+                      </HDButtonRefactor>
+                    </ForwardRef>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </div>
+    </HDMCCompletedCarDetailsPage>
+  </Connect(HDMCCompletedCarDetailsPage)>
+</Provider>
+`;

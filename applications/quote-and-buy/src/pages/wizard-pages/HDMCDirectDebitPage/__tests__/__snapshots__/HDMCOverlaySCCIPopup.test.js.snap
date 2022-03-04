@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDMCOverlaySCCIPopup /> render component 1`] = `
+<HDMCOverlaySCCIPopup
+  creditAgreementData={
+    Object {
+      "initialPayment": 5,
+    }
+  }
+>
+  <ForwardRef
+    className="scci_popup_overlay"
+    id="scci-overlay"
+    onBeforeOpen={null}
+    webAnalyticsEvent={
+      Object {
+        "event_action": "Standard Consumer Credit Information (SCCI)",
+      }
+    }
+    webAnalyticsView={
+      Object {
+        "page_section": "Standard Consumer Credit Information (SCCI)",
+      }
+    }
+  >
+    <ForwardRef
+      className="scci_popup_overlay"
+      id="scci-overlay"
+      onBeforeOpen={[Function]}
+      onBlur={null}
+      onCancel={null}
+      onChange={null}
+      onClick={null}
+      onConfirm={null}
+      onDelete={null}
+      onEdit={null}
+      onFocus={null}
+      onSelect={null}
+      webAnalyticsEvent={
+        Object {
+          "event_action": "Standard Consumer Credit Information (SCCI)",
+        }
+      }
+    >
+      <HDOverlayPopup
+        cancelButton="Cancel"
+        className="scci_popup_overlay"
+        closeOnSelect={false}
+        confirmButton="Confirm"
+        customStyle=""
+        disabledConfirmButton={false}
+        headerBar={null}
+        hidden={false}
+        hideOnConfirm={true}
+        id="scci-overlay"
+        labelText=""
+        onBeforeClose={[Function]}
+        onBeforeOpen={[Function]}
+        onCancel={[Function]}
+        onConfirm={[Function]}
+        overlayButtonIcon={null}
+        overlayButtonsClassName=""
+        showButtons={false}
+      >
+        <div
+          className="hd-information-tooltip scci_popup_overlay"
+        >
+          <div
+            className="hd-overlay-btn "
+            hidden={false}
+            id="scci-overlay"
+            onClick={[Function]}
+          />
+        </div>
+      </HDOverlayPopup>
+    </ForwardRef>
+  </ForwardRef>
+</HDMCOverlaySCCIPopup>
+`;

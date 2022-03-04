@@ -1,0 +1,75 @@
+.excess-table-ref {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: $font-size-md;
+}
+
+.excess-table-ref__head {
+    color: $app-theme;
+    background-color: $blue-transparent-10;
+    border-bottom: 1px solid $blue-light;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm;
+    }
+}
+
+.excess-table-ref__body {
+    background-color: $gray-light-7;
+    color: $info-color;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f7f7f9;
+    }
+}
+
+.excess-table-ref__body-row {
+    height: 40px;
+}
+
+.excess-table-ref__body-row__td {
+    text-align: right;
+    width: 15%;
+    padding: 5px;
+
+    &:last-child {
+        padding-right: 13px;
+        font-weight: 500;
+    }
+}
+
+.excess-table-ref__row {
+    height: 54px;
+}
+
+.excess-table-ref__row__th {
+    font-weight: 500;
+    text-align: right;
+    width: 15%;
+    padding: 5px;
+
+    &:last-child {
+        padding-right: 13px;
+        font-weight: bold;
+    }
+}
+
+.excess-table-ref__name {
+    padding-left: 13px;
+    font-weight: bold;
+    text-align: left;
+    width: 30%;
+}
+
+.excess-table-ref__excess-name {
+    padding-left: 13px;
+    font-weight: 500;
+    text-align: left;
+    width: 40%;
+}
+
+.excess-table-ref__row__th.excess-table-ref__col-2 {
+    width: 25%;
+}

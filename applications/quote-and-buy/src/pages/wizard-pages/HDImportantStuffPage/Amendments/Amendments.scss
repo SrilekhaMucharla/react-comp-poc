@@ -1,0 +1,6 @@
+.important-stuff__amendment-policy-wrapper {
+    padding: 30px 15px;
+    @include media-breakpoint-up(md) {
+        padding: 30px;
+    }
+}

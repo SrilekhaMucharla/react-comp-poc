@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDInteractiveCard /> render component with one icon 1`] = `
+<Container
+  fluid={false}
+>
+  <Row
+    className="interactive-card px-0"
+    noGutters={false}
+  >
+    <Col
+      className="interactive-card__content"
+    >
+      <div
+        className="interactive-card__content__header"
+      />
+      <div
+        className="interactive-card__content__text"
+      />
+      <p>
+        Content
+      </p>
+    </Col>
+    <Col
+      className="interactive-card__icons pl-0"
+      xs="auto"
+    >
+      <i />
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<HDInteractiveCard /> render component with two icons 1`] = `
+<Container
+  fluid={false}
+>
+  <Row
+    className="interactive-card px-0"
+    noGutters={false}
+  >
+    <Col
+      className="interactive-card__content"
+    >
+      <div
+        className="interactive-card__content__header"
+      />
+      <div
+        className="interactive-card__content__text"
+      />
+      <p>
+        Content
+      </p>
+    </Col>
+    <Col
+      className="interactive-card__icons pl-0"
+      xs="auto"
+    >
+      <i />
+      <i />
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<HDInteractiveCard /> render component without icons 1`] = `
+<Container
+  fluid={false}
+>
+  <Row
+    className="interactive-card px-0"
+    noGutters={false}
+  >
+    <Col
+      className="interactive-card__content"
+    >
+      <div
+        className="interactive-card__content__header"
+      />
+      <div
+        className="interactive-card__content__text"
+      />
+      <p>
+        Content
+      </p>
+    </Col>
+    <Col
+      className="interactive-card__icons pl-0"
+      xs="auto"
+    />
+  </Row>
+</Container>
+`;

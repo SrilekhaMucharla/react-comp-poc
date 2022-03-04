@@ -1,0 +1,8 @@
+:root {
+  --gw-border-radius: 2px;
+  --gw-border-size: 1px;
+  --gw-border: var(--gw-border-size) solid var(--gw-grey-light-2);
+}
+
+@import "dropdown-menu";
+@import "datatable";

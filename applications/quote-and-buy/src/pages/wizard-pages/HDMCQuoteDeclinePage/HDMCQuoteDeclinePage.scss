@@ -1,0 +1,20 @@
+.mc-quote-decline {
+    &__time-table {
+        &__row {
+            p {
+                margin-bottom: 5px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                flex-wrap: nowrap !important;
+            }
+
+            .time-chart-hours {
+                text-align: right !important;
+                @include media-breakpoint-down(sm) {
+                    text-align: left !important;
+                }
+            }
+        }
+    }
+}

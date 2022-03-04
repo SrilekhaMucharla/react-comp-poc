@@ -1,0 +1,52 @@
+@keyframes keyboard_anim_dropdown {
+    100% {
+        margin-top: $sm-value;
+    }
+    50% {
+        margin-top: $md-value;
+    }
+    0% {
+        margin-top: $lg-value;
+    }
+}
+
+@keyframes keyboard_anim_label {
+    0% {
+        margin-bottom: 20px;
+    }
+    50% {
+        margin-bottom: 15px;
+    }
+    100% {
+        margin-bottom: 10px;
+    }
+}
+
+.home-owner {
+    &__form {
+        hr {
+            @include media-breakpoint-down(sm) {
+                margin: 20px 0 25px;
+            }
+        }
+    }
+
+    &__how-many-cars-label {
+        margin-top: 0;
+    }
+}
+
+.home-owner__keyboard-anim-dropdown {
+    margin-top: $lg-value;
+    animation-name: keyboard_anim_dropdown;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+.home-owner__keyboard-anim-label {
+    animation-name: keyboard_anim_label;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}

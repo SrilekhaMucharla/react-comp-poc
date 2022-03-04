@@ -1,0 +1,321 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDMoreDetailsPopup /> should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDMoreDetailsPopup
+    coverType={null}
+    coverages={null}
+    isYoungAndInexpDriver={false}
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "multi_car",
+      }
+    }
+    productType="online"
+  >
+    <ForwardRef
+      customStyle="more-details"
+      id="more-details-popup popup-undefined"
+      labelText="Your policy details"
+      onBeforeOpen={[Function]}
+      overlayButtonIcon={
+        <HDLabelRefactor
+          Tag="a"
+          adjustImagePosition={true}
+          className="text-small"
+          text="More details"
+        />
+      }
+      webAnalyticsView={
+        Object {
+          "page_name": "test",
+          "page_section": "Quote - More details",
+          "page_type": "test",
+          "sales_journey_type": "multi_car",
+        }
+      }
+    >
+      <ForwardRef
+        customStyle="more-details"
+        id="more-details-popup popup-undefined"
+        labelText="Your policy details"
+        onBeforeOpen={[Function]}
+        onBlur={null}
+        onCancel={null}
+        onChange={null}
+        onClick={null}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={null}
+        onSelect={null}
+        overlayButtonIcon={
+          <HDLabelRefactor
+            Tag="a"
+            adjustImagePosition={true}
+            className="text-small"
+            text="More details"
+          />
+        }
+        webAnalyticsEvent={null}
+      >
+        <HDOverlayPopup
+          cancelButton="Cancel"
+          className=""
+          closeOnSelect={false}
+          confirmButton="Confirm"
+          customStyle="more-details"
+          disabledConfirmButton={false}
+          headerBar={null}
+          hidden={false}
+          hideOnConfirm={true}
+          id="more-details-popup popup-undefined"
+          labelText="Your policy details"
+          onBeforeClose={[Function]}
+          onBeforeOpen={[Function]}
+          onBlur={null}
+          onCancel={null}
+          onChange={null}
+          onClick={null}
+          onConfirm={null}
+          onDelete={null}
+          onEdit={null}
+          onFocus={null}
+          onSelect={null}
+          overlayButtonIcon={
+            <HDLabelRefactor
+              Tag="a"
+              adjustImagePosition={true}
+              className="text-small"
+              text="More details"
+            />
+          }
+          overlayButtonsClassName=""
+          showButtons={false}
+          webAnalyticsEvent={null}
+        >
+          <div
+            className="hd-information-tooltip "
+          >
+            <div
+              className="hd-overlay-btn "
+              hidden={false}
+              id="more-details-popup popup-undefined"
+              onClick={[Function]}
+            >
+              <HDLabelRefactor
+                Tag="a"
+                adjustImagePosition={true}
+                className="text-small"
+                text="More details"
+              >
+                <a
+                  className="hd-tag text-small"
+                >
+                  <span>
+                    More details
+                  </span>
+                </a>
+              </HDLabelRefactor>
+            </div>
+          </div>
+        </HDOverlayPopup>
+      </ForwardRef>
+    </ForwardRef>
+  </HDMoreDetailsPopup>
+</Provider>
+`;
+
+exports[`<HDMoreDetailsPopup /> should render correctly and match the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDMoreDetailsPopup
+    brandCode="HD"
+    brandName="Hastings Direct"
+    coverType="Comprehensive"
+    coverages={
+      Array [
+        Object {
+          "HD": Object {},
+        },
+      ]
+    }
+    driversList={
+      Array [
+        Object {
+          "displayName": "Something",
+        },
+      ]
+    }
+    endDate={
+      Object {
+        "value": Object {
+          "day": 2,
+          "month": 10,
+          "year": 2022,
+        },
+      }
+    }
+    hastingsPremium={
+      Object {
+        "monthlyPayment": Object {
+          "amount": 200,
+        },
+      }
+    }
+    isYoungAndInexpDriver={false}
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "multi_car",
+      }
+    }
+    paymentType="3"
+    productType="online"
+    registrationNumber="AV12BGE"
+    startDate={
+      Object {
+        "value": Object {
+          "day": 2,
+          "month": 10,
+          "year": 2021,
+        },
+      }
+    }
+  >
+    <ForwardRef
+      customStyle="more-details"
+      id="more-details-popup popup-hd"
+      labelText="Your policy details"
+      onBeforeOpen={[Function]}
+      overlayButtonIcon={
+        <HDLabelRefactor
+          Tag="a"
+          adjustImagePosition={true}
+          className="text-small"
+          text="More details"
+        />
+      }
+      webAnalyticsView={
+        Object {
+          "page_name": "test",
+          "page_section": "Quote - More details",
+          "page_type": "test",
+          "sales_journey_type": "multi_car",
+        }
+      }
+    >
+      <ForwardRef
+        customStyle="more-details"
+        id="more-details-popup popup-hd"
+        labelText="Your policy details"
+        onBeforeOpen={[Function]}
+        onBlur={null}
+        onCancel={null}
+        onChange={null}
+        onClick={null}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={null}
+        onSelect={null}
+        overlayButtonIcon={
+          <HDLabelRefactor
+            Tag="a"
+            adjustImagePosition={true}
+            className="text-small"
+            text="More details"
+          />
+        }
+        webAnalyticsEvent={null}
+      >
+        <HDOverlayPopup
+          cancelButton="Cancel"
+          className=""
+          closeOnSelect={false}
+          confirmButton="Confirm"
+          customStyle="more-details"
+          disabledConfirmButton={false}
+          headerBar={null}
+          hidden={false}
+          hideOnConfirm={true}
+          id="more-details-popup popup-hd"
+          labelText="Your policy details"
+          onBeforeClose={[Function]}
+          onBeforeOpen={[Function]}
+          onBlur={null}
+          onCancel={null}
+          onChange={null}
+          onClick={null}
+          onConfirm={null}
+          onDelete={null}
+          onEdit={null}
+          onFocus={null}
+          onSelect={null}
+          overlayButtonIcon={
+            <HDLabelRefactor
+              Tag="a"
+              adjustImagePosition={true}
+              className="text-small"
+              text="More details"
+            />
+          }
+          overlayButtonsClassName=""
+          showButtons={false}
+          webAnalyticsEvent={null}
+        >
+          <div
+            className="hd-information-tooltip "
+          >
+            <div
+              className="hd-overlay-btn "
+              hidden={false}
+              id="more-details-popup popup-hd"
+              onClick={[Function]}
+            >
+              <HDLabelRefactor
+                Tag="a"
+                adjustImagePosition={true}
+                className="text-small"
+                text="More details"
+              >
+                <a
+                  className="hd-tag text-small"
+                >
+                  <span>
+                    More details
+                  </span>
+                </a>
+              </HDLabelRefactor>
+            </div>
+          </div>
+        </HDOverlayPopup>
+      </ForwardRef>
+    </ForwardRef>
+  </HDMoreDetailsPopup>
+</Provider>
+`;

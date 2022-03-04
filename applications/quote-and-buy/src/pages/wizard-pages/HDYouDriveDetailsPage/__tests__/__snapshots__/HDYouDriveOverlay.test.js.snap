@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDYouDriveOverlay /> should render correctly 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDYouDriveOverlay
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "multi_car",
+      }
+    }
+  >
+    <ForwardRef
+      id="you-drive-overlay"
+      onBeforeOpen={null}
+      overlayButtonIcon={
+        <img
+          alt="info_circle"
+          src="Darkicons_desktopinfo.svg"
+        />
+      }
+      webAnalyticsEvent={
+        Object {
+          "event_action": "Customise quote - YouDrive - Why YouDrive?",
+        }
+      }
+      webAnalyticsView={
+        Object {
+          "page_name": "test",
+          "page_section": "Customise quote - YouDrive - Why YouDrive?",
+          "page_type": "test",
+          "sales_journey_type": "multi_car",
+        }
+      }
+    >
+      <ForwardRef
+        id="you-drive-overlay"
+        onBeforeOpen={[Function]}
+        onBlur={null}
+        onCancel={null}
+        onChange={null}
+        onClick={null}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={null}
+        onSelect={null}
+        overlayButtonIcon={
+          <img
+            alt="info_circle"
+            src="Darkicons_desktopinfo.svg"
+          />
+        }
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Customise quote - YouDrive - Why YouDrive?",
+          }
+        }
+      >
+        <HDOverlayPopup
+          cancelButton="Cancel"
+          className=""
+          closeOnSelect={false}
+          confirmButton="Confirm"
+          customStyle=""
+          disabledConfirmButton={false}
+          headerBar={null}
+          hidden={false}
+          hideOnConfirm={true}
+          id="you-drive-overlay"
+          labelText=""
+          onBeforeClose={[Function]}
+          onBeforeOpen={[Function]}
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          overlayButtonIcon={
+            <img
+              alt="info_circle"
+              src="Darkicons_desktopinfo.svg"
+            />
+          }
+          overlayButtonsClassName=""
+          showButtons={false}
+        >
+          <div
+            className="hd-information-tooltip "
+          >
+            <div
+              className="hd-overlay-btn "
+              hidden={false}
+              id="you-drive-overlay"
+              onClick={[Function]}
+            >
+              <img
+                alt="info_circle"
+                src="Darkicons_desktopinfo.svg"
+              />
+            </div>
+          </div>
+        </HDOverlayPopup>
+      </ForwardRef>
+    </ForwardRef>
+  </HDYouDriveOverlay>
+</Provider>
+`;
+
+exports[`<HDYouDriveOverlay /> should render correctly and match the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDYouDriveOverlay
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "multi_car",
+      }
+    }
+  >
+    <ForwardRef
+      id="you-drive-overlay"
+      onBeforeOpen={null}
+      overlayButtonIcon={
+        <img
+          alt="info_circle"
+          src="Darkicons_desktopinfo.svg"
+        />
+      }
+      webAnalyticsEvent={
+        Object {
+          "event_action": "Customise quote - YouDrive - Why YouDrive?",
+        }
+      }
+      webAnalyticsView={
+        Object {
+          "page_name": "test",
+          "page_section": "Customise quote - YouDrive - Why YouDrive?",
+          "page_type": "test",
+          "sales_journey_type": "multi_car",
+        }
+      }
+    >
+      <ForwardRef
+        id="you-drive-overlay"
+        onBeforeOpen={[Function]}
+        onBlur={null}
+        onCancel={null}
+        onChange={null}
+        onClick={null}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={null}
+        onSelect={null}
+        overlayButtonIcon={
+          <img
+            alt="info_circle"
+            src="Darkicons_desktopinfo.svg"
+          />
+        }
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Customise quote - YouDrive - Why YouDrive?",
+          }
+        }
+      >
+        <HDOverlayPopup
+          cancelButton="Cancel"
+          className=""
+          closeOnSelect={false}
+          confirmButton="Confirm"
+          customStyle=""
+          disabledConfirmButton={false}
+          headerBar={null}
+          hidden={false}
+          hideOnConfirm={true}
+          id="you-drive-overlay"
+          labelText=""
+          onBeforeClose={[Function]}
+          onBeforeOpen={[Function]}
+          onCancel={[Function]}
+          onConfirm={[Function]}
+          overlayButtonIcon={
+            <img
+              alt="info_circle"
+              src="Darkicons_desktopinfo.svg"
+            />
+          }
+          overlayButtonsClassName=""
+          showButtons={false}
+        >
+          <div
+            className="hd-information-tooltip "
+          >
+            <div
+              className="hd-overlay-btn "
+              hidden={false}
+              id="you-drive-overlay"
+              onClick={[Function]}
+            >
+              <img
+                alt="info_circle"
+                src="Darkicons_desktopinfo.svg"
+              />
+            </div>
+          </div>
+        </HDOverlayPopup>
+      </ForwardRef>
+    </ForwardRef>
+  </HDYouDriveOverlay>
+</Provider>
+`;

@@ -1,0 +1,133 @@
+name: $(SourceBranchName)_$(date:yyyyMMdd)$(rev:.r)
+
+pr:
+  drafts: false
+  branches:
+    include:
+    - development
+    - master
+    - feature-*
+    - release-*
+    - emergency-*
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - development
+    - master
+    - feature-*
+    - release-*
+    - emergency-*
+
+pool:
+  name: vmss-application-build
+
+variables:
+- group: qnb-build-group
+- name: isPullRequest
+  value: ${{ eq(variables['Build.Reason'], 'PullRequest') }}
+
+steps:
+  - task: octane-start-task@1
+    displayName: 'Octane Start'
+    condition: always()
+    inputs:
+      OctaneServiceConnection: 'ALM Octane Service Connection'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'HD-IT-Development PAT'
+
+  - task: NodeTool@0 
+    displayName: 'Use specific Node.js version'
+    inputs:
+      versionSpec: '12.14.1'
+
+  - task: PowerShell@2
+    displayName: 'Install necessary dependencies'
+    inputs:
+      targetType: 'inline'
+      script: |
+        npm run bootstrap
+         
+  - task: PowerShell@2
+    displayName: 'Replace parameters in env file'
+    inputs:
+      targetType: 'inline'
+      script: |
+        $file = 'applications\\quote-and-buy\\.env'
+        (Get-Content $file -Raw) | Foreach-Object {
+            $_ -replace 'GW_BUILD_TIME_HOST=http://localhost:{{PORT}}/{{SUITE_APPLICATION}}/service/edge', 'GW_BUILD_TIME_HOST=$(GW_BUILD_TIME_HOST)' `
+              -replace 'GW_BUILD_TIME_HOST_USERNAME=', 'GW_BUILD_TIME_HOST_USERNAME=$(GW_BUILD_TIME_HOST_USERNAME)' `
+              -replace 'GW_BUILD_TIME_HOST_PASSWORD=', 'GW_BUILD_TIME_HOST_PASSWORD=$(GW_BUILD_TIME_HOST_PASSWORD)' `
+              -replace 'GW_RUN_TIME_HOST=http://localhost:{{PORT}}/{{SUITE_APPLICATION}}/service/unauthenticated/edge', 'GW_RUN_TIME_HOST=$(GW_RUN_TIME_HOST)' `
+              -replace 'GW_IS_VERSION=granite', 'GW_IS_VERSION=$(GW_IS_VERSION)' `
+              -replace 'GW_PC_PORT=8180', 'GW_PC_PORT=$(GW_PC_PORT)' `
+              -replace 'GW_PERSONA=anonymous', 'GW_PERSONA=$(GW_PERSONA)' `
+              -replace 'GW_RUN_TIME_DEPLOYMENT_URL=http://localhost:3000', 'GW_RUN_TIME_DEPLOYMENT_URL=$(GW_RUN_TIME_DEPLOYMENT_URL)' `
+              -replace 'PUBLIC_URL=${GW_RUN_TIME_DEPLOYMENT_URL}', 'PUBLIC_URL=$(PUBLIC_URL)' `
+              -replace '# NODE_TLS_REJECT_UNAUTHORIZED=0', 'NODE_TLS_REJECT_UNAUTHORIZED=0'
+            } | Set-Content $file
+             
+  - task: PowerShell@2
+    displayName: 'Build the application'
+    inputs:
+      targetType: 'inline'
+      script: 'npm run quote-and-buy -- build'   
+
+  - task: CmdLine@2
+    displayName: 'Run unit tests'
+    inputs:
+      script: 'set CI=true&&npm run test'
+
+  - task: PublishTestResults@2
+    displayName: 'Capture unit test results'
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: 'junit.xml'
+      failTaskOnFailedTests: true
+      testRunTitle: 'Unit Test Results'
+
+  - task: PowerShell@2
+    displayName: 'Static Code Analysis'
+    inputs:
+      targetType: 'inline'      
+      errorActionPreference: 'continue'
+      ignoreLASTEXITCODE: true
+      script: |
+        mkdir eslintreports
+        
+        .\node_modules\.bin\eslint -c ./.eslintrc.js -o ./eslintreports/eslint-report-app-src.html -f html ./applications/quote-and-buy/src/
+        .\node_modules\.bin\eslint -c ./.eslintrc.js --quiet --ignore-pattern node_modules -o ./eslintreports/eslint-report-common.html -f html ./common/
+
+  - task: PublishPipelineArtifact@1
+    displayName: 'Publish ESLint Report'
+    inputs:
+      targetPath: '$(System.DefaultWorkingDirectory)/eslintreports'
+      artifact: 'ESLintReport'
+      publishLocation: 'pipeline'
+
+  - task: ArchiveFiles@2
+    displayName: Archive Build Artifacts
+    condition: and(succeeded(), ne(variables.isPullRequest, true))
+    inputs:
+      rootFolderOrFile: 'applications/quote-and-buy/build/'
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/applications/quote-and-buy/package/qnb.zip'
+      replaceExistingArchive: true
+    
+  - task: PublishBuildArtifacts@1
+    displayName: Publish Build Artifacts
+    condition: and(succeeded(), ne(variables.isPullRequest, true))
+    inputs:
+      PathtoPublish: '$(Build.ArtifactStagingDirectory)/applications/quote-and-buy/package'
+      ArtifactName: 'qnb'
+      publishLocation: 'Container'
+
+  - task: octane-end-task@1
+    displayName: 'Octane End'
+    condition: always()
+    inputs:
+      OctaneServiceConnection: 'ALM Octane Service Connection'
+      WorkspaceList: '1002'
+      GithubRepositoryConnection: 'HD-IT-Development PAT'

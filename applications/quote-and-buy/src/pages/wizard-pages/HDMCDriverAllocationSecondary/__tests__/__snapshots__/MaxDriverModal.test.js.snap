@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MaxDriverModal should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  cancelLabel="Go back"
+  confirmLabel="OK"
+  customStyle="rev-button-order"
+  headerText="Important"
+  hideClose={false}
+  id="maximum-driver-count-modal"
+  onBeforeOpen={null}
+  onCancel={[MockFunction]}
+  onClose={[MockFunction]}
+  onConfirm={[MockFunction]}
+  show={true}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "You can only add up to five people as drivers for this car.",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_name": "test",
+      "page_section": "You can only add up to five people as drivers for this car.",
+      "page_type": "test",
+      "sales_journey_type": "multi_car",
+    }
+  }
+>
+  <span>
+    You can only add up to five people as drivers for this car.
+  </span>
+</ForwardRef>
+`;

@@ -1,0 +1,34 @@
+.our-fees-overlay__fees {
+  color: $app-theme;
+  margin-top: 40px;
+}
+
+.our-fees-overlay__fees__table {
+  width: 100%;
+  font-size: $hd-font-size-small;
+  line-height: normal;
+  margin-bottom: 35px;
+}
+
+.our-fees-overlay__fees__table__th,
+.our-fees-overlay__fees__table__td {
+  padding: 8px 10px;
+}
+
+.our-fees-overlay__fees__table__td {
+  width: 75%;
+}
+
+.our-fees-overlay__fees__table__th {
+  background-color: $blue-transparent-10;
+}
+
+.our-fees-overlay__fees__table__body__tr {
+  &:nth-child(odd) {
+      background-color: $mono-cultured;
+  }
+  
+  &:nth-child(even) {
+      background-color: $white-transparent-30;
+  }
+}

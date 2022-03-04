@@ -1,0 +1,3030 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPaymentPage /> MultiCar load Worldpay iframe 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <HDPaymentPage
+      customizeSubmissionVM={
+        Object {
+          "quote": Object {
+            "hastingsPremium": Object {
+              "annuallyPayment": Object {
+                "premiumAnnualCost": Object {
+                  "value": Object {
+                    "amount": 405.01,
+                    "currency": "gbp",
+                  },
+                },
+              },
+              "monthlyPayment": Object {
+                "firstInstalment": Object {
+                  "value": Object {
+                    "amount": 40.01,
+                    "currency": "gbp",
+                  },
+                },
+              },
+            },
+          },
+          "value": Object {
+            "customQuotes": Array [
+              Object {
+                "periodStartDate": 2021-01-01T00:00:00.000Z,
+                "quote": Object {
+                  "hastingsPremium": Object {
+                    "annuallyPayment": Object {
+                      "premiumAnnualCost": Object {
+                        "value": Object {
+                          "amount": 405.01,
+                          "currency": "gbp",
+                        },
+                      },
+                    },
+                    "monthlyPayment": Object {
+                      "firstInstalment": Object {
+                        "value": Object {
+                          "amount": 40.01,
+                          "currency": "gbp",
+                        },
+                      },
+                    },
+                  },
+                },
+              },
+            ],
+            "insurancePaymentType": "1",
+            "mpwrapperNumber": "1200098",
+            "quoteId": "1200098",
+            "sessionUUID": "34423-3432-34f34",
+          },
+        }
+      }
+      dispatch={[Function]}
+      mcPaymentSchedule={
+        Object {
+          "loading": false,
+          "mcPaymentScheduleError": null,
+          "mcPaymentScheduleObject": null,
+        }
+      }
+      multiCarFlag={true}
+      onAbort={[Function]}
+      onBindFailure={[Function]}
+      onMoveThankYouPage={[Function]}
+      onPaymentSuccess={[Function]}
+      pageMetadata={
+        Object {
+          "page_name": "test",
+          "page_type": "test",
+          "sales_journey_type": "single_car",
+        }
+      }
+      paymentType="1"
+      submissionVM={
+        Object {
+          "baseData": Object {
+            "accountHolder": Object {
+              "value": Object {
+                "dateOfBirth": "01/01/1992",
+              },
+            },
+          },
+          "value": Object {
+            "mpwrapperNumber": "1200098",
+            "quoteId": "1200098",
+            "quotes": Array [
+              Object {
+                "baseData": Object {},
+              },
+            ],
+            "sessionUUID": "34423-3432-34f34",
+          },
+        }
+      }
+      toggleContinueElement={[Function]}
+    >
+      <Container
+        className="payment-page"
+        fluid={true}
+      >
+        <div
+          className="payment-page container-fluid"
+        >
+          <div
+            className="arc-header"
+          >
+            <img
+              alt="arc-header"
+              className="arc-header_arc"
+              src="top-arc.svg"
+            />
+          </div>
+          <Container
+            fluid={false}
+          >
+            <div
+              className="container"
+            >
+              <Row
+                noGutters={false}
+              >
+                <div
+                  className="row"
+                >
+                  <Col
+                    className="payment-page__main-header"
+                    md={7}
+                    xs={12}
+                  >
+                    <div
+                      className="payment-page__main-header col-md-7 col-12"
+                    >
+                      <HDLabelRefactor
+                        Tag="span"
+                        adjustImagePosition={true}
+                        className="h1"
+                        text="Time to give us the card details for the "
+                      >
+                        <span
+                          className="h1"
+                        >
+                          Time to give us the card details for the 
+                        </span>
+                      </HDLabelRefactor>
+                      <HDLabelRefactor
+                        Tag="span"
+                        adjustImagePosition={true}
+                        className="payment-page__amount h1"
+                        text={
+                          <React.Fragment>
+                            £
+                            NaN
+                          </React.Fragment>
+                        }
+                      >
+                        <span
+                          className="payment-page__amount h1"
+                        >
+                          £
+                          NaN
+                        </span>
+                      </HDLabelRefactor>
+                      <HDLabelRefactor
+                        Tag="span"
+                        adjustImagePosition={true}
+                        className="h1"
+                        text=" due today..."
+                      >
+                        <span
+                          className="h1"
+                        >
+                           due today...
+                        </span>
+                      </HDLabelRefactor>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="payment-page__page-content"
+                noGutters={false}
+              >
+                <div
+                  className="payment-page__page-content row"
+                >
+                  <Col
+                    className="payment-page__page-content--pay"
+                    md={
+                      Object {
+                        "order": 1,
+                        "span": 7,
+                      }
+                    }
+                    xs={
+                      Object {
+                        "order": 2,
+                        "span": 12,
+                      }
+                    }
+                  >
+                    <div
+                      className="payment-page__page-content--pay col-md-7 col-12 order-md-1 order-2"
+                    >
+                      <div
+                        className="payment-page__worldpay-container-wrapper"
+                      >
+                        <div
+                          className="payment-page__worldpay-container"
+                        >
+                          <Row
+                            className="payment-page__label"
+                            noGutters={false}
+                          >
+                            <div
+                              className="payment-page__label row"
+                            >
+                              <Col
+                                xs="auto"
+                              >
+                                <div
+                                  className="col-auto"
+                                >
+                                  <img
+                                    alt="Card_Security_Icon"
+                                    className="payment-page__info-icon"
+                                    src="card_security_icon.svg"
+                                  />
+                                </div>
+                              </Col>
+                              <Col
+                                className="text-left pl-0"
+                              >
+                                <div
+                                  className="text-left pl-0 col"
+                                >
+                                  <p
+                                    className="text-small mb-0"
+                                  >
+                                    Pay safely and securely
+                                  </p>
+                                </div>
+                              </Col>
+                            </div>
+                          </Row>
+                          <HDInfoCardRefactor
+                            className="mt-3 mt-md-4"
+                            id="payment-page-bank-appr-info-card"
+                            image="tip_circle_purple.svg"
+                            isRight={false}
+                            notes={null}
+                            paragraphs={
+                              Array [
+                                "Just so you know, your bank may ask you to approve this payment.",
+                              ]
+                            }
+                            size="thin"
+                            theme="light"
+                            title={null}
+                          >
+                            <div
+                              className="info-card left info-card--light info-card--thin mt-3 mt-md-4"
+                              id="payment-page-bank-appr-info-card"
+                            >
+                              <img
+                                alt="info-card"
+                                className="info-card__icon"
+                                src="tip_circle_purple.svg"
+                              />
+                              <p
+                                className="info-card__paragraph paragraph_0"
+                                key="0"
+                              >
+                                Just so you know, your bank may ask you to approve this payment.
+                              </p>
+                            </div>
+                          </HDInfoCardRefactor>
+                        </div>
+                      </div>
+                      <div
+                        className="payment-page__cancel-info-container"
+                      >
+                        <HDQuoteInfoRefactor
+                          className=""
+                        >
+                          <div
+                            className="quote-info theme-white "
+                            id="quote-info-body"
+                          >
+                            <p
+                              className="quote-info__info-icon"
+                              id="quote-info-icon"
+                            >
+                              <span>
+                                !
+                              </span>
+                            </p>
+                            <p
+                              className="quote-info__info-paragraph align-self-center"
+                              id="quote-info-paragraph"
+                            >
+                              If you want to go back and check anything just use the cancel button.
+                            </p>
+                          </div>
+                        </HDQuoteInfoRefactor>
+                      </div>
+                    </div>
+                  </Col>
+                  <Col
+                    className="payment-page__page-content--info"
+                    md={
+                      Object {
+                        "order": 2,
+                        "span": 5,
+                      }
+                    }
+                    xs={
+                      Object {
+                        "order": 1,
+                        "span": 12,
+                      }
+                    }
+                  >
+                    <div
+                      className="payment-page__page-content--info col-md-5 col-12 order-md-2 order-1"
+                    >
+                      <div
+                        className="payment-page__payment-info-container"
+                      >
+                        <HDLabelRefactor
+                          Tag="h2"
+                          adjustImagePosition={true}
+                          className="payment-page__payment-info-label my-0"
+                          text="Please read this before you pay..."
+                        >
+                          <h2
+                            className="payment-page__payment-info-label my-0"
+                          >
+                            Please read this before you pay...
+                          </h2>
+                        </HDLabelRefactor>
+                        <HDLabelRefactor
+                          Tag="h5"
+                          adjustImagePosition={true}
+                          className="payment-page__cpa-label"
+                          text="Continuous payment authority"
+                        >
+                          <h5
+                            className="payment-page__cpa-label"
+                          >
+                            Continuous payment authority
+                          </h5>
+                        </HDLabelRefactor>
+                        <Row
+                          className="payment-page__cpa-content"
+                          noGutters={false}
+                        >
+                          <div
+                            className="payment-page__cpa-content row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                <p
+                                  key="0"
+                                >
+                                  When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+                                </p>
+                                <p
+                                  key="1"
+                                >
+                                  Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+                                </p>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <HDQuoteInfoRefactor
+                          className=""
+                        >
+                          <div
+                            className="quote-info theme-white "
+                            id="quote-info-body"
+                          >
+                            <p
+                              className="quote-info__info-icon"
+                              id="quote-info-icon"
+                            >
+                              <span>
+                                !
+                              </span>
+                            </p>
+                            <p
+                              className="quote-info__info-paragraph align-self-center"
+                              id="quote-info-paragraph"
+                            >
+                              You can cancel this continuous payment authority at any time, just get in touch and let us know.
+                            </p>
+                          </div>
+                        </HDQuoteInfoRefactor>
+                      </div>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <ForwardRef
+                confirmLabel="OK"
+                customStyle="payment-page__customize-quote"
+                headerText="Sorry, something went wrong"
+                hideCancelButton={true}
+                hideClose={true}
+                id="something-went-wrong-modal"
+                onBeforeOpen={null}
+                onConfirm={[Function]}
+                show={false}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Sorry, something went wrong",
+                  }
+                }
+                webAnalyticsView={
+                  Object {
+                    "page_name": "test",
+                    "page_section": "Sorry, something went wrong",
+                    "page_type": "test",
+                    "sales_journey_type": "single_car",
+                  }
+                }
+              >
+                <ForwardRef
+                  confirmLabel="OK"
+                  customStyle="payment-page__customize-quote"
+                  headerText="Sorry, something went wrong"
+                  hideCancelButton={true}
+                  hideClose={true}
+                  id="something-went-wrong-modal"
+                  onBeforeOpen={[Function]}
+                  onBlur={null}
+                  onCancel={null}
+                  onChange={null}
+                  onClick={null}
+                  onConfirm={[Function]}
+                  onDelete={null}
+                  onEdit={null}
+                  onFocus={null}
+                  onSelect={null}
+                  show={false}
+                  webAnalyticsEvent={
+                    Object {
+                      "event_action": "Sorry, something went wrong",
+                    }
+                  }
+                >
+                  <HDModal
+                    cancelLabel="Cancel"
+                    className=""
+                    confirmLabel="OK"
+                    customStyle="payment-page__customize-quote"
+                    headerText="Sorry, something went wrong"
+                    hideCancelButton={true}
+                    hideClose={true}
+                    hideConfirmButton={false}
+                    hideFooter={false}
+                    id="something-went-wrong-modal"
+                    onBeforeOpen={[Function]}
+                    onCancel={[Function]}
+                    onClose={[Function]}
+                    onConfirm={[Function]}
+                    show={false}
+                  />
+                </ForwardRef>
+              </ForwardRef>
+            </div>
+          </Container>
+        </div>
+      </Container>
+    </HDPaymentPage>
+  </Provider>
+</Component>
+`;
+
+exports[`<HDPaymentPage /> MultiCar render component 1`] = `
+<Container
+  className="payment-page"
+  fluid={true}
+>
+  <div
+    className="arc-header"
+  >
+    <img
+      alt="arc-header"
+      className="arc-header_arc"
+      src="top-arc.svg"
+    />
+  </div>
+  <Container
+    fluid={false}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="payment-page__main-header"
+        md={7}
+        xs={12}
+      >
+        <HDLabelRefactor
+          Tag="span"
+          adjustImagePosition={true}
+          className="h1"
+          text="Time to give us the card details for the "
+        />
+        <HDLabelRefactor
+          Tag="span"
+          adjustImagePosition={true}
+          className="payment-page__amount h1"
+          text={
+            <React.Fragment>
+              £
+              40.01
+            </React.Fragment>
+          }
+        />
+        <HDLabelRefactor
+          Tag="span"
+          adjustImagePosition={true}
+          className="h1"
+          text=" due today..."
+        />
+      </Col>
+    </Row>
+    <Row
+      className="payment-page__page-content"
+      noGutters={false}
+    >
+      <Col
+        className="payment-page__page-content--pay"
+        md={
+          Object {
+            "order": 1,
+            "span": 7,
+          }
+        }
+        xs={
+          Object {
+            "order": 2,
+            "span": 12,
+          }
+        }
+      >
+        <div
+          className="payment-page__worldpay-container-wrapper"
+        >
+          <div
+            className="payment-page__worldpay-container"
+          >
+            <Row
+              className="payment-page__label"
+              noGutters={false}
+            >
+              <Col
+                xs="auto"
+              >
+                <img
+                  alt="Card_Security_Icon"
+                  className="payment-page__info-icon"
+                  src="card_security_icon.svg"
+                />
+              </Col>
+              <Col
+                className="text-left pl-0"
+              >
+                <p
+                  className="text-small mb-0"
+                >
+                  Pay safely and securely
+                </p>
+              </Col>
+            </Row>
+            <HDInfoCardRefactor
+              className="mt-3 mt-md-4"
+              id="payment-page-bank-appr-info-card"
+              image="tip_circle_purple.svg"
+              isRight={false}
+              notes={null}
+              paragraphs={
+                Array [
+                  "Just so you know, your bank may ask you to approve this payment.",
+                ]
+              }
+              size="thin"
+              theme="light"
+              title={null}
+            />
+          </div>
+        </div>
+        <div
+          className="payment-page__cancel-info-container"
+        >
+          <HDQuoteInfoRefactor
+            className=""
+          >
+            If you want to go back and check anything just use the cancel button.
+          </HDQuoteInfoRefactor>
+        </div>
+      </Col>
+      <Col
+        className="payment-page__page-content--info"
+        md={
+          Object {
+            "order": 2,
+            "span": 5,
+          }
+        }
+        xs={
+          Object {
+            "order": 1,
+            "span": 12,
+          }
+        }
+      >
+        <div
+          className="payment-page__payment-info-container"
+        >
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className="payment-page__payment-info-label my-0"
+            text="Please read this before you pay..."
+          />
+          <HDLabelRefactor
+            Tag="h5"
+            adjustImagePosition={true}
+            className="payment-page__cpa-label"
+            text="Continuous payment authority"
+          />
+          <Row
+            className="payment-page__cpa-content"
+            noGutters={false}
+          >
+            <Col>
+              <p
+                key="0"
+              >
+                When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+              </p>
+              <p
+                key="1"
+              >
+                Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+              </p>
+            </Col>
+          </Row>
+          <HDQuoteInfoRefactor
+            className=""
+          >
+            You can cancel this continuous payment authority at any time, just get in touch and let us know.
+          </HDQuoteInfoRefactor>
+        </div>
+      </Col>
+    </Row>
+    <ForwardRef
+      confirmLabel="OK"
+      customStyle="payment-page__customize-quote"
+      headerText="Sorry, something went wrong"
+      hideCancelButton={true}
+      hideClose={true}
+      id="something-went-wrong-modal"
+      onBeforeOpen={null}
+      onConfirm={[Function]}
+      show={false}
+      webAnalyticsEvent={
+        Object {
+          "event_action": "Sorry, something went wrong",
+        }
+      }
+      webAnalyticsView={
+        Object {
+          "page_name": "test",
+          "page_section": "Sorry, something went wrong",
+          "page_type": "test",
+          "sales_journey_type": "single_car",
+        }
+      }
+    >
+      <p>
+        Your card payment hasn't gone through, please try again or use a different card.
+      </p>
+      <p>
+        If that doesn't work, please call us on 
+        <span
+          className="payment-page__phone-number"
+        >
+          0333 321 9829
+        </span>
+         so we can help. Make sure you've got your quote reference 
+        <span
+          className="payment-page__quote-ref"
+        />
+         to hand.
+      </p>
+      <h5
+        className="payment-page__opening-hours-header"
+      >
+        Our general opening hours are:
+      </h5>
+      <div
+        className="payment-page__opening-hours"
+      >
+        <div>
+          <p
+            key="0"
+          >
+            Monday to Friday
+          </p>
+          <p
+            key="1"
+          >
+            Saturday
+          </p>
+          <p
+            key="2"
+          >
+            Sunday
+          </p>
+        </div>
+        <div>
+          <p
+            key="0"
+          >
+            8am - 7pm
+          </p>
+          <p
+            key="1"
+          >
+            9am - 5pm
+          </p>
+          <p
+            key="2"
+          >
+            9am - 1pm
+          </p>
+        </div>
+      </div>
+      <p>
+        If you need immediate cover and it's outside of our opening hours, we're sorry but we won't be able to help you today.
+      </p>
+    </ForwardRef>
+  </Container>
+</Container>
+`;
+
+exports[`<HDPaymentPage /> load Worldpay iframe 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDPaymentPage
+    customizeSubmissionVM={
+      Object {
+        "quote": Object {
+          "hastingsPremium": Object {
+            "annuallyPayment": Object {
+              "premiumAnnualCost": Object {
+                "value": Object {
+                  "amount": 405.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+            "monthlyPayment": Object {
+              "firstInstalment": Object {
+                "value": Object {
+                  "amount": 40.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+          },
+        },
+        "value": Object {
+          "customQuotes": Array [
+            Object {
+              "periodStartDate": 2021-01-01T00:00:00.000Z,
+              "quote": Object {
+                "hastingsPremium": Object {
+                  "annuallyPayment": Object {
+                    "premiumAnnualCost": Object {
+                      "value": Object {
+                        "amount": 405.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                  "monthlyPayment": Object {
+                    "firstInstalment": Object {
+                      "value": Object {
+                        "amount": 40.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          ],
+          "insurancePaymentType": "1",
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    dispatch={[Function]}
+    mcPaymentSchedule={
+      Object {
+        "loading": false,
+        "mcPaymentScheduleError": null,
+        "mcPaymentScheduleObject": null,
+      }
+    }
+    multiCarFlag={false}
+    onAbort={[Function]}
+    onBindFailure={[Function]}
+    onMoveThankYouPage={[Function]}
+    onPaymentSuccess={[Function]}
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "single_car",
+      }
+    }
+    paymentType="1"
+    submissionVM={
+      Object {
+        "baseData": Object {
+          "accountHolder": Object {
+            "value": Object {
+              "dateOfBirth": "01/01/1992",
+            },
+          },
+        },
+        "value": Object {
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "quotes": Array [
+            Object {
+              "baseData": Object {},
+            },
+          ],
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    toggleContinueElement={[Function]}
+  >
+    <Container
+      className="payment-page"
+      fluid={true}
+    >
+      <div
+        className="payment-page container-fluid"
+      >
+        <div
+          className="arc-header"
+        >
+          <img
+            alt="arc-header"
+            className="arc-header_arc"
+            src="top-arc.svg"
+          />
+        </div>
+        <Container
+          fluid={false}
+        >
+          <div
+            className="container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col
+                  className="payment-page__main-header"
+                  md={7}
+                  xs={12}
+                >
+                  <div
+                    className="payment-page__main-header col-md-7 col-12"
+                  >
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text="Time to give us the card details for the "
+                    >
+                      <span
+                        className="h1"
+                      >
+                        Time to give us the card details for the 
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="payment-page__amount h1"
+                      text={
+                        <React.Fragment>
+                          £
+                          405.01
+                        </React.Fragment>
+                      }
+                    >
+                      <span
+                        className="payment-page__amount h1"
+                      >
+                        £
+                        405.01
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text=" due today..."
+                    >
+                      <span
+                        className="h1"
+                      >
+                         due today...
+                      </span>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="payment-page__page-content"
+              noGutters={false}
+            >
+              <div
+                className="payment-page__page-content row"
+              >
+                <Col
+                  className="payment-page__page-content--pay"
+                  md={
+                    Object {
+                      "order": 1,
+                      "span": 7,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 2,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--pay col-md-7 col-12 order-md-1 order-2"
+                  >
+                    <div
+                      className="payment-page__worldpay-container-wrapper"
+                    >
+                      <div
+                        className="payment-page__worldpay-container"
+                      >
+                        <Row
+                          className="payment-page__label"
+                          noGutters={false}
+                        >
+                          <div
+                            className="payment-page__label row"
+                          >
+                            <Col
+                              xs="auto"
+                            >
+                              <div
+                                className="col-auto"
+                              >
+                                <img
+                                  alt="Card_Security_Icon"
+                                  className="payment-page__info-icon"
+                                  src="card_security_icon.svg"
+                                />
+                              </div>
+                            </Col>
+                            <Col
+                              className="text-left pl-0"
+                            >
+                              <div
+                                className="text-left pl-0 col"
+                              >
+                                <p
+                                  className="text-small mb-0"
+                                >
+                                  Pay safely and securely
+                                </p>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <HDInfoCardRefactor
+                          className="mt-3 mt-md-4"
+                          id="payment-page-bank-appr-info-card"
+                          image="tip_circle_purple.svg"
+                          isRight={false}
+                          notes={null}
+                          paragraphs={
+                            Array [
+                              "Just so you know, your bank may ask you to approve this payment.",
+                            ]
+                          }
+                          size="thin"
+                          theme="light"
+                          title={null}
+                        >
+                          <div
+                            className="info-card left info-card--light info-card--thin mt-3 mt-md-4"
+                            id="payment-page-bank-appr-info-card"
+                          >
+                            <img
+                              alt="info-card"
+                              className="info-card__icon"
+                              src="tip_circle_purple.svg"
+                            />
+                            <p
+                              className="info-card__paragraph paragraph_0"
+                              key="0"
+                            >
+                              Just so you know, your bank may ask you to approve this payment.
+                            </p>
+                          </div>
+                        </HDInfoCardRefactor>
+                      </div>
+                    </div>
+                    <div
+                      className="payment-page__cancel-info-container"
+                    >
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            If you want to go back and check anything just use the cancel button.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+                <Col
+                  className="payment-page__page-content--info"
+                  md={
+                    Object {
+                      "order": 2,
+                      "span": 5,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 1,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--info col-md-5 col-12 order-md-2 order-1"
+                  >
+                    <div
+                      className="payment-page__payment-info-container"
+                    >
+                      <HDLabelRefactor
+                        Tag="h2"
+                        adjustImagePosition={true}
+                        className="payment-page__payment-info-label my-0"
+                        text="Please read this before you pay..."
+                      >
+                        <h2
+                          className="payment-page__payment-info-label my-0"
+                        >
+                          Please read this before you pay...
+                        </h2>
+                      </HDLabelRefactor>
+                      <HDLabelRefactor
+                        Tag="h5"
+                        adjustImagePosition={true}
+                        className="payment-page__cpa-label"
+                        text="Continuous payment authority"
+                      >
+                        <h5
+                          className="payment-page__cpa-label"
+                        >
+                          Continuous payment authority
+                        </h5>
+                      </HDLabelRefactor>
+                      <Row
+                        className="payment-page__cpa-content"
+                        noGutters={false}
+                      >
+                        <div
+                          className="payment-page__cpa-content row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <p
+                                key="0"
+                              >
+                                When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+                              </p>
+                              <p
+                                key="1"
+                              >
+                                Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+                              </p>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            You can cancel this continuous payment authority at any time, just get in touch and let us know.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <ForwardRef
+              confirmLabel="OK"
+              customStyle="payment-page__customize-quote"
+              headerText="Sorry, something went wrong"
+              hideCancelButton={true}
+              hideClose={true}
+              id="something-went-wrong-modal"
+              onBeforeOpen={null}
+              onConfirm={[Function]}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Sorry, something went wrong",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_name": "test",
+                  "page_section": "Sorry, something went wrong",
+                  "page_type": "test",
+                  "sales_journey_type": "single_car",
+                }
+              }
+            >
+              <ForwardRef
+                confirmLabel="OK"
+                customStyle="payment-page__customize-quote"
+                headerText="Sorry, something went wrong"
+                hideCancelButton={true}
+                hideClose={true}
+                id="something-went-wrong-modal"
+                onBeforeOpen={[Function]}
+                onBlur={null}
+                onCancel={null}
+                onChange={null}
+                onClick={null}
+                onConfirm={[Function]}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                show={false}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Sorry, something went wrong",
+                  }
+                }
+              >
+                <HDModal
+                  cancelLabel="Cancel"
+                  className=""
+                  confirmLabel="OK"
+                  customStyle="payment-page__customize-quote"
+                  headerText="Sorry, something went wrong"
+                  hideCancelButton={true}
+                  hideClose={true}
+                  hideConfirmButton={false}
+                  hideFooter={false}
+                  id="something-went-wrong-modal"
+                  onBeforeOpen={[Function]}
+                  onCancel={[Function]}
+                  onClose={[Function]}
+                  onConfirm={[Function]}
+                  show={false}
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </div>
+        </Container>
+      </div>
+    </Container>
+  </HDPaymentPage>
+</Provider>
+`;
+
+exports[`<HDPaymentPage /> render component 1`] = `
+<Container
+  className="payment-page"
+  fluid={true}
+>
+  <div
+    className="arc-header"
+  >
+    <img
+      alt="arc-header"
+      className="arc-header_arc"
+      src="top-arc.svg"
+    />
+  </div>
+  <Container
+    fluid={false}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="payment-page__main-header"
+        md={7}
+        xs={12}
+      >
+        <HDLabelRefactor
+          Tag="span"
+          adjustImagePosition={true}
+          className="h1"
+          text="Time to give us the card details for the "
+        />
+        <HDLabelRefactor
+          Tag="span"
+          adjustImagePosition={true}
+          className="payment-page__amount h1"
+          text={
+            <React.Fragment>
+              £
+              40.01
+            </React.Fragment>
+          }
+        />
+        <HDLabelRefactor
+          Tag="span"
+          adjustImagePosition={true}
+          className="h1"
+          text=" due today..."
+        />
+      </Col>
+    </Row>
+    <Row
+      className="payment-page__page-content"
+      noGutters={false}
+    >
+      <Col
+        className="payment-page__page-content--pay"
+        md={
+          Object {
+            "order": 1,
+            "span": 7,
+          }
+        }
+        xs={
+          Object {
+            "order": 2,
+            "span": 12,
+          }
+        }
+      >
+        <div
+          className="payment-page__worldpay-container-wrapper"
+        >
+          <div
+            className="payment-page__worldpay-container"
+          >
+            <Row
+              className="payment-page__label"
+              noGutters={false}
+            >
+              <Col
+                xs="auto"
+              >
+                <img
+                  alt="Card_Security_Icon"
+                  className="payment-page__info-icon"
+                  src="card_security_icon.svg"
+                />
+              </Col>
+              <Col
+                className="text-left pl-0"
+              >
+                <p
+                  className="text-small mb-0"
+                >
+                  Pay safely and securely
+                </p>
+              </Col>
+            </Row>
+            <HDInfoCardRefactor
+              className="mt-3 mt-md-4"
+              id="payment-page-bank-appr-info-card"
+              image="tip_circle_purple.svg"
+              isRight={false}
+              notes={null}
+              paragraphs={
+                Array [
+                  "Just so you know, your bank may ask you to approve this payment.",
+                ]
+              }
+              size="thin"
+              theme="light"
+              title={null}
+            />
+          </div>
+        </div>
+        <div
+          className="payment-page__cancel-info-container"
+        >
+          <HDQuoteInfoRefactor
+            className=""
+          >
+            If you want to go back and check anything just use the cancel button.
+          </HDQuoteInfoRefactor>
+        </div>
+      </Col>
+      <Col
+        className="payment-page__page-content--info"
+        md={
+          Object {
+            "order": 2,
+            "span": 5,
+          }
+        }
+        xs={
+          Object {
+            "order": 1,
+            "span": 12,
+          }
+        }
+      >
+        <div
+          className="payment-page__payment-info-container"
+        >
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className="payment-page__payment-info-label my-0"
+            text="Please read this before you pay..."
+          />
+          <HDLabelRefactor
+            Tag="h5"
+            adjustImagePosition={true}
+            className="payment-page__cpa-label"
+            text="Continuous payment authority"
+          />
+          <Row
+            className="payment-page__cpa-content"
+            noGutters={false}
+          >
+            <Col>
+              <p
+                key="0"
+              >
+                When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+              </p>
+              <p
+                key="1"
+              >
+                Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+              </p>
+            </Col>
+          </Row>
+          <HDQuoteInfoRefactor
+            className=""
+          >
+            You can cancel this continuous payment authority at any time, just get in touch and let us know.
+          </HDQuoteInfoRefactor>
+        </div>
+      </Col>
+    </Row>
+    <ForwardRef
+      confirmLabel="OK"
+      customStyle="payment-page__customize-quote"
+      headerText="Sorry, something went wrong"
+      hideCancelButton={true}
+      hideClose={true}
+      id="something-went-wrong-modal"
+      onBeforeOpen={null}
+      onConfirm={[Function]}
+      show={false}
+      webAnalyticsEvent={
+        Object {
+          "event_action": "Sorry, something went wrong",
+        }
+      }
+      webAnalyticsView={
+        Object {
+          "page_name": "test",
+          "page_section": "Sorry, something went wrong",
+          "page_type": "test",
+          "sales_journey_type": "single_car",
+        }
+      }
+    >
+      <p>
+        Your card payment hasn't gone through, please try again or use a different card.
+      </p>
+      <p>
+        If that doesn't work, please call us on 
+        <span
+          className="payment-page__phone-number"
+        >
+          0333 321 9829
+        </span>
+         so we can help. Make sure you've got your quote reference 
+        <span
+          className="payment-page__quote-ref"
+        />
+         to hand.
+      </p>
+      <h5
+        className="payment-page__opening-hours-header"
+      >
+        Our general opening hours are:
+      </h5>
+      <div
+        className="payment-page__opening-hours"
+      >
+        <div>
+          <p
+            key="0"
+          >
+            Monday to Friday
+          </p>
+          <p
+            key="1"
+          >
+            Saturday
+          </p>
+          <p
+            key="2"
+          >
+            Sunday
+          </p>
+        </div>
+        <div>
+          <p
+            key="0"
+          >
+            8am - 7pm
+          </p>
+          <p
+            key="1"
+          >
+            9am - 5pm
+          </p>
+          <p
+            key="2"
+          >
+            9am - 1pm
+          </p>
+        </div>
+      </div>
+      <p>
+        If you need immediate cover and it's outside of our opening hours, we're sorry but we won't be able to help you today.
+      </p>
+    </ForwardRef>
+  </Container>
+</Container>
+`;
+
+exports[`<HDPaymentPage /> show error when bind and issue service wasn't successful 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDPaymentPage
+    customizeSubmissionVM={
+      Object {
+        "quote": Object {
+          "hastingsPremium": Object {
+            "annuallyPayment": Object {
+              "premiumAnnualCost": Object {
+                "value": Object {
+                  "amount": 405.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+            "monthlyPayment": Object {
+              "firstInstalment": Object {
+                "value": Object {
+                  "amount": 40.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+          },
+        },
+        "value": Object {
+          "customQuotes": Array [
+            Object {
+              "periodStartDate": 2021-01-01T00:00:00.000Z,
+              "quote": Object {
+                "hastingsPremium": Object {
+                  "annuallyPayment": Object {
+                    "premiumAnnualCost": Object {
+                      "value": Object {
+                        "amount": 405.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                  "monthlyPayment": Object {
+                    "firstInstalment": Object {
+                      "value": Object {
+                        "amount": 40.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          ],
+          "insurancePaymentType": "1",
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    dispatch={[Function]}
+    mcPaymentSchedule={
+      Object {
+        "loading": false,
+        "mcPaymentScheduleError": null,
+        "mcPaymentScheduleObject": null,
+      }
+    }
+    multiCarFlag={false}
+    onAbort={[Function]}
+    onBindFailure={[Function]}
+    onMoveThankYouPage={[Function]}
+    onPaymentSuccess={[Function]}
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "single_car",
+      }
+    }
+    paymentType="1"
+    submissionVM={
+      Object {
+        "baseData": Object {
+          "accountHolder": Object {
+            "value": Object {
+              "dateOfBirth": "01/01/1992",
+            },
+          },
+        },
+        "value": Object {
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "quotes": Array [
+            Object {
+              "baseData": Object {},
+            },
+          ],
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    toggleContinueElement={[Function]}
+  >
+    <Container
+      className="payment-page"
+      fluid={true}
+    >
+      <div
+        className="payment-page container-fluid"
+      >
+        <div
+          className="arc-header"
+        >
+          <img
+            alt="arc-header"
+            className="arc-header_arc"
+            src="top-arc.svg"
+          />
+        </div>
+        <Container
+          fluid={false}
+        >
+          <div
+            className="container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col
+                  className="payment-page__main-header"
+                  md={7}
+                  xs={12}
+                >
+                  <div
+                    className="payment-page__main-header col-md-7 col-12"
+                  >
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text="Time to give us the card details for the "
+                    >
+                      <span
+                        className="h1"
+                      >
+                        Time to give us the card details for the 
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="payment-page__amount h1"
+                      text={
+                        <React.Fragment>
+                          £
+                          405.01
+                        </React.Fragment>
+                      }
+                    >
+                      <span
+                        className="payment-page__amount h1"
+                      >
+                        £
+                        405.01
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text=" due today..."
+                    >
+                      <span
+                        className="h1"
+                      >
+                         due today...
+                      </span>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="payment-page__page-content"
+              noGutters={false}
+            >
+              <div
+                className="payment-page__page-content row"
+              >
+                <Col
+                  className="payment-page__page-content--pay"
+                  md={
+                    Object {
+                      "order": 1,
+                      "span": 7,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 2,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--pay col-md-7 col-12 order-md-1 order-2"
+                  >
+                    <div
+                      className="payment-page__worldpay-container-wrapper"
+                    >
+                      <div
+                        className="payment-page__worldpay-container"
+                      >
+                        <Row
+                          className="payment-page__label"
+                          noGutters={false}
+                        >
+                          <div
+                            className="payment-page__label row"
+                          >
+                            <Col
+                              xs="auto"
+                            >
+                              <div
+                                className="col-auto"
+                              >
+                                <img
+                                  alt="Card_Security_Icon"
+                                  className="payment-page__info-icon"
+                                  src="card_security_icon.svg"
+                                />
+                              </div>
+                            </Col>
+                            <Col
+                              className="text-left pl-0"
+                            >
+                              <div
+                                className="text-left pl-0 col"
+                              >
+                                <p
+                                  className="text-small mb-0"
+                                >
+                                  Pay safely and securely
+                                </p>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <HDInfoCardRefactor
+                          className="mt-3 mt-md-4"
+                          id="payment-page-bank-appr-info-card"
+                          image="tip_circle_purple.svg"
+                          isRight={false}
+                          notes={null}
+                          paragraphs={
+                            Array [
+                              "Just so you know, your bank may ask you to approve this payment.",
+                            ]
+                          }
+                          size="thin"
+                          theme="light"
+                          title={null}
+                        >
+                          <div
+                            className="info-card left info-card--light info-card--thin mt-3 mt-md-4"
+                            id="payment-page-bank-appr-info-card"
+                          >
+                            <img
+                              alt="info-card"
+                              className="info-card__icon"
+                              src="tip_circle_purple.svg"
+                            />
+                            <p
+                              className="info-card__paragraph paragraph_0"
+                              key="0"
+                            >
+                              Just so you know, your bank may ask you to approve this payment.
+                            </p>
+                          </div>
+                        </HDInfoCardRefactor>
+                      </div>
+                    </div>
+                    <div
+                      className="payment-page__cancel-info-container"
+                    >
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            If you want to go back and check anything just use the cancel button.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+                <Col
+                  className="payment-page__page-content--info"
+                  md={
+                    Object {
+                      "order": 2,
+                      "span": 5,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 1,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--info col-md-5 col-12 order-md-2 order-1"
+                  >
+                    <div
+                      className="payment-page__payment-info-container"
+                    >
+                      <HDLabelRefactor
+                        Tag="h2"
+                        adjustImagePosition={true}
+                        className="payment-page__payment-info-label my-0"
+                        text="Please read this before you pay..."
+                      >
+                        <h2
+                          className="payment-page__payment-info-label my-0"
+                        >
+                          Please read this before you pay...
+                        </h2>
+                      </HDLabelRefactor>
+                      <HDLabelRefactor
+                        Tag="h5"
+                        adjustImagePosition={true}
+                        className="payment-page__cpa-label"
+                        text="Continuous payment authority"
+                      >
+                        <h5
+                          className="payment-page__cpa-label"
+                        >
+                          Continuous payment authority
+                        </h5>
+                      </HDLabelRefactor>
+                      <Row
+                        className="payment-page__cpa-content"
+                        noGutters={false}
+                      >
+                        <div
+                          className="payment-page__cpa-content row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <p
+                                key="0"
+                              >
+                                When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+                              </p>
+                              <p
+                                key="1"
+                              >
+                                Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+                              </p>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            You can cancel this continuous payment authority at any time, just get in touch and let us know.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <ForwardRef
+              confirmLabel="OK"
+              customStyle="payment-page__customize-quote"
+              headerText="Sorry, something went wrong"
+              hideCancelButton={true}
+              hideClose={true}
+              id="something-went-wrong-modal"
+              onBeforeOpen={null}
+              onConfirm={[Function]}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Sorry, something went wrong",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_name": "test",
+                  "page_section": "Sorry, something went wrong",
+                  "page_type": "test",
+                  "sales_journey_type": "single_car",
+                }
+              }
+            >
+              <ForwardRef
+                confirmLabel="OK"
+                customStyle="payment-page__customize-quote"
+                headerText="Sorry, something went wrong"
+                hideCancelButton={true}
+                hideClose={true}
+                id="something-went-wrong-modal"
+                onBeforeOpen={[Function]}
+                onBlur={null}
+                onCancel={null}
+                onChange={null}
+                onClick={null}
+                onConfirm={[Function]}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                show={false}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Sorry, something went wrong",
+                  }
+                }
+              >
+                <HDModal
+                  cancelLabel="Cancel"
+                  className=""
+                  confirmLabel="OK"
+                  customStyle="payment-page__customize-quote"
+                  headerText="Sorry, something went wrong"
+                  hideCancelButton={true}
+                  hideClose={true}
+                  hideConfirmButton={false}
+                  hideFooter={false}
+                  id="something-went-wrong-modal"
+                  onBeforeOpen={[Function]}
+                  onCancel={[Function]}
+                  onClose={[Function]}
+                  onConfirm={[Function]}
+                  show={false}
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </div>
+        </Container>
+      </div>
+    </Container>
+  </HDPaymentPage>
+</Provider>
+`;
+
+exports[`<HDPaymentPage /> show error when fetching hosted payment url wasn't successful 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDPaymentPage
+    customizeSubmissionVM={
+      Object {
+        "quote": Object {
+          "hastingsPremium": Object {
+            "annuallyPayment": Object {
+              "premiumAnnualCost": Object {
+                "value": Object {
+                  "amount": 405.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+            "monthlyPayment": Object {
+              "firstInstalment": Object {
+                "value": Object {
+                  "amount": 40.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+          },
+        },
+        "value": Object {
+          "customQuotes": Array [
+            Object {
+              "periodStartDate": 2021-01-01T00:00:00.000Z,
+              "quote": Object {
+                "hastingsPremium": Object {
+                  "annuallyPayment": Object {
+                    "premiumAnnualCost": Object {
+                      "value": Object {
+                        "amount": 405.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                  "monthlyPayment": Object {
+                    "firstInstalment": Object {
+                      "value": Object {
+                        "amount": 40.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          ],
+          "insurancePaymentType": "1",
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    dispatch={[Function]}
+    mcPaymentSchedule={
+      Object {
+        "loading": false,
+        "mcPaymentScheduleError": null,
+        "mcPaymentScheduleObject": null,
+      }
+    }
+    multiCarFlag={false}
+    onAbort={[Function]}
+    onBindFailure={[Function]}
+    onMoveThankYouPage={[Function]}
+    onPaymentSuccess={[Function]}
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "single_car",
+      }
+    }
+    paymentType="1"
+    submissionVM={
+      Object {
+        "baseData": Object {
+          "accountHolder": Object {
+            "value": Object {
+              "dateOfBirth": "01/01/1992",
+            },
+          },
+        },
+        "value": Object {
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "quotes": Array [
+            Object {
+              "baseData": Object {},
+            },
+          ],
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    toggleContinueElement={[Function]}
+  >
+    <Container
+      className="payment-page"
+      fluid={true}
+    >
+      <div
+        className="payment-page container-fluid"
+      >
+        <div
+          className="arc-header"
+        >
+          <img
+            alt="arc-header"
+            className="arc-header_arc"
+            src="top-arc.svg"
+          />
+        </div>
+        <Container
+          fluid={false}
+        >
+          <div
+            className="container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col
+                  className="payment-page__main-header"
+                  md={7}
+                  xs={12}
+                >
+                  <div
+                    className="payment-page__main-header col-md-7 col-12"
+                  >
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text="Time to give us the card details for the "
+                    >
+                      <span
+                        className="h1"
+                      >
+                        Time to give us the card details for the 
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="payment-page__amount h1"
+                      text={
+                        <React.Fragment>
+                          £
+                          405.01
+                        </React.Fragment>
+                      }
+                    >
+                      <span
+                        className="payment-page__amount h1"
+                      >
+                        £
+                        405.01
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text=" due today..."
+                    >
+                      <span
+                        className="h1"
+                      >
+                         due today...
+                      </span>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="payment-page__page-content"
+              noGutters={false}
+            >
+              <div
+                className="payment-page__page-content row"
+              >
+                <Col
+                  className="payment-page__page-content--pay"
+                  md={
+                    Object {
+                      "order": 1,
+                      "span": 7,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 2,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--pay col-md-7 col-12 order-md-1 order-2"
+                  >
+                    <div
+                      className="payment-page__worldpay-container-wrapper"
+                    >
+                      <div
+                        className="payment-page__worldpay-container"
+                      >
+                        <Row
+                          className="payment-page__label"
+                          noGutters={false}
+                        >
+                          <div
+                            className="payment-page__label row"
+                          >
+                            <Col
+                              xs="auto"
+                            >
+                              <div
+                                className="col-auto"
+                              >
+                                <img
+                                  alt="Card_Security_Icon"
+                                  className="payment-page__info-icon"
+                                  src="card_security_icon.svg"
+                                />
+                              </div>
+                            </Col>
+                            <Col
+                              className="text-left pl-0"
+                            >
+                              <div
+                                className="text-left pl-0 col"
+                              >
+                                <p
+                                  className="text-small mb-0"
+                                >
+                                  Pay safely and securely
+                                </p>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <HDInfoCardRefactor
+                          className="mt-3 mt-md-4"
+                          id="payment-page-bank-appr-info-card"
+                          image="tip_circle_purple.svg"
+                          isRight={false}
+                          notes={null}
+                          paragraphs={
+                            Array [
+                              "Just so you know, your bank may ask you to approve this payment.",
+                            ]
+                          }
+                          size="thin"
+                          theme="light"
+                          title={null}
+                        >
+                          <div
+                            className="info-card left info-card--light info-card--thin mt-3 mt-md-4"
+                            id="payment-page-bank-appr-info-card"
+                          >
+                            <img
+                              alt="info-card"
+                              className="info-card__icon"
+                              src="tip_circle_purple.svg"
+                            />
+                            <p
+                              className="info-card__paragraph paragraph_0"
+                              key="0"
+                            >
+                              Just so you know, your bank may ask you to approve this payment.
+                            </p>
+                          </div>
+                        </HDInfoCardRefactor>
+                      </div>
+                    </div>
+                    <div
+                      className="payment-page__cancel-info-container"
+                    >
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            If you want to go back and check anything just use the cancel button.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+                <Col
+                  className="payment-page__page-content--info"
+                  md={
+                    Object {
+                      "order": 2,
+                      "span": 5,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 1,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--info col-md-5 col-12 order-md-2 order-1"
+                  >
+                    <div
+                      className="payment-page__payment-info-container"
+                    >
+                      <HDLabelRefactor
+                        Tag="h2"
+                        adjustImagePosition={true}
+                        className="payment-page__payment-info-label my-0"
+                        text="Please read this before you pay..."
+                      >
+                        <h2
+                          className="payment-page__payment-info-label my-0"
+                        >
+                          Please read this before you pay...
+                        </h2>
+                      </HDLabelRefactor>
+                      <HDLabelRefactor
+                        Tag="h5"
+                        adjustImagePosition={true}
+                        className="payment-page__cpa-label"
+                        text="Continuous payment authority"
+                      >
+                        <h5
+                          className="payment-page__cpa-label"
+                        >
+                          Continuous payment authority
+                        </h5>
+                      </HDLabelRefactor>
+                      <Row
+                        className="payment-page__cpa-content"
+                        noGutters={false}
+                      >
+                        <div
+                          className="payment-page__cpa-content row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <p
+                                key="0"
+                              >
+                                When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+                              </p>
+                              <p
+                                key="1"
+                              >
+                                Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+                              </p>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            You can cancel this continuous payment authority at any time, just get in touch and let us know.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <ForwardRef
+              confirmLabel="OK"
+              customStyle="payment-page__customize-quote"
+              headerText="Sorry, something went wrong"
+              hideCancelButton={true}
+              hideClose={true}
+              id="something-went-wrong-modal"
+              onBeforeOpen={null}
+              onConfirm={[Function]}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Sorry, something went wrong",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_name": "test",
+                  "page_section": "Sorry, something went wrong",
+                  "page_type": "test",
+                  "sales_journey_type": "single_car",
+                }
+              }
+            >
+              <ForwardRef
+                confirmLabel="OK"
+                customStyle="payment-page__customize-quote"
+                headerText="Sorry, something went wrong"
+                hideCancelButton={true}
+                hideClose={true}
+                id="something-went-wrong-modal"
+                onBeforeOpen={[Function]}
+                onBlur={null}
+                onCancel={null}
+                onChange={null}
+                onClick={null}
+                onConfirm={[Function]}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                show={false}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Sorry, something went wrong",
+                  }
+                }
+              >
+                <HDModal
+                  cancelLabel="Cancel"
+                  className=""
+                  confirmLabel="OK"
+                  customStyle="payment-page__customize-quote"
+                  headerText="Sorry, something went wrong"
+                  hideCancelButton={true}
+                  hideClose={true}
+                  hideConfirmButton={false}
+                  hideFooter={false}
+                  id="something-went-wrong-modal"
+                  onBeforeOpen={[Function]}
+                  onCancel={[Function]}
+                  onClose={[Function]}
+                  onConfirm={[Function]}
+                  show={false}
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </div>
+        </Container>
+      </div>
+    </Container>
+  </HDPaymentPage>
+</Provider>
+`;
+
+exports[`<HDPaymentPage /> show error when fetching order code wasn't successful 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDPaymentPage
+    customizeSubmissionVM={
+      Object {
+        "quote": Object {
+          "hastingsPremium": Object {
+            "annuallyPayment": Object {
+              "premiumAnnualCost": Object {
+                "value": Object {
+                  "amount": 405.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+            "monthlyPayment": Object {
+              "firstInstalment": Object {
+                "value": Object {
+                  "amount": 40.01,
+                  "currency": "gbp",
+                },
+              },
+            },
+          },
+        },
+        "value": Object {
+          "customQuotes": Array [
+            Object {
+              "periodStartDate": 2021-01-01T00:00:00.000Z,
+              "quote": Object {
+                "hastingsPremium": Object {
+                  "annuallyPayment": Object {
+                    "premiumAnnualCost": Object {
+                      "value": Object {
+                        "amount": 405.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                  "monthlyPayment": Object {
+                    "firstInstalment": Object {
+                      "value": Object {
+                        "amount": 40.01,
+                        "currency": "gbp",
+                      },
+                    },
+                  },
+                },
+              },
+            },
+          ],
+          "insurancePaymentType": "1",
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    dispatch={[Function]}
+    mcPaymentSchedule={
+      Object {
+        "loading": false,
+        "mcPaymentScheduleError": null,
+        "mcPaymentScheduleObject": null,
+      }
+    }
+    multiCarFlag={false}
+    onAbort={[Function]}
+    onBindFailure={[Function]}
+    onMoveThankYouPage={[Function]}
+    onPaymentSuccess={[Function]}
+    pageMetadata={
+      Object {
+        "page_name": "test",
+        "page_type": "test",
+        "sales_journey_type": "single_car",
+      }
+    }
+    paymentType="1"
+    submissionVM={
+      Object {
+        "baseData": Object {
+          "accountHolder": Object {
+            "value": Object {
+              "dateOfBirth": "01/01/1992",
+            },
+          },
+        },
+        "value": Object {
+          "mpwrapperNumber": "1200098",
+          "quoteId": "1200098",
+          "quotes": Array [
+            Object {
+              "baseData": Object {},
+            },
+          ],
+          "sessionUUID": "34423-3432-34f34",
+        },
+      }
+    }
+    toggleContinueElement={[Function]}
+  >
+    <Container
+      className="payment-page"
+      fluid={true}
+    >
+      <div
+        className="payment-page container-fluid"
+      >
+        <div
+          className="arc-header"
+        >
+          <img
+            alt="arc-header"
+            className="arc-header_arc"
+            src="top-arc.svg"
+          />
+        </div>
+        <Container
+          fluid={false}
+        >
+          <div
+            className="container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col
+                  className="payment-page__main-header"
+                  md={7}
+                  xs={12}
+                >
+                  <div
+                    className="payment-page__main-header col-md-7 col-12"
+                  >
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text="Time to give us the card details for the "
+                    >
+                      <span
+                        className="h1"
+                      >
+                        Time to give us the card details for the 
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="payment-page__amount h1"
+                      text={
+                        <React.Fragment>
+                          £
+                          405.01
+                        </React.Fragment>
+                      }
+                    >
+                      <span
+                        className="payment-page__amount h1"
+                      >
+                        £
+                        405.01
+                      </span>
+                    </HDLabelRefactor>
+                    <HDLabelRefactor
+                      Tag="span"
+                      adjustImagePosition={true}
+                      className="h1"
+                      text=" due today..."
+                    >
+                      <span
+                        className="h1"
+                      >
+                         due today...
+                      </span>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="payment-page__page-content"
+              noGutters={false}
+            >
+              <div
+                className="payment-page__page-content row"
+              >
+                <Col
+                  className="payment-page__page-content--pay"
+                  md={
+                    Object {
+                      "order": 1,
+                      "span": 7,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 2,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--pay col-md-7 col-12 order-md-1 order-2"
+                  >
+                    <div
+                      className="payment-page__worldpay-container-wrapper"
+                    >
+                      <div
+                        className="payment-page__worldpay-container"
+                      >
+                        <Row
+                          className="payment-page__label"
+                          noGutters={false}
+                        >
+                          <div
+                            className="payment-page__label row"
+                          >
+                            <Col
+                              xs="auto"
+                            >
+                              <div
+                                className="col-auto"
+                              >
+                                <img
+                                  alt="Card_Security_Icon"
+                                  className="payment-page__info-icon"
+                                  src="card_security_icon.svg"
+                                />
+                              </div>
+                            </Col>
+                            <Col
+                              className="text-left pl-0"
+                            >
+                              <div
+                                className="text-left pl-0 col"
+                              >
+                                <p
+                                  className="text-small mb-0"
+                                >
+                                  Pay safely and securely
+                                </p>
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <HDInfoCardRefactor
+                          className="mt-3 mt-md-4"
+                          id="payment-page-bank-appr-info-card"
+                          image="tip_circle_purple.svg"
+                          isRight={false}
+                          notes={null}
+                          paragraphs={
+                            Array [
+                              "Just so you know, your bank may ask you to approve this payment.",
+                            ]
+                          }
+                          size="thin"
+                          theme="light"
+                          title={null}
+                        >
+                          <div
+                            className="info-card left info-card--light info-card--thin mt-3 mt-md-4"
+                            id="payment-page-bank-appr-info-card"
+                          >
+                            <img
+                              alt="info-card"
+                              className="info-card__icon"
+                              src="tip_circle_purple.svg"
+                            />
+                            <p
+                              className="info-card__paragraph paragraph_0"
+                              key="0"
+                            >
+                              Just so you know, your bank may ask you to approve this payment.
+                            </p>
+                          </div>
+                        </HDInfoCardRefactor>
+                      </div>
+                    </div>
+                    <div
+                      className="payment-page__cancel-info-container"
+                    >
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            If you want to go back and check anything just use the cancel button.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+                <Col
+                  className="payment-page__page-content--info"
+                  md={
+                    Object {
+                      "order": 2,
+                      "span": 5,
+                    }
+                  }
+                  xs={
+                    Object {
+                      "order": 1,
+                      "span": 12,
+                    }
+                  }
+                >
+                  <div
+                    className="payment-page__page-content--info col-md-5 col-12 order-md-2 order-1"
+                  >
+                    <div
+                      className="payment-page__payment-info-container"
+                    >
+                      <HDLabelRefactor
+                        Tag="h2"
+                        adjustImagePosition={true}
+                        className="payment-page__payment-info-label my-0"
+                        text="Please read this before you pay..."
+                      >
+                        <h2
+                          className="payment-page__payment-info-label my-0"
+                        >
+                          Please read this before you pay...
+                        </h2>
+                      </HDLabelRefactor>
+                      <HDLabelRefactor
+                        Tag="h5"
+                        adjustImagePosition={true}
+                        className="payment-page__cpa-label"
+                        text="Continuous payment authority"
+                      >
+                        <h5
+                          className="payment-page__cpa-label"
+                        >
+                          Continuous payment authority
+                        </h5>
+                      </HDLabelRefactor>
+                      <Row
+                        className="payment-page__cpa-content"
+                        noGutters={false}
+                      >
+                        <div
+                          className="payment-page__cpa-content row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <p
+                                key="0"
+                              >
+                                When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+                              </p>
+                              <p
+                                key="1"
+                              >
+                                Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+                              </p>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <HDQuoteInfoRefactor
+                        className=""
+                      >
+                        <div
+                          className="quote-info theme-white "
+                          id="quote-info-body"
+                        >
+                          <p
+                            className="quote-info__info-icon"
+                            id="quote-info-icon"
+                          >
+                            <span>
+                              !
+                            </span>
+                          </p>
+                          <p
+                            className="quote-info__info-paragraph align-self-center"
+                            id="quote-info-paragraph"
+                          >
+                            You can cancel this continuous payment authority at any time, just get in touch and let us know.
+                          </p>
+                        </div>
+                      </HDQuoteInfoRefactor>
+                    </div>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <ForwardRef
+              confirmLabel="OK"
+              customStyle="payment-page__customize-quote"
+              headerText="Sorry, something went wrong"
+              hideCancelButton={true}
+              hideClose={true}
+              id="something-went-wrong-modal"
+              onBeforeOpen={null}
+              onConfirm={[Function]}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Sorry, something went wrong",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_name": "test",
+                  "page_section": "Sorry, something went wrong",
+                  "page_type": "test",
+                  "sales_journey_type": "single_car",
+                }
+              }
+            >
+              <ForwardRef
+                confirmLabel="OK"
+                customStyle="payment-page__customize-quote"
+                headerText="Sorry, something went wrong"
+                hideCancelButton={true}
+                hideClose={true}
+                id="something-went-wrong-modal"
+                onBeforeOpen={[Function]}
+                onBlur={null}
+                onCancel={null}
+                onChange={null}
+                onClick={null}
+                onConfirm={[Function]}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                show={false}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Sorry, something went wrong",
+                  }
+                }
+              >
+                <HDModal
+                  cancelLabel="Cancel"
+                  className=""
+                  confirmLabel="OK"
+                  customStyle="payment-page__customize-quote"
+                  headerText="Sorry, something went wrong"
+                  hideCancelButton={true}
+                  hideClose={true}
+                  hideConfirmButton={false}
+                  hideFooter={false}
+                  id="something-went-wrong-modal"
+                  onBeforeOpen={[Function]}
+                  onCancel={[Function]}
+                  onClose={[Function]}
+                  onConfirm={[Function]}
+                  show={false}
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </div>
+        </Container>
+      </div>
+    </Container>
+  </HDPaymentPage>
+</Provider>
+`;

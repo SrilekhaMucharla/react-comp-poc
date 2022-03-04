@@ -1,0 +1,20 @@
+.driver-claims-container {
+}
+
+.driver-claims__incident-date-label {
+  & > .col:first-child() {
+    @include media-breakpoint-down(sm) {
+      flex: 0 0 auto;
+      width: auto;
+    }
+  }
+  & > div > h5 {
+    margin-top: 0 !important;
+  }
+}
+
+.driver-claims-toggle {
+  .btn-group.btn-group-toggle {
+    gap: 15px;
+  }
+}

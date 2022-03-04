@@ -1,0 +1,55 @@
+.hastings-card {
+    width: 333px;
+    height: auto; //70px;
+    min-height: 70px;
+    color: $white-fill;
+    box-shadow: $primary-shadow;
+    border-radius: 6px;
+    padding: 13px 0 10px 21px;
+    @include media-breakpoint-down(md){
+        width: 315px;
+    }
+}
+
+.clickable-title-paragraph {
+    display: inline-block;
+    width: 65%;
+    vertical-align: middle;
+}
+
+.clickable-card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: $font-size-regular;
+    color: $white-color;
+    line-height: 30px;
+}
+
+.clickable-card-paragraph {
+    font-style: normal;
+    font-size:  $font-size-regular;
+    color: $gray-dark-3;
+    line-height: 20px;
+}
+
+.clickable-card-delete {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    i{
+        font-size: 40px;
+    }
+}
+
+.clickable-card-edit {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    i{
+        font-size: 40px;
+    }
+}

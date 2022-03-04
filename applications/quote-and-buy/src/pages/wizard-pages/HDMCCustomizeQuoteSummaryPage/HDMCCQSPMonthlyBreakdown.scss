@@ -1,0 +1,138 @@
+.mc-hd-monthly-payments-description {
+    position: relative;
+    left: 15px;
+    margin-top: 12px;
+    width: 100%;
+    background-color: $mono-cotton-ball;
+    border: 3px solid $midnight-royal-blue;
+    border-radius: 6px;
+    padding: 25px 90px;
+    text-align: left;
+    @include media-breakpoint-down(md) {
+        padding: 48px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding: 11px;
+    }
+
+    &:before {
+        position: absolute;
+        left: calc(25% - 15px);
+        top: -17px;
+        content: "";
+        width: 30px;
+        height: 30px;
+        background-color: $mono-cotton-ball;
+        border-left: 3px solid $midnight-royal-blue;
+        border-top: 3px solid $midnight-royal-blue;
+        transform: rotate(45deg);
+    }
+}
+
+.mc-hd-monthly-payments-description__line {
+    padding: 0 9px;
+    display: flex;
+    justify-content: space-between;
+    color: $mono-midnight;
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-bottom: 10px;
+}
+
+.mc-hd-monthly-payments-description__commented-line {
+    padding: 0 9px;
+    color: $blue-light-4;
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-bottom: 10px;
+}
+
+.mc-hd-monthly-payments-description__payment-quote-info {
+    margin-bottom: 19px;
+}
+
+.mc-hd-monthly-payments-description__quote-payment-info {
+    margin-bottom: 5px;
+}
+
+.mc-hd-monthly-payments-description__payment-car-info {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0 9px;
+}
+
+.mc-hd-monthly-payments-description__payment-car-name {
+    text-transform: capitalize;
+    font-family: $font-face-generic-regular;
+    font-size: 14px;
+    line-break: 16.8px;
+    color: $mono-midnight;
+    margin-left: 6px;
+    align-self: flex-end;
+}
+
+.mc-hd-monthly-payments-description__payment-reg-num {
+    font-family: $font-licence-plate;
+    font-size: 13px;
+    padding: 0 3px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    background-color: $midnight-reg;
+    border-radius: 2px;
+}
+
+.mc-hd-monthly-payments-description__monthly-payment-container {
+    padding: 0 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $mono-midnight;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-family: $font-face-generic-regular;
+    height: 40px;
+    background-color: rgba(2, 87, 187, 0.1);
+}
+
+.mc-hd-monthly-payments-description__line-demibold {
+    padding: 0 9px;
+    display: flex;
+    justify-content: space-between;
+    color: $mono-midnight;
+    font-family: $font-face-generic-regular;
+    font-size: 14px;
+    line-height: 16.8px;
+    margin-bottom: 10px;
+}
+
+.mc-hd-monthly-payments-description__commented-line {
+    color: $blue-light-4;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.mc-hd-monthly-payments-description__row-value {
+    text-align: right;
+}
+
+.mc-hd-monthly-payments-description__col {
+    padding: 0;
+}
+
+.mc-hd-monthly-payments-description__row {
+   margin-left: 0;
+   margin-right: 0;
+}
+
+.mc-hd-monthly-payments-description__hr {
+    margin: 16px 9px;
+}
+
+.mc-hd-monthly-payments-description__instalment-months {
+    flex-grow: 3;
+}
+
+.mc-hd-monthly-payments-description__hr-sec {
+    margin: 7px 9px 16px 9px;
+}

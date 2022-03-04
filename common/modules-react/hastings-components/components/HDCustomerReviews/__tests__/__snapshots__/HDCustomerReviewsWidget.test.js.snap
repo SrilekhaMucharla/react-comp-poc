@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCustomerReviewsWidget /> render component 1`] = `
+<div
+  className="customer-reviews-container"
+>
+  <div
+    className="reviews-badge badge-horizontal"
+    id="badge-horizontal"
+  />
+  <div
+    className="reviews-badge badge-vertical"
+    id="badge-vertical"
+  />
+</div>
+`;

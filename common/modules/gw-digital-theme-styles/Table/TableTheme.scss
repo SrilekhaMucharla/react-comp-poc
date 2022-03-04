@@ -1,0 +1,38 @@
+.digitalTable {
+    // custom variables
+    --gw-table-spacing: 20px;
+
+    // full table
+    --GW-COLOR-TEXT-1: var(--gw-gray-dark-4);
+
+    // header
+    --table-header-font-size: var(--font-xs);
+    --table-header-font-weight: var(--font-weight-regular);
+    --table-header-bg-color: transparent;
+
+    // body
+    --table-bg-color: transparent;
+    --table-padding-x: var(--gw-table-spacing);
+    --table-padding-y: var(--gw-table-spacing);
+    --table-border-color: var(--gw-grey-light-1);
+
+    padding: 0;
+
+    & th {
+        --gw-table-verticle-spacing: 4px;
+        text-transform: uppercase;
+        color: var(--gw-grey-dark-90-color);
+        padding: var(--gw-table-verticle-spacing) var(--gw-table-spacing)
+    }
+    & tbody tr:hover {
+        background-color: var(--gw-grey-light-8);
+    }
+
+    & td {
+        vertical-align: middle;
+    }
+}
+
+.digitalRow {
+    border-bottom: 1px solid var(--gw-grey-light-1);
+}

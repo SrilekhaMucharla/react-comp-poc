@@ -1,0 +1,41 @@
+.transition__banner {
+  .transition__banner_header{
+    margin-top: 100px;
+    z-index: 1;
+
+    h1{
+      font-size: 54px;
+      span {
+        padding: 10px 25px;
+        background-color: $midnight-plum;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        line-height: 60px;
+      }
+    }
+    h3 {
+      margin-top: 35px;
+      padding-left: 25px;
+    }
+
+    @include media-breakpoint-down(md) {
+      margin-top: 25px;
+      h1 {
+        font-size: 30px;
+        span {
+          padding: 10px 15px;
+          line-height: 1.5;
+        }
+      }
+      h3 {
+        margin-top: 25px;
+        margin-bottom: -20px;
+      }
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    .section-right {
+      padding: 0
+    }
+  }
+}

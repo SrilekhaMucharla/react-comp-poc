@@ -1,0 +1,102 @@
+{
+  "sections": [
+    {
+      "id": "gw-faq-billing",
+      "title": { "id":"faq.sections.General Billing", "defaultMessage": "General Billing" },
+      "topics": [
+        {
+          "id": "gw-faq-payment-methods",
+          "inlineQuestion": "faq.topics.payment_methods.inline_question",
+          "question": "faq.topics.payment_methods.question",
+          "short": "faq.topics.payment_methods.answer.short",
+          "long": "faq.topics.payment_methods.answer.long",
+          "link": {
+            "url": "http://example.com/one_time_payment",
+            "name": "faq.topics.payment_methods.link.To make a one time credit card payment, please click here."
+          }
+        },
+        {
+          "id": "gw-faq-billing-mistake",
+          "inlineQuestion": "faq.topics.billing_mistake.inline_question",
+          "question": "faq.topics.billing_mistake.question",
+          "short": "faq.topics.billing_mistake.answer.short",
+          "long": "faq.topics.billing_mistake.answer.long",
+          "link": {
+            "url": "http://example.com/report_billing_error",
+            "name": "faq.topics.billing_mistake.link.To report a billing mistake on your last statement, please click here."
+          }
+        }
+      ]
+    },
+    {
+      "id": "gw-faq-claim",
+      "title": { "id":"faq.sections.Claim", "defaultMessage": "Claim" },
+      "topics": [
+        {
+          "id": "gw-faq-when-to-claim",
+          "inlineQuestion": "faq.topics.when_to_claim.inline_question",
+          "question": "faq.topics.when_to_claim.question",
+          "short": "faq.topics.when_to_claim.answer.short",
+          "long": "faq.topics.when_to_claim.answer.long",
+          "videoId": "XHB609to9dg"
+        },
+        {
+          "id": "gw-faq-claim-rate-increase",
+          "inlineQuestion": "faq.topics.claim_rate_increase.inline_question",
+          "question": "faq.topics.claim_rate_increase.question",
+          "short": "faq.topics.claim_rate_increase.answer.short",
+          "long": "faq.topics.claim_rate_increase.answer.long"
+        },
+        {
+          "id": "gw-faq-deductible-payment",
+          "inlineQuestion": "faq.topics.deductible_payment.inline_question",
+          "question": "faq.topics.deductible_payment.question",
+          "short": "faq.topics.deductible_payment.answer.short",
+          "long": "faq.topics.deductible_payment.answer.long"
+        }
+      ]
+    },
+    {
+      "id": "gw-faq-inception",
+      "title": { "id":"faq.sections.How to customize the FAQ content", "defaultMessage": "How to customize the FAQ content" },
+      "topics": [
+        {
+          "id": "gw-faq-show-video",
+          "inlineQuestion": "faq.topics.show_video.inline_question",
+          "question": "faq.topics.show_video.question",
+          "short": "faq.topics.show_video.answer.short",
+          "long": "faq.topics.show_video.answer.long",
+          "videoId": "XHB609to9dg"
+        },
+        {
+          "id": "gw-faq-show-link",
+          "inlineQuestion": "faq.topics.show_link.inline_question",
+          "question": "faq.topics.show_link.question",
+          "short": "faq.topics.show_link.answer.short",
+          "long": "faq.topics.show_link.answer.long",
+          "link": {
+            "url": "http://lmgtfy.com/?q=what+is+a+url"
+          }
+        },
+        {
+          "id": "gw-faq-show-link-text",
+          "inlineQuestion": "faq.topics.show_link_text.inline_question",
+          "question": "faq.topics.show_link_text.question",
+          "short": "faq.topics.show_link_text.answer.short",
+          "long": "faq.topics.show_link_text.answer.long",
+          "link": {
+            "url": "http://lmgtfy.com/?q=what+is+inception",
+            "name": "faq.topics.show_link_text.This text can be clicked."
+          }
+        },
+        {
+          "id": "gw-faq-formatting",
+          "inlineQuestion": "faq.topics.formatting.inline_question",
+          "question": "faq.topics.formatting.question",
+          "short": "faq.topics.formatting.answer.short",
+          "long": "faq.topics.formatting.answer.long"
+        }
+      ]
+    }
+  ]
+}

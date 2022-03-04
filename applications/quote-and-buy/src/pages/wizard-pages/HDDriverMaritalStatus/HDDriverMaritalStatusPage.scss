@@ -1,0 +1,15 @@
+.marital-status {
+    &__container {
+        margin-bottom: 50px;
+        
+        hr {
+            @include media-breakpoint-down(sm) {
+                margin: 20px 0 25px;
+            }
+        }
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 36px;
+        }
+    }
+}

@@ -1,0 +1,118 @@
+.customize-quote-car-finder {
+  border-radius: 7px;
+  box-shadow: $secondary-shadow;
+  background-color: $app-theme;
+  margin-bottom: 50px;
+  padding: 20px;
+  @include media-breakpoint-up(md) {
+    padding: 30px 60px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding: 30px 110px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 0;
+    border-radius: 0;
+    padding: 20px 5px;
+  }
+}
+
+.customize-quote-car-finder__main-header {
+  z-index: 2;
+  color: $white-fill;
+  font-size: 34px;
+  @include media-breakpoint-down(sm) {
+    font-size: $font-size-xxl;
+  }
+  @include media-breakpoint-up(lg) {
+    font-size: 34px;
+    line-height: 1.2;
+    color: $mono-white;
+  }
+}
+
+.customize-quote-car-finder__find-car {
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+.customize-quote-car-finder__find-button {
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+}
+
+.customize-quote-car-finder__input-box {
+  input.hd-text-input__form-control {
+    height: 50px;
+    border-left: 0;
+  }
+  .hd-text-input__input-group__text {
+    height: 50px;
+    background-color: $link-color;
+    border: 6px solid $link-color;
+  }
+}
+
+.customize-quote-car-finder__error-box {
+  width: 100%;
+  padding: 20px 25px;
+  background-color: $error-color;
+  border-radius: 6px;
+  margin-bottom: 1.25em;
+  text-align: left;
+
+  span {
+    font-weight: bold;
+    font-size: $font-size-md;
+    font-size: 16px;
+
+    line-height: 24px;
+    color: $white-color;
+  }
+}
+
+.customize-quote-car-finder__modal {
+  .hastings-modal-content {
+    width: 327px;
+
+    .faq {
+        .help-icon {
+            display: inline;
+            margin-right: 0;
+            padding-left: 0;
+
+            a {
+                color: $app-theme;
+            }
+        }
+    }
+  }
+}
+
+.customize-quote-car-finder__modal__alert {
+  color: $brand-hastings-red;
+  font-size: 24px;
+}
+
+.customize-quote-car-finder__modal {
+  .hd-modal-footer {
+    button {
+      height: 50px;
+    }
+  }
+
+  .hd-modal-header {
+    position: relative;
+    & > span {
+      display: unset;
+      img {
+        position: absolute;
+        right: 0;
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

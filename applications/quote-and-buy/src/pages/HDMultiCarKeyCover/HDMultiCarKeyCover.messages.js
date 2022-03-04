@@ -1,0 +1,45 @@
+export const coverNeededQuestions = "Switch to a Multi Car policy  and you'll get a discount for every car you insure with us.";
+export const addKeyProtectionLabel = 'Do you need to add key protection';
+export const addKeyProtectionLabelName = 'kepProtection';
+export const yes = 'Yes';
+export const no = 'No';
+export const keyCoverPrefix = 'Increased cover';
+export const keyCoverHeading = 'Key protection';
+export const keyCoverLabelText = 'Your policy includes up to £500 cover if your car keys are stolen. You may want to add this increased level of key protection, which will remove your excess payment and protect your no claims discount should you make a claim.';
+export const tableDescription = 'Here\'s how the two level\'s of cover compare:';
+export const columnOneHeader = 'Already Included';
+export const reimbursementLimit1 = 'Reimbursement limit for Hastings Essentials';
+export const reimbursementLimit2 = 'Reimbursement limit for Hastings Direct or Hastings Premier';
+export const typeOfKey = 'Type of key';
+export const stolenKeyCover = 'Cover for stolen keys';
+export const lostKeyCover = 'Cover for lost keys';
+export const brokenInLockCover = 'Cover for keys broken in the lock';
+export const noExcess = 'No excess to pay';
+export const fullFamilyCover = 'Cover for all your family who live with you';
+export const damagedOutsideLock = 'Keys damaged outside of the lock and duplicate keys are not covered.';
+export const reportToPolice = 'You must report stolen keys to the Police and insurer within 48 hours.';
+export const documentLink = 'Read the Insurer Product Information document';
+export const needKeyProtection = (x) => 'Do you need to add key protection for '
++ `£${x}?`;
+// eslint-disable-next-line max-len
+export const needKeyProtectionInfo = "As this is a Multi Car quote, you only need to add this cover to the account holder's policy to insure all policyholders and people who live with you (on a permanent basis).";
+export const keyCoverFooterMessage = "Make sure to check you don't have this cover already, e.g. with a bank account.";
+export const popupMessage = (x) => 'Enhanced key replacement added for '
++ `£${x} - your price has been updated`;
+export const removedPopupMessage = 'Your extra has been removed - your price has been updated';
+export const keyCoverAmount = 15.99;
+export const ANCKeyCoverCovExt = 'ANCKeyCoverCov_Ext';
+export const PAYMENT_TYPE_ANNUALLY_CODE = '1';
+export const PAYMENT_TYPE_MONTHLY_CODE = '3';
+export const RETRIEVING_QUOTE = 'Retrieving quote...';
+export const payAnnuallyHeader = 'Pay in full';
+export const payMonthlyHeader = 'Pay monthly';
+export const HE = 'HE';
+export const ThreeHundred = '£300';
+export const fiveHundred = '£500';
+export const smallNo = 'no';
+export const smallYes = 'yes';
+export const trueString = 'true';
+export const falseString = 'false';
+export const Yes = 'Yes';
+export const No = 'No';

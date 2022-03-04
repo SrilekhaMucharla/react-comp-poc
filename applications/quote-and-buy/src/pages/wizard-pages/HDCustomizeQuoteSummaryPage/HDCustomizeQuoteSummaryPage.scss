@@ -1,0 +1,676 @@
+.customize-quote-summary {
+  background: $gray-light-8;
+
+  @include media-breakpoint-down(md) {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .arc-header {
+    z-index: 1;
+  }
+
+  .part {
+    box-shadow: $secondary-shadow;
+    background-color: $white-fill;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: 30px;
+      border-radius: 7px;
+    }
+  }
+
+  .cover-details__container {
+    padding-bottom: 1px;
+  }
+}
+
+.customize-quote-summary__basic-info-header {
+  padding-top: 55px;
+}
+
+.customize-quote-summary__basic-info-part {
+  padding: 0 17%;
+  @include media-breakpoint-down(md) {
+    padding: 0 20px;
+  }
+}
+
+.customize-quote-summary__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 43px;
+}
+
+.customize-quote-summary__your-quote-header {
+  position: relative;
+  z-index: 3;
+  color: $white-fill;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 41.2px;
+  margin-right: 0;
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-xxl;
+    line-height: 38.4px;
+    
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 0;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 0;
+  }
+}
+
+.customize-quote-summary__reg-number {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  background-color: $yellow-color;
+  border-radius: 4px;
+  padding: 2px 6px;
+
+  color: $app-theme;
+  font-family: $font-licence-plate;
+  font-size: 35px;
+  line-height: 47.3px;
+  @include media-breakpoint-down(md) {
+    font-size: 25px;
+    line-height: 33.8px;
+  }
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 10px;
+  }
+}
+
+.customize-quote-summary__no-registration-number-link {
+  position: relative;
+  z-index: 3;
+  margin-top: 21px;
+}
+
+.customize-quote-summary__payment-header {
+  margin-bottom: 12%;
+  font-weight: bold;
+  font-size: $font-size-regular-1;
+  line-height: 22.5px;
+}
+
+.customize-quote-summary__payment-description-top {
+  font-size: $font-size-sm;
+  line-height: 18px;
+}
+
+.customize-quote-summary__payment-description-bottom {
+  font-size: $font-size-regular-1;
+  font-weight: normal;
+  line-height: 16.5px;
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-sm-1;
+    line-height: 14.3px;
+  }
+}
+
+.customize-quote-summary__payment-value {
+  margin-top: 19px;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 120%;
+  @include media-breakpoint-down(md) {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+
+  &--monthly {
+    @include media-breakpoint-down(sm) {
+      padding: 0;
+    }
+  }
+}
+
+.customize-quote-summary__prefix {
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 120%;
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-xl;
+    line-height: 30px;
+  }
+  @include media-breakpoint-down(sm) {
+    font-size: $font-size-lg;
+  }
+}
+
+.customize-quote-summary__payment-summary-text {
+  margin-top: 9px !important;
+  font-size: $font-size-md;
+
+  @include media-breakpoint-down(md) {
+    font-size: $font-size-sm-1;
+  }
+}
+
+.customize-quote-summary__payment-explanation-link {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: $font-size-sm-1;
+  line-height: 15.6px;
+  text-decoration: underline;
+  @include media-breakpoint-down(md) {
+    margin-top: 16px;
+  }
+}
+
+.customize-quote-summary__month-year-buttons {
+  display: flex;
+  .btn-group-toggle {
+    width: 100%;
+  }
+
+  .btn.btn-default {
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    height: 188px;
+    z-index: 2;
+    margin: 0;
+    margin-bottom: 10px;
+    @include media-breakpoint-down(md) {
+      height: 171px;
+    }
+    @include media-breakpoint-down(sm) {
+      height: auto;
+    }
+    background-color: $gray-light-9;
+    color: $app-theme;
+    border: 1px solid $blue-light;
+
+    &:first-child {
+      margin-right: 9px;
+    }
+
+    &.active {
+      border-color: $link-color;
+      position: relative;
+      background-color: $link-color;
+      background-image: url("../images/icons/selected-vector.svg");
+      background-size: cover;
+      color: $white-fill;
+    }
+
+    &.active:before {
+      content: "";
+      background-image: url("./../../assets/images/icons/tick-icon-cqw.svg");
+      background-size: contain;
+      position: absolute;
+      width: 26px;
+      height: 26px;
+      background-color: $white-fill;
+      border: 1px solid $white-fill;
+      border-radius: 50%;
+      left: calc(50% - 14px);
+      top: -14px;
+    }
+
+    &.active:after {
+      display: none;
+    }
+  }
+}
+
+.only-annually {
+  .btn-group-toggle {
+    display: inline-flex;
+    width: 19.375em;
+    @include media-breakpoint-down(sm) {
+      width: 11.5em;
+    }
+  }
+}
+
+.customize-quote-summary__monthly-payments-description {
+  position: relative;
+  margin-top: 0.875em;
+  margin-bottom: 10px;
+  z-index: 1;
+  width: 100%;
+  background-color: $gray-light-9;
+  border: 3px solid $link-color;
+  border-radius: 6px;
+  padding: 1.5625em 5.625em;
+  text-align: left;
+  @include media-breakpoint-down(md) {
+    padding: 20px;
+  }
+
+  &:before {
+    position: absolute;
+    left: calc(25% - 15px);
+    top: -17px;
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: $gray-light-9;
+    border-left: 3px solid $link-color;
+    border-top: 3px solid $link-color;
+    transform: rotate(45deg);
+  }
+}
+
+.customize-quote-summary__line {
+  display: flex;
+  justify-content: space-between;
+  color: $app-theme;
+  font-size: $font-size-regular;
+  line-height: 16.8px;
+  margin-bottom: 10px;
+
+  div:last-child {
+    font-weight: bold;
+  }
+}
+
+.customize-quote-summary__commented-line {
+  color: $mono-blue-yonder;
+  font-size: $font-size-regular;
+  line-height: 16.8px;
+  margin-bottom: 10px;
+}
+
+.customize-quote-summary__quote-notice .quote-info {
+  width: 100%;
+  @include media-breakpoint-down(md) {
+    width: 100%;
+  }
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  padding: 16px;
+  margin-top: $xs-value;
+}
+
+.customize-quote-summary__quote-notice .quote-info__info-icon {
+  margin-top: unset;
+  margin-bottom: unset;
+}
+
+.customize-quote-summary__quote-info {
+  padding-top: 14px;
+  color: $app-theme;
+}
+
+.customize-quote-summary__quote-info-con {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.customize-quote-summary__quote-info-desc {
+  font-size: $font-size-sm-1;
+  color: $info-color;
+  padding: 0 10px;
+  margin-top: 5px;
+
+  @include media-breakpoint-down(md) {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.customize-quote-summary__ref-label {
+  font-size: $font-size-regular;
+  line-height: 16.8px;
+  padding-bottom: 5px;
+  width: 100%;
+  display: inline;
+}
+
+.customize-quote-summary__quote-ref {
+  font-weight: bold;
+  font-size: $font-size-regular;
+  line-height: 16.8px;
+}
+
+.customize-quote-summary__edit-container {
+  display: flex;
+  width: 100%;
+  margin: 2% 0;
+  justify-content: center;
+
+  > div {
+    img {
+      width: 40px;
+    }
+  }
+}
+
+.customize-quote-summary__text-style-edit {
+  margin-top: 22px;
+  margin-bottom: 29px;
+  font-size: $font-size-md;
+  line-height: 24px;
+
+  @include media-breakpoint-down(sm) {
+    letter-spacing: -0.3px;
+    padding: unset !important;
+  }
+}
+
+.customize-quote-summary__excess-value {
+  flex: 1;
+
+  input {
+    height: 41px;
+    background-color: $gray-light-9;
+    width: 100%;
+    border: 1px solid $blue-light;
+    border-radius: 6px;
+    padding: 13px;
+    color: $app-theme;
+    font-weight: 500;
+    font-size: $font-size-regular-1;
+    line-height: 22.5px;
+  }
+}
+
+.customize-quote-summary__voluntary-excess-sel {
+  .drop-down-list {
+    height: 41px;
+
+    > div {
+      padding-left: 0;
+    }
+  }
+  div[class$="singleValue"] {
+    color: $app-theme;
+    font-weight: 600;
+    font-size: $font-size-regular-1;
+    line-height: 22.5px;
+  }
+
+  input {
+    height: 26.6px;
+  }
+
+  div[class*="-option"] {
+    font-size: $font-size-regular-1 !important;
+    font-weight: 600 !important;
+    text-align: start !important;
+  }
+}
+
+.customize-quote-summary__excess-sign {
+  text-align: center;
+  padding-top: 1.7em;
+  font-weight: bold;
+  font-size: $font-size-lg;
+  line-height: 22.5px;
+  margin-top: 4px;
+}
+
+.customize-quote-summary__label {
+  font-weight: 500;
+  font-size: $font-size-regular-1;
+  line-height: 1.5;
+  color: $blue-light-3;
+}
+
+.customize-quote-summary__total {
+  padding-top: 0.75em;
+  color: $app-theme;
+  font-weight: bold;
+  font-size: $font-size-lg;
+  line-height: 1.2;
+}
+
+.customize-quote-summary__sections {
+  background-color: $gray-light-9;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+
+  @include media-breakpoint-down(md) {
+    flex-direction: column;
+  }
+
+  .overlay-outside {
+    background-color: $blue-transparent-95;
+  }
+
+  .hd-information-tooltip {
+    flex: 0;
+
+    .overlay .overlay-body {
+      padding: 1% 1% 1% 1%;
+      height: 100%;
+      overflow: initial;
+    }
+
+    .overlay .overlay-close {
+      margin-right: 25px;
+    }
+
+    .overlay-container {
+      width: 30%;
+    }
+  }
+}
+
+.customize-quote-summary__section {
+  border-top: 1px solid $blue-light;
+  padding: 20px 25px;
+
+  @include media-breakpoint-up(lg) {
+    &:first-child {
+        border-right: 1px solid $blue-light;
+    }
+  }
+}
+
+.customize-quote-summary__section-header {
+  margin-bottom: 0.8em;
+  display: flex;
+
+  #popup-your-excess,
+  #popup-start-date {
+    svg {
+      vertical-align: bottom;
+      width: 29px;
+      height: 29px;
+    }
+  }
+}
+
+.customize-quote-summary__section-excess-header {
+  color: $blue-dark-3;
+  font-weight: bold;
+  font-size: $font-size-lg-2;
+  line-height: 26.4px;
+  margin: 0;
+}
+
+.customize-quote-summary__info {
+  font-size: $font-size-sm;
+  color: $info-color;
+  text-align: right;
+  flex: 1;
+  margin-right: 7px;
+  display: inline-flex;
+  vertical-align: middle;
+  margin: 0;
+}
+.customize-quote-summary__date-picker {
+  .hd-date-picker__date-fields__day,
+  .hd-date-picker__date-fields__month,
+  .hd-date-picker__date-fields__year {
+    font-weight: 500;
+    width: 95%;
+    height: 41px;
+    -webkit-box-shadow: 2px 2px 4px 0 $blue-light-5;
+    -moz-box-shadow: 2px 2px 4px 0 $blue-light-5;
+    box-shadow: 2px 2px 4px 0 $blue-light-5;
+    border: 1px solid $mono-light-steel;
+  }
+
+  .hd-date-picker__date-fields__day-name,
+  .hd-date-picker__date-fields__month-name,
+  .hd-date-picker__date-fields__year-name {
+    text-align: left;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+  }
+
+  .hd-date-picker__date-fields > .row > div:nth-child(2) {
+    position: absolute;
+    left: 7.8em;
+    top: -3.2em;
+  }
+
+  .hd-date-picker__date-fields {
+    display: flex;
+    align-items: center;
+
+    & > .row > div[class^="col"] > .row  {
+
+      & > div[class^="col"] {
+        
+        &:nth-child(1) {
+          padding-right: 3px;
+          margin-left: -10px;
+        }
+        &:nth-child(2) {
+          padding-right: 3px;
+          padding-left: 3px;
+        }
+        &:nth-child(3) {
+          padding-left: 3px;
+        }
+      }
+    }
+  }
+
+  i.hd-date-picker__exclam {
+    top: 16px;
+  }
+}
+
+.customize-quote-summary__start-date-header {
+  font-size: $font-size-lg-2;
+}
+
+.customize-quote-summary__multicar {
+  @include media-breakpoint-down(md) {
+    margin-bottom: 30px;
+  }
+}
+
+.customize-quote-summary__multicar-info {
+  padding: 20px 20px 10px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  @include media-breakpoint-up(md) {
+    flex: 1;
+  }
+  @include media-breakpoint-down(md) {
+    padding: 20px 20px;
+    width: 100%;
+  }
+}
+
+.customize-quote-summary__multicar-label {
+  font-weight: bold;
+  font-size: $font-size-xl;
+  line-height: 21.6px;
+  color: $blue-dark-4;
+}
+
+.customize-quote-summary__multicar-content {
+  font-size: $font-size-md;
+  line-height: 24px;
+  color: $blue-dark-4;
+}
+
+a.customize-quote-summary__multicar-link {
+  font-weight: 600;
+  font-size: $font-size-md;
+  line-height: 24px;
+}
+
+.customize-quote-summary__multicar-bottomline-text {
+  font-size: $font-size-xxs;
+  margin-top: 20px;
+  line-height: 11px;
+  letter-spacing: 0;
+  color: $info-color;
+}
+
+.customize-quote-summary__multicar { 
+  zoom: 1; /* For IE 6/7 (trigger hasLayout) */ 
+}
+
+.customize-quote-summary__multicar-image-desktop {
+  display: none;
+  @include media-breakpoint-up(lg) {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: url(../../assets/images/wizard-images/multicar-info-image-desktop-new.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    clip-path: inset(0 0 0 0 round 0 7px 7px 0);
+  }
+}
+
+.customize-quote-summary__multicar-image-mobile {
+  width: 100%;
+  height: auto;
+  display: block;
+  @include media-breakpoint-up(lg) {
+    display: none;
+  }
+}
+
+.hastings-modal.customize-quote-decline {
+  .hd-modal-footer {
+    margin-bottom: 20px;
+  }
+}
+
+.customize-quote-wizard {
+  background-color: $mono-cultured;
+
+  .vehicle-details-page {
+    @include media-breakpoint-up(xl) {
+      padding: 0 20%;
+    }
+
+    @include media-breakpoint-down(md) {
+      padding: 0 20px;
+    }
+
+    .item-left-container {
+      background-color: $gray-light-12;
+    }
+  }
+}
+
+.cq-vehicle-details-container {
+  background-color: $app-theme;
+  color: $mono-white;
+  padding-bottom: 60px;
+  margin-bottom: -45px;
+}
+
+.missing-reg-number__modal {
+  .hd-modal-footer {
+    margin-top: 47px !important;
+  }
+}

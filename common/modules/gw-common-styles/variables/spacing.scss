@@ -1,0 +1,23 @@
+/* ------------------------------------*\
+   CSS Custom Properties to define default spacing variables
+\*------------------------------------ */
+:root {
+  // FIX: need to decide what to do about '--gw-unit' and 'rem'
+  //   Should '--gw-unit' and 'rem' be the same size or different?
+  //   The 'shoelace' code assumed that browser default 'rem' of 16px
+  //   The 'react-toolkit' code assumed that 'rem' would be forced to 10px and
+  //     the default font size would be '1.6*--gw-unit' or '1.6rem'. 'react-toolkit' doesn't
+  //     use 'rem' in its styling; only '--gw-unit'
+  //   The 'digital' code has 'rem=10px' and '$x=8px' (aka '--gw-unit')
+
+  --gw-unit: 0.5rem; /* Most browsers use a default font size of 16px, so GW-UNIT will be 8px */
+  // $x: 8px !default;
+  // $container-radius: 2px !default;
+
+  // spacing utilities (from shoelace.scss)
+  --gw-spacing-xs: var(--gw-unit);
+  --gw-spacing-sm: 1rem;
+  --gw-spacing-md: 1.5rem;
+  --gw-spacing-lg: 2rem;
+  --gw-spacing-xl: 2.5rem;
+}

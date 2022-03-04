@@ -1,0 +1,34 @@
+.account-holder-details__address-container__dropdown {
+    & > .drop-down-list {
+        width: auto;
+    }
+}
+
+.account-holder-details__personal-detail-container__dropdown {
+    & > .drop-down-list {
+        width: auto;
+    }
+}
+
+.account-holder-details__main-desc {
+    color: $app-theme;
+}
+
+a.account-holder-details__link {
+    border-width: 3px;
+    padding: 0;
+}
+
+.account-holder-details__address-container {
+    .error-container {
+        i {
+            display: none;
+        }
+    
+        > div {
+            padding: 20px 22px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+    }
+}

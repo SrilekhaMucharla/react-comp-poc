@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDLabel /> render component with text and icon on left 1`] = `
+<HDLabel
+  additionalText={null}
+  icon="car"
+  iconPosition={null}
+  size="lg"
+  text="Random label"
+  theme="dark"
+>
+  <styled.span
+    theme="dark"
+  >
+    <span
+      className="sc-bdnxRM jjzvoC"
+    >
+      <span
+        className="label-text size-lg"
+      >
+        <span>
+          Random label
+        </span>
+      </span>
+    </span>
+  </styled.span>
+</HDLabel>
+`;
+
+exports[`<HDLabel /> render component with text and icon on right 1`] = `
+<HDLabel
+  additionalText={null}
+  icon="car"
+  iconPosition="r"
+  size="lg"
+  text="Random label"
+  theme="dark"
+>
+  <styled.span
+    theme="dark"
+  >
+    <span
+      className="sc-bdnxRM jjzvoC"
+    >
+      <span
+        className="label-text size-lg"
+      >
+        <span>
+          Random label
+        </span>
+      </span>
+      <span
+        className="label-icon"
+      >
+        car
+      </span>
+    </span>
+  </styled.span>
+</HDLabel>
+`;
+
+exports[`<HDLabel /> render component with text only 1`] = `
+<HDLabel
+  additionalText={null}
+  icon={null}
+  iconPosition={null}
+  size="lg"
+  text="Random label"
+  theme="dark"
+>
+  <styled.span
+    theme="dark"
+  >
+    <span
+      className="sc-bdnxRM jjzvoC"
+    >
+      <span
+        className="label-text size-lg"
+      >
+        <span>
+          Random label
+        </span>
+      </span>
+    </span>
+  </styled.span>
+</HDLabel>
+`;
+
+exports[`<HDLabel /> render component with text only 2`] = `
+<HDLabel
+  additionalText={null}
+  icon={null}
+  iconPosition={null}
+  size="xs"
+  text="Random label"
+  theme="dark"
+>
+  <styled.span
+    theme="dark"
+  >
+    <span
+      className="sc-bdnxRM jjzvoC"
+    >
+      <span
+        className="label-text size-xs"
+      >
+        <span>
+          Random label
+        </span>
+      </span>
+    </span>
+  </styled.span>
+</HDLabel>
+`;

@@ -1,0 +1,23 @@
+{
+  "name": "gw-build-config-babel",
+  "description": "Provides common configuration for babel",
+  "main": "babel.config.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-named-asset-import": "^0.3.2",
+    "babel-plugin-react-intl": "^4.1.6",
+    "babel-preset-react-app": "^9.0.0"
+  },
+  "peerDependencies": {
+    "@babel/parser": "7.7.5"
+  }
+}

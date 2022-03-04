@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDWizardStepper should render correctly and match the snapshot 1`] = `
+<Fragment>
+  <HDStepper
+    milestone={false}
+    stepperStart={false}
+    stepperThree={false}
+    stepperTwo={false}
+    steps={
+      Array [
+        "Details",
+        "Cover",
+        "Quote",
+      ]
+    }
+  />
+</Fragment>
+`;

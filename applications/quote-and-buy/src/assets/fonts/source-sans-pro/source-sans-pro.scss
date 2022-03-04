@@ -1,0 +1,10 @@
+// just the regular one as a fallback for issues with variable font support
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  src:
+    url('#{$source-sans-pro-root}/EOT/SourceSansPro-Regular.eot') format('embedded-opentype'),
+    url('#{$source-sans-pro-root}/WOFF/SourceSansPro-Regular.woff') format('woff'),
+    url('#{$source-sans-pro-root}/OTF/SourceSansPro-Regular.otf') format('opentype'),
+    url('#{$source-sans-pro-root}/TTF/SourceSansPro-Regular.ttf') format('truetype');
+}

@@ -1,0 +1,44 @@
+.policyholder-details__left-column {
+    padding: 20px;
+    @include media-breakpoint-up(md) {
+        padding: 20px 40px;
+    }
+}
+
+.policyholder-details__left-column__registration {
+    font-size: 25px;
+    font-family: $font-licence-plate;
+    line-height: 1.35;
+    display: inline-flex;
+    background-color: $yellow-color;
+    border-radius: 2px;
+    padding: 2px 5px;
+    margin-bottom: 13px;
+}
+
+.policyholder-details__right-column {
+    background-color: $gray-light-9;
+    line-height: 1.5;
+    padding: 15px 20px 10px 20px;
+    @include media-breakpoint-up(md) {
+        padding: 15px 30px 10px 30px;
+    }
+}
+
+.policyholder-details__right-column__item {
+    padding: 5px;
+}
+
+.policyholder-details__right-column__item__key {
+    color: $info-color;
+    margin-bottom: 10px;
+    @include media-breakpoint-down(md) {
+        &:after {
+            content: ":";
+        }
+    }
+}
+
+.policyholder-details__right-column__item__value {
+    margin-bottom: 5px;
+}

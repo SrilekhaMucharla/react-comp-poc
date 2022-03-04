@@ -1,0 +1,23 @@
+// wrong number of arguments (2 for 1)
+// @function breakpoint-min($name) {
+//   $n: if($name == "desktop", -1, previous($name));
+//   $key: if($n != 0, nth(map-keys($breakpoints), $n), null);
+//   $min: if($key, map-get($breakpoints, $key), 0);
+
+//   @return if($min != 0, $min, null);
+// }
+
+// wrong number of arguments (2 for 1)
+// @function breakpoint-max($name) {
+//   $breakpoint-names: map-keys($breakpoints);
+//   $n: index($breakpoint-names, $name);
+//   $key: if($n and $n <= length($breakpoint-names), nth($breakpoint-names, $n), null);
+
+//   @return if($key, map-get($breakpoints, $key) - 1px, null);
+// }
+
+@function previous($name) {
+  $n: index(map-keys($breakpoints), $name);
+
+  @return if($n > 0, $n - 1, null);
+}

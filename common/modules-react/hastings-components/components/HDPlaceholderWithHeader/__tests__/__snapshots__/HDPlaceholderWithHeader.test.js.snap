@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPlaceholderWithHeader /> render component with children 1`] = `
+<Container
+  className="placeholder-w-header theme-white "
+  fluid={true}
+>
+  <Row
+    className="placeholder-w-header__header "
+    noGutters={false}
+  >
+    <Col
+      className="pl-0"
+    >
+      test
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col>
+      <span />
+    </Col>
+  </Row>
+</Container>
+`;
+
+exports[`<HDPlaceholderWithHeader /> render component with icon 1`] = `
+<Container
+  className="placeholder-w-header theme-white "
+  fluid={true}
+>
+  <Row
+    className="placeholder-w-header__header "
+    noGutters={false}
+  >
+    <Col
+      className="pl-0"
+    >
+      test
+    </Col>
+    <Col
+      className="px-0"
+      xs="auto"
+    >
+      <span />
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col />
+  </Row>
+</Container>
+`;
+
+exports[`<HDPlaceholderWithHeader /> render component without children 1`] = `
+<Container
+  className="placeholder-w-header theme-white "
+  fluid={true}
+>
+  <Row
+    className="placeholder-w-header__header "
+    noGutters={false}
+  >
+    <Col
+      className="pl-0"
+    >
+      test
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col />
+  </Row>
+</Container>
+`;

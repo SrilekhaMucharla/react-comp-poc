@@ -1,0 +1,287 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDYourExcessPopup /> render component with mandatory props 1`] = `
+<ForwardRef
+  className="popup-your-excess-container"
+  id="popup-your-excess"
+  onBeforeOpen={null}
+  overlayButtonIcon={
+    <InfoIcon
+      color="#0085ff"
+      height="20"
+      width="20"
+    />
+  }
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Customise quote - Your excess",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "Customise quote - Your excess",
+    }
+  }
+>
+  <Row
+    className="popup-your-excess"
+    noGutters={false}
+  >
+    <Col>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className=""
+            size="lg"
+            text="Your excess"
+          />
+        </Col>
+      </Row>
+      <Row
+        className="popup-your-excess__tables"
+        noGutters={false}
+      >
+        <Col>
+          <Row
+            noGutters={false}
+          >
+            <Col>
+              <HDExcessTableRefactor
+                className=""
+                drivers={
+                  Array [
+                    Object {
+                      "excesses": Array [
+                        Object {
+                          "compulsoryAmount": 130,
+                          "excessName": "Fire",
+                          "voluntaryAmount": 200,
+                        },
+                        Object {
+                          "compulsoryAmount": 130,
+                          "excessName": "Theft",
+                          "voluntaryAmount": 200,
+                        },
+                        Object {
+                          "compulsoryAmount": 130,
+                          "excessName": "Accidental damage",
+                          "voluntaryAmount": 200,
+                        },
+                      ],
+                      "name": "Ashley Smith",
+                    },
+                    Object {
+                      "excesses": Array [
+                        Object {
+                          "compulsoryAmount": 130,
+                          "excessName": "Fire",
+                          "voluntaryAmount": 200,
+                        },
+                        Object {
+                          "compulsoryAmount": 130,
+                          "excessName": "Theft",
+                          "voluntaryAmount": 200,
+                        },
+                        Object {
+                          "compulsoryAmount": 130,
+                          "excessName": "Accidental damage",
+                          "voluntaryAmount": 200,
+                        },
+                      ],
+                      "name": "Kelly Smith",
+                    },
+                  ]
+                }
+                excess={
+                  Array [
+                    Object {
+                      "compulsoryAmount": 130,
+                      "excessName": "Fire",
+                      "voluntaryAmount": 200,
+                    },
+                    Object {
+                      "compulsoryAmount": 130,
+                      "excessName": "Theft",
+                      "voluntaryAmount": 200,
+                    },
+                    Object {
+                      "compulsoryAmount": 130,
+                      "excessName": "Accidental damage",
+                      "voluntaryAmount": 200,
+                    },
+                  ]
+                }
+                tableColumnOne="Compulsory"
+                tableColumnTwo="Voluntary"
+              />
+            </Col>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <Col>
+              <HDExcessTableRefactor
+                className=""
+                drivers={
+                  Array [
+                    Object {
+                      "id": 1,
+                      "name": "All drivers",
+                    },
+                  ]
+                }
+                excess={
+                  Object {
+                    "compulsoryAmount": 15,
+                    "excessName": "Windscreen repair",
+                    "voluntaryAmount": 0,
+                  }
+                }
+                hideTotalColumn={false}
+                tableColumnOne="Compulsory"
+                tableColumnTwo="Voluntary"
+              />
+              <HDExcessTableRefactor
+                className=""
+                drivers={
+                  Array [
+                    Object {
+                      "id": 1,
+                      "name": "All drivers",
+                    },
+                  ]
+                }
+                excess={
+                  Object {
+                    "compulsoryAmount": 15,
+                    "excessName": "Windscreen replacement",
+                    "voluntaryAmount": 0,
+                  }
+                }
+                hideTotalColumn={false}
+                tableColumnOne="Compulsory"
+                tableColumnTwo="Voluntary"
+              />
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      />
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="h3"
+            adjustImagePosition={true}
+            className=""
+            text="Your excess explained"
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-your-excess__description"
+            text="In simple terms, this is the amount you'll pay if you make a claim. It's made up of two parts - your voluntary amount and your compulsory amount."
+          />
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-your-excess__description"
+            text="If you're a young driver (under 25) or you're new to driving, you'll also have to pay a young and inexperienced driver excess. But don't worry, this will automatically be included in your compulsory excess amount."
+          />
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-your-excess__description"
+            text="Good news though - if your claim is settled as not being your fault you'll usually get your excess payment refunded as part of your settlement amount."
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="h3"
+            adjustImagePosition={true}
+            className=""
+            text="Voluntary excess"
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-your-excess__description"
+            text="You get to choose the amount. Setting a higher voluntary excess usually reduces the price of your policy but you must make sure it's an amount you'd be comfortable paying should you make a claim. And remember, you'll be paying your total excess, so it will be your voluntary amount and your complusory amount added together."
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="h3"
+            adjustImagePosition={true}
+            className=""
+            text="Compulsory excess"
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-your-excess__description"
+            text="This amount is set by your insurer and can't be changed."
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="h3"
+            adjustImagePosition={true}
+            className=""
+            text="In short..."
+          />
+        </Col>
+      </Row>
+      <Row
+        noGutters={false}
+      >
+        <Col>
+          <HDLabelRefactor
+            Tag="p"
+            adjustImagePosition={true}
+            className="popup-your-excess__description"
+            text="Let’s say you have a compulsory excess of £250 and you set your voluntary excess at £150. If you make a claim you’ll pay £400 in total. This payment goes towards the cost of your repairs and we’ll pay the rest of the repair costs to get you back on the road."
+          />
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+</ForwardRef>
+`;

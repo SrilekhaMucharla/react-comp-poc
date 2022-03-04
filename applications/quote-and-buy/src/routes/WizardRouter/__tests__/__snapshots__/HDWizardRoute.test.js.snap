@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDWizardRoute should render correctly and match the snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "store": Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      },
+      "subscription": Subscription {
+        "handleChangeWrapper": [Function],
+        "listeners": Object {
+          "notify": [Function],
+        },
+        "onStateChange": [Function],
+        "parentSub": undefined,
+        "store": Object {
+          "clearActions": [Function],
+          "dispatch": [Function],
+          "getActions": [Function],
+          "getState": [Function],
+          "replaceReducer": [Function],
+          "subscribe": [Function],
+        },
+        "unsubscribe": null,
+      },
+    }
+  }
+>
+  <MemoryRouter
+    initialEntries={
+      Array [
+        "test-path",
+      ]
+    }
+    initialIndex={0}
+  >
+    <Connect(HDWizardRoute)
+      WizardPage={[Function]}
+      handleBackward={[MockFunction]}
+      handleForward={[MockFunction]}
+      pageMetadata={
+        Object {
+          "page_name": "page-name",
+        }
+      }
+      path="test-path"
+      personalDetails={true}
+    />
+  </MemoryRouter>
+</ContextProvider>
+`;

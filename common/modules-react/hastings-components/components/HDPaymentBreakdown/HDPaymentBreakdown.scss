@@ -1,0 +1,217 @@
+//TODO: resolve these vars
+
+.hd-text-title {
+    color: $app-theme;
+    font-weight: bold;
+    font-size: $font-size-xl;
+    line-height: 1.2;
+    @include media-breakpoint-up(md) {
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+}
+
+.hd-steps-container {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    color: $app-theme;
+    font-size: $font-size-md;
+    line-height: 1.35;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm-1;
+    }
+}
+
+.hd-steps__gradient-col {
+    width: 94px;
+    background: linear-gradient($white-transparent-0, $gray-light-8 10%, $gray-light-8 90%, $white-transparent-0);;
+    background: -webkit-linear-gradient(
+    $white-transparent-0,
+    $gray-light-8 10%,
+    $gray-light-8 90%,
+    $white-transparent-0
+);;
+    position: relative;
+    overflow: hidden;
+
+    &:before,
+    &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 100%;
+        background: linear-gradient($white-fill, $white-transparent-0);
+        z-index: 1;
+    }
+
+    &:after {
+        top: 90%;
+        bottom: 0;
+        background: linear-gradient($white-transparent-0, $white-fill 100%);
+    }
+}
+
+.hd-steps__gradient-col__vertical-dash {
+    position: relative;
+    left: 46px;
+    top: 54px;
+    height: 100%;
+    width: 2px;
+    background-size: 2px 9.4px * 2;
+    background-image: linear-gradient(to bottom, $blue-light 9.4px, transparent 1px),
+        linear-gradient($blue-light 1px, transparent 1px);
+}
+
+.hd-steps__col-container {
+    z-index: 2;
+    flex: 1;
+}
+
+.hd-steps__col-container__row {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    margin-top: 16px;
+    margin-bottom: 32px;
+
+    &:not(:first-of-type) > div:first-of-type > .hd-step-circle-date {
+        border: 2px solid $blue-secondary;
+        background-color: $blue-secondary;
+    }
+
+    &:nth-child(3) > .hd-steps__col-container__row__description-col {
+        position: relative;
+    }
+
+    &:first-child() .hd-tooltip-wrapper {
+        bottom: -1.4rem;
+        .hd-tag {
+            font-size: $font-size-sm;
+        }
+    }
+}
+
+.hd-steps__col-container__row__circle-col {
+    font-family: $font-face-generic-regular;
+    width: 94px;
+    margin-left: -(94px);
+    display: flex;
+    justify-content: center;
+
+    .hd-step-circle-date {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: 2px solid $purple-secondary;
+        background-color: $purple-tertiary;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        color: $white-color;
+        font-size: $font-size-sm;
+        line-height: 1;
+    }
+    .hd-step-circle-small {
+        border: 3px solid $blue-secondary;
+        background-color: $white-color;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+    }
+    .hd-step-circle-green {
+        color: $mint-dark;
+        line-height: 1;
+    }
+}
+
+.hd-steps__col-container__row__description-col {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex: 1;
+    padding: 0 20px;
+    font-weight: 500;
+
+    .hd-description-label {
+        width: 100%;
+
+        > span {
+            display: inline-block;
+            font-family: $font-licence-plate;
+            background-color: $yellow-color;
+            border-radius: 2px;
+            font-size: $font-size-sm;
+            padding: 0 5px;
+            line-height: normal;
+        }
+
+        @include media-breakpoint-down(sm) {
+            font-size: $font-size-mob-sm;
+        }
+    }
+
+    .hd-description-name {
+        white-space: break-spaces;
+        align-self: flex-start;
+        flex: 2;
+        padding-right: 15px;
+        margin-top: 1rem;
+    }
+
+    .hd-description-detail {
+        text-align: right;
+        align-self: flex-end;
+
+        .hd-quote {
+            font-weight: bold;
+            font-size: $font-size-quote;
+            line-height: 1.2;
+
+            & + div {
+                position: absolute;
+                right: 20px;
+                width: 35%;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: $font-size-mob-lg;
+                line-height: 1.2;
+            }
+        }
+
+        .hd-instalments {
+            font-size: $font-size-mob-sm;
+            color: $mono-blue-yonder;
+            margin-top: 5px;
+
+            @include media-breakpoint-down(sm) {
+                font-size: $font-size-mob-sm;
+            }
+        }
+
+        .hd-tooltip-wrapper {
+            display: inline-block;
+            font-size: $font-size-md;
+            color: $app-theme;
+            white-space: nowrap;
+            position: relative;
+
+            @include media-breakpoint-down(sm) {
+                font-size: $font-size-mob-md;
+            }
+        }
+    }
+}
+
+.payment-breakdown__monthly-row {
+    margin-bottom: 70px;
+}

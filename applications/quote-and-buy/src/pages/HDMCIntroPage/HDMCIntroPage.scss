@@ -1,0 +1,114 @@
+.mc-intro-container {
+    position: relative;
+    background-color: $mono-cultured;
+    padding: 20px 0 155px 0;
+}
+
+.mc-intro__arc-header {
+    overflow: hidden;
+    height: 510px;
+    @include media-breakpoint-up(md) {
+        height: 400px;
+    }
+
+    &:after {
+        content: " ";
+        position: absolute;
+        background: $mono-cultured;
+        height: 71px;
+        left: -3%;
+        right: -3%;
+        border-radius: 50%;
+        bottom: -40px;
+    }
+}
+
+.mc-intro__content-container {
+    padding: 0 20px;
+    @include media-breakpoint-up(md) {
+        max-width: 670px;
+    }
+}
+
+.mc-intro__info-box {
+    color: $app-theme;
+    flex-direction: column;
+    overflow: hidden;
+    @include media-breakpoint-up(md) {
+        height: 49%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+.mc-intro__info-box__img-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    @include media-breakpoint-up(md) {
+        width: 36%;
+    }
+
+    &::after {
+        content: "";
+        background: $midnight-persian-green;
+        position: absolute;
+        height: 35%;
+        left: -10%;
+        right: -10%;
+        top: 61%;
+        border-radius: 0 0 73% 110%;
+    
+        @include media-breakpoint-up(md) {
+            height: 150%;
+            left: 0;
+            right: 0%;
+            top: -27%;
+            border-radius: 15% 0 0 110%;
+        }
+    }
+}
+
+.mc-intro__info-box__img-container__image-mob {
+    display: block;
+    width: 100%;
+    z-index: 2;
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+}
+
+.mc-intro__info-box__img-container__image-desk {
+    display: none;
+    @include media-breakpoint-up(md) {
+        display: block;
+        margin-left: auto;
+        height: 100%;
+        z-index: 2;
+    }
+}
+
+.mc-intro__info-box__points {
+    padding: 20px 20px 20px 0px;
+    @include media-breakpoint-up(md) {
+        width: 65%;
+        padding: 30px 30px 30px 14px;
+    }
+}
+
+.mc-intro__info-box__points__item {
+    @include media-breakpoint-up(md) {
+        margin-left: 5px;
+    }
+}
+
+.mc-intro__cta-footer {
+    margin-top: 40px;
+}
+
+.mc-intro__cta-footer__sc-btn {
+    margin-top: 20px;
+    @include media-breakpoint-up(md) {
+        margin-top: 0;
+    }
+}

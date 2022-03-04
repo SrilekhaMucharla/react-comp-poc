@@ -1,0 +1,11 @@
+export const cardHeading = 'Starts on';
+export const yourPolicy = 'Your policy';
+export const youreBuyingBecause = "You're buying this cover because it meets the demands and needs stated below.";
+export const your = 'Your';
+export const policyCovers = 'policy covers you for:';
+export const mainFeatures = "Here are the main features of this policy. You'll find full details in the documents section.";
+export const quoteReference = 'Quote reference:';
+export const lengthOfPolicy = 'Length of policy:';
+export const starts = 'Starts:';
+export const ends = 'Ends:';
+export const insurer = 'Insurer:';

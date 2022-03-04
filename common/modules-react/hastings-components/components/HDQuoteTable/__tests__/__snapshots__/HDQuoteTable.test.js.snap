@@ -1,0 +1,453 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDQuoteTable /> render component with data type of boolean 1`] = `
+<styled.div
+  className=""
+  primary={false}
+>
+  <div
+    className="quote-table-head"
+  >
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header1
+      </p>
+    </div>
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header2
+      </p>
+    </div>
+  </div>
+  <div
+    className="quote-table-body"
+  >
+    <div
+      className="quote-table-row"
+      key="SubTitle1"
+    >
+      <p>
+        SubTitle1
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="true"
+        >
+          <i
+            className="quote-table-icon fas fa-check"
+          />
+        </div>
+        <div
+          className="quote-table-data"
+          key="false"
+        >
+          <i
+            className="quote-table-icon fas fa-times"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="quote-table-row"
+      key="SubTitle2"
+    >
+      <p>
+        SubTitle2
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="true"
+        >
+          <i
+            className="quote-table-icon fas fa-check"
+          />
+        </div>
+        <div
+          className="quote-table-data"
+          key="true"
+        >
+          <i
+            className="quote-table-icon fas fa-check"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<HDQuoteTable /> render component with data type of mixed boolean and string 1`] = `
+<styled.div
+  className=""
+  primary={false}
+>
+  <div
+    className="quote-table-head"
+  >
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header1
+      </p>
+    </div>
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header2
+      </p>
+    </div>
+  </div>
+  <div
+    className="quote-table-body"
+  >
+    <div
+      className="quote-table-row"
+      key="SubTitle1"
+    >
+      <p>
+        SubTitle1
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="true"
+        >
+          <i
+            className="quote-table-icon fas fa-check"
+          />
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value1.1"
+        >
+          Value1.1
+        </div>
+      </div>
+    </div>
+    <div
+      className="quote-table-row"
+      key="SubTitle2"
+    >
+      <p>
+        SubTitle2
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="true"
+        >
+          <i
+            className="quote-table-icon fas fa-check"
+          />
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value2.1"
+        >
+          Value2.1
+        </div>
+      </div>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<HDQuoteTable /> render component with data type of string 1`] = `
+<styled.div
+  className=""
+  primary={false}
+>
+  <div
+    className="quote-table-head"
+  >
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header1
+      </p>
+    </div>
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header2
+      </p>
+    </div>
+  </div>
+  <div
+    className="quote-table-body"
+  >
+    <div
+      className="quote-table-row"
+      key="SubTitle1"
+    >
+      <p>
+        SubTitle1
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="Value1.1"
+        >
+          Value1.1
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value1.2"
+        >
+          Value1.2
+        </div>
+      </div>
+    </div>
+    <div
+      className="quote-table-row"
+      key="SubTitle2"
+    >
+      <p>
+        SubTitle2
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="Value2.1"
+        >
+          Value2.1
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value2.2"
+        >
+          Value2.2
+        </div>
+      </div>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<HDQuoteTable /> render component with primary 1`] = `
+<styled.div
+  className=""
+  primary={true}
+>
+  <div
+    className="quote-table-head"
+  >
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header1
+      </p>
+    </div>
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header2
+      </p>
+    </div>
+  </div>
+  <div
+    className="quote-table-body"
+  >
+    <div
+      className="quote-table-row"
+      key="SubTitle1"
+    >
+      <p>
+        SubTitle1
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="Value1.1"
+        >
+          Value1.1
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value1.2"
+        >
+          Value1.2
+        </div>
+      </div>
+    </div>
+    <div
+      className="quote-table-row"
+      key="SubTitle2"
+    >
+      <p>
+        SubTitle2
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="Value2.1"
+        >
+          Value2.1
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value2.2"
+        >
+          Value2.2
+        </div>
+      </div>
+    </div>
+  </div>
+</styled.div>
+`;
+
+exports[`<HDQuoteTable /> render component with topLabel 1`] = `
+<styled.div
+  className=""
+  primary={false}
+>
+  <div
+    className="quote-table-head"
+  >
+    <div>
+      <p
+        className="table-header-label table-header-label-empty"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header1
+      </p>
+    </div>
+    <div>
+      <p
+        className="table-header-label false"
+      >
+        Enhanced
+      </p>
+      <p
+        className="table-header-value"
+      >
+        Header2
+      </p>
+    </div>
+  </div>
+  <div
+    className="quote-table-body"
+  >
+    <div
+      className="quote-table-row"
+      key="SubTitle1"
+    >
+      <p>
+        SubTitle1
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="Value1.1"
+        >
+          Value1.1
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value1.2"
+        >
+          Value1.2
+        </div>
+      </div>
+    </div>
+    <div
+      className="quote-table-row"
+      key="SubTitle2"
+    >
+      <p>
+        SubTitle2
+      </p>
+      <div
+        className="quote-table-data-row"
+      >
+        <div
+          className="quote-table-data"
+          key="Value2.1"
+        >
+          Value2.1
+        </div>
+        <div
+          className="quote-table-data"
+          key="Value2.2"
+        >
+          Value2.2
+        </div>
+      </div>
+    </div>
+  </div>
+</styled.div>
+`;

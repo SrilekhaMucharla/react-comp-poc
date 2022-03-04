@@ -1,0 +1,41 @@
+
+.credit_agreement_box{
+    border: 3px solid #0069cc;
+    margin:36px 0 19.2px 1px;
+    padding: 18px;
+    @include media-breakpoint-up(md) {
+        padding: 24px 27.3px 27px 31.5px;
+    }
+}
+.credit_agreement_holder {
+    .horizontal_spacing_line {
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+    .currency_amount {
+        font-weight: bold;
+    }
+    .credit_total_price {
+        .total_cars_enum {
+            display:  flex;
+            flex-direction: row;
+        }
+    }
+    .policy_car_info {
+        font-size: 13px;
+        padding-bottom: 1px;
+    }
+    .policy_car_amount {
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 500;
+    }
+    .rate-line {
+        font-size: 13px;
+        color: $info-color;
+    }
+    .vehicle-details {
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+}

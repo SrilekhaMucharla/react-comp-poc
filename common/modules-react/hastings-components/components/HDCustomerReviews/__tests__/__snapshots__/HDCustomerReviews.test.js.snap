@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCustomerReviews /> render component 1`] = `
+<div
+  className="info-box"
+>
+  <div
+    className="info-box-title"
+  >
+    <h3>
+      Great prices from day one. Most people save around £44 a year buying insurance with us.
+      <span>
+         *
+      </span>
+    </h3>
+  </div>
+  <div
+    className="info-box-description"
+  >
+    <HDCustomerReviewsWidget
+      onLoadReviewsBagde={[MockFunction]}
+    />
+    <Row
+      className="margin-top-md"
+      noGutters={false}
+    >
+      <Col>
+        <span
+          className="customer-reviews__substantiation"
+        >
+          *Based on online quoted premiums from April and June 2021
+        </span>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;

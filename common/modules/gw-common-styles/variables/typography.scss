@@ -1,0 +1,64 @@
+/* ------------------------------------*\
+   CSS Custom Properties to define default typography variables
+\*------------------------------------ */
+:root {
+    /* Font Sizes */
+    --base-font-size: 1.5rem;
+    --font-xxxxl: 6.2rem;
+    --font-xxxl: 4rem;
+    --font-xxlg: 3.2rem;
+    --font-xxl: 2.8rem;
+    --font-xlg: 2.6rem;
+    --font-xlm: 2.4rem;
+    --font-xl: 2rem;
+    --font-l: 1.8rem;
+    --font-ml: 1.6rem;
+    --font-m: 1.4rem;
+    --font-s: 1.3rem;
+    --font-xs: 1.2rem;
+    --font-xxs: 1rem;
+
+    /* Font Awesome Icons */
+    --icon-font-awesome-caret-down: "\f0d7";
+    --icon-font-awesome-chevron-down: "\f078";
+    --icon-font-awesome-check: "\f00c";
+    --icon-font-awesome-search: "\f002";
+    --icon-font-awesome-times: "\f00d";
+    --icon-font-awesome-calendar: "\f073";
+    --icon-font-awesome-checkmark: "\f00c";
+    --icon-font-awesome-exclamation-circle: "\f06a";
+    --icon-font-awesome-arrow-down:"\f107";
+    --icon-font-awesome-arrow-up:"\f106";
+    --icon-font-awesome-fb-sharing:"\f082";
+    --icon-font-awesome-error:"\f056";
+    --icon-font-awesome-warning:"\f071";
+    --icon-font-awesome-plus:"\f067";
+
+    /* Font Weights */
+    --font-weight-thin: 100;
+    --font-weight-extra-light: 200;
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 600;
+    --font-weight-normal-bold: 700;
+    --font-weight-extra-bold: 800;
+    --font-weight-ultra-bold: 900;
+
+   /* Font Familys */
+    --base-font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+
+   /* Line Height */
+    --line-height-xxxxxxl:110px;
+    --line-height-xxxxxl: 95px;
+    --line-height-xxxxl: 112px;
+    --line-height-xxxl: 48px;
+    --line-height-xxl: 40px;
+    --line-height-xl: 35px;
+    --line-height-lxl: 32px;
+    --line-height-l: 30px;
+    --line-height-m: 24px;
+    --line-height-sm: 21px;
+    --line-height-s: 18px;
+    --line-height-xs: 10px;
+}

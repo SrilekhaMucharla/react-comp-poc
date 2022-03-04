@@ -1,0 +1,13 @@
+.ipid-details-wrapper {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    @include media-breakpoint-up(md) {
+        padding: 30px;
+    }
+}
+
+.ipid-details__col {
+    & > * {
+        margin-bottom: 10px;
+    }
+}

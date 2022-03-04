@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDDriverScanPage should render the component and match snapshot 1`] = `
+<Container
+  className="scan-or-continue"
+  fluid={false}
+  id="scan-or-continue"
+>
+  <Row
+    noGutters={false}
+  >
+    <Col>
+      <HDLabelRefactor
+        Tag="h2"
+        adjustImagePosition={true}
+        className="page-scan-or-continue__title"
+        id="page-scan-or-continue-title"
+        text="Want to speed things up?"
+      />
+    </Col>
+  </Row>
+  <Row
+    className="page-scan-or-continue__subtitle"
+    noGutters={false}
+  >
+    <Col
+      className="align-self-center pr-0"
+    >
+      <HDLabelRefactor
+        Tag="h4"
+        additionalContent={
+          <h5
+            className="d-inline"
+          />
+        }
+        adjustImagePosition={true}
+        className="page-scan-or-continue__subtitle__label"
+        id="page-scan-or-continue-subtitle"
+        text="You'll get a faster quote if you scan your driving licence..."
+      />
+    </Col>
+    <Col
+      className="pl-2"
+      xs="auto"
+    >
+      <img
+        alt="discount"
+        className="page-scan-or-continue__discount-img"
+        src="discount.png"
+      />
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col>
+      <HDLabelRefactor
+        Tag="p"
+        adjustImagePosition={true}
+        className="page-scan-or-continue__disclaimer text-small"
+        id="page-scan-or-continue-disclaimer"
+        text="*Based on online quoted premiums from June to August 2021"
+      />
+      <HDInfoCardRefactor
+        className="page-scan-or-continue__driving-information"
+        id="page-scan-or-continue-driving-information"
+        image="exclamation-icon.svg"
+        isRight={false}
+        notes={null}
+        paragraphs={
+          Array [
+            "We'll be able to access your driving information from the DVLA, so we can calculate any discounts you qualify for based on your driving record.",
+            "Your licence must be from England, Wales or Scotland as DVLA data isn't available for licences from Northern Ireland, the Isle of Man or the Channel Islands.",
+          ]
+        }
+        size={null}
+        theme={null}
+        title={null}
+      />
+    </Col>
+  </Row>
+  <Row
+    className="margin-top-lg-desktop-md-mobile col-elem-same-height"
+    noGutters={false}
+  >
+    <Col
+      sm={6}
+      xs={12}
+    >
+      <ForwardRef
+        className="page-scan-or-continue__button-scan-licence btn-primary btn-block"
+        id="page-scan-or-continue-button-scan-licence"
+        label="Scan driving licence"
+        name="scan"
+        onBeforeOpen={null}
+        onBlur={null}
+        onCancel={null}
+        onChange={null}
+        onClick={[Function]}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={null}
+        onSelect={null}
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Want to speed things up?",
+          }
+        }
+      />
+    </Col>
+    <Col
+      className="mt-4 mt-sm-0"
+      sm={6}
+      xs={12}
+    >
+      <ForwardRef
+        className="page-scan-or-continue__button-continue hd-btn-secondary btn-block"
+        id="page-scan-or-continue-button-continue"
+        label="Continue (without scanning)"
+        name="continue"
+        onBeforeOpen={null}
+        onBlur={null}
+        onCancel={null}
+        onChange={null}
+        onClick={[Function]}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={null}
+        onSelect={null}
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Want to speed things up?",
+          }
+        }
+      />
+    </Col>
+  </Row>
+</Container>
+`;

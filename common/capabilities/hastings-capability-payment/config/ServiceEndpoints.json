@@ -1,0 +1,7 @@
+[
+  {
+    "server": "pc",
+    "service": "payment/payment",
+    "serviceName": "payment"
+  }
+]

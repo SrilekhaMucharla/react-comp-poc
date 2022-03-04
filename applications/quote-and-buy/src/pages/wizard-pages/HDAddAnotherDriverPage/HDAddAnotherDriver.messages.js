@@ -1,0 +1,15 @@
+export const policyholder = 'Account holder and policyholder';
+export const anotherDriver = 'Additional driver';
+export const anotherDriverAdded = 'Great - another driver added!';
+export const yourDetailAdded = 'That\'s your details added!';
+export const areYouSure = 'Are you sure?';
+export const goBack = 'Go back';
+export const yes = 'Yes';
+export const addAnother = 'Add another driver';
+export const removeDriver = 'Remove driver';
+export const welcomeBack = 'Welcome back!';
+export const accountHolder = 'Policyholder';
+export const infoTipText = 'This is the maximum amount of drivers you can add to one car.';
+export const continueBtnLabel = 'Continue to cover details';
+export const continueRedirect = 'Continue - Redirecting from: HastingsPersonalDetails_Complete';
+export const youDrive = 'YD';

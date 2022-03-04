@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTable /> render with data 1`] = `
+<div
+  className="hd-table "
+>
+  <div
+    className="hd-table__sticky-sentinel hd-table__sticky-sentinel--top"
+  />
+  <div
+    className="hd-table__header"
+  >
+    <div
+      className="hd-table__header__grid"
+      style={
+        Object {
+          "gridTemplateColumns": "repeat(1, 1fr)",
+        }
+      }
+    >
+      <div
+        className="hd-table__header__grid__item"
+        key="0"
+      >
+        <HDImageRadioButton
+          className=""
+          hideInput={false}
+          image={
+            <img
+              alt="HD"
+            />
+          }
+          labelValue=""
+          name="brand"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onlineProduct={false}
+          path="path.to.radio-button"
+          secondaryLabel={null}
+          selected={false}
+          type="radio"
+          value="HD"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="hd-table__body"
+  >
+    <div
+      className="hd-table__body__row"
+      key="0"
+      style={
+        Object {
+          "gridTemplateColumns": "repeat(1, 1fr)",
+        }
+      }
+    >
+      <div
+        className="hd-table__body__row__label"
+      >
+        First payment
+      </div>
+      <div
+        className="hd-table__body__row__cell-bg"
+        style={
+          Object {
+            "gridColumn": "1",
+            "gridRow": "1 / span 2",
+          }
+        }
+      />
+      <HDTableCell
+        boldText="Total {£214.60}"
+        bottomDescription={null}
+        extraLines={
+          Array [
+            "11 monthly payment",
+            "{£17.88}",
+          ]
+        }
+        key="0"
+        label={null}
+        style={
+          Object {
+            "gridColumn": "1",
+            "gridRow": "2",
+          }
+        }
+        topDescription={null}
+        value="{£17.92}"
+      />
+    </div>
+    <div
+      className="hd-table__body__row"
+      key="1"
+      style={
+        Object {
+          "gridTemplateColumns": "repeat(1, 1fr)",
+        }
+      }
+    >
+      <div
+        className="hd-table__body__row__cell-bg"
+        style={
+          Object {
+            "gridColumn": "1",
+            "gridRow": "1",
+          }
+        }
+      />
+      <HDTableCell
+        boldText={null}
+        bottomDescription={null}
+        extraLines={Array []}
+        key="0"
+        label="Courtesy car"
+        style={
+          Object {
+            "gridColumn": "1",
+            "gridRow": "1",
+          }
+        }
+        topDescription={null}
+        value={false}
+      />
+    </div>
+  </div>
+  <div
+    className="hd-table__sticky-sentinel hd-table__sticky-sentinel--bottom"
+  />
+</div>
+`;
+
+exports[`<HDTable /> render with mandatory props 1`] = `
+<div
+  className="hd-table "
+>
+  <div
+    className="hd-table__sticky-sentinel hd-table__sticky-sentinel--top"
+  />
+  <div
+    className="hd-table__header"
+  >
+    <div
+      className="hd-table__header__grid"
+      style={
+        Object {
+          "gridTemplateColumns": "repeat(1, 1fr)",
+        }
+      }
+    >
+      <div
+        className="hd-table__header__grid__item"
+        key="0"
+      >
+        <HDImageRadioButton
+          className=""
+          hideInput={false}
+          image={
+            <img
+              alt="HD"
+            />
+          }
+          labelValue=""
+          name="brand"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onlineProduct={false}
+          path="path.to.radio-button"
+          secondaryLabel={null}
+          selected={false}
+          type="radio"
+          value="HD"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="hd-table__body"
+  />
+  <div
+    className="hd-table__sticky-sentinel hd-table__sticky-sentinel--bottom"
+  />
+</div>
+`;

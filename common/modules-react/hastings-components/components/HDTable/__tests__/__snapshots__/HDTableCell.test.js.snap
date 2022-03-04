@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTableCell /> render with boolean value and all optional props 1`] = `
+<div
+  className="hd-table-cell"
+  label="Label"
+>
+  <div
+    className="hd-table-cell__label"
+  >
+    Label
+  </div>
+  <div>
+    <div>
+      top
+    </div>
+    <i
+      className="fas fa-times fa-lg"
+    />
+    <div
+      className="hd-table-cell__bottom-descr"
+    >
+      bottom
+    </div>
+  </div>
+  <div
+    className="hd-table-cell__extra-line"
+  >
+    <div
+      key="0"
+    >
+      line1
+    </div>
+    <div
+      key="1"
+    >
+      line2
+    </div>
+  </div>
+  <div
+    className="hd-table-cell__bold-text"
+  >
+    Text
+  </div>
+</div>
+`;
+
+exports[`<HDTableCell /> render with mandatory props 1`] = `
+<div
+  className="hd-table-cell"
+  label={null}
+>
+  <div>
+    <div
+      className="hd-table-cell__value"
+    >
+      Text value
+    </div>
+  </div>
+  <div
+    className="hd-table-cell__bold-text"
+  />
+</div>
+`;

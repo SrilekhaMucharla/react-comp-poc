@@ -1,0 +1,113 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/edgev10/segmentation/abexperiment",
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "usertoken": [
+        "any"
+      ],
+      "Authorization": [
+        "Basic c3U6Z3c="
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "61"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ],
+      "Host": [
+        "localhost:1080"
+      ]
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "id": "1",
+      "jsonrpc": "2.0",
+      "method": "getMetaData",
+      "params": []
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Set-Cookie": [
+        "JSESSIONID=0000MCOytOXDVYzcdmqECBMVypD:-1; Path=/; HttpOnly",
+        "JSESSIONID=c010fb1a-c6ac-4679-b602-3b4f98d90154; Expires=Wed, 16-Dec-20 17:21:10 GMT; Path=/"
+      ],
+      "Date": [
+        "Wed, 16 Dec 2020 16:21:10 GMT"
+      ],
+      "Expires": [
+        "Thu, 01 Dec 1994 16:00:00 GMT"
+      ],
+      "Cache-Control": [
+        "no-cache=\"set-cookie, set-cookie2\""
+      ],
+      "content-length": [
+        "472"
+      ]
+    },
+    "cookies": {
+      "JSESSIONID": "c010fb1a-c6ac-4679-b602-3b4f98d90154"
+    },
+    "body": {
+      "result": {
+        "newTypeMeta": [
+          {
+            "name": "edgev10.capabilities.segmentation.dto.SimpleExperimentDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "ExperimentId": {
+                    "name": "ExperimentId",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ExperimentResponse": {
+                    "name": "ExperimentResponse",
+                    "valueType": {
+                      "name": "Integer",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          }
+        ]
+      },
+      "id": "1",
+      "jsonrpc": "2.0"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.mc-policy-start-container {
+    margin-bottom: 36px;
+
+    .hd-date-picker__date-fields {
+        input {
+            font-weight: bold;
+        }
+    }
+
+    .form-group {
+        margin-bottom: 0;
+    }
+
+    .hd-date-picker__date-fields__day,
+    .hd-date-picker__date-fields__month,
+    .hd-date-picker__date-fields__year {
+        -webkit-box-shadow: 0 0 0 0;
+        -moz-box-shadow: 0 0 0 0;
+        box-shadow: 0 0 0 0;
+    }
+}

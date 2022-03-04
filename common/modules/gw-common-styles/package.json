@@ -1,0 +1,12 @@
+{
+  "name": "gw-common-styles",
+  "description": "Provides common CSS",
+  "main": "styles.scss",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "include-media": "~1.4.8",
+    "font-awesome": "~4.7.0"
+  }
+}

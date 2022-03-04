@@ -1,0 +1,53 @@
+.insurers-overlay__insurer-box {
+    background-color: $gray-light-9;
+    margin-top: 10px;
+    font-size: $font-size-sm;
+    color: $app-theme;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.2;
+
+    .insurer--rac-text {
+        font-weight: bold;
+        text-decoration: underline;
+    }
+}
+
+.insurers-overlay__insurer-box__main-subject,
+.insurers-overlay__insurer-box__subject {
+    padding: 0 5px 0 10px;
+}
+
+.insurers-overlay__insurer-box__insurance-item {
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    padding: 0 5px;
+
+    &:last-child {
+        padding-right: 15px;
+    }
+
+    i.fa-check-circle, i.fa-times-circle {
+        margin-top: 5px;
+        font-size: 18px;
+        display: block;
+    }
+
+    i.fa-check-circle {
+        color: $midnight-royal-blue;
+    }
+
+    i.fa-times-circle {
+        color: $alert-color;
+    }
+}
+
+.insurers-overlay__mb--section-break {
+    margin-bottom: 36px;
+}
+
+.insurers-overlay__mt--section-break {
+    margin-top: 36px;
+}
+

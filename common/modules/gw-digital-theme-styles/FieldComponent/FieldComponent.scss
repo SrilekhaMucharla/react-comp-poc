@@ -1,0 +1,51 @@
+.digitalFieldComponent {
+    --gw-digital-field-component-padding: 1.5rem;
+    padding-bottom: var(--gw-digital-field-component-padding);
+    width: 100%;
+}
+
+.digitalFieldComponentAliginLeft {
+    // Override Field Component Variables
+    --fieldComponent-control-readonly-font-weight: var(--font-weight-regular);
+
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 'label field';
+    align-items: baseline;
+    grid-column-gap: 10px;
+    width: 100%;
+
+    .digitalControlReadOnly {
+        overflow: visible;
+    }
+
+    .digitalContentContainer {
+        width: auto;
+    }
+
+    @include media("<phonePortrait") {
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto;
+        grid-template-areas: 'label' 'field';
+    }
+}
+
+.digitalReversed {
+    grid-template-columns: 3fr 1fr;
+
+    @include media("<phonePortrait") {
+        grid-template-columns: 100%;
+    }
+}
+
+.digitalContentContainer {
+    grid-area: field;
+    width: 100%;
+    align-self: center;
+}
+
+.digitalFullWidth {
+    display: inline-block;
+    width: 100%;
+}

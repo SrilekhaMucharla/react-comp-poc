@@ -1,0 +1,11 @@
+{
+  "string1": "[mxgtg_this is the first string:::🏆లో]",
+  "string2": "[2oZlX1_a string with a {argument}:::ြြতাਲੋ]",
+  "string3": "[boM8J_a string with a {couple} of {arguments}:::𠜱ਹੈਲੋ𠜱ਲੋ]",
+  "obj1": {
+    "string1": "[mxgtg_this is the first string:::дд𠜱]",
+    "string2": "[2oZlX1_a string with a {argument}:::ςςਹੈ🤯]",
+    "string3": "[boM8J_a string with a {couple} of {arguments}:::ြြ𠜎🎆𢺳లో]"
+  },
+  "Rules.Validation.Transaction.TotalPaymentsIncludingPendingPlusAvailableAndPendingReservesOnExposureExceedsExposureLimitWarning": "[18VEW3_This check would cause gross incurred on exposure {0} ({1}) to exceed the exposure limit of {2}. Do you still want to continue?  Rule:{3}:::жж🏆ςςਹੈக்🐔юю🎆𠲖𠜱ਲੋ🎆𠜱𠸏𠜱ςς🤙𠸏🤯]"
+}

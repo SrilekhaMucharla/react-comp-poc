@@ -1,0 +1,114 @@
+// White / Silver Info box
+.info-box {
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.05);
+
+  h1, h2, h3, h4, h5, p {
+    color: $app-theme;
+    margin: 0;
+  }
+
+  .text-small {
+    color: $info-color;
+  }
+
+  p {
+    color: $app-theme;
+    @include media-breakpoint-between(xs, sm) {
+      font-weight: normal;
+      font-size: $hd-font-size-xs;
+    }
+  }
+
+  .info-box-title {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 40px 45px;
+    @include media-breakpoint-down(md) {
+      padding: 28px 30px;
+    }
+    background-color: $white-fill;
+    border-bottom: 1px solid $blue-light;
+  }
+
+  .info-box-description {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 28px 30px;
+    @include media-breakpoint-up(sm) {
+      padding: 28px 30px 28px 15%;
+    }
+    @include media-breakpoint-up(md) {
+      padding: 28px 30px 28px 27%;
+    }
+    @include media-breakpoint-up(lg) {
+      padding: 40px 45px 40px 70px;
+    }
+    @media (min-width: 1200px) and (max-width: 1280px) {
+      padding: 40px;
+    }
+    @media (min-width: 1281px) and (max-width: 1345px) {
+      padding: 40px 55px;
+    }
+    @include media-breakpoint-up(xxl) {
+      padding: 40px 45px 40px 17%;
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+      padding: 28px;
+  }
+    background-color: $gray-light-9;
+    p {
+      line-height: 1.2;
+      font-weight: bold;
+      &.text-small {
+        font-weight: normal;
+      }
+    }
+    .page-intro-info-box-description {
+      font-size: $font-size-sm;
+      padding-top: 0;
+      @include media-breakpoint-up(md) {
+        font-size: $font-size-md;
+      }
+      @include media-breakpoint-up(xxl) {
+        padding-top: 20px;
+      }
+    }
+  }
+}
+
+.error,
+.invalid-feedback {
+  background: #a90d30;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin-top: 0.5rem;
+  font-size: $font-size-regular;
+}
+
+.elevated-box {
+    border-radius: 6px;
+    box-shadow: $secondary-shadow;
+    background-color: $white-fill;
+}
+
+.box-white {
+  background-color: $white-color;
+  box-shadow: $secondary-shadow;
+  border: none;
+  border-radius: 6px;
+  padding: $md-value;
+
+  &--small {
+    padding: $sm-value;
+  }
+
+  &--large {
+    padding: $lg-value;
+  }
+
+  @include media-breakpoint-down(sm) {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}

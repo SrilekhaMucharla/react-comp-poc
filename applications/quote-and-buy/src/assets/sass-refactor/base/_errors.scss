@@ -1,0 +1,67 @@
+// example: car worth page
+.invalid-field {
+  background: $error-color;
+  border-radius: 6px;
+  padding: 20px 25px;
+  margin: 14px 0 30px;
+  display: flex;
+  color: $white-color;
+
+  .message {
+    font-size: $font-size-md;
+    font-weight: 500;
+    line-height: 1.5;
+    color: $white-color;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    a {
+      display: table;
+      border-bottom: 2px solid $white-color;
+      margin: 7px 0 7px 0;
+      width: auto;
+    }
+  }
+
+  span {
+    margin-left: $xs-value;
+  }
+}
+// example: milage page
+
+.is-invalid + .invalid-feedback,
+.hd-information-tooltip .error {
+    display: flex;
+    width: 100%;
+    background: $error-color;
+    border-radius: 6px;
+    padding: 20px 25px;
+    font-size: $font-size-md;
+    font-weight: 500;
+    line-height: 1.5;
+    color: $white-color;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    margin-top: $sm-value;
+}
+
+.no-feedback + .invalid-feedback {
+  display: none ;
+}
+
+.exclam {
+  background: $midnight-error;
+  color: $white-color;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: -8px;
+  right: -8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  font-size: $font-size-regular;
+}

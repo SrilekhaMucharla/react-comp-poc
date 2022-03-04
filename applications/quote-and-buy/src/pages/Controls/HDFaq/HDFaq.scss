@@ -1,0 +1,156 @@
+.faq{
+
+  .hd-overlay-btn {
+    font-weight: 500;
+    text-decoration: none;
+
+    .help-icon {
+      display: flex;
+      margin-right: 40px;
+      padding-left: 20px;
+      cursor: pointer;
+      position: relative;
+
+      @include media-breakpoint-down(sm) {
+        margin-right: 7px;
+      }
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 7px;
+      }
+
+      a {
+        font-family: $font-face-generic-regular;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        padding: 2px 4px;
+        color: $white-color;
+      }
+
+      &:focus {
+        outline: none;
+
+        a {
+          background-color: $white-transparent-30;
+          border-bottom: 2px solid transparent;
+        }
+      }
+    }
+  }
+
+}
+
+.faq-overlay {
+
+  .overlay-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0 !important;
+
+    .overlay-close {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .overlay-header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-self: flex-start;
+      margin-bottom: 0;
+    }
+    .overlay-body {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex: auto;
+    }
+    .faq-content {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: auto;
+      padding-bottom: 30px;
+      .hd-text-input__form-control {
+        padding-left: 20px;
+      }
+
+      .hd-accordion {
+        .hd-accordion__card {
+          &:first-child {
+            hr {
+              display: none;
+            }
+          }
+          h5 {
+            font-size: $hd-font-size-h5;
+            font-weight: bold;
+            margin: 20px 0;
+            padding-right: 30px;
+          }
+          hr {
+            margin: 0;
+            height: 0.5px;
+          }
+          .hd-accordion__inner-html {
+            padding: 0 0 20px 0;
+          }
+        }
+      }
+    }
+
+    .faq-footer {
+      display: flex;
+      flex-basis: 100%;
+      flex-direction: column;
+      flex: 0;
+      background: $midnight-royal-blue;
+      color: $white-color;
+      padding: 15px 15px 0 15px;
+      margin: 0 -15px;
+      @include media-breakpoint-up(md) {
+        padding: 30px 30px 0 30px;
+        margin: 0 -65px;
+      }
+
+      p {
+        font-size: $hd-font-size-md;
+        @include media-breakpoint-up(md) {
+          font-size: $hd-font-size-body;
+        }
+      }
+
+      .phone-details {
+        img {
+          display: inline-flex;
+          margin-right: 10px;
+        }
+        p {
+          line-height: 1.2;
+          margin: 0;
+          display: flex;
+          align-items: center;
+        }
+        .call-center {
+          padding-left: 27px;
+          font-size: $font-size-regular;
+          @include media-breakpoint-up(md) {
+            font-size: $font-size-lg-1;
+          }
+        }
+      }
+      .open-hours {
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+}

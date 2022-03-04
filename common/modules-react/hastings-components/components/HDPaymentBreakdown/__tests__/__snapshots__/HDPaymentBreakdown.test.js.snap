@@ -1,0 +1,292 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPaymentBreakdown /> renders correctly should match snapshot 1`] = `
+<HDPaymentBreakdown
+  className=""
+  steps={
+    Array [
+      Object {
+        "circle": Object {
+          "date": Object {
+            "day": "12",
+            "shortMonth": "Dec",
+          },
+          "type": "date",
+        },
+        "description": Object {
+          "label": Array [
+            "RFI2 SJI",
+          ],
+          "name": Array [
+            "Initial payment today",
+          ],
+          "quote": Object {
+            "instalments": Array [
+              "11",
+              "12",
+            ],
+            "single": "£58.49",
+          },
+          "tooltip": "",
+        },
+        "id": 1,
+      },
+      Object {
+        "circle": Object {
+          "date": Object {
+            "day": "12",
+            "shortMonth": "Dec",
+          },
+          "type": "date",
+        },
+        "description": Object {
+          "label": Array [
+            "RFI2 SJI",
+          ],
+          "name": Array [
+            "Initial payment today",
+          ],
+          "quote": Object {
+            "instalments": Array [
+              "11",
+              "12",
+            ],
+            "single": "£58.49",
+          },
+          "tooltip": <span>
+            tets
+          </span>,
+        },
+        "id": 2,
+      },
+    ]
+  }
+  title="What you'll pay and when"
+>
+  <section
+    className=""
+  >
+    <header>
+      <h2
+        className="hd-text-title pt-3 pt-md-0  pl-1 pl-md-0"
+      >
+        What you'll pay and when
+      </h2>
+    </header>
+    <div
+      className="hd-steps-container theme-white"
+    >
+      <div
+        className="hd-steps__gradient-col"
+      >
+        <div
+          className="hd-steps__gradient-col__vertical-dash"
+        />
+      </div>
+      <div
+        className="hd-steps__col-container"
+      >
+        <div
+          className="hd-steps__col-container__row "
+          data-testid="payment-breakdown-row"
+          key="1"
+        >
+          <div
+            className="hd-steps__col-container__row__circle-col"
+          >
+            <HDCircle
+              date={
+                Object {
+                  "day": "12",
+                  "shortMonth": "Dec",
+                }
+              }
+              type="date"
+            >
+              <div
+                className="hd-step-circle-date"
+                data-testid="circle-date"
+              >
+                <span>
+                  <strong>
+                    12
+                  </strong>
+                </span>
+                <span>
+                  Dec
+                </span>
+              </div>
+            </HDCircle>
+          </div>
+          <div
+            className="hd-steps__col-container__row__description-col"
+          >
+            <HDDescription
+              extraSpace={null}
+              label={
+                Array [
+                  "RFI2 SJI",
+                ]
+              }
+              name={
+                Array [
+                  "Initial payment today",
+                ]
+              }
+              quote={
+                Object {
+                  "instalments": Array [
+                    "11",
+                    "12",
+                  ],
+                  "single": "£58.49",
+                }
+              }
+              tooltip=""
+            >
+              <div
+                className="hd-description-label"
+              >
+                <span>
+                  RFI2 SJI
+                </span>
+                <br />
+              </div>
+              <div
+                className="hd-description-name"
+              >
+                <span>
+                  Initial payment today
+                </span>
+              </div>
+              <div
+                className="hd-description-detail"
+              >
+                <div
+                  className="hd-quote"
+                  data-testid="description-quote-single"
+                >
+                  £58.49
+                </div>
+                <div
+                  className="hd-instalments"
+                  data-testid="description-quote-instalments"
+                >
+                  (
+                  11 + 12
+                  )
+                </div>
+              </div>
+            </HDDescription>
+          </div>
+        </div>
+        <div
+          className="hd-steps__col-container__row "
+          data-testid="payment-breakdown-row"
+          key="2"
+        >
+          <div
+            className="hd-steps__col-container__row__circle-col"
+          >
+            <HDCircle
+              date={
+                Object {
+                  "day": "12",
+                  "shortMonth": "Dec",
+                }
+              }
+              type="date"
+            >
+              <div
+                className="hd-step-circle-date"
+                data-testid="circle-date"
+              >
+                <span>
+                  <strong>
+                    12
+                  </strong>
+                </span>
+                <span>
+                  Dec
+                </span>
+              </div>
+            </HDCircle>
+          </div>
+          <div
+            className="hd-steps__col-container__row__description-col"
+          >
+            <HDDescription
+              extraSpace={null}
+              label={
+                Array [
+                  "RFI2 SJI",
+                ]
+              }
+              name={
+                Array [
+                  "Initial payment today",
+                ]
+              }
+              quote={
+                Object {
+                  "instalments": Array [
+                    "11",
+                    "12",
+                  ],
+                  "single": "£58.49",
+                }
+              }
+              tooltip={
+                <span>
+                  tets
+                </span>
+              }
+            >
+              <div
+                className="hd-description-label"
+              >
+                <span>
+                  RFI2 SJI
+                </span>
+                <br />
+              </div>
+              <div
+                className="hd-description-name"
+              >
+                <span>
+                  Initial payment today
+                </span>
+              </div>
+              <div
+                className="hd-description-detail"
+              >
+                <div
+                  className="hd-quote"
+                  data-testid="description-quote-single"
+                >
+                  £58.49
+                </div>
+                <div
+                  className="hd-instalments"
+                  data-testid="description-quote-instalments"
+                >
+                  (
+                  11 + 12
+                  )
+                </div>
+                <div
+                  className="hd-tooltip-wrapper"
+                >
+                  <span>
+                    tets
+                  </span>
+                </div>
+              </div>
+            </HDDescription>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</HDPaymentBreakdown>
+`;

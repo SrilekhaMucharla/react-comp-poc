@@ -1,0 +1,2303 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDriverConvictionsPage /> Click toggle buttons and set both to false 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HDDriverConvictionsPage)
+      pageId="test-page"
+    >
+      <HDDriverConvictionsPage
+        pageId="test-page"
+        setNavigation={[Function]}
+        submissionVM={
+          Object {
+            "baseData": Object {
+              "accountHolder": Object {
+                "dateOfBirth": null,
+              },
+              "isExistingCustomer": false,
+              "isPostalDocument": false,
+              "jobType": "Submission",
+              "marketingContacts": Object {
+                "allowEmail": false,
+                "allowPost": false,
+                "allowSMS": false,
+                "allowTelephone": false,
+              },
+              "periodStatus": "Draft",
+              "policyAddress": Object {},
+              "producerCode": "Default",
+              "productCode": "PrivateCar_Ext",
+              "productName": "Private Car",
+              "termType": "Annual",
+            },
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "addInterestTypeCategory": "PAVhcleAddlInterest",
+                  "drivers": Array [
+                    Object {
+                      "claimsAndConvictions": Object {
+                        "claimsDetailsCollection": Array [],
+                        "convictionsCollection": Array [],
+                      },
+                      "licenceObtainedDate": null,
+                      "person": Object {
+                        "prefix": Object {},
+                      },
+                      "previousPoliciesInformation": Object {},
+                      "residingInUKSince": null,
+                      "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                    },
+                  ],
+                  "vehicleDrivers": Array [
+                    Object {},
+                  ],
+                  "vehicles": Array [
+                    Object {
+                      "isCarModified": "",
+                      "ncdProtection": Object {
+                        "drivingExperience": Object {},
+                      },
+                      "tracker": "",
+                      "vehicleModifications": Array [],
+                      "vehicleWorth": "",
+                    },
+                  ],
+                },
+                "preQualQuestionSets": Array [],
+              },
+            },
+          }
+        }
+      >
+        <Container
+          className="driver-conv-container"
+          fluid={false}
+        >
+          <div
+            className="driver-conv-container container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <ForwardRef
+                      customStyle="wide"
+                      hideFooter={true}
+                      id="convictions-modal"
+                      onBeforeOpen={null}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Add Conviction",
+                        }
+                      }
+                      webAnalyticsView={
+                        Object {
+                          "page_section": "Add Conviction",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        customStyle="wide"
+                        hideFooter={true}
+                        id="convictions-modal"
+                        onBeforeOpen={[Function]}
+                        onBlur={null}
+                        onCancel={[Function]}
+                        onChange={null}
+                        onClick={null}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Add Conviction",
+                          }
+                        }
+                      >
+                        <HDModal
+                          cancelLabel="Cancel"
+                          className=""
+                          confirmLabel="Confirm"
+                          customStyle="wide"
+                          headerText=""
+                          hideCancelButton={false}
+                          hideClose={false}
+                          hideConfirmButton={false}
+                          hideFooter={true}
+                          id="convictions-modal"
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          show={false}
+                        />
+                      </ForwardRef>
+                    </ForwardRef>
+                    <ForwardRef
+                      cancelLabel="Go back"
+                      confirmLabel="Yes"
+                      headerText="Are you sure?"
+                      id="delete-conviction-modal"
+                      onBeforeOpen={null}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Remove Conviction",
+                        }
+                      }
+                      webAnalyticsView={
+                        Object {
+                          "page_section": "Remove Conviction",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        cancelLabel="Go back"
+                        confirmLabel="Yes"
+                        headerText="Are you sure?"
+                        id="delete-conviction-modal"
+                        onBeforeOpen={[Function]}
+                        onBlur={null}
+                        onCancel={[Function]}
+                        onChange={null}
+                        onClick={null}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Remove Conviction",
+                          }
+                        }
+                      >
+                        <HDModal
+                          cancelLabel="Go back"
+                          className=""
+                          confirmLabel="Yes"
+                          customStyle=""
+                          headerText="Are you sure?"
+                          hideCancelButton={false}
+                          hideClose={false}
+                          hideConfirmButton={false}
+                          hideFooter={false}
+                          id="delete-conviction-modal"
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          show={false}
+                        />
+                      </ForwardRef>
+                    </ForwardRef>
+                    <HDForm
+                      className=""
+                      initValues={Object {}}
+                      onValidation={[Function]}
+                      passedKey="default-key"
+                      resetFormOnStart={false}
+                      submissionVM={
+                        Object {
+                          "baseData": Object {
+                            "accountHolder": Object {
+                              "dateOfBirth": null,
+                            },
+                            "isExistingCustomer": false,
+                            "isPostalDocument": false,
+                            "jobType": "Submission",
+                            "marketingContacts": Object {
+                              "allowEmail": false,
+                              "allowPost": false,
+                              "allowSMS": false,
+                              "allowTelephone": false,
+                            },
+                            "periodStatus": "Draft",
+                            "policyAddress": Object {},
+                            "producerCode": "Default",
+                            "productCode": "PrivateCar_Ext",
+                            "productName": "Private Car",
+                            "termType": "Annual",
+                          },
+                          "lobData": Object {
+                            "privateCar": Object {
+                              "coverables": Object {
+                                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                                "drivers": Array [
+                                  Object {
+                                    "claimsAndConvictions": Object {
+                                      "claimsDetailsCollection": Array [],
+                                      "convictionsCollection": Array [],
+                                    },
+                                    "licenceObtainedDate": null,
+                                    "person": Object {
+                                      "prefix": Object {},
+                                    },
+                                    "previousPoliciesInformation": Object {},
+                                    "residingInUKSince": null,
+                                    "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                                  },
+                                ],
+                                "vehicleDrivers": Array [
+                                  Object {},
+                                ],
+                                "vehicles": Array [
+                                  Object {
+                                    "isCarModified": "",
+                                    "ncdProtection": Object {
+                                      "drivingExperience": Object {},
+                                    },
+                                    "tracker": "",
+                                    "vehicleModifications": Array [],
+                                    "vehicleWorth": "",
+                                  },
+                                ],
+                              },
+                              "preQualQuestionSets": Array [],
+                            },
+                          },
+                        }
+                      }
+                      validationSchema={
+                        ObjectSchema {
+                          "_blacklist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "_conditions": Array [],
+                          "_defaultDefault": [Function],
+                          "_deps": Array [],
+                          "_excludedEdges": Array [],
+                          "_exclusive": Object {},
+                          "_mutate": undefined,
+                          "_nodes": Array [
+                            "unspentNonMotorConvictions",
+                            "anyConvictions",
+                          ],
+                          "_options": Object {
+                            "abortEarly": true,
+                            "recursive": true,
+                          },
+                          "_type": "object",
+                          "_typeError": [Function],
+                          "_whitelist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "fields": Object {
+                            "anyConvictions": StringSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_deps": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                                "required": true,
+                              },
+                              "_mutate": undefined,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "string",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "tests": Array [
+                                [Function],
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "string",
+                              "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions",
+                            },
+                            "unspentNonMotorConvictions": StringSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_deps": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                                "required": true,
+                              },
+                              "_mutate": undefined,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "string",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "tests": Array [
+                                [Function],
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "string",
+                              "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions",
+                            },
+                          },
+                          "tests": Array [],
+                          "transforms": Array [
+                            [Function],
+                          ],
+                          "type": "object",
+                        }
+                      }
+                    >
+                      <Formik
+                        initialTouched={Array []}
+                        initialValues={
+                          Object {
+                            "anyConvictions": "",
+                            "unspentNonMotorConvictions": "",
+                          }
+                        }
+                        key="default-key"
+                        validateOnMount={true}
+                        validationSchema={
+                          ObjectSchema {
+                            "_blacklist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "_conditions": Array [],
+                            "_defaultDefault": [Function],
+                            "_deps": Array [],
+                            "_excludedEdges": Array [],
+                            "_exclusive": Object {},
+                            "_mutate": undefined,
+                            "_nodes": Array [
+                              "unspentNonMotorConvictions",
+                              "anyConvictions",
+                            ],
+                            "_options": Object {
+                              "abortEarly": true,
+                              "recursive": true,
+                            },
+                            "_type": "object",
+                            "_typeError": [Function],
+                            "_whitelist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "fields": Object {
+                              "anyConvictions": StringSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {
+                                  "VMValidation": false,
+                                  "required": true,
+                                },
+                                "_mutate": undefined,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "string",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                                "type": "string",
+                                "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions",
+                              },
+                              "unspentNonMotorConvictions": StringSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {
+                                  "VMValidation": false,
+                                  "required": true,
+                                },
+                                "_mutate": undefined,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "string",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                                "type": "string",
+                                "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions",
+                              },
+                            },
+                            "tests": Array [],
+                            "transforms": Array [
+                              [Function],
+                            ],
+                            "type": "object",
+                          }
+                        }
+                      >
+                        <Form
+                          className=""
+                          inline={false}
+                          noValidate={true}
+                          onSubmit={[Function]}
+                        >
+                          <form
+                            className=""
+                            noValidate={true}
+                            onSubmit={[Function]}
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions.anyConvictions.convictions-button-group"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDToggleButtonGroup",
+                                    }
+                                  }
+                                  availableValues={
+                                    Array [
+                                      Object {
+                                        "name": "Yes",
+                                        "value": "true",
+                                      },
+                                      Object {
+                                        "name": "No",
+                                        "value": "false",
+                                      },
+                                    ]
+                                  }
+                                  btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                  className="undefined "
+                                  custom={true}
+                                  doReset={false}
+                                  id="convictions-button-group"
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "className": "",
+                                      "id": "driver-conv-last-yrs",
+                                      "text": "In the last five years, have you had any driving-related:",
+                                    }
+                                  }
+                                  name="anyConvictions"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions"
+                                  value="false"
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "In the last five years, have you had any driving-related:",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    availableValues={
+                                      Array [
+                                        Object {
+                                          "name": "Yes",
+                                          "value": "true",
+                                        },
+                                        Object {
+                                          "name": "No",
+                                          "value": "false",
+                                        },
+                                      ]
+                                    }
+                                    btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                    className="undefined  custom"
+                                    doReset={false}
+                                    id="convictions-button-group"
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "className": "",
+                                        "id": "driver-conv-last-yrs",
+                                        "text": "In the last five years, have you had any driving-related:",
+                                      }
+                                    }
+                                    name="anyConvictions"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions"
+                                    value="false"
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "In the last five years, have you had any driving-related:",
+                                      }
+                                    }
+                                  >
+                                    <HDToggleButtonGroup
+                                      availableValues={
+                                        Array [
+                                          Object {
+                                            "name": "Yes",
+                                            "value": "true",
+                                          },
+                                          Object {
+                                            "name": "No",
+                                            "value": "false",
+                                          },
+                                        ]
+                                      }
+                                      btnClassName=""
+                                      btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                      className="undefined  custom"
+                                      customClassName=""
+                                      data={null}
+                                      disabled={false}
+                                      doReset={false}
+                                      id="convictions-button-group"
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "className": "",
+                                          "id": "driver-conv-last-yrs",
+                                          "text": "In the last five years, have you had any driving-related:",
+                                        }
+                                      }
+                                      name="anyConvictions"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions"
+                                      type="radio"
+                                      value="false"
+                                    >
+                                      <div
+                                        className=" undefined  custom"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="driver-conv-last-yrs"
+                                          text="In the last five years, have you had any driving-related:"
+                                        >
+                                          <h2
+                                            className=""
+                                            id="driver-conv-last-yrs"
+                                          >
+                                            In the last five years, have you had any driving-related:
+                                          </h2>
+                                        </HDLabelRefactor>
+                                        <ul
+                                          className="pad-inl-start-beg margin-bottom-lg"
+                                        >
+                                          <li>
+                                            Convictions
+                                          </li>
+                                          <li>
+                                            Endorsements
+                                          </li>
+                                          <li>
+                                            Fixed penalties
+                                          </li>
+                                          <li>
+                                            Disqualifications or bans
+                                          </li>
+                                        </ul>
+                                        <ForwardRef
+                                          className="grid grid--col-2 grid--col-lg-3"
+                                          name="anyConvictions"
+                                          type="radio"
+                                          value="false"
+                                          vertical={false}
+                                        >
+                                          <ButtonGroup
+                                            className="grid grid--col-2 grid--col-lg-3"
+                                            role="group"
+                                            toggle={true}
+                                            vertical={false}
+                                          >
+                                            <div
+                                              className="grid grid--col-2 grid--col-lg-3 btn-group btn-group-toggle"
+                                              role="group"
+                                            >
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$true"
+                                                name="anyConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="true"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="anyConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="true"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        Yes
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={true}
+                                                className=""
+                                                disabled={false}
+                                                key=".$false"
+                                                name="anyConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="false"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={true}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn active btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={true}
+                                                      disabled={false}
+                                                      name="anyConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="false"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        No
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                            </div>
+                                          </ButtonGroup>
+                                        </ForwardRef>
+                                      </div>
+                                    </HDToggleButtonGroup>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you must answer all questions to be able to continue
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                            <hr />
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions.unspentNonMotorConvictions.criminal-convictions-button-group"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDToggleButtonGroup",
+                                    }
+                                  }
+                                  availableValues={
+                                    Array [
+                                      Object {
+                                        "name": "Yes",
+                                        "value": "true",
+                                      },
+                                      Object {
+                                        "name": "No",
+                                        "value": "false",
+                                      },
+                                    ]
+                                  }
+                                  btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                  className="undefined "
+                                  custom={true}
+                                  id="criminal-convictions-button-group"
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "id": "driver-conv-criminal-convs",
+                                      "text": "Do you have any unspent 
+non-motoring convictions?",
+                                    }
+                                  }
+                                  name="unspentNonMotorConvictions"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions"
+                                  value="false"
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "Do you have any unspent 
+non-motoring convictions?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    availableValues={
+                                      Array [
+                                        Object {
+                                          "name": "Yes",
+                                          "value": "true",
+                                        },
+                                        Object {
+                                          "name": "No",
+                                          "value": "false",
+                                        },
+                                      ]
+                                    }
+                                    btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                    className="undefined  custom"
+                                    id="criminal-convictions-button-group"
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "id": "driver-conv-criminal-convs",
+                                        "text": "Do you have any unspent 
+non-motoring convictions?",
+                                      }
+                                    }
+                                    name="unspentNonMotorConvictions"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions"
+                                    value="false"
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "Do you have any unspent 
+non-motoring convictions?",
+                                      }
+                                    }
+                                  >
+                                    <HDToggleButtonGroup
+                                      availableValues={
+                                        Array [
+                                          Object {
+                                            "name": "Yes",
+                                            "value": "true",
+                                          },
+                                          Object {
+                                            "name": "No",
+                                            "value": "false",
+                                          },
+                                        ]
+                                      }
+                                      btnClassName=""
+                                      btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                      className="undefined  custom"
+                                      customClassName=""
+                                      data={null}
+                                      disabled={false}
+                                      doReset={false}
+                                      id="criminal-convictions-button-group"
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "id": "driver-conv-criminal-convs",
+                                          "text": "Do you have any unspent 
+non-motoring convictions?",
+                                        }
+                                      }
+                                      name="unspentNonMotorConvictions"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions"
+                                      type="radio"
+                                      value="false"
+                                    >
+                                      <div
+                                        className=" undefined  custom"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="driver-conv-criminal-convs"
+                                          text="Do you have any unspent 
+non-motoring convictions?"
+                                        >
+                                          <h2
+                                            className=""
+                                            id="driver-conv-criminal-convs"
+                                          >
+                                            Do you have any unspent 
+non-motoring convictions?
+                                          </h2>
+                                        </HDLabelRefactor>
+                                        <ForwardRef
+                                          className="grid grid--col-2 grid--col-lg-3"
+                                          name="unspentNonMotorConvictions"
+                                          type="radio"
+                                          value="false"
+                                          vertical={false}
+                                        >
+                                          <ButtonGroup
+                                            className="grid grid--col-2 grid--col-lg-3"
+                                            role="group"
+                                            toggle={true}
+                                            vertical={false}
+                                          >
+                                            <div
+                                              className="grid grid--col-2 grid--col-lg-3 btn-group btn-group-toggle"
+                                              role="group"
+                                            >
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$true"
+                                                name="unspentNonMotorConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="true"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="unspentNonMotorConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="true"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        Yes
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={true}
+                                                className=""
+                                                disabled={false}
+                                                key=".$false"
+                                                name="unspentNonMotorConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="false"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={true}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn active btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={true}
+                                                      disabled={false}
+                                                      name="unspentNonMotorConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="false"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        No
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                            </div>
+                                          </ButtonGroup>
+                                        </ForwardRef>
+                                      </div>
+                                    </HDToggleButtonGroup>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you must answer all questions to be able to continue
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </form>
+                        </Form>
+                      </Formik>
+                    </HDForm>
+                    <hr
+                      className="mt-5 mb-3"
+                    />
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </HDDriverConvictionsPage>
+    </Connect(HDDriverConvictionsPage)>
+  </Provider>
+</Component>
+`;
+
+exports[`<HDDriverConvictionsPage /> Render component 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HDDriverConvictionsPage)
+      pageId="test-page"
+    >
+      <HDDriverConvictionsPage
+        pageId="test-page"
+        setNavigation={[Function]}
+        submissionVM={
+          Object {
+            "baseData": Object {
+              "accountHolder": Object {
+                "dateOfBirth": null,
+              },
+              "isExistingCustomer": false,
+              "isPostalDocument": false,
+              "jobType": "Submission",
+              "marketingContacts": Object {
+                "allowEmail": false,
+                "allowPost": false,
+                "allowSMS": false,
+                "allowTelephone": false,
+              },
+              "periodStatus": "Draft",
+              "policyAddress": Object {},
+              "producerCode": "Default",
+              "productCode": "PrivateCar_Ext",
+              "productName": "Private Car",
+              "termType": "Annual",
+            },
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "addInterestTypeCategory": "PAVhcleAddlInterest",
+                  "drivers": Array [
+                    Object {
+                      "claimsAndConvictions": Object {
+                        "claimsDetailsCollection": Array [],
+                        "convictionsCollection": Array [],
+                      },
+                      "licenceObtainedDate": null,
+                      "person": Object {
+                        "prefix": Object {},
+                      },
+                      "previousPoliciesInformation": Object {},
+                      "residingInUKSince": null,
+                      "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                    },
+                  ],
+                  "vehicleDrivers": Array [
+                    Object {},
+                  ],
+                  "vehicles": Array [
+                    Object {
+                      "isCarModified": "",
+                      "ncdProtection": Object {
+                        "drivingExperience": Object {},
+                      },
+                      "tracker": "",
+                      "vehicleModifications": Array [],
+                      "vehicleWorth": "",
+                    },
+                  ],
+                },
+                "preQualQuestionSets": Array [],
+              },
+            },
+          }
+        }
+      >
+        <Container
+          className="driver-conv-container"
+          fluid={false}
+        >
+          <div
+            className="driver-conv-container container"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <ForwardRef
+                      customStyle="wide"
+                      hideFooter={true}
+                      id="convictions-modal"
+                      onBeforeOpen={null}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Add Conviction",
+                        }
+                      }
+                      webAnalyticsView={
+                        Object {
+                          "page_section": "Add Conviction",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        customStyle="wide"
+                        hideFooter={true}
+                        id="convictions-modal"
+                        onBeforeOpen={[Function]}
+                        onBlur={null}
+                        onCancel={[Function]}
+                        onChange={null}
+                        onClick={null}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Add Conviction",
+                          }
+                        }
+                      >
+                        <HDModal
+                          cancelLabel="Cancel"
+                          className=""
+                          confirmLabel="Confirm"
+                          customStyle="wide"
+                          headerText=""
+                          hideCancelButton={false}
+                          hideClose={false}
+                          hideConfirmButton={false}
+                          hideFooter={true}
+                          id="convictions-modal"
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          show={false}
+                        />
+                      </ForwardRef>
+                    </ForwardRef>
+                    <ForwardRef
+                      cancelLabel="Go back"
+                      confirmLabel="Yes"
+                      headerText="Are you sure?"
+                      id="delete-conviction-modal"
+                      onBeforeOpen={null}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Remove Conviction",
+                        }
+                      }
+                      webAnalyticsView={
+                        Object {
+                          "page_section": "Remove Conviction",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        cancelLabel="Go back"
+                        confirmLabel="Yes"
+                        headerText="Are you sure?"
+                        id="delete-conviction-modal"
+                        onBeforeOpen={[Function]}
+                        onBlur={null}
+                        onCancel={[Function]}
+                        onChange={null}
+                        onClick={null}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Remove Conviction",
+                          }
+                        }
+                      >
+                        <HDModal
+                          cancelLabel="Go back"
+                          className=""
+                          confirmLabel="Yes"
+                          customStyle=""
+                          headerText="Are you sure?"
+                          hideCancelButton={false}
+                          hideClose={false}
+                          hideConfirmButton={false}
+                          hideFooter={false}
+                          id="delete-conviction-modal"
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          show={false}
+                        />
+                      </ForwardRef>
+                    </ForwardRef>
+                    <HDForm
+                      className=""
+                      initValues={Object {}}
+                      onValidation={[Function]}
+                      passedKey="default-key"
+                      resetFormOnStart={false}
+                      submissionVM={
+                        Object {
+                          "baseData": Object {
+                            "accountHolder": Object {
+                              "dateOfBirth": null,
+                            },
+                            "isExistingCustomer": false,
+                            "isPostalDocument": false,
+                            "jobType": "Submission",
+                            "marketingContacts": Object {
+                              "allowEmail": false,
+                              "allowPost": false,
+                              "allowSMS": false,
+                              "allowTelephone": false,
+                            },
+                            "periodStatus": "Draft",
+                            "policyAddress": Object {},
+                            "producerCode": "Default",
+                            "productCode": "PrivateCar_Ext",
+                            "productName": "Private Car",
+                            "termType": "Annual",
+                          },
+                          "lobData": Object {
+                            "privateCar": Object {
+                              "coverables": Object {
+                                "addInterestTypeCategory": "PAVhcleAddlInterest",
+                                "drivers": Array [
+                                  Object {
+                                    "claimsAndConvictions": Object {
+                                      "claimsDetailsCollection": Array [],
+                                      "convictionsCollection": Array [],
+                                    },
+                                    "licenceObtainedDate": null,
+                                    "person": Object {
+                                      "prefix": Object {},
+                                    },
+                                    "previousPoliciesInformation": Object {},
+                                    "residingInUKSince": null,
+                                    "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                                  },
+                                ],
+                                "vehicleDrivers": Array [
+                                  Object {},
+                                ],
+                                "vehicles": Array [
+                                  Object {
+                                    "isCarModified": "",
+                                    "ncdProtection": Object {
+                                      "drivingExperience": Object {},
+                                    },
+                                    "tracker": "",
+                                    "vehicleModifications": Array [],
+                                    "vehicleWorth": "",
+                                  },
+                                ],
+                              },
+                              "preQualQuestionSets": Array [],
+                            },
+                          },
+                        }
+                      }
+                      validationSchema={
+                        ObjectSchema {
+                          "_blacklist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "_conditions": Array [],
+                          "_defaultDefault": [Function],
+                          "_deps": Array [],
+                          "_excludedEdges": Array [],
+                          "_exclusive": Object {},
+                          "_mutate": undefined,
+                          "_nodes": Array [
+                            "unspentNonMotorConvictions",
+                            "anyConvictions",
+                          ],
+                          "_options": Object {
+                            "abortEarly": true,
+                            "recursive": true,
+                          },
+                          "_type": "object",
+                          "_typeError": [Function],
+                          "_whitelist": RefSet {
+                            "list": Set {},
+                            "refs": Map {},
+                          },
+                          "fields": Object {
+                            "anyConvictions": StringSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_deps": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                                "required": true,
+                              },
+                              "_mutate": undefined,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "string",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "tests": Array [
+                                [Function],
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "string",
+                              "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions",
+                            },
+                            "unspentNonMotorConvictions": StringSchema {
+                              "_blacklist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "_conditions": Array [],
+                              "_deps": Array [],
+                              "_exclusive": Object {
+                                "VMValidation": false,
+                                "required": true,
+                              },
+                              "_mutate": undefined,
+                              "_options": Object {
+                                "abortEarly": true,
+                                "recursive": true,
+                              },
+                              "_type": "string",
+                              "_typeError": [Function],
+                              "_whitelist": RefSet {
+                                "list": Set {},
+                                "refs": Map {},
+                              },
+                              "tests": Array [
+                                [Function],
+                                [Function],
+                              ],
+                              "transforms": Array [
+                                [Function],
+                              ],
+                              "type": "string",
+                              "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions",
+                            },
+                          },
+                          "tests": Array [],
+                          "transforms": Array [
+                            [Function],
+                          ],
+                          "type": "object",
+                        }
+                      }
+                    >
+                      <Formik
+                        initialTouched={Array []}
+                        initialValues={
+                          Object {
+                            "anyConvictions": "",
+                            "unspentNonMotorConvictions": "",
+                          }
+                        }
+                        key="default-key"
+                        validateOnMount={true}
+                        validationSchema={
+                          ObjectSchema {
+                            "_blacklist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "_conditions": Array [],
+                            "_defaultDefault": [Function],
+                            "_deps": Array [],
+                            "_excludedEdges": Array [],
+                            "_exclusive": Object {},
+                            "_mutate": undefined,
+                            "_nodes": Array [
+                              "unspentNonMotorConvictions",
+                              "anyConvictions",
+                            ],
+                            "_options": Object {
+                              "abortEarly": true,
+                              "recursive": true,
+                            },
+                            "_type": "object",
+                            "_typeError": [Function],
+                            "_whitelist": RefSet {
+                              "list": Set {},
+                              "refs": Map {},
+                            },
+                            "fields": Object {
+                              "anyConvictions": StringSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {
+                                  "VMValidation": false,
+                                  "required": true,
+                                },
+                                "_mutate": undefined,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "string",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                                "type": "string",
+                                "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions",
+                              },
+                              "unspentNonMotorConvictions": StringSchema {
+                                "_blacklist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "_conditions": Array [],
+                                "_deps": Array [],
+                                "_exclusive": Object {
+                                  "VMValidation": false,
+                                  "required": true,
+                                },
+                                "_mutate": undefined,
+                                "_options": Object {
+                                  "abortEarly": true,
+                                  "recursive": true,
+                                },
+                                "_type": "string",
+                                "_typeError": [Function],
+                                "_whitelist": RefSet {
+                                  "list": Set {},
+                                  "refs": Map {},
+                                },
+                                "tests": Array [
+                                  [Function],
+                                  [Function],
+                                ],
+                                "transforms": Array [
+                                  [Function],
+                                ],
+                                "type": "string",
+                                "vmPath": "lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions",
+                              },
+                            },
+                            "tests": Array [],
+                            "transforms": Array [
+                              [Function],
+                            ],
+                            "type": "object",
+                          }
+                        }
+                      >
+                        <Form
+                          className=""
+                          inline={false}
+                          noValidate={true}
+                          onSubmit={[Function]}
+                        >
+                          <form
+                            className=""
+                            noValidate={true}
+                            onSubmit={[Function]}
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions.anyConvictions.convictions-button-group"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDToggleButtonGroup",
+                                    }
+                                  }
+                                  availableValues={
+                                    Array [
+                                      Object {
+                                        "name": "Yes",
+                                        "value": "true",
+                                      },
+                                      Object {
+                                        "name": "No",
+                                        "value": "false",
+                                      },
+                                    ]
+                                  }
+                                  btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                  className="undefined "
+                                  custom={true}
+                                  doReset={false}
+                                  id="convictions-button-group"
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "className": "",
+                                      "id": "driver-conv-last-yrs",
+                                      "text": "In the last five years, have you had any driving-related:",
+                                    }
+                                  }
+                                  name="anyConvictions"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "In the last five years, have you had any driving-related:",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    availableValues={
+                                      Array [
+                                        Object {
+                                          "name": "Yes",
+                                          "value": "true",
+                                        },
+                                        Object {
+                                          "name": "No",
+                                          "value": "false",
+                                        },
+                                      ]
+                                    }
+                                    btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                    className="undefined  custom"
+                                    doReset={false}
+                                    id="convictions-button-group"
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "className": "",
+                                        "id": "driver-conv-last-yrs",
+                                        "text": "In the last five years, have you had any driving-related:",
+                                      }
+                                    }
+                                    name="anyConvictions"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "In the last five years, have you had any driving-related:",
+                                      }
+                                    }
+                                  >
+                                    <HDToggleButtonGroup
+                                      availableValues={
+                                        Array [
+                                          Object {
+                                            "name": "Yes",
+                                            "value": "true",
+                                          },
+                                          Object {
+                                            "name": "No",
+                                            "value": "false",
+                                          },
+                                        ]
+                                      }
+                                      btnClassName=""
+                                      btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                      className="undefined  custom"
+                                      customClassName=""
+                                      data={null}
+                                      disabled={false}
+                                      doReset={false}
+                                      id="convictions-button-group"
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "className": "",
+                                          "id": "driver-conv-last-yrs",
+                                          "text": "In the last five years, have you had any driving-related:",
+                                        }
+                                      }
+                                      name="anyConvictions"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.anyConvictions"
+                                      type="radio"
+                                      value=""
+                                    >
+                                      <div
+                                        className=" undefined  custom"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="driver-conv-last-yrs"
+                                          text="In the last five years, have you had any driving-related:"
+                                        >
+                                          <h2
+                                            className=""
+                                            id="driver-conv-last-yrs"
+                                          >
+                                            In the last five years, have you had any driving-related:
+                                          </h2>
+                                        </HDLabelRefactor>
+                                        <ul
+                                          className="pad-inl-start-beg margin-bottom-lg"
+                                        >
+                                          <li>
+                                            Convictions
+                                          </li>
+                                          <li>
+                                            Endorsements
+                                          </li>
+                                          <li>
+                                            Fixed penalties
+                                          </li>
+                                          <li>
+                                            Disqualifications or bans
+                                          </li>
+                                        </ul>
+                                        <ForwardRef
+                                          className="grid grid--col-2 grid--col-lg-3"
+                                          name="anyConvictions"
+                                          type="radio"
+                                          value=""
+                                          vertical={false}
+                                        >
+                                          <ButtonGroup
+                                            className="grid grid--col-2 grid--col-lg-3"
+                                            role="group"
+                                            toggle={true}
+                                            vertical={false}
+                                          >
+                                            <div
+                                              className="grid grid--col-2 grid--col-lg-3 btn-group btn-group-toggle"
+                                              role="group"
+                                            >
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$true"
+                                                name="anyConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="true"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="anyConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="true"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        Yes
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$false"
+                                                name="anyConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="false"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="anyConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="false"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        No
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                            </div>
+                                          </ButtonGroup>
+                                        </ForwardRef>
+                                      </div>
+                                    </HDToggleButtonGroup>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  />
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                            <hr />
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions.unspentNonMotorConvictions.criminal-convictions-button-group"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDToggleButtonGroup",
+                                    }
+                                  }
+                                  availableValues={
+                                    Array [
+                                      Object {
+                                        "name": "Yes",
+                                        "value": "true",
+                                      },
+                                      Object {
+                                        "name": "No",
+                                        "value": "false",
+                                      },
+                                    ]
+                                  }
+                                  btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                  className="undefined "
+                                  custom={true}
+                                  id="criminal-convictions-button-group"
+                                  label={
+                                    Object {
+                                      "Tag": "h2",
+                                      "id": "driver-conv-criminal-convs",
+                                      "text": "Do you have any unspent 
+non-motoring convictions?",
+                                    }
+                                  }
+                                  name="unspentNonMotorConvictions"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "Do you have any unspent 
+non-motoring convictions?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    availableValues={
+                                      Array [
+                                        Object {
+                                          "name": "Yes",
+                                          "value": "true",
+                                        },
+                                        Object {
+                                          "name": "No",
+                                          "value": "false",
+                                        },
+                                      ]
+                                    }
+                                    btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                    className="undefined  custom"
+                                    id="criminal-convictions-button-group"
+                                    label={
+                                      Object {
+                                        "Tag": "h2",
+                                        "id": "driver-conv-criminal-convs",
+                                        "text": "Do you have any unspent 
+non-motoring convictions?",
+                                      }
+                                    }
+                                    name="unspentNonMotorConvictions"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "Do you have any unspent 
+non-motoring convictions?",
+                                      }
+                                    }
+                                  >
+                                    <HDToggleButtonGroup
+                                      availableValues={
+                                        Array [
+                                          Object {
+                                            "name": "Yes",
+                                            "value": "true",
+                                          },
+                                          Object {
+                                            "name": "No",
+                                            "value": "false",
+                                          },
+                                        ]
+                                      }
+                                      btnClassName=""
+                                      btnGroupClassName="grid grid--col-2 grid--col-lg-3"
+                                      className="undefined  custom"
+                                      customClassName=""
+                                      data={null}
+                                      disabled={false}
+                                      doReset={false}
+                                      id="criminal-convictions-button-group"
+                                      label={
+                                        Object {
+                                          "Tag": "h2",
+                                          "id": "driver-conv-criminal-convs",
+                                          "text": "Do you have any unspent 
+non-motoring convictions?",
+                                        }
+                                      }
+                                      name="unspentNonMotorConvictions"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.claimsAndConvictions.unspentNonMotorConvictions"
+                                      type="radio"
+                                      value=""
+                                    >
+                                      <div
+                                        className=" undefined  custom"
+                                      >
+                                        <HDLabelRefactor
+                                          Tag="h2"
+                                          adjustImagePosition={true}
+                                          className=""
+                                          id="driver-conv-criminal-convs"
+                                          text="Do you have any unspent 
+non-motoring convictions?"
+                                        >
+                                          <h2
+                                            className=""
+                                            id="driver-conv-criminal-convs"
+                                          >
+                                            Do you have any unspent 
+non-motoring convictions?
+                                          </h2>
+                                        </HDLabelRefactor>
+                                        <ForwardRef
+                                          className="grid grid--col-2 grid--col-lg-3"
+                                          name="unspentNonMotorConvictions"
+                                          type="radio"
+                                          value=""
+                                          vertical={false}
+                                        >
+                                          <ButtonGroup
+                                            className="grid grid--col-2 grid--col-lg-3"
+                                            role="group"
+                                            toggle={true}
+                                            vertical={false}
+                                          >
+                                            <div
+                                              className="grid grid--col-2 grid--col-lg-3 btn-group btn-group-toggle"
+                                              role="group"
+                                            >
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$true"
+                                                name="unspentNonMotorConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="true"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="unspentNonMotorConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="true"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        Yes
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$false"
+                                                name="unspentNonMotorConvictions"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="false"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="unspentNonMotorConvictions"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="false"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        No
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                            </div>
+                                          </ButtonGroup>
+                                        </ForwardRef>
+                                      </div>
+                                    </HDToggleButtonGroup>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  />
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </form>
+                        </Form>
+                      </Formik>
+                    </HDForm>
+                    <hr
+                      className="mt-5 mb-3"
+                    />
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Container>
+      </HDDriverConvictionsPage>
+    </Connect(HDDriverConvictionsPage)>
+  </Provider>
+</Component>
+`;

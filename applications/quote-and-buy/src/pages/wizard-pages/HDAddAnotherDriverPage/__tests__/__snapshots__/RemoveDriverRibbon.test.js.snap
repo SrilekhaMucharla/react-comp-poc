@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RemoveDriverRibbon should render correctly and match the snapshot 1`] = `
+<Fragment>
+  <HDRibbon
+    actionText="Remove driver"
+    className="remove-driver-ribbon"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    tabIndex={0}
+    text={null}
+  />
+  <DeleteDriverModal
+    driverName={null}
+    onCancel={[Function]}
+    onClose={[Function]}
+    onConfirm={[Function]}
+    show={false}
+  />
+</Fragment>
+`;

@@ -1,0 +1,407 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDAddAnotherCar /> hidden to false renders component and matches snapshot 1`] = `
+<HDAddAnotherCar
+  addCarHandler={null}
+  hidden={false}
+>
+  <div
+    hidden={false}
+  >
+    <Row
+      className="add-car__card ml-1 mr-1"
+      noGutters={false}
+    >
+      <div
+        className="add-car__card ml-1 mr-1 row"
+      >
+        <Col>
+          <div
+            className="col"
+          >
+            <Row
+              className="add-car__mc-image mb-1 pl-0 pr-0"
+              noGutters={false}
+            >
+              <div
+                className="add-car__mc-image mb-1 pl-0 pr-0 row"
+              >
+                <Col
+                  className="pr-0 pl-0"
+                >
+                  <div
+                    className="pr-0 pl-0 col"
+                  >
+                    <img
+                      alt="Multi Car Img"
+                      className="add-car__mc-image-mob"
+                      src="rectangle-2830.png"
+                    />
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="add-car__header mb-3"
+              noGutters={false}
+            >
+              <div
+                className="add-car__header mb-3 row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h6"
+                      adjustImagePosition={true}
+                      className=""
+                      text="More than one car at Home? Try our Multi Car cover"
+                    >
+                      <h6
+                        className=""
+                      >
+                        More than one car at Home? Try our Multi Car cover
+                      </h6>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="add-car__mc-points mb-4"
+              noGutters={false}
+            >
+              <div
+                className="add-car__mc-points mb-4 row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <ul>
+                      <li>
+                        <HDLabelRefactor
+                          Tag="p"
+                          adjustImagePosition={true}
+                          className="add-car__mc-points__mc1"
+                          text="It's simple to setup."
+                        >
+                          <p
+                            className="add-car__mc-points__mc1"
+                          >
+                            It's simple to setup.
+                          </p>
+                        </HDLabelRefactor>
+                      </li>
+                      <li>
+                        <HDLabelRefactor
+                          Tag="p"
+                          adjustImagePosition={true}
+                          className="add-car__mc-points__mc2"
+                          text="You'll get a discount for every car you insure."
+                        >
+                          <p
+                            className="add-car__mc-points__mc2"
+                          >
+                            You'll get a discount for every car you insure.
+                          </p>
+                        </HDLabelRefactor>
+                      </li>
+                      <li>
+                        <HDLabelRefactor
+                          Tag="p"
+                          adjustImagePosition={true}
+                          className="add-car__mc-points__mc3"
+                          text="Each car can have a different start date and we'll align them at your renewal next year."
+                        >
+                          <p
+                            className="add-car__mc-points__mc3"
+                          >
+                            Each car can have a different start date and we'll align them at your renewal next year.
+                          </p>
+                        </HDLabelRefactor>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Col>
+      </div>
+    </Row>
+    <Row
+      className="add-car__add-button mt-4"
+      noGutters={false}
+    >
+      <div
+        className="add-car__add-button mt-4 row"
+      >
+        <Col>
+          <div
+            className="col"
+          >
+            <ForwardRef
+              className="add-car__another-driver-button"
+              icon={true}
+              id="add=another-car-button"
+              label="Add another car"
+              onBeforeOpen={null}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onConfirm={null}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Add another car",
+                }
+              }
+            >
+              <HDButtonDashed
+                className="add-car__another-driver-button"
+                disabled={false}
+                icon={true}
+                id="add=another-car-button"
+                label="Add another car"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                tabIndex={0}
+                theme="dark"
+              >
+                <div
+                  className="btn-dashed--dark add-car__another-driver-button"
+                  id="add=another-car-button"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <img
+                    alt="Plus"
+                    className="icon"
+                    src="Icon-before.svg"
+                  />
+                  <div
+                    className="text"
+                  >
+                    Add another car
+                  </div>
+                </div>
+              </HDButtonDashed>
+            </ForwardRef>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </div>
+</HDAddAnotherCar>
+`;
+
+exports[`<HDAddAnotherCar /> render component 1`] = `
+<HDAddAnotherCar
+  addCarHandler={null}
+  hidden={true}
+>
+  <div
+    hidden={true}
+  >
+    <Row
+      className="add-car__card ml-1 mr-1"
+      noGutters={false}
+    >
+      <div
+        className="add-car__card ml-1 mr-1 row"
+      >
+        <Col>
+          <div
+            className="col"
+          >
+            <Row
+              className="add-car__mc-image mb-1 pl-0 pr-0"
+              noGutters={false}
+            >
+              <div
+                className="add-car__mc-image mb-1 pl-0 pr-0 row"
+              >
+                <Col
+                  className="pr-0 pl-0"
+                >
+                  <div
+                    className="pr-0 pl-0 col"
+                  >
+                    <img
+                      alt="Multi Car Img"
+                      className="add-car__mc-image-mob"
+                      src="rectangle-2830.png"
+                    />
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="add-car__header mb-3"
+              noGutters={false}
+            >
+              <div
+                className="add-car__header mb-3 row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h6"
+                      adjustImagePosition={true}
+                      className=""
+                      text="More than one car at Home? Try our Multi Car cover"
+                    >
+                      <h6
+                        className=""
+                      >
+                        More than one car at Home? Try our Multi Car cover
+                      </h6>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="add-car__mc-points mb-4"
+              noGutters={false}
+            >
+              <div
+                className="add-car__mc-points mb-4 row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <ul>
+                      <li>
+                        <HDLabelRefactor
+                          Tag="p"
+                          adjustImagePosition={true}
+                          className="add-car__mc-points__mc1"
+                          text="It's simple to setup."
+                        >
+                          <p
+                            className="add-car__mc-points__mc1"
+                          >
+                            It's simple to setup.
+                          </p>
+                        </HDLabelRefactor>
+                      </li>
+                      <li>
+                        <HDLabelRefactor
+                          Tag="p"
+                          adjustImagePosition={true}
+                          className="add-car__mc-points__mc2"
+                          text="You'll get a discount for every car you insure."
+                        >
+                          <p
+                            className="add-car__mc-points__mc2"
+                          >
+                            You'll get a discount for every car you insure.
+                          </p>
+                        </HDLabelRefactor>
+                      </li>
+                      <li>
+                        <HDLabelRefactor
+                          Tag="p"
+                          adjustImagePosition={true}
+                          className="add-car__mc-points__mc3"
+                          text="Each car can have a different start date and we'll align them at your renewal next year."
+                        >
+                          <p
+                            className="add-car__mc-points__mc3"
+                          >
+                            Each car can have a different start date and we'll align them at your renewal next year.
+                          </p>
+                        </HDLabelRefactor>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+          </div>
+        </Col>
+      </div>
+    </Row>
+    <Row
+      className="add-car__add-button mt-4"
+      noGutters={false}
+    >
+      <div
+        className="add-car__add-button mt-4 row"
+      >
+        <Col>
+          <div
+            className="col"
+          >
+            <ForwardRef
+              className="add-car__another-driver-button"
+              icon={true}
+              id="add=another-car-button"
+              label="Add another car"
+              onBeforeOpen={null}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onConfirm={null}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Add another car",
+                }
+              }
+            >
+              <HDButtonDashed
+                className="add-car__another-driver-button"
+                disabled={false}
+                icon={true}
+                id="add=another-car-button"
+                label="Add another car"
+                onClick={[Function]}
+                onKeyDown={[Function]}
+                tabIndex={0}
+                theme="dark"
+              >
+                <div
+                  className="btn-dashed--dark add-car__another-driver-button"
+                  id="add=another-car-button"
+                  onClick={[Function]}
+                  onKeyDown={[Function]}
+                  role="button"
+                  tabIndex={0}
+                >
+                  <img
+                    alt="Plus"
+                    className="icon"
+                    src="Icon-before.svg"
+                  />
+                  <div
+                    className="text"
+                  >
+                    Add another car
+                  </div>
+                </div>
+              </HDButtonDashed>
+            </ForwardRef>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </div>
+</HDAddAnotherCar>
+`;

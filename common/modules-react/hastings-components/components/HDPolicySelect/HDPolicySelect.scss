@@ -1,0 +1,20 @@
+.hd-create-policy-select__container {
+    color: $app-theme;
+    padding: 30px;
+    background-color: $mono-cultured;
+}
+// can be used on any top level element
+.logo-online-product {
+    position: relative;
+    &:after {
+        content: "";
+        position: absolute;
+        width: 95px;
+        height: 60px;
+        top: 0;
+        right: 10px;
+        background-image: url(../../../../../applications/quote-and-buy/src/assets/images/logo/logo-online-product-color.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "server": "pc",
+    "service": "coverage/coverage",
+    "serviceName": "coverage"
+  },
+  {
+    "server": "pc",
+    "serviceName": "availability",
+    "service": "quote/availability"
+  }
+]

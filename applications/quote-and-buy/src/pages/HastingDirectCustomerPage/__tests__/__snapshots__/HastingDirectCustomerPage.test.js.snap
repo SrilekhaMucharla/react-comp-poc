@@ -1,0 +1,265 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HastingDirectCustomerPage /> render component 1`] = `
+<div
+  className="introcustomerpagecontainer"
+  id="introCustomerPageContainer"
+>
+  <div
+    className="introcomponents"
+    id="introComponents"
+  >
+    <Row
+      className="grid-container"
+      id="introGridContainer"
+      noGutters={false}
+    >
+      <Col
+        className="item-left"
+        id="introItemLeft"
+        lg={6}
+        md={6}
+        xs={12}
+      >
+        <div
+          className="item-left-container"
+          id="introItemLeftContainer"
+        >
+          <BackNavigation
+            className=""
+            onClick={null}
+            onKeyPress={null}
+          />
+          <HDLabel
+            additionalText={null}
+            icon={null}
+            iconPosition={null}
+            size="xl"
+            text="Hi, do you already have car insurance with us?"
+            theme="dark"
+          />
+          <div
+            className="customer-button first-btn"
+          >
+            <ForwardRef
+              id="existing-customer-button"
+              label="No, I'm new here"
+              onBeforeOpen={null}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={[Function]}
+              onConfirm={null}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              variant="cardbutton"
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Hi, do you already have car insurance with us?",
+                }
+              }
+            />
+          </div>
+          <div
+            className="customer-button"
+          >
+            <ForwardRef
+              disabled={true}
+              id="new-customer-button"
+              label="Yes, I have a policy"
+              onBeforeOpen={null}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onConfirm={null}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              variant="cardbutton"
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Hi, do you already have car insurance with us?",
+                }
+              }
+            />
+          </div>
+          <div
+            className="tip-main-left"
+            id="introTipMainLeft"
+          >
+            <HDInfoCard
+              className={null}
+              image="tip_circle_purple.svg"
+              isRight={false}
+              notes={null}
+              paragraphs={
+                Array [
+                  "If you already have a car policy with us (even if it's not started yet), we can use some of your details to speed up your quote.",
+                ]
+              }
+              title={null}
+            />
+          </div>
+          <div
+            className="acceptance-criteria"
+            id="introAcceptanceCriteria"
+          >
+            <HDLabel
+              additionalText={null}
+              icon={
+                <ForwardRef
+                  id="introAcceptanceCriteriaLink"
+                  onBeforeOpen={null}
+                  overlayButtonIcon={
+                    <React.Fragment>
+                      <span
+                        className="acceptance-criteria-prefix"
+                      >
+                        To get a quote today, you need to meet 
+                      </span>
+                      <p
+                        className="acceptance-criteria-link"
+                      >
+                        certain criteria
+                      </p>
+                    </React.Fragment>
+                  }
+                  webAnalyticsEvent={
+                    Object {
+                      "event_action": "To get a quote today, you need to meet  Info",
+                    }
+                  }
+                  webAnalyticsView={
+                    Object {
+                      "page_section": "To get a quote today, you need to meet  Info",
+                    }
+                  }
+                >
+                  <div
+                    className="introcustomeroverlaycontainer"
+                    id="introOverlayContainer"
+                  >
+                    <p
+                      className="introcustomeroverlayheader"
+                      id="introOverlayHeaderParagraph"
+                    >
+                      Car insurance acceptance criteria
+                    </p>
+                    <p>
+                      To buy this policy today, you must meet these requirements:
+                    </p>
+                    <ul>
+                      <li>
+                        <span>
+                          All drivers must permanently live in England, Scotland, Wales or Northern Ireland. We're sorry, we can't offer a quote for anyone who lives in the Isle of Man or the Channel Islands.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          All cars must be registered in the UK.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          The DVLA/DVANI have been advised of any notifiable conditions (for all drivers) and have agreed to the issue of a licence.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          No driver has any unspent non-motoring convictions.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          No driver will use any vehicle for business purposes that relate to a driving occupation, such as being a courier, delivering fast food or working in the motor trade (or any other trade that involves hire and reward).
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          Between all drivers, there are no more than five accidents, claims or losses in the last five years on any vehicle.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          Between all drivers there are no more than five motoring convictions or endorsements (including fixed penalties) in the last five years. This includes any prosecutions that are pending.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          No car is currently impounded by the police or any other authority.
+                        </span>
+                      </li>
+                    </ul>
+                    <p>
+                      You can only claim no claims discount if:
+                    </p>
+                    <ol>
+                      <li>
+                        <span>
+                          It's been earned in your name (as a policyholder) on a private car policy.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          It's been earned in the UK in the last two years.
+                        </span>
+                      </li>
+                      <li>
+                        <span>
+                          It's not already being used.
+                        </span>
+                      </li>
+                    </ol>
+                    <p>
+                      The rules are slightly different for anyone in the armed forces who have been on service abroad recently. If this applies to you, please call us on 0333 321 9765 for help.
+                    </p>
+                  </div>
+                </ForwardRef>
+              }
+              iconPosition="l"
+              size="sm"
+              text=""
+              theme="dark"
+            />
+          </div>
+        </div>
+      </Col>
+      <Col
+        className="item-right"
+        id="introItemRight"
+        lg={6}
+        md={6}
+        xs={12}
+      >
+        <div
+          className="item-right-container"
+          id="introItemRightContainer"
+        >
+          <div
+            className="tip-main-right"
+            id="introTipMainRight"
+          >
+            <HDInfoCard
+              className={null}
+              image={null}
+              isRight={true}
+              notes="*Based on online quoted premiums from July to September 2020."
+              paragraphs={
+                Array [
+                  "If you've got your driving licence handy, you'll be able to scan it and get a faster quote. We can also calculate any discount you qualify for.",
+                  "Most customers save around £68!*",
+                ]
+              }
+              title="Save time and money..."
+            />
+          </div>
+        </div>
+      </Col>
+    </Row>
+  </div>
+</div>
+`;

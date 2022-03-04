@@ -1,0 +1,24 @@
+.mc-driver-allocation__cont-single-car-btn {
+  $padding-y: 15px;
+  $padding-x: 28px;
+  padding: $padding-y $padding-x;
+  &:hover {
+    padding: $padding-y $padding-x - 1px;
+  }
+  &:active {
+    padding: $padding-y $padding-x - 2px;
+  }
+}
+
+.mc-driver-allocation__add-another-driver-btn,
+.mc-driver-allocation__add-another-car-btn {
+  $padding-y: 15px;
+  $padding-x: 25px;
+  padding: $padding-y $padding-x;
+  &:hover {
+    padding: $padding-y $padding-x - 1px;
+  }
+  &:active {
+    padding: $padding-y $padding-x - 2px;
+  }
+}

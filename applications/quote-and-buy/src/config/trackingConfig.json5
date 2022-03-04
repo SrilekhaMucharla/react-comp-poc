@@ -1,0 +1,14 @@
+{
+    // "gaTrackingId": "UA-XXXXXXXXX-Y",
+    // "mixpanelTrackingId": "xxxxxxxxxxxxxxxxxxxxxxxxx",
+    "whitelistConfig": {
+        "allowedProperties": [],
+        "obfuscationString": "**OBFUSCATED**"
+    },
+    "dictionaryConfig": {
+        "eventKeys": {
+            "path": "Field Data Path",
+            "componentName": "Component Name"
+        }
+    }
+}

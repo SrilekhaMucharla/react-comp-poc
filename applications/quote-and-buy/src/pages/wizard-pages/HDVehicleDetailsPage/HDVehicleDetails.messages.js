@@ -1,0 +1,21 @@
+export const verifyInformationMessage = 'Are the details below correct?';
+export const headerMessage = 'Found it!';
+export const wrongCarLink = 'Wrong car?';
+export const noRegInfo = 'You can continue with these details but the price of your quote will only be an estimate.'
+    + ' You need to tell us the reg number for an accurate price and the option to buy.';
+export const carTransmission = 'Car transmission';
+export const informationCorrect = 'Is the information below correct';
+export const transmission = 'Transmission';
+export const security = 'Security';
+export const rightLeft = 'Right or left hand drive';
+export const imported = 'Imported';
+export const seats = 'Seats';
+export const carNotFoundErrorMsg = 'Sorry, we don\'t recognise that registration. Please try again';
+export const bikeRegErrorMsg = 'That looks like a reg number for a bike.';
+export const vanRegErrorMsg = 'That looks like a reg number for a van.';
+export const retrieveVehicleDataBasedOnVRN = 'Retrieve Vehicle Data Based On VRN';
+export const incorrectVRNBike = 'VRN of Incorrect motor journey (Bike)';
+export const incorrectVRNVan = 'VRN of Incorrect motor journey (Van)';
+export const invalidVRN = 'Invalid VRN';
+export const notFoundVRN = 'VRN not found in DVLA';
+export const motorcycleExt = 'MotorCycle_Ext';

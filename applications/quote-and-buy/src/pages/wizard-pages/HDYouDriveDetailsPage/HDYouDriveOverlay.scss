@@ -1,0 +1,153 @@
+#you-drive-overlay {
+  .overlay-container {
+    padding: 0;
+  }
+}
+.you-drive-overlay {
+  margin: 5rem 3rem;
+  @include media-breakpoint-down(sm) {
+    margin: 3rem 2rem;
+  }
+
+  .label-text {
+    line-height: 1.5;
+  }
+}
+
+.you-drive-overlay__you-drive-icon {
+  width: 185px;
+}
+
+.you-drive-overlay__overlay-header {
+  margin-left: 0;
+  padding-top: 50px;
+  padding-left: 0;
+  font-size: 25px;
+  line-height: 30px;
+  @include media-breakpoint-down(sm) {
+    padding-top: 25px;
+  }
+  .label-text {
+    font-weight: bold;
+    font-size: $font-size-xl !important;
+  }
+}
+
+.you-drive-overlay__overlay-message {
+  margin-bottom: 30px;
+  margin-top: -15px;
+
+  @media (max-width: 767px) {
+    margin-bottom: 0;
+  }
+
+  .label-text {
+    color: $mono-blue-yonder;
+  }
+}
+
+.you-drive-overlay__overlay-list {
+  .you-drive-overlay__overlay-message {
+    margin-left: 10px;
+  }
+
+  .dash-icon {
+    margin-left: 15px;
+    margin-right: 10px;
+  }
+
+  .label-icon-left {
+    .img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+.you-drive-overlay__overlay-sub-header {
+  margin: 55px 0 50px 0;
+  .label-text {
+    font-weight: bold;
+  }
+}
+
+.you-drive-overlay__paragraph-header {
+  .label-text {
+    font-weight: bold;
+    display: flex;
+    .label-icon-left {
+      height: unset;
+      margin-top: -3px;
+      padding-right: 20px;
+    }
+  }
+}
+
+.you-drive-overlay__paragraph-tick {
+  height: 24px;
+  width: 24px;
+}
+
+.you-drive-overlay__you-drive-step {
+  display: flex;
+  margin: 1em 0em;
+}
+
+.you-drive-overlay__steps-image {
+  align-items: flex-start;
+  display: flex;
+  min-width: 125px;
+  align-self: center;
+
+  img {
+    width: 100%;
+    margin: auto;
+    max-height: 150px;
+    max-width: 150px;
+  }
+  .you-drive-overlay__car-image,
+  .you-drive-overlay__key-image {
+    width: 110%;
+    position: relative;
+    left: -10px;
+  }
+}
+
+.you-drive-overlay__steps-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+  @include media-breakpoint-down(sm) {
+    margin: 0 10px;
+  }
+}
+
+.you-drive-overlay__steps-header {
+  @include media-breakpoint-down(md) {
+    justify-content: center;
+  }
+
+  display: flex;
+  align-items: center;
+  .label-text {
+    font-weight: bold;
+  }
+  span {
+    margin-bottom: 0;
+  }
+}
+
+.you-drive-overlay__steps-message {
+  @include media-breakpoint-up(md) {
+    .label-text {
+      text-align: left;
+    }
+  }
+}
+
+.you-drive-overlay__label {
+  align-items: center;
+}
+.you-drive-overlay__header-label {
+  font-size: $hd-font-size-h2-mobile;
+}

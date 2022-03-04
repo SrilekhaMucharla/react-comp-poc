@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDHeader /> render component 1`] = `
+<header>
+  <HDLabelRefactor
+    Tag="h1"
+    adjustImagePosition={true}
+    className="text-white"
+    id="important-stuff-header"
+    text="The important stuff..."
+  />
+  <HDLabelRefactor
+    Tag="p"
+    adjustImagePosition={true}
+    className="text-white"
+    id="important-stuff-subheader"
+    text="Here's a summary of your quote, plus all the important bits you need to know before you buy.
+ We know it's a lot of information but please read and check everything carefully. If any of your details are wrong,
+ you might not be able to make a claim (and we don't want that to happen)."
+  />
+  <p>
+    <span
+      className="mc-important-stuff--info-text-1"
+    >
+      Multi Car quote reference
+    </span>
+    <br />
+    <span
+      className="font-bold"
+    >
+      Some String
+    </span>
+  </p>
+</header>
+`;

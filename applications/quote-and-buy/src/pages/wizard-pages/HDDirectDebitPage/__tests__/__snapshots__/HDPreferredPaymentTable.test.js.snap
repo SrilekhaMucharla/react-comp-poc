@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPreferredPaymentTable /> render with mandatory props 1`] = `
+<table
+  className="hd-directdebit-payment-table"
+>
+  <thead
+    className="hd-directdebit-payment-table__thead"
+  >
+    <tr
+      className="hd-directdebit-payment-table__tr"
+    >
+      <th
+        className="hd-directdebit-payment-table__th"
+      >
+        Payment date
+      </th>
+      <th
+        className="hd-directdebit-payment-table__th"
+      >
+        Amount
+      </th>
+    </tr>
+  </thead>
+  <tbody
+    className="hd-directdebit-payment-table__tbody"
+  >
+    <tr
+      className="hd-directdebit-payment-table__tr"
+      key="1"
+    >
+      <td
+        className="hd-directdebit-payment-table__td"
+      >
+        <span>
+          ed
+        </span>
+        <span>
+          /
+        </span>
+        <span>
+          aN
+        </span>
+        <span>
+          /
+        </span>
+        <span />
+      </td>
+      <td
+        className="hd-directdebit-payment-table__td"
+      >
+        <span>
+          £
+        </span>
+        300.00
+      </td>
+    </tr>
+    <tr
+      className="hd-directdebit-payment-table__tr"
+      key="2"
+    >
+      <td
+        className="hd-directdebit-payment-table__td"
+      >
+        <span>
+          ed
+        </span>
+        <span>
+          /
+        </span>
+        <span>
+          aN
+        </span>
+        <span>
+          /
+        </span>
+        <span />
+      </td>
+      <td
+        className="hd-directdebit-payment-table__td"
+      >
+        <span>
+          £
+        </span>
+        400.00
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

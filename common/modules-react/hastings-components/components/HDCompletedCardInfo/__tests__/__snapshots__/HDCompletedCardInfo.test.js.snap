@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDCompletedCardInfo should render correctly for car variant and match the snapshot 1`] = `
+<div
+  className="completed-info-card"
+>
+  <div
+    className="completed-info-card__icon"
+  >
+    <img
+      alt="Car"
+      className="completed-info-card__icon-main"
+      src="Illustrations_1-car.svg"
+    />
+    <img
+      alt="tick"
+      className="completed-info-card__purple-tick"
+      src="Icon_Tick_Purple.svg"
+    />
+  </div>
+  <div
+    className="completed-info-card__text"
+  >
+    <div
+      className="completed-info-card__main-text car"
+    >
+      test-text
+    </div>
+    <HDLabelRefactor
+      Tag="p"
+      adjustImagePosition={true}
+      className="completed-info-card__additional-text"
+      text="test-additional-text"
+    />
+  </div>
+  <div
+    className="completed-info-card__icon-edit mb-3 mr-1"
+    onClick={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    role="button"
+    tabIndex={0}
+  >
+    <img
+      alt="Edit"
+      src="Icons_Edit.svg"
+    />
+  </div>
+  <div
+    className="completed-info-card__icon-delete mb-3"
+    onClick={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    role="button"
+    tabIndex={1}
+  >
+    <img
+      alt="Delete"
+      src="Icons_Trash.svg"
+    />
+  </div>
+</div>
+`;
+
+exports[`HDCompletedCardInfo should render correctly for driver variant and match the snapshot 1`] = `
+<div
+  className="completed-info-card"
+>
+  <div
+    className="completed-info-card__icon"
+  >
+    <img
+      alt="Driver"
+      className="completed-info-card__icon-main"
+      src="Icons_Account.svg"
+    />
+    <img
+      alt="tick"
+      className="completed-info-card__tick"
+      src="Icons_Tick.svg"
+    />
+  </div>
+  <div
+    className="completed-info-card__text"
+  >
+    <div
+      className="completed-info-card__main-text driver"
+    >
+      test-text
+    </div>
+    <HDLabelRefactor
+      Tag="p"
+      adjustImagePosition={true}
+      className="completed-info-card__additional-text"
+      text="test-additional-text"
+    />
+  </div>
+  <div
+    className="completed-info-card__icon-edit mb-3 mr-1"
+    onClick={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    role="button"
+    tabIndex={0}
+  >
+    <img
+      alt="Edit"
+      src="Icons_Edit.svg"
+    />
+  </div>
+  <div
+    className="completed-info-card__icon-delete mb-3"
+    onClick={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    role="button"
+    tabIndex={1}
+  >
+    <img
+      alt="Delete"
+      src="Icons_Trash.svg"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,11 @@
+export const headstitle = 'Do they live here?';
+export const yes = 'Yes';
+export const no = 'No';
+export const changetoadditionalDriver = 'Change to additional driver';
+export const removeDrivers = 'Remove them';
+export const switchText = 'You need to switch them to an additional driver or remove them (so they can get a separate quote with us).';
+export const removeCar = 'Remove a car';
+export const addressVerificationQue = 'Do they live here?';
+export const diffAddressinfoCardText = 'The policyholder for this car needs to live at the same address as your account holder for the first car.';
+export const anotherPHBtnText = 'Choose another policyholder';
+export const continueRedirect = 'Continue - Redirecting from: HastingsMCAddressVerify_Complete';

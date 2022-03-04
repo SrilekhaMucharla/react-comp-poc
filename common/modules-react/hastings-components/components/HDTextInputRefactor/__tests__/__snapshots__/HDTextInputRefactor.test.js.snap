@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDTextInput /> render component with text value only 1`] = `
+<InputGroup
+  className=" "
+  size={null}
+>
+  <FormControl
+    className="hd-text-input__form-control"
+    data-testid="text-input"
+    disabled={false}
+    id=""
+    inputMode={null}
+    maxLength={null}
+    name="input-name"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyPress={[Function]}
+    path="path.to.input"
+    placeholder={null}
+    type={null}
+    value=""
+  />
+  <i
+    className="fa fa-exclamation exclam hd-text-input__exclam"
+  />
+</InputGroup>
+`;

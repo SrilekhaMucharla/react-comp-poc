@@ -1,0 +1,171 @@
+.hd-your-quote__section-main-header {
+    background: $white-fill;
+    color: $mono-midnight;
+    padding: 35px 5px 25px 5px;
+    border-radius: 100%/30px 30px 0 0;
+    @include media-breakpoint-up(sm) {
+        padding: 30px 15px 30px 30px;
+        border-radius: unset;
+    }
+
+    &-edit-details {
+        .hd-btn {
+            width: 70%;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+            }
+        }
+    }
+}
+.hd-your-quote__section-policyselect {
+    background-color: $mono-cotton-ball;
+    box-shadow: $secondary-shadow;
+    color: $blue-dark-3;
+}
+
+.hd-your-quote__sections {
+    background-color: $mono-cotton-ball;
+    box-shadow: $secondary-shadow;
+    color: $blue-dark-3;
+    @include media-breakpoint-up(lg) {
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+
+        h3 {
+            font-size: $font-size-lg-2;
+        }
+    }
+
+    @at-root .border_bottom#{&} {
+        border-bottom: 1px solid $blue-light;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+}
+
+.hd-your-quote__sections__section {
+    padding: 25px 20px;
+    border-top: 1px solid $mono-light-steel;
+
+    @include media-breakpoint-up(lg) {
+        padding: 25px 30px;
+
+        &:first-child {
+            border-right: 1px solid $mono-light-steel;
+        }
+    }
+
+    .hd-date-picker__date-fields {
+        & > .row > div[class^="col"] > .row {
+            & > div[class^="col"] {
+                &:nth-child(1) {
+                    margin-left: -7px;
+                }
+            }
+        }
+
+        &__day,
+        &__month,
+        &__year {
+            -webkit-box-shadow: 2px 2px 4px 0 $blue-light-5;
+            -moz-box-shadow: 2px 2px 4px 0 $blue-light-5;
+            box-shadow: 2px 2px 4px 0 $blue-light-5;
+            border: 1px solid $mono-light-steel;
+        }
+    }
+}
+
+.hd-your-quote__sections__excess-value-label {
+    margin-bottom: 15px;
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 41px;
+    }
+
+    > * {
+        align-self: center;
+    }
+
+    h3 {
+        margin-bottom: 0;
+    }
+
+    .hd-overlay-btn {
+        display: block;
+    }
+}
+
+.hd-your-quote__your-options-header {
+    color: $app-theme;
+
+    .form-group {
+        margin-bottom: 0;
+    }
+}
+
+.hd-your-quote__your-options-header__show-annual-text {
+    border-radius: 6px;
+    background-color: $blue-transparent-10;
+    color: $info-color;
+    + img {
+        cursor: pointer;
+    }
+}
+
+.hd-your-quote__table__from-value {
+    @include media-breakpoint-down(tiny) {
+        width: min-content;
+        margin: auto;
+    }
+}
+
+.hd-your-quote__sections__date-picker {
+    .hd-date-picker__cal-icon {
+        align-items: initial;
+        margin-top: -5px;
+        @include media-breakpoint-up(lg) {
+            margin-top: -2px;
+        }
+    }
+}
+
+.hd-your-quote__section-main-header-edit-details {
+    .hd-modal-footer {
+        margin-top: 25px;
+        @include media-breakpoint-up(sm) {
+            margin-top: 30px;
+        }
+    }
+}
+
+.hd-your-quote__cover-table {
+    margin-top: 65px;
+
+    @include media-breakpoint-up(tiny) {
+        margin-top: 50px;
+    }
+
+    .hd-bubble[data-position="top"] {
+        @include media-breakpoint-down(md) {
+            padding: 8px 5px;
+            right: 2px;
+            left: 2px;
+        }
+    }
+
+    .hd-table__body__row:first-child {
+        position: sticky;
+        top: 240px;
+        @media (orientation: landscape) {
+            top: 173px;
+        }
+        @include media-breakpoint-up(lg) {
+            top: 250px;
+        }
+        z-index: 2;
+    }
+}
+
+.hd-your-quote__cover-selection {
+    background-color: $gray-light-9;
+}

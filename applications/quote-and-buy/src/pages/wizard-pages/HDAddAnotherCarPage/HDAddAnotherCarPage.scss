@@ -1,0 +1,121 @@
+.caraddanothermaincontainer {
+    width: 100%;
+    text-align: left;
+
+    .caraddanotheritems {
+        .caraddanotherrow {
+            margin: 0;
+            padding: 0;
+
+            .caraddanothercol {
+                margin: 0;
+                padding: 0;
+
+                .caraddanotherinput {
+                    margin-bottom: 58px;
+
+                    .caraddanotherstatic {
+                        .left {
+                            padding: 20px;
+                        }
+
+                        .caraddanotherstaticheader {
+                            .label-text {
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 24px;
+                                line-height: 27px;
+                                color: $gray-dark-2;
+                            }
+
+                            .label-icon-left {
+                                display: none;
+                            }
+                        }
+
+                        .caraddanotherstaticbody {
+                            .label-text {
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: $font-size-md;
+                                color: $gray-dark-3;
+                                display: block !important;
+                                width: 100% !important;
+
+                                @include media-breakpoint-down(md) {
+                                    margin-bottom: 10px;
+                                }
+                                span:nth-child(1) {
+                                    display: inline-block !important;
+                                    width: 10%;
+                                }
+                                span:nth-child(2) {
+                                    display: inline-block !important;
+                                    line-height: 20px !important;
+                                    width: 90%;
+                                }
+                            }
+
+                            .label-icon-left {
+                                color: $black-color;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    .caraddanotherheader {
+                        margin-top: 28px;
+
+                        .label-text {
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: $font-size-xxl;
+                            line-height: 39px;
+                            margin-bottom: 10px;
+                            @include media-breakpoint-down(md) {
+                                font-size: 24px;
+                                line-height: 27px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .carovernightoverlaycontainer {
+        padding: 10px 30px;
+
+        .carovernightoverlayheader {
+            border: 0;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 27px;
+            color: $gray-dark-4;
+            margin-bottom: 2rem;
+        }
+
+        .carovernightoverlaybody {
+            font-style: normal;
+            font-weight: normal;
+            font-size: $font-size-md;
+            line-height: 27px;
+            color: $black-color;
+        }
+    }
+
+    .overlay-close {
+        float: right;
+        margin-right: 30px;
+        margin-top: 30px;
+        border-radius: 50%;
+        padding: 0 14px;
+        border: 1px solid $gray-dark-5;
+    }
+
+    .label-icon {
+        cursor: pointer;
+    }
+}

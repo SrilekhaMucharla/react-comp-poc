@@ -1,0 +1,12 @@
+export const aboutMc = 'About Multi Car...';
+export const mcQuickNote = "Here's a quick overview before you start.";
+export const mcPointOne = 'You\'ll get a discount for every car you insure.';
+export const mcPointTwo = 'Each car can have a different start date and we\'ll align them at your renewal next year.';
+export const mcPointThree = 'You can add cars for anyone who lives at your address.';
+export const mcPointFour = 'All cars must be DVLA registered at the same address.';
+export const mcPointFive = 'You\'ll be the account holder, so you\'re responsible for all payments and can manage the policies online.';
+export const continueWithMC = 'Continue with Multi Car';
+export const continueWithSingelCar = 'Continue with a quote for one car';
+export const goBack = 'Go back';
+export const multiToSingle = 'Multi Car to Single Car';
+export const multiToSingleFailed = 'Multi Car to Single Car Failed';

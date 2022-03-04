@@ -1,0 +1,72 @@
+.go-back {
+    margin-bottom: 30px;
+    &.btn {
+        height: auto;
+        width: auto;
+        font-family: $font-face-generic-regular;
+        font-size: $font-size-lg;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.35;
+        display: flex;
+        align-items: center;
+        color: $white-color;
+        cursor: pointer;
+        padding: 4px 13px;
+        border: 0 solid transparent !important;
+        border-radius: 2px;
+        flex-direction: row;
+        background: transparent;
+        justify-content: flex-start;
+
+        @include media-breakpoint-down(md) {
+            padding-left: 4px;
+            margin-bottom: 23px;
+        }
+
+        .back-icon {
+            display: inline-flex;
+            margin-right: 8px;
+        }
+
+        i {
+            margin-right: 12px;
+            font-size: 22px;
+        }
+
+        &:hover {
+            background: $blue-transparent-30;
+
+        }
+
+        &:active {
+            outline: 0 transparent;
+            background: $mono-big-stone;
+        }
+
+        &:focus {
+            outline: 0 transparent;
+            background: transparent;
+        }
+        &:disabled {
+            background-color: unset;
+            svg path {
+                fill: $blue-light-2;
+                fill-opacity: .3;
+            }
+        }
+
+        .theme-white &,
+        &.theme-white {
+            color: $app-theme;
+
+            &:disabled {
+                color: $mono-light-steel;
+                svg path {
+                    fill: $blue-light-6;
+                    fill-opacity: .1;
+                }
+            }
+        }
+    }
+}

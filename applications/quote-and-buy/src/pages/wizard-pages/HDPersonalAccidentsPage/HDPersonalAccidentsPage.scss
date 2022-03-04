@@ -1,0 +1,47 @@
+.personal-accidents__title-label {
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+.personal-accidents-container {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  
+  @include media-breakpoint-down(sm) {
+    margin-bottom: 0;
+  }
+
+  ._loading_overlay_overlay {
+    position: fixed;
+    background-color: $mono-midnight;
+    opacity: 0.9;
+    font-weight: 100;
+    font-size: large;
+  }
+
+  ._loading_overlay_spinner {
+    position: relative;
+    margin: 0px auto 10px auto;
+    width: 230px;
+    max-height: 100%;
+    svg{
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      circle{
+          stroke-width: 2.5;
+          stroke: $midnight-electric-blue;
+          stroke-linecap: square;
+      }
+  }
+  @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+      }
+      
+      @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+      }
+  }
+}

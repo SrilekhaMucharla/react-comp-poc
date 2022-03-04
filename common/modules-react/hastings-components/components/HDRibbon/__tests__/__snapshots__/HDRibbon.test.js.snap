@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDRibbon should render correctly and match the snapshot 1`] = `
+<div
+  className="ribbon undefined"
+>
+  <div
+    className="text"
+  >
+    Robert Kubica
+  </div>
+  <div
+    className="action"
+    data-testid="action-button"
+    onClick={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    role="button"
+    tabIndex={0}
+  >
+    Remove driver
+  </div>
+</div>
+`;

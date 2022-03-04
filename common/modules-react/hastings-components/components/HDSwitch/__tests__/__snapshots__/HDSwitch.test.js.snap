@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDSwitch should render correctly and match the snapshot 1`] = `
+<div
+  className="hd-switch switch--dark"
+>
+  <div
+    className="custom-control custom-switch"
+  >
+    <input
+      checked={true}
+      className="custom-control-input"
+      id="hd-custom-switch"
+      name="name"
+      onChange={[Function]}
+      type="checkbox"
+    />
+    <label
+      className="custom-control-label-left"
+      htmlFor="hd-custom-switch"
+    >
+      value 1
+    </label>
+    <label
+      className="custom-control-label custom-control-label-right active"
+      htmlFor="hd-custom-switch"
+    >
+      value 2
+    </label>
+  </div>
+</div>
+`;

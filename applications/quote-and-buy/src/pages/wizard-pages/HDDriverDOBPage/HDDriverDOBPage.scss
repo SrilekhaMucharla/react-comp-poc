@@ -1,0 +1,38 @@
+.hd-driver-dob__container {
+  .hd-date-picker__date-fields > .row > div[class^="col-"] > .row > div[class^="col-"] {
+    padding-right: 10px;
+    padding-left: 2px;
+
+    &:last-child {
+      @include media-breakpoint-down(sm) {
+        padding-right: 40px;
+      }
+    }
+
+    i.hd-date-picker__exclam {
+      right: 2px;
+    }
+  }
+
+  hr {
+    @include media-breakpoint-down(sm) {
+      margin: 20px 0 25px;
+    }
+  }
+
+  //check this
+  .hd-date-picker__label {
+    @include media-breakpoint-down(sm) {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .hd-date-picker__date-fields__day,
+  .hd-date-picker__date-fields__month,
+  .hd-date-picker__date-fields__year {
+    -webkit-box-shadow: 0 0 0 0;
+    -moz-box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0;
+  }
+}

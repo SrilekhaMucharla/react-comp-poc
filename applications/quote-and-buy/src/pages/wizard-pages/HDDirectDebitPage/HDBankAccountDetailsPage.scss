@@ -1,0 +1,39 @@
+.bank-account-details__invalid-field {
+    background: $error-color;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 5%;
+    display: flex;
+    @include media-breakpoint-up(md) {
+        width: 95%;
+    }
+}
+
+.bank-account-details__error-message {
+    width: 85%;
+    font-weight: 600;
+    line-height: 1.5;
+    color: $white-color;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.bank-account-details__sort-code-container {
+    align-items: center;
+}
+
+.bank-account-details__sort-code-1,
+.bank-account-details__sort-code-2,
+.bank-account-details__sort-code-3 {
+    & > input.hd-text-input__form-control {
+        height: 60px;
+    }
+}
+
+.bank-account-details__account-nummber-input {
+    & > input.hd-text-input__form-control {
+        height: 60px;
+    }
+}

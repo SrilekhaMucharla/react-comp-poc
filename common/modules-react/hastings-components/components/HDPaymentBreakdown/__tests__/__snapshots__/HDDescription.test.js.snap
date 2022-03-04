@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDescription /> renders correctly should match snapshot 1`] = `
+<HDDescription
+  extraSpace={null}
+  label={
+    Array [
+      "Some",
+      "Labels",
+      "In New Lines",
+    ]
+  }
+  name={
+    Array [
+      "Some",
+      "Names",
+      "In New Lines",
+    ]
+  }
+  quote={
+    Object {
+      "instalments": Array [
+        "1",
+        "2",
+      ],
+      "single": "£54",
+    }
+  }
+  tooltip={null}
+>
+  <div
+    className="hd-description-label"
+  >
+    <span>
+      Some
+    </span>
+    <br />
+    <span>
+      Labels
+    </span>
+    <br />
+    <span>
+      In New Lines
+    </span>
+    <br />
+  </div>
+  <div
+    className="hd-description-name"
+  >
+    <span>
+      Some
+    </span>
+    <span>
+      Names
+    </span>
+    <span>
+      In New Lines
+    </span>
+  </div>
+  <div
+    className="hd-description-detail"
+  >
+    <div
+      className="hd-quote"
+      data-testid="description-quote-single"
+    >
+      £54
+    </div>
+    <div
+      className="hd-instalments"
+      data-testid="description-quote-instalments"
+    >
+      (
+      1 + 2
+      )
+    </div>
+  </div>
+</HDDescription>
+`;

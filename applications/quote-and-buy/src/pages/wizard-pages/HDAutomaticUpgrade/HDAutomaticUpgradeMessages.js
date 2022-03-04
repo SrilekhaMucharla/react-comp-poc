@@ -1,0 +1,35 @@
+
+export const autoUpgradeText = 'Based on the options you chose, it\'s cheaper for you to upgrade to Hastings Premier online'
+    + ' (as these options are included as standard).';
+export const coverUpgrade = 'Your cover has been upgraded, saving you £COVER_DIFFERENCE';
+export const greatNews = 'Great news, FIRST_NAME!';
+export const courtesyCar = 'Courtesy car';
+export const helpline = '24/7 Claims helpline';
+export const euCover = 'EU cover';
+export const otherCar = 'Driving other cars';
+export const managePolicy = 'Manage your policy 24/7';
+export const Windscreen = 'Windscreen cover';
+export const vandalism = 'Vandalism promise';
+export const uninsuredDriver = 'Uninsured driver promise';
+export const roadSide = 'Roadside assistance';
+export const personalCover = 'Personal belongings cover';
+export const motorLegal = 'Motor legal expenses';
+export const totalExcess = 'Total excess (inc. voluntary)';
+export const payMonthly = 'Pay monthly';
+export const payAnnually = 'Pay in full';
+export const newPolicy = 'Your new policy';
+export const continueButtonText = 'That\'s great, continue';
+export const premier = 'HP';
+export const from = 'from ';
+export const poundSign = '£';
+export const goBackLabel = 'Go back';
+export const quote = 'Quote';
+export const PAYMENT_TYPE_ANNUALLY_CODE = '1';
+export const PAYMENT_TYPE_MONTHLY_CODE = '3';
+export const acctidentalDamageCovKey = 'PCAccidentalDamageCov_Ext';
+export const accidentalDamageCompulsaryKey = 'PCAccDmgCompExcessCT_Ext';
+export const continueRedirect = 'Continue - Redirecting from: HastingsAutomaticUpgrade';
+export const fireAndTheft = 'PCLossFireTheftCov_Ext';
+export const tpft = 'tpft';
+export const theftCompulsaryKey = 'PCLossFireTheftCompExcessCT_Ext';
+export const onlineAccDmgExcessKey = 'PCAccOnlineCompExcessCT_Ext';

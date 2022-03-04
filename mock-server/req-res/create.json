@@ -1,0 +1,239 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/unauthenticated/edgev10/quote/quote",
+    "headers": {
+      "cookie": [
+        "whoson=62-1623403112641; _ga=GA1.1.659797703.1623403129; _gid=GA1.1.535249361.1624469863; dtCookie=v_4_srv_3_sn_3A1E36133D6FFDD491C2ADC31CD4A8A3_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0; JSESSIONID=0000Y1Z917706k8nnVs2lzO1_4w:-1; _gat_gtag_UA_115295582_15=1; utag_main=v_id:0179fa5da989001690e8b04a278e03071001606900bd0$_sn:5$_se:20$_ss:0$_st:1624471775715$dc_visit:5$ses_id:1624469862024%3Bexp-session$_pn:2%3Bexp-session$dc_event:20%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
+      ],
+      "accept-encoding": [
+        "gzip, deflate, br"
+      ],
+      "referer": [
+        "http://localhost:3000/quote-and-buy/get-a-price/driver-homeowner"
+      ],
+      "sec-fetch-dest": [
+        "empty"
+      ],
+      "sec-fetch-mode": [
+        "cors"
+      ],
+      "sec-fetch-site": [
+        "same-origin"
+      ],
+      "origin": [
+        "http://localhost:3000"
+      ],
+      "content-type": [
+        "application/json; charset=utf-8"
+      ],
+      "user-agent": [
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36"
+      ],
+      "sec-ch-ua-mobile": [
+        "?0"
+      ],
+      "accept-language": [
+        "null"
+      ],
+      "accept": [
+        "application/json"
+      ],
+      "sec-ch-ua": [
+        "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\""
+      ],
+      "content-length": [
+        "858"
+      ],
+      "connection": [
+        "close"
+      ],
+      "host": [
+        "localhost:3000"
+      ]
+    },
+    "cookies": {
+      "JSESSIONID": "0000Y1Z917706k8nnVs2lzO1_4w:-1",
+      "_ga": "GA1.1.659797703.1623403129",
+      "_gat_gtag_UA_115295582_15": "1",
+      "_gid": "GA1.1.535249361.1624469863",
+      "dtCookie": "v_4_srv_3_sn_3A1E36133D6FFDD491C2ADC31CD4A8A3_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0",
+      "utag_main": "v_id:0179fa5da989001690e8b04a278e03071001606900bd0$_sn:5$_se:20$_ss:0$_st:1624471775715$dc_visit:5$ses_id:1624469862024%3Bexp-session$_pn:2%3Bexp-session$dc_event:20%3Bexp-session$dc_region:eu-central-1%3Bexp-session",
+      "whoson": "62-1623403112641"
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "jsonrpc": "2.0",
+      "method": "create",
+      "params": [
+        {
+          "baseData": {
+            "accountHolder": {
+              "dateOfBirth": {
+                "day": 11,
+                "month": 10,
+                "year": 1991
+              },
+              "gender": "M",
+              "firstName": "Danoire",
+              "lastName": "Zone",
+              "emailAddress1": "Test@gmail.com",
+              "primaryAddress": {
+                "addressLine1": "4 Saxon Close",
+                "addressLine2": "",
+                "addressLine3": "",
+                "city": "WESTBURY",
+                "county": "Wiltshire",
+                "postalCode": "BA133AP",
+                "country": "GB"
+              },
+              "subtype": "Person"
+            },
+            "periodStatus": "Draft",
+            "producerCode": "Default",
+            "termType": "Annual",
+            "isPostalDocument": false,
+            "marketingContacts": {
+              "allowSMS": false,
+              "allowPost": false,
+              "allowEmail": false,
+              "allowTelephone": false
+            },
+            "isExistingCustomer": false,
+            "jobType": "Submission",
+            "productCode": "PrivateCar_Ext",
+            "policyAddress": {
+              "addressLine1": "4 Saxon Close",
+              "addressLine2": "",
+              "addressLine3": "",
+              "city": "WESTBURY",
+              "county": "Wiltshire",
+              "postalCode": "BA133AP",
+              "country": "GB"
+            },
+            "productName": "Private Car"
+          }
+        }
+      ]
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Timing-Allow-Origin": [
+        "*"
+      ],
+      "Server-Timing": [
+        "dtRpid;desc=\"639499197\""
+      ],
+      "X-OneAgent-JS-Injection": [
+        "true"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Date": [
+        "Wed, 23 Jun 2021 17:42:28 GMT"
+      ],
+      "content-length": [
+        "1543"
+      ]
+    },
+    "body": {
+      "result": {
+          "sessionUUID": "61bc2131-c441-4a9e-8892-92e50ab7bc1a",
+          "quoteID": "0000012415",
+          "baseData": {
+              "periodStatus": "Draft",
+              "accountHolder": {
+                  "emailAddress1": "a.pine@gmail.com",
+                  "publicID": "csdt3:27293",
+                  "displayName": "Aisha Pine",
+                  "subtype": "Person",
+                  "primaryAddress": {
+                      "linkedID": "None",
+                      "publicID": "csdt3:50635",
+                      "displayName": "4 Cromwell Road, ELY, CB61AS",
+                      "addressLine1": "4 Cromwell Road",
+                      "city": "ELY",
+                      "county": "Cambridgeshire",
+                      "postalCode": "CB61AS",
+                      "country": "GB",
+                      "addressType": "home"
+                  },
+                  "additionalAddresses": [],
+                  "accountHolder": true,
+                  "dateOfBirth": {
+                      "year": 1992,
+                      "month": 7,
+                      "day": 16
+                  },
+                  "gender": "M",
+                  "firstName": "Aisha",
+                  "lastName": "Pine"
+              },
+              "termType": "Annual",
+              "producerCode": "Default",
+              "isPostalDocument": false,
+              "marketingContacts": {
+                  "allowEmail": false,
+                  "allowTelephone": false,
+                  "allowSMS": false,
+                  "allowPost": false
+              },
+              "isExistingCustomer": false,
+              "pccurrentDate": "2021-08-06T10:11:12Z",
+              "accountNumber": "10000008116",
+              "productCode": "PrivateCar_Ext",
+              "policyAddress": {
+                  "linkedID": "None",
+                  "publicID": "csdt3:50635",
+                  "displayName": "4 Cromwell Road, ELY, CB61AS",
+                  "addressLine1": "4 Cromwell Road",
+                  "city": "ELY",
+                  "county": "Cambridgeshire",
+                  "postalCode": "CB61AS",
+                  "country": "GB",
+                  "addressType": "home"
+              },
+              "periodEndDate": {
+                  "year": 2022,
+                  "month": 7,
+                  "day": 5
+              },
+              "productName": "Private Car",
+              "jobType": "Submission"
+          },
+          "lobData": {
+              "privateCar": {
+                  "preQualQuestionSets": [],
+                  "coverables": {
+                      "drivers": [],
+                      "vehicles": [],
+                      "vehicleDrivers": [],
+                      "addInterestTypeCategory": "PAVhcleAddlInterest"
+                  },
+                  "offerings": [
+                      {
+                          "coverages": {
+                              "vehicleCoverages": [],
+                              "ancillaryCoverages": []
+                          }
+                      }
+                  ]
+              }
+          },
+          "isKeyCover": false
+      },
+      "jsonrpc": "2.0"
+  }
+  }
+}

@@ -1,0 +1,223 @@
+$header-padding: 30px;
+$header-padding-mob: 20px;
+
+#cover-details-container {
+    .you-drive-cover-details {
+        border-top: 1px solid $blue-light;
+    }
+}
+
+.cover-details__header-container {
+    align-items: center;
+
+    .cover-details-logos-container {
+        flex: 3;
+        padding: $header-padding;
+        display: flex;
+        align-items: center; 
+    }
+
+    @include media-breakpoint-down(sm) {
+        .cover-details-logos-container {
+            padding: $header-padding-mob;
+            justify-content: space-between;
+        }
+    }
+}
+
+.cover-details__logo--wrapper {
+    .cover-details__logo--pcw {
+        width: 185px;
+        background: $white-fill;
+        border-radius: 50px;
+        margin: 20px 30px 0 30px;
+        padding: 15px 20px;
+    }
+    
+    &.cover-details__logo--quoteZone {
+        .cover-details__logo--pcw {
+            padding: 15px 30px 15px 21px;
+        }
+    }
+    
+    &.cover-details__logo--msm {
+        .cover-details__logo--pcw {
+            padding: 15px 42px 15px 20px;
+        }
+    }
+}
+
+.cover-details__logo {
+    &--brand {
+        @include media-breakpoint-down(sm) {
+            max-width: 150px;
+        }
+    }
+
+    &--cover-type {
+        padding-left: $header-padding;
+        display: inline-flex;
+        vertical-align: sub;
+    }
+}
+
+.cover-details__link {
+    &--overlay {
+        text-align: right;
+        padding: $header-padding;
+        @include media-breakpoint-down(md) {
+            padding: 5px 20px 0 0;
+        }
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            text-align: center;
+            order: 2;
+            padding: 0;
+            padding-bottom: $header-padding-mob;
+        }
+    }
+}
+
+@import 'components/_HDCoverDetailsOverlay.scss';
+
+.cover-details__benefits-container {
+    min-width: 100%;
+    padding: $header-padding;
+    line-height: 1.5;
+    border-top: 1px solid $blue-light;
+    display: flex;
+    flex-wrap: wrap;
+
+    div {
+        margin-bottom: auto;
+    }
+
+    > div {
+        @include media-breakpoint-up(xxl) {
+            width: 53% !important;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm;
+        justify-content: space-between;
+        padding: $header-padding-mob;
+
+        div {
+            padding-right: 8px;
+        }
+    }
+}
+
+.cover-details__upgrade-container {
+    background-color: $mono-cotton-ball;
+    border-color: $mono-cotton-ball;
+    color: $app-theme;
+
+    &.disabled {
+        cursor: not-allowed;
+
+        .cover-details__link--upgrade-cover {
+            pointer-events: none;
+        }
+    }
+}
+
+.cover-details__upgrade-logo {
+    width: 100px;
+    height: 36px;
+}
+
+.cover-details__upgrade-header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    .size-sm {
+        font-size: 18px;
+        line-height: 21.6px;
+    }
+}
+
+.cover-details__upgrade-content {
+    .size-xs {
+        line-height: 1.5;
+    }
+}
+
+.cover-details__extra-cover {
+    padding-top: 10px;
+}
+
+.cover-details__extra-cover-label {
+    font-size: $font-size-md;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.cover-details__ancilliary-container {
+    padding-left: 44px;
+    @include media-breakpoint-down(xl) {
+        padding-left: 19px;
+    }
+    @include media-breakpoint-down(sm) {
+        padding-left: 55px;
+        font-size: 12px;
+        margin-top: 25px;
+    }
+
+    @include media-breakpoint-up(xxl) {
+        padding-left: 70px;
+    }
+}
+
+.cover-details__ancilliary {
+    &+& {
+        margin-top: 16px;
+    }
+}
+
+.cover-details__pcw-container {
+    background: $mint-light-2;
+    margin: 0 15px 30px 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 6px;
+
+    @include media-breakpoint-down(sm) {
+        display: block;
+        margin: 20px 5px;
+    }
+}
+
+.cover-details__pcw-label {
+    .quote-info {
+        background: $mint-light-2;
+    }
+    p {
+        line-height: 1.2;
+    }
+}
+
+.cover-details__pcw-name {
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: $white-color;
+    border-color: $white-color;
+}
+
+.you-drive-cover-details__benefits-messages {
+    top: 0;
+    @include media-breakpoint-up(super-small) {
+        top: -1em;
+    }
+    @include media-breakpoint-up(tiny) {
+        top: -6em;
+    }
+    @include media-breakpoint-up(sm) {
+        top: -11em;
+    }
+    @include media-breakpoint-up(md) {
+        top: 0;
+    }
+}

@@ -1,0 +1,11 @@
+.address-verify__container {
+    .mc-address-verify__info-card {
+      background-color: $mono-white;
+      color: $app-theme;
+    
+      p {
+        font-weight: bold;
+        font-size: $font-size-lg;
+      }
+    }
+}

@@ -1,0 +1,237 @@
+// @import "../../assets/sass-refactor/main.scss";
+
+.WizardBaseRouterContainer {
+    padding-bottom: 40px;
+    border-bottom: 0 solid;
+
+    .current-driver-label {
+        background-color: $midnight-prussian-blue;
+        margin-bottom: 2.5%;
+
+        @include media-breakpoint-down(md) {
+            margin-bottom: 7.4%;
+        }
+
+        button.btn {
+            background-color: $link-color !important;
+            width: auto;
+            margin: 0.82% 0 0.82% 2.3%;
+
+            @include media-breakpoint-down(md) {
+                font-size: 0.8rem !important;
+                height: 25px !important;
+                margin: 1.7% 0 1.7% 6.3%;
+                padding: 0.5% 1.7%;
+            }
+        }
+    }
+
+    .wizardbaserouterrow {
+        margin: 0;
+
+        .blanksteppercontainer {
+            padding: 0;
+            margin: 0;
+            z-index: -9999;
+
+            .blankstepper {
+                margin: 0;
+                position: relative;
+                padding: 0;
+                background: #fff;
+                height: 92px;
+
+                @include media-breakpoint-down(md) {
+                    height: 0;
+                }
+            }
+        }
+    }
+
+    .grid-container {
+        display: flex;
+        padding: 0;
+        margin: 0;
+
+        @include media-breakpoint-between(tiny, sm) {
+            display: block;
+        }
+
+        @include media-breakpoint-between(sm, lg) {
+            display: block;
+        }
+    }
+
+    .item-center {
+        position: relative;
+        display: block;
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+
+        @include media-breakpoint-between(tiny, sm) {
+            min-width: 100%;
+            max-width: 100%;
+            width: 100%;
+            display: inline-block;
+        }
+
+        @include media-breakpoint-between(sm, lg) {
+            min-width: 100%;
+            max-width: 100%;
+            width: 100%;
+            display: inline-block;
+        }
+
+        .item-center-container {
+            text-align: center;
+            vertical-align: middle;
+
+            @include media-breakpoint-down(tiny) {
+                padding: 0 32px;
+            }
+
+            @include media-breakpoint-between(tiny, sm) {
+                padding: 9%;
+                padding-top: 0;
+            }
+
+            @include media-breakpoint-between(sm, lg) {
+                padding: 9%;
+                padding-top: 0;
+            }
+        }
+
+        .wizard-navigation {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 70px;
+
+            @include media-breakpoint-up(md) {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .wizard-navigation-forward {
+                justify-content: center;
+
+                button {
+                    @include media-breakpoint-down(sm) {
+                        height: 50px;
+                    }
+                    @include media-breakpoint-down(tiny) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .stepper-go-back {
+            margin-top: 70px;
+            margin-bottom: 52px;
+
+            @include media-breakpoint-down(md) {
+                margin-top: 12px;
+                margin-bottom: 18px;
+                padding: 0 30px;
+            }
+        }
+    }
+}
+
+.WizardBaseRouterContainerOverride {
+    padding-bottom: 0;
+    background: $gray-light-8;
+
+    .arc-header {
+        height: 600px;
+    }
+
+    .mc-arc-header {
+        height: 300px;
+    }
+
+    .container--get-a-price {
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+.wizard-buttons-footer {
+    display: block;
+    button {
+        @include media-breakpoint-down(sm) {
+            height: 50px;
+        }
+    }
+
+    .btn-lg {
+        width: 178px;
+    }
+
+    .btn-btnsecondary {
+        margin-right: 20px;
+    }
+}
+
+.wizard-tooltip-footer {
+    margin-top: 20px;
+}
+
+.button-stepchange-size {
+    .btn-lg {
+        width: 310px;
+    }
+}
+
+.button-continue-to-size {
+    .btn-lg {
+        width: 100% !important;
+
+        @include media-breakpoint-up(md) {
+            width: 305px !important;
+        }
+    }
+}
+
+.wizard-navigation-forward_override {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 12px 0;
+    @include media-breakpoint-up(md) {
+        margin: 20px 0 50px 0;
+    }
+
+    .wizard-buttons-footer {
+        display: flex;
+        .btn-primary {
+            width: 335px;
+            flex: 1;
+        }
+    }
+
+    @include media-breakpoint-between(xs, sm) {
+        .wizard-buttons-footer {
+            width: 100%;
+        }
+    }
+}
+
+.cancel-finish-edit {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    background: $white-fill;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 4px 4px 0 0;
+}
+
+.multiCar-edit-finish {
+    position: fixed; 
+    bottom: 50%;
+    width: 100%;
+}

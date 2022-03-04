@@ -1,0 +1,288 @@
+{
+    "httpRequest": {
+        "method": "POST",
+        "path": "/pc/service/unauthenticated/edgev10/ipid/matcher",
+        "headers": {
+            "cookie": [
+                "whoson=62-1623403112641; _ga=GA1.1.659797703.1623403129; _gid=GA1.1.1672977791.1625756857; _gat_gtag_UA_115295582_15=1; utag_main=v_id:0179fa5da989001690e8b04a278e03071001606900bd0$_sn:8$_se:3$_ss:0$_st:1625759133378$dc_visit:8$ses_id:1625756821958%3Bexp-session$_pn:2%3Bexp-session$dc_event:3%3Bexp-session$dc_region:eu-central-1%3Bexp-session; dtCookie=v_4_srv_2_sn_B2E8BC43584192EC9F38F4913C3FBE80_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0; JSESSIONID=0000vNw6wtmzRGoyeb8gdBkXyJ5:-1"
+            ],
+            "accept-encoding": [
+                "gzip, deflate, br"
+            ],
+            "referer": [
+                "http://localhost:3000/quote-and-buy/mc-customize-quote-wizard"
+            ],
+            "sec-fetch-dest": [
+                "empty"
+            ],
+            "sec-fetch-mode": [
+                "cors"
+            ],
+            "sec-fetch-site": [
+                "same-origin"
+            ],
+            "origin": [
+                "http://localhost:3000"
+            ],
+            "content-type": [
+                "application/json; charset=utf-8"
+            ],
+            "user-agent": [
+                "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            ],
+            "sec-ch-ua-mobile": [
+                "?0"
+            ],
+            "accept-language": [
+                "null"
+            ],
+            "accept": [
+                "application/json"
+            ],
+            "sec-ch-ua": [
+                "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\""
+            ],
+            "content-length": [
+                "396"
+            ],
+            "connection": [
+                "close"
+            ],
+            "host": [
+                "localhost:3000"
+            ]
+        },
+        "cookies": {
+            "JSESSIONID": "0000vNw6wtmzRGoyeb8gdBkXyJ5:-1",
+            "_ga": "GA1.1.659797703.1623403129",
+            "_gat_gtag_UA_115295582_15": "1",
+            "_gid": "GA1.1.1672977791.1625756857",
+            "dtCookie": "v_4_srv_2_sn_B2E8BC43584192EC9F38F4913C3FBE80_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0",
+            "utag_main": "v_id:0179fa5da989001690e8b04a278e03071001606900bd0$_sn:8$_se:3$_ss:0$_st:1625759133378$dc_visit:8$ses_id:1625756821958%3Bexp-session$_pn:2%3Bexp-session$dc_event:3%3Bexp-session$dc_region:eu-central-1%3Bexp-session",
+            "whoson": "62-1623403112641"
+        },
+        "keepAlive": false,
+        "secure": false,
+        "body": {
+            "jsonrpc": "2.0",
+            "method": "multiProductMatchForAll",
+            "params": [
+                {
+                    "MultiProductIpidVariants": [
+                        {
+                            "product": "PrivateCar_Ext",
+                            "brand": "HD",
+                            "inceptionDate": {
+                                "year": 2022,
+                                "month": 5,
+                                "day": 15
+                            },
+                            "vehicleCoverType": "comprehensive",
+                            "jobNumber": "0000006195"
+                        },
+                        {
+                            "product": "PrivateCar_Ext",
+                            "brand": "HD",
+                            "inceptionDate": {
+                                "year": 2022,
+                                "month": 5,
+                                "day": 15
+                            },
+                            "vehicleCoverType": "comprehensive",
+                            "jobNumber": "0000006196"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "httpResponse": {
+        "statusCode": 200,
+        "reasonPhrase": "OK",
+        "headers": {
+            "X-Powered-By": [
+                "Servlet/3.0"
+            ],
+            "Timing-Allow-Origin": [
+                "*"
+            ],
+            "Server-Timing": [
+                "dtRpid;desc=\"-865296607\""
+            ],
+            "X-OneAgent-JS-Injection": [
+                "true"
+            ],
+            "Content-Type": [
+                "application/json; charset=UTF-8"
+            ],
+            "Content-Language": [
+                "en-GB"
+            ],
+            "Date": [
+                "Thu, 08 Jul 2021 15:17:02 GMT"
+            ],
+            "content-length": [
+                "4549"
+            ]
+        },
+        "body": {
+            "result": {
+                "ipidResponse": [
+                    {
+                        "ipids": [
+                            {
+                                "fileName": "IPID-GW-HD-PC-C-1018.pdf",
+                                "description": "IPID - Hastings Direct Comprehensive Car Policy",
+                                "uuid": "{E090E665-364B-C410-86BD-658B7E700000}"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD4-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside, Recovery, At Home & EU",
+                                "uuid": "{350F2AA0-5610-CB63-869B-658B55000000}",
+                                "ancillaryCode": "European"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD3-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside, Recovery & At Home",
+                                "uuid": "{1F6F168F-E914-C636-8589-658B54000000}",
+                                "ancillaryCode": "Homestart"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD2-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside & Recovery",
+                                "uuid": "{53566DE5-5538-CD2E-8761-658B52E00000}",
+                                "ancillaryCode": "RoadsideAndRecovery"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD1-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside",
+                                "uuid": "{4F7C13F3-A390-C4D5-87BA-658B52000000}",
+                                "ancillaryCode": "Roadside"
+                            },
+                            {
+                                "fileName": "IPID-AP-XS1-1018.pdf",
+                                "description": "IPID - Ancillary - Excess Protector (Car & Bike) £250",
+                                "uuid": "{E95A5BA5-AB4A-C5B8-86F4-658B4CB00000}",
+                                "ancillaryCode": "250"
+                            },
+                            {
+                                "fileName": "IPID-AP-XS2-1018.pdf",
+                                "description": "IPID - Ancillary - Excess Protector (Car & Bike) £500",
+                                "uuid": "{19DA6378-44A2-C591-8745-658B50200000}",
+                                "ancillaryCode": "500"
+                            },
+                            {
+                                "fileName": "IPID-AP-XS3-1018.pdf",
+                                "description": "IPID - Ancillary - Excess Protector (Car & Bike) £750",
+                                "uuid": "{B20BCB16-D920-CCBC-8715-658B50F00000}",
+                                "ancillaryCode": "750"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-KEY-1018.pdf",
+                                "description": "IPID - Ancillary - Key Cover (Car, Bike & Home)",
+                                "uuid": "{2706E365-A987-CACC-85A8-658B59F00000}",
+                                "ancillaryCode": "ANCKeyCoverCov_Ext"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-MLEI-0119.pdf",
+                                "description": "IPID - Ancillary - Motor Legal (Car, Bike & Van)",
+                                "uuid": "{3403F8D1-15F3-C988-87B9-6735EB900000}",
+                                "ancillaryCode": "ANCMotorLegalExpensesCov_Ext"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-PCCV-PA-0719.pdf",
+                                "description": "IPID - Ancillary - Personal Accident (Car & Van)",
+                                "uuid": "{78DDF373-D543-C439-849A-6B8F5A100000}",
+                                "ancillaryCode": "ANCMotorPersonalAccidentCov_Ext"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-PC-SV-0719.pdf",
+                                "description": "IPID - Ancillary - Substitute Vehicle (Car)",
+                                "uuid": "{EFB57EF4-A743-CBAB-875D-6B8F5B700000}",
+                                "ancillaryCode": "ANCSubstituteVehicleCov_Ext"
+                            }
+                        ],
+                        "jobNumber": "0000006195"
+                    },
+                    {
+                        "ipids": [
+                            {
+                                "fileName": "IPID-GW-HD-PC-C-1018.pdf",
+                                "description": "IPID - Hastings Direct Comprehensive Car Policy",
+                                "uuid": "{E090E665-364B-C410-86BD-658B7E700000}"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD4-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside, Recovery, At Home & EU",
+                                "uuid": "{350F2AA0-5610-CB63-869B-658B55000000}",
+                                "ancillaryCode": "European"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD3-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside, Recovery & At Home",
+                                "uuid": "{1F6F168F-E914-C636-8589-658B54000000}",
+                                "ancillaryCode": "Homestart"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD2-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside & Recovery",
+                                "uuid": "{53566DE5-5538-CD2E-8761-658B52E00000}",
+                                "ancillaryCode": "RoadsideAndRecovery"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-BD1-1018.pdf",
+                                "description": "IPID -Ancillary - Breakdown - Roadside",
+                                "uuid": "{4F7C13F3-A390-C4D5-87BA-658B52000000}",
+                                "ancillaryCode": "Roadside"
+                            },
+                            {
+                                "fileName": "IPID-AP-XS1-1018.pdf",
+                                "description": "IPID - Ancillary - Excess Protector (Car & Bike) £250",
+                                "uuid": "{E95A5BA5-AB4A-C5B8-86F4-658B4CB00000}",
+                                "ancillaryCode": "250"
+                            },
+                            {
+                                "fileName": "IPID-AP-XS2-1018.pdf",
+                                "description": "IPID - Ancillary - Excess Protector (Car & Bike) £500",
+                                "uuid": "{19DA6378-44A2-C591-8745-658B50200000}",
+                                "ancillaryCode": "500"
+                            },
+                            {
+                                "fileName": "IPID-AP-XS3-1018.pdf",
+                                "description": "IPID - Ancillary - Excess Protector (Car & Bike) £750",
+                                "uuid": "{B20BCB16-D920-CCBC-8715-658B50F00000}",
+                                "ancillaryCode": "750"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-KEY-1018.pdf",
+                                "description": "IPID - Ancillary - Key Cover (Car, Bike & Home)",
+                                "uuid": "{2706E365-A987-CACC-85A8-658B59F00000}",
+                                "ancillaryCode": "ANCKeyCoverCov_Ext"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-MLEI-0119.pdf",
+                                "description": "IPID - Ancillary - Motor Legal (Car, Bike & Van)",
+                                "uuid": "{3403F8D1-15F3-C988-87B9-6735EB900000}",
+                                "ancillaryCode": "ANCMotorLegalExpensesCov_Ext"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-PCCV-PA-0719.pdf",
+                                "description": "IPID - Ancillary - Personal Accident (Car & Van)",
+                                "uuid": "{78DDF373-D543-C439-849A-6B8F5A100000}",
+                                "ancillaryCode": "ANCMotorPersonalAccidentCov_Ext"
+                            },
+                            {
+                                "fileName": "IPID-GW-AP-PC-SV-0719.pdf",
+                                "description": "IPID - Ancillary - Substitute Vehicle (Car)",
+                                "uuid": "{EFB57EF4-A743-CBAB-875D-6B8F5B700000}",
+                                "ancillaryCode": "ANCSubstituteVehicleCov_Ext"
+                            }
+                        ],
+                        "jobNumber": "0000006196"
+                    }
+                ]
+            },
+            "jsonrpc": "2.0"
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/unauthenticated/edgev10/validation/validate",
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "jsonrpc": "2.0",
+      "method": "validateLicense"
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Date": [
+        "Mon, 29 Mar 2021 19:18:15 GMT"
+      ],
+      "content-length": [
+        "1518"
+      ]
+    },
+    "body": {
+      "result": {
+        "directiveIndicator": 4,
+        "dvlaProcessingDate": "2018-04-22T14:03:52Z",
+        "dvlaServiceVersion": "1",
+        "drivingLicence": {
+          "directiveIndicator": 4,
+          "drivingLicenceNumber": "RNEWQ801019DR9AB",
+          "drivingLicenceYears": 2,
+          "validFrom": "2017-06-26T23:00:00Z",
+          "validTo": "2067-06-23T23:00:00Z",
+          "drivingLicenceDate": "2017-06-26T23:00:00Z",
+          "dvlaProcessingDate": "2018-04-22T14:03:52Z",
+          "dvlaServiceVersion": "1",
+          "hubProcessingDate": "2018-04-22T14:03:52Z",
+          "hubServiceVersion": "1.0.0.0"
+        },
+        "drivingEndorsementsCollection": [
+          {
+            "code": "SP30",
+            "convictionDate": "2020-11-11T00:00:00Z",
+            "custodialPeriod": 0,
+            "disqualPeriod": "PT0S ",
+            "fine": 0,
+            "isDisqual": false,
+            "noOfPoints": 3,
+            "offenceDate": "2020-09-09T23:00:00Z"
+          },
+          {
+            "code": "SP30",
+            "convictionDate": "2017-11-11T00:00:00Z",
+            "custodialPeriod": 0,
+            "disqualEndDate": "2018-11-11T00:00:00Z",
+            "disqualPeriod": "P1Y0M0DT12H30M5S ",
+            "disqualStartDate": "2017-11-11T00:00:00Z",
+            "fine": 600,
+            "isDisqual": true,
+            "noOfPoints": 3,
+            "rehabSpentDate": "2019-11-11T00:00:00Z"
+          }
+        ],
+        "drivingEntitlementsCollection": [
+          {
+            "code": "4B",
+            "priorTo": false,
+            "restrictionsCollection": [],
+            "type": "P",
+            "validFrom": "2009-04-10T23:00:00Z",
+            "validTo": "2063-05-25T23:00:00Z"
+          },
+          {
+            "code": "4A",
+            "priorTo": false,
+            "restrictionsCollection": [],
+            "type": "P",
+            "validFrom": "2009-04-10T23:00:00Z",
+            "validTo": "2058-06-23T23:00:00Z"
+          },
+          {
+            "code": "4BE",
+            "priorTo": false,
+            "restrictionsCollection": [
+              {
+                "info": "restricted to vehicles with automatic transmission",
+                "type": "78"
+              },
+              {
+                "info": "",
+                "type": "01"
+              }
+            ],
+            "type": "F",
+            "validFrom": "2009-04-10T23:00:00Z",
+            "validTo": "2059-06-23T23:00:00Z"
+          },
+          {
+            "code": "4C1E",
+            "priorTo": false,
+            "restrictionsCollection": [],
+            "type": "F",
+            "validFrom": "2009-04-10T23:00:00Z",
+            "validTo": "2059-06-23T23:00:00Z"
+          },
+          {
+            "code": "4C1",
+            "priorTo": false,
+            "restrictionsCollection": [],
+            "type": "F",
+            "validFrom": "2009-04-10T23:00:00Z",
+            "validTo": "2059-06-23T23:00:00Z"
+          }
+        ],
+        "hubProcessingDate": "2018-04-22T14:03:52Z",
+        "hubServiceVersion": "1.0.0.0",
+        "status": "PC",
+        "validFrom": "2017-06-26T23:00:00Z",
+        "validTo": "2067-06-23T23:00:00Z",
+        "enrichmentLinkID": 251948
+      },
+      "jsonrpc": "2.0"
+    }
+  }
+}

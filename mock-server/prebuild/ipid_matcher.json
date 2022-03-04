@@ -1,0 +1,2001 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/edgev10/ipid/matcher",
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "usertoken": [
+        "any"
+      ],
+      "Authorization": [
+        "Basic c3U6Z3c="
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "61"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ],
+      "Host": [
+        "localhost:1080"
+      ]
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "id": "1",
+      "jsonrpc": "2.0",
+      "method": "getMetaData",
+      "params": []
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Server-Timing": [
+        "dtRpid;desc=\"-2092248647\""
+      ],
+      "X-OneAgent-JS-Injection": [
+        "true"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Set-Cookie": [
+        "dtCookie=v_4_srv_2_sn_CCC7734B020746DC75188F640183BE72_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0; Path=/",
+        "JSESSIONID=0000WelRnnroa5QmemvehkiPgUN:-1; Path=/; HttpOnly",
+        "JSESSIONID=99c9fb9a-7978-4b3c-a3bf-18367b562e10; Expires=Fri, 28-May-21 10:12:26 GMT; Path=/"
+      ],
+      "Date": [
+        "Fri, 28 May 2021 09:12:26 GMT"
+      ],
+      "Expires": [
+        "Thu, 01 Dec 1994 16:00:00 GMT"
+      ],
+      "Cache-Control": [
+        "no-cache=\"set-cookie, set-cookie2\""
+      ],
+      "content-length": [
+        "26456"
+      ]
+    },
+    "cookies": {
+      "dtCookie": "v_4_srv_2_sn_CCC7734B020746DC75188F640183BE72_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0",
+      "JSESSIONID": "99c9fb9a-7978-4b3c-a3bf-18367b562e10"
+    },
+    "body": {
+      "result": {
+        "questionSets": {},
+        "newTypeMeta": [
+          {
+            "name": "com.hastings.edgev10.capabilities.ipid.dto.IpidVariantDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "PremierBreakdownCovers": {
+                    "name": "PremierBreakdownCovers",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.ipid.dto.PremierBreakdownDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "HomeCoverType": {
+                    "name": "HomeCoverType",
+                    "valueType": {
+                      "className": "typekey.CoverageCategory_EXT",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "PremierBreakdownCover": {
+                    "name": "PremierBreakdownCover",
+                    "valueType": {
+                      "className": "typekey.BreakdownCovTermType_Ext",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "Ancillaries": {
+                    "name": "Ancillaries",
+                    "valueType": {
+                      "elementType": {
+                        "className": "typekey.IpidAncillaries_Ext",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "VehicleCoverType": {
+                    "name": "VehicleCoverType",
+                    "valueType": {
+                      "className": "typekey.CoverageCategory_EXT",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "Brand": {
+                    "name": "Brand",
+                    "valueType": {
+                      "className": "typekey.BrandCode_EXT",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "InceptionDate": {
+                    "name": "InceptionDate",
+                    "valueType": {
+                      "className": "edgev10.time.LocalDateDTO",
+                      "kind": "class"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "VehicleCoverTypes": {
+                    "name": "VehicleCoverTypes",
+                    "valueType": {
+                      "elementType": {
+                        "name": "String",
+                        "kind": "primitive"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "Product": {
+                    "name": "Product",
+                    "valueType": {
+                      "className": "typekey.Product_Ext",
+                      "kind": "class"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ipid.dto.IpidRespDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "Ipids": {
+                    "name": "Ipids",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.ipid.dto.IpidIdentifierRespDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "JobNumber": {
+                    "name": "JobNumber",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.Product_Ext",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "CommercialVan_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "PolarisDataDictName_Ext",
+                        "typecode": "UKMotor"
+                      }
+                    ],
+                    "displayKey": "typekey.Product_Ext.CommercialVan_Ext"
+                  },
+                  {
+                    "code": "Home_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "PolarisDataDictName_Ext",
+                        "typecode": "UKHouse"
+                      }
+                    ],
+                    "displayKey": "typekey.Product_Ext.Home_Ext"
+                  },
+                  {
+                    "code": "MotorCycle_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "PolarisDataDictName_Ext",
+                        "typecode": "UKMotor"
+                      }
+                    ],
+                    "displayKey": "typekey.Product_Ext.MotorCycle_Ext"
+                  },
+                  {
+                    "code": "PrivateCar_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "PolarisDataDictName_Ext",
+                        "typecode": "UKMotor"
+                      }
+                    ],
+                    "displayKey": "typekey.Product_Ext.PrivateCar_Ext"
+                  }
+                ],
+                "filters": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.BrandCode_EXT",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "HE",
+                    "priority": 0,
+                    "categories": [],
+                    "displayKey": "typekey.BrandCode_EXT.HE"
+                  },
+                  {
+                    "code": "HD",
+                    "priority": 1,
+                    "categories": [],
+                    "displayKey": "typekey.BrandCode_EXT.HD"
+                  },
+                  {
+                    "code": "HP",
+                    "priority": 2,
+                    "categories": [],
+                    "displayKey": "typekey.BrandCode_EXT.HP"
+                  },
+                  {
+                    "code": "PC",
+                    "priority": 3,
+                    "categories": [],
+                    "displayKey": "typekey.BrandCode_EXT.PC"
+                  },
+                  {
+                    "code": "IP",
+                    "priority": 4,
+                    "categories": [],
+                    "displayKey": "typekey.BrandCode_EXT.IP"
+                  },
+                  {
+                    "code": "YD",
+                    "priority": 5,
+                    "categories": [],
+                    "displayKey": "typekey.BrandCode_EXT.YD"
+                  }
+                ],
+                "filters": [
+                  {
+                    "name": "CommercialVan_Ext",
+                    "includedCodes": [
+                      "HD",
+                      "HP"
+                    ]
+                  },
+                  {
+                    "name": "PrivateCar_Ext",
+                    "includedCodes": [
+                      "HE",
+                      "HD",
+                      "HP",
+                      "PC",
+                      "IP",
+                      "YD"
+                    ]
+                  },
+                  {
+                    "name": "MotorCycle_Ext",
+                    "includedCodes": [
+                      "HD",
+                      "HP"
+                    ]
+                  },
+                  {
+                    "name": "Home_Ext",
+                    "includedCodes": [
+                      "HE",
+                      "HD",
+                      "HP"
+                    ]
+                  }
+                ],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.CoverageCategory_EXT",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "comprehensive",
+                    "priority": 1,
+                    "categories": [
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "CVLine_Ext"
+                      },
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "MCLine_Ext"
+                      },
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "PCLine_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.CoverageCategory_EXT.comprehensive"
+                  },
+                  {
+                    "code": "tpft",
+                    "priority": 2,
+                    "categories": [
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "CVLine_Ext"
+                      },
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "MCLine_Ext"
+                      },
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "PCLine_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.CoverageCategory_EXT.tpft"
+                  },
+                  {
+                    "code": "thirdParty",
+                    "priority": 3,
+                    "categories": [
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "CVLine_Ext"
+                      },
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "MCLine_Ext"
+                      },
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "PCLine_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.CoverageCategory_EXT.thirdParty"
+                  },
+                  {
+                    "code": "building",
+                    "priority": 10,
+                    "categories": [
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "HomeLine_Ext"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "03"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "08"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "PH"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LB"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LF"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LH"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LP"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LR"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LS"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LN"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "Home_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.CoverageCategory_EXT.building"
+                  },
+                  {
+                    "code": "B09",
+                    "priority": 20,
+                    "categories": [
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "HomeLine_Ext"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "03"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "08"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "PH"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LB"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LF"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LH"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LP"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LR"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LS"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LN"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "Home_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.CoverageCategory_EXT.B09"
+                  },
+                  {
+                    "code": "content",
+                    "priority": 30,
+                    "categories": [
+                      {
+                        "typelist": "PolicyLine",
+                        "typecode": "HomeLine_Ext"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "03"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "08"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "11"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "12"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "13"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "14"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "15"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "16"
+                      },
+                      {
+                        "typelist": "OwnershipType_Ext",
+                        "typecode": "17"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "PH"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LB"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LF"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LH"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LP"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LR"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LS"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "LN"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "HH"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "OT"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "UN"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "UD"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "WD"
+                      },
+                      {
+                        "typelist": "PropertyStatus_Ext",
+                        "typecode": "WE"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "Home_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.CoverageCategory_EXT.content"
+                  }
+                ],
+                "filters": [
+                  {
+                    "name": "BuildingCategories",
+                    "includedCodes": [
+                      "building",
+                      "B09"
+                    ]
+                  },
+                  {
+                    "name": "ContentCategories",
+                    "includedCodes": [
+                      "B09",
+                      "content"
+                    ]
+                  }
+                ],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.BreakdownCovTermType_Ext",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "Roadside",
+                    "priority": 1,
+                    "categories": [],
+                    "displayKey": "typekey.BreakdownCovTermType_Ext.Roadside"
+                  },
+                  {
+                    "code": "RoadsideAndRecovery",
+                    "priority": 2,
+                    "categories": [],
+                    "displayKey": "typekey.BreakdownCovTermType_Ext.RoadsideAndRecovery"
+                  },
+                  {
+                    "code": "Homestart",
+                    "priority": 3,
+                    "categories": [],
+                    "displayKey": "typekey.BreakdownCovTermType_Ext.Homestart"
+                  },
+                  {
+                    "code": "European",
+                    "priority": 4,
+                    "categories": [],
+                    "displayKey": "typekey.BreakdownCovTermType_Ext.European"
+                  }
+                ],
+                "filters": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ipid.dto.PremierBreakdownDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "PremierBreakdownCover": {
+                    "name": "PremierBreakdownCover",
+                    "valueType": {
+                      "className": "typekey.BreakdownCovTermType_Ext",
+                      "kind": "class"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "VehicleCoverType": {
+                    "name": "VehicleCoverType",
+                    "valueType": {
+                      "className": "typekey.CoverageCategory_EXT",
+                      "kind": "class"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "IpidGenDate": {
+                    "name": "IpidGenDate",
+                    "valueType": {
+                      "className": "edgev10.time.LocalDateDTO",
+                      "kind": "class"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.IpidAncillaries_Ext",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "European",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.European"
+                  },
+                  {
+                    "code": "Homestart",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.Homestart"
+                  },
+                  {
+                    "code": "RoadsideAndRecovery",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.RoadsideAndRecovery"
+                  },
+                  {
+                    "code": "Roadside",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.Roadside"
+                  },
+                  {
+                    "code": "250",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.250"
+                  },
+                  {
+                    "code": "500",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.500"
+                  },
+                  {
+                    "code": "750",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.750"
+                  },
+                  {
+                    "code": "ANCLineFamilyLegalProtection",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "Home_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCLineFamilyLegalProtection"
+                  },
+                  {
+                    "code": "ANCLINEHelmetLeathersCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCLINEHelmetLeathersCov_Ext"
+                  },
+                  {
+                    "code": "ANCLINEHomeEmergengyCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "Home_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCLINEHomeEmergengyCov_Ext"
+                  },
+                  {
+                    "code": "ANCKeyCoverCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "Home_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCKeyCoverCov_Ext"
+                  },
+                  {
+                    "code": "ANCLINEMotorLegalExpensesCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCLINEMotorLegalExpensesCov_Ext"
+                  },
+                  {
+                    "code": "ANCMotorLegalExpensesCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCMotorLegalExpensesCov_Ext"
+                  },
+                  {
+                    "code": "ANCLINEMotorPersonalAccidentCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "MotorCycle_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCLINEMotorPersonalAccidentCov_Ext"
+                  },
+                  {
+                    "code": "ANCMotorPersonalAccidentCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCMotorPersonalAccidentCov_Ext"
+                  },
+                  {
+                    "code": "ANCSubstituteVehicleCov_Ext",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "PrivateCar_Ext"
+                      },
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.ANCSubstituteVehicleCov_Ext"
+                  },
+                  {
+                    "code": "2500",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.2500"
+                  },
+                  {
+                    "code": "5000",
+                    "priority": -1,
+                    "categories": [
+                      {
+                        "typelist": "Product_Ext",
+                        "typecode": "CommercialVan_Ext"
+                      }
+                    ],
+                    "displayKey": "typekey.IpidAncillaries_Ext.5000"
+                  }
+                ],
+                "filters": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "edgev10.time.LocalDateDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "Month": {
+                    "name": "Month",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.ValidationRuleDTO",
+                        "value": {
+                          "expression": {
+                            "container": ":sys:ops:",
+                            "name": "not",
+                            "params": [
+                              {
+                                "container": ":sys:ops:",
+                                "name": "less",
+                                "params": [
+                                  {
+                                    "index": 0,
+                                    "kind": "parameter"
+                                  },
+                                  {
+                                    "type": "int",
+                                    "value": 0,
+                                    "kind": "const"
+                                  }
+                                ],
+                                "kind": "nativecall"
+                              }
+                            ],
+                            "kind": "nativecall"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.Min",
+                            "arguments": [
+                              {
+                                "type": "int",
+                                "value": 0,
+                                "kind": "const"
+                              }
+                            ],
+                            "kind": "translate"
+                          }
+                        }
+                      },
+                      {
+                        "type": "edgev10.aspects.validation.dto.ValidationRuleDTO",
+                        "value": {
+                          "expression": {
+                            "container": ":sys:ops:",
+                            "name": "not",
+                            "params": [
+                              {
+                                "container": ":sys:ops:",
+                                "name": "greater",
+                                "params": [
+                                  {
+                                    "index": 0,
+                                    "kind": "parameter"
+                                  },
+                                  {
+                                    "type": "int",
+                                    "value": 11,
+                                    "kind": "const"
+                                  }
+                                ],
+                                "kind": "nativecall"
+                              }
+                            ],
+                            "kind": "nativecall"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.Max",
+                            "arguments": [
+                              {
+                                "type": "int",
+                                "value": 11,
+                                "kind": "const"
+                              }
+                            ],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "Day": {
+                    "name": "Day",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.ValidationRuleDTO",
+                        "value": {
+                          "expression": {
+                            "container": ":sys:ops:",
+                            "name": "not",
+                            "params": [
+                              {
+                                "container": ":sys:ops:",
+                                "name": "less",
+                                "params": [
+                                  {
+                                    "index": 0,
+                                    "kind": "parameter"
+                                  },
+                                  {
+                                    "type": "int",
+                                    "value": 1,
+                                    "kind": "const"
+                                  }
+                                ],
+                                "kind": "nativecall"
+                              }
+                            ],
+                            "kind": "nativecall"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.Min",
+                            "arguments": [
+                              {
+                                "type": "int",
+                                "value": 1,
+                                "kind": "const"
+                              }
+                            ],
+                            "kind": "translate"
+                          }
+                        }
+                      },
+                      {
+                        "type": "edgev10.aspects.validation.dto.ValidationRuleDTO",
+                        "value": {
+                          "expression": {
+                            "container": ":sys:ops:",
+                            "name": "not",
+                            "params": [
+                              {
+                                "container": ":sys:ops:",
+                                "name": "greater",
+                                "params": [
+                                  {
+                                    "index": 0,
+                                    "kind": "parameter"
+                                  },
+                                  {
+                                    "container": "edgev10.time.LocalDateUtil",
+                                    "name": "daysInLocalDate",
+                                    "params": [
+                                      {
+                                        "index": 1,
+                                        "kind": "parameter"
+                                      }
+                                    ],
+                                    "kind": "nativecall"
+                                  }
+                                ],
+                                "kind": "nativecall"
+                              }
+                            ],
+                            "kind": "nativecall"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.Max",
+                            "arguments": [
+                              {
+                                "container": "edgev10.time.LocalDateUtil",
+                                "name": "daysInLocalDate",
+                                "params": [
+                                  {
+                                    "index": 1,
+                                    "kind": "parameter"
+                                  }
+                                ],
+                                "kind": "nativecall"
+                              }
+                            ],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "Year": {
+                    "name": "Year",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.ValidationRuleDTO",
+                        "value": {
+                          "expression": {
+                            "container": ":sys:ops:",
+                            "name": "not",
+                            "params": [
+                              {
+                                "container": ":sys:ops:",
+                                "name": "less",
+                                "params": [
+                                  {
+                                    "index": 0,
+                                    "kind": "parameter"
+                                  },
+                                  {
+                                    "type": "int",
+                                    "value": 0,
+                                    "kind": "const"
+                                  }
+                                ],
+                                "kind": "nativecall"
+                              }
+                            ],
+                            "kind": "nativecall"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.Min",
+                            "arguments": [
+                              {
+                                "type": "int",
+                                "value": 0,
+                                "kind": "const"
+                              }
+                            ],
+                            "kind": "translate"
+                          }
+                        }
+                      },
+                      {
+                        "type": "edgev10.aspects.validation.dto.ValidationRuleDTO",
+                        "value": {
+                          "expression": {
+                            "container": ":sys:ops:",
+                            "name": "not",
+                            "params": [
+                              {
+                                "container": ":sys:ops:",
+                                "name": "greater",
+                                "params": [
+                                  {
+                                    "index": 0,
+                                    "kind": "parameter"
+                                  },
+                                  {
+                                    "type": "int",
+                                    "value": 5000,
+                                    "kind": "const"
+                                  }
+                                ],
+                                "kind": "nativecall"
+                              }
+                            ],
+                            "kind": "nativecall"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.Max",
+                            "arguments": [
+                              {
+                                "type": "int",
+                                "value": 5000,
+                                "kind": "const"
+                              }
+                            ],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ipid.dto.IpidIdentifierRespDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "AncillaryCode": {
+                    "name": "AncillaryCode",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "FileName": {
+                    "name": "FileName",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "AncBreakdownCoverCode": {
+                    "name": "AncBreakdownCoverCode",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Uuid": {
+                    "name": "Uuid",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Description": {
+                    "name": "Description",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.PolarisDataDictName_Ext",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "UKMotor",
+                    "priority": 10,
+                    "categories": [],
+                    "displayKey": "typekey.PolarisDataDictName_Ext.UKMotor"
+                  },
+                  {
+                    "code": "UKHouse",
+                    "priority": 20,
+                    "categories": [],
+                    "displayKey": "typekey.PolarisDataDictName_Ext.UKHouse"
+                  }
+                ],
+                "filters": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.PolicyLine",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "ANCLine_Ext",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.ANCLine_Ext"
+                  },
+                  {
+                    "code": "BusinessOwnersLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.BusinessOwnersLine"
+                  },
+                  {
+                    "code": "BusinessAutoLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.BusinessAutoLine"
+                  },
+                  {
+                    "code": "CVLine_Ext",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.CVLine_Ext"
+                  },
+                  {
+                    "code": "CommercialPropertyLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.CommercialPropertyLine"
+                  },
+                  {
+                    "code": "GeneralLiabilityLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.GeneralLiabilityLine"
+                  },
+                  {
+                    "code": "HomeLine_Ext",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.HomeLine_Ext"
+                  },
+                  {
+                    "code": "InlandMarineLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.InlandMarineLine"
+                  },
+                  {
+                    "code": "MCLine_Ext",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.MCLine_Ext"
+                  },
+                  {
+                    "code": "PersonalAutoLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.PersonalAutoLine"
+                  },
+                  {
+                    "code": "PolicyLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.PolicyLine"
+                  },
+                  {
+                    "code": "PCLine_Ext",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.PCLine_Ext"
+                  },
+                  {
+                    "code": "WorkersCompLine",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PolicyLine.WorkersCompLine"
+                  }
+                ],
+                "filters": [
+                  {
+                    "name": "PolicyHoldLines",
+                    "includedCodes": []
+                  }
+                ],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.OwnershipType_Ext",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "08",
+                    "priority": 10,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.08"
+                  },
+                  {
+                    "code": "03",
+                    "priority": 20,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.03"
+                  },
+                  {
+                    "code": "17",
+                    "priority": 30,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.17"
+                  },
+                  {
+                    "code": "11",
+                    "priority": 40,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.11"
+                  },
+                  {
+                    "code": "13",
+                    "priority": 50,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.13"
+                  },
+                  {
+                    "code": "15",
+                    "priority": 60,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.15"
+                  },
+                  {
+                    "code": "12",
+                    "priority": 70,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.12"
+                  },
+                  {
+                    "code": "14",
+                    "priority": 80,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.14"
+                  },
+                  {
+                    "code": "16",
+                    "priority": 90,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.16"
+                  },
+                  {
+                    "code": "31",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.31"
+                  },
+                  {
+                    "code": "32",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.32"
+                  },
+                  {
+                    "code": "23",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.23"
+                  },
+                  {
+                    "code": "25",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.25"
+                  },
+                  {
+                    "code": "21",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.21"
+                  },
+                  {
+                    "code": "24",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.24"
+                  },
+                  {
+                    "code": "22",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.22"
+                  },
+                  {
+                    "code": "26",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.26"
+                  },
+                  {
+                    "code": "01",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.01"
+                  },
+                  {
+                    "code": "02",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.02"
+                  },
+                  {
+                    "code": "19",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.19"
+                  },
+                  {
+                    "code": "04",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.04"
+                  },
+                  {
+                    "code": "05",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.05"
+                  },
+                  {
+                    "code": "06",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.06"
+                  },
+                  {
+                    "code": "07",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.07"
+                  },
+                  {
+                    "code": "27",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.27"
+                  },
+                  {
+                    "code": "20",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.20"
+                  },
+                  {
+                    "code": "09",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.09"
+                  },
+                  {
+                    "code": "10",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.10"
+                  },
+                  {
+                    "code": "28",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.28"
+                  },
+                  {
+                    "code": "18",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.18"
+                  },
+                  {
+                    "code": "29",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.29"
+                  },
+                  {
+                    "code": "30",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.30"
+                  },
+                  {
+                    "code": "99",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.OwnershipType_Ext.99"
+                  }
+                ],
+                "filters": [
+                  {
+                    "name": "MortgagedOccupiedOrOwnedByPH",
+                    "includedCodes": [
+                      "08",
+                      "03"
+                    ]
+                  },
+                  {
+                    "name": "RentedOrSupplied",
+                    "includedCodes": [
+                      "17",
+                      "11",
+                      "13",
+                      "15",
+                      "12",
+                      "14",
+                      "16"
+                    ]
+                  },
+                  {
+                    "name": "Home_Ext",
+                    "includedCodes": [
+                      "08",
+                      "03",
+                      "17",
+                      "11",
+                      "13",
+                      "15",
+                      "12",
+                      "14",
+                      "16"
+                    ]
+                  },
+                  {
+                    "name": "PrivateCar_Ext",
+                    "includedCodes": []
+                  },
+                  {
+                    "name": "CommercialVan_Ext",
+                    "includedCodes": []
+                  },
+                  {
+                    "name": "MotorCycle_Ext",
+                    "includedCodes": []
+                  }
+                ],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "typekey.PropertyStatus_Ext",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.typelistinfo.dto.TypelistMetadataDTO",
+              "value": {
+                "codes": [
+                  {
+                    "code": "PH",
+                    "priority": 10,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.PH"
+                  },
+                  {
+                    "code": "HH",
+                    "priority": 20,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.HH"
+                  },
+                  {
+                    "code": "LF",
+                    "priority": 30,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LF"
+                  },
+                  {
+                    "code": "LB",
+                    "priority": 40,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LB"
+                  },
+                  {
+                    "code": "LH",
+                    "priority": 50,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LH"
+                  },
+                  {
+                    "code": "LP",
+                    "priority": 60,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LP"
+                  },
+                  {
+                    "code": "LR",
+                    "priority": 70,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LR"
+                  },
+                  {
+                    "code": "LS",
+                    "priority": 80,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LS"
+                  },
+                  {
+                    "code": "LN",
+                    "priority": 90,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LN"
+                  },
+                  {
+                    "code": "UN",
+                    "priority": 100,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.UN"
+                  },
+                  {
+                    "code": "UD",
+                    "priority": 110,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.UD"
+                  },
+                  {
+                    "code": "WD",
+                    "priority": 120,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.WD"
+                  },
+                  {
+                    "code": "WE",
+                    "priority": 130,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.WE"
+                  },
+                  {
+                    "code": "OT",
+                    "priority": 140,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.OT"
+                  },
+                  {
+                    "code": "LO",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.LO"
+                  },
+                  {
+                    "code": "PR",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.PR"
+                  },
+                  {
+                    "code": "SR",
+                    "priority": -1,
+                    "categories": [],
+                    "displayKey": "typekey.PropertyStatus_Ext.SR"
+                  }
+                ],
+                "filters": [
+                  {
+                    "name": "PermanentAndToLetProperty",
+                    "includedCodes": [
+                      "PH",
+                      "LF",
+                      "LB",
+                      "LH",
+                      "LP",
+                      "LR",
+                      "LS",
+                      "LN"
+                    ]
+                  },
+                  {
+                    "name": "HolidayAndOtherProperty",
+                    "includedCodes": [
+                      "HH",
+                      "UN",
+                      "UD",
+                      "WD",
+                      "WE",
+                      "OT"
+                    ]
+                  },
+                  {
+                    "name": "Home_Ext",
+                    "includedCodes": [
+                      "PH",
+                      "HH",
+                      "LF",
+                      "LB",
+                      "LH",
+                      "LP",
+                      "LR",
+                      "LS",
+                      "LN",
+                      "UN",
+                      "UD",
+                      "WD",
+                      "WE",
+                      "OT"
+                    ]
+                  },
+                  {
+                    "name": "PrivateCar_Ext",
+                    "includedCodes": []
+                  },
+                  {
+                    "name": "MotorCycle_Ext",
+                    "includedCodes": []
+                  },
+                  {
+                    "name": "CommercialVan_Ext",
+                    "includedCodes": []
+                  }
+                ],
+                "namedMetadata": []
+              }
+            }
+          }
+        ]
+      },
+      "id": "1",
+      "jsonrpc": "2.0"
+    }
+  }
+}

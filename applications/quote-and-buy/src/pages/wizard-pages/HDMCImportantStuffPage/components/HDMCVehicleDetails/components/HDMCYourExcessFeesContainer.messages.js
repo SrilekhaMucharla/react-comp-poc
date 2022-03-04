@@ -1,0 +1,14 @@
+export const accidentalDamage = 'PCAccidentalDamageCov_Ext';
+export const fireAndTheft = 'PCLossFireTheftCov_Ext';
+export const windScreenExcess = 'PCGlassDamageCov_Ext';
+export const accidentalDamageCompulsaryKey = 'PCAccDmgCompExcessCT_Ext';
+export const accidentalDamageVoluntaryKey = 'PCAccDmgVolExcessCT_Ext';
+export const windScreenExcessRepairKey = 'PCGlassDmgWrepairdmgCT_Ext';
+export const windScreenExcessReplacementKey = 'PCGlassDmgWreplacementdmgCT_Ext';
+export const fireAndTheftCompulsory = 'PCLossFireTheftCompExcessCT_Ext';
+export const fireAndTheftVoluntary = 'PCLossFireTheftVolExcessCT_Ext';
+export const accidentalDamageYAndIComKey = 'PCAccDmgYngInexpDrivExcessCT_Ext';
+export const driverDetailsHeader = 'Driver details';
+export const carDetailsHeader = 'Car details';
+export const driverDetailsMessage = "Here's a summary of the drivers included in this policy.";
+export const allDrivers = 'All drivers';

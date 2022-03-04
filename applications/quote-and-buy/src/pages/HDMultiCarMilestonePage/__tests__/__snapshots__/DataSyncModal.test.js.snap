@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DataSyncModal should render correctly and match the snapshot 1`] = `
+<ForwardRef
+  cancelLabel="No, go back"
+  confirmLabel="Yes, i'm sure"
+  customStyle="rev-button-order footer-btns-w-100"
+  headerText="Are you sure?"
+  hideClose={false}
+  id="data-sync-modal"
+  onBeforeOpen={null}
+  onCancel={[MockFunction]}
+  onClose={[MockFunction]}
+  onConfirm={[MockFunction]}
+  show={true}
+  webAnalyticsEvent={
+    Object {
+      "event_action": "Are you sure?",
+    }
+  }
+  webAnalyticsView={
+    Object {
+      "page_section": "Are you sure?",
+    }
+  }
+>
+  <p
+    className="mb-4 subHeaderText"
+  >
+    This will save any changes made to:
+  </p>
+  <Row
+    noGutters={false}
+  >
+    <Col>
+      <div
+        className="completed-info-card__main-text car"
+      >
+        AV12BGE
+      </div>
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col>
+      <div
+        className="completed-info-card__additional-text mt-1"
+      >
+        Test
+      </div>
+    </Col>
+  </Row>
+  <p
+    className="mb-4 mt-4 innerParagraphText"
+  >
+    You won't be able to cancel these changes once they've been saved.
+  </p>
+</ForwardRef>
+`;

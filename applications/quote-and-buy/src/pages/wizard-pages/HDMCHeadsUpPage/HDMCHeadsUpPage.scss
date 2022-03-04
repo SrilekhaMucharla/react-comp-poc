@@ -1,0 +1,6 @@
+.mc-scan-or-continue-heads-up-container {
+    margin-bottom: 35px;
+    @include media-breakpoint-up(md) {
+        margin-bottom: 50px;
+    }
+}

@@ -1,0 +1,27 @@
+.customize-quote-wizard-wrapper{
+    .bind-error-wrapper {
+        @include media-breakpoint-down(md) {
+            margin-top: 0;
+        }
+        margin-left: -15px;
+        margin-right: -15px;
+
+        .bind-error-container {
+            color: $white-color;
+            font-family: $font-face-generic-regular;
+            .bind-error-header-label {
+                font-weight: 700;
+            }
+            .bind-error-details {
+                font-size: $font-size-md;
+                line-height: $line-height-md;
+                .bind-error-label {
+                    display: flex;
+                    .error-data {
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}

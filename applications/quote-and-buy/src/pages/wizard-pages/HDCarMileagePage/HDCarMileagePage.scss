@@ -1,0 +1,21 @@
+.car-mileage {
+    &-container {
+        .form-group {
+            margin-bottom: 0;
+        }
+
+        @include media-breakpoint-down(sm) {
+            .info-card {
+                margin-bottom: 20px;
+            }
+        }
+
+        .invalid-feedback {
+            margin-bottom: -15px;
+
+            @include media-breakpoint-down(sm) {
+                margin-bottom: -5px;
+            }
+        }
+    }
+}

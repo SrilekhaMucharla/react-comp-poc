@@ -1,0 +1,118 @@
+@mixin switch($theme: 'dark') {
+  $active: $white-fill;
+  $non-active: $info-color;
+  $hover-active: $blue-light;
+  $hover-non-active: $white-fill;
+  @if $theme == 'light' {
+    $active: $blue-dark-4;
+    $non-active: $blue-light;
+    $hover-active: $info-color;
+    $hover-non-active: $blue-dark-4;
+  }
+
+    .custom-switch {
+      align-items: baseline;
+      display: inline-flex;
+      padding-left: 0;
+
+      .custom-control-input {
+        z-index: -1;
+    
+        &:hover ~ .custom-control-label {
+
+          &::after {
+            transform: translateX(12px);
+          }
+
+          &::before{
+            border: solid 2px $blue-color;
+            background-color: $link-color;
+            box-shadow: none; 
+          }
+
+          &-right, &-left {
+            color: $hover-non-active;
+            &.active {
+              color: $hover-active;
+            }
+          }
+        }
+      
+        &:checked ~ .custom-control-label::after {
+          transform: translateX(42px);
+        }
+
+        &:checked:hover ~ .custom-control-label::after {
+          transform: translateX(30px);
+        }
+
+        &:checked ~ .custom-control-label::before {
+          background-color: $link-color;
+        }
+
+        &:focus ~ .custom-control-label::before {
+          box-shadow: none; 
+        } 
+      }
+
+      .custom-control-label{
+
+        &-right, &-left {
+          //not active label
+          font-weight: bold;
+          color: $non-active;
+          &.active {
+            // active label
+            font-weight: bold;
+            color: $active;
+          }
+        }
+
+        &-right {
+          padding-left: 3.25rem;
+          padding-top: 6px;
+        }
+        
+        &-left {
+          position: relative;
+          padding-right: 3rem;
+          display: inline;
+        }
+      
+        &::before {
+          left: -2.25rem;
+          width: 78px;
+          height: 36px;
+          pointer-events: all;
+          border-radius: 100px;
+          cursor: pointer;
+          border: solid 2px $link-color;
+          background-color: $link-color;
+          outline: none;
+          box-shadow: none;
+          margin-top: -4px;
+        }
+
+        &::after {
+          width: 32px;
+          height: 32px;
+          border-radius: 100px;
+          cursor: pointer;
+          background-color: $white-fill;
+          margin-top: -4px;
+        }
+      }
+    }
+  
+}
+
+.switch--dark {
+  @include switch('dark');
+}
+
+.switch--light {
+  @include switch('light');
+}
+
+
+

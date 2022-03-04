@@ -1,0 +1,36 @@
+//TODO: check Helvetica
+.policy-features-description {
+    border-top: 1px solid $gray-light-11;
+    margin-top: 25px;
+    padding: 20px 0;
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: $font-size-regular;
+    line-height: 17px;
+    color: $gray-dark-2;
+}
+
+.windsreen-content {
+    font-family: Helvetica;
+    font-weight: 400;
+    font-size: $font-size-regular;
+    line-height: 17px;
+    color: $gray-dark-2;
+
+    .description {
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-weight: 700;
+        font-size: $font-size-regular;
+    }
+
+    ul {
+        list-style-type: none;
+        line-height: 22px;
+        .fa-times {
+            color: $gray-light-1;
+        }
+    }
+}

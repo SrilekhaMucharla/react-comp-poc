@@ -1,0 +1,36 @@
+.mc-vehicle-details-header__left-column {
+    padding: 20px;
+    @include media-breakpoint-up(md) {
+        padding: 20px 40px;
+    }
+}
+
+.mc-vehicle-details-header__left-column__registration {
+    @extend .reg-num;
+    font-size: 25px;
+    line-height: 1.35;
+    padding: 2px 5px;
+    margin-bottom: 13px;
+}
+
+.mc-vehicle-details-header__right-column {
+    background-color: $gray-light-9;
+    line-height: 1.5;
+    padding: 15px 20px 10px 20px;
+    @include media-breakpoint-up(md) {
+        padding: 15px 30px 10px 30px;
+    }
+}
+
+.mc-vehicle-details-header__right-column__item {
+    padding: 5px;
+}
+
+.mc-vehicle-details-header__right-column__item__key {
+    color: $info-color;
+    margin-bottom: 10px;
+}
+
+.mc-vehicle-details-header__right-column__item__value {
+    margin-bottom: 5px;
+}

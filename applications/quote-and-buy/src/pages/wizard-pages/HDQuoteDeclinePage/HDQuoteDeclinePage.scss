@@ -1,0 +1,25 @@
+.quote-decline {
+    p {
+        @include media-breakpoint-down(sm) {
+            font-size: $hd-font-size-md;
+        }
+    }
+    .time-chart {
+        &-row {
+            @include media-breakpoint-down(sm) {
+                flex-wrap: nowrap !important;
+
+                p {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+
+        &-hours {
+            text-align: right !important;
+            @include media-breakpoint-down(sm) {
+                text-align: left !important;
+            }
+        }
+    }
+}

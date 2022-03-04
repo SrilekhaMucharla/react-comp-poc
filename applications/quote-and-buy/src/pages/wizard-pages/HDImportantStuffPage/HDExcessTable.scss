@@ -1,0 +1,66 @@
+.excess-table {
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: $font-size-md;
+}
+
+.excess-table__head {
+    color: $app-theme;
+    background-color: $blue-transparent-10;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm;
+    }
+}
+
+.excess-table__body {
+    background-color: $mono-cultured;
+    color: $info-color;
+    @include media-breakpoint-down(sm) {
+        font-size: $font-size-sm;
+    }
+}
+
+.excess-table__body-row {
+    height: 40px;
+}
+
+.excess-table__body-row__td {
+    text-align: right;
+    width: 15%;
+    padding: 5px;
+
+    &:last-child {
+        padding-right: 13px;
+        font-weight: 500;
+    }
+}
+
+.excess-table__row {
+    height: 54px;
+}
+
+.excess-table__row__th {
+    font-weight: normal;
+    text-align: right;
+    width: 15%;
+    padding: 5px;
+
+    &:last-child {
+        padding-right: 13px;
+        font-weight: bold;
+    }
+}
+
+.excess-table__name {
+    padding-left: 13px;
+    font-weight: bold;
+    text-align: left;
+    width: 40%;
+}
+
+.excess-table__excess-name {
+    padding-left: 13px;
+    font-weight: 500;
+    text-align: left;
+    width: 40%;
+}

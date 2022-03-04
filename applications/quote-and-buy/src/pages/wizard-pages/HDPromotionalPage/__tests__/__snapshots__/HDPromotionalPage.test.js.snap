@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPromotionalPage /> render component 1`] = `
+<Container
+  className="mc-promo-page-container"
+  fluid={false}
+>
+  <Row
+    noGutters={false}
+  >
+    <Col>
+      <HDLabelRefactor
+        Tag="h1"
+        adjustImagePosition={true}
+        className="mc-promo-page__welcome-header"
+        text=""
+      />
+      <HDLabelRefactor
+        Tag="span"
+        adjustImagePosition={true}
+        className="mc-promo-page__main-header"
+        text={
+          <React.Fragment>
+            Good news - Your quote is
+            <b>
+               £0.00
+            </b>
+             but you'll save at least 
+            <b>
+               £0
+            </b>
+             if you add another car
+          </React.Fragment>
+        }
+      />
+      <HDInfoCardRefactor
+        className="margin-top-lg"
+        id="mc-promo-page-additional-info-card"
+        image="circle-exclamation.svg"
+        isRight={false}
+        notes={null}
+        paragraphs={
+          Array [
+            <ul
+              className="pad-inl-start-beg m-0"
+            >
+              <li>
+                <span>
+                  Policies for additional cars can start on any date within 11 months of the first car's start date.You can choose to pay for them today or nearer each start date(if it's easier).
+                </span>
+              </li>
+              <li>
+                <span>
+                  You can add cars for anyone who lives at your address.
+                </span>
+              </li>
+              <li>
+                <span>
+                  You will be the account holder. You’re responsible for paying for all policies and will be able to manage the policies online.
+                </span>
+              </li>
+            </ul>,
+          ]
+        }
+        size={null}
+        theme={null}
+        title={null}
+      />
+      <HDForm
+        className=""
+        initValues={Object {}}
+        onValidation={[Function]}
+        passedKey="default-key"
+        resetFormOnStart={false}
+        validationSchema={
+          ObjectSchema {
+            "_blacklist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "_conditions": Array [],
+            "_defaultDefault": [Function],
+            "_deps": Array [],
+            "_excludedEdges": Array [],
+            "_exclusive": Object {},
+            "_mutate": undefined,
+            "_nodes": Array [
+              "registrationNumber",
+            ],
+            "_options": Object {
+              "abortEarly": true,
+              "recursive": true,
+            },
+            "_type": "object",
+            "_typeError": [Function],
+            "_whitelist": RefSet {
+              "list": Set {},
+              "refs": Map {},
+            },
+            "fields": Object {
+              "registrationNumber": StringSchema {
+                "_blacklist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "_conditions": Array [],
+                "_deps": Array [],
+                "_exclusive": Object {},
+                "_mutate": undefined,
+                "_options": Object {
+                  "abortEarly": true,
+                  "recursive": true,
+                },
+                "_type": "string",
+                "_typeError": [Function],
+                "_whitelist": RefSet {
+                  "list": Set {},
+                  "refs": Map {},
+                },
+                "tests": Array [],
+                "transforms": Array [
+                  [Function],
+                ],
+                "type": "string",
+              },
+            },
+            "tests": Array [],
+            "transforms": Array [
+              [Function],
+            ],
+            "type": "object",
+          }
+        }
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            lg={5}
+            md={8}
+            xs={12}
+          >
+            <ForwardRef
+              className="input-licence-plate margin-top-lg"
+              id="mc-promo-page-vrn-search-input"
+              isInvalidCustom={false}
+              maxLength="8"
+              name="registrationNumber"
+              onBeforeOpen={null}
+              onBlur={null}
+              onCancel={null}
+              onChange={[Function]}
+              onClick={null}
+              onConfirm={null}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              path="registrationNumber"
+              placeholder="ENTER REG"
+              preText="GB"
+              reset={false}
+              type="alphanum"
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Search by make and model",
+                  "event_value": "ENTER REG",
+                }
+              }
+            />
+          </Col>
+        </Row>
+      </HDForm>
+      <HDSearchVehiclePage
+        customizeSubmissionVM={null}
+        mcsubmissionVM={Object {}}
+        onConfirm={[Function]}
+        pageMetadata={
+          Object {
+            "page_name": "page name",
+            "page_type": "page type",
+            "sales_journey_type": "sales journey type",
+          }
+        }
+        setNavigation={[Function]}
+        trigger={
+          <a
+            className="decorated-blue-line"
+            id="mc-promo-page-make-model-link"
+            parent="HDPromotionalPage"
+          >
+            I don't have the reg
+          </a>
+        }
+      />
+      <Row
+        noGutters={false}
+      >
+        <Col
+          lg={5}
+          md={6}
+          xl={4}
+          xs={12}
+        >
+          <ForwardRef
+            className="w-100 margin-top-lg"
+            id="mc-promo-page-find-car-btn"
+            label="Find car"
+            onBeforeOpen={null}
+            onBlur={null}
+            onCancel={null}
+            onChange={null}
+            onClick={[Function]}
+            onConfirm={null}
+            onDelete={null}
+            onEdit={null}
+            onFocus={null}
+            onSelect={null}
+            size="md"
+            variant="primary"
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Promotion - Find car",
+              }
+            }
+          />
+          <ForwardRef
+            className="btn-block margin-top-lg"
+            id="mc-promo-page-continue-one-car-btn"
+            label="Continue with quote for one car"
+            onBeforeOpen={null}
+            onBlur={null}
+            onCancel={null}
+            onChange={null}
+            onClick={null}
+            onConfirm={null}
+            onDelete={null}
+            onEdit={null}
+            onFocus={null}
+            onSelect={null}
+            size="md"
+            variant="secondary"
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Promotion - Continue with quote for one car",
+              }
+            }
+          />
+        </Col>
+      </Row>
+    </Col>
+  </Row>
+</Container>
+`;

@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HDAddAnotherDriverPage should render correctly and match the snapshot 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <HDAddAnotherDriverPage
+      handleForward={[MockFunction]}
+    >
+      <Container
+        className="add-another-driver"
+        fluid={false}
+      >
+        <div
+          className="add-another-driver container"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col
+                className="add-another-driver__left-column"
+                md={6}
+                xs={12}
+              >
+                <div
+                  className="add-another-driver__left-column col-md-6 col-12"
+                >
+                  <HDLabelRefactor
+                    Tag="h1"
+                    adjustImagePosition={true}
+                    className="add-another-driver__label"
+                    size="lg"
+                    text="Great - another driver added!"
+                  >
+                    <h1
+                      className="add-another-driver__label"
+                      size="lg"
+                    >
+                      Great - another driver added!
+                    </h1>
+                  </HDLabelRefactor>
+                  <div
+                    className="horizontal-line--bright"
+                  />
+                  <ForwardRef
+                    additionalText="undefinedFiat Multipla"
+                    id="card-card"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={[Function]}
+                    onFocus={null}
+                    onSelect={null}
+                    text="H45T1NG5"
+                    variant="car"
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Great - another driver added! - Car",
+                      }
+                    }
+                  >
+                    <HDCompletedCardInfo
+                      additionalText="undefinedFiat Multipla"
+                      className={null}
+                      deleteTabIndex={1}
+                      editTabIndex={0}
+                      id="card-card"
+                      onDelete={null}
+                      onDeleteKeyDown={[Function]}
+                      onEdit={[Function]}
+                      onEditKeyDown={[Function]}
+                      text="H45T1NG5"
+                      variant="car"
+                    >
+                      <div
+                        className="completed-info-card"
+                      >
+                        <div
+                          className="completed-info-card__icon"
+                        >
+                          <img
+                            alt="Car"
+                            className="completed-info-card__icon-main"
+                            src="Illustrations_1-car.svg"
+                          />
+                          <img
+                            alt="tick"
+                            className="completed-info-card__purple-tick"
+                            src="Icon_Tick_Purple.svg"
+                          />
+                        </div>
+                        <div
+                          className="completed-info-card__text"
+                        >
+                          <div
+                            className="completed-info-card__main-text car"
+                          >
+                            H45T1NG5
+                          </div>
+                          <HDLabelRefactor
+                            Tag="p"
+                            adjustImagePosition={true}
+                            className="completed-info-card__additional-text"
+                            text="undefinedFiat Multipla"
+                          >
+                            <p
+                              className="completed-info-card__additional-text"
+                            >
+                              undefinedFiat Multipla
+                            </p>
+                          </HDLabelRefactor>
+                        </div>
+                        <div
+                          className="completed-info-card__icon-edit mb-3 "
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          role="button"
+                          tabIndex={0}
+                        >
+                          <img
+                            alt="Edit"
+                            src="Icons_Edit.svg"
+                          />
+                        </div>
+                      </div>
+                    </HDCompletedCardInfo>
+                  </ForwardRef>
+                  <div
+                    className="horizontal-line--bright"
+                  />
+                  <ForwardRef
+                    additionalText="Account holder and policyholder"
+                    id="driver-card"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={[Function]}
+                    onFocus={null}
+                    onSelect={null}
+                    text="Alice Cooper"
+                    variant="driver"
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Great - another driver added! - Drivers",
+                      }
+                    }
+                  >
+                    <HDCompletedCardInfo
+                      additionalText="Account holder and policyholder"
+                      className={null}
+                      deleteTabIndex={1}
+                      editTabIndex={0}
+                      id="driver-card"
+                      onDelete={null}
+                      onDeleteKeyDown={[Function]}
+                      onEdit={[Function]}
+                      onEditKeyDown={[Function]}
+                      text="Alice Cooper"
+                      variant="driver"
+                    >
+                      <div
+                        className="completed-info-card"
+                      >
+                        <div
+                          className="completed-info-card__icon"
+                        >
+                          <img
+                            alt="Driver"
+                            className="completed-info-card__icon-main"
+                            src="Icons_Account.svg"
+                          />
+                          <img
+                            alt="tick"
+                            className="completed-info-card__tick"
+                            src="Icons_Tick.svg"
+                          />
+                        </div>
+                        <div
+                          className="completed-info-card__text"
+                        >
+                          <div
+                            className="completed-info-card__main-text driver"
+                          >
+                            Alice Cooper
+                          </div>
+                          <HDLabelRefactor
+                            Tag="p"
+                            adjustImagePosition={true}
+                            className="completed-info-card__additional-text"
+                            text="Account holder and policyholder"
+                          >
+                            <p
+                              className="completed-info-card__additional-text"
+                            >
+                              Account holder and policyholder
+                            </p>
+                          </HDLabelRefactor>
+                        </div>
+                        <div
+                          className="completed-info-card__icon-edit mb-3 "
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          role="button"
+                          tabIndex={0}
+                        >
+                          <img
+                            alt="Edit"
+                            src="Icons_Edit.svg"
+                          />
+                        </div>
+                      </div>
+                    </HDCompletedCardInfo>
+                  </ForwardRef>
+                  <div
+                    className="horizontal-line--bright"
+                  />
+                  <ForwardRef
+                    additionalText="Additional driver"
+                    id="driver-card"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={[Function]}
+                    onEdit={[Function]}
+                    onFocus={null}
+                    onSelect={null}
+                    text="Bryan Adams"
+                    variant="driver"
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Great - another driver added! - Drivers",
+                      }
+                    }
+                  >
+                    <HDCompletedCardInfo
+                      additionalText="Additional driver"
+                      className={null}
+                      deleteTabIndex={1}
+                      editTabIndex={0}
+                      id="driver-card"
+                      onDelete={[Function]}
+                      onDeleteKeyDown={[Function]}
+                      onEdit={[Function]}
+                      onEditKeyDown={[Function]}
+                      text="Bryan Adams"
+                      variant="driver"
+                    >
+                      <div
+                        className="completed-info-card"
+                      >
+                        <div
+                          className="completed-info-card__icon"
+                        >
+                          <img
+                            alt="Driver"
+                            className="completed-info-card__icon-main"
+                            src="Icons_Account.svg"
+                          />
+                          <img
+                            alt="tick"
+                            className="completed-info-card__tick"
+                            src="Icons_Tick.svg"
+                          />
+                        </div>
+                        <div
+                          className="completed-info-card__text"
+                        >
+                          <div
+                            className="completed-info-card__main-text driver"
+                          >
+                            Bryan Adams
+                          </div>
+                          <HDLabelRefactor
+                            Tag="p"
+                            adjustImagePosition={true}
+                            className="completed-info-card__additional-text"
+                            text="Additional driver"
+                          >
+                            <p
+                              className="completed-info-card__additional-text"
+                            >
+                              Additional driver
+                            </p>
+                          </HDLabelRefactor>
+                        </div>
+                        <div
+                          className="completed-info-card__icon-edit mb-3 mr-1"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          role="button"
+                          tabIndex={0}
+                        >
+                          <img
+                            alt="Edit"
+                            src="Icons_Edit.svg"
+                          />
+                        </div>
+                        <div
+                          className="completed-info-card__icon-delete mb-3"
+                          onClick={[Function]}
+                          onKeyDown={[Function]}
+                          role="button"
+                          tabIndex={1}
+                        >
+                          <img
+                            alt="Delete"
+                            src="Icons_Trash.svg"
+                          />
+                        </div>
+                      </div>
+                    </HDCompletedCardInfo>
+                  </ForwardRef>
+                  <div
+                    className="horizontal-line--bright"
+                  />
+                  <ForwardRef
+                    className="add-another-driver__button"
+                    icon={true}
+                    id="add-another-driver-button"
+                    label="Add another driver"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Add another driver",
+                      }
+                    }
+                  >
+                    <HDButtonDashed
+                      className="add-another-driver__button"
+                      disabled={false}
+                      icon={true}
+                      id="add-another-driver-button"
+                      label="Add another driver"
+                      onClick={[Function]}
+                      onKeyDown={[Function]}
+                      tabIndex={0}
+                      theme="dark"
+                    >
+                      <div
+                        className="btn-dashed--dark add-another-driver__button"
+                        id="add-another-driver-button"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        role="button"
+                        tabIndex={0}
+                      >
+                        <img
+                          alt="Plus"
+                          className="icon"
+                          src="Icon-before.svg"
+                        />
+                        <div
+                          className="text"
+                        >
+                          Add another driver
+                        </div>
+                      </div>
+                    </HDButtonDashed>
+                  </ForwardRef>
+                  <ForwardRef
+                    className="add-another-driver__continue-button mb-4"
+                    id="continue-button"
+                    label="Continue to cover details"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    variant="primary"
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Continue - Redirecting from: HastingsPersonalDetails_Complete",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="add-another-driver__continue-button mb-4"
+                      disabled={false}
+                      fullWidth={false}
+                      id="continue-button"
+                      label="Continue to cover details"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary add-another-driver__continue-button mb-4"
+                        disabled={false}
+                        id="continue-button"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary add-another-driver__continue-button mb-4 btn btn-primary"
+                          disabled={false}
+                          id="continue-button"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Continue to cover details
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                  <DeleteDriverModal
+                    driverName={null}
+                    onCancel={[Function]}
+                    onClose={[Function]}
+                    onConfirm={[Function]}
+                    show={false}
+                  >
+                    <ForwardRef
+                      cancelLabel="Go back"
+                      confirmLabel="Yes"
+                      headerText="Are you sure?"
+                      id="remove-driver-modal"
+                      onBeforeOpen={null}
+                      onCancel={[Function]}
+                      onClose={[Function]}
+                      onConfirm={[Function]}
+                      show={false}
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Remove driver",
+                        }
+                      }
+                      webAnalyticsView={
+                        Object {
+                          "page_section": "Remove driver",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        cancelLabel="Go back"
+                        confirmLabel="Yes"
+                        headerText="Are you sure?"
+                        id="remove-driver-modal"
+                        onBeforeOpen={[Function]}
+                        onBlur={null}
+                        onCancel={[Function]}
+                        onChange={null}
+                        onClick={null}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Remove driver",
+                          }
+                        }
+                      >
+                        <HDModal
+                          cancelLabel="Go back"
+                          className=""
+                          confirmLabel="Yes"
+                          customStyle=""
+                          headerText="Are you sure?"
+                          hideCancelButton={false}
+                          hideClose={false}
+                          hideConfirmButton={false}
+                          hideFooter={false}
+                          id="remove-driver-modal"
+                          onBeforeOpen={[Function]}
+                          onCancel={[Function]}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          show={false}
+                        />
+                      </ForwardRef>
+                    </ForwardRef>
+                  </DeleteDriverModal>
+                </div>
+              </Col>
+            </div>
+          </Row>
+        </div>
+      </Container>
+    </HDAddAnotherDriverPage>
+  </Provider>
+</Component>
+`;

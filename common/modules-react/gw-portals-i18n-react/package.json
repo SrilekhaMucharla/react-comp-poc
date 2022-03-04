@@ -1,0 +1,13 @@
+{
+  "name": "gw-portals-i18n-react",
+  "description": "Provides support for i18n for the application",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {},
+  "peerDependencies": {
+    "prop-types": "15.x",
+    "react": "16.x"
+  }
+}

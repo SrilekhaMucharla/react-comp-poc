@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCheckbox /> render component with boolean values 1`] = `
+<div
+  className="sc-gtsrHT bPhRbS"
+>
+  <div
+    className="btn-group btn-group-toggle"
+    name="Email"
+    role="group"
+    type="checkbox"
+    value={false}
+  >
+    <label
+      className="btn btn-default"
+      disabled={false}
+    >
+      <input
+        autoComplete="off"
+        checked={false}
+        disabled={false}
+        name="Email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+        value={false}
+      />
+      <div />
+    </label>
+  </div>
+</div>
+`;

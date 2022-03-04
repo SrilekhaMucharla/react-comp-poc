@@ -1,0 +1,639 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/edgev10/validation/validate",
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "usertoken": [
+        "any"
+      ],
+      "Authorization": [
+        "Basic c3U6Z3c="
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "61"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ],
+      "Host": [
+        "localhost:1080"
+      ]
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "id": "1",
+      "jsonrpc": "2.0",
+      "method": "getMetaData",
+      "params": []
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Server-Timing": [
+        "dtRpid;desc=\"-1271775267\""
+      ],
+      "X-OneAgent-JS-Injection": [
+        "true"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Set-Cookie": [
+        "dtCookie=v_4_srv_1_sn_C397E6AB8093A6D1AFAF57B201E0B93B_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0; Path=/",
+        "JSESSIONID=0000_u8I2LECpUpTAWe5KzfrHH3:-1; Path=/; HttpOnly",
+        "JSESSIONID=adfaa3ad-1339-48cf-96b1-501a3d37e42c; Expires=Fri, 28-May-21 10:12:26 GMT; Path=/"
+      ],
+      "Date": [
+        "Fri, 28 May 2021 09:12:26 GMT"
+      ],
+      "Expires": [
+        "Thu, 01 Dec 1994 16:00:00 GMT"
+      ],
+      "Cache-Control": [
+        "no-cache=\"set-cookie, set-cookie2\""
+      ],
+      "content-length": [
+        "8315"
+      ]
+    },
+    "cookies": {
+      "dtCookie": "v_4_srv_1_sn_C397E6AB8093A6D1AFAF57B201E0B93B_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0",
+      "JSESSIONID": "adfaa3ad-1339-48cf-96b1-501a3d37e42c"
+    },
+    "body": {
+      "result": {
+        "questionSets": {},
+        "newTypeMeta": [
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.bankaccount.dto.response.BankAccountValidationRespDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "IsValid": {
+                    "name": "IsValid",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.bankaccount.dto.request.BankAccountDataReqDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "SessionUUID": {
+                    "name": "SessionUUID",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "AccountNumber": {
+                    "name": "AccountNumber",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "QuoteID": {
+                    "name": "QuoteID",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "SortCode": {
+                    "name": "SortCode",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.LicenseDataDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "DirectiveIndicator": {
+                    "name": "DirectiveIndicator",
+                    "valueType": {
+                      "name": "Integer",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ValidFrom": {
+                    "name": "ValidFrom",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DvlaProcessingDate": {
+                    "name": "DvlaProcessingDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DvlaServiceVersion": {
+                    "name": "DvlaServiceVersion",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DrivingLicence": {
+                    "name": "DrivingLicence",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.DrivingLicenseDTO",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "DrivingEndorsementsCollection": {
+                    "name": "DrivingEndorsementsCollection",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.EndorsementDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "DrivingEntitlementsCollection": {
+                    "name": "DrivingEntitlementsCollection",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.EntitlementDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "Status": {
+                    "name": "Status",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ErrorDescription": {
+                    "name": "ErrorDescription",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ErrorCode": {
+                    "name": "ErrorCode",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "HubProcessingDate": {
+                    "name": "HubProcessingDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ValidTo": {
+                    "name": "ValidTo",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "HubServiceVersion": {
+                    "name": "HubServiceVersion",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "EnrichmentLinkID": {
+                    "name": "EnrichmentLinkID",
+                    "valueType": {
+                      "name": "Long",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.request.LicenseRequestDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "LicenceNumber": {
+                    "name": "LicenceNumber",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.DrivingLicenseDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "DirectiveIndicator": {
+                    "name": "DirectiveIndicator",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DrivingLicenceNumber": {
+                    "name": "DrivingLicenceNumber",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "HubProcessingDate": {
+                    "name": "HubProcessingDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ValidFrom": {
+                    "name": "ValidFrom",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ValidTo": {
+                    "name": "ValidTo",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "HubServiceVersion": {
+                    "name": "HubServiceVersion",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DvlaProcessingDate": {
+                    "name": "DvlaProcessingDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DrivingLicenceDate": {
+                    "name": "DrivingLicenceDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DvlaServiceVersion": {
+                    "name": "DvlaServiceVersion",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DrivingLicenceYears": {
+                    "name": "DrivingLicenceYears",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.EndorsementDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "ConvictionDate": {
+                    "name": "ConvictionDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "IsDisqual": {
+                    "name": "IsDisqual",
+                    "valueType": {
+                      "name": "boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DisqualStartDate": {
+                    "name": "DisqualStartDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "RehabSpentDate": {
+                    "name": "RehabSpentDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "OffenceDate": {
+                    "name": "OffenceDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Fine": {
+                    "name": "Fine",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "NoOfPoints": {
+                    "name": "NoOfPoints",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DisqualEndDate": {
+                    "name": "DisqualEndDate",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "CustodialPeriod": {
+                    "name": "CustodialPeriod",
+                    "valueType": {
+                      "name": "int",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Code": {
+                    "name": "Code",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DisqualPeriod": {
+                    "name": "DisqualPeriod",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.EntitlementDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "RestrictionsCollection": {
+                    "name": "RestrictionsCollection",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.RestrictionDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "PriorTo": {
+                    "name": "PriorTo",
+                    "valueType": {
+                      "name": "boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ValidFrom": {
+                    "name": "ValidFrom",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ValidTo": {
+                    "name": "ValidTo",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Type": {
+                    "name": "Type",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Code": {
+                    "name": "Code",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.validation.drivinglicense.dto.reponse.RestrictionDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "Type": {
+                    "name": "Type",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Info": {
+                    "name": "Info",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          }
+        ]
+      },
+      "id": "1",
+      "jsonrpc": "2.0"
+    }
+  }
+}

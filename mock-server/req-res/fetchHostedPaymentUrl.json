@@ -1,0 +1,112 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/unauthenticated/edgev10/payment/payment",
+    "headers": {
+      "cookie": [
+        "_ga=GA1.1.1819875978.1616074694; _gid=GA1.1.665141834.1616074694; whoson=587-1616074744615; JSESSIONID=0000Mg24ynPe39TzGV7czI1O_NW:-1; utag_main=v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session"
+      ],
+      "accept-encoding": [
+        "gzip, deflate, br"
+      ],
+      "referer": [
+        "http://localhost:3000/quote-and-buy/customize-quote-wizard"
+      ],
+      "sec-fetch-dest": [
+        "empty"
+      ],
+      "sec-fetch-mode": [
+        "cors"
+      ],
+      "sec-fetch-site": [
+        "same-origin"
+      ],
+      "origin": [
+        "http://localhost:3000"
+      ],
+      "content-type": [
+        "application/json; charset=utf-8"
+      ],
+      "user-agent": [
+        "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36"
+      ],
+      "sec-ch-ua-mobile": [
+        "?0"
+      ],
+      "accept-language": [
+        "null"
+      ],
+      "accept": [
+        "application/json"
+      ],
+      "sec-ch-ua": [
+        "\"Google Chrome\";v=\"89\", \"Chromium\";v=\"89\", \";Not A Brand\";v=\"99\""
+      ],
+      "content-length": [
+        "575"
+      ],
+      "connection": [
+        "close"
+      ],
+      "host": [
+        "localhost:3000"
+      ]
+    },
+    "cookies": {
+      "JSESSIONID": "0000Mg24ynPe39TzGV7czI1O_NW:-1",
+      "_ga": "GA1.1.1819875978.1616074694",
+      "_gid": "GA1.1.665141834.1616074694",
+      "utag_main": "v_id:0178458eb61b001dede0f18f0c2003071001606900e50$_sn:2$_se:264$_ss:0$_st:1616146036487$dc_visit:2$ses_id:1616142428909%3Bexp-session$_pn:7%3Bexp-session$dc_event:264%3Bexp-session$dc_region:eu-central-1%3Bexp-session",
+      "whoson": "587-1616074744615"
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "jsonrpc": "2.0",
+      "method": "fetchHostedPaymentURL",
+      "params": [
+        {
+          "sessionUUID": "afbd8494-374b-4112-b152-d88eb7febfcc",
+          "quoteId": "0000009658",
+          "orderCode": "csdt2_210319_0000468",
+          "paymentDescription": "Reference: 0000009658",
+          "paymentAmount": {
+            "amount": 659.51,
+            "currency": "gbp"
+          },
+          "orderContent": "<center><meta http-equiv=\"Content-type\" content=\"text/html;charset=UTF-8\"> <table><tr><td class=\"one width190\" align=\"center\" valign=\"top\"><span style=\"font-size: 14pt; color: #0066A1;\">HastingsDirect - Refreshingly straightforward insurance</span></td></tr></table></center>"
+        }
+      ]
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Date": [
+        "Fri, 19 Mar 2021 11:40:09 GMT"
+      ],
+      "content-length": [
+        "342"
+      ]
+    },
+    "body": {
+      "result": {
+        "referenceID": "3258691155",
+        "referenceValue": "https://payments-test.worldpay.com/app/hpp/integration/wpg/corporate?OrderKey=HASGWWEBDC%5Ecsdt2_210319_0000468&Ticket=00161658600969802QjhFi1-WUvkluGMu_oc0Og&source=https%3A%2F%2Fsecure-test.worldpay.com",
+        "orderCode": "csdt2_210319_0000468",
+        "merchantCode": "HASGWWEBDC"
+      },
+      "jsonrpc": "2.0"
+    }
+  }
+}

@@ -1,0 +1,584 @@
+{
+    "id": "048c7855-bab2-4e23-b2c3-3261b9dea254",
+    "result": {
+        "otherOfferedQuotes": [
+            {
+                "branchCode": "HP",
+                "publicID": "pc:31514",
+                "branchName": "Hastings Premier",
+                "hastingsErrors": [
+                    {
+                        "technicalErrorCode": 802,
+                        "technicalErrorDetails": "Grey list check failed Technical error details",
+                        "publicErrorMessage": "Grey list check failed",
+                        "technicalErrorMessage": "Grey list check failed Technical error"
+                    }
+                ],
+                "hastingsPremium": {
+                    "creditCardInterestRate": 1.25,
+                    "monthlyPayment": {
+                        "elevenMonthsInstalments": {
+                            "currency": "gbp",
+                            "amount": 98.93
+                        },
+                        "firstInstalment": {
+                            "currency": "gbp",
+                            "amount": 98.88
+                        },
+                        "rateOfInterest": 14.90,
+                        "totalAmountCredit": 1033.17,
+                        "representativeAPR": 29.90,
+                        "arrangementFee": {
+                            "currency": "gbp",
+                            "amount": 20.00
+                        },
+                        "billingID": "bc:24",
+                        "premiumAnnualCost": {
+                            "currency": "gbp",
+                            "amount": 1187.11
+                        }
+                    },
+                    "annuallyPayment": {
+                        "changeInPremium": {
+                            "currency": "gbp",
+                            "amount": 1033.17
+                        },
+                        "arrangementFee": {
+                            "currency": "gbp",
+                            "amount": 20.00
+                        },
+                        "billingID": "bc:11",
+                        "premiumAnnualCost": {
+                            "currency": "gbp",
+                            "amount": 1033.17
+                        }
+                    }
+                }
+            },
+            {
+                "branchCode": "HD",
+                "publicID": "pc:31702",
+                "branchName": "Hastings Direct",
+                "hastingsErrors": [
+                    {
+                        "technicalErrorCode": 802,
+                        "technicalErrorDetails": "Grey list check failed Technical error details",
+                        "publicErrorMessage": "Grey list check failed",
+                        "technicalErrorMessage": "Grey list check failed Technical error"
+                    }
+                ],
+                "hastingsPremium": {
+                    "creditCardInterestRate": 1.25,
+                    "monthlyPayment": {
+                        "elevenMonthsInstalments": {
+                            "currency": "gbp",
+                            "amount": 100.98
+                        },
+                        "firstInstalment": {
+                            "currency": "gbp",
+                            "amount": 101.01
+                        },
+                        "rateOfInterest": 14.90,
+                        "totalAmountCredit": 1054.65,
+                        "representativeAPR": 29.90,
+                        "arrangementFee": {
+                            "currency": "gbp",
+                            "amount": 20.00
+                        },
+                        "billingID": "bc:24",
+                        "premiumAnnualCost": {
+                            "currency": "gbp",
+                            "amount": 1211.79
+                        }
+                    },
+                    "annuallyPayment": {
+                        "changeInPremium": {
+                            "currency": "gbp",
+                            "amount": 1054.65
+                        },
+                        "arrangementFee": {
+                            "currency": "gbp",
+                            "amount": 20.00
+                        },
+                        "billingID": "bc:11",
+                        "premiumAnnualCost": {
+                            "currency": "gbp",
+                            "amount": 1054.65
+                        }
+                    }
+                }
+            }
+        ],
+        "producerCode": "Default",
+        "coverages": {
+            "privateCar": {
+                "ancillaryCoverages": [
+                    {
+                        "fixedId": 34401,
+                        "publicID": "pc:34902",
+                        "coverages": [
+                            {
+                                "name": "Breakdown",
+                                "description": "Breakdown",
+                                "selected": false,
+                                "amount": {
+                                    "currency": "gbp",
+                                    "amount": 34.99
+                                },
+                                "publicID": "ANCBreakdownCov_Ext",
+                                "required": false,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [],
+                                "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages"
+                            },
+                            {
+                                "name": "Motor Legal Expenses",
+                                "description": "Motor Legal Expenses",
+                                "selected": true,
+                                "amount": {
+                                    "currency": "gbp",
+                                    "amount": 29.99
+                                },
+                                "publicID": "ANCMotorLegalExpensesCov_Ext",
+                                "required": false,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": false,
+                                "terms": [],
+                                "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages"
+                            },
+                            {
+                                "name": "Motor Personal Accident",
+                                "description": "Motor Personal Accident",
+                                "selected": false,
+                                "amount": {
+                                    "currency": "gbp",
+                                    "amount": 24.99
+                                },
+                                "publicID": "ANCMotorPersonalAccidentCov_Ext",
+                                "required": false,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": false,
+                                "terms": [],
+                                "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages"
+                            },
+                            {
+                                "name": "Excess Protector",
+                                "description": "Protector",
+                                "selected": false,
+                                "amount": {
+                                    "currency": "gbp",
+                                    "amount": 34.99
+                                },
+                                "publicID": "ANCProtectorCov_Ext",
+                                "required": false,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [],
+                                "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages"
+                            },
+                            {
+                                "name": "Substitute Vehicle",
+                                "description": "Substitute Vehicle",
+                                "selected": true,
+                                "amount": {
+                                    "currency": "gbp",
+                                    "amount": 27.50
+                                },
+                                "publicID": "ANCSubstituteVehicleCov_Ext",
+                                "required": false,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": false,
+                                "terms": [],
+                                "coverageCategoryCode": "ANCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Ancillary Coverable Standard Coverages"
+                            },
+                            {
+                                "name": "Key Cover",
+                                "description": "Key Cover",
+                                "selected": false,
+                                "amount": {
+                                    "currency": "gbp",
+                                    "amount": 15.99
+                                },
+                                "publicID": "ANCKeyCoverCov_Ext",
+                                "required": false,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": false,
+                                "terms": [],
+                                "coverageCategoryCode": "AncStandardEXT",
+                                "coverageCategoryDisplayName": "Ancillary Line Standard Coverages"
+                            }
+                        ],
+                        "vehicleName": "2009 HONDA JAZZ ES I-VTEC (GL59FFT/GL59FFT)"
+                    }
+                ],
+                "vehicleCoverages": [
+                    {
+                        "fixedId": 34401,
+                        "publicID": "pc:34902",
+                        "coverages": [
+                            {
+                                "name": "Accidental Damage",
+                                "description": "Accidental Damage",
+                                "selected": true,
+                                "publicID": "PCAccidentalDamageCov_Ext",
+                                "required": true,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [
+                                    {
+                                        "name": "Compulsory Accidental Damage Excess",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCAccDmgCompExcessCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCAccDmgCompExcessCT_Ext",
+                                        "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                                        "chosenTermValue": "145",
+                                        "directValue": 145.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "145.0000"
+                                    },
+                                    {
+                                        "name": "Voluntary Excess",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCAccDmgVolExcessCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCAccDmgVolExcessCT_Ext",
+                                        "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                                        "chosenTermValue": "250",
+                                        "directValue": 250.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "250.0000"
+                                    },
+                                    {
+                                        "name": "Young/Inexperienced Driver Excess",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCAccDmgYngInexpDrivExcessCT_Ext",
+                                        "coveragePublicID": "PCAccidentalDamageCov_Ext",
+                                        "chosenTermValue": "0",
+                                        "directValue": 0.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "0.0000"
+                                    }
+                                ],
+                                "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Coverage Standard Coverages"
+                            },
+                            {
+                                "name": "Courtesy Car",
+                                "description": "Courtesy Car",
+                                "selected": true,
+                                "publicID": "PCCourtesyCar_Ext",
+                                "required": true,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [
+                                    {
+                                        "name": "Duration of repairs if insurer nominated repairer used",
+                                        "type": "BooleanCovTerm",
+                                        "valueType": "bit",
+                                        "publicID": "PCRepairDurationCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            },
+                                            {
+                                                "name": "Yes",
+                                                "maxValue": 1,
+                                                "code": "true",
+                                                "optionValue": 1
+                                            },
+                                            {
+                                                "name": "No",
+                                                "maxValue": 1,
+                                                "code": "false",
+                                                "optionValue": 0
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCRepairDurationCT_Ext",
+                                        "coveragePublicID": "PCCourtesyCar_Ext",
+                                        "chosenTermValue": "",
+                                        "isAscendingBetter": true
+                                    }
+                                ],
+                                "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Coverage Standard Coverages"
+                            },
+                            {
+                                "name": "Driving Other Cars",
+                                "description": "Driving Other Cars",
+                                "selected": false,
+                                "publicID": "PCDrivingOtherCarsCov_Ext",
+                                "required": false,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [],
+                                "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Coverage Standard Coverages"
+                            },
+                            {
+                                "name": "Liability to third parties",
+                                "description": "Liability to third parties",
+                                "selected": true,
+                                "publicID": "PCLiabilityThirdPartiesCov_Ext",
+                                "required": true,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [
+                                    {
+                                        "name": "Limit - Legal Expenses",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCLiabilitiesTPLimitLgExpCT_Ext",
+                                        "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                                        "chosenTermValue": "5,000,000",
+                                        "directValue": 5000000.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "5000000.0000"
+                                    },
+                                    {
+                                        "name": "Limit - Property Damage",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCLiabilitiesTPLimitPropDmgCT_Ext",
+                                        "coveragePublicID": "PCLiabilityThirdPartiesCov_Ext",
+                                        "chosenTermValue": "20,000,000",
+                                        "directValue": 20000000.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "20000000.0000"
+                                    }
+                                ],
+                                "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Coverage Standard Coverages"
+                            },
+                            {
+                                "name": "Loss by Fire and Theft",
+                                "description": "Loss by Fire and Theft",
+                                "selected": true,
+                                "publicID": "PCLossFireTheftCov_Ext",
+                                "required": true,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [
+                                    {
+                                        "name": "Compulsory Fire and Theft Excess",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCLossFireTheftCompExcessCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCLossFireTheftCompExcessCT_Ext",
+                                        "coveragePublicID": "PCLossFireTheftCov_Ext",
+                                        "chosenTermValue": "145",
+                                        "directValue": 145.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "145.0000"
+                                    },
+                                    {
+                                        "name": "Voluntary Excess",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCLossFireTheftVolExcessCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCLossFireTheftVolExcessCT_Ext",
+                                        "coveragePublicID": "PCLossFireTheftCov_Ext",
+                                        "chosenTermValue": "250",
+                                        "directValue": 250.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "250.0000"
+                                    }
+                                ],
+                                "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Coverage Standard Coverages"
+                            },
+                            {
+                                "name": "Theft of Keys/Transmitter",
+                                "description": "Theft of Keys/Transmitter",
+                                "selected": true,
+                                "publicID": "PCTheftKeysTransmitterCov_Ext",
+                                "required": true,
+                                "updated": false,
+                                "isValid": true,
+                                "hasTerms": true,
+                                "terms": [
+                                    {
+                                        "name": "Compulsory Fire and Theft Excess",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCTheftKeyTransCompFnTheftCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCTheftKeyTransCompFnTheftCT_Ext",
+                                        "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                                        "chosenTermValue": "145",
+                                        "directValue": 145.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "145.0000"
+                                    },
+                                    {
+                                        "name": "Voluntary Excess",
+                                        "type": "DirectCovTerm",
+                                        "valueType": "Money",
+                                        "publicID": "PCTheftKeyTransVolExcessCT_Ext",
+                                        "options": [
+                                            {
+                                                "name": "None Selected"
+                                            }
+                                        ],
+                                        "required": false,
+                                        "updated": false,
+                                        "patternCode": "PCTheftKeyTransVolExcessCT_Ext",
+                                        "coveragePublicID": "PCTheftKeysTransmitterCov_Ext",
+                                        "chosenTermValue": "250",
+                                        "directValue": 250.0000,
+                                        "isAscendingBetter": true,
+                                        "chosenTerm": "250.0000"
+                                    }
+                                ],
+                                "coverageCategoryCode": "PCCoverableStdCatGrp_Ext",
+                                "coverageCategoryDisplayName": "Coverage Standard Coverages"
+                            }
+                        ],
+                        "vehicleName": "2009 HONDA JAZZ ES I-VTEC (GL59FFT/GL59FFT)"
+                    }
+                ]
+            }
+        },
+        "voluntaryExcess": "250",
+        "sessionUUID": "be4c49a4-e8e1-4b8a-a690-2909fbeea6f4",
+        "periodStartDate": "2021-02-08T00:01:00Z",
+        "periodEndDate": "2022-02-08T00:01:00Z",
+        "coverType": "comprehensive",
+        "quoteID": "0000001625",
+        "insurancePaymentType": "1",
+        "quote": {
+            "branchCode": "HE",
+            "publicID": "pc:31701",
+            "branchName": "Hastings Essential",
+            "hastingsErrors": [
+                {
+                    "technicalErrorCode": 802,
+                    "technicalErrorDetails": "Grey list check failed Technical error details",
+                    "publicErrorMessage": "Grey list check failed",
+                    "technicalErrorMessage": "Grey list check failed Technical error"
+                }
+            ],
+            "hastingsPremium": {
+                "creditCardInterestRate": 1.25,
+                "monthlyPayment": {
+                    "elevenMonthsInstalments": {
+                        "currency": "gbp",
+                        "amount": 74.29
+                    },
+                    "firstInstalment": {
+                        "currency": "gbp",
+                        "amount": 74.31
+                    },
+                    "rateOfInterest": 14.90,
+                    "totalAmountCredit": 775.89,
+                    "representativeAPR": 29.90,
+                    "arrangementFee": {
+                        "currency": "gbp",
+                        "amount": 20.00
+                    },
+                    "billingID": "bc:24",
+                    "premiumAnnualCost": {
+                        "currency": "gbp",
+                        "amount": 891.50
+                    }
+                },
+                "annuallyPayment": {
+                    "changeInPremium": {
+                        "currency": "gbp",
+                        "amount": 775.89
+                    },
+                    "arrangementFee": {
+                        "currency": "gbp",
+                        "amount": 20.00
+                    },
+                    "billingID": "bc:11",
+                    "premiumAnnualCost": {
+                        "currency": "gbp",
+                        "amount": 775.89
+                    }
+                }
+            }
+        },
+        "ncdgrantedYears": "6",
+        "ncdgrantedProtectionInd": true
+    },
+    "jsonrpc": "2.0"
+}

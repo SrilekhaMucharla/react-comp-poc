@@ -1,0 +1,16 @@
+{
+  "name": "gw-portals-viewmodel-js",
+  "description": "Provides API to work with View Model",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "google-libphonenumber": "^3.2.3"
+  },
+  "peerDependencies": {
+    "lodash": "4.x",
+    "gw-portals-metadata-js": "11.2.0-db467149eb42",
+    "gw-portals-util-js": "11.2.0-db467149eb42"
+  }
+}

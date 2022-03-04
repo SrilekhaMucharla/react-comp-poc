@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDAlertRefactor /> render component with message 1`] = `
+<div
+  className="alert-container "
+>
+  Error
+</div>
+`;
+
+exports[`<HDAlertRefactor /> render component with message 2`] = `""`;

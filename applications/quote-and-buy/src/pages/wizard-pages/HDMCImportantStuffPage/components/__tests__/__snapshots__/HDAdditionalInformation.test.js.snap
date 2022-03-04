@@ -1,0 +1,459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDAdditionalInformation /> render component 1`] = `
+<Fragment>
+  <Row
+    className="mc-important-stuff__additional-information__header"
+    noGutters={false}
+  >
+    <Col>
+      <HDLabelRefactor
+        Tag="h1"
+        adjustImagePosition={true}
+        className="mt-0 mb-2"
+        text="Additional information"
+      />
+      <p
+        className="mb-0"
+      >
+        The following sections are relevant to all the cars.
+      </p>
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="px-mobile-0"
+    >
+      <HDPlaceholderWithHeader
+        className="mc-your-credit-agreement"
+        icon={null}
+        theme="dark-header"
+        title={
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className="my-2"
+            text="Important information about your credit agreements"
+          />
+        }
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            className="mc-your-credit-agreement__content"
+          >
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mt-2 mt-md-0"
+              text="Making changes to your policy"
+            />
+            <p>
+              If you need to make a change to your policy, you might want to borrow more funds. If you do, we may carry out further creditworthiness checks. If you don't meet our lending criteria at the time, you could be asked to pay for the change upfront.
+            </p>
+            <div>
+              <HDLabelRefactor
+                Tag="h4"
+                adjustImagePosition={true}
+                className="mc-important-stuff__additional-information__subheader"
+                text="Changing the loan holder"
+              />
+              <p>
+                As the account holder, you’ll also be the loan holder and are responsible for payment of the policies. If you’d like one of the policyholders to be the loan holder instead of you, please call us on 0333 321 9801 as you can’t currently do this online.
+              </p>
+            </div>
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mc-important-stuff__additional-information__subheader"
+              text="Late or missed payments"
+            />
+            <p>
+              If you miss a payment, you could be charged a late payment fee and your credit file could be affected.
+            </p>
+            <p>
+              If you don't pay an overdue amount, your loan agreement and policy may be cancelled. Your debt could also be passed to a debt collection agency.
+            </p>
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mc-important-stuff__additional-information__subheader"
+              text="Right of withdrawal"
+            />
+            <p>
+              You can withdraw from this loan agreement without giving any reason.
+            </p>
+            <p>
+              Your right to do this begins the day after we've confirmed the credit agreement has been made and ends 14 calendar days later.
+            </p>
+            <p>
+              If you withdraw from the loan agreement, your insurance will be cancelled. You may be charged a cancellation fee and be asked to pay for the time you were insured by us.
+            </p>
+            <p>
+              If you'd like to do this, please call us on 0333 321 9801. Please also get in touch if you have any questions about the loan agreement.
+            </p>
+          </Col>
+        </Row>
+      </HDPlaceholderWithHeader>
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="px-mobile-0"
+    >
+      <HDPlaceholderWithHeader
+        className="mc-our-fees"
+        icon={null}
+        theme="dark-header"
+        title={
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className="my-1"
+            text="Our fees"
+          />
+        }
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            className="mc-our-fees__content"
+          >
+            <p>
+              We charge fees to cover the costs involved in setting up, servicing
+ and cancelling a policy and it's important you understand them.
+            </p>
+            <p>
+              Here are some of the fees we get asked about most often:
+            </p>
+            <table
+              className="mc-our-fees__content__table"
+            >
+              <thead>
+                <tr>
+                  <th
+                    className="mc-our-fees__content__table__th font-bold text-md-lg"
+                  >
+                    Type of fee
+                  </th>
+                  <th
+                    className="mc-our-fees__content__table__th font-medium text-right text-md-lg"
+                  >
+                    Fee
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                className="mc-our-fees__content__table__body"
+              >
+                <tr
+                  className="mc-our-fees__content__table__body__tr"
+                  key="0"
+                >
+                  <td
+                    className="mc-our-fees__content__table__td"
+                  >
+                    Arranging new or renewing cover for each car on your policy
+                  </td>
+                  <td
+                    className="mc-our-fees__content__table__td text-right font-bold"
+                  >
+                    £20
+                  </td>
+                </tr>
+                <tr
+                  className="mc-our-fees__content__table__body__tr"
+                  key="1"
+                >
+                  <td
+                    className="mc-our-fees__content__table__td"
+                  >
+                    Cancelling within 14 days of your policy's start date -
+ there's no cancellation fee, but the £20 arrangement fee is non-refundable
+                  </td>
+                  <td
+                    className="mc-our-fees__content__table__td text-right font-bold"
+                  >
+                    £0
+                  </td>
+                </tr>
+                <tr
+                  className="mc-our-fees__content__table__body__tr"
+                  key="2"
+                >
+                  <td
+                    className="mc-our-fees__content__table__td"
+                  >
+                    Cancelling 14 days or more after your policy's start date. Any fees incurred
+ during your policy will also be charged and the £20 arrangement fee (which was included in your price) will not be refunded
+                  </td>
+                  <td
+                    className="mc-our-fees__content__table__td text-right font-bold"
+                  >
+                    £45
+                  </td>
+                </tr>
+                <tr
+                  className="mc-our-fees__content__table__body__tr"
+                  key="3"
+                >
+                  <td
+                    className="mc-our-fees__content__table__td"
+                  >
+                    Changes to your policy (such as updating your address or changing your vehicle)
+                  </td>
+                  <td
+                    className="mc-our-fees__content__table__td text-right font-bold"
+                  >
+                    £20*
+                  </td>
+                </tr>
+                <tr
+                  className="mc-our-fees__content__table__body__tr"
+                  key="4"
+                >
+                  <td
+                    className="mc-our-fees__content__table__td"
+                  >
+                    Changes to your policy that we need to make (due to information not being sent when
+ we ask for it or the wrong information being provided)
+                  </td>
+                  <td
+                    className="mc-our-fees__content__table__td text-right font-bold"
+                  >
+                    £30*
+                  </td>
+                </tr>
+                <tr
+                  className="mc-our-fees__content__table__body__tr"
+                  key="5"
+                >
+                  <td
+                    className="mc-our-fees__content__table__td"
+                  >
+                    Missing a Direct Debit payment
+                  </td>
+                  <td
+                    className="mc-our-fees__content__table__td text-right font-bold"
+                  >
+                    £12**
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <p
+              className="text-small mt-3 mt-md-4 mb-1"
+            >
+              *Applied once per transaction and split across all policies affected.
+            </p>
+            <p
+              className="text-small mb-0"
+            >
+              **Applied once per transaction and added to one of the policies affected.
+            </p>
+            <ForwardRef
+              id="our-fees-all-fees-overlay"
+              onBeforeOpen={null}
+              overlayButtonIcon={
+                <HDLabelRefactor
+                  Tag="a"
+                  adjustImagePosition={true}
+                  className="my-3 mt-md-4 mb-md-0 d-inline-block decorated-blue-line decorated-blue-line--on-white"
+                  text="See all fees"
+                />
+              }
+              showButtons={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Our fees",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_name": "test",
+                  "page_section": "Our fees",
+                  "page_type": "test",
+                  "sales_journey_type": "none",
+                }
+              }
+            >
+              <HDOurFeesOverlay />
+            </ForwardRef>
+          </Col>
+        </Row>
+      </HDPlaceholderWithHeader>
+    </Col>
+  </Row>
+  <Row
+    noGutters={false}
+  >
+    <Col
+      className="px-mobile-0"
+    >
+      <HDPlaceholderWithHeader
+        className="mc-other-things"
+        icon={null}
+        theme="dark-header"
+        title={
+          <HDLabelRefactor
+            Tag="h2"
+            adjustImagePosition={true}
+            className="my-1"
+            text="Other things to know"
+          />
+        }
+      >
+        <Row
+          noGutters={false}
+        >
+          <Col
+            className="mc-other-things__content"
+          >
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mt-2 mt-md-0"
+              text="Automatic renewal"
+            />
+            <p>
+              Most policies will automatically renew on their renewal date.
+            </p>
+            <p>
+              Your renewal quote will be available at least three weeks before your renewal is due,
+ to give you time to decide if you want to stay with us. If your price and details are ok, you won't have to do anything.
+ After renewing, you have a two week cooling-off period where you can cancel with no fees if you change your mind.
+            </p>
+            <p>
+              You can opt out of automatic renewal at any time. If it's before the last month of the policy, you can change
+ your preferences in MyAccount or let us know by webchat or by calling us. If you're in the last month of your policy, you'll need to call us to opt out.
+            </p>
+            <p>
+              You may find your renewal price is higher than the price of your policy today.
+            </p>
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mc-important-stuff__additional-information__subheader"
+              text="Cancellations"
+            />
+            <p>
+              If you cancel before your start date, you'll get a full refund of your premium, minus any non-refundable fees.
+            </p>
+            <p>
+              You have a 14-day cooling-off period from your policy start date. Cancelling during this time means your premium
+ will be refunded, minus a charge for the number of days you were insured by us and any non-refundable fees. The same applies if your policy is
+ cancelled after the cooling-off period but you'll also be charged a cancellation fee (£45).
+            </p>
+            <p>
+              If you've made a claim (or one has been made against you) you might not get a refund.
+            </p>
+            <p>
+              Multi Car policies include a discount on the overall premium. If a car is removed from the policy, 
+ the discount for that car may be removed. The discount for the other cars on the policy may also be reviewed and adjusted.
+            </p>
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mc-important-stuff__additional-information__subheader"
+              text="Insurers we act on behalf of"
+            />
+            <p>
+              We're an intermediary, acting on behalf of several insurers. We don't make recommendations or give advice,
+ so please consider all information carefully when you buy to make sure the product/s offered meet your requirements.
+            </p>
+            <p>
+              We receive commission paid by the insurer and a fee paid by you. The total price you'll pay is
+ made up of the insurer's premium plus our fee, together with Insurance Premium Tax (IPT) at the current rate.
+            </p>
+            <ForwardRef
+              id="insurer"
+              onBeforeOpen={null}
+              overlayButtonIcon={
+                <HDLabelRefactor
+                  Tag="a"
+                  adjustImagePosition={true}
+                  className="margin-top-md mb-0 decorated-blue-line decorated-blue-line--cq-1"
+                  text="See full list of insurers"
+                />
+              }
+              showButtons={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "See full list of insurers",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_name": "test",
+                  "page_section": "See full list of insurers",
+                  "page_type": "test",
+                  "sales_journey_type": "none",
+                }
+              }
+            >
+              <HDInsurersOverlay />
+            </ForwardRef>
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mc-important-stuff__additional-information__subheader"
+              text="Your document preferences"
+            />
+            <p>
+              Your policy booklets and documents are available 24/7 in MyAccount to view, download or print.
+            </p>
+            <p
+              className="mb-0"
+            >
+              You can request individual documents by post or, if you prefer, switch your preference to
+ have all of your documents sent by post at any point. You can do this yourself in MyAccount or let us know by webchat or by calling us.
+ Documents usually take about seven days to arrive.
+            </p>
+            <HDLabelRefactor
+              Tag="h4"
+              adjustImagePosition={true}
+              className="mt-5 mb-3"
+              text="Continuous payment authority"
+            />
+            <Row
+              className="payment-page__cpa-content"
+              noGutters={false}
+            >
+              <Col>
+                <p
+                  key="0"
+                >
+                  When you buy your policy, you're agreeing to let us use your card details (or any new card details you give us) for future payments to do with your policy. This includes paying for things like missed Direct Debit instalments, changes to your policy that increase your premium or your renewal.
+                </p>
+                <p
+                  key="1"
+                >
+                  Your card details will be held securely and we'll always give you plenty of notice about a payment before we take it.
+                </p>
+              </Col>
+            </Row>
+            <HDQuoteInfoRefactor
+              className=""
+            >
+              You can cancel this continuous payment authority at any time, just get in touch and let us know.
+            </HDQuoteInfoRefactor>
+          </Col>
+        </Row>
+      </HDPlaceholderWithHeader>
+    </Col>
+  </Row>
+  <HDQuoteInfoRefactor
+    className="mt-0 mb-md-5"
+  >
+    <span>
+      By clicking 'Agree and continue' you're confirming you've read and agree with all the terms on this page.
+    </span>
+  </HDQuoteInfoRefactor>
+</Fragment>
+`;

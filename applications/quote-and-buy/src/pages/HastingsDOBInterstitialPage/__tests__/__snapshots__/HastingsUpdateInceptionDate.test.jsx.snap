@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HastingsUpdateInceptionDate /> render component 1`] = `
+<div
+  className="update-inception-date"
+>
+  <p
+    className="margin-top-md margin-bottom-md"
+  >
+    Please tell us when you want your policy to start. You can choose any date within the next 30 days.
+  </p>
+  <Row
+    className="update-inception-date__date-input-row"
+    noGutters={false}
+  >
+    <Col
+      className="update-inception-date__date-input-col"
+    >
+      <ForwardRef
+        allowLeadingZero={true}
+        className="input-group--on-white font-demi-bold"
+        id="day-input"
+        inputMode="numeric"
+        isInvalidCustom={false}
+        maxLength="2"
+        onBeforeOpen={null}
+        onBlur={[Function]}
+        onCancel={null}
+        onChange={[Function]}
+        onClick={null}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={[Function]}
+        onSelect={null}
+        placeholder="DD"
+        type="numberOnly"
+        value=""
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Please tell us when you want your policy to start. You can choose any date within the next 30 days.",
+          }
+        }
+      />
+    </Col>
+    <Col
+      className="update-inception-date__date-input-col"
+    >
+      <ForwardRef
+        allowLeadingZero={true}
+        className="input-group--on-white font-demi-bold"
+        id="month-input"
+        inputMode="numeric"
+        isInvalidCustom={false}
+        maxLength="2"
+        onBeforeOpen={null}
+        onBlur={[Function]}
+        onCancel={null}
+        onChange={[Function]}
+        onClick={null}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={[Function]}
+        onSelect={null}
+        placeholder="MM"
+        type="numberOnly"
+        value=""
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Please tell us when you want your policy to start. You can choose any date within the next 30 days.",
+          }
+        }
+      />
+    </Col>
+    <Col
+      className="update-inception-date__date-input-col"
+    >
+      <ForwardRef
+        className="input-group--on-white font-demi-bold"
+        id="year-input"
+        inputMode="numeric"
+        isInvalidCustom={false}
+        maxLength="4"
+        onBeforeOpen={null}
+        onBlur={[Function]}
+        onCancel={null}
+        onChange={[Function]}
+        onClick={null}
+        onConfirm={null}
+        onDelete={null}
+        onEdit={null}
+        onFocus={[Function]}
+        onSelect={null}
+        placeholder="YYYY"
+        type="numberOnly"
+        value=""
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Please tell us when you want your policy to start. You can choose any date within the next 30 days.",
+          }
+        }
+      />
+    </Col>
+  </Row>
+  <ForwardRef
+    className="theme-white w-100 margin-top-lg"
+    disabled={true}
+    id="update-quote-button"
+    label="Update my quote"
+    onBeforeOpen={null}
+    onBlur={null}
+    onCancel={null}
+    onChange={null}
+    onClick={[Function]}
+    onConfirm={null}
+    onDelete={null}
+    onEdit={null}
+    onFocus={null}
+    onSelect={null}
+    variant="primary"
+    webAnalyticsEvent={
+      Object {
+        "event_action": "Update my quote",
+      }
+    }
+  />
+</div>
+`;

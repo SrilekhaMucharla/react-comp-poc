@@ -1,0 +1,51 @@
+$update-inception-date-grid-gutter: 7px;
+$update-inception-date-grid-gutter-small: 2px;
+
+.update-inception-date {
+    &__date-input-row {
+        margin-left: -$update-inception-date-grid-gutter;
+        margin-right: -$update-inception-date-grid-gutter;
+    }
+
+    &__date-input-col {
+        
+        &:not(:last-child) {
+            max-width: 30%;
+            padding-left: $update-inception-date-grid-gutter;
+            padding-right: $update-inception-date-grid-gutter-small;
+        }
+
+        &:last-child {
+            padding-left: $update-inception-date-grid-gutter;
+            padding-right: $update-inception-date-grid-gutter;
+        }
+
+        .input-group {
+            border: 1px solid $mono-light-steel;
+            box-shadow: none;
+        }
+    
+        input {            
+            @include media-breakpoint-up(tiny) {
+                padding: 18px 20px;
+            }
+
+            &::placeholder {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__invalid-field {
+        .message {
+            font-weight: normal;
+        }
+    }
+    
+    .hd-btn {
+        height: 50px;
+    }
+    
+}
+
+

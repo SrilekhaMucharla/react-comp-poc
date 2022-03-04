@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDManualAddresssPopup /> render component with all props 1`] = `
+<HDManualAddressPopup
+  initialAddress={
+    Object {
+      "addressLine1": "Test St 123",
+      "addressLine2": "xxx",
+      "addressLine3": "xxx",
+      "city": "Test City",
+      "postalCode": "XX23XX",
+    }
+  }
+  onConfirm={[MockFunction]}
+  trigger={
+    <div>
+      TEST
+    </div>
+  }
+>
+  <ForwardRef
+    cancelButton="Cancel"
+    className="manual-address-popup"
+    confirmButton="Update"
+    disabledConfirmButton={false}
+    id="manual-address-popup"
+    onBeforeOpen={[Function]}
+    onConfirm={[Function]}
+    overlayButtonIcon={
+      <div>
+        TEST
+      </div>
+    }
+    showButtons={true}
+    webAnalyticsEvent={
+      Object {
+        "event_action": "Enter address manually",
+      }
+    }
+    webAnalyticsView={
+      Object {
+        "page_section": "Enter address manually",
+      }
+    }
+  >
+    <ForwardRef
+      cancelButton="Cancel"
+      className="manual-address-popup"
+      confirmButton="Update"
+      disabledConfirmButton={false}
+      id="manual-address-popup"
+      onBeforeOpen={[Function]}
+      onBlur={null}
+      onCancel={null}
+      onChange={null}
+      onClick={null}
+      onConfirm={[Function]}
+      onDelete={null}
+      onEdit={null}
+      onFocus={null}
+      onSelect={null}
+      overlayButtonIcon={
+        <div>
+          TEST
+        </div>
+      }
+      showButtons={true}
+      webAnalyticsEvent={
+        Object {
+          "event_action": "Enter address manually",
+        }
+      }
+    >
+      <HDOverlayPopup
+        cancelButton="Cancel"
+        className="manual-address-popup"
+        closeOnSelect={false}
+        confirmButton="Update"
+        customStyle=""
+        disabledConfirmButton={false}
+        headerBar={null}
+        hidden={false}
+        hideOnConfirm={true}
+        id="manual-address-popup"
+        labelText=""
+        onBeforeClose={[Function]}
+        onBeforeOpen={[Function]}
+        onCancel={[Function]}
+        onConfirm={[Function]}
+        overlayButtonIcon={
+          <div>
+            TEST
+          </div>
+        }
+        overlayButtonsClassName=""
+        showButtons={true}
+      >
+        <div
+          className="hd-information-tooltip manual-address-popup"
+        >
+          <div
+            className="hd-overlay-btn "
+            hidden={false}
+            id="manual-address-popup"
+            onClick={[Function]}
+          >
+            <div>
+              TEST
+            </div>
+          </div>
+        </div>
+      </HDOverlayPopup>
+    </ForwardRef>
+  </ForwardRef>
+</HDManualAddressPopup>
+`;

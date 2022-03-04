@@ -1,0 +1,24 @@
+{
+  "name": "gw-build-product-metadata",
+  "description": "Provides a tool for generating Product Metadata based on the Service Endpoints Used",
+  "main": "productMetadata.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "bin": {
+    "gw-generate-product-metadata": "./bin/generateProductMetadata.js"
+  },
+  "dependencies": {
+    "fast-glob": "^3.0.4",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.21",
+    "normalize-path": "^3.0.0",
+    "traverse": "^0.6.6"
+  },
+  "peerDependencies": {
+    "gw-build-config-environment": "11.2.0-db467149eb42",
+    "gw-build-config-paths": "11.2.0-db467149eb42",
+    "gw-build-capabilities-management": "11.2.0-db467149eb42",
+    "gw-build-jsonrpc": "11.2.0-db467149eb42"
+  }
+}

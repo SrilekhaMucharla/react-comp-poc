@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCircle /> renders correctly should match snapshot with no props 1`] = `
+<HDCircle
+  date={null}
+  type="dot"
+>
+  <div
+    className="hd-step-circle-small"
+    data-testid="circle-dot"
+  />
+</HDCircle>
+`;

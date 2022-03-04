@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDFullscreenLoader /> correctly renders component tree 1`] = `
+<HDFullscreenLoader
+  overlayColor="red"
+  overlayOpacity={0.5}
+  spinner={<span />}
+  text="Test text"
+>
+  <div
+    className="hd-loader-container"
+  >
+    <span />
+    <div
+      className="hd-loader-text-wrapper"
+    >
+      <span
+        data-testid="loader-text"
+      >
+        Test text
+      </span>
+    </div>
+  </div>
+</HDFullscreenLoader>
+`;

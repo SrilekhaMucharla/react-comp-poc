@@ -1,0 +1,3929 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCarFinder /> Enter reg number to text input and click rejected 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={[MockFunction]}
+  setPreviousVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "details": undefined,
+            "vehicle": null,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setVehicleDetails={[MockFunction]}
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value="AV12BGE"
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value="AV12BGE"
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value="AV12BGE"
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value="AV12BGE"
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                  <div
+                    className="customize-quote-car-finder__error-box"
+                  >
+                    <span>
+                      Sorry, we don't recognise that registration. Please try again
+                    </span>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> Enter reg number to text input and click resolved, type: CommercialVan_Ext 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "result": Object {
+              "abiCode": "test",
+              "type": "CommercialVan_Ext",
+            },
+          },
+          "AV12BGE",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          true,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setPreviousVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "details": undefined,
+            "vehicle": null,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "data": Object {
+              "abiCode": "test",
+              "regNo": "AV12BGE",
+              "type": "CommercialVan_Ext",
+            },
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value=""
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value=""
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value=""
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value=""
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> Enter reg number to text input and click resolved, type: MotorCycle_Ext 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={[MockFunction]}
+  setPreviousVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "details": undefined,
+            "vehicle": null,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setVehicleDetails={[MockFunction]}
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value="AV12BGE"
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value="AV12BGE"
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value="AV12BGE"
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value="AV12BGE"
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                  <div
+                    className="customize-quote-car-finder__error-box"
+                  >
+                    <span>
+                      That looks like a reg number for a bike.
+                    </span>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> Enter reg number to text input and click resolved, type: invalid 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "result": Object {
+              "abiCode": "",
+              "type": "",
+            },
+          },
+          "AV12BGE",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          true,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setPreviousVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "details": undefined,
+            "vehicle": null,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "data": Object {
+              "abiCode": "",
+              "regNo": "AV12BGE",
+              "type": "",
+            },
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value=""
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value=""
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value=""
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value=""
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> Enter reg number to text input and click resolved, type: other 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "result": Object {
+              "abiCode": "test",
+              "type": "other",
+            },
+          },
+          "AV12BGE",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          true,
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setPreviousVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "details": undefined,
+            "vehicle": null,
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  setVehicleDetails={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          Object {
+            "data": Object {
+              "abiCode": "test",
+              "regNo": "AV12BGE",
+              "type": "other",
+            },
+          },
+        ],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value=""
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value=""
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value=""
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value=""
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> No reg number to text input and click 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={[MockFunction]}
+  setPreviousVehicleDetails={[MockFunction]}
+  setVehicleDetails={[MockFunction]}
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value=""
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value=""
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value=""
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value=""
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                  <div
+                    className="customize-quote-car-finder__error-box"
+                  >
+                    <span>
+                      Sorry, you need to answer this question
+                    </span>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> no viewModelService Enter reg number to text input and click 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={[MockFunction]}
+  setPreviousVehicleDetails={[MockFunction]}
+  setVehicleDetails={[MockFunction]}
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value="AV12BGE"
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value="AV12BGE"
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value="AV12BGE"
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value="AV12BGE"
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                  <div
+                    className="customize-quote-car-finder__error-box"
+                  >
+                    <span>
+                      Vehicle registration not found
+                    </span>
+                  </div>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> no viewModelService render with mandatory props 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={[MockFunction]}
+  setPreviousVehicleDetails={[MockFunction]}
+  setVehicleDetails={[MockFunction]}
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value=""
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value=""
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value=""
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value=""
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;
+
+exports[`<HDCarFinder /> not know link 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ForwardRef
+    displayRerateModal={[MockFunction]}
+    findVehicleCallback={[MockFunction]}
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    onFind={[MockFunction]}
+    setPreviousVehicleDetails={[MockFunction]}
+    setVehicleDetails={[MockFunction]}
+  >
+    <Row
+      className="customize-quote-car-finder theme-white"
+      noGutters={false}
+    >
+      <div
+        className="customize-quote-car-finder theme-white row"
+      >
+        <Col>
+          <div
+            className="col"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h2"
+                      adjustImagePosition={true}
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                      text="Got the reg number? Tell us here..."
+                    >
+                      <h2
+                        className="customize-quote-car-finder__main-header mt-0"
+                        size="lg"
+                      >
+                        Got the reg number? Tell us here...
+                      </h2>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              className="customize-quote-car-finder__find-car"
+              noGutters={false}
+            >
+              <div
+                className="customize-quote-car-finder__find-car row"
+              >
+                <Col
+                  className="px-0"
+                  md={8}
+                  xs={12}
+                >
+                  <div
+                    className="px-0 col-md-8 col-12"
+                  >
+                    <ForwardRef
+                      customClassName="customize-quote-car-finder__input-box"
+                      id="reg-number"
+                      maxLength="8"
+                      name="regNumber"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={[Function]}
+                      onClick={null}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={null}
+                      onFocus={null}
+                      onSelect={null}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      type="alphanum"
+                      value=""
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Got the reg number? Tell us here...",
+                        }
+                      }
+                    >
+                      <ForwardRef
+                        allowLeadingZero={false}
+                        appendContent={null}
+                        appendLabel={null}
+                        className=""
+                        customClassName="customize-quote-car-finder__input-box"
+                        data={null}
+                        disabled={false}
+                        icon={null}
+                        id="reg-number"
+                        inputMode={null}
+                        isInvalidCustom={null}
+                        mask={null}
+                        maskChar="_"
+                        maxLength="8"
+                        name="regNumber"
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        onKeyPress={[Function]}
+                        path="path.to.input"
+                        placeholder={null}
+                        preText={null}
+                        reset={false}
+                        size="lg"
+                        svgIcon="GB.svg"
+                        thousandSeprator={false}
+                        tickIcon={false}
+                        type="alphanum"
+                        value=""
+                      >
+                        <InputGroup
+                          className=" customize-quote-car-finder__input-box"
+                          size="lg"
+                        >
+                          <div
+                            className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                          >
+                            <InputGroupPrepend
+                              className="hd-text-input__input-group__prepend"
+                            >
+                              <div
+                                className="hd-text-input__input-group__prepend input-group-prepend"
+                              >
+                                <InputGroupText
+                                  className="hd-text-input__input-group__text"
+                                >
+                                  <span
+                                    className="hd-text-input__input-group__text input-group-text"
+                                  >
+                                    <img
+                                      alt=""
+                                      src="GB.svg"
+                                    />
+                                  </span>
+                                </InputGroupText>
+                              </div>
+                            </InputGroupPrepend>
+                            <FormControl
+                              className="hd-text-input__form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value=""
+                            >
+                              <input
+                                className="hd-text-input__form-control form-control"
+                                data-testid="text-input"
+                                disabled={false}
+                                id="reg-number"
+                                inputMode={null}
+                                maxLength="8"
+                                name="regNumber"
+                                onBlur={[Function]}
+                                onChange={[Function]}
+                                onFocus={[Function]}
+                                onKeyPress={[Function]}
+                                path="path.to.input"
+                                placeholder={null}
+                                type="alphanum"
+                                value=""
+                              />
+                            </FormControl>
+                            <i
+                              className="fa fa-exclamation exclam hd-text-input__exclam"
+                            />
+                          </div>
+                        </InputGroup>
+                      </ForwardRef>
+                    </ForwardRef>
+                  </div>
+                </Col>
+                <Col
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                  md={4}
+                  xs={12}
+                >
+                  <div
+                    className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                  >
+                    <ForwardRef
+                      className="customize-quote-car-finder__find-button"
+                      id="default-id"
+                      label="Find car"
+                      onBeforeOpen={null}
+                      onBlur={null}
+                      onCancel={null}
+                      onChange={null}
+                      onClick={[Function]}
+                      onConfirm={null}
+                      onDelete={null}
+                      onEdit={null}
+                      onFocus={null}
+                      onSelect={null}
+                      webAnalyticsEvent={
+                        Object {
+                          "event_action": "Find car",
+                        }
+                      }
+                    >
+                      <HDButtonRefactor
+                        className="customize-quote-car-finder__find-button"
+                        disabled={false}
+                        fullWidth={false}
+                        id="default-id"
+                        label="Find car"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <Button
+                          active={false}
+                          block={false}
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          size={null}
+                          type="button"
+                          variant="primary"
+                        >
+                          <button
+                            className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                            disabled={false}
+                            id="default-id"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            type="button"
+                          >
+                            Find car
+                          </button>
+                        </Button>
+                      </HDButtonRefactor>
+                    </ForwardRef>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="a"
+                      adjustImagePosition={true}
+                      className="customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                      text="I don't know it"
+                    >
+                      <a
+                        className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                        onClick={[Function]}
+                      >
+                        <span>
+                          I don't know it
+                        </span>
+                      </a>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+              webAnalyticsView={
+                Object {
+                  "page_section": "Important!",
+                }
+              }
+            >
+              <ForwardRef
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                headerText="Important!"
+                hideCancelButton={true}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onBlur={null}
+                onCancel={null}
+                onChange={null}
+                onClick={null}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                onDelete={null}
+                onEdit={null}
+                onFocus={null}
+                onSelect={null}
+                show={false}
+                webAnalyticsEvent={
+                  Object {
+                    "event_action": "Important!",
+                  }
+                }
+              >
+                <HDModal
+                  cancelLabel="Cancel"
+                  className="customize-quote-car-finder__modal"
+                  confirmLabel="No, go back"
+                  customStyle=""
+                  headerText="Important!"
+                  hideCancelButton={true}
+                  hideClose={false}
+                  hideConfirmButton={false}
+                  hideFooter={false}
+                  id="reg-number-modal"
+                  onBeforeOpen={[Function]}
+                  onCancel={[Function]}
+                  onClose={[Function]}
+                  onConfirm={[Function]}
+                  show={false}
+                />
+              </ForwardRef>
+            </ForwardRef>
+          </div>
+        </Col>
+      </div>
+    </Row>
+  </ForwardRef>
+</Provider>
+`;
+
+exports[`<HDCarFinder /> render with mandatory props 1`] = `
+<ForwardRef
+  displayRerateModal={[MockFunction]}
+  findVehicleCallback={[MockFunction]}
+  history={
+    Object {
+      "push": [MockFunction],
+    }
+  }
+  onFind={[MockFunction]}
+  setPreviousVehicleDetails={[MockFunction]}
+  setVehicleDetails={[MockFunction]}
+>
+  <Row
+    className="customize-quote-car-finder theme-white"
+    noGutters={false}
+  >
+    <div
+      className="customize-quote-car-finder theme-white row"
+    >
+      <Col>
+        <div
+          className="col"
+        >
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="h2"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__main-header mt-0"
+                    size="lg"
+                    text="Got the reg number? Tell us here..."
+                  >
+                    <h2
+                      className="customize-quote-car-finder__main-header mt-0"
+                      size="lg"
+                    >
+                      Got the reg number? Tell us here...
+                    </h2>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            className="customize-quote-car-finder__find-car"
+            noGutters={false}
+          >
+            <div
+              className="customize-quote-car-finder__find-car row"
+            >
+              <Col
+                className="px-0"
+                md={8}
+                xs={12}
+              >
+                <div
+                  className="px-0 col-md-8 col-12"
+                >
+                  <ForwardRef
+                    customClassName="customize-quote-car-finder__input-box"
+                    id="reg-number"
+                    maxLength="8"
+                    name="regNumber"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={[Function]}
+                    onClick={null}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    size="lg"
+                    svgIcon="GB.svg"
+                    type="alphanum"
+                    value=""
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Got the reg number? Tell us here...",
+                      }
+                    }
+                  >
+                    <ForwardRef
+                      allowLeadingZero={false}
+                      appendContent={null}
+                      appendLabel={null}
+                      className=""
+                      customClassName="customize-quote-car-finder__input-box"
+                      data={null}
+                      disabled={false}
+                      icon={null}
+                      id="reg-number"
+                      inputMode={null}
+                      isInvalidCustom={null}
+                      mask={null}
+                      maskChar="_"
+                      maxLength="8"
+                      name="regNumber"
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyPress={[Function]}
+                      path="path.to.input"
+                      placeholder={null}
+                      preText={null}
+                      reset={false}
+                      size="lg"
+                      svgIcon="GB.svg"
+                      thousandSeprator={false}
+                      tickIcon={false}
+                      type="alphanum"
+                      value=""
+                    >
+                      <InputGroup
+                        className=" customize-quote-car-finder__input-box"
+                        size="lg"
+                      >
+                        <div
+                          className=" customize-quote-car-finder__input-box input-group input-group-lg"
+                        >
+                          <InputGroupPrepend
+                            className="hd-text-input__input-group__prepend"
+                          >
+                            <div
+                              className="hd-text-input__input-group__prepend input-group-prepend"
+                            >
+                              <InputGroupText
+                                className="hd-text-input__input-group__text"
+                              >
+                                <span
+                                  className="hd-text-input__input-group__text input-group-text"
+                                >
+                                  <img
+                                    alt=""
+                                    src="GB.svg"
+                                  />
+                                </span>
+                              </InputGroupText>
+                            </div>
+                          </InputGroupPrepend>
+                          <FormControl
+                            className="hd-text-input__form-control"
+                            data-testid="text-input"
+                            disabled={false}
+                            id="reg-number"
+                            inputMode={null}
+                            maxLength="8"
+                            name="regNumber"
+                            onBlur={[Function]}
+                            onChange={[Function]}
+                            onFocus={[Function]}
+                            onKeyPress={[Function]}
+                            path="path.to.input"
+                            placeholder={null}
+                            type="alphanum"
+                            value=""
+                          >
+                            <input
+                              className="hd-text-input__form-control form-control"
+                              data-testid="text-input"
+                              disabled={false}
+                              id="reg-number"
+                              inputMode={null}
+                              maxLength="8"
+                              name="regNumber"
+                              onBlur={[Function]}
+                              onChange={[Function]}
+                              onFocus={[Function]}
+                              onKeyPress={[Function]}
+                              path="path.to.input"
+                              placeholder={null}
+                              type="alphanum"
+                              value=""
+                            />
+                          </FormControl>
+                          <i
+                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                          />
+                        </div>
+                      </InputGroup>
+                    </ForwardRef>
+                  </ForwardRef>
+                </div>
+              </Col>
+              <Col
+                className="px-0 pl-md-4 mt-3 mt-md-0 text-right"
+                md={4}
+                xs={12}
+              >
+                <div
+                  className="px-0 pl-md-4 mt-3 mt-md-0 text-right col-md-4 col-12"
+                >
+                  <ForwardRef
+                    className="customize-quote-car-finder__find-button"
+                    id="default-id"
+                    label="Find car"
+                    onBeforeOpen={null}
+                    onBlur={null}
+                    onCancel={null}
+                    onChange={null}
+                    onClick={[Function]}
+                    onConfirm={null}
+                    onDelete={null}
+                    onEdit={null}
+                    onFocus={null}
+                    onSelect={null}
+                    webAnalyticsEvent={
+                      Object {
+                        "event_action": "Find car",
+                      }
+                    }
+                  >
+                    <HDButtonRefactor
+                      className="customize-quote-car-finder__find-button"
+                      disabled={false}
+                      fullWidth={false}
+                      id="default-id"
+                      label="Find car"
+                      onClick={[Function]}
+                      onKeyPress={null}
+                      size={null}
+                      type="button"
+                      variant="primary"
+                    >
+                      <Button
+                        active={false}
+                        block={false}
+                        className="hd-btn hd-btn-primary customize-quote-car-finder__find-button"
+                        disabled={false}
+                        id="default-id"
+                        onClick={[Function]}
+                        onKeyPress={null}
+                        size={null}
+                        type="button"
+                        variant="primary"
+                      >
+                        <button
+                          className="hd-btn hd-btn-primary customize-quote-car-finder__find-button btn btn-primary"
+                          disabled={false}
+                          id="default-id"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          type="button"
+                        >
+                          Find car
+                        </button>
+                      </Button>
+                    </HDButtonRefactor>
+                  </ForwardRef>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <Row
+            noGutters={false}
+          >
+            <div
+              className="row"
+            >
+              <Col>
+                <div
+                  className="col"
+                >
+                  <HDLabelRefactor
+                    Tag="a"
+                    adjustImagePosition={true}
+                    className="customize-quote-car-finder__not-know-link theme-white-override"
+                    onClick={[Function]}
+                    text="I don't know it"
+                  >
+                    <a
+                      className="hd-tag customize-quote-car-finder__not-know-link theme-white-override"
+                      onClick={[Function]}
+                    >
+                      <span>
+                        I don't know it
+                      </span>
+                    </a>
+                  </HDLabelRefactor>
+                </div>
+              </Col>
+            </div>
+          </Row>
+          <ForwardRef
+            className="customize-quote-car-finder__modal"
+            confirmLabel="No, go back"
+            headerText="Important!"
+            hideCancelButton={true}
+            id="reg-number-modal"
+            onBeforeOpen={null}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Important!",
+              }
+            }
+            webAnalyticsView={
+              Object {
+                "page_section": "Important!",
+              }
+            }
+          >
+            <ForwardRef
+              className="customize-quote-car-finder__modal"
+              confirmLabel="No, go back"
+              headerText="Important!"
+              hideCancelButton={true}
+              id="reg-number-modal"
+              onBeforeOpen={[Function]}
+              onBlur={null}
+              onCancel={null}
+              onChange={null}
+              onClick={null}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              onDelete={null}
+              onEdit={null}
+              onFocus={null}
+              onSelect={null}
+              show={false}
+              webAnalyticsEvent={
+                Object {
+                  "event_action": "Important!",
+                }
+              }
+            >
+              <HDModal
+                cancelLabel="Cancel"
+                className="customize-quote-car-finder__modal"
+                confirmLabel="No, go back"
+                customStyle=""
+                headerText="Important!"
+                hideCancelButton={true}
+                hideClose={false}
+                hideConfirmButton={false}
+                hideFooter={false}
+                id="reg-number-modal"
+                onBeforeOpen={[Function]}
+                onCancel={[Function]}
+                onClose={[Function]}
+                onConfirm={[Function]}
+                show={false}
+              />
+            </ForwardRef>
+          </ForwardRef>
+        </div>
+      </Col>
+    </div>
+  </Row>
+</ForwardRef>
+`;

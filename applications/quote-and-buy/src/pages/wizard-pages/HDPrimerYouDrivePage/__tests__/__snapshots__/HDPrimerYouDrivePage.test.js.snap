@@ -1,0 +1,1846 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDPrimerYouDrivePage /> render component 1`] = `
+<HDPrimerYouDrivePage
+  primerYouDriveFlag={[Function]}
+  toggleContinueElement={[Function]}
+>
+  <Container
+    className="primer-youdrive__container container--anc"
+    fluid={false}
+  >
+    <div
+      className="primer-youdrive__container container--anc container"
+    >
+      <Row
+        className="primer-youdrive__primer-wizard-header"
+        noGutters={false}
+      >
+        <div
+          className="primer-youdrive__primer-wizard-header row"
+        >
+          <Col>
+            <div
+              className="col"
+            >
+              <Row
+                className="primer-youdrive__wizard-title"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__wizard-title row"
+                >
+                  <Col
+                    className="px-md-0"
+                  >
+                    <div
+                      className="px-md-0 col"
+                    >
+                      <HDLabelRefactor
+                        Tag="h1"
+                        adjustImagePosition={true}
+                        className="mb-5"
+                        text="YouDrive is no ordinary car insurance policy"
+                      >
+                        <h1
+                          className="mb-5"
+                        >
+                          YouDrive is no ordinary car insurance policy
+                        </h1>
+                      </HDLabelRefactor>
+                      <HDLabelRefactor
+                        Tag="h1"
+                        adjustImagePosition={true}
+                        className=""
+                        text="Important information"
+                      >
+                        <h1
+                          className=""
+                        >
+                          Important information
+                        </h1>
+                      </HDLabelRefactor>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__primer-wizard-image-container theme-white"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__primer-wizard-image-container theme-white row"
+                >
+                  <Col
+                    md={4}
+                    xs={12}
+                  >
+                    <div
+                      className="col-md-4 col-12"
+                    >
+                      <div
+                        className="primer-youdrive__image-container"
+                      >
+                        <img
+                          alt="Mobile Icon"
+                          className="primer-youdrive__mobile-icon"
+                          src="static-youdrive-journey-phone-001.png"
+                        />
+                      </div>
+                      <Row
+                        className="primer-youdrive__mobile-content"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-youdrive__mobile-content row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <img
+                                alt="download App"
+                                className="primer-youdrive__download-app"
+                                src="download-app.jpg"
+                              />
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <Row
+                        className="primer-youdrive__mobile-info"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-youdrive__mobile-info row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              Download the Hastings Direct app to your smartphone. It only uses a small amount of battery and you can save data by using wi-fi only sharing.
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </Col>
+                  <Col
+                    md={4}
+                    xs={12}
+                  >
+                    <div
+                      className="col-md-4 col-12"
+                    >
+                      <div
+                        className="primer-youdrive__image-container"
+                      >
+                        <img
+                          alt="Wireless Icon"
+                          className="primer-youdrive__wireless-icon"
+                          src="wireless-device-icon.svg"
+                        />
+                      </div>
+                      <Row
+                        className="primer-youdrive__wireless-content"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-youdrive__wireless-content row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <img
+                                alt="setup App"
+                                className="primer-youdrive__setup-tab"
+                                src="setup-tab.jpg"
+                              />
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <Row
+                        className="primer-youdrive__setup-info"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-youdrive__setup-info row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              Your tab will be posted to your home address. When it arrives (it's about the same size as your keyfob), pop it in your car and pair it with your smartphone.
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </Col>
+                  <Col
+                    md={4}
+                    xs={12}
+                  >
+                    <div
+                      className="col-md-4 col-12"
+                    >
+                      <div
+                        className="primer-youdrive__image-container"
+                      >
+                        <img
+                          alt="Car Icon"
+                          className="primer-youdrive__car-icon"
+                          src="car-icon.svg"
+                        />
+                      </div>
+                      <Row
+                        className="primer-youdrive__car-content"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-youdrive__car-content row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              <img
+                                alt="drive App"
+                                className="primer-youdrive__drive"
+                                src="car-drive.jpg"
+                              />
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                      <Row
+                        className="primer-youdrive__drive-info"
+                        noGutters={false}
+                      >
+                        <div
+                          className="primer-youdrive__drive-info row"
+                        >
+                          <Col>
+                            <div
+                              className="col"
+                            >
+                              You'll see exactly how you're doing in the Hastings Direct app, with the tab picking up things like speeding and using your phone while driving.
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Col>
+        </div>
+      </Row>
+      <Row
+        className="primer-youdrive__primer-wizard-content"
+        noGutters={false}
+      >
+        <div
+          className="primer-youdrive__primer-wizard-content row"
+        >
+          <Col>
+            <div
+              className="col"
+            >
+              <Row
+                className="point-header"
+                noGutters={false}
+              >
+                <div
+                  className="point-header row"
+                >
+                  Before your wireless tab arrives
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Once you've bought your policy, there's no need to wait for your tab - you can start driving straight away. Just download the app as soon as possible.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="point-header"
+                noGutters={false}
+              >
+                <div
+                  className="point-header row"
+                >
+                  Download the Hastings Direct app
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Only the main driver needs to download and use the app.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point theme-white"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point theme-white row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Check your phone is compatible. Our app works with most smartphones using android and iOS; check if your phone isn't supported 
+                      <HDLabelRefactor
+                        Tag="a"
+                        adjustImagePosition={true}
+                        className=""
+                        onClick={[Function]}
+                        text="here"
+                      >
+                        <a
+                          className="hd-tag "
+                          onClick={[Function]}
+                        >
+                          <span>
+                            here
+                          </span>
+                        </a>
+                      </HDLabelRefactor>
+                      .
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Allow permissions on your phone to make sure the app works accurately. Keeping these turned on means your journeys will start automatically without having to open the app.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="point-header"
+                noGutters={false}
+              >
+                <div
+                  className="point-header row"
+                >
+                  Set up your wireless tab
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      When your wireless tab arrives, stick it to your dashboard or windscreen and pair it with the Hastings Direct app. Make sure you do this as soon as you get your tab or it will impact your cover.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="point-header"
+                noGutters={false}
+              >
+                <div
+                  className="point-header row"
+                >
+                  Drive with the app and tab
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Sharing your driving data (including location data when driving) is a condition of this policy.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      You don't need a prefect score, just stay above 30/100. If you do end up with a score of 30 or below it may lead to a change in price or cancellation. But don't panic, we'll give you plenty of notice on the next steps and won't charge any fees.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Your policy may also be cancelled if you drive 30mph over the displayed speed limit more than once or you stop sharing data with us.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Speeding, harsh braking, fast accelerating, hard cornering and distracting mobile phone use are some of the key things that will impact your score.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Data collected through your app and/or tab will be used to calculate your price. This won't start until your policy is live.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Don't give your phone to passengers while you're driving as this could affect your score.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      If you're a passenger in your own vehicle, simply select this status in your app.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__point"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__point row"
+                >
+                  <Col
+                    className="primer-youdrive__dot col-1 px-0"
+                  >
+                    <div
+                      className="primer-youdrive__dot col-1 px-0 col"
+                    />
+                  </Col>
+                  <Col
+                    className="primer-youdrive__point-content px-0"
+                  >
+                    <div
+                      className="primer-youdrive__point-content px-0 col"
+                    >
+                      Our processes make sure everything works smoothly and data is corrected if it doesn't look right. But if it looks like you're deliberately not using the app or tab properly, it may affect your cover or your ability to make a claim.
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+              <Row
+                className="primer-youdrive__primer-wizard-button"
+                noGutters={false}
+              >
+                <div
+                  className="primer-youdrive__primer-wizard-button row"
+                >
+                  <Col
+                    className="pl-md-0"
+                    md={7}
+                    xs={12}
+                  >
+                    <div
+                      className="pl-md-0 col-md-7 col-12"
+                    >
+                      <ForwardRef
+                        className="primer-youdrive__yes-btn theme-white"
+                        id="driving-data-button"
+                        label="I am happy to share my driving data"
+                        onBeforeOpen={null}
+                        onBlur={null}
+                        onCancel={null}
+                        onChange={null}
+                        onClick={[Function]}
+                        onConfirm={null}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        size="lg"
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Customise quote - YouDrive - I am happy to share my driving data",
+                          }
+                        }
+                      >
+                        <HDButtonRefactor
+                          className="primer-youdrive__yes-btn theme-white"
+                          disabled={false}
+                          fullWidth={false}
+                          id="driving-data-button"
+                          label="I am happy to share my driving data"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          size="lg"
+                          type="button"
+                          variant="primary"
+                        >
+                          <Button
+                            active={false}
+                            block={false}
+                            className="hd-btn hd-btn-primary primer-youdrive__yes-btn theme-white"
+                            disabled={false}
+                            id="driving-data-button"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            size="lg"
+                            type="button"
+                            variant="primary"
+                          >
+                            <button
+                              className="hd-btn hd-btn-primary primer-youdrive__yes-btn theme-white btn btn-primary btn-lg"
+                              disabled={false}
+                              id="driving-data-button"
+                              onClick={[Function]}
+                              onKeyPress={null}
+                              type="button"
+                            >
+                              I am happy to share my driving data
+                            </button>
+                          </Button>
+                        </HDButtonRefactor>
+                      </ForwardRef>
+                      <ForwardRef
+                        className="primer-youdrive__youdrive-popup-modal"
+                        confirmLabel="Ok, go back"
+                        headerText=" Don't want a YouDrive policy?"
+                        hideCancelButton={true}
+                        id="youdrive-popup"
+                        onBeforeOpen={null}
+                        onCancel={[Function]}
+                        onClose={[Function]}
+                        onConfirm={[Function]}
+                        show={false}
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Customise quote - YouDrive -  Don't want a YouDrive policy?",
+                          }
+                        }
+                        webAnalyticsView={
+                          Object {
+                            "page_section": "Customise quote - YouDrive -  Don't want a YouDrive policy?",
+                          }
+                        }
+                      >
+                        <ForwardRef
+                          className="primer-youdrive__youdrive-popup-modal"
+                          confirmLabel="Ok, go back"
+                          headerText=" Don't want a YouDrive policy?"
+                          hideCancelButton={true}
+                          id="youdrive-popup"
+                          onBeforeOpen={[Function]}
+                          onBlur={null}
+                          onCancel={[Function]}
+                          onChange={null}
+                          onClick={null}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          onDelete={null}
+                          onEdit={null}
+                          onFocus={null}
+                          onSelect={null}
+                          show={false}
+                          webAnalyticsEvent={
+                            Object {
+                              "event_action": "Customise quote - YouDrive -  Don't want a YouDrive policy?",
+                            }
+                          }
+                        >
+                          <HDModal
+                            cancelLabel="Cancel"
+                            className="primer-youdrive__youdrive-popup-modal"
+                            confirmLabel="Ok, go back"
+                            customStyle=""
+                            headerText=" Don't want a YouDrive policy?"
+                            hideCancelButton={true}
+                            hideClose={false}
+                            hideConfirmButton={false}
+                            hideFooter={false}
+                            id="youdrive-popup"
+                            onBeforeOpen={[Function]}
+                            onCancel={[Function]}
+                            onClose={[Function]}
+                            onConfirm={[Function]}
+                            show={false}
+                          />
+                        </ForwardRef>
+                      </ForwardRef>
+                    </div>
+                  </Col>
+                  <Col
+                    className="pr-md-0"
+                    md={5}
+                    xs={12}
+                  >
+                    <div
+                      className="pr-md-0 col-md-5 col-12"
+                    >
+                      <ForwardRef
+                        className="primer-youdrive__no-btn theme-white"
+                        id="no-option-button"
+                        label="I don't want this option"
+                        onBeforeOpen={null}
+                        onBlur={null}
+                        onCancel={null}
+                        onChange={null}
+                        onClick={[Function]}
+                        onConfirm={null}
+                        onDelete={null}
+                        onEdit={null}
+                        onFocus={null}
+                        onSelect={null}
+                        size="lg"
+                        variant="secondary"
+                        webAnalyticsEvent={
+                          Object {
+                            "event_action": "Customise quote - YouDrive - I don't want this option",
+                          }
+                        }
+                      >
+                        <HDButtonRefactor
+                          className="primer-youdrive__no-btn theme-white"
+                          disabled={false}
+                          fullWidth={false}
+                          id="no-option-button"
+                          label="I don't want this option"
+                          onClick={[Function]}
+                          onKeyPress={null}
+                          size="lg"
+                          type="button"
+                          variant="secondary"
+                        >
+                          <Button
+                            active={false}
+                            block={false}
+                            className="hd-btn hd-btn-secondary primer-youdrive__no-btn theme-white"
+                            disabled={false}
+                            id="no-option-button"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            size="lg"
+                            type="button"
+                            variant="secondary"
+                          >
+                            <button
+                              className="hd-btn hd-btn-secondary primer-youdrive__no-btn theme-white btn btn-secondary btn-lg"
+                              disabled={false}
+                              id="no-option-button"
+                              onClick={[Function]}
+                              onKeyPress={null}
+                              type="button"
+                            >
+                              I don't want this option
+                            </button>
+                          </Button>
+                        </HDButtonRefactor>
+                      </ForwardRef>
+                    </div>
+                  </Col>
+                </div>
+              </Row>
+            </div>
+          </Col>
+        </div>
+      </Row>
+      <ForwardRef
+        customStyle="wide"
+        headerText="Device compatibility"
+        hideCancelButton={true}
+        hideConfirmButton={true}
+        id="youdrive-popup"
+        onBeforeOpen={null}
+        onCancel={[Function]}
+        onClose={[Function]}
+        show={false}
+        webAnalyticsEvent={
+          Object {
+            "event_action": "Customise quote - YouDrive - Device compatibility",
+          }
+        }
+        webAnalyticsView={
+          Object {
+            "page_section": "Customise quote - YouDrive - Device compatibility",
+          }
+        }
+      >
+        <ForwardRef
+          customStyle="wide"
+          headerText="Device compatibility"
+          hideCancelButton={true}
+          hideConfirmButton={true}
+          id="youdrive-popup"
+          onBeforeOpen={[Function]}
+          onBlur={null}
+          onCancel={[Function]}
+          onChange={null}
+          onClick={null}
+          onClose={[Function]}
+          onConfirm={null}
+          onDelete={null}
+          onEdit={null}
+          onFocus={null}
+          onSelect={null}
+          show={false}
+          webAnalyticsEvent={
+            Object {
+              "event_action": "Customise quote - YouDrive - Device compatibility",
+            }
+          }
+        >
+          <HDModal
+            cancelLabel="Cancel"
+            className=""
+            confirmLabel="Confirm"
+            customStyle="wide"
+            headerText="Device compatibility"
+            hideCancelButton={true}
+            hideClose={false}
+            hideConfirmButton={true}
+            hideFooter={false}
+            id="youdrive-popup"
+            onBeforeOpen={[Function]}
+            onCancel={[Function]}
+            onClose={[Function]}
+            onConfirm={[Function]}
+            show={false}
+          />
+        </ForwardRef>
+      </ForwardRef>
+    </div>
+  </Container>
+</HDPrimerYouDrivePage>
+`;
+
+exports[`<HDPrimerYouDrivePage /> render popup modal click 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <HDPrimerYouDrivePage
+    primerYouDriveFlag={[Function]}
+    toggleContinueElement={[Function]}
+  >
+    <Container
+      className="primer-youdrive__container container--anc"
+      fluid={false}
+    >
+      <div
+        className="primer-youdrive__container container--anc container"
+      >
+        <Row
+          className="primer-youdrive__primer-wizard-header"
+          noGutters={false}
+        >
+          <div
+            className="primer-youdrive__primer-wizard-header row"
+          >
+            <Col>
+              <div
+                className="col"
+              >
+                <Row
+                  className="primer-youdrive__wizard-title"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__wizard-title row"
+                  >
+                    <Col
+                      className="px-md-0"
+                    >
+                      <div
+                        className="px-md-0 col"
+                      >
+                        <HDLabelRefactor
+                          Tag="h1"
+                          adjustImagePosition={true}
+                          className="mb-5"
+                          text="YouDrive is no ordinary car insurance policy"
+                        >
+                          <h1
+                            className="mb-5"
+                          >
+                            YouDrive is no ordinary car insurance policy
+                          </h1>
+                        </HDLabelRefactor>
+                        <HDLabelRefactor
+                          Tag="h1"
+                          adjustImagePosition={true}
+                          className=""
+                          text="Important information"
+                        >
+                          <h1
+                            className=""
+                          >
+                            Important information
+                          </h1>
+                        </HDLabelRefactor>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__primer-wizard-image-container theme-white"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__primer-wizard-image-container theme-white row"
+                  >
+                    <Col
+                      md={4}
+                      xs={12}
+                    >
+                      <div
+                        className="col-md-4 col-12"
+                      >
+                        <div
+                          className="primer-youdrive__image-container"
+                        >
+                          <img
+                            alt="Mobile Icon"
+                            className="primer-youdrive__mobile-icon"
+                            src="static-youdrive-journey-phone-001.png"
+                          />
+                        </div>
+                        <Row
+                          className="primer-youdrive__mobile-content"
+                          noGutters={false}
+                        >
+                          <div
+                            className="primer-youdrive__mobile-content row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                <img
+                                  alt="download App"
+                                  className="primer-youdrive__download-app"
+                                  src="download-app.jpg"
+                                />
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <Row
+                          className="primer-youdrive__mobile-info"
+                          noGutters={false}
+                        >
+                          <div
+                            className="primer-youdrive__mobile-info row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                Download the Hastings Direct app to your smartphone. It only uses a small amount of battery and you can save data by using wi-fi only sharing.
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </Col>
+                    <Col
+                      md={4}
+                      xs={12}
+                    >
+                      <div
+                        className="col-md-4 col-12"
+                      >
+                        <div
+                          className="primer-youdrive__image-container"
+                        >
+                          <img
+                            alt="Wireless Icon"
+                            className="primer-youdrive__wireless-icon"
+                            src="wireless-device-icon.svg"
+                          />
+                        </div>
+                        <Row
+                          className="primer-youdrive__wireless-content"
+                          noGutters={false}
+                        >
+                          <div
+                            className="primer-youdrive__wireless-content row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                <img
+                                  alt="setup App"
+                                  className="primer-youdrive__setup-tab"
+                                  src="setup-tab.jpg"
+                                />
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <Row
+                          className="primer-youdrive__setup-info"
+                          noGutters={false}
+                        >
+                          <div
+                            className="primer-youdrive__setup-info row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                Your tab will be posted to your home address. When it arrives (it's about the same size as your keyfob), pop it in your car and pair it with your smartphone.
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </Col>
+                    <Col
+                      md={4}
+                      xs={12}
+                    >
+                      <div
+                        className="col-md-4 col-12"
+                      >
+                        <div
+                          className="primer-youdrive__image-container"
+                        >
+                          <img
+                            alt="Car Icon"
+                            className="primer-youdrive__car-icon"
+                            src="car-icon.svg"
+                          />
+                        </div>
+                        <Row
+                          className="primer-youdrive__car-content"
+                          noGutters={false}
+                        >
+                          <div
+                            className="primer-youdrive__car-content row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                <img
+                                  alt="drive App"
+                                  className="primer-youdrive__drive"
+                                  src="car-drive.jpg"
+                                />
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                        <Row
+                          className="primer-youdrive__drive-info"
+                          noGutters={false}
+                        >
+                          <div
+                            className="primer-youdrive__drive-info row"
+                          >
+                            <Col>
+                              <div
+                                className="col"
+                              >
+                                You'll see exactly how you're doing in the Hastings Direct app, with the tab picking up things like speeding and using your phone while driving.
+                              </div>
+                            </Col>
+                          </div>
+                        </Row>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </div>
+            </Col>
+          </div>
+        </Row>
+        <Row
+          className="primer-youdrive__primer-wizard-content"
+          noGutters={false}
+        >
+          <div
+            className="primer-youdrive__primer-wizard-content row"
+          >
+            <Col>
+              <div
+                className="col"
+              >
+                <Row
+                  className="point-header"
+                  noGutters={false}
+                >
+                  <div
+                    className="point-header row"
+                  >
+                    Before your wireless tab arrives
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Once you've bought your policy, there's no need to wait for your tab - you can start driving straight away. Just download the app as soon as possible.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="point-header"
+                  noGutters={false}
+                >
+                  <div
+                    className="point-header row"
+                  >
+                    Download the Hastings Direct app
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Only the main driver needs to download and use the app.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point theme-white"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point theme-white row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Check your phone is compatible. Our app works with most smartphones using android and iOS; check if your phone isn't supported 
+                        <HDLabelRefactor
+                          Tag="a"
+                          adjustImagePosition={true}
+                          className=""
+                          onClick={[Function]}
+                          text="here"
+                        >
+                          <a
+                            className="hd-tag "
+                            onClick={[Function]}
+                          >
+                            <span>
+                              here
+                            </span>
+                          </a>
+                        </HDLabelRefactor>
+                        .
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Allow permissions on your phone to make sure the app works accurately. Keeping these turned on means your journeys will start automatically without having to open the app.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="point-header"
+                  noGutters={false}
+                >
+                  <div
+                    className="point-header row"
+                  >
+                    Set up your wireless tab
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        When your wireless tab arrives, stick it to your dashboard or windscreen and pair it with the Hastings Direct app. Make sure you do this as soon as you get your tab or it will impact your cover.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="point-header"
+                  noGutters={false}
+                >
+                  <div
+                    className="point-header row"
+                  >
+                    Drive with the app and tab
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Sharing your driving data (including location data when driving) is a condition of this policy.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        You don't need a prefect score, just stay above 30/100. If you do end up with a score of 30 or below it may lead to a change in price or cancellation. But don't panic, we'll give you plenty of notice on the next steps and won't charge any fees.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Your policy may also be cancelled if you drive 30mph over the displayed speed limit more than once or you stop sharing data with us.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Speeding, harsh braking, fast accelerating, hard cornering and distracting mobile phone use are some of the key things that will impact your score.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Data collected through your app and/or tab will be used to calculate your price. This won't start until your policy is live.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Don't give your phone to passengers while you're driving as this could affect your score.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        If you're a passenger in your own vehicle, simply select this status in your app.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__point"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__point row"
+                  >
+                    <Col
+                      className="primer-youdrive__dot col-1 px-0"
+                    >
+                      <div
+                        className="primer-youdrive__dot col-1 px-0 col"
+                      />
+                    </Col>
+                    <Col
+                      className="primer-youdrive__point-content px-0"
+                    >
+                      <div
+                        className="primer-youdrive__point-content px-0 col"
+                      >
+                        Our processes make sure everything works smoothly and data is corrected if it doesn't look right. But if it looks like you're deliberately not using the app or tab properly, it may affect your cover or your ability to make a claim.
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+                <Row
+                  className="primer-youdrive__primer-wizard-button"
+                  noGutters={false}
+                >
+                  <div
+                    className="primer-youdrive__primer-wizard-button row"
+                  >
+                    <Col
+                      className="pl-md-0"
+                      md={7}
+                      xs={12}
+                    >
+                      <div
+                        className="pl-md-0 col-md-7 col-12"
+                      >
+                        <ForwardRef
+                          className="primer-youdrive__yes-btn theme-white"
+                          id="driving-data-button"
+                          label="I am happy to share my driving data"
+                          onBeforeOpen={null}
+                          onBlur={null}
+                          onCancel={null}
+                          onChange={null}
+                          onClick={[Function]}
+                          onConfirm={null}
+                          onDelete={null}
+                          onEdit={null}
+                          onFocus={null}
+                          onSelect={null}
+                          size="lg"
+                          webAnalyticsEvent={
+                            Object {
+                              "event_action": "Customise quote - YouDrive - I am happy to share my driving data",
+                            }
+                          }
+                        >
+                          <HDButtonRefactor
+                            className="primer-youdrive__yes-btn theme-white"
+                            disabled={false}
+                            fullWidth={false}
+                            id="driving-data-button"
+                            label="I am happy to share my driving data"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            size="lg"
+                            type="button"
+                            variant="primary"
+                          >
+                            <Button
+                              active={false}
+                              block={false}
+                              className="hd-btn hd-btn-primary primer-youdrive__yes-btn theme-white"
+                              disabled={false}
+                              id="driving-data-button"
+                              onClick={[Function]}
+                              onKeyPress={null}
+                              size="lg"
+                              type="button"
+                              variant="primary"
+                            >
+                              <button
+                                className="hd-btn hd-btn-primary primer-youdrive__yes-btn theme-white btn btn-primary btn-lg"
+                                disabled={false}
+                                id="driving-data-button"
+                                onClick={[Function]}
+                                onKeyPress={null}
+                                type="button"
+                              >
+                                I am happy to share my driving data
+                              </button>
+                            </Button>
+                          </HDButtonRefactor>
+                        </ForwardRef>
+                        <ForwardRef
+                          className="primer-youdrive__youdrive-popup-modal"
+                          confirmLabel="Ok, go back"
+                          headerText=" Don't want a YouDrive policy?"
+                          hideCancelButton={true}
+                          id="youdrive-popup"
+                          onBeforeOpen={null}
+                          onCancel={[Function]}
+                          onClose={[Function]}
+                          onConfirm={[Function]}
+                          show={false}
+                          webAnalyticsEvent={
+                            Object {
+                              "event_action": "Customise quote - YouDrive -  Don't want a YouDrive policy?",
+                            }
+                          }
+                          webAnalyticsView={
+                            Object {
+                              "page_section": "Customise quote - YouDrive -  Don't want a YouDrive policy?",
+                            }
+                          }
+                        >
+                          <ForwardRef
+                            className="primer-youdrive__youdrive-popup-modal"
+                            confirmLabel="Ok, go back"
+                            headerText=" Don't want a YouDrive policy?"
+                            hideCancelButton={true}
+                            id="youdrive-popup"
+                            onBeforeOpen={[Function]}
+                            onBlur={null}
+                            onCancel={[Function]}
+                            onChange={null}
+                            onClick={null}
+                            onClose={[Function]}
+                            onConfirm={[Function]}
+                            onDelete={null}
+                            onEdit={null}
+                            onFocus={null}
+                            onSelect={null}
+                            show={false}
+                            webAnalyticsEvent={
+                              Object {
+                                "event_action": "Customise quote - YouDrive -  Don't want a YouDrive policy?",
+                              }
+                            }
+                          >
+                            <HDModal
+                              cancelLabel="Cancel"
+                              className="primer-youdrive__youdrive-popup-modal"
+                              confirmLabel="Ok, go back"
+                              customStyle=""
+                              headerText=" Don't want a YouDrive policy?"
+                              hideCancelButton={true}
+                              hideClose={false}
+                              hideConfirmButton={false}
+                              hideFooter={false}
+                              id="youdrive-popup"
+                              onBeforeOpen={[Function]}
+                              onCancel={[Function]}
+                              onClose={[Function]}
+                              onConfirm={[Function]}
+                              show={false}
+                            />
+                          </ForwardRef>
+                        </ForwardRef>
+                      </div>
+                    </Col>
+                    <Col
+                      className="pr-md-0"
+                      md={5}
+                      xs={12}
+                    >
+                      <div
+                        className="pr-md-0 col-md-5 col-12"
+                      >
+                        <ForwardRef
+                          className="primer-youdrive__no-btn theme-white"
+                          id="no-option-button"
+                          label="I don't want this option"
+                          onBeforeOpen={null}
+                          onBlur={null}
+                          onCancel={null}
+                          onChange={null}
+                          onClick={[Function]}
+                          onConfirm={null}
+                          onDelete={null}
+                          onEdit={null}
+                          onFocus={null}
+                          onSelect={null}
+                          size="lg"
+                          variant="secondary"
+                          webAnalyticsEvent={
+                            Object {
+                              "event_action": "Customise quote - YouDrive - I don't want this option",
+                            }
+                          }
+                        >
+                          <HDButtonRefactor
+                            className="primer-youdrive__no-btn theme-white"
+                            disabled={false}
+                            fullWidth={false}
+                            id="no-option-button"
+                            label="I don't want this option"
+                            onClick={[Function]}
+                            onKeyPress={null}
+                            size="lg"
+                            type="button"
+                            variant="secondary"
+                          >
+                            <Button
+                              active={false}
+                              block={false}
+                              className="hd-btn hd-btn-secondary primer-youdrive__no-btn theme-white"
+                              disabled={false}
+                              id="no-option-button"
+                              onClick={[Function]}
+                              onKeyPress={null}
+                              size="lg"
+                              type="button"
+                              variant="secondary"
+                            >
+                              <button
+                                className="hd-btn hd-btn-secondary primer-youdrive__no-btn theme-white btn btn-secondary btn-lg"
+                                disabled={false}
+                                id="no-option-button"
+                                onClick={[Function]}
+                                onKeyPress={null}
+                                type="button"
+                              >
+                                I don't want this option
+                              </button>
+                            </Button>
+                          </HDButtonRefactor>
+                        </ForwardRef>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </div>
+            </Col>
+          </div>
+        </Row>
+        <ForwardRef
+          customStyle="wide"
+          headerText="Device compatibility"
+          hideCancelButton={true}
+          hideConfirmButton={true}
+          id="youdrive-popup"
+          onBeforeOpen={null}
+          onCancel={[Function]}
+          onClose={[Function]}
+          show={false}
+          webAnalyticsEvent={
+            Object {
+              "event_action": "Customise quote - YouDrive - Device compatibility",
+            }
+          }
+          webAnalyticsView={
+            Object {
+              "page_section": "Customise quote - YouDrive - Device compatibility",
+            }
+          }
+        >
+          <ForwardRef
+            customStyle="wide"
+            headerText="Device compatibility"
+            hideCancelButton={true}
+            hideConfirmButton={true}
+            id="youdrive-popup"
+            onBeforeOpen={[Function]}
+            onBlur={null}
+            onCancel={[Function]}
+            onChange={null}
+            onClick={null}
+            onClose={[Function]}
+            onConfirm={null}
+            onDelete={null}
+            onEdit={null}
+            onFocus={null}
+            onSelect={null}
+            show={false}
+            webAnalyticsEvent={
+              Object {
+                "event_action": "Customise quote - YouDrive - Device compatibility",
+              }
+            }
+          >
+            <HDModal
+              cancelLabel="Cancel"
+              className=""
+              confirmLabel="Confirm"
+              customStyle="wide"
+              headerText="Device compatibility"
+              hideCancelButton={true}
+              hideClose={false}
+              hideConfirmButton={true}
+              hideFooter={false}
+              id="youdrive-popup"
+              onBeforeOpen={[Function]}
+              onCancel={[Function]}
+              onClose={[Function]}
+              onConfirm={[Function]}
+              show={false}
+            />
+          </ForwardRef>
+        </ForwardRef>
+      </div>
+    </Container>
+  </HDPrimerYouDrivePage>
+</Provider>
+`;

@@ -1,0 +1,176 @@
+{
+    "httpRequest": {
+      "method": "POST",
+      "path": "/pc/service/unauthenticated/edgev10/ncd/ncd",
+      "headers": {
+        "cookie": [
+          "whoson=62-1623403112641; _ga=GA1.1.659797703.1623403129; _gid=GA1.1.1787159552.1623403129; dtCookie=v_4_srv_1_sn_8F93E69BEA966C03BA1F1550F92F4708_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_1; JSESSIONID=0000zXftmx4ipmpDRDr8-hO7xDr:-1; cookieconsent_status=dismiss; _gat_gtag_UA_115295582_15=1; utag_main=v_id:0179fa5da989001690e8b04a278e03071001606900bd0$_sn:1$_se:226$_ss:0$_st:1623406016794$ses_id:1623403112844%3Bexp-session$_pn:3%3Bexp-session$dc_visit:1$dc_event:226%3Bexp-session$dc_region:eu-west-1%3Bexp-session"
+        ],
+        "accept-encoding": [
+          "gzip, deflate, br"
+        ],
+        "referer": [
+          "http://localhost:3000/quote-and-buy/customize-quote-wizard"
+        ],
+        "sec-fetch-dest": [
+          "empty"
+        ],
+        "sec-fetch-mode": [
+          "cors"
+        ],
+        "sec-fetch-site": [
+          "same-origin"
+        ],
+        "origin": [
+          "http://localhost:3000"
+        ],
+        "content-type": [
+          "application/json; charset=utf-8"
+        ],
+        "user-agent": [
+          "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
+        ],
+        "sec-ch-ua-mobile": [
+          "?0"
+        ],
+        "accept-language": [
+          "null"
+        ],
+        "accept": [
+          "application/json"
+        ],
+        "sec-ch-ua": [
+          "\" Not;A Brand\";v=\"99\", \"Google Chrome\";v=\"91\", \"Chromium\";v=\"91\""
+        ],
+        "content-length": [
+          "77"
+        ],
+        "connection": [
+          "close"
+        ],
+        "host": [
+          "localhost:3000"
+        ]
+      },
+      "cookies": {
+        "JSESSIONID": "0000zXftmx4ipmpDRDr8-hO7xDr:-1",
+        "_ga": "GA1.1.659797703.1623403129",
+        "_gat_gtag_UA_115295582_15": "1",
+        "_gid": "GA1.1.1787159552.1623403129",
+        "cookieconsent_status": "dismiss",
+        "dtCookie": "v_4_srv_1_sn_8F93E69BEA966C03BA1F1550F92F4708_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_1",
+        "utag_main": "v_id:0179fa5da989001690e8b04a278e03071001606900bd0$_sn:1$_se:226$_ss:0$_st:1623406016794$ses_id:1623403112844%3Bexp-session$_pn:3%3Bexp-session$dc_visit:1$dc_event:226%3Bexp-session$dc_region:eu-west-1%3Bexp-session",
+        "whoson": "62-1623403112641"
+      },
+      "keepAlive": false,
+      "secure": false,
+      "body": {
+        "id": "1",
+        "method": "retrieveNCDData",
+        "params": [
+          "0000010506"
+        ],
+        "jsonrpc": "2.0"
+      }
+    },
+    "httpResponse": {
+      "statusCode": 200,
+      "reasonPhrase": "OK",
+      "headers": {
+        "X-Powered-By": [
+          "Servlet/3.0"
+        ],
+        "Timing-Allow-Origin": [
+          "*"
+        ],
+        "Server-Timing": [
+          "dtRpid;desc=\"-140527204\""
+        ],
+        "X-OneAgent-JS-Injection": [
+          "true"
+        ],
+        "Content-Type": [
+          "application/json; charset=UTF-8"
+        ],
+        "Content-Language": [
+          "en-GB"
+        ],
+        "Date": [
+          "Fri, 11 Jun 2021 09:37:45 GMT"
+        ],
+        "content-length": [
+          "732"
+        ]
+      },
+      "body": {
+        "result": {
+          "averageDiscountCollection": {
+            "averageDiscount": [
+              {
+                "years": "0",
+                "discount": "0.00"
+              },
+              {
+                "years": "1",
+                "discount": "15.00"
+              },
+              {
+                "years": "2",
+                "discount": "24.00"
+              },
+              {
+                "years": "3",
+                "discount": "28.00"
+              },
+              {
+                "years": "4",
+                "discount": "30.00"
+              },
+              {
+                "years": "5",
+                "discount": "25.00"
+              },
+              {
+                "years": "6",
+                "discount": "25.00"
+              },
+              {
+                "years": "7",
+                "discount": "28.00"
+              },
+              {
+                "years": "8",
+                "discount": "29.00"
+              },
+              {
+                "years": "9",
+                "discount": "29.00"
+              }
+            ]
+          },
+          "ncdstepBackCollection": {
+            "vehicleStepBack": [
+              {
+                "vehicleID": "csdt2:79134",
+                "yearsNCD": "3",
+                "ncdstepBack": {
+                  "withoutNCDProtection": {
+                    "yearsNCDAfterOneClaim": 1,
+                    "yearsNCDAfterTwoClaims": 0,
+                    "yearsNCDAfterThreeClaims": 0
+                  },
+                  "withNCDProtection": {
+                    "yearsNCDAfterOneClaim": 3,
+                    "yearsNCDAfterTwoClaims": 3,
+                    "yearsNCDAfterThreeClaims": 0
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "id": "1",
+        "jsonrpc": "2.0"
+      }
+    }
+  }

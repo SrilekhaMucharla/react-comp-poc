@@ -1,0 +1,23 @@
+.hd-info-box__table__body {
+    & > tr > td {
+        padding-bottom: 8px;
+        vertical-align: top;
+        
+        &:first-child {
+            width: 50%;
+            color: $info-color;
+            @include media-breakpoint-up(md) {
+                width: initial;
+                white-space: nowrap;
+            }
+        }
+
+        &:last-child {
+            width: 50%;
+            @include media-breakpoint-up(md) {
+                width: initial;
+                padding-left: 26px;
+            }
+        }
+    }
+}

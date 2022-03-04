@@ -1,0 +1,512 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/edgev10/account/account",
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "usertoken": [
+        "any"
+      ],
+      "Authorization": [
+        "Basic c3U6Z3c="
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "61"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ],
+      "Host": [
+        "localhost:1080"
+      ]
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "id": "1",
+      "jsonrpc": "2.0",
+      "method": "getMetaData",
+      "params": []
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Server-Timing": [
+        "dtRpid;desc=\"-94478293\""
+      ],
+      "X-OneAgent-JS-Injection": [
+        "true"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Set-Cookie": [
+        "dtCookie=v_4_srv_3_sn_731BE1F29A715875AC88695C540204D1_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0; Path=/",
+        "JSESSIONID=0000qEH7geLI_saGzNt2ap4AgPY:-1; Path=/; HttpOnly",
+        "JSESSIONID=53168164-ea00-4398-938a-49b9b451f52e; Expires=Fri, 28-May-21 10:12:28 GMT; Path=/"
+      ],
+      "Date": [
+        "Fri, 28 May 2021 09:12:28 GMT"
+      ],
+      "Expires": [
+        "Thu, 01 Dec 1994 16:00:00 GMT"
+      ],
+      "Cache-Control": [
+        "no-cache=\"set-cookie, set-cookie2\""
+      ],
+      "content-length": [
+        "6114"
+      ]
+    },
+    "cookies": {
+      "dtCookie": "v_4_srv_3_sn_731BE1F29A715875AC88695C540204D1_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0",
+      "JSESSIONID": "53168164-ea00-4398-938a-49b9b451f52e"
+    },
+    "body": {
+      "result": {
+        "newTypeMeta": [
+          {
+            "name": "com.hastings.integration.digital.requests.RequestingModule",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {},
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.account.dto.AccountResponseDTO.AuthenticatingSystem",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {},
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.account.dto.AccountResponseDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "AuthenticatingSystem": {
+                    "name": "AuthenticatingSystem",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.account.dto.AccountResponseDTO.AuthenticatingSystem",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "AccountId": {
+                    "name": "AccountId",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "ResultFlag": {
+                    "name": "ResultFlag",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Code": {
+                    "name": "Code",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "JwtToken": {
+                    "name": "JwtToken",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Confirmation": {
+                    "name": "Confirmation",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "EmailAddress": {
+                    "name": "EmailAddress",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "GWAccountsAssociated": {
+                    "name": "GWAccountsAssociated",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "AssociatedGWAccounts": {
+                    "name": "AssociatedGWAccounts",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.account.dto.AccountDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "CorrelationId": {
+                    "name": "CorrelationId",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "AccountStatus": {
+                    "name": "AccountStatus",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "EmailLoginStatus": {
+                    "name": "EmailLoginStatus",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.account.dto.AccountResponseDTO.EmailLoginStatus",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "CDLClientIds": {
+                    "name": "CDLClientIds",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.account.dto.AccountDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  },
+                  "Details": {
+                    "name": "Details",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "FailedLoginCount": {
+                    "name": "FailedLoginCount",
+                    "valueType": {
+                      "name": "Integer",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "UserId": {
+                    "name": "UserId",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Brand": {
+                    "name": "Brand",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Message": {
+                    "name": "Message",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Name": {
+                    "name": "Name",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "AccountToken": {
+                    "name": "AccountToken",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "AccountMigrationExecuted": {
+                    "name": "AccountMigrationExecuted",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "SessionId": {
+                    "name": "SessionId",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "EmailVerificationRequired": {
+                    "name": "EmailVerificationRequired",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "CDLAccountsAssociated": {
+                    "name": "CDLAccountsAssociated",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DateOfBirth": {
+                    "name": "DateOfBirth",
+                    "valueType": {
+                      "name": "Date",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "PasswordToken": {
+                    "name": "PasswordToken",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.account.dto.AccountResponseDTO.EmailLoginStatus",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {},
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.account.dto.AccountRequestDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "SessionToken": {
+                    "name": "SessionToken",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "UserId": {
+                    "name": "UserId",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Brand": {
+                    "name": "Brand",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "IsUaa": {
+                    "name": "IsUaa",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "SendEmail": {
+                    "name": "SendEmail",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "QuoteId": {
+                    "name": "QuoteId",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "AssociatedGWAccount": {
+                    "name": "AssociatedGWAccount",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "EmailAddress": {
+                    "name": "EmailAddress",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "NewEmailAddress": {
+                    "name": "NewEmailAddress",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "DateOfBirth": {
+                    "name": "DateOfBirth",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "NewDateOfBirth": {
+                    "name": "NewDateOfBirth",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Password": {
+                    "name": "Password",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "NewPassword": {
+                    "name": "NewPassword",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "IsPasswordSet": {
+                    "name": "IsPasswordSet",
+                    "valueType": {
+                      "name": "Boolean",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "PasswordToken": {
+                    "name": "PasswordToken",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "RequestingModule": {
+                    "name": "RequestingModule",
+                    "valueType": {
+                      "className": "com.hastings.integration.digital.requests.RequestingModule",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.account.dto.AccountDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "AccountNumber": {
+                    "name": "AccountNumber",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          }
+        ]
+      },
+      "id": "1",
+      "jsonrpc": "2.0"
+    }
+  }
+}

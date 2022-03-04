@@ -1,0 +1,13 @@
+.invalid-url-container {
+    background: $app-theme;
+    padding: 20px 20px 0;
+    height: 90vh;
+    @include media-breakpoint-down(md) {
+        @include orientation(landscape) {
+            margin-top: 0;
+        }
+    }
+}
+.invalid-url-container-override {
+    margin-top: 0;
+}

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDInfoCard /> render component with children 1`] = `
+<styled.div
+  className="i-card-container left null"
+>
+  <p
+    className="info-card-title"
+    key="info-card-title"
+  >
+    Random title
+  </p>
+  <span>
+    children
+  </span>
+</styled.div>
+`;
+
+exports[`<HDInfoCard /> render component with paragraph only 1`] = `
+<styled.div
+  className="i-card-container left null"
+>
+  <p
+    className="info-card-paragraph"
+    key="0"
+  >
+    test1
+  </p>
+  <p
+    className="info-card-paragraph"
+    key="1"
+  >
+    test2
+  </p>
+</styled.div>
+`;
+
+exports[`<HDInfoCard /> render component with text only 1`] = `
+<styled.div
+  className="i-card-container left null"
+>
+  <p
+    className="info-card-title"
+    key="info-card-title"
+  >
+    Random title
+  </p>
+</styled.div>
+`;

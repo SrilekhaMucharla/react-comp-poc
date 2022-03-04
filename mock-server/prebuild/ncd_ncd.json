@@ -1,0 +1,295 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/edgev10/ncd/ncd",
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "usertoken": [
+        "any"
+      ],
+      "Authorization": [
+        "Basic c3U6Z3c="
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "61"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ],
+      "Host": [
+        "localhost:1080"
+      ]
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "id": "1",
+      "jsonrpc": "2.0",
+      "method": "getMetaData",
+      "params": []
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Server-Timing": [
+        "dtRpid;desc=\"-166451754\""
+      ],
+      "X-OneAgent-JS-Injection": [
+        "true"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Set-Cookie": [
+        "dtCookie=v_4_srv_3_sn_4CB0F0D06952A5B0674B6EF48D77B7FE_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_1; Path=/",
+        "JSESSIONID=0000S8a1H8-_CcwENmrIC_dgWHY:-1; Path=/; HttpOnly",
+        "JSESSIONID=563e73df-536d-4490-941f-15936751ec9a; Expires=Fri, 28-May-21 10:12:26 GMT; Path=/"
+      ],
+      "Date": [
+        "Fri, 28 May 2021 09:12:26 GMT"
+      ],
+      "Expires": [
+        "Thu, 01 Dec 1994 16:00:00 GMT"
+      ],
+      "Cache-Control": [
+        "no-cache=\"set-cookie, set-cookie2\""
+      ],
+      "content-length": [
+        "3500"
+      ]
+    },
+    "cookies": {
+      "dtCookie": "v_4_srv_3_sn_4CB0F0D06952A5B0674B6EF48D77B7FE_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_1",
+      "JSESSIONID": "563e73df-536d-4490-941f-15936751ec9a"
+    },
+    "body": {
+      "result": {
+        "newTypeMeta": [
+          {
+            "name": "com.hastings.edgev10.capabilities.ncd.dto.AverageDiscountCollectionDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "AverageDiscount": {
+                    "name": "AverageDiscount",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.ncd.dto.AverageDiscountDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ncd.dto.NCDDataResponseDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "NCDStepBackCollection": {
+                    "name": "NCDStepBackCollection",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.ncd.dto.NCDStepBackCollectionDTO",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "AverageDiscountCollection": {
+                    "name": "AverageDiscountCollection",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.ncd.dto.AverageDiscountCollectionDTO",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ncd.dto.NCDStepBackCollectionDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "VehicleStepBack": {
+                    "name": "VehicleStepBack",
+                    "valueType": {
+                      "elementType": {
+                        "className": "com.hastings.edgev10.capabilities.ncd.dto.VehicleStepBackDTO",
+                        "kind": "class"
+                      },
+                      "kind": "collection"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ncd.dto.AverageDiscountDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "Discount": {
+                    "name": "Discount",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "Years": {
+                    "name": "Years",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ncd.dto.VehicleStepBackDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "NCDStepBack": {
+                    "name": "NCDStepBack",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.ncd.dto.NCDStepBackDTO",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "VehicleID": {
+                    "name": "VehicleID",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "YearsNCD": {
+                    "name": "YearsNCD",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ncd.dto.NCDStepBackDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "WithoutNCDProtection": {
+                    "name": "WithoutNCDProtection",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.ncd.dto.StepBackYearsDTO",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  },
+                  "WithNCDProtection": {
+                    "name": "WithNCDProtection",
+                    "valueType": {
+                      "className": "com.hastings.edgev10.capabilities.ncd.dto.StepBackYearsDTO",
+                      "kind": "class"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          },
+          {
+            "name": "com.hastings.edgev10.capabilities.ncd.dto.StepBackYearsDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "YearsNCDAfterTwoClaims": {
+                    "name": "YearsNCDAfterTwoClaims",
+                    "valueType": {
+                      "name": "Integer",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "YearsNCDAfterThreeClaims": {
+                    "name": "YearsNCDAfterThreeClaims",
+                    "valueType": {
+                      "name": "Integer",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  },
+                  "YearsNCDAfterOneClaim": {
+                    "name": "YearsNCDAfterOneClaim",
+                    "valueType": {
+                      "name": "Integer",
+                      "kind": "primitive"
+                    },
+                    "metadata": []
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          }
+        ]
+      },
+      "id": "1",
+      "jsonrpc": "2.0"
+    }
+  }
+}

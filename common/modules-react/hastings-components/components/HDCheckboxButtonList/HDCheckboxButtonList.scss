@@ -1,0 +1,42 @@
+$check-icon-url: url('../../../../../applications/quote-and-buy/src/assets/images/icons/check-solid.svg');
+.hd-checkbox-button-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.hd-checkbox-button-list__item {
+    background-color: $midnight-prussian-blue;
+    border: 1px solid $info-color;
+    padding: 10px 10px 10px 20px;
+    border-radius: 6px;
+    flex-direction: row-reverse;
+    .hd-image-radio-btn__header-value {
+        padding: 0 20px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 1.35;
+        font-weight: 500;
+    }
+    .hd-image-radio-btn_input {
+        height: 24px;
+        width: 24px;
+        border-radius: 15%;
+        border: 2px solid $mono-white;
+        &:checked {
+            border-radius: 15%;
+        }
+
+        &:checked:after {
+            fill: $info-color;
+            content: $check-icon-url;
+            height: 20px;
+            width: 20px;
+            border: 3px solid $mono-white;
+            border-radius: 5%;
+        }
+    }
+    &.selected {
+        background-color: $blue-dark-2;
+        border: 1px solid $info-color;
+    }
+}

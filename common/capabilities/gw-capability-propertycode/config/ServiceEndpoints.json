@@ -1,0 +1,7 @@
+[
+  {
+    "server": "pc",
+    "serviceName": "propertyCodeLookup",
+    "service": "propertycode/propertycode"
+  }
+]

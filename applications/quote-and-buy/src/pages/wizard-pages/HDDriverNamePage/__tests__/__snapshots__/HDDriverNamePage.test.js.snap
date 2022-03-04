@@ -1,0 +1,1561 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDriverNamePage /> should render the component and match snapshot 1`] = `
+<Component>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Connect(HDDriverNamePage)>
+      <HDDriverNamePage
+        setNavigation={[Function]}
+        setWizardPageState={[Function]}
+        submissionVM={
+          Object {
+            "baseData": Object {
+              "accountHolder": Object {
+                "dateOfBirth": null,
+                "prefix": Object {
+                  "aspects": Object {},
+                },
+              },
+              "isExistingCustomer": false,
+              "isPostalDocument": false,
+              "jobType": "Submission",
+              "marketingContacts": Object {
+                "allowEmail": false,
+                "allowPost": false,
+                "allowSMS": false,
+                "allowTelephone": false,
+              },
+              "periodStatus": "Draft",
+              "policyAddress": Object {},
+              "producerCode": "Default",
+              "productCode": "PrivateCar_Ext",
+              "productName": "Private Car",
+              "termType": "Annual",
+            },
+            "lobData": Object {
+              "privateCar": Object {
+                "coverables": Object {
+                  "addInterestTypeCategory": "PAVhcleAddlInterest",
+                  "drivers": Array [
+                    Object {
+                      "claimsAndConvictions": Object {
+                        "claimsDetailsCollection": Array [],
+                        "convictionsCollection": Array [],
+                      },
+                      "licenceObtainedDate": null,
+                      "person": Object {
+                        "prefix": Object {},
+                      },
+                      "previousPoliciesInformation": Object {},
+                      "residingInUKSince": null,
+                      "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                    },
+                  ],
+                  "vehicleDrivers": Array [
+                    Object {},
+                  ],
+                  "vehicles": Array [
+                    Object {
+                      "isCarModified": "",
+                      "ncdProtection": Object {
+                        "drivingExperience": Object {},
+                      },
+                      "tracker": "",
+                      "vehicleModifications": Array [],
+                      "vehicleWorth": "",
+                    },
+                  ],
+                },
+                "preQualQuestionSets": Array [],
+              },
+            },
+          }
+        }
+      >
+        <Container
+          className="driver-name-page"
+          fluid={false}
+          id="driver-name-page"
+        >
+          <div
+            className="driver-name-page container"
+            id="driver-name-page"
+          >
+            <Row
+              noGutters={false}
+            >
+              <div
+                className="row"
+              >
+                <Col>
+                  <div
+                    className="col"
+                  >
+                    <HDLabelRefactor
+                      Tag="h2"
+                      adjustImagePosition={true}
+                      className="page-driver-name__title"
+                      id="page-driver-name-title"
+                      text="What's your title and name?"
+                    >
+                      <h2
+                        className="page-driver-name__title"
+                        id="page-driver-name-title"
+                      >
+                        What's your title and name?
+                      </h2>
+                    </HDLabelRefactor>
+                  </div>
+                </Col>
+              </div>
+            </Row>
+            <HDInfoCardRefactor
+              className={null}
+              id="page-driver-name-info-card"
+              image="exclamation-icon.svg"
+              isRight={false}
+              notes={null}
+              paragraphs={
+                Array [
+                  "You'll be the account holder, so you're responsible for all payments and can manage the policies online.",
+                ]
+              }
+              size={null}
+              theme={null}
+              title={null}
+            >
+              <div
+                className="info-card left  "
+                id="page-driver-name-info-card"
+              >
+                <img
+                  alt="info-card"
+                  className="info-card__icon"
+                  src="exclamation-icon.svg"
+                />
+                <p
+                  className="info-card__paragraph paragraph_0"
+                  key="0"
+                >
+                  You'll be the account holder, so you're responsible for all payments and can manage the policies online.
+                </p>
+              </div>
+            </HDInfoCardRefactor>
+            <HDForm
+              className=""
+              initValues={Object {}}
+              onValidation={[Function]}
+              passedKey="default-key"
+              resetFormOnStart={false}
+              submissionVM={
+                Object {
+                  "baseData": Object {
+                    "accountHolder": Object {
+                      "dateOfBirth": null,
+                      "prefix": Object {
+                        "aspects": Object {},
+                      },
+                    },
+                    "isExistingCustomer": false,
+                    "isPostalDocument": false,
+                    "jobType": "Submission",
+                    "marketingContacts": Object {
+                      "allowEmail": false,
+                      "allowPost": false,
+                      "allowSMS": false,
+                      "allowTelephone": false,
+                    },
+                    "periodStatus": "Draft",
+                    "policyAddress": Object {},
+                    "producerCode": "Default",
+                    "productCode": "PrivateCar_Ext",
+                    "productName": "Private Car",
+                    "termType": "Annual",
+                  },
+                  "lobData": Object {
+                    "privateCar": Object {
+                      "coverables": Object {
+                        "addInterestTypeCategory": "PAVhcleAddlInterest",
+                        "drivers": Array [
+                          Object {
+                            "claimsAndConvictions": Object {
+                              "claimsDetailsCollection": Array [],
+                              "convictionsCollection": Array [],
+                            },
+                            "licenceObtainedDate": null,
+                            "person": Object {
+                              "prefix": Object {},
+                            },
+                            "previousPoliciesInformation": Object {},
+                            "residingInUKSince": null,
+                            "tempID": "dd309e0e-8153-423c-aaa5-9930481060ad",
+                          },
+                        ],
+                        "vehicleDrivers": Array [
+                          Object {},
+                        ],
+                        "vehicles": Array [
+                          Object {
+                            "isCarModified": "",
+                            "ncdProtection": Object {
+                              "drivingExperience": Object {},
+                            },
+                            "tracker": "",
+                            "vehicleModifications": Array [],
+                            "vehicleWorth": "",
+                          },
+                        ],
+                      },
+                      "preQualQuestionSets": Array [],
+                    },
+                  },
+                }
+              }
+              validationSchema={
+                ObjectSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_defaultDefault": [Function],
+                  "_deps": Array [],
+                  "_excludedEdges": Array [],
+                  "_exclusive": Object {},
+                  "_mutate": undefined,
+                  "_nodes": Array [
+                    "prefix",
+                    "gender",
+                    "lastName",
+                    "firstName",
+                  ],
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "object",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "fields": Object {
+                    "firstName": StringSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [],
+                      "_deps": Array [],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                        "matches": false,
+                        "max": true,
+                        "required": true,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "string",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                      "vmPath": "lobData.privateCar.coverables.drivers.children.0.person.firstName",
+                    },
+                    "gender": StringSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [
+                        Condition {
+                          "fn": [Function],
+                          "refs": Array [
+                            Reference {
+                              "getter": [Function],
+                              "isContext": false,
+                              "isSibling": true,
+                              "isValue": false,
+                              "key": "prefix",
+                              "map": undefined,
+                              "path": "prefix",
+                            },
+                          ],
+                        },
+                      ],
+                      "_deps": Array [
+                        "prefix",
+                      ],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "string",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                      "vmPath": "lobData.privateCar.coverables.drivers.children.0.gender",
+                    },
+                    "lastName": StringSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [],
+                      "_deps": Array [],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                        "matches": false,
+                        "max": true,
+                        "required": true,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "string",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                        [Function],
+                        [Function],
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                      "vmPath": "lobData.privateCar.coverables.drivers.children.0.person.lastName",
+                    },
+                    "prefix": StringSchema {
+                      "_blacklist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "_conditions": Array [],
+                      "_deps": Array [],
+                      "_exclusive": Object {
+                        "VMValidation": false,
+                        "required": true,
+                      },
+                      "_mutate": undefined,
+                      "_options": Object {
+                        "abortEarly": true,
+                        "recursive": true,
+                      },
+                      "_type": "string",
+                      "_typeError": [Function],
+                      "_whitelist": RefSet {
+                        "list": Set {},
+                        "refs": Map {},
+                      },
+                      "tests": Array [
+                        [Function],
+                        [Function],
+                      ],
+                      "transforms": Array [
+                        [Function],
+                      ],
+                      "type": "string",
+                      "vmPath": "lobData.privateCar.coverables.drivers.children.0.person.prefix",
+                    },
+                  },
+                  "tests": Array [],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                  "type": "object",
+                }
+              }
+            >
+              <Formik
+                initialTouched={Array []}
+                initialValues={
+                  Object {
+                    "firstName": "",
+                    "gender": "",
+                    "lastName": "",
+                    "prefix": "",
+                  }
+                }
+                key="default-key"
+                validateOnMount={true}
+                validationSchema={
+                  ObjectSchema {
+                    "_blacklist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "_conditions": Array [],
+                    "_defaultDefault": [Function],
+                    "_deps": Array [],
+                    "_excludedEdges": Array [],
+                    "_exclusive": Object {},
+                    "_mutate": undefined,
+                    "_nodes": Array [
+                      "prefix",
+                      "gender",
+                      "lastName",
+                      "firstName",
+                    ],
+                    "_options": Object {
+                      "abortEarly": true,
+                      "recursive": true,
+                    },
+                    "_type": "object",
+                    "_typeError": [Function],
+                    "_whitelist": RefSet {
+                      "list": Set {},
+                      "refs": Map {},
+                    },
+                    "fields": Object {
+                      "firstName": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                          "matches": false,
+                          "max": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                        "vmPath": "lobData.privateCar.coverables.drivers.children.0.person.firstName",
+                      },
+                      "gender": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [
+                          Condition {
+                            "fn": [Function],
+                            "refs": Array [
+                              Reference {
+                                "getter": [Function],
+                                "isContext": false,
+                                "isSibling": true,
+                                "isValue": false,
+                                "key": "prefix",
+                                "map": undefined,
+                                "path": "prefix",
+                              },
+                            ],
+                          },
+                        ],
+                        "_deps": Array [
+                          "prefix",
+                        ],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                        "vmPath": "lobData.privateCar.coverables.drivers.children.0.gender",
+                      },
+                      "lastName": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                          "matches": false,
+                          "max": true,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                        "vmPath": "lobData.privateCar.coverables.drivers.children.0.person.lastName",
+                      },
+                      "prefix": StringSchema {
+                        "_blacklist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "_conditions": Array [],
+                        "_deps": Array [],
+                        "_exclusive": Object {
+                          "VMValidation": false,
+                          "required": true,
+                        },
+                        "_mutate": undefined,
+                        "_options": Object {
+                          "abortEarly": true,
+                          "recursive": true,
+                        },
+                        "_type": "string",
+                        "_typeError": [Function],
+                        "_whitelist": RefSet {
+                          "list": Set {},
+                          "refs": Map {},
+                        },
+                        "tests": Array [
+                          [Function],
+                          [Function],
+                        ],
+                        "transforms": Array [
+                          [Function],
+                        ],
+                        "type": "string",
+                        "vmPath": "lobData.privateCar.coverables.drivers.children.0.person.prefix",
+                      },
+                    },
+                    "tests": Array [],
+                    "transforms": Array [
+                      [Function],
+                    ],
+                    "type": "object",
+                  }
+                }
+              >
+                <Form
+                  className=""
+                  inline={false}
+                  noValidate={true}
+                  onSubmit={[Function]}
+                >
+                  <form
+                    className=""
+                    noValidate={true}
+                    onSubmit={[Function]}
+                  >
+                    <Row
+                      className="margin-top-md margin-top-lg-mobile"
+                      noGutters={false}
+                    >
+                      <div
+                        className="margin-top-md margin-top-lg-mobile row"
+                      >
+                        <Col>
+                          <div
+                            className="col"
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.person.prefix.prefix.page-driver-name-select-titles"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDToggleButtonGroup",
+                                    }
+                                  }
+                                  availableValues={
+                                    Array [
+                                      Object {
+                                        "name": "typekey.NamePrefix.003_Mr",
+                                        "value": "003_Mr",
+                                      },
+                                      Object {
+                                        "name": "typekey.NamePrefix.004",
+                                        "value": "004",
+                                      },
+                                      Object {
+                                        "name": "typekey.NamePrefix.005_Ms",
+                                        "value": "005_Ms",
+                                      },
+                                      Object {
+                                        "name": "typekey.NamePrefix.002",
+                                        "value": "002",
+                                      },
+                                      Object {
+                                        "name": "Dr",
+                                        "value": "003",
+                                      },
+                                    ]
+                                  }
+                                  btnGroupClassName="grid grid--col-3 grid--col-lg-6"
+                                  className="page-driver-name__select-titles "
+                                  custom={true}
+                                  id="page-driver-name-select-titles"
+                                  name="prefix"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.person.prefix"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "What's your title and name?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    availableValues={
+                                      Array [
+                                        Object {
+                                          "name": "typekey.NamePrefix.003_Mr",
+                                          "value": "003_Mr",
+                                        },
+                                        Object {
+                                          "name": "typekey.NamePrefix.004",
+                                          "value": "004",
+                                        },
+                                        Object {
+                                          "name": "typekey.NamePrefix.005_Ms",
+                                          "value": "005_Ms",
+                                        },
+                                        Object {
+                                          "name": "typekey.NamePrefix.002",
+                                          "value": "002",
+                                        },
+                                        Object {
+                                          "name": "Dr",
+                                          "value": "003",
+                                        },
+                                      ]
+                                    }
+                                    btnGroupClassName="grid grid--col-3 grid--col-lg-6"
+                                    className="page-driver-name__select-titles  custom"
+                                    id="page-driver-name-select-titles"
+                                    name="prefix"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.person.prefix"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "What's your title and name?",
+                                      }
+                                    }
+                                  >
+                                    <HDToggleButtonGroup
+                                      availableValues={
+                                        Array [
+                                          Object {
+                                            "name": "typekey.NamePrefix.003_Mr",
+                                            "value": "003_Mr",
+                                          },
+                                          Object {
+                                            "name": "typekey.NamePrefix.004",
+                                            "value": "004",
+                                          },
+                                          Object {
+                                            "name": "typekey.NamePrefix.005_Ms",
+                                            "value": "005_Ms",
+                                          },
+                                          Object {
+                                            "name": "typekey.NamePrefix.002",
+                                            "value": "002",
+                                          },
+                                          Object {
+                                            "name": "Dr",
+                                            "value": "003",
+                                          },
+                                        ]
+                                      }
+                                      btnClassName=""
+                                      btnGroupClassName="grid grid--col-3 grid--col-lg-6"
+                                      className="page-driver-name__select-titles  custom"
+                                      customClassName=""
+                                      data={null}
+                                      disabled={false}
+                                      doReset={false}
+                                      id="page-driver-name-select-titles"
+                                      label={null}
+                                      name="prefix"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.person.prefix"
+                                      type="radio"
+                                      value=""
+                                    >
+                                      <div
+                                        className=" page-driver-name__select-titles  custom"
+                                      >
+                                        <ForwardRef
+                                          className="grid grid--col-3 grid--col-lg-6"
+                                          name="prefix"
+                                          type="radio"
+                                          value=""
+                                          vertical={false}
+                                        >
+                                          <ButtonGroup
+                                            className="grid grid--col-3 grid--col-lg-6"
+                                            role="group"
+                                            toggle={true}
+                                            vertical={false}
+                                          >
+                                            <div
+                                              className="grid grid--col-3 grid--col-lg-6 btn-group btn-group-toggle"
+                                              role="group"
+                                            >
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$003_Mr"
+                                                name="prefix"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="003_Mr"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="prefix"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="003_Mr"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        typekey.NamePrefix.003_Mr
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$004"
+                                                name="prefix"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="004"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="prefix"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="004"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        typekey.NamePrefix.004
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$005_Ms"
+                                                name="prefix"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="005_Ms"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="prefix"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="005_Ms"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        typekey.NamePrefix.005_Ms
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$002"
+                                                name="prefix"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="002"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="prefix"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="002"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        typekey.NamePrefix.002
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                              <ToggleButton
+                                                checked={false}
+                                                className=""
+                                                disabled={false}
+                                                key=".$003"
+                                                name="prefix"
+                                                onChange={[Function]}
+                                                type="radio"
+                                                value="003"
+                                                variant="default"
+                                              >
+                                                <Button
+                                                  active={false}
+                                                  as="label"
+                                                  className=""
+                                                  disabled={false}
+                                                  variant="default"
+                                                >
+                                                  <label
+                                                    className="btn btn-default"
+                                                    disabled={false}
+                                                  >
+                                                    <input
+                                                      autoComplete="off"
+                                                      checked={false}
+                                                      disabled={false}
+                                                      name="prefix"
+                                                      onBlur={[Function]}
+                                                      onChange={[Function]}
+                                                      onFocus={[Function]}
+                                                      type="radio"
+                                                      value="003"
+                                                    />
+                                                    <div>
+                                                      <div>
+                                                        Dr
+                                                      </div>
+                                                    </div>
+                                                  </label>
+                                                </Button>
+                                              </ToggleButton>
+                                            </div>
+                                          </ButtonGroup>
+                                        </ForwardRef>
+                                      </div>
+                                    </HDToggleButtonGroup>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you need to answer this question
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                    <Row
+                      noGutters={false}
+                    >
+                      <div
+                        className="row"
+                      >
+                        <Col
+                          sm={8}
+                          xs={12}
+                        >
+                          <div
+                            className="col-sm-8 col-12"
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.person.firstName.firstName.page-driver-name-first-name"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDTextInput",
+                                    }
+                                  }
+                                  className="page-driver-name__first-name "
+                                  custom={true}
+                                  id="page-driver-name-first-name"
+                                  name="firstName"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onKeyPress={[Function]}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                  placeholder="First name"
+                                  reference={
+                                    Object {
+                                      "current": <input
+                                        class="hd-text-input__form-control form-control"
+                                        data-testid="text-input"
+                                        id="page-driver-name-first-name"
+                                        name="firstName"
+                                        path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                        placeholder="First name"
+                                        type="firstName"
+                                        value=""
+                                      />,
+                                    }
+                                  }
+                                  size="lg"
+                                  tickIcon={false}
+                                  type="firstName"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "What's your title and name?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    className="page-driver-name__first-name  custom custom-lg"
+                                    id="page-driver-name-first-name"
+                                    name="firstName"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onKeyPress={[Function]}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                    placeholder="First name"
+                                    reference={
+                                      Object {
+                                        "current": <input
+                                          class="hd-text-input__form-control form-control"
+                                          data-testid="text-input"
+                                          id="page-driver-name-first-name"
+                                          name="firstName"
+                                          path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                          placeholder="First name"
+                                          type="firstName"
+                                          value=""
+                                        />,
+                                      }
+                                    }
+                                    tickIcon={false}
+                                    type="firstName"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "What's your title and name?",
+                                      }
+                                    }
+                                  >
+                                    <ForwardRef
+                                      allowLeadingZero={false}
+                                      appendContent={null}
+                                      appendLabel={null}
+                                      className="page-driver-name__first-name  custom custom-lg"
+                                      customClassName=""
+                                      data={null}
+                                      disabled={false}
+                                      icon={null}
+                                      id="page-driver-name-first-name"
+                                      inputMode={null}
+                                      isInvalidCustom={null}
+                                      mask={null}
+                                      maskChar="_"
+                                      maxLength={null}
+                                      name="firstName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyPress={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                      placeholder="First name"
+                                      preText={null}
+                                      reference={
+                                        Object {
+                                          "current": <input
+                                            class="hd-text-input__form-control form-control"
+                                            data-testid="text-input"
+                                            id="page-driver-name-first-name"
+                                            name="firstName"
+                                            path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                            placeholder="First name"
+                                            type="firstName"
+                                            value=""
+                                          />,
+                                        }
+                                      }
+                                      reset={false}
+                                      size={null}
+                                      svgIcon={null}
+                                      thousandSeprator={false}
+                                      tickIcon={false}
+                                      type="firstName"
+                                      value=""
+                                    >
+                                      <InputGroup
+                                        className="page-driver-name__first-name  custom custom-lg "
+                                        size={null}
+                                      >
+                                        <div
+                                          className="page-driver-name__first-name  custom custom-lg  input-group"
+                                        >
+                                          <FormControl
+                                            className="hd-text-input__form-control"
+                                            data-testid="text-input"
+                                            disabled={false}
+                                            id="page-driver-name-first-name"
+                                            inputMode={null}
+                                            maxLength={null}
+                                            name="firstName"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyPress={[Function]}
+                                            path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                            placeholder="First name"
+                                            type="firstName"
+                                            value=""
+                                          >
+                                            <input
+                                              className="hd-text-input__form-control form-control"
+                                              data-testid="text-input"
+                                              disabled={false}
+                                              id="page-driver-name-first-name"
+                                              inputMode={null}
+                                              maxLength={null}
+                                              name="firstName"
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyPress={[Function]}
+                                              path="lobData.privateCar.coverables.drivers.children.0.person.firstName"
+                                              placeholder="First name"
+                                              type="firstName"
+                                              value=""
+                                            />
+                                          </FormControl>
+                                          <i
+                                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                                          />
+                                        </div>
+                                      </InputGroup>
+                                    </ForwardRef>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you need to answer this question
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </div>
+                        </Col>
+                        <Col
+                          sm={8}
+                          xs={12}
+                        >
+                          <div
+                            className="col-sm-8 col-12"
+                          >
+                            <FormGroup
+                              key="lobData.privateCar.coverables.drivers.children.0.person.lastName.lastName.page-driver-name-last-name"
+                            >
+                              <div
+                                className="form-group"
+                              >
+                                <FormControl
+                                  as={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "defaultProps": Object {
+                                        "id": "default-id",
+                                        "onBeforeOpen": null,
+                                        "onBlur": null,
+                                        "onCancel": null,
+                                        "onChange": null,
+                                        "onClick": null,
+                                        "onConfirm": null,
+                                        "onDelete": null,
+                                        "onEdit": null,
+                                        "onFocus": null,
+                                        "onSelect": null,
+                                        "webAnalyticsEvent": null,
+                                      },
+                                      "displayName": undefined,
+                                      "propTypes": Object {
+                                        "id": [Function],
+                                        "onBeforeOpen": [Function],
+                                        "onBlur": [Function],
+                                        "onCancel": [Function],
+                                        "onChange": [Function],
+                                        "onClick": [Function],
+                                        "onConfirm": [Function],
+                                        "onDelete": [Function],
+                                        "onEdit": [Function],
+                                        "onFocus": [Function],
+                                        "onSelect": [Function],
+                                        "webAnalyticsEvent": [Function],
+                                      },
+                                      "render": [Function],
+                                      "type": undefined,
+                                      "typeName": "HDTextInput",
+                                    }
+                                  }
+                                  className="page-driver-name__last-name "
+                                  custom={true}
+                                  id="page-driver-name-last-name"
+                                  name="lastName"
+                                  onBeforeOpen={null}
+                                  onBlur={[Function]}
+                                  onCancel={null}
+                                  onChange={[Function]}
+                                  onClick={null}
+                                  onConfirm={null}
+                                  onDelete={null}
+                                  onEdit={null}
+                                  onFocus={null}
+                                  onKeyPress={[Function]}
+                                  onSelect={null}
+                                  path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                  placeholder="Last name"
+                                  reference={
+                                    Object {
+                                      "current": <input
+                                        class="hd-text-input__form-control form-control"
+                                        data-testid="text-input"
+                                        id="page-driver-name-last-name"
+                                        name="lastName"
+                                        path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                        placeholder="Last name"
+                                        type="lastName"
+                                        value=""
+                                      />,
+                                    }
+                                  }
+                                  size="lg"
+                                  tickIcon={false}
+                                  type="lastName"
+                                  value=""
+                                  webAnalyticsEvent={
+                                    Object {
+                                      "event_action": "What's your title and name?",
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    className="page-driver-name__last-name  custom custom-lg"
+                                    id="page-driver-name-last-name"
+                                    name="lastName"
+                                    onBeforeOpen={null}
+                                    onBlur={[Function]}
+                                    onCancel={null}
+                                    onChange={[Function]}
+                                    onClick={null}
+                                    onConfirm={null}
+                                    onDelete={null}
+                                    onEdit={null}
+                                    onFocus={null}
+                                    onKeyPress={[Function]}
+                                    onSelect={null}
+                                    path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                    placeholder="Last name"
+                                    reference={
+                                      Object {
+                                        "current": <input
+                                          class="hd-text-input__form-control form-control"
+                                          data-testid="text-input"
+                                          id="page-driver-name-last-name"
+                                          name="lastName"
+                                          path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                          placeholder="Last name"
+                                          type="lastName"
+                                          value=""
+                                        />,
+                                      }
+                                    }
+                                    tickIcon={false}
+                                    type="lastName"
+                                    value=""
+                                    webAnalyticsEvent={
+                                      Object {
+                                        "event_action": "What's your title and name?",
+                                      }
+                                    }
+                                  >
+                                    <ForwardRef
+                                      allowLeadingZero={false}
+                                      appendContent={null}
+                                      appendLabel={null}
+                                      className="page-driver-name__last-name  custom custom-lg"
+                                      customClassName=""
+                                      data={null}
+                                      disabled={false}
+                                      icon={null}
+                                      id="page-driver-name-last-name"
+                                      inputMode={null}
+                                      isInvalidCustom={null}
+                                      mask={null}
+                                      maskChar="_"
+                                      maxLength={null}
+                                      name="lastName"
+                                      onBlur={[Function]}
+                                      onChange={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyPress={[Function]}
+                                      path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                      placeholder="Last name"
+                                      preText={null}
+                                      reference={
+                                        Object {
+                                          "current": <input
+                                            class="hd-text-input__form-control form-control"
+                                            data-testid="text-input"
+                                            id="page-driver-name-last-name"
+                                            name="lastName"
+                                            path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                            placeholder="Last name"
+                                            type="lastName"
+                                            value=""
+                                          />,
+                                        }
+                                      }
+                                      reset={false}
+                                      size={null}
+                                      svgIcon={null}
+                                      thousandSeprator={false}
+                                      tickIcon={false}
+                                      type="lastName"
+                                      value=""
+                                    >
+                                      <InputGroup
+                                        className="page-driver-name__last-name  custom custom-lg "
+                                        size={null}
+                                      >
+                                        <div
+                                          className="page-driver-name__last-name  custom custom-lg  input-group"
+                                        >
+                                          <FormControl
+                                            className="hd-text-input__form-control"
+                                            data-testid="text-input"
+                                            disabled={false}
+                                            id="page-driver-name-last-name"
+                                            inputMode={null}
+                                            maxLength={null}
+                                            name="lastName"
+                                            onBlur={[Function]}
+                                            onChange={[Function]}
+                                            onFocus={[Function]}
+                                            onKeyPress={[Function]}
+                                            path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                            placeholder="Last name"
+                                            type="lastName"
+                                            value=""
+                                          >
+                                            <input
+                                              className="hd-text-input__form-control form-control"
+                                              data-testid="text-input"
+                                              disabled={false}
+                                              id="page-driver-name-last-name"
+                                              inputMode={null}
+                                              maxLength={null}
+                                              name="lastName"
+                                              onBlur={[Function]}
+                                              onChange={[Function]}
+                                              onFocus={[Function]}
+                                              onKeyPress={[Function]}
+                                              path="lobData.privateCar.coverables.drivers.children.0.person.lastName"
+                                              placeholder="Last name"
+                                              type="lastName"
+                                              value=""
+                                            />
+                                          </FormControl>
+                                          <i
+                                            className="fa fa-exclamation exclam hd-text-input__exclam"
+                                          />
+                                        </div>
+                                      </InputGroup>
+                                    </ForwardRef>
+                                  </ForwardRef>
+                                </FormControl>
+                                <Feedback
+                                  type="invalid"
+                                >
+                                  <div
+                                    className="invalid-feedback"
+                                  >
+                                    Sorry, you need to answer this question
+                                  </div>
+                                </Feedback>
+                              </div>
+                            </FormGroup>
+                          </div>
+                        </Col>
+                      </div>
+                    </Row>
+                  </form>
+                </Form>
+              </Formik>
+            </HDForm>
+          </div>
+        </Container>
+      </HDDriverNamePage>
+    </Connect(HDDriverNamePage)>
+  </Provider>
+</Component>
+`;

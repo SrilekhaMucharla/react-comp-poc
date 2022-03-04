@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDQuoteInfo /> render component with data type of string 1`] = `
+<div
+  className="quote-info theme-white "
+  id="quote-info-body"
+>
+  <p
+    className="quote-info__info-icon"
+    id="quote-info-icon"
+  >
+    <span>
+      !
+    </span>
+  </p>
+  <p
+    className="quote-info__info-paragraph align-self-center"
+    id="quote-info-paragraph"
+  >
+    <span>
+      If your car is written off or cannot be repaired
+    </span>
+  </p>
+</div>
+`;

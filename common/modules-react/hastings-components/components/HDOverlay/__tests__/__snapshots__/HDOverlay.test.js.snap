@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDOverlay /> matches the snapshot 1`] = `
+<styled.div
+  animationDuration={1}
+  color="#011831"
+  opacity={0.9}
+/>
+`;

@@ -1,0 +1,15 @@
+{
+  "name": "gw-portals-document-js",
+  "description": "Provides support for the upload and download of documents",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "gw-portals-url-js": "11.2.0-db467149eb42",
+    "gw-portals-transport-js": "11.2.0-db467149eb42"
+  }
+}

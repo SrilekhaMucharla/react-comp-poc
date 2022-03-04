@@ -1,0 +1,62 @@
+@import "~gw-common-styles";
+
+.gwDatatable {
+  .jut__DataTable__dataTable .ReactTable {
+    --dataTable-row-line-height: var(--line-height-lxl);
+    --dataTable-row-min-height: 32px;
+    --dataTable-row-padding-vertical: 4px;
+
+    .rt-table {
+      // The below styles defined in Jutro are using rem
+      // The computed value in the Digital app is different to that of the Jutro one.
+      // Defining exact sizes below
+    .rt-thead {
+        line-height: var(--dataTable-row-line-height);
+        min-height: var(--dataTable-row-min-height);
+        padding-top: var(--dataTable-row-padding-vertical);
+        padding-bottom: var(--dataTable-row-padding-vertical);
+    }
+
+    .rt-tr-group {
+        .rt-td {
+          // Datatables render the digital field component which has bottom padding by default
+          // We do not want this inside the datatable as it off-centers cells and makes the rows too big
+          .digitalFieldComponent {
+            padding-bottom: 0;
+          }
+          // The below styles defined in Jutro are using rem
+          // The computed value in the Digital app is different to that of the Jutro one.
+          // Defining exact sizes below
+          line-height: var(--dataTable-row-line-height);
+          min-height: var(--dataTable-row-min-height);
+          padding-top: var(--dataTable-row-padding-vertical);
+          padding-bottom: var(--dataTable-row-padding-vertical);
+          overflow: visible;
+        }
+
+        > span {
+          // Override fixed height of expandable row content
+          height: auto !important;
+        }
+      }
+    }
+  }
+
+  .jut__Pagination__pagination {
+    --jutro-pagination-line-height: var(--line-height-sm);
+    --jutro-pagination-padding-horizontal: 8px;
+    // Pagination is essentially a dropdown button so it is therefore using the digital theme styling
+    // for the button component making the button too big.
+    button {
+      line-height: var(--jutro-pagination-line-height);
+      padding-left: var(--jutro-pagination-padding-horizontal);
+      padding-right: var(--jutro-pagination-padding-horizontal);
+      height: inherit;
+      min-width: inherit;
+    }
+  }
+  
+  .jut__GenericSelectControl__menu {
+    width: auto;
+  }
+}

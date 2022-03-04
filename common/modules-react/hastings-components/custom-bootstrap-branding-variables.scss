@@ -1,0 +1,78 @@
+/* make the customizations */
+$theme-colors: (
+        "primary": #fff,
+);
+
+$border-radius: 0.625rem;
+$font-family-sans-serif: 'TTNormsPro-Bold', "Helvetica Neue", BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+$border-color: #727272;
+$border-color-active: #585757;
+$border-solid-xl: 1px solid $border-color;
+$border-solid-active-button: 1px solid $border-color-active;
+$background-color-active: #DDDDDD;
+$secondaryButtonBGColor: #FFFFFF;
+$headerTextColor: #333333;
+$primaryButtonBGColor: #404040;
+$tertiaryButtonBGColor: #4F4F4F;
+$secondaryTextColor: $secondaryButtonBGColor;
+$regularButtonBorderColor: #9C9C9C;
+
+/** Custom Hastings colors, based on theme.scss from main App **/
+$alternateBG: #f7f7f9;
+$appTheme: #011831;
+$pageBG: #ffffff;
+$regNumberBackgroundColor: #FBE700;
+
+$genericTitleBoldFontFace: $font-family-sans-serif;
+$genericFontFace: 'TTNormsPro';
+$genericNormalFontFace: 'TTNormsPro-Normal';
+$genericRegularFontFace: 'TTNormsPro-Regular';
+$fontStyleNormal: normal;
+$sectionHeaderColor: #02213e;
+$secondaryLink: #AFBDD1;
+
+$commonCompoBGColor: #01355a;
+$commonCompoBGColorLightBlue2: #f3f8ff;
+$commonCompoBGColorBlue: #00448c;
+$commonCompoBGColorRed:#a90d30;
+$commonCompoBGColorWhite: #ffffff;
+$commonCompoBGColorBlueLight:#0069cc;
+$commonCompoBGColorGreen:#0e838a;
+$commonCompoTextColorBlueDark : #011831;
+$commonCompoTextColorBlueGray: #60759e;
+$commonCompoTextColorBlueLight:#0069cc;
+$commonCompoTextColorBlueGrayLight: #afbdd1;
+$commonCompoTextColorGraySecondary:#4c6172;
+$commonCompoTextColor: #ffffff;
+$commonCompoBorderColor:  #60759e;
+$commonCompoBorderColorRed:#e10930;
+$commonCompoBorderColorGreen:#00a39e;
+$commonCompoBorderColorGreenDark:#0e838a;
+$commonCompoBorderColorBlueLight: #0085ff;
+$commonCompoBorderColorBlueGrayLight: #afbdd1;
+
+$customizeQuoteBtnColor: #0E838A;
+$customizeQuoteSecondaryBtnColor: rgba(14, 131, 138, 0.2);
+$customizeQuoteSecondaryBtnBorderColor: #00A39E;
+$customizeQuotePopupBackgroundColor: rgba(1, 24, 49, 0.95);
+
+$purple-secondary: #a24593;
+
+$breakpoint-mobile: 375px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1140px;
+
+/* Exclusively for usage in styled components */
+:export {
+  appTheme: $appTheme;
+  secondaryTextColor: $secondaryTextColor;
+  commonCompoBGColor: $commonCompoBGColor;
+  commonCompoBGColorWhite: $commonCompoBGColorWhite;
+  commonCompoBGColorLightBlue2: $commonCompoBGColorLightBlue2;
+  commonCompoTextColor: $commonCompoTextColor;
+  commonCompoTextColorBlueDark: $commonCompoTextColorBlueDark;
+  tertiaryTextColor: $commonCompoTextColorBlueGrayLight;
+  genericFontFace: $genericFontFace;
+  genericTitleBoldFontFace: $genericTitleBoldFontFace;
+}

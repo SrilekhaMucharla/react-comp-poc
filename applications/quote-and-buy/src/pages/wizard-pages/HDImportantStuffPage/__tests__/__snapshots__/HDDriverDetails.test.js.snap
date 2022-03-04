@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDDriversDetails /> render component 1`] = `
+<Row
+  className="driver-details-card"
+  noGutters={false}
+>
+  <Col
+    lg={6}
+    xs={12}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="col-xl-5 col-xxl-4 driver-details-card__key"
+        xs={6}
+      >
+        Date of birth:
+      </Col>
+      <Col
+        className="col-xl-7 col-xxl-8 driver-details-card__value"
+        xs={6}
+      >
+        18/11/1980
+      </Col>
+    </Row>
+  </Col>
+  <Col
+    lg={6}
+    xs={12}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="col-xxl-6 driver-details-card__key"
+        xs={6}
+      >
+        Accidents, claims or losses:
+      </Col>
+      <Col
+        className="col-xxl-6 driver-details-card__value"
+        xs={6}
+      >
+        1 in the last 5 years
+      </Col>
+    </Row>
+  </Col>
+  <Col
+    lg={6}
+    xs={12}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="col-xl-5 col-xxl-4 driver-details-card__key"
+        xs={6}
+      >
+        Occupation:
+      </Col>
+      <Col
+        className="col-xl-7 driver-details-card__value"
+        xs={6}
+      >
+        Teacher
+      </Col>
+    </Row>
+  </Col>
+  <Col
+    lg={6}
+    xs={12}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="col-xxl-6 driver-details-card__key"
+        xs={6}
+      >
+        Convictions:
+      </Col>
+      <Col
+        className="col-xxl-6 driver-details-card__value"
+        xs={6}
+      >
+        None
+      </Col>
+    </Row>
+  </Col>
+  <Col
+    lg={6}
+    xs={12}
+  >
+    <Row
+      noGutters={false}
+    >
+      <Col
+        className="col-xl-5 col-xxl-4 driver-details-card__key"
+        xs={6}
+      >
+        Driving licence:
+      </Col>
+      <Col
+        className="col-xl-7 col-xxl-8 driver-details-card__value"
+        xs={6}
+      >
+        Full UK Manual, held for 16 years
+      </Col>
+    </Row>
+  </Col>
+</Row>
+`;

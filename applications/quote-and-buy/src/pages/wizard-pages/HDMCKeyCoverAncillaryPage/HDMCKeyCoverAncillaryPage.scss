@@ -1,0 +1,47 @@
+.mc-key-cover-container{
+  // color: #110831;
+  .mc-keycover-section{
+    text-align: left;
+  }
+  ._loading_overlay_overlay {
+    position: fixed;
+    background-color: #011831;
+    opacity: 0.9;
+    font-weight: 100;
+    font-size: large;
+  }
+
+  ._loading_overlay_spinner {
+    position: relative;
+    margin: 0px auto 10px auto;
+    width: 230px;
+    max-height: 100%;
+    svg{
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+      circle{
+          stroke-width: 2.5;
+          stroke: #0084FF;
+          stroke-linecap: square;
+      }
+    }
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+      
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  }
+}
+.key-cover__title-label {
+  h2 {
+    margin-bottom: 0;
+  }
+  .substitute-navigation {
+    margin-bottom: 5%;
+    text-align: left;
+  }
+}

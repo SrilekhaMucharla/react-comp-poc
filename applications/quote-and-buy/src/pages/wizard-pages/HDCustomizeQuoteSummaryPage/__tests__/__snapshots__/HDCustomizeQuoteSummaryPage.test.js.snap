@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDCustomizeQuoteSummaryPage /> annual cost difference is calculated properly, when cover brand is HD (assuming selected is at offeredQuotes[0]) 1`] = `
+Object {
+  "annualCost": undefined,
+  "annualCostDifference": undefined,
+}
+`;
+
+exports[`<HDCustomizeQuoteSummaryPage /> annual cost difference is calculated properly, when cover brand is HE (assuming selected is at offeredQuotes[0]) 1`] = `
+Object {
+  "annualCost": undefined,
+  "annualCostDifference": undefined,
+}
+`;

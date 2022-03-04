@@ -1,0 +1,12 @@
+{
+  "name": "gw-build-config-urls",
+  "description": "Provides tools to manage URLs for the applications",
+  "main": "configUrls.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "expand-template": "^2.0.3",
+    "lodash": "^4.17.21"
+  }
+}

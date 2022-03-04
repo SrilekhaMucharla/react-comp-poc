@@ -1,0 +1,16 @@
+{
+  "name": "gw-capability-quoteandbind",
+  "description": "Adds support for the quoting capability",
+  "main": "index.js",
+  "version": "11.2.0-db467149eb42",
+  "author": "Guidewire",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "traverse": "^0.6.6"
+  },
+  "peerDependencies": {
+    "gw-portals-transport-js": "11.2.0-db467149eb42",
+    "gw-portals-url-js": "11.2.0-db467149eb42"
+  }
+}

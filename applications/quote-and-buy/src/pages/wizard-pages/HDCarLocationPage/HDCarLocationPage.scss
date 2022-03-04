@@ -1,0 +1,33 @@
+.car-location-container {
+    .form-group {
+        margin-bottom: 50px;
+
+        &:last-child {
+            margin-bottom: 30px;
+
+            @include media-breakpoint-down(sm) {
+                margin-bottom: 16px;
+            }
+        }
+        
+        @include media-breakpoint-down(sm) {
+            margin-bottom: 36px;
+        }
+    }
+
+    + div {
+        margin-top: 30px;
+
+        @include media-breakpoint-down(sm) {
+            margin-top: 20px;
+        }
+    }
+}
+
+.car-location__info-card {
+    margin-bottom: 30px;
+
+    @include media-breakpoint-down(sm) {
+        margin-bottom: 20px;
+    }
+}

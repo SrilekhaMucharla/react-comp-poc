@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDQuoteInfo /> render component with data type of string 1`] = `
+<styled.div>
+  <p
+    className="substitute-vehicle-info-icon"
+  >
+    <span>
+      !
+    </span>
+  </p>
+  <p
+    className="substitute-vehicle-info-paragraph"
+  >
+    <span>
+      If your car is written off or cannot be repaired
+    </span>
+  </p>
+</styled.div>
+`;

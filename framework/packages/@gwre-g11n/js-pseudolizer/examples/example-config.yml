@@ -1,0 +1,4 @@
+pseudoType: BOTH
+outputFileName : yy.<extension>
+patterns:
+  - examples/example.json

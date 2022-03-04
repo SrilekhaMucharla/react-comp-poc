@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HDButtonRefactor /> render component 1`] = `
+<Button
+  active={false}
+  block={false}
+  className="hd-btn hd-btn-primary "
+  disabled={false}
+  id=""
+  onClick={[Function]}
+  onKeyPress={null}
+  size={null}
+  type="button"
+  variant="primary"
+>
+  button
+</Button>
+`;
+
+exports[`<HDButtonRefactor /> render component with props 1`] = `
+<Button
+  active={false}
+  block={false}
+  className="hd-btn "
+  disabled={false}
+  id="Random-ID"
+  onClick={[Function]}
+  onKeyPress={null}
+  size={null}
+  type="button"
+  variant="btnsecondary"
+>
+  LABEL
+</Button>
+`;

@@ -1,0 +1,178 @@
+{
+  "httpRequest": {
+    "method": "POST",
+    "path": "/pc/service/edgev10/docretrieve/document",
+    "headers": {
+      "Content-Type": [
+        "application/json"
+      ],
+      "usertoken": [
+        "any"
+      ],
+      "Authorization": [
+        "Basic c3U6Z3c="
+      ],
+      "Accept": [
+        "*/*"
+      ],
+      "Content-Length": [
+        "61"
+      ],
+      "User-Agent": [
+        "node-fetch/1.0 (+https://github.com/bitinn/node-fetch)"
+      ],
+      "Accept-Encoding": [
+        "gzip,deflate"
+      ],
+      "Connection": [
+        "close"
+      ],
+      "Host": [
+        "localhost:1080"
+      ]
+    },
+    "keepAlive": false,
+    "secure": false,
+    "body": {
+      "id": "1",
+      "jsonrpc": "2.0",
+      "method": "getMetaData",
+      "params": []
+    }
+  },
+  "httpResponse": {
+    "statusCode": 200,
+    "reasonPhrase": "OK",
+    "headers": {
+      "X-Powered-By": [
+        "Servlet/3.0"
+      ],
+      "Server-Timing": [
+        "dtRpid;desc=\"-2017509388\""
+      ],
+      "X-OneAgent-JS-Injection": [
+        "true"
+      ],
+      "Content-Type": [
+        "application/json; charset=UTF-8"
+      ],
+      "Content-Language": [
+        "en-GB"
+      ],
+      "Set-Cookie": [
+        "dtCookie=v_4_srv_1_sn_7258B1CB1F6AF292158F6D5E965AC2B7_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0; Path=/",
+        "JSESSIONID=0000XETbEckJXwJfeMasjXsZdeS:-1; Path=/; HttpOnly",
+        "JSESSIONID=ed5a57dd-389b-4b6f-af9a-39b4ce5d9cfa; Expires=Fri, 28-May-21 10:12:26 GMT; Path=/"
+      ],
+      "Date": [
+        "Fri, 28 May 2021 09:12:26 GMT"
+      ],
+      "Expires": [
+        "Thu, 01 Dec 1994 16:00:00 GMT"
+      ],
+      "Cache-Control": [
+        "no-cache=\"set-cookie, set-cookie2\""
+      ],
+      "content-length": [
+        "1505"
+      ]
+    },
+    "cookies": {
+      "dtCookie": "v_4_srv_1_sn_7258B1CB1F6AF292158F6D5E965AC2B7_perc_100000_ol_0_mul_1_app-3Ab050fa9d758a7e06_1_rcs-3Acss_0",
+      "JSESSIONID": "ed5a57dd-389b-4b6f-af9a-39b4ce5d9cfa"
+    },
+    "body": {
+      "result": {
+        "questionSets": {},
+        "newTypeMeta": [
+          {
+            "name": "com.hastings.edgev10.capabilities.document.dto.DocumentRetrieveRequestDTO",
+            "metadata": {
+              "type": "edgev10.metadata.typeinfo.dtoinfo.dto.DTOMetadataDTO",
+              "value": {
+                "properties": {
+                  "SessionUUID": {
+                    "name": "SessionUUID",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "ReferenceNumber": {
+                    "name": "ReferenceNumber",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "DocumentUUID": {
+                    "name": "DocumentUUID",
+                    "valueType": {
+                      "name": "String",
+                      "kind": "primitive"
+                    },
+                    "metadata": [
+                      {
+                        "type": "edgev10.aspects.validation.dto.VisibilityAndRequirednessRuleDTO",
+                        "value": {
+                          "expression": {
+                            "type": "enum edgev10.aspects.validation.VisibilityAndRequiredness",
+                            "value": "REQUIRED",
+                            "kind": "const"
+                          },
+                          "message": {
+                            "displayKey": "displaykey.Edgev10.Web.Api.Model.NotNull",
+                            "arguments": [],
+                            "kind": "translate"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "metadata": [],
+                "namedMetadata": []
+              }
+            }
+          }
+        ]
+      },
+      "id": "1",
+      "jsonrpc": "2.0"
+    }
+  }
+}
