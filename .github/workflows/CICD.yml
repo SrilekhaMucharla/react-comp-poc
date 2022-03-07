@@ -1,0 +1,30 @@
+name: CI + CD
+
+on:
+  push:
+    branches: [ main ]
+  pullrequest: 
+    branches: [ main ] 
+  workflow_dispatch:
+  
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+#       -uses:
+      -name: Compile
+      run: echo Hello, World!
+      
+    DeployDev:
+    name: Deploy to Dev
+    if: github.event.name == 'pull_request'
+    needs: [Build]
+    runs-on: ubuntu-latest
+    environment:
+      name: Development
+      url: 'https://dev.storybook.com'
+    steps:
+      - name: Deploy
+      run: echo I am deploying!
+      
