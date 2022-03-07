@@ -28,4 +28,16 @@ jobs:
     steps:
       - name: Deploy
         run: echo I am deploying!
+        
+  DeployLatest:
+    name: Deploy to Latest
+    if: github.event_name == 'pull_request'
+    needs: [Build]
+    runs-on: ubuntu-latest
+    environment:
+      name: latest
+      url: 'https://https://curly-train-latest.pages.github.io/'
+    steps:
+      - name: Deploy
+        run: echo I am deploying!
       
