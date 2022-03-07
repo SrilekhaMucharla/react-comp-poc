@@ -22,6 +22,7 @@ Verify your Node version running: **node -v**
 8. Build the application (There has to be a working PolicyCenter set on **GW_BUILD_TIME_HOST**): **npm run quote-and-buy -- prebuild**
 9. Start the application: **npm run quote-and-buy -- start**
 
+
 ## Unit testing & ESlint
 * Run all tests, coverage with ESLint **`ROOT>npm run test`**
 * Run all tests, coverage for Application **`ROOT>npm run quote-and-buy test`**
