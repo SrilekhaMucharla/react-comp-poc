@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: latest
-      url: 'https://https://curly-train-latest.pages.github.io/'
+      url: 'https://curly-train-latest.pages.github.io/'
     steps:
       - name: Deploy
         run: echo I am deploying!
